@@ -50,12 +50,12 @@
 				<!--<xsl:value-of select="@av"/>-->
 				<xsl:choose>
 					<xsl:when test="@av = 'A'">
-						<img src="https://dl.dropboxusercontent.com/content_link/hZkvg7LvpHHLDNHgxhPeI4HMkbJmtdO2b1DjTzdlpEtrpAFdUPe2zeyTpaBi80AC/file"
+						<img src="audio-icon.png"
 							alt="A" height="24" width="24"/>
 					</xsl:when>
 					<xsl:otherwise>
 						<img
-							src="https://dl.dropboxusercontent.com/content_link/261o3475pSgVWqpCT5tdg50lirgHRPb56PoNpDtI7TSMio4UjyyJLfYDsu2QB6E5/file"
+							src="video-icon.png"
 							alt="V" height="24" width="24"/>
 					</xsl:otherwise>
 				</xsl:choose>
