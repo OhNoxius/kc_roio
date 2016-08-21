@@ -228,7 +228,7 @@
                                 $("#tab_" + thisId).data('calc', true);
                                 
                                 //nieuwe XSLT uitvoeren hier
-                                xsl_sessions = 'kc_roio/KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
+                                xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
                                 elementToAddResult = document.getElementById('tab_' + thisId);
                                 
                                 loadedData[ 'xslResults'] = null;
@@ -344,10 +344,10 @@
             }
             
             function init(xml, xsl, elementToAddResult) {
-                xml = 'kc_roio/KC_ROIO.xml';
-                xsl_artists = 'kc_roio/KC_ROIO_artists.xsl'; //KC_ROIO_artists.xsl
-                xsl_filters = 'kc_roio/KC_ROIO_filters.xsl'; //KC_ROIO_filters.xsl                
-                xsl_search = 'kc_roio/KC_ROIO_search.xsl'; //KC_ROIO_search.xsl                
+                xml = 'KC_ROIO.xml';
+                xsl_artists = 'KC_ROIO_artists.xsl'; //KC_ROIO_artists.xsl
+                xsl_filters = 'KC_ROIO_filters.xsl'; //KC_ROIO_filters.xsl                
+                xsl_search = 'KC_ROIO_search.xsl'; //KC_ROIO_search.xsl                
                 
                 elementToAddResult = document.getElementById('result');
                 var loadedData = {
