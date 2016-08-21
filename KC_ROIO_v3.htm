@@ -1,0 +1,463 @@
+<!--<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>KC ROIO Archive</title>
+        <style type="text/css">
+            table.dataTable thead .sorting,
+            table.dataTable thead .sorting_asc,
+            table.dataTable thead .sorting_desc {
+              cursor: pointer;
+              *cursor: hand;
+            }
+            table.dataTable thead .sorting,
+            table.dataTable thead .sorting_asc,
+            table.dataTable thead .sorting_desc,
+            table.dataTable thead .sorting_asc_disabled,
+            table.dataTable thead .sorting_desc_disabled {
+              background-repeat: no-repeat;
+              background-position: center right;
+            }
+            table.dataTable thead .sorting {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_both.png");
+            }
+            table.dataTable thead .sorting_asc {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_asc.png");
+            }
+            table.dataTable thead .sorting_desc {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_desc.png");
+            }
+            table.dataTable thead .sorting_asc_disabled {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_asc_disabled.png");
+            }
+            table.dataTable thead .sorting_desc_disabled {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_desc_disabled.png");
+            }
+            .loading{
+                font-size:20px;
+            }
+            
+            .loading:after{
+                overflow:hidden;
+                display:inline-block;
+                vertical-align:bottom;
+                -webkit-animation:ellipsis steps(4, end) 600ms infinite;
+                animation:ellipsis steps(4, end) 600ms infinite;
+                content:"\2026"; /* ascii code for the ellipsis character */
+                width:0px;
+            }
+            
+            @keyframes ellipsis {
+                to {
+                  width: 1.25em;    
+                }
+              }
+            
+            @-webkit-keyframes ellipsis {
+                 to {
+                   width: 1.25em;    
+                 }
+               }
+            *{
+                FONT-FAMILY:verdana, helvetica, arial, sans-serif;
+            }
+            .btn{
+                -webkit-border-radius:5;
+                -moz-border-radius:5;
+                border-radius:5px;
+                color:#ffffff;
+                font-size:14px;
+                background:#f69c55;
+                padding:4px 8px 4px 8px;
+                text-decoration:none;
+            }            
+            
+            .btn:hover{
+                background:#3cb0fd;
+                text-decoration:none;
+            }
+            
+            a{
+                TEXT-DECORATION:none;
+            }
+            form{
+                moz-border-radius:10px;
+                webkit-border-radius:10px;
+                border-radius:10px;
+                background-color:#B5C2C7;
+                padding:15px;
+                width:1000px;
+                border-color:#F1F4FE;
+                border-color:rgba(255, 255, 255, .8);
+                margin-bottom:8px;
+            }
+            th{
+                FONT-SIZE:78%;
+                MARGIN:0px;
+                COLOR:#000000;
+                
+            }
+            td{
+                FONT-SIZE:75%;
+                MARGIN:0px;
+                COLOR:#000000;
+                border-bottom:3px solid #EEEEEE;
+            }
+            tr{
+                border-bottom:3px solid #EEEEEE;
+            }
+        </style>
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>-->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js">
+	</script>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            function xslTransform(xmlInput, xsltSheet, elementToAddResult, chooseParameter) {
+                
+                if (typeof XSLTProcessor !== 'undefined') {
+                    var proc = new XSLTProcessor();
+                    proc.importStylesheet(xsltSheet);
+                    // pass through filter parameter to XSLT
+                    if (chooseParameter !== undefined) {
+                        //alert('geef deze parameter door:' + chooseParameter);
+                        proc.setParameter(null, "chooseParameter", chooseParameter);
+                        chooseParameter = undefined;
+                    }
+                    fragment = proc.transformToFragment(xmlInput, document);
+                    elementToAddResult.appendChild(fragment);
+                } else if (typeof xmlInput.transformNode !== 'undefined') {
+                    elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
+                }
+            }
+            
+            function xslRefresh(xmlInput, xsltSheet, elementToAddResult) {
+                
+                if (typeof XSLTProcessor !== 'undefined') {
+                    var proc = new XSLTProcessor();
+                    proc.importStylesheet(xsltSheet);
+                    
+                    proc.setParameter(null, "chooseArtist", document.getElementById('artistSelector').value.toUpperCase());
+                    proc.setParameter(null, "chooseCountry", document.getElementById('countrySelector').value.toUpperCase());
+                    proc.setParameter(null, "chooseYear", document.getElementById('yearSelector').value);
+                    proc.setParameter(null, "chooseFestival", document.getElementById('festivalSelector').value.toUpperCase());
+                    av = "";
+                    if (document.getElementById('audio').checked) {
+                        av = av.concat("A");
+                    }
+                    if (document.getElementById('video').checked) {
+                        av = av.concat("V");
+                    }
+                    //alert(av);
+                    proc.setParameter(null, "chooseAV", av);
+                    
+                    fragment = proc.transformToFragment(xmlInput, document);
+                    if (elementToAddResult.firstChild) {
+                        elementToAddResult.children[0].style.display = 'none';
+                        //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
+                        elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+                    } else {
+                        elementToAddResult.appendChild(fragment);
+                    }
+                } else if (typeof xmlInput.transformNode !== 'undefined') {
+                    elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
+                }
+                var table = $('#searchTable').DataTable({
+                    
+                    "paging": false,
+                    "info": false,
+                    "language": {
+                        "search": "Filter results:"
+                    },
+                    "order":[[1, 'asc']]
+                });
+                // Add event listener for opening and closing details
+                $('#searchTable tbody').on('click', '.xtrClass', function () {
+                    
+                    var tr = $(this).closest('tr');
+                    var row = table.row(tr);
+                    var cell = table.cell($(this).closest('td').next());
+                    
+                    if (row.child.isShown()) {
+                        // This row is already open - close it
+                        row.child.hide();
+                        tr.removeClass('shown');
+                    } else {
+                        // Open this row
+                        row.child(format(cell.data())).show();
+                        tr.addClass('shown');
+                    }
+                });
+            }
+            
+            function format (d) {
+                // `d` is the original data object for the row
+                return '<table cellpadding="2" cellspacing="0" border="0" style="width:100%;padding-left:0px;">' +
+                '<tr>' +
+                '<td colspan="8" bgcolor="#EEEEEE"><strong>Lineage: </strong>' + d + '</td>' +
+                '</tr>' +
+                
+                '</table>';
+            }
+            
+            function requestArtists(url, loadedData, elementToAddResult) {
+                var req = new XMLHttpRequest();
+                req.open('GET', url);
+                // to allow us doing XSLT in IE
+                try {
+                    req.responseType = "msxml-document"
+                }
+                catch (ex) {
+                }
+                req.onload = function () {
+                    loadedData[ 'xslArtists'] = req.responseXML;
+                    if (checkArtistsLoaded(loadedData)) {
+                        xslRefresh(loadedData.xmlInput, loadedData.xslArtists, elementToAddResult);
+                        
+                        //NEW FUNCTION? check if artistXSL already happened
+                        //make buttons work
+                        $('.artistClass').click(function () {
+                            
+                            var thisId = this.parentNode.parentNode.id;
+                            document.getElementById('lnk_' + thisId).value = document.getElementById('lnk_' + thisId).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
+                            document.getElementById('tab_' + thisId).style.display = document.getElementById('tab_' + thisId).style.display == "table-cell" ? "none": "table-cell";
+                            
+                            if (! $("#tab_" + thisId).data('calc')) {
+                                $("#tab_" + thisId).data('calc', true);
+                                
+                                //nieuwe XSLT uitvoeren hier
+                                xsl_sessions = 'https://www.dropbox.com/s/6x3sgh9hskqabl9/KC_ROIO_sessions.xsl?raw=1'; //KC_ROIO_sessions.xsl
+                                elementToAddResult = document.getElementById('tab_' + thisId);
+                                
+                                loadedData[ 'xslResults'] = null;
+                                requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
+                            }
+                        });
+                    };
+                };
+                req.send();
+            }
+            
+            function requestSessions(url, loadedData, elementToAddResult, chooseArtist) {
+                var req = new XMLHttpRequest();
+                req.open('GET', url);
+                // to allow us doing XSLT in IE
+                try {
+                    req.responseType = "msxml-document"
+                }
+                catch (ex) {
+                }
+                req.onload = function () {
+                    loadedData[ 'xslResults'] = req.responseXML;
+                    if (checkResultsLoaded(loadedData)) {
+                        xslTransform(loadedData.xmlInput, loadedData.xslResults, elementToAddResult, chooseArtist);
+                        
+                        //make extra button work
+                        $('.xtrClass').click(function () {
+                            xtrId = $(this).parent().parent().next().attr('id');
+                            
+                            $("#" + xtrId).attr("style", function (i, origValue) {
+                                return origValue == "display:table-row" ? "display:none": "display:table-row";
+                            });
+                        });
+                    };
+                };
+                req.send();
+            }
+            
+            function requestSearch(url, loadedData, elementToAddResult) {
+                var req = new XMLHttpRequest();
+                req.open('GET', url);
+                // to allow us doing XSLT in IE
+                try {
+                    req.responseType = "msxml-document"
+                }
+                catch (ex) {
+                }
+                req.onload = function () {
+                    loadedData[ 'xslResults'] = req.responseXML;
+                    if (checkResultsLoaded(loadedData)) {
+                        xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
+                        
+                        //make extra button work
+                        //alternatively: datatables add child row!
+                        $('.xtrClass').click(function () {
+                            xtrId = $(this).parent().parent().next().attr('id');
+                            
+                            $("#" + xtrId).attr("style", function (i, origValue) {
+                                return origValue == "display:table-row" ? "display:none": "display:table-row";
+                            });
+                        });
+                    };
+                };
+                req.send();
+            }
+            
+            function requestFilters(url, loadedData) {
+                var req = new XMLHttpRequest();
+                req.open('GET', url);
+                // to allow us doing XSLT in IE
+                try {
+                    req.responseType = "msxml-document"
+                }
+                catch (ex) {
+                }
+                req.onload = function () {
+                    loadedData[ 'xslFilters'] = req.responseXML;
+                    if (checkFiltersLoaded(loadedData)) {
+                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
+                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
+                        //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
+                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('festivalBox'), "festival");
+                    };
+                };
+                req.send();
+            }
+            
+            function requestXML(url, loadedData) {
+                var req = new XMLHttpRequest();
+                req.open('GET', url);
+                // to allow us doing XSLT in IE
+                try {
+                    req.responseType = "msxml-document"
+                }
+                catch (ex) {
+                }
+                req.onload = function () {
+                    loadedData[ 'xmlInput'] = req.responseXML;
+                };
+                req.send();
+            }
+            
+            function checkArtistsLoaded(loadedData) {
+                return loadedData.xmlInput != null && loadedData.xslArtists != null;
+            }
+            
+            function checkFiltersLoaded(loadedData) {
+                return loadedData.xmlInput != null && loadedData.xslFilters != null;
+            }
+            
+            function checkResultsLoaded(loadedData) {
+                return loadedData.xmlInput != null && loadedData.xslResults != null;
+            }
+            
+            function init(xml, xsl, elementToAddResult) {
+                xml = 'https://www.dropbox.com/s/trlq43zuwgbo8pt/KC_ROIO.xml?raw=1';
+                xsl_artists = 'https://www.dropbox.com/s/wx16864t7bf8rwg/KC_ROIO_artists.xsl?raw=1'; //KC_ROIO_artists.xsl
+                xsl_filters = 'https://www.dropbox.com/s/79hur67g4xln7es/KC_ROIO_filters.xsl?raw=1'; //KC_ROIO_filters.xsl                
+                xsl_search = 'https://www.dropbox.com/s/tearcps1xn2dy86/KC_ROIO_search.xsl?raw=1'; //KC_ROIO_search.xsl                
+                
+                elementToAddResult = document.getElementById('result');
+                var loadedData = {
+                    xmlInput: null, xslFilters: null, xslResults: null, xslArtists: null
+                };
+                //load xml
+                requestXML(xml, loadedData);
+                //load datalist for search filters
+                requestFilters(xsl_filters, loadedData);
+                
+                //initialize search button
+                document.getElementById('search').addEventListener('click', function () {
+                    requestSearch(xsl_search, loadedData, elementToAddResult);
+                    document.getElementById('loading').innerHTML = 'loading';
+                    document.getElementById('loading').style.display = 'inline';
+                },
+                false);
+                
+                //initialize search on the fly
+                document.getElementById('filters').addEventListener('change', function () {
+                    requestSearch(xsl_search, loadedData, elementToAddResult);
+                },
+                false);
+                
+                //initilize complete list button
+                document.getElementById('complete').addEventListener('click', function () {
+                    requestArtists(xsl_artists, loadedData, elementToAddResult);
+                    document.getElementById('loading').innerHTML = 'loading';
+                    document.getElementById('loading').style.display = 'inline';
+                },
+                false);
+                
+                //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
+            }//]]>
+         </script>
+    </head>
+
+    <body onload="init()">
+        <form id="filters">
+            <table>
+                <tbody>
+                    <tr style="border-bottom:none;">
+                        <th style="font-size:24px;">KC ROIO Archive</th>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom:none;">
+                            <label for="artistSelector">artist:</label>
+                            <input id="artistSelector" list="artistBox" name="artist" />
+                            <datalist id="artistBox"> </datalist>
+                        </td>
+                        <td style="border-bottom:none;">
+                            <label for="countrySelector">country:</label>
+                            <input id="countrySelector" list="countryBox" name="country" />
+                            <datalist id="countryBox"> </datalist>
+                        </td>
+                        <td style="border-bottom:none;">
+                            <label for="yearSelector">year:</label>
+                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" />
+                            <datalist id="yearBox"> </datalist>
+                        </td>
+                        <td style="border-bottom:none;">
+                            <label for="festivalSelector">festival/show:</label>
+                            <input id="festivalSelector" list="festivalBox" name="festival" />
+                            <datalist id="festivalBox"> </datalist>
+                        </td>
+                        <td style="border-bottom:none;">
+                            <input type="checkbox" name="a/v" value="A" id="audio" checked="checked"
+                                 /><label for="audio">audio</label>
+                            <br />
+                            <input type="checkbox" name="a/v" value="V" id="video" checked="checked"
+                                 /><label for="video">video</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="border-bottom:none;">
+                            <!-- <input id="search" type="button" class="btn" value="search" />
+                            <input id="complete" type="button" class="btn" value="show complete list" />-->
+                            <a href="#" id="search" class="btn">search</a>
+                            <a href="#" id="complete" class="btn">show complete list</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--<fieldset>
+                <legend>Filters</legend>
+                <label for="artistSelector">artist:</label>
+                <input id="artistSelector" list="artistBox" name="artist" />
+                <datalist id="artistBox"> </datalist>
+                <label for="countrySelector">country:</label>
+                <input id="countrySelector" list="countryBox" name="country" />
+                <datalist id="countryBox"> </datalist>
+                <label for="yearSelector">year:</label>
+                <input id="yearSelector" list="yearBox" name="year" />
+                <datalist id="yearBox"> </datalist>
+                <label for="festivalSelector">festival:</label>
+                <input id="festivalSelector" list="festivalBox" name="festival" />
+                <datalist id="festivalBox"> </datalist>
+            </fieldset>
+            <fieldset>
+                <input id="search" type="button" value="search"
+                    style="border:1;background:none;width:50px;" />
+                <input id="complete" type="button" value="show complete list"
+                    style="border:1;background:none;width:100px;" />
+            </fieldset>-->
+        </form>
+        <div id="result">
+            <h4 id="loading" class="loading" style="display:inline;font-size:100%;">start typing
+                above to begin search</h4>
+            <div id="dummy"></div>
+        </div>
+    </body>
+
+</html>
