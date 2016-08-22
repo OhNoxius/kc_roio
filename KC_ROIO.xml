@@ -2893,8 +2893,8 @@
 	<session id="id0x447f5d0" av="V">
 		<date type="xs:date">1973-07-02</date>
 		<location>
-			<festival>Monday Conference Australia</festival>
-			<country>Austrialia</country>
+			<festival>Monday Conference</festival>
+			<country>Australia</country>
 		</location>
 		<length>0:48:18</length>
 		<source>TV</source>
@@ -4028,7 +4028,6 @@
 		<artists>
 			<artist type="band">Young Giants of Jazz</artist>
 			<artist main="true">Joe Henderson</artist>
-			<artist>Joe Henderson</artist>
 			<artist>Jimmy Owens</artist>
 			<artist>Gary Burton</artist>
 			<artist>Cedar Walton</artist>
