@@ -24,7 +24,8 @@
 	</session>
 	<session id="id0x3f2e3a0" av="V">
 		<date type="xs:date">1972-12-xx</date>
-		<location>e <festival>The Midnight Special</festival>
+		<location>
+			<festival>The Midnight Special</festival>
 			<country>U.S.A.</country>
 		</location>
 		<length>3min</length>
@@ -42,6 +43,7 @@
 		<date type="xs:date">1974-10-04</date>
 		<location>
 			<festival>The Midnight Special</festival>
+			<country>U.S.A.</country>
 		</location>
 		<length>30min</length>
 		<source>TV</source>
@@ -92,6 +94,7 @@
 		<artists>
 			<artist main="true">Antonio Carlos Jobim</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x54292b0" av="V">
@@ -112,6 +115,7 @@
 			<artist>Cedar Walton ?</artist>
 			<artist>Jymie Merrit ?</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x54b4a40" av="V">
@@ -136,6 +140,7 @@
 			<artist>Cedar Walton</artist>
 			<artist>Reggie Workman</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x5de3170" av="V">
@@ -144,7 +149,7 @@
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<lenght/>
+		<length/>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -158,6 +163,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Nathan Davis</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x6897670" av="V">
@@ -182,6 +188,7 @@
 			<artist>Ray Mantilla</artist>
 			<artist>Buck Clarke</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x11808b0" av="V" official="true">
@@ -238,6 +245,7 @@
 			<artist>Chuck Israels</artist>
 			<artist>Larry Bunker</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session av="V">
@@ -333,6 +341,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1183210" av="V">
@@ -354,6 +363,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1183670" av="V" official="true">
@@ -390,6 +400,7 @@
 			<artist main="true">Bill Evans</artist>
 			<artist>Lee Konitz</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1206cc0" av="V">
@@ -414,6 +425,7 @@
 			<artist>Alex Blake</artist>
 			<artist>Milcho Leview</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session av="V">
@@ -438,6 +450,7 @@
 			<artist>Alex Blake</artist>
 			<artist>Milcho Leview</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1207210" av="V">
@@ -452,6 +465,7 @@
 		<format>PAL</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[TV > VHS > ? > DVD-R]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Billy Cobham</artist>
 			<artist>John Abercrombie</artist>
@@ -462,6 +476,7 @@
 			<artist>Milcho Leview</artist>
 			<artist>Lee Pastore</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12077b0" av="V">
@@ -519,7 +534,7 @@
 		<length>0:54:40</length>
 		<source/>
 		<format>mpg</format>
-		<quality/>		
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -546,6 +561,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12662b0" av="V">
@@ -564,6 +580,7 @@
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12665d0" av="V">
@@ -584,6 +601,7 @@
 			<artist>Darek Oles</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12719f0" av="V">
@@ -603,6 +621,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1271ea0" av="V">
@@ -623,6 +642,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1272300" av="V">
@@ -643,6 +663,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1272710" av="V">
@@ -663,6 +684,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128ab80" av="V">
@@ -684,6 +706,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jorge Rossy</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128afe0" av="V">
@@ -703,6 +726,7 @@
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128b3a0" av="V">
@@ -723,6 +747,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jeff Ballard</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128b7b0" av="V">
@@ -744,6 +769,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jeff Ballard</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128cc70" av="V">
@@ -766,6 +792,7 @@
 			<artist>Jeff Ballard</artist>
 			<artist>Peter Bernstein</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128d120" av="V">
@@ -787,6 +814,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jeff Ballard</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128d580" av="V">
@@ -808,6 +836,7 @@
 			<artist>Jeff Ballard</artist>
 			<artist>Pat Metheny</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128e9f0" av="V">
@@ -828,6 +857,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jeff Ballard</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128ee50" av="V">
@@ -844,6 +874,7 @@
 			<artist>Larry Grenadier</artist>
 			<artist>Jeff Ballard</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128f210" av="V">
@@ -861,6 +892,7 @@
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Joshua Redman</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x128f5d0" av="V">
@@ -880,6 +912,7 @@
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="d0e1681" av="A">
@@ -900,6 +933,7 @@
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12909f0" av="V">
@@ -914,6 +948,7 @@
 		<artists>
 			<artist main="true">Brazzaville</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1290d10" av="V">
@@ -933,6 +968,7 @@
 			<artist main="true">Brian Auger</artist>
 			<artist>Julie Driscol</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1291170" av="V">
@@ -952,6 +988,7 @@
 			<artist type="band">Oblivion Express</artist>
 			<artist main="true">Brian Auger</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1291530" av="V">
@@ -959,7 +996,7 @@
 		<location>
 			<country>France</country>
 		</location>
-		<length>0:11:06</length>		
+		<length>0:11:06</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>B+</quality>
@@ -993,6 +1030,7 @@
 			<artist>Alex Ligertwood</artist>
 			<artist>Robbie McIntosh</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12a4ef0" av="V">
@@ -1013,6 +1051,7 @@
 			<artist>Kenny Werner</artist>
 			<artist>Joe Lovano</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12a52b0" av="V">
@@ -1035,6 +1074,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12a5710" av="V">
@@ -1057,6 +1097,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12e2bd0" av="V">
@@ -1077,6 +1118,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12e2f40" av="V">
@@ -1100,6 +1142,7 @@
 			<artist>Ed Thigpen</artist>
 			<artist>Gilbert Seldes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12e34e0" av="V">
@@ -1122,6 +1165,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12f2a40" av="V">
@@ -1145,6 +1189,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12f2ef0" av="V" official="true">
@@ -1166,6 +1211,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12f33a0" av="V">
@@ -1187,6 +1233,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Mel Lewis</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12f4900" av="V">
@@ -1210,6 +1257,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session av="A" official="true">
@@ -1255,6 +1303,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12f5300" av="V">
@@ -1333,7 +1382,7 @@
 			<city>Monterey</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>0:04:56</length>		
+		<length>0:04:56</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>B</quality>
@@ -1419,6 +1468,7 @@
 		<artists>
 			<artist type="band">Rufus</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x12fc5d0" av="V">
@@ -1537,7 +1587,7 @@
 			<venue>unknown college</venue>
 			<country>U.S.A.</country>
 		</location>
-		<length>0:10:45</length>		
+		<length>0:10:45</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B-</quality>
@@ -1558,7 +1608,7 @@
 			<festival>Jazz Casual</festival>
 			<country>U.S.A.</country>
 		</location>
-		<length/>		
+		<length/>
 		<source/>
 		<format/>
 		<quality/>
@@ -1576,7 +1626,7 @@
 	<session id="id0x1300260" av="V">
 		<date type="xs:date">1982-xx-xx</date>
 		<location/>
-		<length/>		
+		<length/>
 		<source/>
 		<format/>
 		<quality/>
@@ -1633,6 +1683,7 @@
 			<artist>John Foster</artist>
 			<artist>Roy Brooks</artist>
 		</artists>
+
 		<title/>
 	</session>
 	<session id="id0x1309030" av="V">
@@ -1648,6 +1699,7 @@
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C >Nokia d-box 1 > harddisk via SCSI >ProjectX (demultiplex) >
 Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Cat Anderson</artist>
@@ -1661,7 +1713,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 	<session id="id0x1309580" av="d">
 		<date type="xs:date">2009-xx-xx</date>
 		<location/>
-		<length/>		
+		<length/>
 		<source/>
 		<format/>
 		<quality/>
@@ -1699,7 +1751,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>		
+		<length/>
 		<source/>
 		<format/>
 		<quality/>
@@ -1768,6 +1820,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 			<artist>Herbie Hancock</artist>
@@ -2246,6 +2299,7 @@ authoring)]]></lineage>
 			<city>Liège</city>
 			<country>Belgium</country>
 		</location>
+		<length/>
 		<source/>
 		<format/>
 		<quality>A</quality>
@@ -2310,6 +2364,12 @@ authoring)]]></lineage>
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Dexter Gordon</artist>
 			<artist>Kenny Drew</artist>
@@ -2656,6 +2716,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<source station="1Plus">TV</source>
 		<format>NTSC</format>
 		<lineage><![CDATA[VHS(x) > unknown device > DVDR]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Elis Regina</artist>
 		</artists>
@@ -3392,6 +3453,7 @@ CosmikD]]></lineage>
 		<quality/>
 		<lineage><![CDATA[16mm Film Master > SVHS w/timecodes > SVHS > Hard Drive via Pinnacle 11
 Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist>John Lennon</artist>
@@ -3610,7 +3672,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 	<session id="id0x448da90" av="V">
 		<date type="xs:date">2000-07-02</date>
 		<location/>
-		<length>0:51:56</length>		
+		<length>0:51:56</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
@@ -3747,7 +3809,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length>0:54:21</length>		
+		<length>0:54:21</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
@@ -4121,26 +4183,22 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<source/>
 		<format>720p</format>
 		<lineage><![CDATA[dvb-s2 > SkyStar HD 2 > ts >VideoReD 4.2x > ts]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Wayne Shorter</artist>
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x4f51760" av="V">
-		<date type="xs:date">2000-xx-xx</date>
-		<location>
+	<session id="id0x4f51760" av="V"><date type="xs:date">2000-xx-xx</date><location>
 			<festival>Plays Gershwin</festival>
 			<venue>Nice Jazz Festival</venue>
 			<country>France</country>
-		</location>
-		<length>0:36:05</length>
+		</location><length>0:36:05</length>
 		<source>TV</source>
 		<format>PAL</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
+		<quality>A</quality>bo <lineage/>
+		<remarks/><artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Terri Lyne Carrington</artist>
 			<artist>Ira Coleman</artist>
@@ -4148,8 +4206,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist>Eli Degibri</artist>
 			<artist>Eddie Henderson</artist>
 		</artists>
-		<title/>
-	</session>
+		<title/></session>
 	<session id="id0x4f53cc0" av="V">
 		<date type="xs:date">2001-07-xx</date>
 		<location>
@@ -4300,6 +4357,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[master PDM VHS tape => Sharp VC-M512 VCR => Pinnacle Studio MovieBox =>
 DVD-R => Dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Hermeto Pascoal</artist>
 			<artist>Itiberê Luiz Zwarg</artist>
@@ -4474,6 +4532,7 @@ DVD-R => Dime]]></lineage>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 		</artists>
@@ -4494,6 +4553,7 @@ DVD-R => Dime]]></lineage>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 			<artist>Ron Tooley</artist>
@@ -4531,7 +4591,6 @@ DVD-R => Dime]]></lineage>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<title>Weitghless: A Recording Session with Jakob Bro</title>
 		<length/>
 		<source>TV</source>
 		<format>PAL</format>
@@ -4543,7 +4602,7 @@ DVD-R => Dime]]></lineage>
 			<artist>Ben Street</artist>
 			<artist>Paul Motian</artist>
 		</artists>
-		<title/>
+		<title>Weitghless: A Recording Session with Jakob Bro</title>
 	</session>
 	<session id="d0e8793" av="V">
 		<date type="xs:date">1994-09-16</date>
@@ -4579,6 +4638,7 @@ DVD-R => Dime]]></lineage>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage><![CDATA[TV-Capture - Mkvmerge - Dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">James Carter</artist>
 			<artist>Craig Taborn</artist>
@@ -4598,6 +4658,7 @@ DVD-R => Dime]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<lineage><![CDATA[(real)TV-Capture(VHS) - MKVmerge - DIME]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Jan Garbarek</artist>
 			<artist>Rainer Brüninghaus</artist>
@@ -4774,6 +4835,12 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Bologna</city>
 			<country>Italy</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Joe Henderson</artist>
 			<artist>Steve Erquiaga</artist>
@@ -4885,6 +4952,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format>1080p</format>
 		<quality/>
 		<lineage><![CDATA[HDTV > unknown equipment > mp4]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Zawinul Syndicate</artist>
 			<artist main="true">Joe Zawinul</artist>
@@ -4919,6 +4987,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title>Documentary: Les Enfants de Miles</title>
 		<format/>
 		<source>TV</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Joe Zawinul</artist>
 		</artists>
@@ -4968,7 +5040,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<location>
 			<country>Germany</country>
 		</location>
-		<title>Jazz Icons 2</title>
+		<length/>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>A+</quality>
@@ -4980,7 +5052,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title/>
+		<title>Jazz Icons 2</title>
 	</session>
 	<session id="id0x5151120" av="V" official="true">
 		<date type="xs:date">1961-11-24</date>
@@ -4988,7 +5060,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
-		<title>Jazz Icons 2</title>
+		<length/>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>A+</quality>
@@ -5001,7 +5073,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Jazz Icons 2</title>
 	</session>
 	<session id="id0x5151580" av="V" official="true">
 		<date type="xs:date">1963-12-07</date>
@@ -5100,7 +5172,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Comblain-la-Tour</city>
 			<country>Belgium</country>
 		</location>
-		<title>Jazz Icons 2</title>
+
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>A+</quality>
@@ -5113,13 +5185,13 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Jazz Icons 2</title>
 	</session>
 	<session id="id0x524ddb0" av="d">
 		<date type="xs:date">1900-01-00</date>
 		<location/>
 		<length>0:29:58</length>
-		<title>Documentary: Jazz Heroes</title>
+
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>A</quality>
@@ -5128,7 +5200,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
-		<title/>
+		<title>Documentary: Jazz Heroes</title>
 	</session>
 	<session id="id0x524e080" av="V">
 		<date type="xs:date">1979-xx-xx</date>
@@ -5214,6 +5286,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[(real) TV-Capture(VHS), MKV-merge, DIME]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Joshua Redman</artist>
 			<artist>Brad Mehldau</artist>
@@ -5337,6 +5410,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format>PAL</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[record DVD playback]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -5356,6 +5430,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/program/FTEM00006669/jazz-med-keith-jarrett-trio]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -5373,6 +5448,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[http://www.ina.fr/video/I07206245]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -5531,7 +5607,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Umbria</city>
 			<country>Italy</country>
 		</location>
-		<title>Jazz in Piazza</title>
+
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -5540,7 +5616,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
-		<title/>
+		<title>Jazz in Piazza</title>
 	</session>
 	<session id="id0x5353210" av="V">
 		<date type="xs:date">1976-09-18</date>
@@ -5554,6 +5630,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS video tape > PC canopus advc> NLE > AVI > TMPG> DVDAUDIO
 DUB!!!]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jan Garbarek</artist>
@@ -5573,6 +5650,7 @@ DUB!!!]]></lineage>
 		<format>PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[record DVD playback]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jan Garbarek</artist>
@@ -5897,6 +5975,7 @@ DUB!!!]]></lineage>
 receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS >
 playback on LG VCR > via Scart cable > Panasonic stand alone DVD recorder(1h30min
 flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Bireli Lagrene</artist>
@@ -5917,6 +5996,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		<format>PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[superbly PRO-SHOT DVD in Trade>DVD Decrypter>]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Spaces Revisited</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -6194,7 +6274,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<title>Jumpsuit Tony</title>
+
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Dizzy Gillespie</artist>
@@ -6202,7 +6282,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Tony Williams</artist>
 			<artist>Ron Carter</artist>
 		</artists>
-		<title/>
+		<title>Jumpsuit Tony</title>
 	</session>
 	<session id="id0x54cfd10" av="V">
 		<date type="xs:date">1986-06-12</date>
@@ -6274,6 +6354,12 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Louis Malle</artist>
@@ -6313,6 +6399,12 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -6356,6 +6448,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage><![CDATA[Direct copy of master reel RAI TV]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6378,6 +6471,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[TV >VHS >Sampo standalone DVD recorder in HQ mode (max. one hour) >DVD
 Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6394,7 +6488,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<title>The Bootleg Series, Vol. 1</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6402,7 +6496,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 1</title>
 	</session>
 	<session id="id0x54f4b80" av="V" official="true">
 		<date type="xs:date">1967-11-07</date>
@@ -6410,7 +6504,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<city>Karlsruhe</city>
 			<country>Germany</country>
 		</location>
-		<title>The Bootleg Series, Vol. 1</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6418,7 +6512,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 1</title>
 	</session>
 	<session id="id0x54f4fe0" av="V">
 		<date type="xs:date">1969-07-25</date>
@@ -6432,6 +6526,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Pro Shot > pre-broadcast tapes > ? > DVDR]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6498,6 +6593,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[RAISAT Album Broadcast > ??? > DVD > TMPGEnc Authoring Works 4 >
 dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6558,7 +6654,7 @@ dime]]></lineage>
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<title>Bitches Brew 40th Anniversary Edition</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6566,7 +6662,7 @@ dime]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Bitches Brew 40th Anniversary Edition</title>
 	</session>
 	<session id="id0x550f3a0" av="V" official="true">
 		<date type="xs:date">1969-11-07</date>
@@ -6575,7 +6671,12 @@ dime]]></lineage>
 			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
-		<title>The Bootleg Series, Vol. 2</title>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6583,7 +6684,7 @@ dime]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 2</title>
 	</session>
 	<session id="id0x552e860" av="V">
 		<date type="xs:date">1969-11-08</date>
@@ -6594,7 +6695,10 @@ dime]]></lineage>
 		</location>
 		<length>0:01:47</length>
 		<source station="VRT Cobra">web</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[http://cobra.be/cm/cobra/videozone/dagopdag2013/november2013/1.1770722]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -6615,6 +6719,7 @@ dime]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > 1st Gen VHS > TMPGEnc > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6655,7 +6760,7 @@ dime]]></lineage>
 			<city>Isle of Wight</city>
 			<country>U.K.</country>
 		</location>
-		<title>A Different Kind of Blue</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6665,7 +6770,7 @@ dime]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title/>
+		<title>A Different Kind of Blue</title>
 	</session>
 	<session id="id0x569bdb0" av="V">
 		<date type="xs:date">1970-11-17</date>
@@ -6701,6 +6806,7 @@ dime]]></lineage>
 		<quality>C</quality>
 		<lineage><![CDATA[Unknown Video Footage > Unknown VHS Generation > Godnoes Productions Volume 6
 (DVD-R) NTSC > DVD Decrypter > TLH]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6824,6 +6930,7 @@ dime]]></lineage>
 		<format>PAL</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[EinsFestival > TT S2-3200 > DVB Viewer > DVD Maestro]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6849,6 +6956,7 @@ dime]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[Re-Broadcast 04. July 2011 WDR "Jazzline" ==> Digital HD tuner ==> Harddisc
 ==> MPEG Streamclip ==> Toast Titanium ==> Dime.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6878,6 +6986,7 @@ and one video file2. Use BeSplit 0.9b8 to raise gain of einsfestival with 3dB Be
 mux audio and video of both sources, so each source is now 1 mpg file4. join the files
 with Womble MPEG Video DVD 5, accurately on the correct frame5. export to 1 complete mpg
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -6925,6 +7034,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Tv > Med Gen VHS > SA > TMPGEnc > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -7044,6 +7154,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Tv > Med Gen VHS > SA > TMPGEnc > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Dave Liebman</artist>
@@ -7139,6 +7250,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Tv > Master > SA > TMPGEnc > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>David Liebman</artist>
@@ -7186,6 +7298,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>C-</quality>
 		<lineage><![CDATA[Tv (B&amp;W) > High Gen VHS > SA > TMPGEnc > DVD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>B.B. King</artist>
@@ -7257,6 +7370,7 @@ file]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Bob Berg</artist>
@@ -7281,6 +7395,7 @@ file]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Bob Berg</artist>
@@ -7348,6 +7463,7 @@ file]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
@@ -7534,6 +7650,7 @@ file]]></lineage>
 		<format>XviD</format>
 		<lineage><![CDATA[[MUZZIK SatTV Rip] 384x288 MJPEG converted to XviD(21:29 min., French
 Subs)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Nat 'King' Cole</artist>
 		</artists>
@@ -7763,6 +7880,7 @@ Subs)]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[1st Gen VHS > DVDR]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -8018,6 +8136,7 @@ Subs)]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[DVBroadcast(ntr:)>Thomson DC/62UPC>Scart>Philips
 DVDR3600>DVD>PC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Robert Glasper</artist>
 			<artist>Roy Ayers</artist>
@@ -8083,6 +8202,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<format/>
 		<quality/>
 		<lineage><![CDATA[Pre-FM 1st Gen VHS > PCMWAV > CDR > EAC > Flac8 (TLH)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
@@ -8107,6 +8227,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS (first generation) > DVD-R (2010)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
@@ -8154,6 +8275,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[Satellite TV /Germany / Live > Master VHS (TDK or Sony) > LG DVD Burner >
 HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
@@ -8197,6 +8319,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 		<format>1080i</format>
 		<lineage><![CDATA[ATSC broadcast > VBox DTA-150 > TSReader (record) > VideoReDo Plus (scene
 selection) > transport stream]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
@@ -8412,6 +8535,12 @@ selection) > transport stream]]></lineage>
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
@@ -8447,6 +8576,12 @@ selection) > transport stream]]></lineage>
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 			<artist>Kenny Drew</artist>
@@ -8468,6 +8603,7 @@ selection) > transport stream]]></lineage>
 		<lineage><![CDATA[BBC Four broadcast 2012-02-17 > DVB-S > Hauppauge WinTV > DVBviewer >
 .ts > VideoRedo Plus > mpv &amp; mpa files > mkvmergeGUI v6.7.0 > .mkv
 file]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 		</artists>
@@ -8485,6 +8621,7 @@ file]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">LOBI</artist>
 			<artist main="true">Stéphane Galland</artist>
@@ -8735,6 +8872,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Unkown VHS/Samsung r 130/you]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -8774,6 +8912,12 @@ file]]></lineage>
 			<festival>American Music Awards</festival>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
@@ -8785,6 +8929,12 @@ file]]></lineage>
 			<festival>Human Kindness Day</festival>
 			<venue>Wonderama</venue>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
@@ -8972,6 +9122,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Lifetime</artist>
 			<artist main="true">Tony Williams</artist>
@@ -9024,21 +9175,27 @@ file]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x68d0670" av="V"><date type="xs:date">1981-07-22_26</date><location>
+	<session id="id0x68d0670" av="V">
+		<date type="xs:date">1981-07-22_26</date>
+		<location>
 			<festival>Tokyo Jazz Festival</festival>
 			<city>Tokyo</city>
 			<country>Japan</country>
-		</location><title>Jumpsuit Tony</title>1 <length>1:23:28</length>
+		</location>
+		<length>1:23:28</length>
 		<source>TV</source>
 		<format>PAL</format>
-		<quality>B-</quality><artists>
+		<quality>B-</quality>
+		<artists>
 			<artist type="band">V.S.O.P.</artist>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Wynton Marsalis</artist>
 			<artist>Tony Williams</artist>
 			<artist>Ron Carter</artist>
 			<artist>Carlos Santana</artist>
-		</artists></session>
+		</artists>
+		<title>Jumpsuit Tony</title>
+	</session>
 	<session id="id0x6d45c20" av="V">
 		<date type="xs:date">1991-03-04</date>
 		<location>
@@ -9052,6 +9209,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 			<artist>Ira Coleman</artist>
@@ -9074,6 +9232,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 			<artist>Ira Coleman</artist>
@@ -9095,6 +9254,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Terri Lyne Carrington</artist>
@@ -9116,6 +9276,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 		</artists>
@@ -9238,6 +9399,7 @@ file]]></lineage>
 		<quality/>
 		<lineage><![CDATA[Digital Satellite -> DVD-Recorder -> DVD -> HDD, audio is 2 channel
 AC3@256 ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Wayne Shorter Quartet</artist>
 			<artist main="true">Wayne Shorter</artist>
@@ -9383,7 +9545,7 @@ AC3@256 ]]></lineage>
 			<venue>Beat Club</venue>
 			<country>Germany</country>
 		</location>
-		<title>Live in Germany</title>
+
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -9392,7 +9554,7 @@ AC3@256 ]]></lineage>
 			<artist>Dom Um Romao</artist>
 			<artist>Alphonse Mouzon</artist>
 		</artists>
-		<title/>
+		<title>Live in Germany</title>
 	</session>
 	<session id="id0x76cc710" av="V">
 		<date type="xs:date">1972-08-04_05</date>
@@ -9429,6 +9591,10 @@ AC3@256 ]]></lineage>
 		<length>0:40:15</length>
 		<quality>A</quality>
 		<source station="NRK">web</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -9844,7 +10010,7 @@ AC3@256 ]]></lineage>
 			<festival>Umbria Jazz</festival>
 			<country>Italy</country>
 		</location>
-		<title>Jazz in Piazza</title>
+
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -9854,7 +10020,7 @@ AC3@256 ]]></lineage>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist>Keith Jarrett</artist>
 		</artists>
-		<title/>
+		<title>Jazz in Piazza</title>
 	</session>
 	<session id="id0xd80c20" av="V">
 		<date type="xs:date">1975-xx-xx</date>
@@ -9923,6 +10089,12 @@ AC3@256 ]]></lineage>
 			<city>Woodstock NY</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist>Jack DeJohnette</artist>
@@ -9947,6 +10119,7 @@ AC3@256 ]]></lineage>
 		<source>TV</source>
 		<format>NTSC</format>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Sonny Rollins Night</artist>
@@ -9978,6 +10151,7 @@ AC3@256 ]]></lineage>
 		<source>TV</source>
 		<format>NTSC</format>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Sonny Rollins Special Quartet</artist>
@@ -10033,6 +10207,7 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV > Sony beta > Pionner DVD Recorder > DVD-RW > TMPGEnc > DVD NTSC with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Gil Evans Orchestra</artist>
@@ -10122,6 +10297,7 @@ AC3@256 ]]></lineage>
 > TMPGEnc Mpeg Editor (normalize(audio 95%)/cut initial 1-2 min blank)
 > TMPGEnc Author 1.6 (create chapter menu)
 > DVD NTSC with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Scofield</artist>
@@ -10254,6 +10430,7 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Marlon Jordan Quartet</artist>
@@ -10314,6 +10491,7 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Michael Brecker Band</artist>
@@ -10546,6 +10724,7 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<artist type="band">Pat Metheny Group</artist>
@@ -10739,6 +10918,12 @@ AC3@256 ]]></lineage>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Aka Moon</artist>
 			<artist>Fabrizio Cassol</artist>
@@ -10772,7 +10957,10 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:55:38</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Soundboard > cd > EAC > Flac -8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Aka Moon</artist>
 			<artist>Fabrizio Cassol</artist>
@@ -10816,6 +11004,10 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:28:58</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Andrew Hill</artist>
 		</artists>
@@ -10829,6 +11021,10 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:28:25</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Jazz Messengers</artist>
 			<artist main="true">Art Blakey</artist>
@@ -10878,6 +11074,7 @@ AC3@256 ]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[Internet
 Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Carrothers</artist>
 			<artist>Toots Thielemans</artist>
@@ -10893,8 +11090,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<lineage><![CDATA[FM > CD > EAC > WAV > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Scott LaFaro</artist>
@@ -10909,8 +11108,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<lineage><![CDATA[FM > CD > EAC > WAV > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Scott LaFaro</artist>
@@ -10925,8 +11126,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<lineage><![CDATA[FM > CD > EAC > WAV > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Scott LaFaro</artist>
@@ -10941,8 +11144,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<lineage><![CDATA[FM > CD > EAC > WAV > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Scott LaFaro</artist>
@@ -10979,6 +11184,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</location>
 		<length>0:41:26</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11034,7 +11243,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</location>
 		<length>2:04:23</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[MD to Wav to Flac Edit in SoundForge 10]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11057,6 +11269,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 >Sony MDS-JE320 minidisc deck (normal play mode) playback: Sharp Minidisc Deck MD-R2
 >Terratec Aureon 5.1 PCI via SPDIF > Wavelab Lite > harddisk > FLAC
 8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11072,7 +11285,10 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</location>
 		<length>0:54:29</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[CDR > HD > FLAC level 6]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
@@ -11090,6 +11306,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[fm > cdr trade > flac > dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11165,8 +11382,11 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</location>
 		<length>1:51:42</length>
 		<source>DVB-S</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor >
 flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11203,8 +11423,11 @@ flac]]></lineage>
 		</location>
 		<length>1:38:05</length>
 		<source>DVB-S</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor >
 flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11268,6 +11491,7 @@ flac]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor > flac 
 (MPEG1 Layer 2/256 kbps)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Larry Grenadier</artist>
@@ -11287,6 +11511,7 @@ flac]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[aud (OKMII - H140) - HD - CD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Joshua Redman</artist>
@@ -11321,6 +11546,7 @@ flac]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[mp3]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>students</artist>
@@ -11355,9 +11581,12 @@ flac]]></lineage>
 		</location>
 		<length>0:48:22</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[flac files directly from web > audacity (3-4 small noises in Forest flower and
 Love ship) > TLH (SBE -Flac 8) > Dime. Thanks to Flambay for the Pitch
 correction]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
@@ -11376,7 +11605,10 @@ correction]]></lineage>
 		</location>
 		<length>0:44:06</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[re-upload speed fixed 2015 june 22nd A Flambay - u014945 Production ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
@@ -11395,6 +11627,10 @@ correction]]></lineage>
 		</location>
 		<length>0:43:43</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
@@ -11431,6 +11667,10 @@ correction]]></lineage>
 		</location>
 		<length>161min</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
@@ -11495,6 +11735,7 @@ correction]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C (320 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.
 Edits were made with the mp3DirectCut software.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Jason Moran</artist>
@@ -11516,6 +11757,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Jason Moran</artist>
@@ -11537,6 +11779,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[Radio Klara FM -> Adobe Audition CS6.6 (48KH-16bit)(3db boost, noise reduction
 applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Jason Moran</artist>
@@ -11552,6 +11795,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<city>Antwerpen</city>
 			<country>Belgium</country>
 		</location>
+		<length/>
 		<source/>
 		<artists>
 			<artist type="band">Liberation Music Orchestra</artist>
@@ -11566,6 +11810,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>0:03:03</length>
 		<source>Acetate</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Charlie Parker</artist>
 		</artists>
@@ -11602,6 +11850,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Barry Ulanov and His All-Star Metronome Jazzmen</artist>
 			<artist main="true">Charlie Parker</artist>
@@ -11621,6 +11873,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Barry Ulanov and His All-Star Metronome Jazzmen</artist>
 			<artist main="true">Charlie Parker</artist>
@@ -11640,6 +11896,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Barry Ulanov and His All-Star Metronome Jazzmen</artist>
 			<artist main="true">Charlie Parker</artist>
@@ -11771,6 +12031,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>0:55:29</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
@@ -11807,6 +12071,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[FM > ? > CDR > wav > flac(level8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 			<artist>Al Di Meola</artist>
@@ -11850,6 +12115,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<source DVB="true">DVB-S@320</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Chris Dave Drumheadz</artist>
 			<artist main="true">Chris Dave</artist>
@@ -11866,7 +12135,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>1:27:27</length>
 		<source DVB="true">DVB-S@256</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
@@ -11883,6 +12155,8 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length/>
 		<source>DAB</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) > Cyrus DAB8.0
 (mp2) SD card > wav (Foobar) > Convert to 44.1k &amp; Editing (Nero 8) > TLH
 (SBE &amp; decode check and flac 6) Third date: 320k AAC > Abyss i-Stream recorder
@@ -11890,6 +12164,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 / balance changes + tracking for continuity and to remove most of the announcer v2 Edit:
 Phase invert, DC offset correction, Music +1dB &amp; Applause -1dB, track no. change
 &amp; Flac Tags]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
@@ -11906,8 +12181,11 @@ Phase invert, DC offset correction, Music +1dB &amp; Applause -1dB, track no. ch
 		</location>
 		<length>0:15:12</length>
 		<source DVB="true">DVB-S@192</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Humax PVR800 > mp2 (MPEG 1.0 Layer-2; 48,000 Hz Stereo; 192 Kbps) >
 Mpeg2Schnitt (cut to separate performances) ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
@@ -11924,8 +12202,11 @@ Mpeg2Schnitt (cut to separate performances) ]]></lineage>
 		</location>
 		<length>1:55:18</length>
 		<source DVB="true">DVB-S@256</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[dvb-s > Digital Satellitereceiver Humax PVR8000 > mp2 > mp3DirectCut 2.08
 > mp2]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
@@ -11946,6 +12227,7 @@ Mpeg2Schnitt (cut to separate performances) ]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[Radio DLF > DVB-S (256kbps/48khz) > TechniSat SkyStar HD 2 > HDD >
 Audacity > Flac 6]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 		</artists>
@@ -11960,6 +12242,10 @@ Audacity > Flac 6]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
@@ -11976,8 +12262,11 @@ Audacity > Flac 6]]></lineage>
 		</location>
 		<length>0:52:13</length>
 		<source>DVB</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor
 > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Heroics</artist>
 			<artist main="true">Craig Taborn</artist>
@@ -11996,8 +12285,11 @@ Audacity > Flac 6]]></lineage>
 		</location>
 		<length>1:10:58</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[SP-CMC-8/tascam dr-1/track splitted, applause faded, silence removed with
 Audacity/channel patch with Creative Wavestudio/flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Heroics</artist>
 			<artist main="true">Craig Taborn</artist>
@@ -12017,8 +12309,11 @@ Audacity/channel patch with Creative Wavestudio/flac]]></lineage>
 		</location>
 		<length/>
 		<source>DVB</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[source: dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave
 editor > flac (mpeg1 layer 2/256 kbps) [radio station - rete due]]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Heroics</artist>
 			<artist main="true">Craig Taborn</artist>
@@ -12037,8 +12332,11 @@ editor > flac (mpeg1 layer 2/256 kbps) [radio station - rete due]]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Telefunken HT880 > Edirol UA_4FX > CoolEdit normalization &amp; Pan
 Expand> Flac level 6]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Heroics</artist>
 			<artist main="true">Craig Taborn</artist>
@@ -12058,6 +12356,7 @@ Expand> Flac level 6]]></lineage>
 		<source/>
 		<lineage><![CDATA[lineage virtually unknown. I received it on cd-r in a trade without any info so
 ?>cd-r>wav>flac(6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Dave Holland</artist>
 			<artist>Sam Rivers</artist>
@@ -12075,10 +12374,13 @@ Expand> Flac level 6]]></lineage>
 		</location>
 		<length>0:54:28</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM >Telefunken HT 870 tuner >Telefunken HA 870 amplifier >Denon DR-M 24HX
 tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon DR-M
 24HX >Denon PMA-425R amplifier >Terratec DMXFire 1024 soundcard >WaveLab Lite
 >harddisk >.wav >FLAC level 8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Dave Holland</artist>
 		</artists>
@@ -12093,7 +12395,10 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>1:52:48</length>
 		<source DVB="true">DVB-S@256</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Dave Holland</artist>
 			<artist>Chris Potter</artist>
@@ -12112,6 +12417,10 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:17:48</length>
 		<source DVB="true">DVB-S@256</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">PRISM</artist>
 			<artist main="true">Dave Holland</artist>
@@ -12153,6 +12462,10 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:58:24</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Dick Hyman</artist>
 			<artist>Marian McPartland</artist>
@@ -12185,8 +12498,11 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>1:17:43</length>
 		<source DVB="true">DVB-S@256</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DVB-S > SkyStar2 > Kaffeine (MP2 256 kbs, 48 khz) > XCFA (WAV conversion)
 > Wavelab > FLAC (level 8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Dré Pallemaerts</artist>
 			<artist>Mark Turner</artist>
@@ -12204,8 +12520,11 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:51:41</length>
 		<source DVB="true">DVB@320</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DVB-C (320 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.
 Edits were made with the mp3DirectCut software.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Egberto Gismonti</artist>
 			<artist>Palle Danielsson</artist>
@@ -12224,6 +12543,10 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		</location>
 		<length>0:54:04</length>
 		<source DVB="true">DVB@320</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Egberto Gismonti</artist>
 			<artist>Nana Vasconcelos</artist>
@@ -12242,6 +12565,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[Magnetic Records MRCD 130 > EAC > FLAC > mininova seed > wav >
 soundforge 5: speed correction > flac FFE lvl7 w/SBA (381 MB)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Eric Dolphy</artist>
 			<artist>McCoy Tyner</artist>
@@ -12283,6 +12607,7 @@ soundforge 5: speed correction > flac FFE lvl7 w/SBA (381 MB)]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[Master tape > Tape > Tape Maxell XLII > Sony cassette tc-we475 > Audigy
 2 24/96 > sf10]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist>Napoleon Murphy Brock</artist>
@@ -12308,6 +12633,7 @@ soundforge 5: speed correction > flac FFE lvl7 w/SBA (381 MB)]]></lineage>
 		<quality>B-</quality>
 		<lineage><![CDATA[SBD>?>unknown gen cassette>Nakamichi DR-10>Terratec DMX6 Fire 24/96
 soundcard>Adobe Audition 1.5>WAV>Flac Frontend encoding level 5>FLAC ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist>Tom Fowler</artist>
@@ -12328,6 +12654,7 @@ soundcard>Adobe Audition 1.5>WAV>Flac Frontend encoding level 5>FLAC ]]></lineag
 		<title>Orchestral Favorites Outtakes</title>
 		<lineage><![CDATA[Reel-to-reel tape (probably 1st gen)->ReVox A77->MacBook Pro 17'->Peak Pro
 5.2->CDR->EAC->SoundForge (some minor editing)->FLAC Frontend]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
@@ -12382,6 +12709,10 @@ soundcard>Adobe Audition 1.5>WAV>Flac Frontend encoding level 5>FLAC ]]></lineag
 		</location>
 		<length>0:35:05</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Gary Burton</artist>
 			<artist>Larry Coryell</artist>
@@ -12420,8 +12751,11 @@ soundcard>Adobe Audition 1.5>WAV>Flac Frontend encoding level 5>FLAC ]]></lineag
 		</location>
 		<length>0:50:53</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM Broadcast >Braun TG 1000>Reel tape>Phillips CDR 870 Standalone>AUDIO
 CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Gateway Trio</artist>
 			<artist>John Abercrombie</artist>
@@ -12442,6 +12776,7 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[Radio broadcast --> ? --> CD (trade) --> flac 8 --> dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Gateway Trio</artist>
 			<artist>John Abercrombie</artist>
@@ -12457,7 +12792,7 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>ECM All-Stars</title>
+
 		<source>FM</source>
 		<format/>
 		<quality>A+</quality>
@@ -12470,7 +12805,7 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 			<artist>Steve Kuhn</artist>
 			<artist>Collin Walcott</artist>
 		</artists>
-		<title/>
+		<title>ECM All-Stars</title>
 	</session>
 	<session id="id0x56bdb30" av="A">
 		<date type="xs:date">1961-06-24</date>
@@ -12519,6 +12854,10 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 		</location>
 		<length>1:00:25</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12543,6 +12882,7 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 		<quality>B-</quality>
 		<lineage><![CDATA[fm>?>DIME 2005-Unknown linage-> Nero(CDR> dB POWER> TRADERS LITTLE
 HELPER> flac (level 8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12566,6 +12906,7 @@ HELPER> flac (level 8)]]></lineage>
 		<format/>
 		<quality>B-</quality>
 		<lineage><![CDATA[??? > trade from Dierk Schlie > ???]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12587,6 +12928,7 @@ HELPER> flac (level 8)]]></lineage>
 		<length>0:37:26</length>
 		<source/>
 		<lineage><![CDATA[Aud>?>CDr>EAC>WAV>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12607,6 +12949,10 @@ HELPER> flac (level 8)]]></lineage>
 		</location>
 		<length>0:07:50</length>
 		<source station="NRK">web</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12631,6 +12977,7 @@ HELPER> flac (level 8)]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[FM recording > TRADE CD > dB POWER> TRADERS LITTLE HELPER> flac (level
 8) >Adobe Audition 2.0 (see below) > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12655,6 +13002,7 @@ HELPER> flac (level 8)]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[Radio FM broadcast > CD in trade > EAC > SoundForge 7.0 > FLAC Frontend
 (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12700,6 +13048,7 @@ HELPER> flac (level 8)]]></lineage>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM > Bootleg Album > CDR > EAC > FLAC FRONT END]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12726,6 +13075,7 @@ HELPER> flac (level 8)]]></lineage>
 		<quality>B++</quality>
 		<lineage><![CDATA[WBCN broadcast > CD in trade > EAC > SoundForge 7.0 > FLAC Frontend
 (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12752,6 +13102,7 @@ HELPER> flac (level 8)]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[WBCN FM>Sony R2R 7"reel @ 7.5ips No Dolby MR>Akai 6X4000-D>Numark
 EQ>HHB CDR830]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12806,6 +13157,7 @@ EQ>HHB CDR830]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[UNK GEN CASS TDK SA 90>NAK DR 10>Sony Stand
 Alone>CDR>EAC>WAV>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12831,6 +13183,7 @@ Alone>CDR>EAC>WAV>FLAC]]></lineage>
 		<lineage><![CDATA[FM > Analog > SoundForge > CD > MKWact > shn > WAV (dBPoweramp)
 > retracking &amp; renaming files (Adobe Audition) > FLAC (LVL8 with sector
 alignment)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12858,6 +13211,7 @@ compressor (upward expander mode), linear phase equalizer and valve preamp warmy
 plug ins at 32, 48 and 64 bit solution (with dithering)>16 bit/44.1 Khz
 downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12880,6 +13234,7 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<quality>A-</quality>
 		<lineage><![CDATA[WBCN broadcast > CD in trade > EAC > SoundForge 7.0 > FLAC Frontend
 (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12922,6 +13277,7 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12945,6 +13301,7 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<lineage><![CDATA[FM>REEL TO REEL>Years Passing By>Revox A77>hard
 disk>Goldwave/Cooledit(cuts, edits, clicks, noise, track marking)> happy hard
 disk>Dime World]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12968,6 +13325,7 @@ disk>Dime World]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[dvb-s (mpeg2 – 328kb/s-48.000Hz) > HDD > Audacity (editing > flac) >
 HDD]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -12990,6 +13348,7 @@ HDD]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[FM > n generation tape > Aiwa Tape Deck AD-WX828 > Audigy Soundblaster
 > HD > SoundForge 7.0 > CD Wave >FLAC Frontend (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -13016,6 +13375,7 @@ Cassettes>Dat(0): details unknown done by taper in 2006 Transfer
 Dat(0)>wav(16/48): R-184MD>Tascam DA-20(S/PDIF out)>audiophile 192(S/PDIF
 in)>audacity>wav(16/48) done in Oct 2009 Taped By: Jeff J. Dat(0) Transferred By:
 weedwacker]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -13034,19 +13394,19 @@ weedwacker]]></lineage>
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Live Voyage (MegaDisc)</title>
 		<length>0:58:39</length>
 		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM>Boot CD>EAC>Flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Jaco Pastorius</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>James Levi</artist>
 		</artists>
-		<title/>
+		<title>Live Voyage (MegaDisc)</title>
 	</session>
 	<session id="id0x5b637b0" av="A">
 		<date type="xs:date">1977-02-16</date>
@@ -13055,7 +13415,6 @@ weedwacker]]></lineage>
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Live Voyage (Not On Label (Herbie Hancock) hhjp1977)</title>
 		<length>61min</length>
 		<source>FM</source>
 		<format/>
@@ -13068,7 +13427,7 @@ weedwacker]]></lineage>
 			<artist>Bennie Maupin</artist>
 			<artist>James Levi</artist>
 		</artists>
-		<title/>
+		<title>Live Voyage (Not On Label (Herbie Hancock) hhjp1977)</title>
 	</session>
 	<session id="id0x5b83cc0" av="A">
 		<date type="xs:date">1977-02-20</date>
@@ -13082,6 +13441,7 @@ weedwacker]]></lineage>
 		<quality>B-</quality>
 		<lineage><![CDATA[AUD>?>CDr from Trade>EAC>WAV>Track w/ CD Wave>FLAC > wav >
 Soundforge 5: speed correction > flac lvl7 w/SBA (530 MB)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Jaco Pastorius</artist>
@@ -13103,6 +13463,7 @@ Soundforge 5: speed correction > flac lvl7 w/SBA (530 MB)]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 		</artists>
@@ -13331,6 +13692,10 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 			<country>Germany</country>
 		</location>
 		<source DVB="true">DVB@320</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Joe Zawinul</artist>
 		</artists>
@@ -13369,7 +13734,10 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		</location>
 		<length>1:25:53</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[AUD (B-) CDr from Trade > eac > Flac 8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -13390,6 +13758,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		<format/>
 		<quality>B-</quality>
 		<lineage><![CDATA[CDr from Trade > eac > Flac 8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -13435,6 +13804,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bender
 -50 cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		<lineage><![CDATA[speed corrected]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -13455,6 +13825,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<source/>
 		<quality>A-</quality>
 		<lineage><![CDATA[cD-R IN TRADE > EAC > TLH flac(8-SUMS) - dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -13475,6 +13846,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<source/>
 		<quality>A-</quality>
 		<lineage><![CDATA[Magnetic 114/115 MAG SILVers > Flac > World]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13599,6 +13971,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13656,10 +14029,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Stuttgart</city>
 			<country>Germany</country>
 		</location>
-		<title>Live Trane: Underground (Disc 06)</title>
 		<length>0:29:20</length>
 		<source/>
 		<lineage><![CDATA[CD -> Exact Audio Copy V0.9 beta 4 (offset 66) -> wav -> mkwACT 0.97 beta 1 -> shn]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13667,7 +14040,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground (Disc 06)</title>
 	</session>
 	<session id="id0x6898030" av="A">
 		<date type="xs:date">1961-12-02</date>
@@ -13678,7 +14051,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:13:04</length>
 		<source/>
-		<title>Live Trane: Underground</title>
+
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13686,7 +14059,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground</title>
 	</session>
 	<session id="id0x68d4860" av="A">
 		<date type="xs:date">1962-02-10</date>
@@ -13697,6 +14070,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:40:47</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13715,6 +14092,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:28:59</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -13733,6 +14114,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:28:47</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13815,7 +14200,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>125min</length>
 		<source/>
-		<title>Live Trane: Underground</title>
+
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13823,7 +14208,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground</title>
 	</session>
 	<session id="id0x7048710" av="A">
 		<date type="xs:date">1962-11-28</date>
@@ -13856,6 +14241,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:26:00</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13874,6 +14263,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:24:11</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13954,6 +14347,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:48:53</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13970,12 +14367,12 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<title>Magnetic (Luxembourgian) MRCD 137</title>
 		<length>1:28:00</length>
 		<source>preFM</source>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[MAG SILVers > xAct-Flac > World]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -13983,7 +14380,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Magnetic (Luxembourgian) MRCD 137</title>
 	</session>
 	<session id="id0x78179a0" av="A">
 		<date type="xs:date">1963-10-26</date>
@@ -13992,10 +14389,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<title>Live Trane: Underground (Disc 9-10)</title>
 		<length>1:08:35</length>
 		<source/>
 		<lineage><![CDATA[CD -> Exact Audio Copy V0.9 beta 4 (offset 66) -> wav -> mkwACT 0.97 beta 1 -> shn]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -14003,7 +14400,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground (Disc 9-10)</title>
 	</session>
 	<session av="A">
 		<date type="xs:date">1963-11-01</date>
@@ -14012,10 +14409,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<title>Live Trane: Underground (Disc 10)</title>
 		<length>0:05:21</length>
 		<source/>
 		<lineage><![CDATA[CD -> Exact Audio Copy V0.9 beta 4 (offset 66) -> wav -> mkwACT 0.97 beta 1 -> shn]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -14023,7 +14420,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground (Disc 10)</title>
 	</session>
 	<session id="id0x7818170" av="A">
 		<date type="xs:date">1963-11-04</date>
@@ -14032,11 +14429,11 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Stuttgart</city>
 			<country>Germany</country>
 		</location>
-		<title>Live Trane: Underground (Disc 11-12)</title>
 		<length>1:55:12</length>
 		<source/>
 		<quality/>
 		<lineage><![CDATA[CD -> Exact Audio Copy V0.9 beta 4 (offset 66) -> wav -> mkwACT 0.97 beta 1 -> shn]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -14044,7 +14441,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title/>
+		<title>Live Trane: Underground (Disc 11-12)</title>
 	</session>
 	<session id="id0x7818580" av="A">
 		<date type="xs:date">1963-11-04</date>
@@ -14057,6 +14454,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<source/>
 		<quality>A</quality>
 		<lineage><![CDATA[fm/sbd > ? >cd-r> eac(secure mode)> wav> flac(7)(asb)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -14134,6 +14532,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<location>
 			<festival>Newport Jazz Festival</festival>
 		</location>
+		<length/>
 		<source/>
 		<quality>B+</quality>
 		<lineage/>
@@ -14196,6 +14595,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:25:56</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">John Taylor</artist>
 			<artist>Stan Stulzman</artist>
@@ -14215,8 +14618,11 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:46:38</length>
 		<source>DVB</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor
 > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">John Taylor</artist>
 		</artists>
@@ -14234,6 +14640,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[DAT @ 48k -> HT OMega 7.1 Soundcard (Optical Inputs)>WAV 48> Syntillium Cool Edit Downsample to 44.1 WAV>CD WAV (Track Split)>FLAC ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Joshua Redman</artist>
 			<artist>Brad Mehldau</artist>
@@ -14249,13 +14656,18 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Hollywood CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Somewhere Before</title>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
 			<artist>Paul Motian</artist>
 		</artists>
-		<title/>
+		<title>Somewhere Before</title>
 	</session>
 	<session id="id0xaed440" av="A">
 		<date type="xs:date">1969-08-24</date>
@@ -14266,6 +14678,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -14282,6 +14698,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Aldo Romano</artist>
@@ -14317,6 +14737,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -14334,6 +14758,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<source/>
 		<lineage><![CDATA[Web > Audacity (noises and Volumes treatment) > TLH (SBE - Flac8) >
 Dime]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -14350,6 +14775,10 @@ Dime]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -14364,6 +14793,10 @@ Dime]]></lineage>
 		</location>
 		<length>1:02:40</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
@@ -14380,6 +14813,10 @@ Dime]]></lineage>
 		</location>
 		<length>1:13:53</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14396,6 +14833,10 @@ Dime]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -14410,8 +14851,11 @@ Dime]]></lineage>
 		</location>
 		<length>1:54:02</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM > Edirol R-09 (WAV) > Wavelab > FLAC (level 8, sector align) Broadcast
 : Nuit Keith Jarrett, France Musique, 9 may 2010 Cosmikd (Goody's set list)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14428,8 +14872,11 @@ Dime]]></lineage>
 		</location>
 		<length>1:54:16</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[France Musique (Jazz sur le vif, december 28 2013), FM / Marantz tuner / RH-09R /
 Audacity / Xact]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14446,7 +14893,10 @@ Audacity / Xact]]></lineage>
 		</location>
 		<length>1:31:47</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM Broadcast>CD Recorder>CD-CA Converter>flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14463,9 +14913,12 @@ Audacity / Xact]]></lineage>
 		</location>
 		<length>1:51:52</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[exact linage unknown (received in a CD-R trade) Note: This is from the first
 re-broadcast; a later version from a re-broadcast in 2010 is marred by FM
 noise.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14482,9 +14935,12 @@ noise.]]></lineage>
 		</location>
 		<length>1:54:04</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM > Edirol R-09 (WAV) > Wavelab > FLAC (level 8, sector align) > TomP
 edit (Nero 8) > Tag &amp; Rename (flac tags) > TLH (flac 6 + SBE / decode
 check)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14501,6 +14957,10 @@ check)]]></lineage>
 		</location>
 		<length>1:40:25</length>
 		<source>FM+AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14516,6 +14976,10 @@ check)]]></lineage>
 		</location>
 		<length>0:28:42</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
@@ -14532,6 +14996,8 @@ check)]]></lineage>
 		</location>
 		<length>0:50:33</length>
 		<source>web</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[http://sverigesradio.se/sida/avsnitt/591494?programid=4431 WEB > Audacity
 (noises cutting and volume adjusting) > TLH ( SBE - Flac 8) > dime]]></lineage>
 		<remarks>at 31:40 Kj Starts what is known as the Bremen encore and the last solo (Tokyo
@@ -14547,6 +15013,7 @@ check)]]></lineage>
 			<venue>Pori</venue>
 			<city>Finland</city>
 		</location>
+		<length/>
 		<source/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
@@ -14562,8 +15029,11 @@ check)]]></lineage>
 		</location>
 		<length>1:49:40</length>
 		<source>pre-FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DAT >.wav via S/PDIF and Midiman Dio 2448 digital soundcard >SoundForge 6.0
 >CD Wave >FLAC Frontend (Level 8, SBE OK)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Dewey Redman</artist>
@@ -14621,6 +15091,10 @@ check)]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -14634,6 +15108,10 @@ check)]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -14661,6 +15139,10 @@ check)]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jan Garbarek</artist>
@@ -14675,6 +15157,7 @@ check)]]></lineage>
 			<venue>Nogent-Sur-Marne</venue>
 			<country>France</country>
 		</location>
+		<length/>
 		<source/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
@@ -14708,8 +15191,11 @@ check)]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[H2New Zoom using internal mics; Mid-Side Stereo; settings 44kHz / 16-bit > gain
 5 > Flac 5 > uTorrent]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Gary Peacock</artist>
@@ -14726,6 +15212,10 @@ check)]]></lineage>
 		</location>
 		<length>1:40:07</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>unknown</artist>
@@ -14746,6 +15236,7 @@ check)]]></lineage>
 		<lineage><![CDATA[WBCN FM > ? > CDR > EAC > FLAC &#xD; Goody's additional lineage:
 dBpoweramp (WAV) > Audition (Tracking; channel alignment and phase correction; click
 repair) > Trader's Little Helper (FLAC Level 8; .ffp)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Foreplay</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -14770,6 +15261,7 @@ repair) > Trader's Little Helper (FLAC Level 8; .ffp)]]></lineage>
 Akai GX4000D > Numark 20 Band Equalizer > HHB CDR 830 by allsoundz from 2nd gen
 reel > cdr>eac(secure mode)>flac(level 6) by carville 20 december
 2007]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">Foreplay</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -14789,6 +15281,10 @@ reel > cdr>eac(secure mode)>flac(level 6) by carville 20 december
 		</location>
 		<length/>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Foreplay</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -14807,8 +15303,11 @@ reel > cdr>eac(secure mode)>flac(level 6) by carville 20 december
 		</location>
 		<length>20min</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM Broadcast>REEL TO REEL TAPE>CDR Phillips 880>EAC Secure>Flac
 Frontend>Level 6]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Danny Trifan</artist>
@@ -14922,6 +15421,10 @@ Frontend>Level 6]]></lineage>
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -14964,9 +15467,12 @@ Frontend>Level 6]]></lineage>
 		</location>
 		<length>1:19:59</length>
 		<source>preFM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Transferred mix and mastered by Steve H/AKA fzmoi69 From SONY TC-K707ES into Sound
 Forge Pro 10.01 Contrast Clause : This show may have been seeded here before. This
 torrent is direct from the master casstte.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -14986,7 +15492,10 @@ torrent is direct from the master casstte.]]></lineage>
 		</location>
 		<length>1:19:20</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Mastertape>soN.Y.C.assette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -15011,6 +15520,7 @@ torrent is direct from the master casstte.]]></lineage>
 		<lineage><![CDATA[1st gen. soundboard tape (a/k/a "pre-FM") WCUW radio master reel > played on
 Revox reel deck into Tascam cassette deck (dolby off) > Maxell XLII-S cassette >
 soundforge 4.5 > FLAC 6 > torrentially yours.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 		</artists>
@@ -15025,10 +15535,13 @@ soundforge 4.5 > FLAC 6 > torrentially yours.]]></lineage>
 		</location>
 		<length>1:04:58</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[ pre-recorded FM broadcast > master tape on unknown probably good quality
 equipment by German taper > 1st gen. cassette trade copy (maxell XLII 90 min.
 cassette) > played on nak. 300 into soundforge (wav) > flac (sb's aligned) >
 torrentially yours.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -15049,6 +15562,10 @@ torrentially yours.]]></lineage>
 		</location>
 		<length>0:45:28</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Miroslav Vitous</artist>
@@ -15065,6 +15582,10 @@ torrentially yours.]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
@@ -15082,10 +15603,13 @@ torrentially yours.]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[source: aud cassette master, taped by Ken Flemming, kenco on LL lineage: sony
 tc-153, maxell xl-II90's, dolby b > nak dragon>hd-p2 24/96>hd> cd
 wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 11/8/09]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Miroslav Vitous</artist>
@@ -15139,6 +15663,7 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 			<city>Munich</city>
 			<country>Germany</country>
 		</location>
+		<length/>
 		<source/>
 		<quality>B+</quality>
 		<lineage/>
@@ -15343,7 +15868,10 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 		</location>
 		<length>0:47:06</length>
 		<source>DVB-S@320</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
@@ -15416,6 +15944,7 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 		<quality>B</quality>
 		<lineage><![CDATA[ORTF Radio Broadcast > Jazz Factory JFCD 22882 > EAC Wave > TLH Flac Level
 8]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Aime Barelli</artist>
@@ -15449,6 +15978,7 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 		<quality>B-</quality>
 		<lineage><![CDATA[WJZ radio broadcast > ?? > cd (Peter Losin's Archive) > cd duplicated
 (burner to burner) > eac > wav > flac (lvl 8 )]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Beryl Booker</artist>
@@ -15468,6 +15998,8 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 		</location>
 		<length>0:12:26</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[KXLW Broadcast Fresh Air > ?? > cd Peter Losin's Archive > cd duplicated
 burner to burner > eac > wav > flac lvl8]]></lineage>
 		<remarks>interviewed by Harry Frost</remarks>
@@ -15485,7 +16017,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:05:30</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Silver Boot UAR506 > EAC (4x, secure) > FLAC (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15504,6 +16039,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:12:58</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15522,6 +16061,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:11:36</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15540,6 +16083,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:15:18</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15558,7 +16105,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:14:43</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Silver Boot UAR506 > EAC (4x, secure) > FLAC (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Sonny Rollins</artist>
@@ -15577,7 +16127,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:09:43</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Silver Boot UAR506 > EAC (4x, secure) > FLAC (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Sonny Rollins</artist>
@@ -15596,7 +16149,10 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		</location>
 		<length>0:11:15</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Silver Boot UAR506 > EAC (4x, secure) > FLAC (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Sonny Rollins</artist>
@@ -15619,6 +16175,7 @@ burner to burner > eac > wav > flac lvl8]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[dBpoweramp (WAV) > Cool Edit Pro (Pitch Bender +47 cents) > Trader's Little
 Helper (FLAC, ffp)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Barney Wilen</artist>
@@ -15709,7 +16266,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[Traded CDR > EAC > WAV > FLAC]]></lineage>
-		<title>The Kind of Blue Sessions</title>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15718,7 +16275,7 @@ Helper (FLAC, ffp)]]></lineage>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title/>
+		<title>The Kind of Blue Sessions</title>
 	</session>
 	<session id="id0x4acd440" av="A">
 		<date type="xs:date">1960-03-24</date>
@@ -15729,8 +16286,11 @@ Helper (FLAC, ffp)]]></lineage>
 		</location>
 		<length>0:44:40</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[fm > R > ? > dat > cdb > wav > audio restoration >
 flac(lvl8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15749,6 +16309,8 @@ flac(lvl8)]]></lineage>
 		</location>
 		<length>0:23:02</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15767,6 +16329,10 @@ flac(lvl8)]]></lineage>
 		</location>
 		<length>0:37:39</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15785,7 +16351,10 @@ flac(lvl8)]]></lineage>
 		</location>
 		<length>0:45:14</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[SBD/8 46(DATC1)>--CD>DAT1>CDR1]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15808,6 +16377,7 @@ flac(lvl8)]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[FM > tape > recording, tracking and editing wav file in Audacity > CD-R
 > Wav > TLH (Flac 8, sector alignment)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15829,6 +16399,7 @@ flac(lvl8)]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[NPS Radio 4]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>John Coltrane</artist>
@@ -15846,10 +16417,11 @@ flac(lvl8)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:32:01</length>
-		<title>Miles in St. Louis</title>
 		<source/>
+		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[vinyl]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -15857,7 +16429,7 @@ flac(lvl8)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Miles in St. Louis</title>
 	</session>
 	<session id="id0x4f8c670" av="A">
 		<date type="xs:date">1963-07-25</date>
@@ -15868,7 +16440,10 @@ flac(lvl8)]]></lineage>
 		</location>
 		<length>0:24:16</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Europe I Radio Broadcast > ?? > wave > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -15886,10 +16461,11 @@ flac(lvl8)]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:45:44</length>
-		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
 		<source/>
+		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[JMY 1010 'Côte Blues' > EAC (secure) > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -15897,7 +16473,7 @@ flac(lvl8)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
 	</session>
 	<session id="id0x4ff8120" av="A">
 		<date type="xs:date">1963-07-28</date>
@@ -15907,10 +16483,11 @@ flac(lvl8)]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:25:22</length>
-		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
 		<source/>
+		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[JMY 1010 'Côte Blues' > EAC (secure) > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -15918,7 +16495,7 @@ flac(lvl8)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
 	</session>
 	<session id="id0x4ff86c0" av="A">
 		<date type="xs:date">1964-10-01</date>
@@ -15927,12 +16504,12 @@ flac(lvl8)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<title>Paris, France (MOON MCD 021-2)</title>
 		<length>0:42:19</length>
 		<source>FM</source>
 		<format/>
 		<quality>C+</quality>
 		<lineage><![CDATA[]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -15940,7 +16517,7 @@ flac(lvl8)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Paris, France (MOON MCD 021-2)</title>
 	</session>
 	<session id="id0x5094c20" av="A">
 		<date type="xs:date">1964-10-01</date>
@@ -15955,6 +16532,7 @@ flac(lvl8)]]></lineage>
 		<quality>C+</quality>
 		<lineage><![CDATA[ORTF Radio Broadcast > ?? > disk 1 of the fall 64 Miles Tree > ?? >
 wave > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -15994,8 +16572,11 @@ wave > flac]]></lineage>
 			<country>Japan</country>
 		</location>
 		<length>0:45:32</length>
-		<title>Domino 891212: The Unissued Japanese Concerts</title>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Sam Rivers</artist>
@@ -16003,7 +16584,7 @@ wave > flac]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Domino 891212: The Unissued Japanese Concerts</title>
 	</session>
 	<session id="id0x5125ae0" av="A">
 		<date type="xs:date">1964-09-10_11</date>
@@ -16040,6 +16621,7 @@ wave > flac]]></lineage>
 		<quality>B-</quality>
 		<lineage><![CDATA[??? > FLAC > TLH > WAV > Adobe Audition (Pitch Bender: -91 cents;
 Quality Level: Perfect [Slowest]) > CD Wave > TLH > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16056,12 +16638,12 @@ Quality Level: Perfect [Slowest]) > CD Wave > TLH > FLAC]]></lineage>
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<title>Paris, France (MOON MCD 021-2)</title>
 		<length>0:03:13</length>
 		<source>FM</source>
 		<format/>
 		<quality>B-</quality>
 		<lineage><![CDATA[]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16069,7 +16651,7 @@ Quality Level: Perfect [Slowest]) > CD Wave > TLH > FLAC]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Paris, France (MOON MCD 021-2)</title>
 	</session>
 	<session id="id0x51309f0" av="A">
 		<date type="xs:date">1964-10-04</date>
@@ -16084,6 +16666,7 @@ Quality Level: Perfect [Slowest]) > CD Wave > TLH > FLAC]]></lineage>
 		<quality>B-</quality>
 		<lineage><![CDATA[Magnetic Records MRCD-117 FM or SBD > ? > Silver Boot MRCD 117 > EAC (4x,
 secure) > FLAC (level 6, with sector align)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16109,6 +16692,7 @@ via S/PDIF and Midiman Dio 2448 digital soundcard at 48 kHz > CoolEdit Pro 2.0 >
 CD Wave > MKW > SHN > .wav checksums verified before decoding > CoolEdit Pro
 2.0 tracks re-sequenced > CD Wave > Trader's Little Helper > FLAC Level 6,
 ASB]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16133,6 +16717,7 @@ ASB]]></lineage>
 CD Wave > Trader's Little Helper Dime Additional lineage: flac > aiff > 24bit
 editing/remastering (ProTools LE with various plugins) > 16bit aiff > flac
 (xACT)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16177,6 +16762,7 @@ editing/remastering (ProTools LE with various plugins) > 16bit aiff > flac
 		<quality>B-</quality>
 		<lineage><![CDATA[RAI TV Broadcast > ?? > Disc #7 of the fall 1964 miles-trees vine >
 unknown ripping software > wave > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16199,6 +16785,7 @@ unknown ripping software > wave > flac]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[Cassette ?gen -> Nak DR-1 -> Audiophile2496 - > Soundforge -> wav ->
 flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16222,6 +16809,7 @@ flac]]></lineage>
 		<lineage><![CDATA[Cassette ?gen -> Nak DR-1 -> Audiophile2496 - > Soundforge -> wav ->
 flac (previous DIME seed) -> Soundforge 9: speed correction, additional fixes (see
 notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16263,6 +16851,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[KALX Cabinet Tapes Broadcast > ?? > wave > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16279,6 +16868,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality/>
 		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
@@ -16320,7 +16910,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Antwerpen</city>
 			<country>Belgium</country>
 		</location>
-		<title>The Bootleg Series, Vol. 1</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16328,7 +16918,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 1</title>
 	</session>
 	<session id="id0x54c4a90" av="A">
 		<date type="xs:date">1967-11-01</date>
@@ -16342,6 +16932,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[Yleisradio YLE Broadcast > ?? > wave > flac > cutting/trimming > flac ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16363,6 +16954,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[Yleisradio YLE Broadcast > ?? > wave > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16379,11 +16971,11 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Helsinki</city>
 			<country>Finland</country>
 		</location>
-		<title>Miles '67 tree (disc 3)</title>
 		<length>0:05:13</length>
 		<source/>
 		<quality>B</quality>
 		<lineage><![CDATA[Miles '67 tree (disc 3) -> cut/trim with Audacity]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16391,7 +16983,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Miles '67 tree (disc 3)</title>
 	</session>
 	<session id="id0x54c4f90" av="A" official="true">
 		<date type="xs:date">1967-11-02</date>
@@ -16400,7 +16992,11 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<title>The Bootleg Series, Vol. 1</title>
+		<length/>
+		<source/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16408,7 +17004,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 1</title>
 	</session>
 	<session id="id0x54c53f0" av="A">
 		<date type="xs:date">1967-11-04</date>
@@ -16418,7 +17014,6 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:42:52</length>
-		<title>Live in Europe (New Sound Planet/ Jazz Up JU 320)</title>
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
@@ -16434,7 +17029,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Live in Europe (New Sound Planet/ Jazz Up JU 320)</title>
 	</session>
 	<session id="id0x56978b0" av="A" official="true">
 		<date type="xs:date">1967-11-06</date>
@@ -16443,7 +17038,11 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<title>The Bootleg Series, Vol. 1</title>
+		<length/>
+		<source/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16451,7 +17050,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 1</title>
 	</session>
 	<session id="id0x5698080" av="A">
 		<date type="xs:date">1967-11-07</date>
@@ -16461,11 +17060,11 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>1:26:21</length>
-		<title>MegaDisc LUXURY Tour Over Europe</title>
 		<source>FM</source>
 		<format/>
 		<quality>B</quality>
 		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16473,7 +17072,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>MegaDisc LUXURY Tour Over Europe</title>
 	</session>
 	<session av="A">
 		<date type="xs:date">1967-11-07</date>
@@ -16483,10 +17082,10 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:16:11</length>
-		<title>Miles '67 Tree (disc 3)</title>
 		<source/>
 		<quality>B+</quality>
 		<lineage><![CDATA[Miles '67 tree (disc 3) -> cut/trim with Audacity]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16494,7 +17093,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Miles '67 Tree (disc 3)</title>
 	</session>
 	<session id="id0x5698530" av="A">
 		<date type="xs:date">1968-12-05_08</date>
@@ -16527,6 +17126,8 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Audience Recording > ?? > Miles Trees (L5) > ripped with unknown software
 > wave > shn > flac]]></lineage>
 		<remarks>early show</remarks>
@@ -16548,6 +17149,8 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		</location>
 		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Audience Recording > ?? > Miles Trees (L5) > ripped with unknown software
 > wave > shn > flac]]></lineage>
 		<remarks>late show</remarks>
@@ -16573,6 +17176,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[Audience Recording > ?? > wave > Peter Losin's Archive > cd duplicated
 (burner to burner) > eac > wave > flac (lvl 8 )]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16633,15 +17237,15 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Bitches Brew Live (Sony 81485)</title>
-		<title>Miles Davis at Newport; 1955-1975 (The Bootleg Series, Vol. 4)</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Chick Corea</artist>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Bitches Brew Live (Sony 81485)</title>
+		<title>Miles Davis at Newport; 1955-1975 (The Bootleg Series, Vol. 4)</title>
 	</session>
 	<session id="id0x57a3170" av="A">
 		<date type="xs:date">1969-07-07</date>
@@ -16656,6 +17260,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<quality>C+</quality>
 		<lineage><![CDATA[Audience Recording > ?? > Electric Blue boot CD EB006 > EAC 99b4 >
 Monkey's audio v3.99 lossless high compression]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16672,7 +17277,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
-		<title>The Bootleg Series, Vol. 2</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16680,7 +17285,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 2</title>
 	</session>
 	<session id="id0x57a3620" av="A" official="true">
 		<date type="xs:date">1969-07-26</date>
@@ -16689,7 +17294,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
-		<title>The Bootleg Series, Vol. 2</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16697,7 +17302,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 2</title>
 	</session>
 	<session id="id0x57a9b30" av="A">
 		<date type="xs:date">1969-07-27</date>
@@ -16728,12 +17333,12 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Deep Brew</title>
 		<length>1:58:59</length>
 		<source>SBD</source>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[Studio -> Original (Silver) Bootleg CD -> dBpoweramp CD Ripper (Secure Mode) -> WAV -> Trader's Little Helper -> FLAC (Level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16748,7 +17353,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>Jumma Santos</artist>
 		</artists>
-		<title/>
+		<title>Deep Brew</title>
 	</session>
 	<session id="id0x57a9f90" av="A">
 		<date type="xs:date">1969-08-xx</date>
@@ -16757,12 +17362,12 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>The Making of Bitches Brew</title>
 		<length>1:55:30</length>
 		<source>SBD</source>
 		<format>mp3</format>
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -16777,7 +17382,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>Jumma Santos</artist>
 		</artists>
-		<title/>
+		<title>The Making of Bitches Brew</title>
 	</session>
 	<session id="id0x57aa440" av="A">
 		<date type="xs:date">1969-08-04</date>
@@ -16785,6 +17390,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<venue>Interview at his home</venue>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality>C</quality>
 		<lineage/>
@@ -16870,7 +17476,6 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<city>Rome</city>
 			<country>Italy</country>
 		</location>
-		<title>Lost Quintet Tree (Disc 4-5)</title>
 		<length>1:25:37</length>
 		<source>FM</source>
 		<format/>
@@ -16884,7 +17489,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Lost Quintet Tree (Disc 4-5)</title>
 	</session>
 	<session id="id0x57cc710" av="A">
 		<date type="xs:date">1969-10-27</date>
@@ -16894,7 +17499,6 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>0:45:44</length>
-		<title>Gemini [Crown CRCJ-10001]</title>
 		<source/>
 		<quality>A</quality>
 		<lineage/>
@@ -16906,7 +17510,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Gemini [Crown CRCJ-10001]</title>
 	</session>
 	<session id="id0x57ecc20" av="A">
 		<date type="xs:date">1969-10-27</date>
@@ -16916,7 +17520,6 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>0:36:21</length>
-		<title>Double Image [Crown CRCJ-10017]</title>
 		<source/>
 		<quality>B+</quality>
 		<lineage/>
@@ -16928,7 +17531,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Double Image [Crown CRCJ-10017]</title>
 	</session>
 	<session id="id0x57ed0d0" av="A">
 		<date type="xs:date">1969-10-31</date>
@@ -16945,6 +17548,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 > ?? > CD > flac 8 Additional lineage: flac > aiff > 24bit processed and
 edited (ProTools LE with various plug-ins; Izotope RX) > 16bit AIFF > flac 8
 (xACT)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17005,7 +17609,6 @@ edited (ProTools LE with various plug-ins; Izotope RX) > 16bit AIFF > flac 8
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<title>Paraphernalia (Jazz Music Yesterday JMY 1013-2)</title>
 		<length>1:04:33</length>
 		<source>FM</source>
 		<format/>
@@ -17020,7 +17623,7 @@ w/ sector align)]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Paraphernalia (Jazz Music Yesterday JMY 1013-2)</title>
 	</session>
 	<session id="id0x57ef490" av="A">
 		<date type="xs:date">1969-11-03</date>
@@ -17030,8 +17633,10 @@ w/ sector align)]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:56:17</length>
-		<title>Lost Quintet Tree Disc 8</title>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
 		<remarks>late set</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -17040,7 +17645,7 @@ w/ sector align)]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Lost Quintet Tree Disc 8</title>
 	</session>
 	<session id="id0x582fe50" av="A" official="true">
 		<date type="xs:date">1969-11-05</date>
@@ -17049,7 +17654,6 @@ w/ sector align)]]></lineage>
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<title>The Bootleg Series Vol. 2</title>
 		<remarks>1st show</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -17058,7 +17662,7 @@ w/ sector align)]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series Vol. 2</title>
 	</session>
 	<session id="id0x5830300" av="A">
 		<date type="xs:date">1969-11-05</date>
@@ -17089,12 +17693,12 @@ w/ sector align)]]></lineage>
 			<city>Rotterdam</city>
 			<country>The Netherlands</country>
 		</location>
-		<title>Chaos Theory (Hannibal-003)</title>
 		<length>1:02:19</length>
 		<source>SBD</source>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17102,7 +17706,7 @@ w/ sector align)]]></lineage>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Chaos Theory (Hannibal-003)</title>
 	</session>
 	<session id="id0x58e8b80" av="A">
 		<date type="xs:date">1970-02-21</date>
@@ -17117,6 +17721,7 @@ w/ sector align)]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[Audience recording -> Original (Silver) Bootleg CD -> EAC (Secure Mode) ->
 WAV -> dbPowerAmp Music Converter -> FLAC (Level 8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17141,6 +17746,7 @@ WAV -> dbPowerAmp Music Converter -> FLAC (Level 8)]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[flambay lineage portion: jkeisers seed flac > wav > Soundforge 5: speed
 correction, SBE fixes, re-tracked > flac fFE lvl7 w/SBA (298 MB)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17164,6 +17770,7 @@ correction, SBE fixes, re-tracked > flac fFE lvl7 w/SBA (298 MB)]]></lineage>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[SBD > ? > Trade CDR > AIFF > FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17187,6 +17794,7 @@ correction, SBE fixes, re-tracked > flac fFE lvl7 w/SBA (298 MB)]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM broadcast >master reel-to-reel >TDK SA-C90 cassette tape on Nakamichi
 Dragon]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17211,6 +17819,7 @@ Dragon]]></lineage>
 		<lineage><![CDATA[FM broadcast >master reel-to-reel >TDK SA-C90 cassette tape on Nakamichi
 Dragon Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bender +47
 cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17297,7 +17906,12 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17307,7 +17921,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
 	</session>
 	<session id="d0e34350" av="A" official="true">
 		<date type="xs:date">1970-06-18</date>
@@ -17316,7 +17930,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17326,7 +17940,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
 	</session>
 	<session id="id0x590fb30" av="A" official="true">
 		<date type="xs:date">1970-06-19</date>
@@ -17335,7 +17949,12 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17345,7 +17964,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
 	</session>
 	<session id="id0x5910030" av="A" official="true">
 		<date type="xs:date">1970-06-20</date>
@@ -17354,7 +17973,12 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
@@ -17364,7 +17988,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title/>
+		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
 	</session>
 	<session id="id0x59105d0" av="A">
 		<date type="xs:date">1970-07-06</date>
@@ -17449,8 +18073,11 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		</location>
 		<length>0:09:04</length>
 		<source>TV</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Audio from TV broadcast > ?? > Trade > EAC (4x, secure) > FLAC (level
 6, with sector align)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17470,8 +18097,12 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Bits'n Pieces on TV 1970-73</title>
+		<length/>
 		<source>TV</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17481,7 +18112,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Airto Moreira</artist>
 			<artist>Jumma Santos (Jim Riley)</artist>
 		</artists>
-		<title/>
+		<title>Bits'n Pieces on TV 1970-73</title>
 	</session>
 	<session id="id0x591b120" av="A">
 		<date type="xs:date">1970-10-04</date>
@@ -17495,6 +18126,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		<format/>
 		<quality>C+</quality>
 		<lineage><![CDATA[Audience Recording > Unknown]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17520,6 +18152,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		<lineage><![CDATA[soundboard > KPFA-FM radio broadcast > ? > CD > EAC (secure mode) >
 Cubase SX2 (minor re-tracking, no sound processing applied) > flac 1.1.2 [-8, -V,
 sector aligned]]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17540,6 +18173,10 @@ sector aligned]]]></lineage>
 		</location>
 		<length/>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17560,6 +18197,10 @@ sector aligned]]]></lineage>
 		</location>
 		<length/>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17580,6 +18221,10 @@ sector aligned]]]></lineage>
 		</location>
 		<length>1:04:09</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17624,7 +18269,7 @@ sector aligned]]]></lineage>
 		<length/>
 		<source/>
 		<quality/>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<lineage/>
 		<remarks>early set</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -17635,7 +18280,7 @@ sector aligned]]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
 	</session>
 	<session id="id0x5b344e0" av="A">
 		<date type="xs:date">1971-10-23</date>
@@ -17646,6 +18291,10 @@ sector aligned]]]></lineage>
 		</location>
 		<length>113min</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17666,8 +18315,11 @@ sector aligned]]]></lineage>
 		</location>
 		<length>1:19:52</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Soundboard > Belgian Radio and Television (BRT) Radio Broadcast >
 Unknown]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17734,7 +18386,6 @@ Unknown]]></lineage>
 			<country>Yugoslavia</country>
 		</location>
 		<length>1:07:25</length>
-		<title>Another Bitches Brew (Jazz Door (G) JD 1284/5) </title>
 		<source>FM</source>
 		<format/>
 		<quality>A+</quality>
@@ -17749,7 +18400,7 @@ Unknown]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title/>
+		<title>Another Bitches Brew (Jazz Door (G) JD 1284/5)</title>
 	</session>
 	<session id="id0x5b5a080" av="A">
 		<date type="xs:date">1971-11-03</date>
@@ -17764,6 +18415,7 @@ Unknown]]></lineage>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S (256 kbps/ 48 khz) > Technotrend C-1400 DVB-S PCI card >
 harddisk.]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -17806,7 +18458,6 @@ harddisk.]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>1:23:51</length>
-		<title>Two Miles Live (Discurios DIS 201 CD)</title>
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
@@ -17821,7 +18472,7 @@ harddisk.]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title/>
+		<title>Two Miles Live (Discurios DIS 201 CD)</title>
 	</session>
 	<session id="id0x5b721c0" av="A">
 		<date type="xs:date">1971-11-08</date>
@@ -17878,6 +18529,7 @@ harddisk.]]></lineage>
 			<city>São Paulo</city>
 			<country>Brazil</country>
 		</location>
+		<length/>
 		<source/>
 		<quality>B-</quality>
 		<lineage/>
@@ -17915,7 +18567,7 @@ harddisk.]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Comeback Session Vol. 2</title>
+		<length/>
 		<source>SBD</source>
 		<format/>
 		<quality>A</quality>
@@ -17929,7 +18581,7 @@ harddisk.]]></lineage>
 			<artist>T.M. Stevens</artist>
 			<artist>Al Foster</artist>
 		</artists>
-		<title/>
+		<title>Comeback Session Vol. 2</title>
 	</session>
 	<session id="id0x5be3b30" av="A">
 		<date type="xs:date">1980-08-03</date>
@@ -17942,6 +18594,7 @@ harddisk.]]></lineage>
 		<source/>
 		<lineage><![CDATA[Audience Recording / Radio Broadcast > Soulard VGM-SOU CD 3 > EAC (Wave) .
 TLH (Flac Level 8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 		</artists>
@@ -17954,14 +18607,18 @@ TLH (Flac Level 8)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Comeback Session Vol. 2</title>
+		<length/>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Mel Lewis Big Band</artist>
 			<artist main="true">Miles Davis</artist>
 			<artist>Mel Lewis</artist>
 		</artists>
-		<title/>
+		<title>Comeback Session Vol. 2</title>
 	</session>
 	<session id="id0x5be4260" av="A">
 		<date type="xs:date">1989-11-03</date>
@@ -17981,7 +18638,7 @@ TLH (Flac Level 8)]]></lineage>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<title>Miles Davis Radio Project</title>
+		<length/>
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
@@ -17991,7 +18648,7 @@ TLH (Flac Level 8)]]></lineage>
 			<artist main="true">Miles Davis</artist>
 			<artist>Danny Glover (host)</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis Radio Project</title>
 	</session>
 	<session id="id0x5c76950" av="A">
 		<date type="xs:date">2008-01-21</date>
@@ -18000,7 +18657,7 @@ TLH (Flac Level 8)]]></lineage>
 			<city>Ann Arbor MI</city>
 			<country>U.S.A.</country>
 		</location>
-		<title>Jay Dee Tribute Show</title>
+
 		<source>AUD</source>
 		<format/>
 		<quality>B</quality>
@@ -18015,7 +18672,7 @@ TLH (Flac Level 8)]]></lineage>
 			<artist>Laron Thomas</artist>
 			<artist>Corey King</artist>
 		</artists>
-		<title/>
+		<title>Jay Dee Tribute Show</title>
 	</session>
 	<session id="id0x5c76ea0" av="A">
 		<date type="xs:date">2015-01-29</date>
@@ -18026,6 +18683,10 @@ TLH (Flac Level 8)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<source DVB="true">DVB-S@320</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Nguyên Lê</artist>
 		</artists>
@@ -18084,6 +18745,7 @@ TLH (Flac Level 8)]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[AUD > Audition (Pitch Bender -38 cents) > Trader's Little Helper (FLAC Level
 8, ffp)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Pat Metheny</artist>
 			<artist>Jaco Pastorius</artist>
@@ -18121,6 +18783,7 @@ TLH (Flac Level 8)]]></lineage>
 			<city>Boston MA</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality>B+</quality>
 		<lineage/>
@@ -18161,6 +18824,10 @@ TLH (Flac Level 8)]]></lineage>
 		</location>
 		<length>1:21:45</length>
 		<source>DVB</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Philip Catherine</artist>
 			<artist>Nicola Andreoli</artist>
@@ -18176,6 +18843,10 @@ TLH (Flac Level 8)]]></lineage>
 		</location>
 		<length>0:51:44</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18224,6 +18895,7 @@ TLH (Flac Level 8)]]></lineage>
 >Denon DR-M 24HX three head tape deck w/ Dolby C HXpro >Sony UX-S cassette
 >Terratec DMXFire 1024 soundcard>WaveLab Lite >harddisk >CDR >.wav
 >FLAC level 8]]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18247,6 +18919,7 @@ TLH (Flac Level 8)]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[FM > tape > CD-R > Sound Forge > FLAC (268 mb) Transferred by:
 Boneroller Remastered by: TheTooleMan (smt), July, 2004]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18268,6 +18941,7 @@ Boneroller Remastered by: TheTooleMan (smt), July, 2004]]></lineage>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM>?>CDr>EAC>WAV>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18313,6 +18987,7 @@ Boneroller Remastered by: TheTooleMan (smt), July, 2004]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[WXRT FM Broadcast>?>CDR in trade>EAC>edit w/ CD Wave
 Editor>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18335,6 +19010,7 @@ Editor>FLAC]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[FM broadcast > Unknown recording device > CD in trade > EAC > HD >
 SoundForge 7.0 > CD Wave > FLAC Frontend (level 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18357,6 +19033,7 @@ SoundForge 7.0 > CD Wave > FLAC Frontend (level 6)]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[Restored and mixed from two sources by TheTooleMan, June 2004 source 1: incomplete
 low-gen recording source 2: complete, higher-gen recording]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18465,6 +19142,7 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[soundboard reel (2nd generation, all-reel no dolby lineage)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18551,6 +19229,7 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[Lineage: pre-FM reel>cass>flac taperchuck3 Transfer: Dragon nr-out>zoomH4
 16/44.1>hcsd 8gb >Audacity>TLH>flac16. ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18573,6 +19252,7 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM>Master tape>sony
 cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18596,6 +19276,7 @@ cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
 		<lineage><![CDATA[FM => cassette => HHB CDR830/CD-R/W => EAC => Nero Wave Editor (track
 splits and fade in/fade out) => FLAC frontend (w/SBE correction) => upload (from
 tmat44)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18636,9 +19317,12 @@ tmat44)]]></lineage>
 		</location>
 		<length>0:54:22</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Lineage: unknown FM recording -> tape -> CD -> Sound Forge -> FLAC
 TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 (L8)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -18700,6 +19384,8 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>0:43:30</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[TV>?>CDr>EAC>WAV>FLAC]]></lineage>
 		<remarks>Broadcast date: March 16, 1976</remarks>
 		<artists>
@@ -18777,6 +19463,10 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>1:10:11</length>
 		<source DVB="true">DVB@256</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Robert Glasper</artist>
 			<artist>Alan Hampton</artist>
@@ -18880,6 +19570,10 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>1:23:55</length>
 		<source DVB="true">DVB-C@256</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Stan Getz</artist>
 			<artist>Gary Burton</artist>
@@ -18919,6 +19613,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<city>Telluride CO</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality>B+</quality>
 		<lineage/>
@@ -18976,6 +19671,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<city>Antwerpen</city>
 			<country>Belgium</country>
 		</location>
+		<length/>
 		<source/>
 		<artists>
 			<artist main="true">Toots Thielemans</artist>
@@ -19015,6 +19711,10 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length/>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Lifetime</artist>
 			<artist main="true">Tony Williams</artist>
@@ -19084,6 +19784,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		<quality>B-</quality>
 		<lineage><![CDATA[SBD>probably Reel to Reel Tape>CD>trade>EAC Secure>Flac
 frontend>flac level 6]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Herbie Hancock</artist>
@@ -19309,7 +20010,10 @@ frontend>flac level 6]]></lineage>
 		</location>
 		<length>1:31:56</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[a nice FM-recording, not first generation ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19356,6 +20060,7 @@ frontend>flac level 6]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[Cassette via trade (unk gen 3+) -> Nak DR-1 -> Audiophile 2496 ->
 Soundforge -> wav -> flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19378,6 +20083,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[audience recording > cassette (unknown gen) > wav > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19397,6 +20103,10 @@ Soundforge -> wav -> flac]]></lineage>
 		</location>
 		<length>0:46:56</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19420,6 +20130,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[SBD > Audio cassette (3-4th generation) > Nakamichi DR-1 > Audiophile 2496
 > Soundforge > CD > wav > SHN > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19462,6 +20173,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<length>0:57:07</length>
 		<source/>
 		<lineage><![CDATA[Wav>Flac>You]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19507,6 +20219,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<quality>B</quality>
 		<lineage><![CDATA[Cassette via trade (unk gen 3+) -> Nak DR-1 -> Audiophile 2496 ->
 Soundforge -> wav -> flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19529,6 +20242,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[WV]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19548,6 +20262,10 @@ Soundforge -> wav -> flac]]></lineage>
 		</location>
 		<length>1:22:52</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19591,6 +20309,10 @@ Soundforge -> wav -> flac]]></lineage>
 		</location>
 		<length>1:07:49</length>
 		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19610,6 +20332,10 @@ Soundforge -> wav -> flac]]></lineage>
 		</location>
 		<length>1:04:05</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19629,9 +20355,12 @@ Soundforge -> wav -> flac]]></lineage>
 		</location>
 		<length>1:22:16</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Maxell XLII Cassette>Nakamichi CR-7A cassette deck>Tascam US-122L>Sound
 Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 (append)>FLAC 8>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19654,6 +20383,7 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 		<quality>B+</quality>
 		<lineage><![CDATA[Cassette (?gen) -> Nak DR-1 -> audiophile 24/96 -> wav -> Soundforge
 (eq, normalize, fix gaps) -> cd-r -> EAC -> flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19672,7 +20402,10 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 		</location>
 		<length>0:24:22</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Sony Stereo cassette deck/ Phillips cdr recorder/ FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19692,7 +20425,10 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 		</location>
 		<length>1:29:57</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Sony Stereo cassette deck/ Phillips cdr recorder/ FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19712,6 +20448,10 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 		</location>
 		<length>1:17:14</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19737,6 +20477,7 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 		<lineage><![CDATA[Maxell XLII Cassette (master)>Sony TC-WE8258 cassette deck>Gina20>Sound
 Forge 7.0 (record/edits)>FLAC Level 8 Patch source: "Solarizations" boot
 CD>EAC>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19760,6 +20501,7 @@ CD>EAC>FLAC]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[$$$>Solarizations silver cd>EAC>FLAC (via Trader's Little
 Helper")]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19782,6 +20524,7 @@ Helper")]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[Cdr trade>flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19805,6 +20548,7 @@ Helper")]]></lineage>
 		<lineage><![CDATA[Maxell XLII Cassette>Nakamichi CR-7A cassette deck>Tascam US-122L>Sound
 Forge 7.0 (record/edits/resample)>CDWav (tracking)>Goldwave (speed
 correction)>FLAC]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19823,7 +20567,10 @@ correction)>FLAC]]></lineage>
 		</location>
 		<length>0:45:01</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[Cdr trade/flac via TLH/Dime/ You/]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19847,6 +20594,7 @@ correction)>FLAC]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[FM broadcast > EAC > SoundForge 7.0 > FLAC Frontend (level ]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19869,6 +20617,7 @@ correction)>FLAC]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[French Gentleman: fm > reel-to-reel (mono, 1st gen) > wav > flac]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19892,6 +20641,7 @@ correction)>FLAC]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[CDR > EAC > wav > (No Edit) > FLAC frontend > flac (Level
 6)]]></lineage>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -19951,6 +20701,10 @@ correction)>FLAC]]></lineage>
 		</location>
 		<length>0:22:14</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Woody Shaw</artist>
 			<artist>Cater Jefferson</artist>
@@ -20033,8 +20787,11 @@ correction)>FLAC]]></lineage>
 		</location>
 		<length>1:00:40</length>
 		<source>FM</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[FM > Edirol R-09 (WAV) > WaveLab > FLAC (level 8, sector-align) Broadcast
 : Jazz sur le vif, France Musique, 22 march 2014 Cosmikd]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Jozef Dumoulin</artist>
 			<artist>Bruno Chevillon</artist>
@@ -20051,7 +20808,10 @@ correction)>FLAC]]></lineage>
 		</location>
 		<length>0:43:12</length>
 		<source>AUD</source>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[SONY PCM Recorder -> Adobe Audition]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Jozef Dumoulin</artist>
 		</artists>
@@ -20137,6 +20897,7 @@ MEP.]]></lineage>
 		<format>720p</format>
 		<quality/>
 		<lineage><![CDATA[Source: CBC TV (Canada) broadcast]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Tony Bennett</artist>
 			<artist>Bill Evans</artist>
@@ -20155,6 +20916,7 @@ MEP.]]></lineage>
 		<quality/>
 		<lineage><![CDATA[FM>low gen, unknown lineage>trade>CDR>EAC Secure Rip>Flac Frontend,
 level 5]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Paul Bley</artist>
 			<artist>Mark Levinson</artist>
@@ -20174,6 +20936,7 @@ level 5]]></lineage>
 		<quality/>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac
 (mpeg1 layer 2/320 kbps) [radio station - nordewestradio]]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Paul Bley</artist>
 			<artist>Mark Levinson</artist>
@@ -20192,6 +20955,7 @@ level 5]]></lineage>
 		<source>FM</source>
 		<quality/>
 		<lineage><![CDATA[FM>?>Trade CD>EAC>FLAC>Vuze>Dimeadozen]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Anthony Braxton</artist>
 		</artists>
@@ -20804,6 +21568,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality/>
 		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">Academia de Danças</artist>
 			<artist main="true">Egberto Gismonti</artist>
@@ -20864,6 +21629,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality/>
 		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
@@ -20884,6 +21650,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
+		<length/>
 		<source/>
 		<quality/>
 		<lineage/>
