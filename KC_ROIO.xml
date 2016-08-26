@@ -3148,6 +3148,7 @@ Recorder]]></lineage>
 		<location>
 			<venue>BBC Studios</venue>
 			<city>London</city>
+			<country>U.K.</country>
 		</location>
 		<length>0:22:33</length>
 		<source>TV</source>
@@ -12076,6 +12077,26 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		<quality/>
 		<lineage/>
 		<remarks/>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1972-10-29</date>
+		<location>
+			<venue>Sendesaal</venue>
+			<city>Bremen</city>
+			<country>Germany</country>
+		</location>
+		<length>0:26:33</length>
+		<source>DVB-S2</source>
+		<format>mp2@329</format>
+		<quality/>
+		<lineage><![CDATA[DVB-S2 - Digital Satellitereceiver > mp2 
+			MPEG 1.0 Layer-2; 48,000 Hz Stereo; 320 Kbps
+			mp3DirectCut 2.08 > mp2]]></lineage>
+		<remarks>Broadcast: WDR3. Date: 2016-08-15</remarks>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
@@ -21918,6 +21939,156 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Jean-François Jenny-Clark</artist>
 			<artist>Marvin Patillo</artist>
 			<artist>Naná Vasconcelos</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1963-03-04</date>
+		<location>
+			<show>The Steve Allen Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:16:29</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>Al Fresco's original</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist>Steve Allen</artist>
+		</artists>
+		<title>Al Fresco DVD V</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1963-03-04</date>
+		<location>
+			<show>The Steve Allen Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:16:29</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>unicrayon remaster</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist>Steve Allen</artist>
+		</artists>
+		<title>Al Fresco DVD V</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-01-xx</date>
+		<location>
+			<show>Jazz Casual</show>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:23:15</length>
+		<source>DVD</source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Ben Webster</artist>
+			<artist>Vince Guaraldi</artist>
+			<artist>Monty Budwig</artist>
+			<artist>Colin Bailey</artist>
+			<artist>Jimmy Witherspoon</artist>
+		</artists>
+		<title>Four Tenors (Idem)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1998-xx-xx</date>
+		<location>
+			<show></show>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format>avi</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>			
+		</artists>
+		<title>Triumph of the Underdog</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1999-07-17</date>
+		<location>
+			<festival>Umbria Jazz</festival>
+			<city>Perugia</city>
+			<country>Italy</country>
+		</location>
+		<length>0:54:01</length>
+		<source station="RAI Doc">TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Brad Mehldau</artist>
+			<artist>Kenny Barron</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1969-06-06</date>
+		<location>
+			<venue>Royal Albert Hall</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>1:46:47</length>
+		<source>AUD</source>
+		<format></format>
+		<quality></quality>
+		<lineage><![CDATA[AUD > ? > traded CDR > EAC (secure mode) > wav Audition 1.5 (retracked only)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+			<artist>Roy Estrada</artist>
+			<artist>Jimmy Carl Black</artist>
+			<artist>Art Dyer Tripp III</artist>
+			<artist>Ian Underwood</artist>
+			<artist>Bunk Gardner</artist>
+			<artist>Motorhead Sherwood</artist>
+			<artist>Bunk Gardner</artist>
+			<artist>Buzz Gardner</artist>
+			<artist>Ray Collins</artist>
+			<artist>Dick Barber</artist>
+			<artist>Kanzus J. Kanzus</artist>
+			<artist>Noel Redding</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date"></date>
+		<location>
+			<venue></venue>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
 		</artists>
 		<title/>
 	</session>
