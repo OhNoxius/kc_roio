@@ -21946,8 +21946,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1963-03-04</date>
 		<location>
 			<show>The Steve Allen Show</show>
-			<venue></venue>
-			<city></city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:16:29</length>
@@ -21966,8 +21964,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1963-03-04</date>
 		<location>
 			<show>The Steve Allen Show</show>
-			<venue></venue>
-			<city></city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:16:29</length>
@@ -22006,7 +22002,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V" official="true">
 		<date type="xs:date">1998-xx-xx</date>
 		<location>
-			<show></show>
 			<country>U.S.A.</country>
 		</location>
 		<length></length>
