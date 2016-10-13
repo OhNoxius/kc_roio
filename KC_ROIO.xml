@@ -22066,25 +22066,46 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title/>
 	</session>
 	<session av="V">
-		<date type="xs:date"></date>
+		<date type="xs:date">1958-11-30</date>
 		<location>
-			<venue></venue>
-			<city></city>
-			<country></country>
+			<venue>Palais Des Beaux Arts</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
 		</location>
 		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
+		<source>DVD</source>
+		<format>PAL</format>
+		<quality>A+</quality>
 		<lineage></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist main="true">Art Blakey</artist>
+			<artist>Lee Morgan</artist>
+			<artist>Benny Golson</artist>
+			<artist>Bobby Timmons</artist>
+			<artist>Jymie Merritt</artist>
 		</artists>
-		<title/>
+		<title>Jazz Icons: Art Blakey Live in '58</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1995-05-02</date>
+		<location>
+			<venue>Mad Hatter Studios</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>01:06:54</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality>A</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+			<artist>Bob Berg</artist>
+			<artist>John Patitucci</artist>
+			<artist>Gary Novak</artist>
+		</artists>
+		<title>better quality than jazzdoor DVD</title>
 	</session>
 </KC_ROIO>
