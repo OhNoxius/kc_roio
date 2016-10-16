@@ -1332,7 +1332,7 @@
 		<title/>
 	</session>
 	<session id="id0x12fa2b0" av="V" official="true">
-		<date type="xs:date">1970-09-xx</date>
+		<date type="xs:date">1970-09-19</date>
 		<location>
 			<venue>Monterey Jazz Festival</venue>
 			<city>Monterey CA</city>
@@ -1343,35 +1343,37 @@
 		<format>1080p</format>
 		<quality>A+</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>The song being played is 'Country Preacher'</remarks>
 		<artists>
 			<artist main="true">Cannonball Adderley</artist>
 			<artist>Nat Adderley</artist>
 			<artist>Joe Zawinul</artist>
+			<artist>Walter Booker</artist>
+			<artist>Roy McCurdy</artist>
 		</artists>
 		<title>Play Misty For Me (Clint Eastwood)</title>
 	</session>
 	<session id="id0x12fa710" av="V">
-		<date type="xs:date">197x-xx-xx</date>
+		<date type="xs:date">1974-12-7_14</date>
 		<location>
-			<festival>Jazz Ship</festival>
-			<venue>Rotterdam Ship</venue>
+			<venue>SS Rotterdam</venue>
 			<city>Naxos</city>
 			<country>Greece</country>
 		</location>
 		<length>0:07:48</length>
-		<source>TV</source>
+		<source channel="BBC">TV</source>
 		<format>PAL</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>Cannonball Adderley 1960-70 DVD Compilation</remarks>
 		<artists>
 			<artist main="true">Cannonball Adderley</artist>
 			<artist>Nat Adderley</artist>
-			<artist>Walter Booker?</artist>
-			<artist>Roy McCurdy?</artist>
+			<artist>Hal Galper</artist>
+			<artist>Walter Booker</artist>
+			<artist>Roy McCurdy</artist>
 		</artists>
-		<title>Cannonball Adderley 1960-70 DVD Compilation</title>
+		<title>Jazz Ship</title>
 	</session>
 	<session id="id0x12fbb80" av="V">
 		<date type="xs:date">1974-09-07</date>
