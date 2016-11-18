@@ -2668,7 +2668,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<venue>TV Studio</venue>
 			<city/>
 			<country>Germany</country>
-		</location>		
+		</location>
 		<length>0:47:57</length>
 		<source station="1Plus">TV</source>
 		<format>NTSC</format>
@@ -3079,7 +3079,7 @@ Recorder]]></lineage>
 			<artist>Ian Underwood</artist>
 			<artist>Don Preston</artist>
 			<artist>Bunk Gardner</artist>
-			<artist>Motorhead Sherwood</artist>			
+			<artist>Motorhead Sherwood</artist>
 		</artists>
 		<title>LIEDERLICHES Episode 5</title>
 	</session>
@@ -5127,7 +5127,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Comblain-la-Tour</city>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>A+</quality>
@@ -6123,7 +6123,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Maxime Zampieri</artist>
 			<artist>Denis Guivarc'h</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x5433f90" av="V">
 		<date type="xs:date">1972-04-29</date>
@@ -6838,7 +6838,7 @@ dime]]></lineage>
 		<location>
 			<city>Philadelphia PA</city>
 		</location>
-		<length>1:07:48</length>		
+		<length>1:07:48</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>C</quality>
@@ -7652,7 +7652,7 @@ file]]></lineage>
 	</session>
 	<session id="id0x57a7950" av="V">
 		<date type="xs:date">1964-xx-xx</date>
-		<location/>		
+		<location/>
 		<length>0:30:02</length>
 		<source/>
 		<format/>
@@ -10385,7 +10385,7 @@ AC3@256 ]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length>01:39:30</length>		
+		<length>01:39:30</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -10520,7 +10520,7 @@ AC3@256 ]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length/>		
+		<length/>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -11006,7 +11006,7 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
-			<artist>Magic Malik Orchestra</artist>			
+			<artist>Magic Malik Orchestra</artist>
 		</artists>
 		<title>Paris Jazzed Out</title>
 	</session>
@@ -13855,10 +13855,30 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		<date type="xs:date">1985-11-xx</date>
 		<location>
 			<festival>JazzFest Berlin</festival>
+			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
+		<length></length>
 		<source DVB="true">DVB@320</source>
 		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Joe Zawinul</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1985-11-xx</date>
+		<location>
+			<festival>Munich Piano Summer</festival>
+			<city>Munchen</city>
+			<country>Germany</country>
+		</location>
+		<length>0:56:53</length>
+		<source>web</source>
+		<format>VGA</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -21047,7 +21067,7 @@ correction)>FLAC]]></lineage>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[BBCFour DVB-C Tivo>LG stand alone DVD rec>PC>Authored using Magix
-MEP.]]></lineage>		
+MEP.]]></lineage>
 		<remarks>Compilation first broadcast February 2012 on BBCFour</remarks>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
@@ -22040,8 +22060,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<length>0:16:29</length>
 		<source>TV</source>
 		<format>PAL</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks>Al Fresco's original</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -22058,8 +22078,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<length>0:16:29</length>
 		<source>TV</source>
 		<format>PAL</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks>unicrayon remaster</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -22075,10 +22095,10 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:23:15</length>
 		<source>DVD</source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Ben Webster</artist>
 			<artist>Vince Guaraldi</artist>
@@ -22093,14 +22113,14 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
-		<source></source>
+		<length/>
+		<source/>
 		<format>avi</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
-			<artist main="true">Charles Mingus</artist>			
+			<artist main="true">Charles Mingus</artist>
 		</artists>
 		<title>Triumph of the Underdog</title>
 	</session>
@@ -22115,8 +22135,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="RAI Doc">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 			<artist>Kenny Barron</artist>
@@ -22132,8 +22152,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:46:47</length>
 		<source>AUD</source>
-		<format></format>
-		<quality></quality>
+		<format/>
+		<quality/>
 		<lineage><![CDATA[AUD > ? > traded CDR > EAC (secure mode) > wav Audition 1.5 (retracked only)]]></lineage>
 		<remarks/>
 		<artists>
@@ -22161,12 +22181,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format>PAL</format>
 		<quality>A+</quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Art Blakey</artist>
 			<artist>Lee Morgan</artist>
@@ -22184,10 +22204,10 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>01:06:54</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>better quality than jazzdoor DVD</remarks>
 		<artists>
 			<artist main="true">Chick Corea</artist>
