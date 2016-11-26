@@ -22,6 +22,63 @@
 		</artists>
 		<title/>
 	</session>
+	<session av="V">
+		<date type="xs:date">2006-04-24</date>
+		<location>
+			<venue>De Munt</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>2:01:02</length>
+		<source>Audience (PRO)</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[Lineage:
+			Audio: Soundboard > Digital > 24 Multitracks @ 24 Bits / 48 Khz > Mastering with Samplitude 9.22 and VST (reverb, compressor, etc...) > 2.0 @ 16 Bits / 48 Khz > AC3 version @ 16 Bits / 48 Khz
+			Video: 1 Camera in 16:9 anamorphic DV standard > Sony Vegas 7 > MC MPEG2 Encoder > m2v file.
+			Authoring: TMPGEnc DVD AUTHOR 3]]></lineage>
+		<remarks><![CDATA[Photos (2 video cut due to mini dv tape change): Jempi
+			Sound: Michel ANDINA
+			Video recording + Audio/Video Mastering: Ludwig LAISNÉ]]></remarks>
+		<artists>
+			<artist type="band" main="true">Aka Moon</artist>
+			<artist>Fabrizio Cassol</artist>
+			<artist>Michel Hatzigeorgiou</artist>
+			<artist>Stéphane Galland</artist>
+			<artist>Fabian Fiorini</artist>
+			<artist>Marie Daulne</artist>
+			<artist>Oumou Sangare</artist>
+			<artist>Me'Shell Ndégéocello</artist>
+			<artist>Baba Sissoko</artist>
+			<artist>David Gilmore</artist>
+			<artist>David Linx</artist>
+			<artist>Malik Mezzadri</artist>
+			<artist>La choraline</artist>
+		</artists>
+		<title>African Voices</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2016-01-30</date>
+		<location>
+			<venue>Le Triton</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>2:35:06</length>
+		<source>web</source>
+		<format>720p</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Aka Moon</artist>
+			<artist>Fabrizio Cassol</artist>
+			<artist>Michel Hatzigeorgiou</artist>
+			<artist>Stéphane Galland</artist>
+			<artist>Fabian Fiorini</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x3f2e3a0" av="V">
 		<date type="xs:date">1972-12-xx</date>
 		<location>
@@ -19501,7 +19558,7 @@ cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:02:39</length>
-		<source>SBD</source>
+		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM => cassette => HHB CDR830/CD-R/W => EAC => Nero Wave Editor (track
@@ -19524,11 +19581,11 @@ tmat44)]]></lineage>
 			<city>Elgin IL</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>0:59:39</length>
 		<source>SBD</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[SBD>FM>C>MD>CDR]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
