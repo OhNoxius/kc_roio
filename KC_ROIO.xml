@@ -1530,7 +1530,7 @@
 		<title/>
 	</session>
 	<session id="id0x12fdfe0" av="V">
-		<date type="xs:date">1966-xx-xx</date>
+		<date type="xs:date">1966-08-07</date>
 		<location>
 			<festival>Molde Jazz Festival</festival>
 			<city>Molde</city>
@@ -1552,7 +1552,7 @@
 		<title/>
 	</session>
 	<session id="d0e2871" av="V">
-		<date type="xs:date">1966-xx-xx</date>
+		<date type="xs:date">1966-08-07</date>
 		<location>
 			<festival>Molde Jazz Festival</festival>
 			<city>Molde</city>
@@ -3260,7 +3260,9 @@ Recorder]]></lineage>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B-</quality>
-		<lineage/>
+		<lineage><![CDATA[Pacific Film Archives Master Reel > Master VHS > B. Burnett VHS >
+			JVC HR-SJVC S-VHS out > Canpous ADVC 110 Firewire out > Sony Vegas Pro 10 >
+			MPEG > Sony DVD Arch 4.0 > DVD]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -3347,7 +3349,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<date type="xs:date">1970-11-06</date>
 		<location>
 			<venue>Fillmore West</venue>
-			<city>San Francisco</city>
+			<city>San Francisco CA</city>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -3367,6 +3369,24 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Aynsley Dunbar</artist>
 		</artists>
 		<title>Frank Zappa: VPRO Documentary by Roelof Kiers</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1991-xx-xx</date>
+		<location>
+			<venue>Frank's home</venue>
+			<city>Hollywood, San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:52</length>
+		<source>Pre-Broadcast</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[Pre Broadcast VHS Master --> DVD]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+		</artists>
+		<title>Peefeeyatko: A documentary by Henning Lohner</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
@@ -3483,15 +3503,28 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 	</session>
 	<session id="id0x447ef90" av="V">
 		<date type="xs:date">1973-06-26</date>
-		<location/>
+		<location>
+			<venue>Hordern Pavilion</venue>
+			<city>Sydney</city>
+			<country>Australia</country>
+		</location>
 		<length>0:05:18</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A+</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[Captured PAL transport stream with an LG HR536D standalone recorder.
+			.Ts file trimmed with Streamclip 1.2.]]></lineage>
+		<remarks>Digital Rebroadcast 8th January 2012</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
+			<artist>Jean Luc Ponty</artist>
+			<artist>Tom Fowler</artist>
+			<artist>Ralph Humphrey</artist>
+			<artist>Ruth Underwood</artist>
+			<artist>Ian Underwood</artist>
+			<artist>George Duke</artist>
+			<artist>Bruce Fowler</artist>
+			<artist>Sal Marquez</artist>
 		</artists>
 		<title>Hordern Pavillion Rehearsals</title>
 	</session>
@@ -3516,24 +3549,26 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 	<session id="id0x447f5d0" av="V">
 		<date type="xs:date">1973-07-02</date>
 		<location>
-			<festival>Monday Conference</festival>
+			<venue>ABC TV</venue>
+			<city>Sydney</city>
 			<country>Australia</country>
 		</location>
 		<length>0:48:18</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
+			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
+		<remarks>Music: Festival Hall, Melbourne 
+			RDNZL</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
-		<title/>
+		<title>Monday Conference: Politics In Rock Scene</title>
 	</session>
 	<session id="id0x44809a0" av="V">
 		<date type="xs:date">1973-07-21</date>
 		<location>
-			<festival>Payola Australia</festival>
 			<venue>ABC-TV</venue>
 			<city>Sydney</city>
 			<country>Australia</country>
@@ -3542,12 +3577,13 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
+			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
+		<remarks>Music: Sydney Rehearsal St Alfonzo's Pancake Breakfast</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
-		<title/>
+		<title><![CDATA[Four Corners Documentary "Payola"]]></title>
 	</session>
 	<session id="id0x4480d60" av="V">
 		<date type="xs:date">1973-08-21</date>
@@ -3582,15 +3618,37 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source>TV</source>
+		<source>DVD</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
+			<artist>George Duke</artist>
+			<artist>Napoleon Murphy Brock</artist>
+			<artist>Ruth Underwood</artist>
+			<artist>Tom Fowler</artist>
+			<artist>Chester Thompson</artist>
 		</artists>
-		<title>A Token of His Extreme</title>
+		<title>A Token of His Extreme (Eagle Rock Entertainment)</title>
+	</session>
+	<session id="id0x5bdbf90" av="V">
+		<date type="xs:date">1976-xx-xx</date>
+		<location>
+			<festival>Mike Douglas Show</festival>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:17:17</length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+		</artists>
+		<title>A Token of His Extreme (Eagle Rock Entertainment)</title>
 	</session>
 	<session id="id0x44816c0" av="V">
 		<date type="xs:date">1976-12-11</date>
