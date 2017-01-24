@@ -3,7 +3,7 @@
 	<session av="V">
 		<date type="xs:date">1969-10-24_28</date>
 		<location>
-			<venue>Festival Actuel</venue>
+			<festival>Festival Actuel</festival>
 			<city>Amougies</city>
 			<country>Belgium</country>
 		</location>
@@ -3293,7 +3293,7 @@ Recorder]]></lineage>
 	<session av="V">
 		<date type="xs:date">1969-10-25</date>
 		<location>
-			<venue>Festival Actuel</venue>
+			<festival>Festival Actuel</festival>
 			<city>Amougies</city>
 			<country>Belgium</country>
 		</location>
@@ -22496,7 +22496,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1969-10-25</date>
 		<location>
-			<venue>Festival Actuel</venue>
+			<festival>Festival Actuel</festival>
 			<city>Amougies</city>
 			<country>Belgium</country>
 		</location>
