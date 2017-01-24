@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KC_ROIO>
+	<session av="V">
+		<date type="xs:date">1969-10-24_28</date>
+		<location>
+			<venue>Festival Actuel</venue>
+			<city>Amougies</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:18:55</length>
+		<source station="RTBF">TV</source>
+		<format>VCD NTSC</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks>part missing. 1969-11-07 broadcast date?</remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<artist>The Nice</artist>
+			<artist>Frank Zappa</artist>
+			<artist>Bill Bruford</artist>
+		</artists>
+		<title></title>
+	</session>
 	<session id="id0x3f2da40" av="V">
 		<date type="xs:date">2012-12-07</date>
 		<location>
@@ -3269,6 +3290,25 @@ Recorder]]></lineage>
 		</artists>
 		<title>The Dilexi Series: Burnt Weeny Sandwich</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1969-10-25</date>
+		<location>
+			<venue>Festival Actuel</venue>
+			<city>Amougies</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:14:02</length>
+		<source>Blu-ray</source>
+		<format>1080p</format>
+		<quality>A+</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist>Frank Zappa</artist>
+			<artist type="band" main="true">Pink Floyd</artist>			
+		</artists>
+		<title>Pink Floyd - The Early Years 1965-1972</title>
+	</session>
 	<session id="id0x4264ae0" av="V">
 		<date type="xs:date">1970-12-15</date>
 		<location>
@@ -3500,6 +3540,69 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 			<artist>Aynsley Dunbar</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-06-xx</date>
+		<location>
+			<venue>ABC-TV</venue>
+			<city>Sydney</city>
+			<country>Australia</country>
+		</location>
+		<length>17min</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
+			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+		</artists>
+		<title>Good to Know: interview</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-06-xx</date>
+		<location>
+			<venue>ABC-TV</venue>
+			<city>Sydney</city>
+			<country>Australia</country>
+		</location>
+		<length>0:11:04</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality/>
+		<remarks>Rebroadcast ABC1 Australia 30th January 2010</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+		</artists>
+		<title>Good to Know: interview</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-06-26</date>
+		<location>
+			<venue>Hordern Pavilion</venue>
+			<city>Sydney</city>
+			<country>Australia</country>
+		</location>
+		<length>5min</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
+			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist>Jean Luc Ponty</artist>
+			<artist>Tom Fowler</artist>
+			<artist>Ralph Humphrey</artist>
+			<artist>Ruth Underwood</artist>
+			<artist>Ian Underwood</artist>
+			<artist>George Duke</artist>
+			<artist>Bruce Fowler</artist>
+			<artist>Sal Marquez</artist>
+		</artists>
+		<title>Hordern Pavillion Rehearsals</title>
 	</session>
 	<session id="id0x447ef90" av="V">
 		<date type="xs:date">1973-06-26</date>
@@ -5488,7 +5591,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session av="V">
-		<date type="xs:date">1969-xx-xx</date>
+		<date type="xs:date">1969-12-02</date>
 		<location>
 			<venue>Club 7</venue>
 			<city>Oslo</city>
@@ -10175,7 +10278,7 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0xd7dea0" av="V">
-		<date type="xs:date">1969-xx-xx</date>
+		<date type="xs:date">1969-08-21_24</date>
 		<location>
 			<festival>Jazz Bilzen</festival>
 		</location>
@@ -10184,9 +10287,21 @@ AC3@256 ]]></lineage>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
-		<remarks/>
+		<remarks>met ,HUMO'</remarks>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
+			<artist type="band">Deep Purple</artist>
+			<artist type="band">Shocking Blue</artist>
+			<artist type="band">Humble Pie</artist>
+			<artist type="band">Taste</artist>
+			<artist type="band">Life</artist>
+			<artist type="band">Bonzo Dog Doo Dah Band</artist>
+			<artist type="band"><![CDATA[Steve Shorter & Tilly Set]]></artist>
+			<artist type="band"><![CDATA[Brian Auger & Trinity]]></artist>
+			<artist>Brian Auger</artist>
+			<artist>Julie Driscol</artist>
+			<artist type="band">Marsha Hunt</artist>
+			<artist type="band">Moody Blues</artist>
 		</artists>
 		<title/>
 	</session>
@@ -22377,5 +22492,24 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Gary Novak</artist>
 		</artists>
 		<title>Time Warp - One World Over</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-10-25</date>
+		<location>
+			<venue>Festival Actuel</venue>
+			<city>Amougies</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:40:27</length>
+		<source>Blu-ray</source>
+		<format>1080p</format>
+		<quality>A+</quality>
+		<lineage></lineage>
+		<remarks>Frank Zappa on last track</remarks>
+		<artists>
+			<artist>Frank Zappa</artist>
+			<artist type="band" main="true">Pink Floyd</artist>			
+		</artists>
+		<title>Pink Floyd - The Early Years 1965-1972</title>
 	</session>
 </KC_ROIO>
