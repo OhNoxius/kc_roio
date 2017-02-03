@@ -2549,7 +2549,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<date type="xs:date">1973-01-10</date>
 		<location>
 			<festival>SOUL!</festival>
-			<venue>Soul TV WNET 13</venue>
+			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
@@ -8938,7 +8938,7 @@ file]]></lineage>
 		<date type="xs:date">1973-01-13</date>
 		<location>
 			<festival>SOUL!</festival>
-			<venue>Soul TV WNET 13</venue>
+			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
@@ -9136,12 +9136,12 @@ file]]></lineage>
 		<date type="xs:date">1972-11-19</date>
 		<location>
 			<festival>SOUL!</festival>
-			<venue>Soul TV WNET 13</venue>
+			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>58min</length>
-		<source>TV</source>
+		<source station="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage/>
@@ -9166,12 +9166,12 @@ file]]></lineage>
 		<date type="xs:date">1972-11-19</date>
 		<location>
 			<festival>SOUL!</festival>
-			<venue>Soul TV WNET 13</venue>
+			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:57:32</length>
-		<source>TV</source>
+		<source station="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Unkown VHS/Samsung r 130/you]]></lineage>
@@ -9191,6 +9191,55 @@ file]]></lineage>
 			<artist>Deloris Harvin</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-11-19</date>
+		<location>
+			<festival>SOUL!</festival>
+			<venue>WNET</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:00</length>
+		<source station="WNET">TV</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks>best pic quality, sound is muddy</remarks>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+			<artist type="band">Wonderlove</artist>
+			<artist>Scott Edwards Jr.</artist>
+			<artist>Ollie Brown</artist>
+			<artist>Ralph Hammer</artist>
+			<artist>Ray Parker Jr.</artist>
+			<artist>Keith Stevens</artist>
+			<artist>Steven Madaio</artist>
+			<artist>Denny Morouse</artist>
+			<artist>Shirley Brewer</artist>
+			<artist>Lani Groves</artist>
+			<artist>Deloris Harvin</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-02-28</date>
+		<location>
+			<festival>SOUL!</festival>
+			<venue>WNET</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:00</length>
+		<source station="WNET">TV</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Billy Preston</artist>
+		</artists>
+		<title>THE MASTER'S CHILD</title>
 	</session>
 	<session id="id0x5cce3f0" av="V">
 		<date type="xs:date">1972-xx-xx</date>
@@ -9265,7 +9314,7 @@ file]]></lineage>
 	<session id="id0x5e8b120" av="V">
 		<date type="xs:date">1975-xx-xx</date>
 		<location>
-			<festival>Beat Club Musikladen</festival>
+			<festival>Musikladen</festival>
 			<country>Germany</country>
 		</location>
 		<length>0:30:50</length>
@@ -9468,7 +9517,7 @@ file]]></lineage>
 			<city>Châteauvallon</city>
 			<country>France</country>
 		</location>
-		<length/>
+		<length>0:30:45</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
@@ -9981,7 +10030,7 @@ AC3@256 ]]></lineage>
 		<title>Live in Berlin 1975</title>
 	</session>
 	<session id="id0x79d8a90" av="V">
-		<date type="xs:date">1977-xx-xx</date>
+		<date type="xs:date">1977-06-10</date>
 		<location>
 			<festival>The Midnight Special</festival>
 			<venue>NBC Studios</venue>
@@ -9989,18 +10038,23 @@ AC3@256 ]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:04:32</length>
-		<source>mpg</source>
-		<format/>
-		<quality/>
+		<source>TV</source>
+		<format>mpg</format>
+		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Manolo Badrena</artist>
+			<artist>Alex Acuna</artist>
 		</artists>
 		<title>The Midnight Special 1977: Teen Town</title>
 	</session>
-	<session id="id0x79d8e50" av="V">
-		<date type="xs:date">1977-xx-xx</date>
+	<session id="id0x79d8e50" av="V" official="true">
+		<date type="xs:date">1977-06-10</date>
 		<location>
 			<festival>The Midnight Special</festival>
 			<venue>NBC Studios</venue>
@@ -10008,15 +10062,44 @@ AC3@256 ]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:05:21</length>
-		<source>TV</source>
+		<source>DVD</source>
 		<format>NTSC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Manolo Badrena</artist>
+			<artist>Alex Acuna</artist>
 		</artists>
-		<title>The Midnight Special 1977: Birdland</title>
+		<title>Burt Sugarman's The Midnight Special: More 1977</title>
+	</session>
+	<session id="id0x79d8e50" av="V">
+		<date type="xs:date">1977-06-10</date>
+		<location>
+			<festival>The Midnight Special</festival>
+			<venue>NBC Studios</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:10:23</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Manolo Badrena</artist>
+			<artist>Alex Acuna</artist>
+		</artists>
+		<title>The Midnight Special, episode 5.23</title>
 	</session>
 	<session id="id0x79d9260" av="V">
 		<date type="xs:date">1979-xx-xx</date>
@@ -22511,5 +22594,144 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist type="band" main="true">Pink Floyd</artist>			
 		</artists>
 		<title>Pink Floyd - The Early Years 1965-1972</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-04-06</date>
+		<location>
+			<festival>California Jam</festival>
+			<venue>Ontario Motor Speedway</venue>
+			<city>Ontaria CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:36:05+1:10:36</length>
+		<source station="FR3"></source>
+		<format>NTSC</format>
+		<quality>C+</quality>
+		<lineage></lineage>
+		<remarks>2xDVD>. re-encoded probably multiple times</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist type="band">Rare Earth</artist>
+			<artist type="band"><![CDATA[Earth, Wind & Fire]]></artist>
+			<artist type="band">The Eagles</artist>
+			<artist type="band"><![CDATA[Seals & Crofts]]></artist>
+			<artist type="band">The Eagles</artist>
+			<artist>Black Oak Arkansas</artist>
+			<artist>Black Sabath</artist>
+			<artist><![CDATA[Emerson, Lake & Palmer]]></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-07-19</date>
+		<location>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
+			<venue></venue>
+			<city>Antibes</city>
+			<country>France</country>
+		</location>
+		<length>0:26:51</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality>B-</quality>
+		<lineage></lineage>
+		<remarks>stutters</remarks>
+		<artists>
+			<artist main="true">Tony Williams</artist>
+			<artist>Todd Carver</artist>
+			<artist>Tom Grant</artist>
+			<artist>Bob Harris</artist>
+			<artist>Bunny Brunel</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-xx-xx</date>
+		<location>
+			<festival></festival>
+			<venue>Record Theatre</venue>
+			<city>São Paulo</city>
+			<country>Brazil</country>
+		</location>
+		<length>0:47:14</length>
+		<source station="channel 7">TV</source>
+		<format></format>
+		<quality>B-</quality>
+		<lineage></lineage>
+		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of DVD</remarks>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+			<artist>Al Thompson</artist>
+			<artist>Scott Edwards</artist>
+			<artist>Bill Jones</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-10-29</date>
+		<location>
+			<festival></festival>
+			<venue></venue>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source station="BBC"></source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>John Marshall</artist>
+			<artist>Karl Jenkins</artist>
+			<artist>Percy Jones</artist>
+			<artist>John Etheridge</artist>
+			<artist>Ric Sanders</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date"></date>
+		<location>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:22:54</length>
+		<source></source>
+		<format></format>
+		<quality>B</quality>
+		<lineage></lineage>
+		<remarks>host: James Darren</remarks>
+		<artists>			
+			<artist main="true">Stevie Wonder</artist>
+			<artist>Smokey Robinson</artist>
+			<artist>Quincy Jones</artist>
+		</artists>
+		<title>Portrait of a Legend</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-xx-xx</date>
+		<location>			
+			<venue>WTTW Studios “Soundstage”</venue>
+			<city>Chicago IL</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:58:36</length>
+		<source station="WTTW">TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>			
+			<artist main="true">Chick Corea</artist>
+			<artist>Bunny Brunel</artist>
+			<artist>Tom Brechtlein</artist>
+			<artist>Gail Moran</artist>
+			<artist>Al Jarreau</artist>
+			<artist>Gary Burton</artist>
+		</artists>
+		<title/>
 	</session>
 </KC_ROIO>
