@@ -9295,12 +9295,12 @@ file]]></lineage>
 	<session id="id0x5e8ad60" av="V">
 		<date type="xs:date">1974-02-03</date>
 		<location>
-			<festival>Old Grey Whistle Test</festival>
+			<show>Old Grey Whistle Test</show>
 			<venue>Rainbow Theatre</venue>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length>3min</length>
+		<length>0:02:56</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
@@ -9308,17 +9308,41 @@ file]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
+			<artist>Michael Sembello</artist>
+			<artist>Reggie McBride</artist>
+			<artist>Ollie E. Brown</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1974-02-03</date>
+		<location>
+			<venue>Rainbow Theatre</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>1:28:30</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+			<artist>Michael Sembello</artist>
+			<artist>Reggie McBride</artist>
+			<artist>Ollie E. Brown</artist>
+		</artists>
+		<title>Funkafied Rainbow (Big 'Fro Bootleg BF-001/2)</title>
 	</session>
 	<session id="id0x5e8b120" av="V">
 		<date type="xs:date">1975-xx-xx</date>
 		<location>
-			<festival>Musikladen</festival>
+			<show>Musikladen</show>
 			<country>Germany</country>
 		</location>
 		<length>0:30:50</length>
-		<source>TV</source>
+		<source station="VH1">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage/>
@@ -9404,14 +9428,14 @@ file]]></lineage>
 	<session id="id0x602b350" av="V">
 		<date type="xs:date">1974-03-10</date>
 		<location>
-			<festival>Don Kirshner's Rock Concert</festival>
+			<show>Don Kirshner's Rock Concert</show>
 			<country>U.S.A.</country>
 		</location>
-		<length>0:29:26</length>
+		<length>0:29:27</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>C+</quality>
-		<lineage/>
+		<lineage>NTSC VHS > DVD Recorder > You</lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">Utopia</artist>
@@ -9421,6 +9445,52 @@ file]]></lineage>
 			<artist>Ralph Schuckett</artist>
 			<artist>John Siegler</artist>
 			<artist>Kevin Ellman</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-03-10</date>
+		<location>
+			<show>Don Kirshner's Rock Concert</show>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:29:26</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>C+</quality>
+		<lineage></lineage>
+		<remarks>has simple DVD menu</remarks>
+		<artists>
+			<artist type="band">Utopia</artist>
+			<artist main="true">Todd Rundgren</artist>
+			<artist>Mark "Moogy" Klingman</artist>
+			<artist>Jean Yves "M. Frog" Labat</artist>
+			<artist>Ralph Schuckett</artist>
+			<artist>John Siegler</artist>
+			<artist>Kevin Ellman</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-01-08</date>
+		<location>
+			<show>Rockpalast</show>
+			<venue>WDR Studio-L</venue>
+			<city>Köln</city>
+			<country>Germany</country>
+		</location>
+		<length>01:31:58</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage>TV > VHS > DVD > PC</lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band">Utopia</artist>
+			<artist main="true">Todd Rundgren</artist>
+			<artist>Roger Powell</artist>
+			<artist>Kasim Sulton</artist>
+			<artist>John "Willie" Wilcox</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10032,7 +10102,7 @@ AC3@256 ]]></lineage>
 	<session id="id0x79d8a90" av="V">
 		<date type="xs:date">1977-06-10</date>
 		<location>
-			<festival>The Midnight Special</festival>
+			<show>The Midnight Special</show>
 			<venue>NBC Studios</venue>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
@@ -22608,7 +22678,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>NTSC</format>
 		<quality>C+</quality>
 		<lineage></lineage>
-		<remarks>2xDVD>. re-encoded probably multiple times</remarks>
+		<remarks>2xDVD. re-encoded probably multiple times</remarks>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist type="band">Rare Earth</artist>
@@ -22692,15 +22762,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date"></date>
-		<location>
-			<venue></venue>
-			<city></city>
+		<date type="xs:date">198x-xx-xx</date>
+		<location>			
 			<country>U.S.A.</country>
 		</location>
 		<length>0:22:54</length>
 		<source></source>
-		<format></format>
+		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage></lineage>
 		<remarks>host: James Darren</remarks>
@@ -22733,5 +22801,181 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Gary Burton</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-12-07</date>
+		<location>
+			<show>L'invité du Dimanche</show>
+			<venue>ORTF TV Studios</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:12:08+0:05:20</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>B+</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>Robert Wyatt</artist>
+			<artist>Mike Ratledge</artist>
+			<artist>Hugh Hopper</artist>
+			<artist>Elton Dean</artist>			
+			<artist>Lyn Dobson</artist>
+			<artist>Nick Evans</artist>
+			<artist>Mark Charig</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-10-28</date>
+		<location>
+			<festival>Actual Jazz Festival</festival>
+			<venue></venue>
+			<city>Amougies</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:02:05</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>B+</quality>
+		<lineage></lineage>
+		<remarks>broadcast date: 1970-05-29</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>Robert Wyatt</artist>
+			<artist>Mike Ratledge</artist>
+			<artist>Hugh Hopper</artist>
+			<artist>Elton Dean</artist>			
+			<artist>Lyn Dobson</artist>
+			<artist>Nick Evans</artist>
+			<artist>Mark Charig</artist>
+		</artists>
+		<title>French TV midnipromo Amougies (Music Power - European Music Revolution) (1970)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-12-20</date>
+		<location>
+			<show>Est Panorama</show>
+			<venue></venue>
+			<city></city>
+			<country>France</country>
+		</location>
+		<length>0:04:32</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>B</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>Robert Wyatt</artist>
+			<artist>Mike Ratledge</artist>
+			<artist>Hugh Hopper</artist>
+		</artists>
+		<title></title>
+	</session>
+		<session av="A">
+			<date type="xs:date">1977-06-10</date>
+			<location>
+				<show>The Midnight Special</show>
+				<venue>NBC Studios</venue>
+				<city>Los Angeles CA</city>
+				<country>U.S.A.</country>
+			</location>
+			<length>1:01:46</length>
+			<source>VHS</source>
+			<format>flac</format>
+			<quality>B+</quality>
+			<lineage></lineage>
+			<remarks></remarks>
+			<artists>
+				<artist type="band" main="true">Various Arists</artist>
+				<artist type="band">Little Feat</artist>
+				<artist>Emmylou Harris</artist>
+				<artist>Bonnie Rait</artist>
+				<artist>Jesse Winchester</artist>
+				<artist>Norton Buffalo</artist>
+				<artist>Neil Young</artist>
+				<artist type="band" main="true">Weather Report</artist>
+				<artist>Joe Zawinul</artist>
+				<artist>Wayne Shorter</artist>
+				<artist>Jaco Pastorius</artist>
+				<artist>Manolo Badrena</artist>
+				<artist>Alex Acuna</artist>
+			</artists>
+			<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-06-10</date>
+		<location>
+			<show>The Midnight Special</show>
+			<venue>NBC Studios</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:49:42</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality>B-</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Arists</artist>
+			<artist type="band">Little Feat</artist>
+			<artist>Emmylou Harris</artist>
+			<artist>Bonnie Rait</artist>
+			<artist>Jesse Winchester</artist>
+			<artist>Norton Buffalo</artist>
+			<artist>Neil Young</artist>
+			<artist type="band" main="true">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Manolo Badrena</artist>
+			<artist>Alex Acuna</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-09-13</date>
+		<location>
+			<festival></festival>
+			<venue>Bataclan</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source station="ina.fr">DVD screen rec</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Larry Coryell</artist>				
+			<artist type="band">The Eleventh House</artist>
+			<artist>Randy Brecker</artist>
+			<artist>Alphonse Mouzon</artist>
+		</artists>
+		<title>POP2</title>
+	</session>
+	<session av="V">
+		<date type="xs:date"></date>
+		<location>
+			<festival></festival>
+			<venue></venue>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
