@@ -1368,6 +1368,7 @@
 		<location>
 			<festival>Jazz 625</festival>
 			<venue>BBC Television Theatre</venue>
+			<city>London</city>
 			<country>U.K.</country>
 		</location>
 		<length>0:56:53</length>
@@ -1391,6 +1392,7 @@
 		<location>
 			<festival>Jazz 625</festival>
 			<venue>BBC Television Theatre</venue>
+			<city>London</city>
 			<country>U.K.</country>
 		</location>
 		<length>27min</length>
@@ -1398,6 +1400,30 @@
 		<format>PAL</format>
 		<quality>C</quality>
 		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Charles Lloyd</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1964-05-12</date>
+		<location>
+			<festival>Jazz 625</festival>
+			<venue>BBC Television Theatre</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:56:10</length>
+		<source>TV</source>
+		<format>mono</format>
+		<quality></quality>
+		<lineage><![CDATA[AUDIO TAPE (BASF Cr90)>CDR>HDD>Flac]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Cannonball Adderley</artist>
@@ -9204,7 +9230,7 @@ file]]></lineage>
 		<source station="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>best pic quality, sound is muddy</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
@@ -9234,7 +9260,7 @@ file]]></lineage>
 		<source station="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist main="true">Billy Preston</artist>
@@ -9325,7 +9351,7 @@ file]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
+		<lineage trader="Lossless Legs"><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
@@ -9458,7 +9484,7 @@ file]]></lineage>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>C+</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>has simple DVD menu</remarks>
 		<artists>
 			<artist type="band">Utopia</artist>
@@ -9483,7 +9509,7 @@ file]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality></quality>
-		<lineage>TV > VHS > DVD > PC</lineage>
+		<lineage><![CDATA[TV > VHS > DVD > PC]]></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist type="band">Utopia</artist>
@@ -10159,7 +10185,7 @@ AC3@256 ]]></lineage>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
@@ -22677,7 +22703,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="FR3"></source>
 		<format>NTSC</format>
 		<quality>C+</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>2xDVD. re-encoded probably multiple times</remarks>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
@@ -22704,7 +22730,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>NTSC</format>
 		<quality>B-</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>stutters</remarks>
 		<artists>
 			<artist main="true">Tony Williams</artist>
@@ -22718,7 +22744,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
 		<location>
-			<festival></festival>
 			<venue>Record Theatre</venue>
 			<city>São Paulo</city>
 			<country>Brazil</country>
@@ -22727,7 +22752,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="channel 7">TV</source>
 		<format></format>
 		<quality>B-</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of DVD</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
@@ -22770,7 +22795,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>NTSC</format>
 		<quality>B</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>host: James Darren</remarks>
 		<artists>			
 			<artist main="true">Stevie Wonder</artist>
@@ -22790,7 +22815,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="WTTW">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
-		<lineage/>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks/>
 		<artists>			
 			<artist main="true">Chick Corea</artist>
@@ -22814,7 +22839,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>mpg</format>
 		<quality>B+</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist main="true" type="band">Soft Machine</artist>
@@ -22840,7 +22865,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>mpg</format>
 		<quality>B+</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks>broadcast date: 1970-05-29</remarks>
 		<artists>
 			<artist main="true" type="band">Soft Machine</artist>
@@ -22866,7 +22891,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>mpg</format>
 		<quality>B</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist main="true" type="band">Soft Machine</artist>
@@ -22888,7 +22913,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<source>VHS</source>
 			<format>flac</format>
 			<quality>B+</quality>
-			<lineage></lineage>
+			<lineage trader="Lossless Legs"></lineage>
 			<remarks></remarks>
 			<artists>
 				<artist type="band" main="true">Various Arists</artist>
@@ -22919,7 +22944,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source></source>
 		<format>NTSC</format>
 		<quality>B-</quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist type="band" main="true">Various Arists</artist>
@@ -22929,7 +22954,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Jesse Winchester</artist>
 			<artist>Norton Buffalo</artist>
 			<artist>Neil Young</artist>
-			<artist type="band" main="true">Weather Report</artist>
+			<artist type="band">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Jaco Pastorius</artist>
@@ -22950,7 +22975,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="ina.fr">DVD screen rec</source>
 		<format>NTSC</format>
 		<quality></quality>
-		<lineage></lineage>
+		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>				
@@ -22959,6 +22984,335 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Alphonse Mouzon</artist>
 		</artists>
 		<title>POP2</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1975-77</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>121mins</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Arists</artist>
+			<artist type="band">The Bee Gees</artist>
+			<artist>Edgar Winter</artist>
+			<artist>Bay City Rollers</artist>
+			<artist>Chaka Khan</artist>
+			<artist>Billy Joel</artist>
+			<artist>Michelle Phillip</artist>
+			<artist>Tom Waits </artist>
+			<artist>Brian Wilson</artist>
+			<artist>Patti Smith</artist>
+			<artist>The Jackson 5</artist>
+			<artist>Stevie Wonder</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-02-15</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:19:30</length>
+		<source station="VH1">TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>interview</remarks>
+		<artists>			
+			<artist main="true">Stevie Wonder</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-01-08</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:15:06</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true" type="band">The Jackson 5</artist>
+			<artist>Michael Jackson</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-01-19</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:16:21</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Patti Smith</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-12-08</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:02:12</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Brian Wilson</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-11-19</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:08:55</length>
+		<source station="VH1">TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Tom Waits</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-08-24</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:03:04</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Michelle Philips</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-08-09</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:19:15</length>
+		<source station="VH1">TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Billy Joel</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-04-23</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:11:54</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
+		<artists>			
+			<artist main="true" type="band">Bay City Rollers</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-04-23</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:08:18</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
+		<artists>			
+			<artist main="true">Chaka Khan</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1975-12-12</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:04:24</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>time code</remarks>
+		<artists>			
+			<artist main="true">Edgar Winter</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+	<date type="xs:date">1975-08-21</date>
+	<location>
+		<show>The Mike Douglas Show</show>
+		<venue></venue>
+		<city></city>
+		<country>U.S.A.</country>
+	</location>
+	<length>0:08:31</length>
+	<source>TV</source>
+	<format>NTSC</format>
+	<quality>B</quality>
+	<lineage trader="Bruce Remy"></lineage>
+	<remarks>time code</remarks>
+	<artists>			
+		<artist main="true" type="band">The Beegees</artist>
+	</artists>
+	<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1965-11-03</date>
+		<location>
+			<festival>Paris Jazz Festival</festival>
+			<venue>Salle de la Mutualité</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:21:27</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>A-</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Lennie Tristano</artist>
+			<artist type="band">Jean-Claude Naude Big Band</artist>
+			<artist>Jean-Claude Naude</artist>
+			<artist>Gérard Badini</artist>
+			<artist>Dominique Chanson</artist>
+			<artist>Claude Gousset</artist>
+			<artist>Charles Orieux</artist>
+			<artist>Bill Tamper</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1965-11-03</date>
+		<location>
+			<festival>Paris Jazz Festival</festival>
+			<venue>Salle de la Mutualité</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>9min</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>A-</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Lennie Tristano</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-1979</date>
+		<location>
+			<festival></festival>
+			<venue></venue>
+			<city></city>
+			<country>France</country>
+		</location>
+		<length>2:05:59</length>
+		<source></source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<artist>Stan Getz</artist>
+		</artists>
+		<title>French TV Jazz Rarities 1969-79</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2015-07-11</date>
+		<location>
+			<festival></festival>
+			<venue>Théatre de Verdure</venue>
+			<city>Nice</city>
+			<country>France</country>
+		</location>
+		<length>0:54:39</length>
+		<source>FM</source>
+		<format></format>
+		<quality>A</quality>
+		<lineage><![CDATA[TSF, FM / Naim Uniti / RH-09R / Audacity / Xact / Flac]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Jason Moran</artist>
+			<artist>Lisa E. Harris</artist>
+			<artist>Leron Thomas</artist>
+			<artist>Tarus Mateen</artist>
+			<artist>Charles Haynes</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session av="V">
 		<date type="xs:date"></date>
