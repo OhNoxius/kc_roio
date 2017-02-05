@@ -4155,7 +4155,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	<session id="id0x4acfef0" av="V">
 		<date type="xs:date">1972-03-23</date>
 		<location>
-			<festival>Jazz Harmonie</festival>
+			<show>Jazz Harmonie</show>
 			<venue>Studio Joinville le Pont</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -4180,7 +4180,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	<session id="id0x4ad0490" av="V">
 		<date type="xs:date">1972-03-23</date>
 		<location>
-			<festival>Jazz Harmonie</festival>
+			<show>Jazz Harmonie</show>
 			<venue>Studio Joinville le Pont</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -23313,6 +23313,70 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Charles Haynes</artist>
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-1979</date>
+		<location>			
+			<country>France</country>
+		</location>
+		<length>2:05:59</length>
+		<source></source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<artist type="band">Michel Legrand Big Band</artist>
+			<artist>Stan Getz</artist>
+			<artist>Michel Legrand</artist>
+			<artist>Georges Arvanitas</artist>
+			<artist type="band"><![CDATA[Flora Purim & Stan Getz Quartet]]></artist>
+			<artist>Flora Purim</artist>
+			<artist>Stan Getz</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Stanley Cowell</artist>
+			<artist type="band"><![CDATA[Stan Getz Quartet]]></artist>			
+			<artist>Stan Getz</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Stanley Cowell</artist>
+			<artist type="band"><![CDATA[Stan Getz Quartet]]></artist>			
+			<artist>Stan Getz</artist>
+			<artist>Eddy Louiss</artist>
+			<artist>René Thomas</artist>
+			<artist>Bernard Lubat</artist>
+			<artist type="band">Gary Burton Quartet</artist>
+			<artist>Gary Burton</artist>
+			<artist>Dave Pritchard</artist>
+			<artist>Steve Swallow</artist>
+			<artist>Bill Goodwin</artist>
+			<artist type="band"><![CDATA[Larry Coryell & Philip Catherine]]></artist>
+			<artist>Larry Coryell</artist>
+			<artist>Philip Catherine</artist>
+			<artist type="band"><![CDATA[John McLaughlin & Paco de Lucia]]></artist>
+			<artist>John McLaughlin</artist>
+			<artist>Paco de Lucia</artist>
+			<artist type="band">The Guitar Quartet</artist>
+			<artist>Larry Coryell</artist>
+			<artist>Philip Catherine</artist>
+			<artist>John McLaughlin</artist>
+			<artist>Paco de Lucia</artist>
+			<artist type="band">Mwandishi</artist>
+			<artist main="true">Herbie Hancock</artist>
+			<artist>Bennie Maupin</artist>
+			<artist>Eddie Henderson</artist>
+			<artist>Julian Priester</artist>
+			<artist>Buster Williams</artist>
+			<artist>Billy Hart</artist>
+			<artist type="band">Circle</artist>
+			<artist>Chick Corea</artist>
+			<artist>Anthony Braxton</artist>
+			<artist>Dave Holland</artist>
+			<artist>Barry Altschul</artist>			
+		</artists>
+		<title>French TV Jazz Rarities 1969-1979</title>
 	</session>
 	<session av="V">
 		<date type="xs:date"></date>
