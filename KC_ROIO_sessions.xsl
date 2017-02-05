@@ -25,10 +25,9 @@
 					<xsl:sort select="date" order="ascending"/>
 				</xsl:apply-templates>-->
 
-				<!--<xsl:apply-templates select="//session[artists/* = $chooseParameter]">-->
-				<xsl:apply-templates select="//session[artists//artist = $chooseParameter]">
+				<xsl:apply-templates select="//session[artists/* = $chooseParameter]">
 					<xsl:sort select="date" order="ascending"/>
-				<!--</xsl:apply-templates>-->
+				</xsl:apply-templates>
 			</tbody>
 
 		</table>
