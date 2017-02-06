@@ -8,7 +8,7 @@
 			<country>Belgium</country>
 		</location>
 		<length>0:18:55</length>
-		<source station="RTBF">TV</source>
+		<source channel="RTBF">TV</source>
 		<format>VCD NTSC</format>
 		<quality/>
 		<lineage></lineage>
@@ -504,7 +504,7 @@
 			<country>Norway</country>
 		</location>
 		<length>0:34:27</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07007574/05-08-1974]]></lineage>
@@ -1257,7 +1257,7 @@
 			<country>Germany</country>
 		</location>
 		<length>0:08:36</length>
-		<source station="WDR">TV</source>
+		<source channel="WDR">TV</source>
 		<format>PAL</format>
 		<quality>B</quality>
 		<lineage/>
@@ -1498,7 +1498,7 @@
 		<title/>
 	</session>
 	<session id="id0x12fbef0" av="V">
-		<date type="xs:date">1974-xx-xx</date>
+		<date type="xs:date">1974-12-13</date>
 		<location>
 			<festival>The Midnight Special</festival>
 			<country>U.S.A.</country>
@@ -1606,7 +1606,7 @@
 			<country>Norway</country>
 		</location>
 		<length>0:07:00</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format/>
 		<quality>A</quality>
 		<lineage/>
@@ -2574,7 +2574,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 	<session id="id0x284a760" av="V">
 		<date type="xs:date">1973-01-10</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -2774,7 +2774,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:47:57</length>
-		<source station="1Plus">TV</source>
+		<source channel="1Plus">TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage><![CDATA[VHS(x) > unknown device > DVDR]]></lineage>
@@ -3343,7 +3343,7 @@ Recorder]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:01:10</length>
-		<source station="Mezzo">TV</source>
+		<source channel="Mezzo">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -3419,7 +3419,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source station="VPRO">TV</source>
+		<source channel="VPRO">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -3462,7 +3462,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.K.</country>
 		</location>
 		<length>00:34:46</length>
-		<source station="VPRO">TV</source>
+		<source channel="VPRO">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage><![CDATA[From digital cable receiver, analog out to Hard disc recorder (Kiss DP558) recorded in MPEG2 best quality, over local network uploaded to computer, converted VOB to MPEG2 in VIDEOREDO, clipped in Studio saved as DV, recoded to MPEG2 in TMPEGenc masking 6 toplines to get rid of noise along the edge, authored in TMPEGauthor.]]></lineage>
@@ -3485,7 +3485,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:54:30</length>
-		<source station="VPRO">TV</source>
+		<source channel="VPRO">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -5624,7 +5624,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Norway</country>
 		</location>
 		<length>0:19:55</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/program/FTEM00006669/jazz-med-keith-jarrett-trio]]></lineage>
@@ -5642,7 +5642,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>France</country>
 		</location>
 		<length>0:03:52</length>
-		<source station="INA">web</source>
+		<source channel="INA">web</source>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[http://www.ina.fr/video/I07206245]]></lineage>
@@ -5749,7 +5749,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Norway</country>
 		</location>
 		<length>00:43:22</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/jazz/FBUA07004474/06-05-1974&#xA;&#xD;https://tv.nrk.no/serie/jazz/FBUA07005174/13-05-1974]]></lineage>
@@ -6166,7 +6166,7 @@ DUB!!!]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>1:29:55</length>
-		<source station="WDR">TV</source>
+		<source channel="WDR">TV</source>
 		<format>PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[WDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV
@@ -6883,7 +6883,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>0:30:19</length>
-		<source station="RAISAT">TV</source>
+		<source channel="RAISAT">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage><![CDATA[RAISAT Album Broadcast > ??? > DVD > TMPGEnc Authoring Works 4 >
@@ -6906,7 +6906,7 @@ dime]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>0:36:07</length>
-		<source station="RAISAT">TV</source>
+		<source channel="RAISAT">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage><![CDATA[RAISAT Album Broadcast > ??? > DVD]]></lineage>
@@ -6994,7 +6994,7 @@ dime]]></lineage>
 			<country>Belgium</country>
 		</location>
 		<length>0:01:47</length>
-		<source station="VRT Cobra">web</source>
+		<source channel="VRT Cobra">web</source>
 		<format/>
 		<quality/>
 		<lineage><![CDATA[http://cobra.be/cm/cobra/videozone/dagopdag2013/november2013/1.1770722]]></lineage>
@@ -7229,7 +7229,7 @@ dime]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:58:19</length>
-		<source station="einsfestival*">DVB</source>
+		<source channel="einsfestival*">DVB</source>
 		<format>PAL</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[EinsFestival > TT S2-3200 > DVB Viewer > DVD Maestro]]></lineage>
@@ -7254,7 +7254,7 @@ dime]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:58:41</length>
-		<source station="WDR">DVB</source>
+		<source channel="WDR">DVB</source>
 		<format>PAL</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[Re-Broadcast 04. July 2011 WDR "Jazzline" ==> Digital HD tuner ==> Harddisc
@@ -7381,7 +7381,7 @@ file]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>1:22:05</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>720p</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -7958,7 +7958,7 @@ file]]></lineage>
 			<festival>The Nat King Cole Show (25 episodes)</festival>
 		</location>
 		<length/>
-		<source station="MUZZIK">SatTV</source>
+		<source channel="MUZZIK">SatTV</source>
 		<format>XviD</format>
 		<quality/>
 		<lineage><![CDATA[[MUZZIK SatTV Rip] 384x288 MJPEG converted to XviD(21:29 min., French
@@ -8109,7 +8109,7 @@ Subs)]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>0:42:43</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -8383,7 +8383,7 @@ Subs)]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:57:02</length>
-		<source station="Mezzo liveHD">HDTV</source>
+		<source channel="Mezzo liveHD">HDTV</source>
 		<format>HDV 1080i</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -8429,7 +8429,7 @@ Subs)]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:55:18</length>
-		<source station="Mezzo liveHD">HDTV</source>
+		<source channel="Mezzo liveHD">HDTV</source>
 		<format>HDV 1080i</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -8451,7 +8451,7 @@ Subs)]]></lineage>
 			<country>The Netherlands</country>
 		</location>
 		<length>0:35:06</length>
-		<source station="ntr:">TV</source>
+		<source channel="ntr:">TV</source>
 		<format>PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[DVBroadcast(ntr:)>Thomson DC/62UPC>Scart>Philips
@@ -8635,7 +8635,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:54:40</length>
-		<source station="KQED HD">DTV</source>
+		<source channel="KQED HD">DTV</source>
 		<format>1080i</format>
 		<lineage><![CDATA[ATSC broadcast > VBox DTA-150 > TSReader (record) > VideoReDo Plus (scene
 selection) > transport stream]]></lineage>
@@ -8924,7 +8924,7 @@ selection) > transport stream]]></lineage>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<source station="BBC Four">DVB</source>
+		<source channel="BBC Four">DVB</source>
 		<format>PAL</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[BBC Four broadcast 2012-02-17 > DVB-S > Hauppauge WinTV > DVBviewer >
@@ -8963,7 +8963,7 @@ file]]></lineage>
 	<session id="id0x5bb8950" av="V">
 		<date type="xs:date">1973-01-13</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -9161,13 +9161,13 @@ file]]></lineage>
 	<session id="id0x5c3e4e0" av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>58min</length>
-		<source station="WNET">TV</source>
+		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage/>
@@ -9191,13 +9191,13 @@ file]]></lineage>
 	<session id="id0x5ccdcc0" av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:57:32</length>
-		<source station="WNET">TV</source>
+		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Unkown VHS/Samsung r 130/you]]></lineage>
@@ -9221,13 +9221,13 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:59:00</length>
-		<source station="WNET">TV</source>
+		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -9251,13 +9251,13 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1973-02-28</date>
 		<location>
-			<festival>SOUL!</festival>
+			<show>SOUL!</show>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:59:00</length>
-		<source station="WNET">TV</source>
+		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -9368,7 +9368,7 @@ file]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:30:50</length>
-		<source station="VH1">TV</source>
+		<source channel="VH1">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage/>
@@ -10043,7 +10043,7 @@ AC3@256 ]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>0:40:15</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format/>
 		<quality>A</quality>
 		<lineage/>
@@ -10257,7 +10257,7 @@ AC3@256 ]]></lineage>
 			<country>Denmark</country>
 		</location>
 		<length>0:28:49</length>
-		<source station="DR2">TV</source>
+		<source channel="DR2">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -10282,7 +10282,7 @@ AC3@256 ]]></lineage>
 			<country>Denmark</country>
 		</location>
 		<length/>
-		<source station="DR2">TV</source>
+		<source channel="DR2">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -10302,7 +10302,7 @@ AC3@256 ]]></lineage>
 			<country>Denmark</country>
 		</location>
 		<length/>
-		<source station="DR2">TV</source>
+		<source channel="DR2">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -11426,7 +11426,7 @@ AC3@256 ]]></lineage>
 			<country>Belgium</country>
 		</location>
 		<length>0:01:40</length>
-		<source station="VRT Cobra">web</source>
+		<source channel="VRT Cobra">web</source>
 		<format/>
 		<quality>A</quality>
 		<lineage/>
@@ -13513,7 +13513,7 @@ HELPER> flac (level 8)]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>0:07:50</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format/>
 		<quality/>
 		<lineage/>
@@ -13609,7 +13609,7 @@ HELPER> flac (level 8)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:08:09</length>
-		<source station="WBCN-FM">FM</source>
+		<source channel="WBCN-FM">FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM > Bootleg Album > CDR > EAC > FLAC FRONT END]]></lineage>
@@ -13635,7 +13635,7 @@ HELPER> flac (level 8)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:05:24</length>
-		<source station="WBCN-FM">FM</source>
+		<source channel="WBCN-FM">FM</source>
 		<format/>
 		<quality>B++</quality>
 		<lineage><![CDATA[WBCN broadcast > CD in trade > EAC > SoundForge 7.0 > FLAC Frontend
@@ -13662,7 +13662,7 @@ HELPER> flac (level 8)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:03:11</length>
-		<source station="WBCN-FM">FM</source>
+		<source channel="WBCN-FM">FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[WBCN FM>Sony R2R 7"reel @ 7.5ips No Dolby MR>Akai 6X4000-D>Numark
@@ -13689,7 +13689,7 @@ EQ>HHB CDR830]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:05:28</length>
-		<source station="WBCN-FM">FM</source>
+		<source channel="WBCN-FM">FM</source>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[trade CD-R ripped with EAC converted to FLAC with TLH]]></lineage>
@@ -21496,7 +21496,7 @@ correction)>FLAC]]></lineage>
 			<country>U.K.</country>
 		</location>
 		<length>0:57:48</length>
-		<source station="BBC">PAL</source>
+		<source channel="BBC">PAL</source>
 		<format/>
 		<quality>A+</quality>
 		<lineage><![CDATA[BBCFour DVB-C Tivo>LG stand alone DVD rec>PC>Authored using Magix
@@ -21565,7 +21565,7 @@ MEP.]]></lineage>
 			<country>Canada</country>
 		</location>
 		<length>0:27:58</length>
-		<source station="CBC">AVC</source>
+		<source channel="CBC">AVC</source>
 		<format>720p</format>
 		<quality/>
 		<lineage><![CDATA[Source: CBC TV (Canada) broadcast]]></lineage>
@@ -21778,7 +21778,7 @@ level 5]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>0:21:35</length>
-		<source station="RAIDUE">TV</source>
+		<source channel="RAIDUE">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -21860,7 +21860,7 @@ level 5]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>0:30:11</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>720p</format>
 		<quality/>
 		<lineage/>
@@ -21941,7 +21941,7 @@ level 5]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>0:38:55</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/musikk-midt-i-middagshvilen/FBUA07001575/21-04-1975]]></lineage>
@@ -21964,7 +21964,7 @@ level 5]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:38:55</length>
-		<source station="BBC">web</source>
+		<source channel="BBC">web</source>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[BBC 320k AAC > i-Stream recorder (44.1k wav)/Adobe Audition&lt;Tracks>phase
@@ -21988,7 +21988,7 @@ correction>fades>Flac]]></lineage>
 			<country>Norway</country>
 		</location>
 		<length>01:55:07</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS10001189/25-08-1989
@@ -22011,7 +22011,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:46:29</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22029,7 +22029,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:50:57</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22047,7 +22047,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:36:59</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22069,7 +22069,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>01:08:42</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22090,7 +22090,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:36:37</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22112,7 +22112,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:41:11</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22134,7 +22134,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:38:58</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22155,7 +22155,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:51:45</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22177,7 +22177,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:40:31</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22197,7 +22197,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Sweden</country>
 		</location>
 		<length>00:18:25</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22219,7 +22219,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Germany</country>
 		</location>
 		<length>00:39:07</length>
-		<source station="SWR">TV</source>
+		<source channel="SWR">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -22261,7 +22261,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:41:17</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage/>
@@ -22284,7 +22284,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Norway</country>
 		</location>
 		<length>00:32:52</length>
-		<source station="NRK">web</source>
+		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07006571/05-08-1971]]></lineage>
@@ -22405,7 +22405,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1992-xx-xx</date>
 		<location/>
 		<length>00:57:01</length>
-		<source station="nps cultura 24">TV</source>
+		<source channel="nps cultura 24">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-C(NPS)>Thomson DC/62UPC>Scart cable>Philips DVDR3600>DVD>PC. Additional editing: TMPGEnc DVD Author 1.6 (menu/5 min chapters)]]></lineage>
@@ -22425,7 +22425,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Germany</country>
 		</location>
 		<length>00:52:04</length>
-		<source station="ARTE concert">web</source>
+		<source channel="ARTE concert">web</source>
 		<format>720p</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[]]></lineage>
@@ -22469,7 +22469,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Germany</country>
 		</location>
 		<length>01:02:07</length>
-		<source station="WDR">TV</source>
+		<source channel="WDR">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[dvd > dvd trade > dime]]></lineage>
@@ -22492,7 +22492,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Italy</country>
 		</location>
 		<length>0:15:13</length>
-		<source station="RAITRE">TV</source>
+		<source channel="RAITRE">TV</source>
 		<format>NTSC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Rai 3 re-broadcast > Panasonic VHS recorder > Sony DVD recorder > HDD > AVS Video Converter > MPEG file]]></lineage>
@@ -22587,7 +22587,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Italy</country>
 		</location>
 		<length>0:54:01</length>
-		<source station="RAI Doc">TV</source>
+		<source channel="RAI Doc">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage/>
@@ -22700,7 +22700,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>1:36:05+1:10:36</length>
-		<source station="FR3"></source>
+		<source channel="FR3"></source>
 		<format>NTSC</format>
 		<quality>C+</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -22749,7 +22749,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Brazil</country>
 		</location>
 		<length>0:47:14</length>
-		<source station="channel 7">TV</source>
+		<source channel="channel 7">TV</source>
 		<format></format>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -22771,7 +22771,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country></country>
 		</location>
 		<length></length>
-		<source station="BBC"></source>
+		<source channel="BBC"></source>
 		<format></format>
 		<quality></quality>
 		<lineage></lineage>
@@ -22812,7 +22812,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:58:36</length>
-		<source station="WTTW">TV</source>
+		<source channel="WTTW">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -22972,7 +22972,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>France</country>
 		</location>
 		<length></length>
-		<source station="ina.fr">DVD screen rec</source>
+		<source channel="ina.fr">DVD screen rec</source>
 		<format>NTSC</format>
 		<quality></quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -23024,7 +23024,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:19:30</length>
-		<source station="VH1">TV</source>
+		<source channel="VH1">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -23101,7 +23101,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:08:55</length>
-		<source station="VH1">TV</source>
+		<source channel="VH1">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -23139,7 +23139,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:19:15</length>
-		<source station="VH1">TV</source>
+		<source channel="VH1">TV</source>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"></lineage>
@@ -23320,7 +23320,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>France</country>
 		</location>
 		<length>2:05:59</length>
-		<source></source>
+		<source channel="ina.fr"></source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage></lineage>
@@ -23377,6 +23377,87 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Barry Altschul</artist>			
 		</artists>
 		<title>French TV Jazz Rarities 1969-1979</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-12-29</date>
+		<location>
+			<show>SOUL!</show>
+			<venue>WNET</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:58:48</length>
+		<source channel="WNET">TV</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>VHS timecode</remarks>
+		<artists>
+			<artist main="true">Various Artists</artist>
+			<artist>Mae Jackson</artist>
+			<artist type="band">Bill Withers</artist>
+			<artist>Bill Withers</artist>
+			<artist>Bernorce Blackman</artist>
+			<artist>Melvin Dunlap</artist>
+			<artist>James Gadson</artist>
+			<artist>Mike Stokes</artist>
+			<artist>McCoy Tyner Quartet</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Sonny Fortune</artist>
+			<artist>Calvin Hill</artist>
+			<artist>Alphonse Mouzon</artist>			
+		</artists>
+		<title>Soul! Season 4 Episode 36</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-1989</date>
+		<location>			
+			<venue></venue>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:18:16+1:27:31</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) - Soul Train ’74; 3. You Got The Love - Soul train ’74; 4. Fools Paradise - Soul Train ’75; 5. Medley - Soul Train ’75; 6. Once You Get Started - TopPop ’75; 7. You’re Welcome, Stop On By - Mike Douglas ’75; 8. Sweet Thing - Soul Train ’76; 9. Dance With Me (medley) - Soul Train ’75; 10. Chaka Khan - I Wish You Love - Mike Douglas ’76; 11. Rufus - At Midnight - ’77 video; 12. CK - Do You Love What You Feel - ’79 video; 13. R - Any Love - Mike Douglas ’80; (14 - 21 CK) 14. I’m Every Woman - video ’78; 15. What Cha’ Gonna Do For Me - TopPop ’80; 16. We Can Work It Out - Tomorrow Show ’81; 17. I Know You, I Live You - Tom Jones Show ’81; 18. I Feel For You - video ’84; 19. This Is My Night - TopPop ’85; 20. Love Of A Lifetime - video ’86; 21. Ain’t Nobody - TOTP ’89;</remarks>
+		<artists>
+			<artist main="true">Chaka Khan</artist>
+			<artist type="band">Rufus</artist>
+		</artists>
+		<title>Chaka Khan - Forever Hits (2xDVD)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2000-02-01</date>
+		<location>
+			<festival></festival>
+			<venue></venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source channel="VH1"></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Steely Dan</artist>
+			<artist>Carolyn Leon</artist>
+			<artist>Victoria Cave</artist>
+			<artist>Tom Barney</artist>
+			<artist>Ricky Lawson</artist>
+			<artist>Jon Herington</artist>
+			<artist>Walter Becker</artist>
+			<artist>Ted Baker</artist>
+			<artist>Chris Potter</artist>
+			<artist>Cornelius Bumpus</artist>
+			<artist>Jim Pugh</artist>
+			<artist>Michael Leonhart</artist>
+			<artist>Donald Fagen</artist>
+		</artists>
+		<title>VH1 Storytellers (S05E01)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date"></date>
