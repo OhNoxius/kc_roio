@@ -1187,7 +1187,7 @@
 		<date type="xs:date">1960-xx-xx</date>
 		<location>
 			<festival>Newport Jazz Festival</festival>
-			<city>Newport</city>
+			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:09:00</length>
@@ -4992,7 +4992,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<date type="xs:date">1969-xx-xx</date>
 		<location>
 			<festival>Newport Pop Festival</festival>
-			<city>Newport</city>
+			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>21min</length>
@@ -6092,25 +6092,7 @@ DUB!!!]]></lineage>
 			<artist main="true">Larry Coryell</artist>
 		</artists>
 		<title/>
-	</session>
-	<session id="id0x53e9030" av="V">
-		<date type="xs:date">1979-xx-xx</date>
-		<location>
-			<city>Paris</city>
-			<country>France</country>
-		</location>
-		<length>0:02:28</length>
-		<source>TV</source>
-		<format>PAL</format>
-		<quality>B</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Larry Coryell</artist>
-			<artist>Philip Catherine</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session id="id0x53e9710" av="V">
 		<date type="xs:date">1991-11-19+20</date>
 		<location>
@@ -7936,7 +7918,7 @@ file]]></lineage>
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
 			<festival>Dial M for Music</festival>
-			<country>U.S.A.b</country>
+			<country>U.S.A.</country>
 		</location>
 		<length>0:14:33</length>
 		<source>TV</source>
@@ -8802,7 +8784,7 @@ selection) > transport stream]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Soft Machine</artist>
+			<artist main="true" type="band">Soft Machine</artist>
 			<artist>Karl Jenkins</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>John Marshall</artist>
@@ -8822,7 +8804,7 @@ selection) > transport stream]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Soft Machine</artist>
+			<artist main="true" type="band">Soft Machine</artist>
 			<artist>Karl Jenkins</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Allan Holdsworth</artist>
@@ -8846,7 +8828,7 @@ selection) > transport stream]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Soft Machine</artist>
+			<artist main="true" type="band">Soft Machine</artist>
 			<artist>Karl Jenkins</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Allan Holdsworth</artist>
@@ -10125,30 +10107,6 @@ AC3@256 ]]></lineage>
 		</artists>
 		<title>Live in Berlin 1975</title>
 	</session>
-	<session id="id0x79d8a90" av="V">
-		<date type="xs:date">1977-06-10</date>
-		<location>
-			<show>The Midnight Special</show>
-			<venue>NBC Studios</venue>
-			<city>Los Angeles CA</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>0:04:32</length>
-		<source>TV</source>
-		<format>mpg</format>
-		<quality>C+</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band" main="true">Weather Report</artist>
-			<artist>Joe Zawinul</artist>
-			<artist>Wayne Shorter</artist>
-			<artist>Jaco Pastorius</artist>
-			<artist>Manolo Badrena</artist>
-			<artist>Alex Acuna</artist>
-		</artists>
-		<title>The Midnight Special 1977: Teen Town</title>
-	</session>
 	<session id="id0x79d8e50" av="V" official="true">
 		<date type="xs:date">1977-06-10</date>
 		<location>
@@ -10186,7 +10144,7 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"></lineage>
-		<remarks/>
+		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in Adobe Audition and synced with video</remarks>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -15154,6 +15112,8 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<date type="xs:date">1966-07-02</date>
 		<location>
 			<festival>Newport Jazz Festival</festival>
+			<city>Newport RI</city>
+			<city>U.S.A.</city>
 		</location>
 		<length/>
 		<source/>
@@ -22856,7 +22816,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1969-10-28</date>
 		<location>
-			<festival>Actual Jazz Festival</festival>
+			<festival>Actuel Jazz Festival</festival>
 			<venue></venue>
 			<city>Amougies</city>
 			<country>Belgium</country>
@@ -22877,7 +22837,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Nick Evans</artist>
 			<artist>Mark Charig</artist>
 		</artists>
-		<title>French TV midnipromo Amougies (Music Power - European Music Revolution) (1970)</title>
+		<title>French news item Amougies (Music Power - European Music Revolution) (1970)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1969-12-20</date>
@@ -22894,12 +22854,270 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+			<artist>Mike Ratledge</artist>
+			<artist>John Marshall</artist>
+			<artist>Hugh Hopper</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-01-15</date>
+		<location>
+			<show>Stop Pop</show>
+			<venue>Theatre 140</venue>
+			<city>Brussels</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:30:34</length>
+		<source channel="RTB"></source>
+		<format>mpg</format>
+		<quality>B+</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>broadcast date: 1971-07-31</remarks>
+		<artists>
 			<artist main="true" type="band">Soft Machine</artist>
 			<artist>Robert Wyatt</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Hugh Hopper</artist>
+			<artist>Elton Dean</artist>	
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-08-06</date>
+		<location>
+			<festival>Estival</festival>
+			<venue>Salle des Sports</venue>
+			<city>La Rochelle</city>
+			<country>France</country>
+		</location>
+		<length>0:06:56</length>
+		<source channel="RTB"></source>
+		<format>mpg</format>
+		<quality>B+</quality>
+		<lineage trader="Bruce Remy"></lineage>
+		<remarks>filename: 1972.05.05. JT MONTPELLIER?</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>Robert Wyatt</artist>
+			<artist>Mike Ratledge</artist>
+			<artist>Hugh Hopper</artist>
+			<artist>Karl Jenkins</artist>	
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-xx-xx</date>
+		<location>			
+			<venue></venue>
+			<city></city>
+			<country>Italy</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-06-02</date>
+		<location>			
+			<venue>UFO Club</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-09-xx</date>
+		<location>			
+			<show>Hoepla</show>
+			<city></city>
+			<country>The Netherlands</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-11-xx</date>
+		<location>			
+			<venue></venue>
+			<city></city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1968-xx-xx</date>
+		<location>			
+			<venue></venue>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-xx-xx</date>
+		<location>			
+			<show>Bouton Rouge</show>
+			<city></city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-xx-xx</date>
+		<location>			
+			<festival>Bilzen Jazz Festival</festival>
+			<city>Bilzen</city>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1970-06-26_28</date>
+		<location>			
+			<festival>Kralingen Pop Festival</festival>
+			<venue>Kralingse Bos</venue>
+			<city>Kralingen</city>
+			<country>The Netherlands</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1970-xx-xx</date>
+		<location>			
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-xx-xx</date>
+		<location>		
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>documentary</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>		
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-03-27</date>
+		<location>			
+			<show>Beat-Club</show>
+			<venue></venue>
+			<city></city>
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>Beat-Club S06E07</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-xx-xx</date>
+		<location>			
+			<venue></venue>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 		<session av="A">
 			<date type="xs:date">1977-06-10</date>
@@ -23270,27 +23488,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Lennie Tristano</artist>
 		</artists>
 		<title></title>
-	</session>
-	<session av="V">
-		<date type="xs:date">1969-1979</date>
-		<location>
-			<festival></festival>
-			<venue></venue>
-			<city></city>
-			<country>France</country>
-		</location>
-		<length>2:05:59</length>
-		<source></source>
-		<format>PAL</format>
-		<quality>A</quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist>Stan Getz</artist>
-		</artists>
-		<title>French TV Jazz Rarities 1969-79</title>
-	</session>
+	</session>	
 	<session av="V">
 		<date type="xs:date">2015-07-11</date>
 		<location>
@@ -23379,6 +23577,66 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title>French TV Jazz Rarities 1969-1979</title>
 	</session>
 	<session av="V">
+		<date type="xs:date">1979-06-01</date>
+		<location>
+			<show>Chorus</show>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source channel="ina.fr"></source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">The Guitar Quartet</artist>
+			<artist>Larry Coryell</artist>
+			<artist>Philip Catherine</artist>
+			<artist>John McLaughlin</artist>
+			<artist>Paco de Lucia</artist>
+		</artists>		
+		<title>French TV Jazz Rarities 1969-1979</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-06-01</date>
+		<location>
+			<show>Chorus</show>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source channel="ina.fr"></source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist>John McLaughlin</artist>
+			<artist>Paco de Lucia</artist>
+		</artists>		
+		<title>French TV Jazz Rarities 1969-1979</title>
+	</session>
+	<session id="id0x53e9030" av="V">
+		<date type="xs:date">1979-06-01</date>
+		<location>
+			<show>Chorus</show>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>3min</length>
+		<source channel="ina.fr"></source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Larry Coryell</artist>
+			<artist>Philip Catherine</artist>
+		</artists>		
+		<title>French TV Jazz Rarities 1969-1979</title>
+	</session>
+	<session av="V">
 		<date type="xs:date">1971-12-29</date>
 		<location>
 			<show>SOUL!</show>
@@ -23431,12 +23689,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">2000-02-01</date>
 		<location>
-			<festival></festival>
+			<show>VH1 Storytellersne</show>
 			<venue></venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length>45min</length>
 		<source channel="VH1"></source>
 		<format>NTSC</format>
 		<quality></quality>
@@ -23458,6 +23716,99 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Donald Fagen</artist>
 		</artists>
 		<title>VH1 Storytellers (S05E01)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1966-07-02</date>
+		<location>
+			<festival>Newport Jazz Festival</festival>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:58:37</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Various Artists</artist>
+			<artist>Bobby Hackett</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Clark Terry</artist>
+			<artist>Ruby Braff</artist>
+			<artist>Henry Red Allen</artist>
+			<artist>George Benson</artist>
+			<artist>Charlie Byrd</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1993-08-14</date>
+		<location>
+			<festival>Newport Jazz Festival</festival>
+			<venue></venue>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:49:33</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality>A-</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Joshua Redman</artist>
+			<artist>Brad Mehldau</artist>
+			<artist>Christian McBride</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2001-08-12</date>
+		<location>
+			<festival>Newport Jazz Festival</festival>
+			<venue></venue>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:17</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Wayne Shorter Quartet</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2008-08-09</date>
+		<location>
+			<festival>Newport Jazz Festival</festival>
+			<venue></venue>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:57:23</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Wayne Shorter Quartet</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session av="V">
 		<date type="xs:date"></date>
