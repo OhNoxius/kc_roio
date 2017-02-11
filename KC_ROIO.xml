@@ -1926,28 +1926,7 @@ file]]></lineage>
 			<artist>Roy Haynes</artist>
 		</artists>
 		<title/>
-	</session>
-	<session id="id0x13deae0" av="V">
-		<date type="xs:date">1982-12-05</date>
-		<location>
-			<festival>In Performance at The White House</festival>
-			<venue>The White House</venue>
-			<city>Washington DC</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>0:58:52</length>
-		<source>TV</source>
-		<format>NTSC</format>
-		<quality>B</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Chick Corea</artist>
-			<artist>Miroslav Vitous</artist>
-			<artist>Roy Haynes</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session id="id0x13def40" av="V">
 		<date type="xs:date">1986-xx-xx</date>
 		<location/>
@@ -2496,28 +2475,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<artist>James Moody</artist>
 		</artists>
 		<title/>
-	</session>
-	<session id="id0x2849b30" av="V">
-		<date type="xs:date">1982-12-05</date>
-		<location>
-			<festival>In Performance at The White House</festival>
-			<venue>The White House</venue>
-			<city>Washington DC</city>
-		</location>
-		<length>0:58:52</length>
-		<source>TV</source>
-		<format>NTSC</format>
-		<quality>B</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Dizzy Gillespie</artist>
-			<artist>Chick Corea</artist>
-			<artist>Miroslav Vitous</artist>
-			<artist>Roy Haynes</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session id="id0x2849fe0" av="V">
 		<date type="xs:date">1971-01-17</date>
 		<location>
@@ -6684,7 +6642,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 	<session id="id0x54e37b0" av="V">
 		<date type="xs:date">1964-09-10</date>
 		<location>
-			<festival>Steve Allen Show</festival>
+			<show>Steve Allen Show</show>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -7105,8 +7063,9 @@ dime]]></lineage>
 	<session id="id0x569e900" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
-			<festival>Jazz Session: Newport à Paris</festival>
-			<venue>Théâtre Nationale Populaire, Palais de Chaillot</venue>
+			<show>Jazz Session</show>
+			<festival>Newport à Paris</festival>
+			<venue>Théâtre Nationale Populaire</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -7130,8 +7089,9 @@ dime]]></lineage>
 	<session id="id0x569eef0" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
-			<festival>Jazz Session: Newport à Paris</festival>
-			<venue>Théâtre Nationale Populaire, Palais de Chaillot</venue>
+			<show>Jazz Session</show>
+			<festival>Newport à Paris</festival>
+			<venue>Théâtre Nationale Populaire</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -7155,8 +7115,9 @@ dime]]></lineage>
 	<session id="id0x569f490" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
-			<festival>Jazz Session: Newport à Paris</festival>
-			<venue>Théâtre Nationale Populaire, Palais de Chaillot</venue>
+			<show>Jazz Session</show>
+			<festival>Newport à Paris</festival>
+			<venue>Théâtre Nationale Populaire</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -7180,8 +7141,9 @@ dime]]></lineage>
 	<session id="id0x56c1a90" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
-			<festival>Jazz Session: Newport à Paris</festival>
-			<venue>Théâtre Nationale Populaire, Palais de Chaillot</venue>
+			<show>Jazz Session</show>
+			<festival>Newport à Paris</festival>
+			<venue>Théâtre Nationale Populaire</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -9013,8 +8975,8 @@ file]]></lineage>
 			<country>Switzerland</country>
 		</location>
 		<length>1:02:10</length>
-		<source/>
-		<format/>
+		<source>DVD</source>
+		<format></format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -9025,14 +8987,13 @@ file]]></lineage>
 			<artist>Tony Williams</artist>
 		</artists>
 		<title>Eagle Rock Entertainment</title>
-	</session>
-	<session id="id0x5bdbae0" av="V">
+	</session>	
+	<session id="id0x2849b30" av="V">
 		<date type="xs:date">1982-12-05</date>
 		<location>
 			<festival>In Performance at The White House</festival>
 			<venue>The White House</venue>
 			<city>Washington DC</city>
-			<country>U.S.A.</country>
 		</location>
 		<length>0:58:52</length>
 		<source>TV</source>
@@ -9041,13 +9002,24 @@ file]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Stan Getz</artist>
+			<artist main="true">Various Artists</artist>
+			<artist type="band">Stan Getz Quartet</artist>
+			<artist>Stan Getz</artist>
+			<artist>Chick Corea</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Roy Haynes</artist>			
+			<artist type="band">Now He Sings, Now He Sobs trio</artist>
+			<artist>Chick Corea</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Roy Haynes</artist>
+			<artist type="band">Dizzy Gillespie Quartet</artist>
+			<artist>Dizzy Gillespie</artist>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Roy Haynes</artist>
 		</artists>
 		<title/>
-	</session>
+	</session>	
 	<session id="id0x5bdbf90" av="V">
 		<date type="xs:date">1966-xx-xx</date>
 		<location>
@@ -9068,7 +9040,7 @@ file]]></lineage>
 	<session id="id0x5bdc300" av="V">
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
-			<festival>Steve Allen Show</festival>
+			<show>Steve Allen Show</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>3min</length>
@@ -19052,6 +19024,7 @@ harddisk.]]></lineage>
 		<date type="xs:date">1971-11-05</date>
 		<location>
 			<venue>Concerthaus Wien</venue>
+			<city>Vienna</city>
 			<country>Austria</country>
 		</location>
 		<length>1:41:08</length>
@@ -22469,7 +22442,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1963-03-04</date>
 		<location>
-			<show>The Steve Allen Show</show>
+			<show>Steve Allen Show</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:16:29</length>
@@ -22487,7 +22460,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1963-03-04</date>
 		<location>
-			<show>The Steve Allen Show</show>
+			<show>Steve Allen Show</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:16:29</length>
