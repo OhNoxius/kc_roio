@@ -11,7 +11,7 @@
 			<thead>
 				<tr style="background-color:#EEEEEE;">
 					<th style="width:2%"/>
-					<th style="width:100px;%">Date</th>
+					<th style="width:9;%">Date</th>
 					<th style="width:29%">Location</th>
 					<th style="width:40%">Contributing artists</th>
 					<th style="width:5%">Length</th>
