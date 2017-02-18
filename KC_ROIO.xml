@@ -14,7 +14,7 @@
 		<lineage></lineage>
 		<remarks>part missing. 1969-11-07 broadcast date?</remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>The Nice</artist>
 			<artist>Frank Zappa</artist>
 			<artist>Bill Bruford</artist>
@@ -10177,7 +10177,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 		</artists>
 		<title>The Sound of Jazz</title>
 	</session>
@@ -10191,7 +10191,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Louis Armstrong</artist>
 		</artists>
 		<title>Miles and More – Best of the Joachim-Ernst Berendt's Archive</title>
@@ -10210,7 +10210,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Bud Powell</artist>
 			<artist>Dexter Gordon</artist>
 			<artist>Oscar Pettiford</artist>
@@ -10276,7 +10276,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Bud Powell</artist>
@@ -10296,7 +10296,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Charles Mingus</artist>
 			<artist>Bill Evans</artist>
 			<artist>Count Basie</artist>
@@ -10315,7 +10315,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Monty Alexander</artist>
 			<artist>Escoude Trio</artist>
 			<artist>Richard Raux</artist>
@@ -10349,7 +10349,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 		</artists>
 		<title/>
 	</session>
@@ -10368,7 +10368,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Earl Hines</artist>
 			<artist>Teddy Wilson</artist>
 			<artist>John Lewis</artist>
@@ -10396,7 +10396,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Sergio Mendes &amp; Brazil 66</artist>
 			<artist>Wes Montgomery</artist>
 			<artist>Burt Bacharach</artist>
@@ -10415,7 +10415,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks>met ,HUMO'</remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist type="band">Deep Purple</artist>
 			<artist type="band">Shocking Blue</artist>
 			<artist type="band">Humble Pie</artist>
@@ -10441,7 +10441,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Jackson 5</artist>
 			<artist>The Temptations</artist>
 			<artist>Diana Ross &amp; The Supremes</artist>
@@ -10469,7 +10469,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Keith Jarrett</artist>
 		</artists>
 		<title>Jazz in Piazza</title>
@@ -10489,7 +10489,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Chick Corea</artist>
 			<artist>Quincy Jones</artist>
 			<artist>George Benson</artist>
@@ -10520,7 +10520,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Chick Corea</artist>
 			<artist>George Benson</artist>
 			<artist>Gary Burton</artist>
@@ -10548,7 +10548,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Jack DeJohnette</artist>
 			<artist>Chick Corea</artist>
 			<artist>Pat Metheny</artist>
@@ -10573,13 +10573,13 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Sonny Rollins Night</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Sonny Rollins Night</dummy>
 			<artist>Sonny Rollins</artist>
 			<artist>George Duke</artist>
 			<artist>Stanley Clarke</artist>
 			<artist>Al Foster</artist>
-			<artist type="band">Herbie Hancock-Devadip Carlos Santana Special Band</artist>
+			<dummy type="band">Herbie Hancock-Devadip Carlos Santana Special Band</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Carlos Santana</artist>
 			<artist>Tony Williams</artist>
@@ -10605,13 +10605,13 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Sonny Rollins Special Quartet</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Sonny Rollins Special Quartet</dummy>
 			<artist>Sonny Rollins</artist>
 			<artist>Pat Metheny</artist>
 			<artist>Alphonso Johnson</artist>
 			<artist>Jack DeJohnette</artist>
-			<artist type="band">Chick Corea Trio</artist>
+			<dummy type="band">Chick Corea Trio</dummy>
 			<artist>Chick Corea</artist>
 			<artist>Miroslov Vitous</artist>
 			<artist>Roy Haynes</artist>
@@ -10642,7 +10642,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Charles Lloyd</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Ron McClure</artist>
@@ -10665,7 +10665,7 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV > Sony beta > Pionner DVD Recorder > DVD-RW > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist type="band">Gil Evans Orchestra</artist>
 			<artist>Gil Evans</artist>
 			<artist>Jaco Pastorius</artist>
@@ -10689,7 +10689,7 @@ AC3@256 ]]></lineage>
 			<artist>Frankyn Waul</artist>
 			<artist>Christopher Burth</artist>
 			<artist>Darry Thompson</artist>
-			<artist type="band">Herbie Hancock ROCK IT band</artist>
+			<dummy type="band">Herbie Hancock ROCK IT band</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Jeff Bova</artist>
 			<artist>Wayne Brathwaite</artist>
@@ -10716,8 +10716,8 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV > Sony beta > Pionner DVD Recorder > DVD-RW > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks>Miles Davis interview included</remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Stanley Clark and Larry Graham Duo</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Stanley Clark and Larry Graham Duo</dummy>
 			<artist>Stanley Clarke</artist>
 			<artist>Larry Graham</artist>
 			<artist>Perry Wilson</artist>
@@ -10778,11 +10778,11 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Herbie Hancock-Chick Corea</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Herbie Hancock-Chick Corea</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Chick Corea</artist>
-			<artist type="band">Ornette Coleman and Prime Time</artist>
+			<dummy type="band">Ornette Coleman and Prime Time</dummy>
 			<artist>Ornette Coleman</artist>
 			<artist>Bern Nix</artist>
 			<artist>Charles Ellerbee</artist>
@@ -10795,7 +10795,7 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Dave Weckl</artist>
 			<artist>Jamie Glaser</artist>
-			<artist type="band">Herbie Hancock Quartet</artist>
+			<dummy type="band">Herbie Hancock Quartet</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Branford Marsalis</artist>
 			<artist>Ron Carter</artist>
@@ -10821,20 +10821,20 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Wayne Shorter Quintet</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Wayne Shorter Quintet</dummy>
 			<artist>Wayne Shorter</artist>
 			<artist>Marilyn Mazur</artist>
 			<artist>Jim Beard</artist>
 			<artist>Teri-Lynn Carrington</artist>
 			<artist>Carl James</artist>
-			<artist type="band">Gadd Gang</artist>
+			<dummy type="band">Gadd Gang</dummy>
 			<artist>Steve Gadd</artist>
 			<artist>Cornell Dupree</artist>
 			<artist>Eddie Gomez</artist>
 			<artist>Richard Tee</artist>
 			<artist>Ronnie Cuber</artist>
-			<artist type="band">Miles Davis Group</artist>
+			<dummy type="band">Miles Davis Group</dummy>
 			<artist>Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
 			<artist>Adam Holzman</artist>
@@ -10882,13 +10882,13 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Marlon Jordan Quartet</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Marlon Jordan Quartet</dummy>
 			<artist>Marlon Jordan</artist>
 			<artist>Bill Childs</artist>
 			<artist>Robert Hurst</artist>
 			<artist>Gene Jackson</artist>
-			<artist type="band">Select Live Under The Sky Special Quartet</artist>
+			<dummy type="band">Select Live Under The Sky Special Quartet</dummy>
 			<artist>Pat Metheny</artist>
 			<artist>Ernie Watts</artist>
 			<artist>Charlie Haden</artist>
@@ -10909,14 +10909,14 @@ AC3@256 ]]></lineage>
 			<artist>Bruce Edwards</artist>
 			<artist>June Tyson</artist>
 			<artist>Wisteria</artist>
-			<artist type="band">David Sanborn Group</artist>
+			<dummy type="band">David Sanborn Group</dummy>
 			<artist>David Sanborn</artist>
 			<artist>Hiram Bullock</artist>
 			<artist>Steve Logan</artist>
 			<artist>Ricky Peterson</artist>
 			<artist>Don Alias</artist>
 			<artist>Teri-Lynn Carrington</artist>
-			<artist type="band">Miles Davis Group</artist>
+			<dummy type="band">Miles Davis Group</dummy>
 			<artist>Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
 			<artist>Foley</artist>
@@ -10942,8 +10942,8 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Michael Brecker Band</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Michael Brecker Band</dummy>
 			<artist>Michael Brecker</artist>
 			<artist>Mike Stern</artist>
 			<artist>Joey Calderazzo</artist>
@@ -10955,7 +10955,7 @@ AC3@256 ]]></lineage>
 			<artist>Alphonso Johnson</artist>
 			<artist>Patrice Rushen</artist>
 			<artist>Ernie Watts</artist>
-			<artist type="band">Select Live Saxophone Workshop</artist>
+			<dummy type="band">Select Live Saxophone Workshop</dummy>
 			<artist>Don Grolnick</artist>
 			<artist>Michael Brecker</artist>
 			<artist>Stanley Turrentine</artist>
@@ -10963,7 +10963,7 @@ AC3@256 ]]></lineage>
 			<artist>Ernie Watts</artist>
 			<artist>Yoshio Suzuki</artist>
 			<artist>Adam Nussbaum</artist>
-			<artist type="band">Select Live '89 Special Orchestra</artist>
+			<dummy type="band">Select Live '89 Special Orchestra</dummy>
 			<artist>Gunther Schuller</artist>
 			<artist>Johnny Frigo</artist>
 			<artist>Mel Lewis</artist>
@@ -10998,7 +10998,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Andrew Hill</artist>
 			<artist>Lou Donaldson</artist>
 			<artist>Herbie Hancock</artist>
@@ -11019,7 +11019,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Andrew Hill</artist>
 			<artist>Lou Donaldson</artist>
 			<artist>Herbie Hancock</artist>
@@ -11040,7 +11040,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Andrew Hill</artist>
 			<artist>Lou Donaldson</artist>
 			<artist>Herbie Hancock</artist>
@@ -11063,8 +11063,8 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Select Live Special Band</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Select Live Special Band</dummy>
 			<artist>Al Jarreau</artist>
 			<artist>Miki Howard</artist>
 			<artist>Joe Sample</artist>
@@ -11084,12 +11084,12 @@ AC3@256 ]]></lineage>
 			<artist>Kazutoki Umezu</artist>
 			<artist>Nana Vasconcellos</artist>
 			<artist>Wayne Shorter</artist>
-			<artist type="band">Parallel Realities Live</artist>
+			<dummy type="band">Parallel Realities Live</dummy>
 			<artist>Pat Metheny</artist>
 			<artist>Herbie Hancock</artist>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
-			<artist type="band">David Sanborn Group</artist>
+			<dummy type="band">David Sanborn Group</dummy>
 			<artist>David Sanborn</artist>
 			<artist>Hiram Bullock</artist>
 			<artist>Ricky Peterson</artist>
@@ -11114,20 +11114,20 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Parallel Realities Live</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Parallel Realities Live</dummy>
 			<artist>Pat Metheny</artist>
 			<artist>Herbie Hancock</artist>
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
-			<artist type="band">Milton Nascimento band</artist>
+			<dummy type="band">Milton Nascimento band</dummy>
 			<artist>Milton Nascimento</artist>
 			<artist>Robertinho Silva</artist>
 			<artist>Tulio Mourao Pontes</artist>
 			<artist>Vanderlei Silva</artist>
 			<artist>Joao Baptista Carvahiho</artist>
 			<artist>Ronald Silva</artist>
-			<artist type="band">Select Live Special Band</artist>
+			<dummy type="band">Select Live Special Band</dummy>
 			<artist>Al Jarreau</artist>
 			<artist>Miki Howard</artist>
 			<artist>Joe Sample</artist>
@@ -11136,7 +11136,7 @@ AC3@256 ]]></lineage>
 			<artist>Freddy Washington</artist>
 			<artist>Buzzy Feiten</artist>
 			<artist>Lenny Castro</artist>
-			<artist type="band">David Sanborn Group</artist>
+			<dummy type="band">David Sanborn Group</dummy>
 			<artist>David Sanborn</artist>
 			<artist>Hiram Bullock</artist>
 			<artist>Ricky Peterson</artist>
@@ -11156,7 +11156,7 @@ AC3@256 ]]></lineage>
 			<artist>Sharone Young</artist>
 			<artist>Joe Sample</artist>
 			<artist>Lalah Hathaway</artist>
-			<artist type="band">Select Live Special Session</artist>
+			<dummy type="band">Select Live Special Session</dummy>
 			<artist>Milton Nascimento</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Herbie Hancock</artist>
@@ -11180,15 +11180,15 @@ AC3@256 ]]></lineage>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Pat Metheny Group</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Pat Metheny Group</dummy>
 			<artist>Pat Metheny</artist>
 			<artist>Lyle Mays</artist>
 			<artist>Steve Rodby</artist>
 			<artist>Paul Wertico</artist>
 			<artist>Pedro Aznar</artist>
 			<artist>Armando Marcal</artist>
-			<artist type="band">Masahiko Togashi and J.J. Spirits</artist>
+			<dummy type="band">Masahiko Togashi and J.J. Spirits</dummy>
 			<artist>Masahiko Togashi</artist>
 			<artist>Masahiko Satoh</artist>
 			<artist>Kosuke Mine</artist>
@@ -11199,7 +11199,7 @@ AC3@256 ]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 			<artist>Wallace Roney</artist>
-			<artist type="band">Larry Coryell + Live From Bahia</artist>
+			<dummy type="band">Larry Coryell + Live From Bahia</dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Billy Cobhham</artist>
 			<artist>Dori Caymmi</artist>
@@ -11209,7 +11209,7 @@ AC3@256 ]]></lineage>
 			<artist>Luiz Avellar</artist>
 			<artist>Nico Assumpcao</artist>
 			<artist>Djalma Correa</artist>
-			<artist type="band">Marcus Miller Project</artist>
+			<dummy type="band">Marcus Miller Project</dummy>
 			<artist>Marcus Miller</artist>
 			<artist>David Sanborn</artist>
 			<artist>Dean Brown</artist>
@@ -11232,7 +11232,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Toots Thielemans</artist>
 			<artist>Philip Catherine</artist>
 			<artist>Michel Herr</artist>
@@ -11253,9 +11253,9 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
-		<remarks/>
+		<remarks>Miles Davis Tribute Tour</remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>George Benson</artist>
 			<artist>Larry Coryell</artist>
 			<artist>John McLaughlin</artist>
@@ -11276,7 +11276,7 @@ AC3@256 ]]></lineage>
 			<artist>John Leftwich</artist>
 			<artist>Bryan Simpson</artist>
 		</artists>
-		<title>Miles Davis Tribute Tour</title>
+		<title></title>
 	</session>
 	<session id="id0xdb7b30" av="V">
 		<date type="xs:date">1999-08-15</date>
@@ -11292,7 +11292,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Peter Graves (cond)</artist>
 			<artist>Toots Thielemans</artist>
 			<artist>Othello Molineaux</artist>
@@ -11334,7 +11334,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Gretchen Parlato</artist>
 			<artist>Lionel Loueke</artist>
 			<artist>Andrew D'Angelo</artist>
@@ -11360,7 +11360,7 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Magic Malik Orchestra</artist>
 		</artists>
 		<title>Paris Jazzed Out</title>
@@ -11504,8 +11504,8 @@ AC3@256 ]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Jazz Messengers</artist>
 			<artist main="true">Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>			
 			<artist>Lee Morgan</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Walter Davis</artist>
@@ -21373,7 +21373,7 @@ correction)>FLAC]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>ECM All-Stars</artist>
 			<artist>Ralph Towner</artist>
 			<artist>John Abercrombie</artist>
@@ -21454,7 +21454,7 @@ correction)>FLAC]]></lineage>
 MEP.]]></lineage>
 		<remarks>Compilation first broadcast February 2012 on BBCFour</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy main="true" type="band">Various Artists</dummy>
 			<artist>Duke Ellington</artist>
 			<artist>Dave Brubeck</artist>
 			<artist>Thelonious Monk</artist>
@@ -22657,7 +22657,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks>2xDVD. re-encoded probably multiple times</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy main="true" type="band">Various Artists</dummy>
 			<artist type="band">Rare Earth</artist>
 			<artist type="band"><![CDATA[Earth, Wind & Fire]]></artist>
 			<artist type="band">The Eagles</artist>
@@ -23125,7 +23125,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<lineage trader="Lossless Legs"></lineage>
 			<remarks></remarks>
 			<artists>
-				<artist type="band" main="true">Various Arists</artist>
+				<dummy type="band" main="true">Various Artists</dummy>
 				<artist type="band">Little Feat</artist>
 				<artist>Emmylou Harris</artist>
 				<artist>Bonnie Rait</artist>
@@ -23156,7 +23156,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Arists</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
 			<artist type="band">Little Feat</artist>
 			<artist>Emmylou Harris</artist>
 			<artist>Bonnie Rait</artist>
@@ -23198,8 +23198,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1975-77</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue></venue>
-			<city></city>
 			<country>U.S.A.</country>
 		</location>
 		<length>121mins</length>
@@ -23209,8 +23207,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Arists</artist>
-			<artist type="band">The Bee Gees</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<artist>The Bee Gees</artist>
 			<artist>Edgar Winter</artist>
 			<artist>Bay City Rollers</artist>
 			<artist>Chaka Khan</artist>
@@ -23449,9 +23447,9 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy main="true" type="band">Various Artists</dummy>
 			<artist>Lennie Tristano</artist>
-			<artist type="band">Jean-Claude Naude Big Band</artist>
+			<dummy type="band">Jean-Claude Naude Big Band</dummy>
 			<artist>Jean-Claude Naude</artist>
 			<artist>Gérard Badini</artist>
 			<artist>Dominique Chanson</artist>
@@ -23515,45 +23513,45 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist type="band">Michel Legrand Big Band</artist>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Michel Legrand Big Band</dummy>
 			<artist>Stan Getz</artist>
 			<artist>Michel Legrand</artist>
 			<artist>Georges Arvanitas</artist>
-			<artist type="band"><![CDATA[Flora Purim & Stan Getz Quartet]]></artist>
+			<dummy type="band"><![CDATA[Flora Purim & Stan Getz Quartet]]></dummy>
 			<artist>Flora Purim</artist>
 			<artist>Stan Getz</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Stanley Cowell</artist>
-			<artist type="band"><![CDATA[Stan Getz Quartet]]></artist>			
+			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>			
 			<artist>Stan Getz</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Stanley Cowell</artist>
-			<artist type="band"><![CDATA[Stan Getz Quartet]]></artist>			
+			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>			
 			<artist>Stan Getz</artist>
 			<artist>Eddy Louiss</artist>
 			<artist>René Thomas</artist>
 			<artist>Bernard Lubat</artist>
-			<artist type="band">Gary Burton Quartet</artist>
+			<dummy type="band">Gary Burton Quartet</dummy>
 			<artist>Gary Burton</artist>
 			<artist>Dave Pritchard</artist>
 			<artist>Steve Swallow</artist>
 			<artist>Bill Goodwin</artist>
-			<artist type="band"><![CDATA[Larry Coryell & Philip Catherine]]></artist>
+			<dummy type="band"><![CDATA[Larry Coryell & Philip Catherine]]></dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
-			<artist type="band"><![CDATA[John McLaughlin & Paco de Lucia]]></artist>
+			<dummy type="band"><![CDATA[John McLaughlin & Paco de Lucia]]></dummy>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
-			<artist type="band">The Guitar Quartet</artist>
+			<dummy type="band">The Guitar Quartet</dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
 			<artist type="band">Mwandishi</artist>
-			<artist main="true">Herbie Hancock</artist>
+			<artist>Herbie Hancock</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Eddie Henderson</artist>
 			<artist>Julian Priester</artist>
@@ -23581,7 +23579,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">The Guitar Quartet</artist>
+			<dummy type="band">The Guitar Quartet</dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
 			<artist>John McLaughlin</artist>
@@ -23642,15 +23640,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"></lineage>
 		<remarks>VHS timecode</remarks>
 		<artists>
-			<artist main="true">Various Artists</artist>
+			<dummy main="true">Various Artists</dummy>
 			<artist>Mae Jackson</artist>
-			<artist type="band">Bill Withers</artist>
+			<dummy type="band">Bill Withers</dummy>
 			<artist>Bill Withers</artist>
 			<artist>Bernorce Blackman</artist>
 			<artist>Melvin Dunlap</artist>
 			<artist>James Gadson</artist>
 			<artist>Mike Stokes</artist>
-			<artist>McCoy Tyner Quartet</artist>
+			<dummy type="band">McCoy Tyner Quartet</dummy>
 			<artist>McCoy Tyner</artist>
 			<artist>Sonny Fortune</artist>
 			<artist>Calvin Hill</artist>
@@ -23722,7 +23720,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Various Artists</artist>
+			<dummy main="true" type="band">Various Artists</dummy>
 			<artist>Bobby Hackett</artist>
 			<artist>Dizzy Gillespie</artist>
 			<artist>Clark Terry</artist>
