@@ -24,7 +24,7 @@
 					<th id="sortArtists" style="width:40%;">Contributing artists</th>
 					<th style="width:5%;">Length</th>
 					<th style="width:6%;">Source</th>
-					<th style="width:4%;">Qlty</th>
+					<th style="width:4%;">Q</th>
 					<th style="width:5%;"/>
 					<th/>
 				</tr>
