@@ -7879,7 +7879,7 @@ file]]></lineage>
 	<session id="id0x57a8170" av="V">
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
-			<festival>Dial M for Music</festival>
+			<show>Dial M for Music</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:14:33</length>
@@ -9120,7 +9120,7 @@ file]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>58min</length>
+		<length>0:58:31</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -9140,7 +9140,7 @@ file]]></lineage>
 			<artist>Lani Groves</artist>
 			<artist>Deloris Harvin</artist>
 		</artists>
-		<title>My Voice of Sorrow</title>
+		<title>My Voice of Sorrow (Footstomp ‎– FSVD-017)</title>
 	</session>
 	<session id="id0x5ccdcc0" av="V">
 		<date type="xs:date">1972-11-19</date>
@@ -9155,7 +9155,7 @@ file]]></lineage>
 		<format>NTSC</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Unkown VHS/Samsung r 130/you]]></lineage>
-		<remarks/>
+		<remarks>best audio</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -9316,7 +9316,7 @@ file]]></lineage>
 		<title>Funkafied Rainbow (Big 'Fro Bootleg BF-001/2)</title>
 	</session>
 	<session id="id0x5e8b120" av="V">
-		<date type="xs:date">1975-xx-xx</date>
+		<date type="xs:date">1974-01-23</date>
 		<location>
 			<show>Musikladen</show>
 			<country>Germany</country>
@@ -9325,6 +9325,23 @@ file]]></lineage>
 		<source channel="VH1">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1974-01-23</date>
+		<location>
+			<show>Musikladen</show>
+			<country>Germany</country>
+		</location>
+		<length>0:31:54</length>
+		<source channel="VH1">TV</source>
+		<format>flac</format>
+		<quality></quality>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -10783,7 +10800,7 @@ AC3@256 ]]></lineage>
 			<artist>Branford Marsalis</artist>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
-			<artist type="band">Al Di Meola with Larry Coryell</artist>
+			<dummy type="band">Al Di Meola with Larry Coryell</dummy>
 			<artist>Al Di Meola</artist>
 			<artist>Larry Coryell</artist>
 		</artists>
@@ -21067,12 +21084,13 @@ Forge 7.0 (record/edits/resample)>FLAC Level 8>WAV>CDWav (tracking)>EAC
 	<session id="id0x77f6fe0" av="A">
 		<date type="xs:date">1974-12-08</date>
 		<location>
+			<show>WXRT Un-Concert</show>
 			<venue>Chan Auditorium, Northwestern University</venue>
 			<city>Evanston IL</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:55:55</length>
-		<source>FM</source>
+		<source channel="WXRT">FM</source>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[Maxell XLII Cassette (master)>Sony TC-WE8258 cassette deck>Gina20>Sound
@@ -21111,7 +21129,7 @@ Helper")]]></lineage>
 			<artist>Chester Thompson</artist>
 			<artist>Dom Um Romao</artist>
 		</artists>
-		<title/>
+		<title>Solarizations</title>
 	</session>
 	<session id="id0x79ddbd0" av="A">
 		<date type="xs:date">1975-05-04</date>
@@ -22288,14 +22306,14 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" band="true">Weather Update</artist>
+			<artist main="true" type="band">Weather Update</artist>
 			<artist>Joe Zawinul</artist>
 			<artist>Steve Kahn</artist>
 			<artist>Victor Bailey</artist>
 			<artist>Peter Erskine</artist>
 			<artist>Robert Thomas Jr</artist>
 		</artists>
-		<title>Jazz entre Amigos - Josef Zawinul</title>
+		<title>Documentary: Jazz entre Amigos - Josef Zawinul</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1974-10-21</date>
@@ -22318,7 +22336,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Darryl Brown</artist>
 			<artist>Dom Um Romao</artist>
 		</artists>
-		<title>Jazz entre Amigos - Josef Zawinul</title>
+		<title>Documentary: Jazz entre Amigos - Josef Zawinul</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1994-xx-xx</date>
@@ -22332,7 +22350,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">Miles Davis</artist>
 		</artists>
-		<title>Miles (Film by Philippe Koechlin)</title>
+		<title>Documentary: Miles (Film by Philippe Koechlin)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1992-xx-xx</date>
@@ -22415,7 +22433,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Julie Driscoll</artist>
 			<artist>Brian Auger</artist>
 		</artists>
-		<title>Essener Songtage - Schöne Poesie Ist Krampf</title>
+		<title>Documentary: Essener Songtage - Schöne Poesie Ist Krampf</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1972-03-14</date>
@@ -22510,7 +22528,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 		</artists>
-		<title>Triumph of the Underdog</title>
+		<title>Documentary: Triumph of the Underdog</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1999-07-17</date>
@@ -22735,7 +22753,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Smokey Robinson</artist>
 			<artist>Quincy Jones</artist>
 		</artists>
-		<title>Portrait of a Legend</title>
+		<title>Documentary: Portrait of a Legend</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1979-xx-xx</date>
@@ -23782,22 +23800,24 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Brian Blade</artist>
 		</artists>
 		<title></title>
-	</session>
+	</session>	
 	<session av="V">
-		<date type="xs:date"></date>
+		<date type="xs:date">1972-1x-xx</date>
 		<location>
-			<festival></festival>
-			<venue></venue>
-			<city></city>
-			<country></country>
+			<show>Jazz Session</show>
+			<country>France</country>
 		</location>
-		<length></length>
+		<length>0:37:55</length>
 		<source></source>
-		<format></format>
+		<format>PAL</format>
 		<quality></quality>
 		<lineage></lineage>
-		<remarks></remarks>
+		<remarks><![CDATA[Date de diffusion: 29/05/1973]]></remarks>
 		<artists>
+			<artist main="true">Elvin Jones</artist>
+			<artist>Dave Liebman</artist>
+			<artist>Gene Perla</artist>
+			<artist>Steve Grossman</artist>
 		</artists>
 		<title></title>
 	</session>
