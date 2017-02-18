@@ -15722,7 +15722,7 @@ check)]]></lineage>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jan Garbarek</artist>
 			<artist>Charlie Haden</artist>
-			<artist>28 piece symphony orchestra</artist>
+			<dummy>28 piece symphony orchestra</dummy>
 		</artists>
 		<title/>
 	</session>

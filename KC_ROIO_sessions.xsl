@@ -108,8 +108,9 @@
 			<td colspan="8" bgcolor="#CCCCCC"/>
 		</tr>
 	</xsl:template>
-
-	<xsl:template priority="2" match="artists/artist[@type = 'band']">
+	
+	<!--	  hieronder stond: match="artists/artist[@type = 'band']-->
+	<xsl:template priority="2" match="artists/*[@type = 'band']">
 		<em><xsl:value-of select="."/>: </em>
 	</xsl:template>
 
