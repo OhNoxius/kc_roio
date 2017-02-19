@@ -1012,7 +1012,7 @@
 		<artists>
 			<artist type="band">The Trinity</artist>
 			<artist main="true">Brian Auger</artist>
-			<artist>Julie Driscol</artist>
+			<artist>Julie Driscoll</artist>
 		</artists>
 		<title/>
 	</session>
@@ -3943,7 +3943,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<lineage><![CDATA[(real)TV-Capture(VHS) - MKVmerge - DIME]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Gerry Mulligan's "Re-Birth of the Cool"</artist>
+			<dummy type="band">Gerry Mulligan's "Re-Birth of the Cool"</dummy>
 			<artist main="true">Gerry Mulligan</artist>
 			<artist>Rob McConnell</artist>
 			<artist>Art Farmer</artist>
@@ -6078,7 +6078,7 @@ DUB!!!]]></lineage>
 		<title>Live from Bahia</title>
 	</session>
 	<session id="id0x53f1db0" av="V">
-		<date type="xs:date">1994-xx-xx</date>
+		<date type="xs:date">1994-03-04</date>
 		<location>
 			<festival>Subway</festival>
 			<city>Köln</city>
@@ -6100,7 +6100,7 @@ DUB!!!]]></lineage>
 	<session id="id0x53f21c0" av="V">
 		<date type="xs:date">1994-03-04</date>
 		<location>
-			<festival>Jazz vor Mitternacht</festival>
+			<show>Jazz vor Mitternacht</show>
 			<venue>Subway</venue>
 			<city>Köln</city>
 			<country>Germany</country>
@@ -6482,7 +6482,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Joe Ford</artist>
 			<artist>Ron Bridgewater</artist>
 			<artist>Charles Fambrough</artist>
-			<artist>Eric Kamau Gravatt</artist>
+			<artist>Eric Gravatt</artist>
 			<artist>Guilherme Franco</artist>
 		</artists>
 		<title/>
@@ -9002,17 +9002,17 @@ file]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Various Artists</artist>
-			<artist type="band">Stan Getz Quartet</artist>
+			<dummy main="true" type="band">Various Artists</dummy>
+			<dummy type="band">Stan Getz Quartet</dummy>
 			<artist>Stan Getz</artist>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Roy Haynes</artist>			
-			<artist type="band">Now He Sings, Now He Sobs trio</artist>
+			<dummy type="band">Now He Sings, Now He Sobs trio</dummy>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Roy Haynes</artist>
-			<artist type="band">Dizzy Gillespie Quartet</artist>
+			<dummy type="band">Dizzy Gillespie Quartet</dummy>
 			<artist>Dizzy Gillespie</artist>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
@@ -9112,6 +9112,38 @@ file]]></lineage>
 		</artists>
 		<title>Coliseum Concert</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1972-11-19</date>
+		<location>
+			<show>SOUL!</show>
+			<venue>WNET</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:04</length>
+		<source channel="WNET">TV</source>
+		<format>NTSC</format>
+		<quality>B++</quality>
+		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders, improve color levels, smoothing, mirror stevie piano shots...)
+			AUDIO: My Voice of Sorrow (Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ, mastering)</lineage>
+		<remarks>Own remaster. Top down view from Stevie's piano playing was filmed through a mirror, showing left hand on the right side and vice versa. These shots are now un-mirrored.
+			Last seconds audio was missing on Footstomp DVD, so was taken from the source for the picture. A-V sync is perfect.</remarks>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+			<artist type="band">Wonderlove</artist>
+			<artist>Scott Edwards Jr.</artist>
+			<artist>Ollie Brown</artist>
+			<artist>Ralph Hammer</artist>
+			<artist>Ray Parker Jr.</artist>
+			<artist>Keith Stevens</artist>
+			<artist>Steven Madaio</artist>
+			<artist>Denny Morouse</artist>
+			<artist>Shirley Brewer</artist>
+			<artist>Lani Groves</artist>
+			<artist>Deloris Harvin</artist>
+		</artists>
+		<title></title>
+	</session>
 	<session id="id0x5c3e4e0" av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
@@ -9123,9 +9155,9 @@ file]]></lineage>
 		<length>0:58:31</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
-		<quality>B+</quality>
+		<quality>B</quality>
 		<lineage/>
-		<remarks>(errors in VOB files)</remarks>
+		<remarks>errors in VOB files (bad rip?). best audio, picture not so good.</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -9142,36 +9174,6 @@ file]]></lineage>
 		</artists>
 		<title>My Voice of Sorrow (Footstomp ‎– FSVD-017)</title>
 	</session>
-	<session id="id0x5ccdcc0" av="V">
-		<date type="xs:date">1972-11-19</date>
-		<location>
-			<show>SOUL!</show>
-			<venue>WNET</venue>
-			<city>N.Y.C.</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>0:57:32</length>
-		<source channel="WNET">TV</source>
-		<format>NTSC</format>
-		<quality>B</quality>
-		<lineage><![CDATA[Unkown VHS/Samsung r 130/you]]></lineage>
-		<remarks>best audio</remarks>
-		<artists>
-			<artist main="true">Stevie Wonder</artist>
-			<artist type="band">Wonderlove</artist>
-			<artist>Scott Edwards Jr.</artist>
-			<artist>Ollie Brown</artist>
-			<artist>Ralph Hammer</artist>
-			<artist>Ray Parker Jr.</artist>
-			<artist>Keith Stevens</artist>
-			<artist>Steven Madaio</artist>
-			<artist>Denny Morouse</artist>
-			<artist>Shirley Brewer</artist>
-			<artist>Lani Groves</artist>
-			<artist>Deloris Harvin</artist>
-		</artists>
-		<title/>
-	</session>
 	<session av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
@@ -9183,9 +9185,9 @@ file]]></lineage>
 		<length>0:59:00</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
-		<quality>B+</quality>
+		<quality>B</quality>
 		<lineage trader="Bruce Remy"></lineage>
-		<remarks>best pic quality, sound is muddy</remarks>
+		<remarks>best pic quality, sound is muddy.</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -10237,7 +10239,7 @@ AC3@256 ]]></lineage>
 		<artists>
 			<artist main="true">Bud Powell</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
-			<artist>Jorn Elniff</artist>
+			<artist>Jørn Elniff</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10425,7 +10427,7 @@ AC3@256 ]]></lineage>
 			<artist type="band"><![CDATA[Steve Shorter & Tilly Set]]></artist>
 			<artist type="band"><![CDATA[Brian Auger & Trinity]]></artist>
 			<artist>Brian Auger</artist>
-			<artist>Julie Driscol</artist>
+			<artist>Julie Driscoll</artist>
 			<artist type="band">Marsha Hunt</artist>
 			<artist type="band">Moody Blues</artist>
 		</artists>
@@ -11201,7 +11203,7 @@ AC3@256 ]]></lineage>
 			<artist>Wallace Roney</artist>
 			<dummy type="band">Larry Coryell + Live From Bahia</dummy>
 			<artist>Larry Coryell</artist>
-			<artist>Billy Cobhham</artist>
+			<artist>Billy Cobham</artist>
 			<artist>Dori Caymmi</artist>
 			<artist>Romero Lumambo</artist>
 			<artist>Donald Harrison</artist>
@@ -11416,7 +11418,7 @@ AC3@256 ]]></lineage>
 			<artist>Erwin Vann</artist>
 			<artist>Bo Van der Werf</artist>
 			<artist>Laurent Blondiau</artist>
-			<artist>Geoffroy De Masure</artist>
+			<artist>Geoffroy de Masure</artist>
 			<artist>Fabian Fiorini</artist>
 			<artist>Benoît Delbecq</artist>
 			<artist>Kris Defoort</artist>
@@ -12434,7 +12436,6 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<artist type="band">Circle</artist>
 			<artist main="true">Chick Corea</artist>
 			<artist>Anthony Braxton</artist>
-			<artist>Chick Corea</artist>
 			<artist>Dave Holland</artist>
 			<artist>Barry Altschul</artist>
 		</artists>
@@ -12458,7 +12459,6 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<artist type="band">Circle</artist>
 			<artist main="true">Chick Corea</artist>
 			<artist>Anthony Braxton</artist>
-			<artist>Chick Corea</artist>
 			<artist>Dave Holland</artist>
 			<artist>Barry Altschul</artist>
 		</artists>
@@ -16306,9 +16306,8 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
-			<artist>Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
 			<artist>Julian Coryell</artist>
 			<artist>Wallace Roney</artist>
 			<artist>Victory Bailey</artist>
@@ -21606,7 +21605,7 @@ level 5]]></lineage>
 		<artists>
 			<artist main="true">Anthony Braxton</artist>
 			<artist>Kenny Wheeler</artist>
-			<artist>Jean Francois Jenny Clark</artist>
+			<artist>Jean-Francois Jenny-Clark</artist>
 			<artist>Charles 'Bobo' Shaw</artist>
 		</artists>
 		<title/>
@@ -23579,6 +23578,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
+			<dummy type="band"><![CDATA[Larry Coryell & Philip Catherine]]></dummy>
+			<artist main="true">Larry Coryell</artist>
+			<artist>Philip Catherine</artist>
+			<dummy type="band"><![CDATA[John McLaughlin & Paco de Lucia]]></dummy>
+			<artist>John McLaughlin</artist>
+			<artist>Paco de Lucia</artist>
 			<dummy type="band">The Guitar Quartet</dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
@@ -23586,45 +23591,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Paco de Lucia</artist>
 		</artists>		
 		<title>French TV Jazz Rarities 1969-1979</title>
-	</session>
-	<session av="V">
-		<date type="xs:date">1979-06-01</date>
-		<location>
-			<show>Chorus</show>
-			<city>Paris</city>
-			<country>France</country>
-		</location>
-		<length></length>
-		<source channel="ina.fr"></source>
-		<format>PAL</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist>John McLaughlin</artist>
-			<artist>Paco de Lucia</artist>
-		</artists>		
-		<title>French TV Jazz Rarities 1969-1979</title>
-	</session>
-	<session id="id0x53e9030" av="V">
-		<date type="xs:date">1979-06-01</date>
-		<location>
-			<show>Chorus</show>
-			<city>Paris</city>
-			<country>France</country>
-		</location>
-		<length>3min</length>
-		<source channel="ina.fr"></source>
-		<format>PAL</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Larry Coryell</artist>
-			<artist>Philip Catherine</artist>
-		</artists>		
-		<title>French TV Jazz Rarities 1969-1979</title>
-	</session>
+	</session>	
 	<session av="V">
 		<date type="xs:date">1971-12-29</date>
 		<location>
