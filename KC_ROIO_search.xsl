@@ -21,10 +21,10 @@
 					<th style="width:2;%"/>
 					<th id="sortDate" style="width:9;%">Date</th>
 					<th style="width:29%;">Location</th>
-					<th id="sortArtists" style="width:40%;">Contributing artists</th>
+					<th id="sortArtists" style="width:42%;">Contributing artists</th>
 					<th style="width:5%;">Length</th>
 					<th style="width:6%;">Source</th>
-					<th style="width:4%;">Q</th>
+					<th style="width:2%;">Q</th>
 					<th style="width:5%;"/>
 					<th/>
 				</tr>

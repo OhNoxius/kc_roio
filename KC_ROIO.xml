@@ -16241,11 +16241,11 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 			<city>Munich</city>
 			<country>Germany</country>
 		</location>
-		<length/>
+		<length>1:15:17</length>
 		<source/>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
@@ -16257,15 +16257,14 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 	<session id="id0x1639f90" av="A">
 		<date type="xs:date">1994-06-17</date>
 		<location>
-			<venue>Detroit MI</venue>
 			<city>Detroit MI</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>0:44:06</length>
 		<source>AUD</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage/>
+		<lineage><![CDATA[Aud>CDr from trade>EAC>WAV>FLAC]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
@@ -23804,7 +23803,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks></remarks>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
-			<dummy>Coryell/Catherine duo</dummy>
+			<dummy type="band">Coryell/Catherine duo</dummy>
 			<artist>Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
 			<dummy type="band">Coryell/Catherine Quartet</dummy>
