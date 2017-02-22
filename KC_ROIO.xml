@@ -14141,7 +14141,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 			<city>Nice</city>
 			<country>France</country>
 		</location>
-		<length/>
+		<length>0:47:06</length>
 		<source>FM</source>
 		<format/>
 		<quality>B</quality>
@@ -15876,7 +15876,7 @@ reel > cdr>eac(secure mode)>flac(level 6) by carville 20 december
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>0:32:22</length>
 		<source>SBD</source>
 		<format/>
 		<quality/>
@@ -15898,7 +15898,7 @@ reel > cdr>eac(secure mode)>flac(level 6) by carville 20 december
 			<city>Stuttgart</city>
 			<country>Germany</country>
 		</location>
-		<length>20min</length>
+		<length>0:18:50</length>
 		<source>FM</source>
 		<format/>
 		<quality/>
@@ -15950,7 +15950,7 @@ Frontend>Level 6]]></lineage>
 		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[FM >Metal Audio Tape (in trade)>CDR Phillips 880>EAC Secure>Flac Frontend>Level 6]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
@@ -15969,11 +15969,11 @@ Frontend>Level 6]]></lineage>
 			<city>Worcester MA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>1:04:24</length>
 		<source>FM</source>
 		<format/>
 		<quality>B</quality>
-		<lineage/>
+		<lineage><![CDATA[Neil Cronin master reel > CD > my CD > CD extractor (WAV) > FLAC 6 > torrentially yours.]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
@@ -15992,11 +15992,13 @@ Frontend>Level 6]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>1:09:58</length>
 		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[source: fm cassette master. taped on a Sony TC-152 w/dolby by Jerry Moore.			
+			lineage: c.m.>sbm1>cdr>eac>cd wave>flac
+			transfers by Rob Berger]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
@@ -16016,12 +16018,13 @@ Frontend>Level 6]]></lineage>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
-		<length/>
-		<source>FM</source>
+		<length>0:27:50</length>
+		<source channel="WNYU">FM</source>
 		<format/>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage trader="propylaen"><![CDATA[FM -> reel tape 71/2ips -> Akai GX-400DSS -> Sound Forge -> FLAC level 6, sectors aligned and verified.
+			Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC (L8)]]></lineage>
+		<remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a different Memorex reel</remarks>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -16039,11 +16042,11 @@ Frontend>Level 6]]></lineage>
 			<city>New Orleans LA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>2:09:33</length>
 		<source>SBD</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage/>
+		<lineage><![CDATA[CASSETTE SB MASTER > REEL > M-AUDIO TRANSIT > COOL EDIT > CD WAVE EDITOR > FLAC]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
@@ -16161,7 +16164,7 @@ torrentially yours.]]></lineage>
 		<source>FM</source>
 		<format/>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[FM>?>Cass>CDr>EAC>WAV>FLAC]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
@@ -16177,12 +16180,12 @@ torrentially yours.]]></lineage>
 			<city>Westport CT</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>1:34:21</length>
 		<source>AUD</source>
 		<format/>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[nak dragon>hd-p2 24/96>hd>cd wave>adobe audition 2.0 16/44.1>flac]]></lineage>
+		<remarks><![CDATA[transferred & seeded by Rob Berger 10/30/09]]></remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Philip Catherine</artist>
@@ -16198,15 +16201,14 @@ torrentially yours.]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>1:04:10</length>
 		<source>AUD</source>
 		<format/>
 		<quality/>
 		<lineage><![CDATA[source: aud cassette master, taped by Ken Flemming, kenco on LL lineage: sony
 tc-153, maxell xl-II90's, dolby b > nak dragon>hd-p2 24/96>hd> cd
-wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
-11/8/09]]></lineage>
-		<remarks/>
+wave>adobe audition 2.0 16/44.1>flac]]></lineage>
+		<remarks>transferred &amp; seeded by Rob Berger 11/8/09</remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist>Miroslav Vitous</artist>
@@ -16221,11 +16223,11 @@ wave>adobe audition 2.0 16/44.1>flac transferred &amp; seeded by Rob Berger
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>0:58:07</length>
 		<source>SBD</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[SBD>???>CDR>EAC>FLAC 6 (w/sector align)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
@@ -23571,7 +23573,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length></length>
+		<length>0:22:12</length>
 		<source channel="ina.fr"></source>
 		<format>PAL</format>
 		<quality>A</quality>
