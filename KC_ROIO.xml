@@ -11705,14 +11705,15 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 	<session id="id0x116c2b0" av="A">
 		<date type="xs:date">1997-09-07</date>
 		<location>
+			<venu>Kito</venu>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
 		<length>0:53:33</length>
-		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<source>DVB@320</source>
+		<format>flac</format>
 		<quality>A+</quality>
-		<lineage/>
+		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor > flac (MPEG1 Layer 2/320 kbps)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -11910,8 +11911,8 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:15:29</length>
-		<source>mp3@160</source>
-		<format/>
+		<source></source>
+		<format>mp3@160</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -12011,8 +12012,8 @@ flac]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>1:28:36</length>
-		<source DVB="true">DVB-S@320</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@320</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -12722,10 +12723,10 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
-		<source DVB="true">DVB-S@320</source>
-		<format/>
+		<source channel="NDR" DVB="true">DVB-S</source>
+		<format>mp2@320</format>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[NDR / mp2 (48,000 Hz Stereo; 320 Kbps) / mp3directcut / mp2]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">Chris Dave Drumheadz</artist>
@@ -12742,8 +12743,8 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>1:27:27</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -12788,8 +12789,8 @@ Phase invert, DC offset correction, Music +1dB &amp; Applause -1dB, track no. ch
 			<country>The Netherlands</country>
 		</location>
 		<length>0:15:12</length>
-		<source DVB="true">DVB-S@192</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@192</format>
 		<quality/>
 		<lineage><![CDATA[Humax PVR800 > mp2 (MPEG 1.0 Layer-2; 48,000 Hz Stereo; 192 Kbps) >
 Mpeg2Schnitt (cut to separate performances) ]]></lineage>
@@ -12809,8 +12810,8 @@ Mpeg2Schnitt (cut to separate performances) ]]></lineage>
 			<country>The Netherlands</country>
 		</location>
 		<length>1:55:18</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage><![CDATA[dvb-s > Digital Satellitereceiver Humax PVR8000 > mp2 > mp3DirectCut 2.08
 > mp2]]></lineage>
@@ -13004,8 +13005,8 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 			<country>The Netherlands</country>
 		</location>
 		<length>1:52:48</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
 		<remarks/>
@@ -13026,8 +13027,8 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 			<country>The Netherlands</country>
 		</location>
 		<length>0:17:48</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -13107,8 +13108,8 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 			<country>France</country>
 		</location>
 		<length>1:17:43</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S > SkyStar2 > Kaffeine (MP2 256 kbs, 48 khz) > XCFA (WAV conversion)
 > Wavelab > FLAC (level 8)]]></lineage>
@@ -15729,8 +15730,8 @@ check)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:17:17</length>
-		<source>DVB-S@320</source>
-		<format/>
+		<source>DVB-S</source>
+		<format>mp2@320</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -16526,8 +16527,8 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:47:06</length>
-		<source>DVB-S@320</source>
-		<format/>
+		<source>DVB-S</source>
+		<format>mp2@320</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -19101,8 +19102,8 @@ Unknown]]></lineage>
 			<country>Yugoslavia</country>
 		</location>
 		<length>1:26:41</length>
-		<source DVB="true">DVB-S@256</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@256</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S (256 kbps/ 48 khz) > Technotrend C-1400 DVB-S PCI card >
 harddisk.]]></lineage>
@@ -19380,8 +19381,8 @@ TLH (Flac Level 8)]]></lineage>
 			<city>Dortmund</city>
 			<country>Germany</country>
 		</location>
-		<source DVB="true">DVB-S@320</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@320</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -20263,8 +20264,8 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<country>Germany</country>
 		</location>
 		<length>1:23:55</length>
-		<source DVB="true">DVB-C@256</source>
-		<format/>
+		<source DVB="true">DVB-C</source>
+		<format>mp2@256</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -20430,8 +20431,8 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<country>Germany</country>
 		</location>
 		<length>0:19:17</length>
-		<source DVB="true">DVB-S@320</source>
-		<format/>
+		<source DVB="true">DVB-S</source>
+		<format>mp2@320</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
