@@ -1375,7 +1375,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball In Europe!</title>
+		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records LCD-1307-2)</title>
 	</session>
 	<session id="id0x12f4e00" av="V">
 		<date type="xs:date">1963-03-20</date>
@@ -1398,6 +1398,75 @@
 			<artist>Louis Hayes</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1963-03-22</date>
+		<location>
+			<show>Jazz - Gehart Und Gesehen</show>
+			<city>Baden-Baden</city>
+			<country>Germany</country>
+		</location>
+		<length>0:33:37</length>
+		<source channel="SWR RP">TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1963-03-22</date>
+		<location>
+			<show>Jazz - Gehart Und Gesehen</show>
+			<city>Baden-Baden</city>
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>Jazz Icons: Cannonball Adderley Live in '63</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1963-03-24</date>
+		<location>
+			<show>Jazz Stars</show>
+			<city>Lugano</city>
+			<country>Switzerland</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>Jazz Icons: Cannonball Adderley Live in '63</title>
 	</session>
 	<session id="id0x12f5300" av="V">
 		<date type="xs:date">1963-07-07</date>
