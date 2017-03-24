@@ -617,7 +617,7 @@
 			<country>France</country>
 		</location>
 		<length>0:41:44</length>
-		<source>TV</source>
+		<source channel="M6">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -833,9 +833,9 @@
 		</location>
 		<length>0:51:57</length>
 		<source>TV</source>
-		<format>PAL</format>
-		<quality>A</quality>
-		<lineage/>
+		<format letterboxed="true">NTSC</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[DVB-s (Sky Star 2, MPEG-2 Video, 720x576, 25 fps, MPEG-1 Audio Layer II, 48 KHz, 256 Kb/s), Audio converted with TMPGEnc 4.0 XPress to Linear PCM, 48 KHz, 16 bits), chapters and menue edited via TMPGEnc DVD Author 3]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -4964,7 +4964,7 @@ DVD-R => Dime]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:59:12</length>
-		<source>TV</source>
+		<source channel="3sat">TV</source>
 		<format>PAL</format>
 		<quality/>
 		<lineage/>
@@ -5672,7 +5672,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:59:15</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format letterboxed="true">PAL</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5995,7 +5995,7 @@ DUB!!!]]></lineage>
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>compilation DVD</title>
 	</session>
 	<session id="id0x5359620" av="V">
 		<date type="xs:date">1986-07-03</date>
@@ -6008,7 +6008,7 @@ DUB!!!]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>B</quality>
-		<lineage/>
+		<lineage><![CDATA[traded DVD < DVD Decrypter < dime]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
@@ -6035,7 +6035,27 @@ DUB!!!]]></lineage>
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>1986 compilation DVD</title>
+	</session>
+	<session id="id0x5365a90" av="V">
+		<date type="xs:date">1986-07-xx</date>
+		<location>
+			<festival>Jazz à Antibes</festival>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>0:55:06</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title>1986 compilation DVD</title>
 	</session>
 	<session id="id0x5365e50" av="V">
 		<date type="xs:date">1995-xx-xx</date>
@@ -16200,11 +16220,34 @@ Frontend>Level 6]]></lineage>
 		<lineage><![CDATA[CASSETTE SB MASTER > REEL > M-AUDIO TRANSIT > COOL EDIT > CD WAVE EDITOR > FLAC]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
 			<artist>Michael Lawrence</artist>
 			<artist>Danny Trifan</artist>
+			<artist>Alphonse Mouzon</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1975-01-18</date>
+		<location>
+			<venue>Post-Aula</venue>
+			<city>Bremen</city>
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source>SBD</source>
+		<format/>
+		<quality>A-</quality>
+		<lineage></lineage>
+		<remarks>Open air concert recorded by Radio Bremen on January 18, 1975 at Post-Aula, Bremen, Germany.</remarks>
+		<artists>
+			<artist main="true">Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
+			<artist>Mike Mandel</artist>
+			<artist>Michael Lawrence</artist>
+			<artist>John Lee</artist>
 			<artist>Alphonse Mouzon</artist>
 		</artists>
 		<title/>
@@ -16224,12 +16267,12 @@ Frontend>Level 6]]></lineage>
 Forge Pro 10.01 Contrast Clause : This show may have been seeded here before. This
 torrent is direct from the master casstte.]]></lineage>
 		<remarks/>
-		<artists>
-			<artist type="band">The Eleventh House</artist>
+		<artists>			
 			<artist main="true">Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
 			<artist>Michael Lawrence</artist>
-			<artist>Danny Trifan</artist>
+			<dummy>John Lee?</dummy>
 			<artist>Alphonse Mouzon</artist>
 		</artists>
 		<title/>
@@ -16247,9 +16290,9 @@ torrent is direct from the master casstte.]]></lineage>
 		<quality/>
 		<lineage><![CDATA[Mastertape>soN.Y.C.assette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
 		<remarks/>
-		<artists>
-			<artist type="band">The Eleventh House</artist>
+		<artists>			
 			<artist main="true">Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
 			<artist>Michael Lawrence</artist>
 			<artist>Danny Trifan</artist>
@@ -16294,8 +16337,8 @@ cassette) > played on nak. 300 into soundforge (wav) > flac (sb's aligned) >
 torrentially yours.]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
+			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
 			<artist>Terumasa Hino</artist>
 			<artist>John Lee</artist>
