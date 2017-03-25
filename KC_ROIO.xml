@@ -16250,7 +16250,7 @@ Frontend>Level 6]]></lineage>
 			<artist>John Lee</artist>
 			<artist>Alphonse Mouzon</artist>
 		</artists>
-		<title>January 1975 (The LiveLove Series, Vol.1 - Promising Music: 441202)</title>
+		<title>January 1975 (The LiveLove Series, Vol.1 - Promising Music: 441202bat)</title>
 	</session>
 	<session id="id0x12e75d0" av="A">
 		<date type="xs:date">1975-11-xx</date>
@@ -23385,6 +23385,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist type="band">The Eleventh House</artist>
 			<artist>Randy Brecker</artist>
 			<artist>Alphonse Mouzon</artist>
+			<artist>Mike Mande</artist>
+			<artist>Danny Trifan</artist>
 		</artists>
 		<title>POP2</title>
 	</session>
