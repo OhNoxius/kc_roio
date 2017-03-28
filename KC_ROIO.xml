@@ -548,7 +548,7 @@
 	<session id="id0x12077b0" av="V">
 		<date type="xs:date">1982-xx-xx</date>
 		<location>
-			<venue>Montreux Jazz Festival</venue>
+			<festival>Montreux Jazz Festival</festival>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
@@ -567,6 +567,26 @@
 			<artist>Billy Cobham</artist>
 		</artists>
 		<title>The Red Baron</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2004-08-02</date>
+		<location>
+			<venue>Piazza XXIV Maggio</venue>
+			<city>Cormons</city>
+			<country>Italy</country>
+		</location>
+		<length>1:29:50</length>
+		<source>AUD</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Billy Cobham</artist>
+			<artist>Larry Coryell</artist>
+			<artist>Tom Coster</artist>
+			<artist>Victor Bailey</artist>
+		</artists>
 	</session>
 	<session id="id0x120d440" av="V">
 		<date type="xs:date">1969-08-17</date>
@@ -595,7 +615,7 @@
 		<title>Woodstock 1969 – Extended Edition</title>
 	</session>
 	<session id="id0x1265b80" av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">1999-xx-xx</date>
 		<location/>
 		<length>0:54:40</length>
 		<source/>
@@ -605,8 +625,10 @@
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
+			<artist>Larry Grenadier</artist>
+			<artist>Jorge Rossy</artist>
 		</artists>
-		<title>Portrait</title>
+		<title>BRAD MEHLDAU - PORTRAIT (by Nicolas Klotz)</title>
 	</session>
 	<session id="id0x1265ea0" av="V">
 		<date type="xs:date">1997-09-xx</date>
@@ -620,7 +642,7 @@
 		<source channel="M6">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Nic (hulkhogan)"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -637,10 +659,10 @@
 			<country>Italy</country>
 		</location>
 		<length>0:45:29</length>
-		<source/>
-		<format/>
+		<source channel="RAISAT eXtra">TV</source>
+		<format>PAL</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Nic (hulkhogan)"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -713,7 +735,7 @@
 		</location>
 		<length>1:00:49</length>
 		<source channel="mezzo">TV</source>
-		<format>PAL</format>
+		<format letterboxed="true">PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[SATRip]]></lineage>
 		<remarks/>
@@ -3011,7 +3033,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>55min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format letterboxed="true">PAL</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -3997,7 +4019,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<artists>
 			<artist main="true">Gary Burton</artist>
 			<artist>Larry Coryell</artist>
-			<artist>Clint Houstont</artist>
+			<artist>Clint Houston</artist>
 			<artist>David Lee</artist>
 		</artists>
 		<title/>
@@ -5034,6 +5056,108 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</artists>
 		<title/>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1967-06-18</date>
+		<location>
+			<festival>Monterey Pop Festival</festival>
+			<city>Monterey CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist>Noel Redding</artist>
+			<artist>Mitch Mitchell</artist>
+		</artists>
+		<title>The Jimi Hendrix Experience: Live At Monterey</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-05-18</date>
+		<location>
+			<venue>Madison Square Garden</venue>
+			<city>New York</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:05:51</length>
+		<source></source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage/>
+		<remarks>timecoded</remarks>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist>Noel Redding</artist>
+			<artist>Mitch Mitchell</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-06-29</date>
+		<location>
+			<festival>Newport Pop Festival</festival>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:21:47</length>
+		<source>AUD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist>Noel Redding</artist>
+			<artist>Mitch Mitchell</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1969-12-31</date>
+		<location>
+			<venue>Fillmore East</venue>
+			<city>New York</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:14:03</length>
+		<source>AUD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist type="band">Band Of Gypsys</artist>
+			<artist>Billy Cox</artist>
+			<artist>Buddy Miles</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1970-07-04</date>
+		<location>
+			<festival>Atlanta Pop Festival</festival>
+			<city>Byron GA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist type="band">Band Of Gypsys</artist>
+			<artist>Billy Cox</artist>
+			<artist>Buddy Miles</artist>
+		</artists>
+		<title>Electric Church (2015)</title>
+	</session>
 	<session id="id0x4fa53f0" av="V">
 		<date type="xs:date">1969-02-24</date>
 		<location>
@@ -5690,7 +5814,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Switzerland</country>
 		</location>
 		<length>5min</length>
-		<source>TV</source>
+		<source>DVD-playback</source>
 		<format>PAL</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[record DVD playback]]></lineage>
@@ -10488,7 +10612,7 @@ AC3@256 ]]></lineage>
 		<title>Jazz on French TV</title>
 	</session>
 	<session id="id0xd61ef0" av="V">
-		<date type="xs:date">1967-xx-xx</date>
+		<date type="xs:date">1967-08-24_27</date>
 		<location>
 			<festival>Jazz Bilzen</festival>
 		</location>
@@ -10500,6 +10624,14 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
+			<artist>The Mods</artist>
+			<artist>Endatteme</artist>
+			<artist>Armand</artist>
+			<artist>Vin Cardinal &amp; The Queens</artist>
+			<artist>The Pebbles</artist>
+			<artist>Wannes Band</artist>
+			<artist>Procol Harum</artist>
+			<artist>Sandie Shaw</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10582,7 +10714,7 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0xd7e170" av="V">
-		<date type="xs:date">1970s</date>
+		<date type="xs:date">197x-xx-xx</date>
 		<location/>
 		<length>3:58:21</length>
 		<source>TV</source>
@@ -10988,7 +11120,7 @@ AC3@256 ]]></lineage>
 			<artist>Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
 			<artist>Adam Holzman</artist>
-			<artist>Robert Irving</artist>
+			<artist>Robert Irving III</artist>
 			<artist>Darryl Jones</artist>
 			<artist>Joseph McCrealy</artist>
 			<artist>Ricky Wellman</artist>
@@ -18863,7 +18995,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -18888,7 +19020,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title>Bits'n Pieces on TV 1970-73</title>
 	</session>
@@ -18912,7 +19044,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -18938,7 +19070,7 @@ sector aligned]]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -18962,7 +19094,7 @@ sector aligned]]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -18986,7 +19118,7 @@ sector aligned]]]></lineage>
 			<artist>Michael Henderson</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
-			<artist>Jumma Santos (Jim Riley)</artist>
+			<artist>Jumma Santos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -21800,7 +21932,7 @@ level 5]]></lineage>
 		<artists>
 			<artist main="true">Anthony Braxton</artist>
 			<artist>Kenny Wheeler</artist>
-			<artist>Jean-Francois Jenny-Clark</artist>
+			<artist>Jean-François Jenny-Clark</artist>
 			<artist>Charles 'Bobo' Shaw</artist>
 		</artists>
 		<title/>
@@ -22902,7 +23034,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist>Al Thompson</artist>
-			<artist>Scott Edwards</artist>
+			<artist>Scott Edwards Jr.</artist>
 			<artist>Bill Jones</artist>
 		</artists>
 		<title/>
@@ -23385,7 +23517,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist type="band">The Eleventh House</artist>
 			<artist>Randy Brecker</artist>
 			<artist>Alphonse Mouzon</artist>
-			<artist>Mike Mande</artist>
+			<artist>Mike Mandel</artist>
 			<artist>Danny Trifan</artist>
 		</artists>
 		<title>POP2</title>
@@ -23409,8 +23541,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Bay City Rollers</artist>
 			<artist>Chaka Khan</artist>
 			<artist>Billy Joel</artist>
-			<artist>Michelle Phillip</artist>
-			<artist>Tom Waits </artist>
+			<artist>Michelle Phillips</artist>
+			<artist>Tom Waits</artist>
 			<artist>Brian Wilson</artist>
 			<artist>Patti Smith</artist>
 			<artist>The Jackson 5</artist>
@@ -23624,7 +23756,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<lineage trader="Bruce Remy"/>
 	<remarks>time code</remarks>
 	<artists>			
-		<artist main="true" type="band">The Beegees</artist>
+		<artist main="true" type="band">The Bee Gees</artist>
 	</artists>
 	<title/>
 	</session>
@@ -24088,6 +24220,76 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Craig Taborn</artist>
 			<artist>Thomas Morgan</artist>
 			<artist>Gerald Cleaver</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">2015-09-05</date>
+		<location>
+			<festival>Jazz à la Villette</festival>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:38:22</length>
+		<source>web</source>
+		<format>720p</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Steve Coleman</artist>
+			<artist type="band">The Council of Balance</artist>
+			<artist>Jonathan Finlayson</artist>
+			<artist>Jeffrey Missal</artist>
+			<artist>Mike Lormand</artist>
+			<artist>Rane Moore</artist>
+			<artist>Maria Grand</artist>
+			<artist>Barry J. Crawford</artist>
+			<artist>David Bryant</artist>
+			<artist>Miles Okazaki</artist>
+			<artist>Anthony Tidd</artist>
+			<artist>Greg Chudzik</artist>
+			<artist>Sean Rickman</artist>
+			<artist>Alex Lipowski</artist>
+			<artist>Kristin Lee</artist> 
+			<artist>Elizabeth Weisser</artist>
+			<artist>Jay Campbell</artist>
+			<artist>Jen Shyu</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">2015-09-05</date>
+		<location>
+			<festival>Jazz à la Villette</festival>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:38:22</length>
+		<source>web</source>
+		<format>720p</format>
+		<quality>A+</quality>
+		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV). Additional audio lineage: FLVExtract -> Adobe Audition -> remove small portion of Left channel to synchronize with Right channel -> L-channel + 1,2dB -> Stereo Expander to put the bass more in the middle, but keep the stereo wide]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Steve Coleman</artist>
+			<artist type="band">The Council of Balance</artist>
+			<artist>Jonathan Finlayson</artist>
+			<artist>Jeffrey Missal</artist>
+			<artist>Mike Lormand</artist>
+			<artist>Rane Moore</artist>
+			<artist>Maria Grand</artist>
+			<artist>Barry J. Crawford</artist>
+			<artist>David Bryant</artist>
+			<artist>Miles Okazaki</artist>
+			<artist>Anthony Tidd</artist>
+			<artist>Greg Chudzik</artist>
+			<artist>Sean Rickman</artist>
+			<artist>Alex Lipowski</artist>
+			<artist>Kristin Lee</artist> 
+			<artist>Elizabeth Weisser</artist>
+			<artist>Jay Campbell</artist>
+			<artist>Jen Shyu</artist>
 		</artists>
 		<title/>
 	</session>
