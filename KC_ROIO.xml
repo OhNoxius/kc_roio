@@ -10086,16 +10086,38 @@ AC3@256 ]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x74d74e0" av="V">
+	<session id="id0x74d70d0" av="V">
+		<date type="xs:date">2003-xx-xx</date>
+		<location>
+			<festival>Jazz à Marciac</festival>
+			<city>Marciac</city>
+			<country>France</country>
+		</location>
+		<length>0:53:23</length>
+		<source channel="Mezzo">TV</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band">Wayne Shorter Quartet</artist>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title>Wayne Shorter For Ever</title>
+	</session>
+	<session id="id0x74d74e0" av="V" official="true">
 		<date type="xs:date">2004-07-04</date>
 		<location>
 			<festival>Cité de la Musique</festival>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>0:43:08</length>
-		<source>DVB</source>
-		<format>PAL</format>
+		<length>1:32:42</length>
+		<source>Blu-ray</source>
+		<format>1080i</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10104,6 +10126,70 @@ AC3@256 ]]></lineage>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Danilo Perez</artist>
 			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+	</session>
+	<session id="id0x74d74e0" av="V" official="true">
+		<date type="xs:date">2004-07-04</date>
+		<location>
+			<festival>Cité de la Musique</festival>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:32:42</length>
+		<source DVB="true">DVB</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[VIDEO: Digital Satellitereceiver Humax PVR8000 > DVRStudio > mpg > VideoReDo TVSuite > mpg. AUDIO: TV Sat > SkyStar2 > DVB Dream > PVAstrumento > TMPGEnc Authoring
+			DVD PAL (MPEG-2 720x576 25 i/s VBR 5000kbps, audio: 48000 Hz 256 Kb/s Stereo)]]></lineage>
+		<remarks>combination of 2 sources! best out there</remarks>
+		<artists>
+			<artist type="band">Wayne Shorter Quartet</artist>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title>Documentary ARTE: Wayne Shorter in Paris (Regie: Marie-Pierre Jaury)</title>
+	</session>
+	<session id="id0x74d74e0" av="V" official="true">
+		<date type="xs:date">2013-xx-xx</date>
+		<location>
+		</location>
+		<length>0:56:56</length>
+		<source>Blu-ray</source>
+		<format>1080i</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Wayne Shorter Quartet</artist>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+		</artists>
+		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+	</session>
+	<session id="id0x74d74e0" av="V">
+		<date type="xs:date">2004-07-19</date>
+		<location>
+			<festival>Umbria Jazz Festival</festival>
+			<venue>Arena Santa Giuliana</venue>
+			<city>Perugia</city>
+			<country>Italy</country>
+		</location>
+		<length>0:50:54</length>
+		<source channel="Rai Doc">TV</source>
+		<format>PAL</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Dave Holland</artist>
 			<artist>Brian Blade</artist>
 		</artists>
 		<title/>
@@ -19653,8 +19739,8 @@ TLH (Flac Level 8)]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Passport</artist>
 			<artist>Larry Coryell</artist>
+			<artist type="band" main="true">Passport</artist>			
 		</artists>
 		<title/>
 	</session>
