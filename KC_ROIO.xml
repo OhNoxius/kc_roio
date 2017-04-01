@@ -10130,15 +10130,15 @@ AC3@256 ]]></lineage>
 		</artists>
 		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
 	</session>
-	<session id="id0x74d74e0" av="V" official="true">
+	<session av="V" official="true">
 		<date type="xs:date">2004-07-04</date>
 		<location>
 			<festival>Cité de la Musique</festival>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>1:32:42</length>
-		<source DVB="true">DVB</source>
+		<length>0:43:09</length>
+		<source channel="ARTE" DVB="true">DVB</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[VIDEO: Digital Satellitereceiver Humax PVR8000 > DVRStudio > mpg > VideoReDo TVSuite > mpg. AUDIO: TV Sat > SkyStar2 > DVB Dream > PVAstrumento > TMPGEnc Authoring
@@ -10151,9 +10151,9 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary ARTE: Wayne Shorter in Paris (Regie: Marie-Pierre Jaury)</title>
+		<title>Documentary ARTE: Wayne Shorter Live in Paris (Regie: Marie-Pierre Jaury)</title>
 	</session>
-	<session id="id0x74d74e0" av="V" official="true">
+	<session av="V" official="true">
 		<date type="xs:date">2013-xx-xx</date>
 		<location>
 		</location>
