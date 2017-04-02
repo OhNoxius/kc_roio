@@ -4313,7 +4313,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	<session id="id0x4c6f3f0" av="V">
 		<date type="xs:date">1974-11-xx</date>
 		<location>
-			<festival>Musikladen</festival>
+			<show>Musikladen</show>
 			<venue>Sendesaal Radio Station</venue>
 			<city>Bremen</city>
 			<country>Germany</country>
@@ -4994,7 +4994,7 @@ DVD-R => Dime]]></lineage>
 		<artists>
 			<artist type="band">The Bandwagon</artist>
 			<artist main="true">Jason Moran</artist>
-			<artist>Taurus Mateen</artist>
+			<artist>Tarus Mateen</artist>
 			<artist>Nasheet Waits</artist>
 		</artists>
 		<title/>
@@ -8326,14 +8326,14 @@ Subs)]]></lineage>
 	<session id="id0x5829210" av="V">
 		<date type="xs:date">1974-xx-xx</date>
 		<location>
-			<festival>Musikladen Extra</festival>
+			<show>Musikladen Extra</show>
 			<country>Germany</country>
 		</location>
-		<length>01:42:00</length>
+		<length>0:43:28</length>
 		<source/>
-		<format/>
+		<format>NTSC</format>
 		<quality>A-</quality>
-		<lineage/>
+		<lineage>from a compilation DVD together with the PBS soundstage show</lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -8390,12 +8390,12 @@ Subs)]]></lineage>
 	<session id="id0x583eb80" av="V">
 		<date type="xs:date">1974-11-20</date>
 		<location>
-			<festival>PBS Soundstage</festival>
+			<show>PBS Soundstage</show>
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:58:47</length>
-		<source>TV</source>
+		<source></source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[1st Gen VHS > DVDR]]></lineage>
@@ -8406,8 +8406,17 @@ Subs)]]></lineage>
 			<artist>Stanley Clarke</artist>
 			<artist>Al Di Meola</artist>
 			<artist>Lenny White</artist>
+			<artist type="band">Headhunters</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Bennie Maupin</artist>			
+			<artist>Paul Jackson</artist>
+			<artist>Mike Clarke</artist>
+			<artist>Bill Summers</artist>
+			<dummy type="band">Chick Corea - Herbie Hancock Duo</dummy>
+			<artist>Chick Corea</artist>
+			<artist>Herbie Hancock</artist>
 		</artists>
-		<title/>
+		<title>A Mental Asylum Production (Welcome to the Show)</title>
 	</session>
 	<session id="id0x583f0d0" av="V">
 		<date type="xs:date">1974-11-20</date>
@@ -8417,17 +8426,26 @@ Subs)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:55:39</length>
-		<source>TV</source>
+		<source></source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>timecoded</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
 			<artist>Stanley Clarke</artist>
 			<artist>Al Di Meola</artist>
 			<artist>Lenny White</artist>
+			<artist type="band">Headhunters</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Bennie Maupin</artist>			
+			<artist>Paul Jackson</artist>
+			<artist>Mike Clarke</artist>
+			<artist>Bill Summers</artist>
+			<dummy type="band">Chick Corea - Herbie Hancock Duo</dummy>
+			<artist>Chick Corea</artist>
+			<artist>Herbie Hancock</artist>
 		</artists>
 		<title/>
 	</session>
@@ -24043,8 +24061,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">2000-02-01</date>
 		<location>
-			<show>VH1 Storytellersne</show>
-			<venue/>
+			<show>VH1 Storytellers</show>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
