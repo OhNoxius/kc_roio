@@ -10081,6 +10081,30 @@ file]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session id="id0x74d6b80" av="V">
+		<date type="xs:date">2003-07-04</date>
+		<location>
+			<festival>Jazzà Vienne</festival>
+			<venue>Théatre Antique</venue>
+			<city>Vienne</city>
+			<country>France</country>
+		</location>
+		<length>0:58:57</length>
+		<source channel="M6">TV</source>
+		<format>mpg</format>
+		<quality>A-</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Wayne Shorter Quartet</artist>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Danilo Perez</artist>
+			<artist>John Patitucci</artist>
+			<artist>Brian Blade</artist>
+			<artist>Orchestre National de Lyon (o.l.v. David Robertson)</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x74d70d0" av="V">
 		<date type="xs:date">2003-07-04</date>
 		<location>
@@ -24376,6 +24400,62 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Elizabeth Weisser</artist>
 			<artist>Jay Campbell</artist>
 			<artist>Jen Shyu</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-xx-xx</date>
+		<location>
+			<show>The Jackson 5 Show</show>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:24:05</length>
+		<source></source>
+		<format></format>
+		<quality>B-</quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">The Jackson 5</artist>
+			<artist>Michael Jackson</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">2001-xx-xx</date>
+		<location>
+			<show>Anthropology</show>
+			<country>Russia</country>
+		</location>
+		<length>0:42:21</length>
+		<source></source>
+		<format>mpg</format>
+		<quality>A-</quality>
+		<lineage></lineage>
+		<remarks>(brownish) black and white</remarks>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+			<artist>Avishai Cohen</artist>
+			<artist>Jeff Ballard</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1999-08-13</date>
+		<location>
+			<festival>Jazz à Marciac</festival>
+			<city>Marciac</city>
+			<country>France</country>
+		</location>
+		<length>0:09:46</length>
+		<source>TV</source>
+		<format>wmv</format>
+		<quality>B-</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Bill Carrothers</artist>
+			<artist>Bill Stewart</artist>
 		</artists>
 		<title/>
 	</session>
