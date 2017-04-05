@@ -2434,24 +2434,59 @@ authoring)]]></lineage>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
+		<length>0:58:36</length>
+		<source>AUD+FM</source>
+		<format>PAL</format>
+		<lineage><![CDATA[VIDEO: unknown audience member > PAL DVDR
+AUDIO: FM/SBD > ? > CDR
+SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/]]></lineage>
+		<remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the beginning, so this video is missing about 6.5 minutes. The missing parts of the video are faded out and in, I chose not to let the FM audio play through with a black screen on the video.</remarks>
+		<artists>
+			<artist main="true">D'Angelo</artist>
+			<artist type="band">The Soultronics</artist>
+			<artist>Pino Palladino</artist>
+			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Michael Archer</artist>
+			<artist>June Bervine</artist>
+			<artist>Samuel "Norris" Jones</artist>
+			<artist>Chalmers "Spanky" Alford</artist>
+			<artist>Franklin Walker</artist>
+			<artist>Russel Gunn</artist>
+			<artist>Frank "Root" Lacy</artist>
+			<artist>Jacques Schwarz-Bart</artist>
+			<artist>Shelby Johnson</artist>
+			<artist>Jack King</artist>
+			<artist>Anthony Hamilton</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">2000-07-16</date>
+		<location>
+			<festival>North Sea Jazz</festival>
+			<venue>Congresgebouw</venue>
+			<city>The Hague</city>
+			<country>The Netherlands</country>
+		</location>
 		<length>0:43:10</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<lineage><![CDATA[Tv > Gen VHS > SA > DVD]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Soultronics</artist>
 			<artist main="true">D'Angelo</artist>
+			<artist type="band">The Soultronics</artist>
+			<artist>Pino Palladino</artist>
+			<artist>Ahmir "?uestlove" Thompson</artist>
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
 			<artist>Samuel "Norris" Jones</artist>
 			<artist>Chalmers "Spanky" Alford</artist>
-			<artist>Pino Palladino</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
-			<artist>Franklin Walker</artist>
+			
+			<artist>Franklin "Knuckles" Walker</artist>
 			<artist>Russel Gunn</artist>
 			<artist>Frank "Root" Lacy</artist>
-			<artist>Jacques Schwarz-Bart</artist>
+			<artist>Jacques "Brother Jacques" Schwarz-Bart</artist>
 			<artist>Shelby Johnson</artist>
 			<artist>Jack King</artist>
 			<artist>Anthony Hamilton</artist>
@@ -8333,8 +8368,29 @@ Subs)]]></lineage>
 		<source/>
 		<format>NTSC</format>
 		<quality>A-</quality>
-		<lineage>from a compilation DVD together with the PBS soundstage show</lineage>
-		<remarks/>
+		<lineage></lineage>
+		<remarks>from a compilation DVD together with the PBS soundstage show</remarks>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Bill Connors</artist>
+			<artist>Lenny White</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-xx-xx</date>
+		<location>
+			<show>Musikladen Extra</show>
+			<country>Germany</country>
+		</location>
+		<length>0:43:27</length>
+		<source/>
+		<format>NTSC</format>
+		<quality>A-</quality>
+		<lineage></lineage>
+		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been remastered using video noise reduction and Sony Vegas Pro audio.</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -12037,7 +12093,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 	<session id="id0x116c2b0" av="A">
 		<date type="xs:date">1997-09-07</date>
 		<location>
-			<venu>Kito</venu>
+			<venue>Kito</venue>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
@@ -12815,7 +12871,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 	<session av="A">
 		<date type="xs:date">1971-01-25</date>
 		<location>
-			<venu>Jazzhouse</venu>
+			<venue>Jazzhouse</venue>
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
@@ -24065,12 +24121,10 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1974-1989</date>
-		<location>			
-			<venue/>
-			<city/>
+		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length>1:18:16+1:27:31</length>
+		<length>2:45:47</length>
 		<source/>
 		<format>NTSC</format>
 		<quality/>
