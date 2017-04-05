@@ -9,7 +9,6 @@
 		</location>
 		<length>0:18:55</length>
 		<source channel="RTBF">TV</source>
-		<format>VCD NTSC</format>
 		<quality/>
 		<lineage/>
 		<remarks>part missing. 1969-11-07 broadcast date?</remarks>
@@ -1642,8 +1641,8 @@
 		<lineage/>
 		<remarks>other guests: Billy Preston, George McRae</remarks>
 		<artists>
-			<artist type="band">Rufus</artist>
 			<artist main="true">Chaka Khan</artist>
+			<artist type="band">Rufus</artist>
 		</artists>
 		<title/>
 	</session>
@@ -1660,8 +1659,8 @@
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Rufus</artist>
 			<artist main="true">Chaka Khan</artist>
+			<artist type="band">Rufus</artist>
 		</artists>
 		<title/>
 	</session>
