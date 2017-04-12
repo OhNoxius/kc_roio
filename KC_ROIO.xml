@@ -24512,4 +24512,23 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title/>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-10-15</date>
+		<location>
+			<show>Jazz Scene USA</show>			
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Phineas Newborn Jr.</artist>
+			<artist>Al McKibbon</artist>
+			<artist>Kenny Dennis</artist>
+		</artists>
+		<title>Jazz Shots from the West Coast, Vol. 1 (EFORFILMS)</title>
+	</session>
 </KC_ROIO>
