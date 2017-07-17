@@ -12029,6 +12029,26 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session v="A" official="true">
+		<date type="xs:date">1960-04-30</date>
+		<location>
+			<venue>Birdland</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Scott LaFaro</artist>
+			<artist>Paul Motian</artist>
+		</artists>
+		<title>Bill Evans - Portrait in Jazz (remaster) (PWR 27257)</title>
+	</session>
 	<session id="id0x114d710" av="A">
 		<date type="xs:date">1961-03-18</date>
 		<location>
@@ -20059,6 +20079,29 @@ Boneroller Remastered by: TheTooleMan (smt), July, 2004]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1973-05-15</date>
+		<location>
+			<venue>The Jazz Workshop</venue>
+			<city>Boston MA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:45:22</length>
+		<source></source>
+		<format/>
+		<quality>B+</quality>
+		<lineage>cassette</lineage>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Bill Connors</artist>
+			<artist>Steve Gadd</artist>
+			<artist>Mingo Lewis</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x7518a40" av="A">
 		<date type="xs:date">1974-02-01</date>
 		<location>
@@ -24530,5 +24573,24 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Kenny Dennis</artist>
 		</artists>
 		<title>Jazz Shots from the West Coast, Vol. 1 (EFORFILMS)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-10-15</date>
+		<location>
+			<show>Jazz Scene USA</show>			
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:40</length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>host: Oscar Brown Jr.</remarks>
+		<artists>
+			<artist main="true">Phineas Newborn Jr.</artist>
+			<artist>Al McKibbon</artist>
+			<artist>Kenny Dennis</artist>
+		</artists>
+		<title>Jazz Scene USA: Phineas Newborn Jr. Trio / Jimmy Smith Trio (Shanachie)</title>
 	</session>
 </KC_ROIO>
