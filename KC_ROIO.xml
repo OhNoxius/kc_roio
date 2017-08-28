@@ -520,7 +520,7 @@
 		<title/>
 	</session>
 	<session id="id0x1207210" av="V">
-		<date type="xs:date">1974-07-xx</date>
+		<date type="xs:date">1974-07-04</date>
 		<location>
 			<festival>Montreux Jazz Festival</festival>
 			<city>Montreux</city>
@@ -541,6 +541,30 @@
 			<artist>Alex Blake</artist>
 			<artist>Milcho Leview</artist>
 			<artist>Lee Pastore</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-07-13</date>
+		<location>
+			<show>Old Grey Whistle Test</show>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:34:31</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality></quality>
+		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > MPEG Video Wizard > DVD ]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Billy Cobham</artist>
+			<artist>John Abercrombie</artist>
+			<artist>Michael Brecker</artist>
+			<artist>Randy Brecker</artist>
+			<artist>Glen Ferris</artist>
+			<artist>Alex Blake</artist>
+			<artist>Milcho Leview</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5460,6 +5484,25 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">John Abercrombie</artist>
+			<artist>Ralph Towner</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1976-09-18</date>
+		<location>
+			<festival>Deutsches Jazzfestival</festival>
+			<city>Frankfurt</city>
+			<country>Germany</country>
+		</location>
+		<length>0:43:18</length>
+		<source>DVB-S@320</source>
+		<format>flac</format>
+		<quality>A</quality>
+		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">John Abercrombie</artist>
@@ -24592,5 +24635,83 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Kenny Dennis</artist>
 		</artists>
 		<title>Jazz Scene USA: Phineas Newborn Jr. Trio / Jimmy Smith Trio (Shanachie)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2017-06-02</date>
+		<location>
+			<festival>Moers Festival</festival>
+			<city>Moers</city>			
+			<country>Germany</country>
+		</location>
+		<length>0:47:28</length>
+		<source>web</source>
+		<format>1080p</format>
+		<quality>A+</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">De Beren Gieren</artist>
+			<artist>Fulco Ottervanger</artist>
+			<artist>Lieven Van Pée</artist>
+			<artist>Simon Segers</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-06-02</date>
+		<location>
+			<festival>Moers Festival</festival>
+			<city>Moers</city>			
+			<country>Germany</country>
+		</location>
+		<length>0:21:42</length>
+		<source station="WDR3">FM</source>
+		<format></format>
+		<quality></quality>
+		<lineage>FM (analog cable) - Audacity - xACT</lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">De Beren Gieren</artist>
+			<artist>Fulco Ottervanger</artist>
+			<artist>Lieven Van Pée</artist>
+			<artist>Simon Segers</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1987-11-04</date>
+		<location>
+			<festival></festival>
+			<city>Berlin</city>			
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Joe Henderson</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1973-11-01</date>
+		<location>
+			<festival></festival>
+			<city>Berlin</city>			
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source></source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Joe Henderson</artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
