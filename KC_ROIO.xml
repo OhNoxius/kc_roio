@@ -183,13 +183,12 @@
 		<lineage/>
 		<remarks>RAITRE Broadcast Schegge. Location and date unknow European tour 1962 ??</remarks>
 		<artists>
-			<artist type="band">Jazz Messengers</artist>
 			<artist main="true">Art Blakey</artist>
-			<artist>Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Freddie Hubbard</artist>
 			<artist>Cedar Walton ?</artist>
-			<artist>Jymie Merrit ?</artist>
+			<artist>Jymie Merritt ?</artist>
 		</artists>
 		<title/>
 	</session>
@@ -206,9 +205,9 @@
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>8°Festival Internazionale del Jazz</remarks>
-		<artists>
-			<artist type="band">Jazz Messengers</artist>
+		<artists>			
 			<artist main="true">Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>
 			<artist>Freddie Hubbard</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Curtis Fuller</artist>
@@ -230,8 +229,8 @@
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Jazz Messengers</artist>
 			<artist main="true">Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>
 			<artist>Freddie Hubbard</artist>
 			<artist>Jaki Byard</artist>
 			<artist>Reggie Workman</artist>
@@ -6386,14 +6385,42 @@ DUB!!!]]></lineage>
 	<session id="id0x53e9710" av="V">
 		<date type="xs:date">1991-11-19+20</date>
 		<location>
+			<venue>Passeio Publico</venue>
 			<city>Salvador de Bahia</city>
 			<country>Brazil</country>
 		</location>
 		<length>0:57:32</length>
-		<source>TV</source>
-		<format>PAL</format>
+		<source>LD</source>
+		<format>AVC</format>
 		<quality>A-</quality>
-		<lineage/>
+		<lineage>LD rip ??</lineage>
+		<remarks>Live at Salvador, Bahia at the Passeio Publico: November 19 and 20, 1991</remarks>
+		<artists>
+			<artist main="true">Larry Coryell</artist>
+			<artist>Billy Cobham</artist>
+			<artist>Dori Caymmi</artist>
+			<artist>Romero Lubambo</artist>
+			<artist>Donald Harrison</artist>
+			<artist>Marcio Montarroyos</artist>
+			<artist>Luiz Avellar</artist>
+			<artist>Nico Assumpcao</artist>
+			<artist>Monica Millet</artist>
+			<artist>Tlao Oliveira</artist>
+		</artists>
+		<title>Live from Bahia</title>
+	</session>
+	<session id="id0x53e9710" av="V">
+		<date type="xs:date">1991-11-19+20</date>
+		<location>
+			<venue>Passeio Publico</venue>
+			<city>Salvador de Bahia</city>
+			<country>Brazil</country>
+		</location>
+		<length>0:57:32</length>
+		<source>DVD</source>
+		<format>PAL</format>
+		<quality>B+</quality>
+		<lineage>official VHS? -> ... -> DVD</lineage>
 		<remarks>Live at Salvador, Bahia at the Passeio Publico: November 19 and 20, 1991</remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
@@ -23173,6 +23200,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks/>
 		<artists>
 			<artist main="true">Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>
 			<artist>Lee Morgan</artist>
 			<artist>Benny Golson</artist>
 			<artist>Bobby Timmons</artist>
@@ -24876,7 +24904,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">196?-xx-xx</date>
+		<date type="xs:date">1963-xx-xx</date>
 		<location>
 			<venue>Apollo Theatre</venue>
 			<city>N.Y.C.</city>			
@@ -24889,7 +24917,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist main="true">Various Artists</artist>
+			<artist main="true" type="band">Various Artists</artist>
 			<artist>Stevie Wonder</artist>
 			<artist>Marvin Gaye</artist>
 		</artists>
