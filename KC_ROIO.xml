@@ -24282,26 +24282,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">2000-xx-xx</date>
 		<location>
-			<show>Late Show with David Letterman</show>
-			<city>N.Y.C.</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>5min</length>
-		<source></source>
-		<format>NTSC</format>
-		<quality/>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true" type="band">Steely Dan</artist>
-			<artist>Walter Becker</artist>
-			<artist>Donald Fagen</artist>
-		</artists>
-		<title></title>
-	</session>
-	<session av="V">
-		<date type="xs:date">2000-xx-xx</date>
-		<location>
 			<show>E! Network</show>
 			<city></city>
 			<country>U.S.A.</country>
