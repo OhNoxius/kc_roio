@@ -24569,9 +24569,33 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<length>0:59:20</length>
 		<source>VHS</source>
 		<format>DivX5</format>
-		<quality/>
+		<quality>B-</quality>
 		<lineage/>
 		<remarks>audio sync correction</remarks>
+		<artists>
+			<artist main="true">Tal Farlow</artist>
+			<artist>Larry Coryell</artist>
+			<artist>John Scofield</artist>
+			<artist>John Abercrombie</artist>
+			<artist>Larry Carlton</artist>
+			<artist>John Patitucci</artist>
+			<artist>Billy Hart</artist>
+		</artists>
+		<title>JazzVisions: All Strings Attached</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<venue>The Wiltern</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:00:01</length>
+		<source>LD</source>
+		<format>AVC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks></remarks>
 		<artists>
 			<artist main="true">Tal Farlow</artist>
 			<artist>Larry Coryell</artist>
