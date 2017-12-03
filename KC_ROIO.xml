@@ -9978,7 +9978,7 @@ file]]></lineage>
 		<title>POP 2</title>
 	</session>
 	<session id="id0x68d02b0" av="V">
-		<date type="xs:date">1972-08-xx</date>
+		<date type="xs:date">1972-08-23</date>
 		<location>
 			<festival>Châteauvallon Jazz Festival</festival>
 			<city>Châteauvallon</city>
@@ -9990,6 +9990,27 @@ file]]></lineage>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
+		<artists>
+			<artist main="true">Tony Williams</artist>
+			<artist>Jean-Luc Ponty</artist>
+			<artist>Stanley Clarke</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-08-23</date>
+		<location>
+			<festival>Châteauvallon Jazz Festival</festival>
+			<city>Châteauvallon</city>
+			<country>France</country>
+		</location>
+		<length>0:30:45</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[proshot > unknown DVD transfer > purchase > DIME]]></lineage>
+		<remarks>
+			Here is another great video from the French vaults.  Chateauvallon in August of 1972 saw some great performances including this one from a power trio with Jean Luc Ponty, Tony Williams and Stanley Clarke.  It's black and white but quite crisp video great audio quality. No chapters or menu. Purchased from a bootlegger in South America and liberated here.</remarks>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 			<artist>Jean-Luc Ponty</artist>
