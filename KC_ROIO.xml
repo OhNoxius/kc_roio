@@ -6032,9 +6032,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session id="id0x5352860" av="V">
-		<date type="xs:date">1974-07-26</date>
+		<date type="xs:date">1974-07-29</date>
 		<location>
 			<festival>Umbria Jazz</festival>
+			<venue>Piazza della Fontana Maggiore</venue>
 			<city>Perugia</city>
 			<country>Italy</country>
 		</location>
@@ -6050,7 +6051,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session id="id0x5352bd0" av="V">
-		<date type="xs:date">1974-xx-xx</date>
+		<date type="xs:date">1974-07-xx</date>
 		<location>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
@@ -6068,22 +6069,22 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session id="id0x5352ef0" av="V">
-		<date type="xs:date">1975-xx-xx</date>
+		<date type="xs:date">1974-07-31</date>
 		<location>
 			<festival>Umbria Jazz</festival>
 			<city>Umbria</city>
 			<country>Italy</country>
 		</location>
-
+		<length>0:04:51</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
-		<title>Jazz in Piazza</title>
+		<title>Jazz in Piazza: UMBRIA JAZZ 1974</title>
 	</session>
 	<session id="id0x5353210" av="V">
 		<date type="xs:date">1976-09-18</date>
@@ -6228,7 +6229,7 @@ DUB!!!]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:55:06</length>
-		<source>TV</source>
+		<source station="A2-SFP">TV</source>
 		<format>PAL</format>
 		<quality>B</quality>
 		<lineage/>
@@ -6238,7 +6239,7 @@ DUB!!!]]></lineage>
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>1986 compilation DVD</title>
+		<title>Special Keith Jarrett #1 + #2</title>
 	</session>
 	<session id="id0x5365e50" av="V">
 		<date type="xs:date">1995-xx-xx</date>
@@ -10996,22 +10997,22 @@ AC3@256 ]]></lineage>
 		<title>Classic Soul Compilation</title>
 	</session>
 	<session id="id0xd80900" av="V">
-		<date type="xs:date">1974-xx-xx</date>
+		<date type="xs:date">1974-07-xx</date>
 		<location>
 			<festival>Umbria Jazz</festival>
 			<country>Italy</country>
 		</location>
-
+		<length>1:01:23</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Keith Jarrett</artist>
 		</artists>
-		<title>Jazz in Piazza</title>
+		<title>Jazz in Piazza: UMBRIA JAZZ 1974</title>
 	</session>
 	<session id="id0xd80c20" av="V">
 		<date type="xs:date">1975-xx-xx</date>
@@ -11781,9 +11782,10 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0xdb0170" av="V">
-		<date type="xs:date">1992-10-16</date>
+		<date type="xs:date">1991-10-16</date>
 		<location>
-			<festival>Guitar Legend Expo</festival>
+			<festival>Expo '92: Guitar Legend Expo</festival>			
+			<venue>Auditorio de la Cartuja</venue>
 			<city>Sevilla</city>
 			<country>Spain</country>
 		</location>
@@ -24947,5 +24949,25 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Marvin Gaye</artist>
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<venue></venue>
+			<city></city>			
+			<country>U.S.A.</country>
+		</location>
+		<length>0:59:12</length>
+		<source station="NDR">TV</source>
+		<format>PAL</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[NDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS > playback on LG VCR > via Scart cable > Panasonic stand alone DVD recorder(XP mode) > Verbatim DVD- > Apple's DVD Studio Pro 4.0 > Verbatim DVD on HD (> YOU)]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Stevie Wonder</artist>
+			<artist>Marvin Gaye</artist>
+		</artists>
+		<title>Die Miles Davis Story (Documentary)</title>
 	</session>
 </KC_ROIO>
