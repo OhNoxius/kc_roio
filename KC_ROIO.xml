@@ -17670,7 +17670,7 @@ flac(lvl8)]]></lineage>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[JMY 1010 'Côte Blues' > EAC (secure) > FLAC]]></lineage>
-		<remarks/>
+		<remarks></remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -17679,6 +17679,28 @@ flac(lvl8)]]></lineage>
 			<artist>Tony Williams</artist>
 		</artists>
 		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1964-10-01</date>
+		<location>
+			<venue>Salle Pleyel</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:24:57</length>
+		<source station="ORTF">FM</source>
+		<format/>
+		<quality>B+</quality>
+		<lineage><![CDATA[FM-???]]></lineage>
+		<remarks>early &amp; late show</remarks>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+		</artists>
+		<title>Paris, France (MOON MCD 021-2)</title>
 	</session>
 	<session id="id0x4ff86c0" av="A">
 		<date type="xs:date">1964-10-01</date>
@@ -17692,7 +17714,7 @@ flac(lvl8)]]></lineage>
 		<format/>
 		<quality>C+</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks/>
+		<remarks>early show</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -17715,7 +17737,7 @@ flac(lvl8)]]></lineage>
 		<quality>C+</quality>
 		<lineage><![CDATA[ORTF Radio Broadcast > ?? > disk 1 of the fall 64 Miles Tree > ?? >
 wave > flac]]></lineage>
-		<remarks/>
+		<remarks>early show</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -21411,7 +21433,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<date type="xs:date">1973-07-06</date>
 		<location>
 			<venue>Philharmonic Hall</venue>
-			<city>N.Y.C. (early show)</city>
+			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:57:07</length>
@@ -21419,7 +21441,7 @@ Soundforge -> wav -> flac]]></lineage>
 		<format/>
 		<quality/>
 		<lineage><![CDATA[Wav>Flac>You]]></lineage>
-		<remarks/>
+		<remarks>early show</remarks>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -23415,7 +23437,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>0:12:08+0:05:20</length>
+		<length>0:17:28</length>
 		<source/>
 		<format>mpg</format>
 		<quality>B+</quality>
