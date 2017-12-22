@@ -3626,7 +3626,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Iver Heath, Buckinghamshire</city>
 			<country>U.K.</country>
 		</location>
-		<length>00:34:46</length>
+		<length>0:34:46</length>
 		<source channel="VPRO">TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -6017,7 +6017,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
-		<length>00:43:22</length>
+		<length>0:43:22</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A+</quality>
@@ -9877,7 +9877,7 @@ file]]></lineage>
 			<city>Köln</city>
 			<country>Germany</country>
 		</location>
-		<length>01:31:58</length>
+		<length>1:31:58</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -11198,7 +11198,7 @@ AC3@256 ]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length>01:11:18</length>
+		<length>1:11:18</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -11249,7 +11249,7 @@ AC3@256 ]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length>00:42:12</length>
+		<length>0:42:12</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -11280,7 +11280,7 @@ AC3@256 ]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length>01:39:30</length>
+		<length>1:39:30</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -11392,7 +11392,7 @@ AC3@256 ]]></lineage>
 			<festival>Live Under The Sky</festival>
 			<country>Japan</country>
 		</location>
-		<length>00:56:15</length>
+		<length>0:56:15</length>
 		<source>TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
@@ -22588,7 +22588,7 @@ correction>fades>Flac]]></lineage>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
-		<length>01:55:07</length>
+		<length>1:55:07</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22611,7 +22611,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:46:29</length>
+		<length>0:46:29</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22629,7 +22629,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:50:57</length>
+		<length>0:50:57</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22647,7 +22647,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:36:59</length>
+		<length>0:36:59</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22669,7 +22669,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
-		<length>01:08:42</length>
+		<length>1:08:42</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22690,7 +22690,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
-		<length>00:36:37</length>
+		<length>0:36:37</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22712,7 +22712,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:41:11</length>
+		<length>0:41:11</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22734,7 +22734,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
-		<length>00:38:58</length>
+		<length>0:38:58</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22755,7 +22755,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:51:45</length>
+		<length>0:51:45</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22777,7 +22777,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Molde</city>
 			<country>Norway</country>
 		</location>
-		<length>00:40:31</length>
+		<length>0:40:31</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22797,7 +22797,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Linköping</city>
 			<country>Sweden</country>
 		</location>
-		<length>00:18:25</length>
+		<length>0:18:25</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22819,7 +22819,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Hannover</city>
 			<country>Germany</country>
 		</location>
-		<length>00:39:07</length>
+		<length>0:39:07</length>
 		<source channel="SWR">TV</source>
 		<format>PAL</format>
 		<quality/>
@@ -22839,7 +22839,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
-		<length>00:51:47</length>
+		<length>0:51:47</length>
 		<source>FM</source>
 		<format/>
 		<quality/>
@@ -22861,7 +22861,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
-		<length>00:41:17</length>
+		<length>0:41:17</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -22884,7 +22884,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
-		<length>00:32:52</length>
+		<length>0:32:52</length>
 		<source channel="NRK">web</source>
 		<format>flv</format>
 		<quality>A</quality>
@@ -23005,7 +23005,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1992-xx-xx</date>
 		<location/>
-		<length>00:57:01</length>
+		<length>0:57:01</length>
 		<source channel="nps cultura 24">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
@@ -23025,7 +23025,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Moers</city>
 			<country>Germany</country>
 		</location>
-		<length>00:52:04</length>
+		<length>0:52:04</length>
 		<source channel="ARTE concert">web</source>
 		<format>720p</format>
 		<quality>A+</quality>
@@ -23047,7 +23047,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Antwperen</city>
 			<country>Belgium</country>
 		</location>
-		<length>01:06:19</length>
+		<length>1:06:19</length>
 		<source>DVD</source>
 		<format>PAL</format>
 		<quality>A-</quality>
@@ -23069,7 +23069,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Essen</city>
 			<country>Germany</country>
 		</location>
-		<length>01:02:07</length>
+		<length>1:02:07</length>
 		<source channel="WDR">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
@@ -23260,7 +23260,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>01:06:54</length>
+		<length>1:06:54</length>
 		<source/>
 		<format>NTSC</format>
 		<quality>A</quality>
@@ -23728,8 +23728,27 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1971-03-27</date>
 		<location>			
 			<show>Beat-Club</show>
-			<venue/>
-			<city/>
+			<venue>Radio Bremen TV Studios</venue>
+			<city>Bremen</city>
+			<country>Germany</country>
+		</location>
+		<length>0:20:46</length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality/>
+		<lineage/>
+		<remarks>Beat-Club S06E07</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>			
+		</artists>
+		<title>Grides</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-03-27</date>
+		<location>			
+			<show>Beat-Club</show>
+			<venue>Radio Bremen TV Studios</venue>
+			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
 		<length/>
