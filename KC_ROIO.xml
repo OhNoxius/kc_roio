@@ -4082,18 +4082,19 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x48939f0" av="V">
-		<date type="xs:date">1974-xx-xx</date>
+		<date type="xs:date">1974-07-13</date>
 		<location>
 			<festival>Pori Jazz Festival</festival>
+			<venue>Kirjurinluoto Arena</venue>
 			<city>Pori</city>
 			<country>Finland</country>
 		</location>
 		<length>15min</length>
-		<source>TV</source>
+		<source station="Yle 2">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[TV -> ... VHS? -> VHS? ... -> DVD]]></lineage>
+		<remarks>there is a lower gen VHS copy out there</remarks>
 		<artists>
 			<artist main="true">Gary Burton</artist>
 			<artist>Pat Metheny</artist>
@@ -25103,5 +25104,69 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Marvin Gaye</artist>
 		</artists>
 		<title>Die Miles Davis Story (Documentary)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1959-05-07</date>
+		<location>
+			<venue>La Bussola</venue>
+			<city>Marina di Pietrasanta</city>			
+			<country>Italy</country>
+		</location>
+		<length>0:38:44</length>
+		<source station="RAITRE">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
+		<remarks>DVD screencapture...there is a more original DVD somewhere</remarks>
+		<artists>
+			<artist main="true">Louis Armstrong</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Trummy Young</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Velma Middleton</artist>			
+		</artists>
+		<title>Jazz at La Bussola Vol.1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1985-10-27</date>
+		<location>
+			<festival>Jazz Jamboree</festival>
+			<venue>Sala Kongresowa</venue>
+			<city>Warsaw</city>			
+			<country>Poland</country>
+		</location>
+		<length>0:26:49</length>
+		<source station="TVP Kultura">TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title>compilation Jazz Jamboree 1985: Vienna Art Orchestra + Keith Jarrett</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1985-10-27</date>
+		<location>
+			<festival>Jazz Jamboree</festival>
+			<venue>Sala Kongresowa</venue>
+			<city>Warsaw</city>			
+			<country>Poland</country>
+		</location>
+		<length></length>
+		<source station="TVP Kultura">TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Vienna Art Orchestra</artist>
+		</artists>
+		<title>compilation Jazz Jamboree 1985: Vienna Art Orchestra + Keith Jarrett</title>
 	</session>
 </KC_ROIO>
