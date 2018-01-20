@@ -24477,7 +24477,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>2min</length>
-		<source channel="E!"></source>
+		<source channel="E!">TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
@@ -24497,7 +24497,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
-		<source></source>
+		<source>TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
@@ -24517,7 +24517,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
-		<source station="CNN"></source>
+		<source station="CNN">TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
@@ -24537,7 +24537,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
-		<source station="CNN"></source>
+		<source station="CNN">TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
@@ -24557,7 +24557,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>17min</length>
-		<source station="MSNBC"></source>
+		<source station="MSNBC">TV</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
