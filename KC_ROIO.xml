@@ -24411,15 +24411,16 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2000-02-01</date>
 		<location>
 			<show>VH1 Storytellers</show>
+			<venue>Sony Studios</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>45min</length>
-		<source channel="VH1"/>
+		<length>0:44:52</length>
+		<source channel="VH1">TV</source>
 		<format>NTSC</format>
-		<quality/>
+		<quality>B+</quality>
 		<lineage/>
-		<remarks/>
+		<remarks></remarks>
 		<artists>
 			<artist main="true" type="band">Steely Dan</artist>
 			<artist>Carolyn Leon</artist>
@@ -24435,7 +24436,38 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Michael Leonhart</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title>VH1 Storytellers (S05E01)</title>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2000-02-01</date>
+		<location>
+			<show>VH1 Storytellers</show>
+			<venue>Sony Studios</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>45min</length>
+		<source channel="VH1">TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks>VH1 Storytellers (S05E01)</remarks>
+		<artists>
+			<artist main="true" type="band">Steely Dan</artist>
+			<artist>Carolyn Leon</artist>
+			<artist>Victoria Cave</artist>
+			<artist>Tom Barney</artist>
+			<artist>Ricky Lawson</artist>
+			<artist>Jon Herington</artist>
+			<artist>Walter Becker</artist>
+			<artist>Ted Baker</artist>
+			<artist>Chris Potter</artist>
+			<artist>Cornelius Bumpus</artist>
+			<artist>Jim Pugh</artist>
+			<artist>Michael Leonhart</artist>
+			<artist>Donald Fagen</artist>
+		</artists>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-xx-xx</date>
@@ -24455,7 +24487,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-03-03</date>
@@ -24475,7 +24507,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-xx-xx</date>
@@ -24495,7 +24527,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-03-03</date>
@@ -24515,7 +24547,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-05-05</date>
@@ -24535,7 +24567,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">2001-03-19</date>
@@ -24555,7 +24587,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Walter Becker</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title>STEELY DAN 1 DVD LIVE &amp; TV COMPILATION #2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1966-07-02</date>
