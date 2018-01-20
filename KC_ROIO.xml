@@ -24419,8 +24419,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source channel="VH1">TV</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
-		<lineage/>
-		<remarks></remarks>
+		<lineage><![CDATA[cable TV > Mitsubishi HS-U650 > Toshiba RD XS 35 (stand alone Hard Drive/DVD Burner w/ basic editing functions)]]></lineage>
+		<remarks>all commercials have been removed and chapter marks created at the appropriate places</remarks>
 		<artists>
 			<artist main="true" type="band">Steely Dan</artist>
 			<artist>Carolyn Leon</artist>
