@@ -16379,10 +16379,10 @@ check)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length/>
-		<source>FM</source>
+		<source station="ADR">DVB</source>
 		<format/>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[ADR(192kbs) > SB!Live > CDWave > CD > EAC > Flac]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
@@ -25200,5 +25200,34 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Vienna Art Orchestra</artist>
 		</artists>
 		<title>compilation Jazz Jamboree 1985: Vienna Art Orchestra + Keith Jarrett</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">xxxx-xx-xx</date>
+		<location>
+			<show>ZDF Jazzclub</show>
+			<city></city>
+			<country>Germany</country>
+		</location>
+		<length>0:31:52</length>
+		<source channel="3sat">TV</source>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks>part missing. 1969-11-07 broadcast date?</remarks>
+		<artists>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Peter Herbolzheimer ...</dummy>
+			<dummy type="band">Toots Thielemans Quartet</dummy>
+			<artist>Toots Thielemans</artist>
+			<artist>Fred Hersh</artist>
+			<artist>Adam Nussbaum</artist>
+			<dummy type="band">Jimmy Smith Trio</dummy>
+			<artist>Jimmy Smith</artist>
+			<dummy type="band">Nancy Wilson Quartet</dummy>
+			<artist>Nancy Wilson</artist>
+			<dummy type="band">Monty Alexander Quintet</dummy>
+			<artist>Monty Alexander</artist>
+			<artist type="band">Modern Jazz Quartet</artist>
+		</artists>
+		<title/>
 	</session>
 </KC_ROIO>
