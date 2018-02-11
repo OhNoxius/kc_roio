@@ -25238,7 +25238,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>2:00:00</length>
+		<length>2:00:37</length>
 		<source>VHS</source>
 		<quality>C+</quality>
 		<lineage/>
@@ -25281,5 +25281,116 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Richard Pryor</artist>
 		</artists>
 		<title>Save the Children (Stan Lathan)</title>
+	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1972-09-xx</date>
+		<location>
+			<festival>Operation PUSH Black Expo</festival>
+			<venue>International Amphitheatre</venue>
+			<city>Chicago IL</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>2:00:37</length>
+		<source>vinyl?</source>
+		<quality>A</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Marvin Gaye</dummy>
+			<artist>Marvin Gaye</artist>
+			<artist>James Jamerson</artist>
+			<artist>The Staple Singers</artist>
+			<artist>The Temptations</artist>
+			<artist>The Chi lites</artist>
+			<artist>The Main Ingerdient</artist>
+			<artist>The O'Jays</artist>
+			<artist>Isaac Hayes</artist>
+			<artist>Zulema</artist>
+			<dummy type="band">Cannonball Adderly Quartet</dummy>
+			<artist>Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>George Duke</artist>
+			<artist>Albertina Walker</artist>
+			<artist>THe Push Mass Choir</artist>
+			<artist>Loretta Oliver</artist>
+			<artist>Rev. James Cleveland</artist>
+			<artist>Bill Withers</artist>
+			<artist>Curtis Mayfield</artist>
+			<artist>Sammy Davis Jr.</artist>
+			<dummmy type="band">Quincy Jones Big Band feat. Robert Flack</dummmy>
+			<artist>Roberta Flack</artist>
+			<artist>Quincy Jones</artist>
+			<artist type="band">Gladys Knight &amp; The Pips</artist>
+			<artist>Gladys Knight</artist>
+			<artist>Jerry Butler</artist>
+			<artist>Brenda Lee Eager</artist>
+			<artist>Ramsey Lewis</artist>
+			<artist>Nancy Wilson</artist>
+			<artist type="band">The Jackson 5</artist>
+			<artist>Michael Jackson</artist>
+			<artist>Jackie Verdell</artist>
+			<artist>Richard Pryor</artist>
+		</artists>
+		<title>Save the Children</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-08-05</date>
+		<location>
+			<show>The Midnight Special</show>
+			<venue>Braves Field</venue>
+			<city>Atlanta GA</city>			
+			<country>U.S.A.</country>
+		</location>
+		<length>0:44:51</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[Tv > Low Gen VHS > Panasonic DMR-ES40V > NERO 6 > SA > TMPGEnc (Uncompressed) > DVD  [Menu & Song Select]]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Marvin Gaye</artist>
+		</artists>
+		<title>The Midnight Special E84, aired September 6, 1974</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1979-11-26</date>
+		<location>
+			<venue>Espace Cardin</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:08:59</length>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[FM > Edirol R-09 (WAV) > WaveLab > FLAC (level 8, sector-align)]]></lineage>
+		<remarks><![CDATA[Broadcast : Les LÃ©gendes du Jazz, France Musique, february 10 & 11, 2018]]></remarks>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Marc Johnson</artist>
+			<artist>Joe LaBarbera</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1987-01-03</date>
+		<location>
+			<show>Marian McPartland's Piano Jazz</show>
+			<venue>Manhattan Beach Studios</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:56:01</length>
+		<source>FM</source>
+		<format/>
+		<quality>A</quality>
+		<lineage><![CDATA[HD over fm>Sangean HDT-1>Rotel-05 SE>SoundBlaster (Live! 24 bit External)>wav(CD Wave Editor)>flac]]></lineage>
+		<remarks>Originally recorded Jan. 3, 1987. Originally broadcast April 2, 1987. This broadcast date: 2014-01-31</remarks>
+		<artists>
+			<artist main="true">Herbie Hancock</artist>
+			<artist>Marian McPartland</artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
