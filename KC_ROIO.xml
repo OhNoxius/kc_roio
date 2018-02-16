@@ -25131,9 +25131,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[NDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS > playback on LG VCR > via Scart cable > Panasonic stand alone DVD recorder(XP mode) > Verbatim DVD- > Apple's DVD Studio Pro 4.0 > Verbatim DVD on HD (> YOU)]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
-			<artist>Stevie Wonder</artist>
-			<artist>Marvin Gaye</artist>
+			<artist main="true">Miles Davis</artist>
 		</artists>
 		<title>Die Miles Davis Story (Documentary)</title>
 	</session>
@@ -25290,7 +25288,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>2:00:37</length>
+		<length>1:25:15</length>
 		<source>vinyl?</source>
 		<quality>A</quality>
 		<lineage/>
