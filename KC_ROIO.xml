@@ -10391,28 +10391,6 @@ AC3@256 ]]></lineage>
 		</artists>
 		<title>Wayne Shorter For Ever</title>
 	</session>
-	<session id="id0x74d74e0" av="V" official="true">
-		<date type="xs:date">2004-07-04</date>
-		<location>
-			<festival>Cité de la Musique</festival>
-			<city>Paris</city>
-			<country>France</country>
-		</location>
-		<length>1:32:42</length>
-		<source>Blu-ray</source>
-		<format>1080i</format>
-		<quality>A+</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band">Wayne Shorter Quartet</artist>
-			<artist main="true">Wayne Shorter</artist>
-			<artist>Danilo Perez</artist>
-			<artist>John Patitucci</artist>
-			<artist>Brian Blade</artist>
-		</artists>
-		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
-	</session>
 	<session av="V" official="true">
 		<date type="xs:date">2004-07-04</date>
 		<location>
@@ -10437,10 +10415,13 @@ AC3@256 ]]></lineage>
 		<title>Documentary ARTE: Wayne Shorter Live in Paris (Regie: Marie-Pierre Jaury)</title>
 	</session>
 	<session av="V" official="true">
-		<date type="xs:date">2013-xx-xx</date>
+		<date type="xs:date">2012-11-03</date>
 		<location>
+			<venue>Salle Pleyel</venue>
+			<city>Paris</city>
+			<country>France</country>
 		</location>
-		<length>0:56:56</length>
+		<length>1:32:42</length>
 		<source>Blu-ray</source>
 		<format>1080i</format>
 		<quality>A+</quality>
