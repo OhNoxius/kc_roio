@@ -16353,12 +16353,31 @@ check)]]></lineage>
 	<session id="id0x10633f0" av="A">
 		<date type="xs:date">1975-02-02</date>
 		<location>
+			<venue>Die Glocke (Grosser Saal)</venue>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
-		<length/>
-		<source station="ADR">DVB</source>
+		<length>1:14:37</length>
+		<source>preFM</source>
 		<format/>
+		<quality/>
+		<lineage><![CDATA[CDR (preFM) - xACT]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1975-02-02</date>
+		<location>
+			<venue>Die Glocke (Grosser Saal)</venue>
+			<city>Bremen</city>
+			<country>Germany</country>
+		</location>
+		<length>1:14:54</length>
+		<source station="ADR" bitrade="192">DVB</source>
+		<format>flac</format>
 		<quality/>
 		<lineage><![CDATA[ADR(192kbs) > SB!Live > CDWave > CD > EAC > Flac]]></lineage>
 		<remarks/>
@@ -21348,7 +21367,7 @@ frontend>flac level 6]]></lineage>
 		<length>1:31:56</length>
 		<source>FM</source>
 		<format/>
-		<quality/>
+		<quality>A+</quality>
 		<lineage><![CDATA[a nice FM-recording, not first generation ]]></lineage>
 		<remarks/>
 		<artists>
