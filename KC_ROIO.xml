@@ -205,7 +205,7 @@
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>8°Festival Internazionale del Jazz</remarks>
-		<artists>			
+		<artists>
 			<artist main="true">Art Blakey</artist>
 			<artist type="band">Jazz Messengers</artist>
 			<artist>Freddie Hubbard</artist>
@@ -553,7 +553,7 @@
 		<length>0:34:31</length>
 		<source>TV</source>
 		<format>PAL</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > MPEG Video Wizard > DVD ]]></lineage>
 		<remarks/>
 		<artists>
@@ -664,7 +664,7 @@
 		<source channel="M6">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage trader="Nic (hulkhogan)"></lineage>
+		<lineage trader="Nic (hulkhogan)"/>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -684,7 +684,7 @@
 		<source channel="RAISAT eXtra">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage trader="Nic (hulkhogan)"></lineage>
+		<lineage trader="Nic (hulkhogan)"/>
 		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
@@ -1329,7 +1329,8 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</title>
+		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem
+			IDVD1003)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1961-10-24</date>
@@ -1419,7 +1420,8 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records LCD-1307-2)</title>
+		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records
+			LCD-1307-2)</title>
 	</session>
 	<session id="id0x12f4e00" av="V">
 		<date type="xs:date">1963-03-20</date>
@@ -1453,7 +1455,7 @@
 		<length>0:33:37</length>
 		<source channel="SWR RP">TV</source>
 		<format>PAL</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -1464,7 +1466,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1963-03-22</date>
@@ -1473,10 +1475,10 @@
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -1496,10 +1498,10 @@
 			<city>Lugano</city>
 			<country>Switzerland</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -2098,7 +2100,7 @@ file]]></lineage>
 			<artist>Roy Haynes</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x13def40" av="V">
 		<date type="xs:date">1986-xx-xx</date>
 		<location/>
@@ -2462,7 +2464,10 @@ authoring)]]></lineage>
 		<lineage><![CDATA[VIDEO: unknown audience member > PAL DVDR
 AUDIO: FM/SBD > ? > CDR
 SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/]]></lineage>
-		<remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the beginning, so this video is missing about 6.5 minutes. The missing parts of the video are faded out and in, I chose not to let the FM audio play through with a black screen on the video.</remarks>
+		<remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the
+			beginning, so this video is missing about 6.5 minutes. The missing parts of the video
+			are faded out and in, I chose not to let the FM audio play through with a black screen
+			on the video.</remarks>
 		<artists>
 			<artist main="true">D'Angelo</artist>
 			<artist type="band">The Soultronics</artist>
@@ -2503,9 +2508,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
 			<artist>Samuel "Norris" Jones</artist>
-			<artist>Chalmers "Spanky" Alford</artist>
-			
-			<artist>Franklin "Knuckles" Walker</artist>
+			<artist>Chalmers "Spanky" Alford</artist> <artist>Franklin "Knuckles" Walker</artist>
 			<artist>Russel Gunn</artist>
 			<artist>Frank "Root" Lacy</artist>
 			<artist>Jacques "Brother Jacques" Schwarz-Bart</artist>
@@ -2682,7 +2685,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<artist>James Moody</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x2849fe0" av="V">
 		<date type="xs:date">1971-01-17</date>
 		<location>
@@ -3058,7 +3061,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<artist>Gene Perla</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x3da1a90" av="V">
 		<date type="xs:date">1975-03-21</date>
 		<location>
@@ -3496,7 +3499,7 @@ Recorder]]></lineage>
 		<remarks/>
 		<artists>
 			<artist>Frank Zappa</artist>
-			<artist type="band" main="true">Pink Floyd</artist>			
+			<artist type="band" main="true">Pink Floyd</artist>
 		</artists>
 		<title>Pink Floyd - The Early Years 1965-1972</title>
 	</session>
@@ -3853,8 +3856,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
 			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
-		<remarks>Music: Festival Hall, Melbourne 
-			RDNZL</remarks>
+		<remarks>Music: Festival Hall, Melbourne RDNZL</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
@@ -5121,12 +5123,12 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Monterey CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Jimi Hendrix</artist>
 			<artist>Noel Redding</artist>
@@ -5142,9 +5144,9 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:05:51</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks>timecoded</remarks>
 		<artists>
@@ -5164,7 +5166,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<length>0:21:47</length>
 		<source>AUD</source>
 		<format>NTSC</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -5184,12 +5186,12 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<length>0:14:03</length>
 		<source>AUD</source>
 		<format>NTSC</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band">Band Of Gypsys</artist>
-			<artist main="true">Jimi Hendrix</artist>			
+			<artist main="true">Jimi Hendrix</artist>
 			<artist>Billy Cox</artist>
 			<artist>Buddy Miles</artist>
 		</artists>
@@ -5202,15 +5204,15 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Byron GA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band">Band Of Gypsys</artist>
-			<artist main="true">Jimi Hendrix</artist>			
+			<artist main="true">Jimi Hendrix</artist>
 			<artist>Billy Cox</artist>
 			<artist>Buddy Miles</artist>
 		</artists>
@@ -5224,7 +5226,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.K.</country>
 		</location>
 		<length>1:18:11</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
 		<quality>A-</quality>
 		<lineage/>
@@ -5502,7 +5504,8 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<source>DVB-S@320</source>
 		<format>flac</format>
 		<quality>A</quality>
-		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac</lineage>
+		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor >
+			flac</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">John Abercrombie</artist>
@@ -6383,7 +6386,7 @@ DUB!!!]]></lineage>
 			<artist main="true">Larry Coryell</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x53e9710" av="V">
 		<date type="xs:date">1991-11-19+20</date>
 		<location>
@@ -8532,7 +8535,7 @@ Subs)]]></lineage>
 		<source/>
 		<format>NTSC</format>
 		<quality>A-</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>from a compilation DVD together with the PBS soundstage show</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -8553,8 +8556,9 @@ Subs)]]></lineage>
 		<source/>
 		<format>NTSC</format>
 		<quality>A-</quality>
-		<lineage></lineage>
-		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been remastered using video noise reduction and Sony Vegas Pro audio.</remarks>
+		<lineage/>
+		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been
+			remastered using video noise reduction and Sony Vegas Pro audio.</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -8615,7 +8619,7 @@ Subs)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:58:47</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[1st Gen VHS > DVDR]]></lineage>
@@ -8628,7 +8632,7 @@ Subs)]]></lineage>
 			<artist>Lenny White</artist>
 			<artist type="band">Headhunters</artist>
 			<artist>Herbie Hancock</artist>
-			<artist>Bennie Maupin</artist>			
+			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clarke</artist>
 			<artist>Bill Summers</artist>
@@ -8646,7 +8650,7 @@ Subs)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:55:39</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage/>
@@ -8659,7 +8663,7 @@ Subs)]]></lineage>
 			<artist>Lenny White</artist>
 			<artist type="band">Headhunters</artist>
 			<artist>Herbie Hancock</artist>
-			<artist>Bennie Maupin</artist>			
+			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clarke</artist>
 			<artist>Bill Summers</artist>
@@ -9480,7 +9484,7 @@ file]]></lineage>
 			<artist>Tony Williams</artist>
 		</artists>
 		<title>Eagle Rock Entertainment</title>
-	</session>	
+	</session>
 	<session id="id0x2849b30" av="V">
 		<date type="xs:date">1982-12-05</date>
 		<location>
@@ -9500,7 +9504,7 @@ file]]></lineage>
 			<artist>Stan Getz</artist>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
-			<artist>Roy Haynes</artist>			
+			<artist>Roy Haynes</artist>
 			<dummy type="band">Now He Sings, Now He Sobs trio</dummy>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
@@ -9512,7 +9516,7 @@ file]]></lineage>
 			<artist>Roy Haynes</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x5bdbf90" av="V">
 		<date type="xs:date">1966-xx-xx</date>
 		<location>
@@ -9617,10 +9621,14 @@ file]]></lineage>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
 		<quality>B++</quality>
-		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders, improve color levels, smoothing, mirror stevie piano shots...)
-			AUDIO: My Voice of Sorrow (Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ, mastering)</lineage>
-		<remarks>Own remaster. Top down view from Stevie's piano playing was filmed through a mirror, showing left hand on the right side and vice versa. These shots are now un-mirrored.
-			Last seconds audio was missing on Footstomp DVD, so was taken from the source for the picture. A-V sync is perfect.</remarks>
+		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders,
+			improve color levels, smoothing, mirror stevie piano shots...) AUDIO: My Voice of Sorrow
+			(Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ,
+			mastering)</lineage>
+		<remarks>Own remaster. Top down view from Stevie's piano playing was filmed through a
+			mirror, showing left hand on the right side and vice versa. These shots are now
+			un-mirrored. Last seconds audio was missing on Footstomp DVD, so was taken from the
+			source for the picture. A-V sync is perfect.</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -9800,7 +9808,8 @@ file]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage trader="Lossless Legs"><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
+		<lineage trader="Lossless Legs"
+			><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
@@ -10104,8 +10113,11 @@ file]]></lineage>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[proshot > unknown DVD transfer > purchase > DIME]]></lineage>
-		<remarks>
-			Here is another great video from the French vaults.  Chateauvallon in August of 1972 saw some great performances including this one from a power trio with Jean Luc Ponty, Tony Williams and Stanley Clarke.  It's black and white but quite crisp video great audio quality. No chapters or menu. Purchased from a bootlegger in South America and liberated here.</remarks>
+		<remarks> Here is another great video from the French vaults. Chateauvallon in August of
+			1972 saw some great performances including this one from a power trio with Jean Luc
+			Ponty, Tony Williams and Stanley Clarke. It's black and white but quite crisp video
+			great audio quality. No chapters or menu. Purchased from a bootlegger in South America
+			and liberated here.</remarks>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 			<artist>Jean-Luc Ponty</artist>
@@ -10380,7 +10392,7 @@ AC3@256 ]]></lineage>
 		<source channel="Mezzo">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band">Wayne Shorter Quartet</artist>
@@ -10416,8 +10428,7 @@ AC3@256 ]]></lineage>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">2013-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>0:56:56</length>
 		<source>Blu-ray</source>
 		<format>1080i</format>
@@ -10431,7 +10442,8 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter
+			Quartet</title>
 	</session>
 	<session id="id0x74d74e0" av="V">
 		<date type="xs:date">2004-07-19</date>
@@ -10519,7 +10531,8 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter
+			Quartet</title>
 	</session>
 	<session id="id0x765d7b0" av="V">
 		<date type="xs:date">2013-07-30</date>
@@ -10573,9 +10586,7 @@ AC3@256 ]]></lineage>
 		<location>
 			<venue>Beat Club</venue>
 			<country>Germany</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
 			<artist>Wayne Shorter</artist>
@@ -10737,7 +10748,8 @@ AC3@256 ]]></lineage>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"/>
-		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in Adobe Audition and synced with video</remarks>
+		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in
+			Adobe Audition and synced with video</remarks>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -11856,7 +11868,7 @@ AC3@256 ]]></lineage>
 	<session id="id0xdb0170" av="V">
 		<date type="xs:date">1991-10-16</date>
 		<location>
-			<festival>Expo '92: Guitar Legend Expo</festival>			
+			<festival>Expo '92: Guitar Legend Expo</festival>
 			<venue>Auditorio de la Cartuja</venue>
 			<city>Sevilla</city>
 			<country>Spain</country>
@@ -12118,7 +12130,7 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Art Blakey</artist>
-			<artist type="band">Jazz Messengers</artist>			
+			<artist type="band">Jazz Messengers</artist>
 			<artist>Lee Morgan</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Walter Davis</artist>
@@ -12205,7 +12217,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		<source/>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
@@ -12483,7 +12495,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:15:29</length>
-		<source></source>
+		<source/>
 		<format>mp3@160</format>
 		<quality>A</quality>
 		<lineage/>
@@ -13097,7 +13109,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 	</session>
 	<session av="A">
 		<date type="xs:date">1971-03-05</date>
-		<location>			
+		<location>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
@@ -13976,9 +13988,7 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 			<venue>The Village Gate</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
-		</location>
-
-		<source>FM</source>
+		</location> <source>FM</source>
 		<format/>
 		<quality>A+</quality>
 		<lineage/>
@@ -15436,9 +15446,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>Denmark</country>
 		</location>
 		<length>125min</length>
-		<source/>
-
-		<artists>
+		<source/> <artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -16697,7 +16705,8 @@ Frontend>Level 6]]></lineage>
 		<quality/>
 		<lineage trader="propylaen"><![CDATA[FM -> reel tape 71/2ips -> Akai GX-400DSS -> Sound Forge -> FLAC level 6, sectors aligned and verified.
 			Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC (L8)]]></lineage>
-		<remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a different Memorex reel</remarks>
+		<remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a
+			different Memorex reel</remarks>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -16738,12 +16747,13 @@ Frontend>Level 6]]></lineage>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>SBD</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage></lineage>
-		<remarks>Open air concert recorded by Radio Bremen on January 18, 1975 at Post-Aula, Bremen, Germany.</remarks>
+		<lineage/>
+		<remarks>Open air concert recorded by Radio Bremen on January 18, 1975 at Post-Aula, Bremen,
+			Germany.</remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist type="band">The Eleventh House</artist>
@@ -16769,7 +16779,7 @@ Frontend>Level 6]]></lineage>
 Forge Pro 10.01 Contrast Clause : This show may have been seeded here before. This
 torrent is direct from the master casstte.]]></lineage>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
@@ -16792,7 +16802,7 @@ torrent is direct from the master casstte.]]></lineage>
 		<quality/>
 		<lineage><![CDATA[Mastertape>soN.Y.C.assette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist type="band">The Eleventh House</artist>
 			<artist>Mike Mandel</artist>
@@ -16929,7 +16939,7 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 			<artist main="true">Larry Coryell</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x1639bd0" av="A">
 		<date type="xs:date">1984-04-15</date>
 		<location>
@@ -17761,7 +17771,7 @@ flac(lvl8)]]></lineage>
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[JMY 1010 'Côte Blues' > EAC (secure) > FLAC]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>George Coleman</artist>
@@ -18207,9 +18217,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<venue>Koningin Elisabethzaal</venue>
 			<city>Antwerpen</city>
 			<country>Belgium</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Herbie Hancock</artist>
@@ -18536,9 +18544,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<festival>Newport Jazz Festival</festival>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Chick Corea</artist>
 			<artist>Dave Holland</artist>
@@ -18576,9 +18582,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Chick Corea</artist>
@@ -18593,9 +18597,7 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Chick Corea</artist>
@@ -19231,9 +19233,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<venue>Fillmore East</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
-		</location>
-
-		<artists>
+		</location> <artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
 			<artist>Chick Corea</artist>
@@ -19991,9 +19991,7 @@ TLH (Flac Level 8)]]></lineage>
 			<venue>Hill Auditorium</venue>
 			<city>Ann Arbor MI</city>
 			<country>U.S.A.</country>
-		</location>
-
-		<source>AUD</source>
+		</location> <source>AUD</source>
 		<format/>
 		<quality>B</quality>
 		<lineage/>
@@ -20063,7 +20061,7 @@ TLH (Flac Level 8)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist>Larry Coryell</artist>
-			<artist type="band" main="true">Passport</artist>			
+			<artist type="band" main="true">Passport</artist>
 		</artists>
 		<title/>
 	</session>
@@ -20293,7 +20291,7 @@ Boneroller Remastered by: TheTooleMan (smt), July, 2004]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:45:22</length>
-		<source></source>
+		<source/>
 		<format/>
 		<quality>B+</quality>
 		<lineage>cassette</lineage>
@@ -23380,7 +23378,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks>Frank Zappa on last track</remarks>
 		<artists>
 			<artist>Frank Zappa</artist>
-			<artist type="band" main="true">Pink Floyd</artist>			
+			<artist type="band" main="true">Pink Floyd</artist>
 		</artists>
 		<title>Pink Floyd - The Early Years 1965-1972</title>
 	</session>
@@ -23446,7 +23444,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
-		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of DVD</remarks>
+		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of
+			DVD</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist>Al Thompson</artist>
@@ -23481,7 +23480,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">198x-xx-xx</date>
-		<location>			
+		<location>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:22:54</length>
@@ -23490,7 +23489,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>host: James Darren</remarks>
-		<artists>			
+		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist>Smokey Robinson</artist>
 			<artist>Quincy Jones</artist>
@@ -23499,7 +23498,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1979-xx-xx</date>
-		<location>			
+		<location>
 			<venue>WTTW Studios “Soundstage”</venue>
 			<city>Chicago IL</city>
 			<country>U.S.A.</country>
@@ -23510,7 +23509,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Chick Corea</artist>
 			<artist>Bunny Brunel</artist>
 			<artist>Tom Brechtlein</artist>
@@ -23539,7 +23538,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Robert Wyatt</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Hugh Hopper</artist>
-			<artist>Elton Dean</artist>			
+			<artist>Elton Dean</artist>
 			<artist>Lyn Dobson</artist>
 			<artist>Nick Evans</artist>
 			<artist>Mark Charig</artist>
@@ -23565,7 +23564,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Robert Wyatt</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Hugh Hopper</artist>
-			<artist>Elton Dean</artist>			
+			<artist>Elton Dean</artist>
 			<artist>Lyn Dobson</artist>
 			<artist>Nick Evans</artist>
 			<artist>Mark Charig</artist>
@@ -23587,7 +23586,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>John Marshall</artist>
 			<artist>Hugh Hopper</artist>
@@ -23613,7 +23612,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Robert Wyatt</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Hugh Hopper</artist>
-			<artist>Elton Dean</artist>	
+			<artist>Elton Dean</artist>
 		</artists>
 		<title/>
 	</session>
@@ -23636,13 +23635,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Robert Wyatt</artist>
 			<artist>Mike Ratledge</artist>
 			<artist>Hugh Hopper</artist>
-			<artist>Karl Jenkins</artist>	
+			<artist>Karl Jenkins</artist>
 		</artists>
 		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-xx-xx</date>
-		<location>			
+		<location>
 			<venue/>
 			<city/>
 			<country>Italy</country>
@@ -23654,13 +23653,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-06-02</date>
-		<location>			
+		<location>
 			<venue>UFO Club</venue>
 			<city>London</city>
 			<country>U.K.</country>
@@ -23672,13 +23671,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-09-xx</date>
-		<location>			
+		<location>
 			<show>Hoepla</show>
 			<city/>
 			<country>The Netherlands</country>
@@ -23690,13 +23689,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-11-xx</date>
-		<location>			
+		<location>
 			<venue/>
 			<city/>
 			<country>France</country>
@@ -23708,13 +23707,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1968-xx-xx</date>
-		<location>			
+		<location>
 			<venue/>
 			<city/>
 			<country/>
@@ -23726,13 +23725,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1969-xx-xx</date>
-		<location>			
+		<location>
 			<show>Bouton Rouge</show>
 			<city/>
 			<country>France</country>
@@ -23750,7 +23749,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1969-xx-xx</date>
-		<location>			
+		<location>
 			<festival>Bilzen Jazz Festival</festival>
 			<city>Bilzen</city>
 			<country>Belgium</country>
@@ -23768,7 +23767,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1970-06-26_28</date>
-		<location>			
+		<location>
 			<festival>Kralingen Pop Festival</festival>
 			<venue>Kralingse Bos</venue>
 			<city>Kralingen</city>
@@ -23787,8 +23786,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1970-xx-xx</date>
-		<location>			
-		</location>
+		<location> </location>
 		<length/>
 		<source>DVD</source>
 		<format>NTSC</format>
@@ -23802,8 +23800,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
-		<location>		
-		</location>
+		<location> </location>
 		<length/>
 		<source>DVD</source>
 		<format>NTSC</format>
@@ -23811,13 +23808,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>documentary</remarks>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>		
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-03-27</date>
-		<location>			
+		<location>
 			<show>Beat-Club</show>
 			<venue>Radio Bremen TV Studios</venue>
 			<city>Bremen</city>
@@ -23830,13 +23827,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>Beat-Club S06E07</remarks>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Grides</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-03-27</date>
-		<location>			
+		<location>
 			<show>Beat-Club</show>
 			<venue>Radio Bremen TV Studios</venue>
 			<city>Bremen</city>
@@ -23849,13 +23846,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>Beat-Club S06E07</remarks>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
-		<location>			
+		<location>
 			<venue/>
 			<city/>
 			<country/>
@@ -23867,40 +23864,40 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Soft Machine</artist>			
+			<artist main="true" type="band">Soft Machine</artist>
 		</artists>
 		<title>Dada Was Here (Video Anthology) 1967-1971</title>
 	</session>
-		<session av="A">
-			<date type="xs:date">1977-06-10</date>
-			<location>
-				<show>The Midnight Special</show>
-				<venue>NBC Studios</venue>
-				<city>Los Angeles CA</city>
-				<country>U.S.A.</country>
-			</location>
-			<length>1:01:46</length>
-			<source>VHS</source>
-			<format>flac</format>
-			<quality>B+</quality>
-			<lineage trader="Lossless Legs"/>
-			<remarks/>
-			<artists>
-				<dummy type="band" main="true">Various Artists</dummy>
-				<artist type="band">Little Feat</artist>
-				<artist>Emmylou Harris</artist>
-				<artist>Bonnie Rait</artist>
-				<artist>Jesse Winchester</artist>
-				<artist>Norton Buffalo</artist>
-				<artist>Neil Young</artist>
-				<artist type="band" main="true">Weather Report</artist>
-				<artist>Joe Zawinul</artist>
-				<artist>Wayne Shorter</artist>
-				<artist>Jaco Pastorius</artist>
-				<artist>Manolo Badrena</artist>
-				<artist>Alex Acuna</artist>
-			</artists>
-			<title/>
+	<session av="A">
+		<date type="xs:date">1977-06-10</date>
+		<location>
+			<show>The Midnight Special</show>
+			<venue>NBC Studios</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:01:46</length>
+		<source>VHS</source>
+		<format>flac</format>
+		<quality>B+</quality>
+		<lineage trader="Lossless Legs"/>
+		<remarks/>
+		<artists>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<artist type="band">Little Feat</artist>
+			<artist>Emmylou Harris</artist>
+			<artist>Bonnie Rait</artist>
+			<artist>Jesse Winchester</artist>
+			<artist>Norton Buffalo</artist>
+			<artist>Neil Young</artist>
+			<artist type="band" main="true">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Manolo Badrena</artist>
+			<artist>Alex Acuna</artist>
+		</artists>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1977-06-10</date>
@@ -23948,7 +23945,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
 		<artists>
-			<artist main="true">Larry Coryell</artist>				
+			<artist main="true">Larry Coryell</artist>
 			<artist type="band">The Eleventh House</artist>
 			<artist>Randy Brecker</artist>
 			<artist>Alphonse Mouzon</artist>
@@ -23999,7 +23996,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>interview</remarks>
-		<artists>			
+		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
 		<title/>
@@ -24018,7 +24015,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true" type="band">The Jackson 5</artist>
 			<artist>Michael Jackson</artist>
 		</artists>
@@ -24038,7 +24035,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Patti Smith</artist>
 		</artists>
 		<title/>
@@ -24057,7 +24054,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Brian Wilson</artist>
 		</artists>
 		<title/>
@@ -24076,7 +24073,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Tom Waits</artist>
 		</artists>
 		<title/>
@@ -24095,7 +24092,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Michelle Philips</artist>
 		</artists>
 		<title/>
@@ -24114,7 +24111,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Billy Joel</artist>
 		</artists>
 		<title/>
@@ -24133,7 +24130,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
-		<artists>			
+		<artists>
 			<artist main="true" type="band">Bay City Rollers</artist>
 		</artists>
 		<title/>
@@ -24152,7 +24149,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
-		<artists>			
+		<artists>
 			<artist main="true">Chaka Khan</artist>
 		</artists>
 		<title/>
@@ -24171,29 +24168,29 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>time code</remarks>
-		<artists>			
+		<artists>
 			<artist main="true">Edgar Winter</artist>
 		</artists>
 		<title/>
 	</session>
 	<session av="V">
-	<date type="xs:date">1975-08-21</date>
-	<location>
-		<show>The Mike Douglas Show</show>
-		<venue/>
-		<city/>
-		<country>U.S.A.</country>
-	</location>
-	<length>0:08:31</length>
-	<source>TV</source>
-	<format>NTSC</format>
-	<quality>B</quality>
-	<lineage trader="Bruce Remy"/>
-	<remarks>time code</remarks>
-	<artists>			
-		<artist main="true" type="band">The Bee Gees</artist>
-	</artists>
-	<title/>
+		<date type="xs:date">1975-08-21</date>
+		<location>
+			<show>The Mike Douglas Show</show>
+			<venue/>
+			<city/>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:08:31</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B</quality>
+		<lineage trader="Bruce Remy"/>
+		<remarks>time code</remarks>
+		<artists>
+			<artist main="true" type="band">The Bee Gees</artist>
+		</artists>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1965-11-03</date>
@@ -24240,7 +24237,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Lennie Tristano</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session av="V">
 		<date type="xs:date">2015-07-11</date>
 		<location>
@@ -24266,7 +24263,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1969-1979</date>
-		<location>			
+		<location>
 			<country>France</country>
 		</location>
 		<length>2:05:59</length>
@@ -24287,12 +24284,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Stanley Cowell</artist>
-			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>			
+			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>
 			<artist>Stan Getz</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
 			<artist>Stanley Cowell</artist>
-			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>			
+			<dummy type="band"><![CDATA[Stan Getz Quartet]]></dummy>
 			<artist>Stan Getz</artist>
 			<artist>Eddy Louiss</artist>
 			<artist>René Thomas</artist>
@@ -24324,7 +24321,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Chick Corea</artist>
 			<artist>Anthony Braxton</artist>
 			<artist>Dave Holland</artist>
-			<artist>Barry Altschul</artist>			
+			<artist>Barry Altschul</artist>
 		</artists>
 		<title>French TV Jazz Rarities 1969-1979</title>
 	</session>
@@ -24353,9 +24350,9 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Philip Catherine</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
-		</artists>		
+		</artists>
 		<title>French TV Jazz Rarities 1969-1979</title>
-	</session>	
+	</session>
 	<session av="V">
 		<date type="xs:date">1971-12-29</date>
 		<location>
@@ -24383,7 +24380,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>McCoy Tyner</artist>
 			<artist>Sonny Fortune</artist>
 			<artist>Calvin Hill</artist>
-			<artist>Alphonse Mouzon</artist>			
+			<artist>Alphonse Mouzon</artist>
 		</artists>
 		<title>Soul! Season 4 Episode 36</title>
 	</session>
@@ -24397,7 +24394,17 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
-		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) - Soul Train ’74; 3. You Got The Love - Soul train ’74; 4. Fools Paradise - Soul Train ’75; 5. Medley - Soul Train ’75; 6. Once You Get Started - TopPop ’75; 7. You’re Welcome, Stop On By - Mike Douglas ’75; 8. Sweet Thing - Soul Train ’76; 9. Dance With Me (medley) - Soul Train ’75; 10. Chaka Khan - I Wish You Love - Mike Douglas ’76; 11. Rufus - At Midnight - ’77 video; 12. CK - Do You Love What You Feel - ’79 video; 13. R - Any Love - Mike Douglas ’80; (14 - 21 CK) 14. I’m Every Woman - video ’78; 15. What Cha’ Gonna Do For Me - TopPop ’80; 16. We Can Work It Out - Tomorrow Show ’81; 17. I Know You, I Live You - Tom Jones Show ’81; 18. I Feel For You - video ’84; 19. This Is My Night - TopPop ’85; 20. Love Of A Lifetime - video ’86; 21. Ain’t Nobody - TOTP ’89;</remarks>
+		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) -
+			Soul Train ’74; 3. You Got The Love - Soul train ’74; 4. Fools Paradise - Soul Train
+			’75; 5. Medley - Soul Train ’75; 6. Once You Get Started - TopPop ’75; 7. You’re
+			Welcome, Stop On By - Mike Douglas ’75; 8. Sweet Thing - Soul Train ’76; 9. Dance With
+			Me (medley) - Soul Train ’75; 10. Chaka Khan - I Wish You Love - Mike Douglas ’76; 11.
+			Rufus - At Midnight - ’77 video; 12. CK - Do You Love What You Feel - ’79 video; 13. R -
+			Any Love - Mike Douglas ’80; (14 - 21 CK) 14. I’m Every Woman - video ’78; 15. What Cha’
+			Gonna Do For Me - TopPop ’80; 16. We Can Work It Out - Tomorrow Show ’81; 17. I Know
+			You, I Live You - Tom Jones Show ’81; 18. I Feel For You - video ’84; 19. This Is My
+			Night - TopPop ’85; 20. Love Of A Lifetime - video ’86; 21. Ain’t Nobody - TOTP
+			’89;</remarks>
 		<artists>
 			<artist main="true">Chaka Khan</artist>
 			<artist type="band">Rufus</artist>
@@ -24417,7 +24424,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[cable TV > Mitsubishi HS-U650 > Toshiba RD XS 35 (stand alone Hard Drive/DVD Burner w/ basic editing functions)]]></lineage>
-		<remarks>all commercials have been removed and chapter marks created at the appropriate places</remarks>
+		<remarks>all commercials have been removed and chapter marks created at the appropriate
+			places</remarks>
 		<artists>
 			<artist main="true" type="band">Steely Dan</artist>
 			<artist>Carolyn Leon</artist>
@@ -24433,7 +24441,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Michael Leonhart</artist>
 			<artist>Donald Fagen</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">2000-02-01</date>
@@ -24470,7 +24478,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2000-xx-xx</date>
 		<location>
 			<show>E! Network</show>
-			<city></city>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>2min</length>
@@ -24510,7 +24518,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2000-xx-xx</date>
 		<location>
 			<show>Showbiz Today</show>
-			<city></city>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
@@ -24530,7 +24538,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2000-03-03</date>
 		<location>
 			<show>World Beat</show>
-			<city></city>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
@@ -24570,11 +24578,11 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2001-03-19</date>
 		<location>
 			<show><![CDATA[Rock & Roll Hall of Fame]]></show>
-			<city></city>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>14min</length>
-		<source></source>
+		<source/>
 		<format>NTSC</format>
 		<quality/>
 		<lineage/>
@@ -24762,7 +24770,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>AVC</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Tal Farlow</artist>
 			<artist>Larry Coryell</artist>
@@ -24776,7 +24784,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">2011-xx-xx</date>
-		<location>			
+		<location>
 			<city>Cascais</city>
 			<country>Portugal</country>
 		</location>
@@ -24804,12 +24812,13 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>mp2@320</format>
 		<quality/>
 		<lineage><![CDATA[dvb-s > digital satellite receiver Humax PVR8000 > mp2 > mp3DirectCut 2.08 > mp2]]></lineage>
-		<remarks>aired by german radio NDR-Info 'Jazz Konzert' on 2015-08-08, hosted by Claudia Schober</remarks>
+		<remarks>aired by german radio NDR-Info 'Jazz Konzert' on 2015-08-08, hosted by Claudia
+			Schober</remarks>
 		<artists>
 			<artist main="true">Bugge Wesseltoft</artist>
 			<artist>Miles Davis</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">2014-10-10</date>
@@ -24859,7 +24868,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Greg Chudzik</artist>
 			<artist>Sean Rickman</artist>
 			<artist>Alex Lipowski</artist>
-			<artist>Kristin Lee</artist> 
+			<artist>Kristin Lee</artist>
 			<artist>Elizabeth Weisser</artist>
 			<artist>Jay Campbell</artist>
 			<artist>Jen Shyu</artist>
@@ -24894,7 +24903,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Greg Chudzik</artist>
 			<artist>Sean Rickman</artist>
 			<artist>Alex Lipowski</artist>
-			<artist>Kristin Lee</artist> 
+			<artist>Kristin Lee</artist>
 			<artist>Elizabeth Weisser</artist>
 			<artist>Jay Campbell</artist>
 			<artist>Jen Shyu</artist>
@@ -24908,10 +24917,10 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:24:05</length>
-		<source></source>
-		<format></format>
+		<source/>
+		<format/>
 		<quality>B-</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Jackson 5</artist>
@@ -24926,10 +24935,10 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Russia</country>
 		</location>
 		<length>0:42:21</length>
-		<source></source>
+		<source/>
 		<format>mpg</format>
 		<quality>A-</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>(brownish) black and white</remarks>
 		<artists>
 			<artist main="true">Chick Corea</artist>
@@ -24949,8 +24958,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>TV</source>
 		<format>wmv</format>
 		<quality>B-</quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Bill Carrothers</artist>
 			<artist>Bill Stewart</artist>
@@ -24960,15 +24969,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V" official="true">
 		<date type="xs:date">1962-10-15</date>
 		<location>
-			<show>Jazz Scene USA</show>			
+			<show>Jazz Scene USA</show>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format>NTSC</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Phineas Newborn Jr.</artist>
 			<artist>Al McKibbon</artist>
@@ -24979,14 +24988,14 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V" official="true">
 		<date type="xs:date">1962-10-15</date>
 		<location>
-			<show>Jazz Scene USA</show>			
+			<show>Jazz Scene USA</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:25:40</length>
 		<source>DVD</source>
 		<format>NTSC</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks>host: Oscar Brown Jr.</remarks>
 		<artists>
 			<artist main="true">Phineas Newborn Jr.</artist>
@@ -24999,126 +25008,131 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2017-06-02</date>
 		<location>
 			<festival>Moers Festival</festival>
-			<city>Moers</city>			
+			<city>Moers</city>
 			<country>Germany</country>
 		</location>
 		<length>0:47:28</length>
 		<source>web</source>
 		<format>1080p</format>
 		<quality>A+</quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">De Beren Gieren</artist>
 			<artist>Fulco Ottervanger</artist>
 			<artist>Lieven Van Pée</artist>
 			<artist>Simon Segers</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">2017-06-02</date>
 		<location>
 			<festival>Moers Festival</festival>
-			<city>Moers</city>			
+			<city>Moers</city>
 			<country>Germany</country>
 		</location>
 		<length>0:21:42</length>
 		<source station="WDR3">FM</source>
-		<format></format>
-		<quality></quality>
+		<format/>
+		<quality/>
 		<lineage>FM (analog cable) - Audacity - xACT</lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">De Beren Gieren</artist>
 			<artist>Fulco Ottervanger</artist>
 			<artist>Lieven Van Pée</artist>
 			<artist>Simon Segers</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">2017-06-02</date>
 		<location>
 			<festival>Moers Festival</festival>
-			<city>Moers</city>			
+			<city>Moers</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
-		<source station=""></source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<length/>
+		<source station=""/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">De Beren Gieren</artist>
 			<artist>Fulco Ottervanger</artist>
 			<artist>Lieven Van Pée</artist>
 			<artist>Simon Segers</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1987-11-04</date>
 		<location>
-			<festival></festival>
-			<city>Berlin</city>			
+			<venue>Philharmonie</venue>
+			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<length>0:32:54</length>
+		<source bitrate="320">DVB</source>
+		<format>mp2</format>
+		<quality/>
+		<lineage>RBB (dvb-s, mp2, 320 kbps) / mp3directcut / mp2</lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Joe Henderson</artist>
+			<artist>Johnny Griffin</artist>
+			<artist>Kenny Drew</artist>
+			<artist>Jimmy Woode</artist>
+			<artist>Keith Killgo</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1973-11-01</date>
 		<location>
-			<festival></festival>
-			<city>Berlin</city>			
+			<festival>Philharmonie</festival>
+			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<length>0:18:39</length>
+		<source bitrate="320">DVB</source>
+		<format>mp2</format>
+		<quality/>
+		<lineage>RBB (dvb-s, mp2, 320 kbps) / mp3directcut / mp2</lineage>
+		<remarks/>
 		<artists>
-			<artist main="true">Joe Henderson</artist>
+			<artist main="true" typem="band">Joe Henderson and the Second Generation</artist>
+			<artist>Joe Henderson</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1963-xx-xx</date>
 		<location>
 			<venue>Apollo Theatre</venue>
-			<city>N.Y.C.</city>			
+			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
-		<source></source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist>Stevie Wonder</artist>
 			<artist>Marvin Gaye</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1987-xx-xx</date>
 		<location>
-			<venue></venue>
-			<city></city>			
+			<venue/>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:59:12</length>
@@ -25126,7 +25140,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>PAL</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[NDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS > playback on LG VCR > via Scart cable > Panasonic stand alone DVD recorder(XP mode) > Verbatim DVD- > Apple's DVD Studio Pro 4.0 > Verbatim DVD on HD (> YOU)]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 		</artists>
@@ -25136,7 +25150,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1959-05-07</date>
 		<location>
 			<venue>La Bussola</venue>
-			<city>Marina di Pietrasanta</city>			
+			<city>Marina di Pietrasanta</city>
 			<country>Italy</country>
 		</location>
 		<length>0:38:44</length>
@@ -25152,7 +25166,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Peanuts Hucko</artist>
 			<artist>Mort Herbert</artist>
 			<artist>Danny Barcelona</artist>
-			<artist>Velma Middleton</artist>			
+			<artist>Velma Middleton</artist>
 		</artists>
 		<title>Jazz at La Bussola Vol.1</title>
 	</session>
@@ -25161,7 +25175,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location>
 			<festival>Jazz Jamboree</festival>
 			<venue>Sala Kongresowa</venue>
-			<city>Warsaw</city>			
+			<city>Warsaw</city>
 			<country>Poland</country>
 		</location>
 		<length>0:26:49</length>
@@ -25169,7 +25183,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Gary Peacock</artist>
@@ -25182,15 +25196,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location>
 			<festival>Jazz Jamboree</festival>
 			<venue>Sala Kongresowa</venue>
-			<city>Warsaw</city>			
+			<city>Warsaw</city>
 			<country>Poland</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="TVP Kultura">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Vienna Art Orchestra</artist>
 		</artists>
@@ -25200,7 +25214,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">xxxx-xx-xx</date>
 		<location>
 			<show>ZDF Jazzclub</show>
-			<city></city>
+			<city/>
 			<country>Germany</country>
 		</location>
 		<length>0:31:52</length>
@@ -25289,7 +25303,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>vinyl?</source>
 		<quality>A</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<dummy type="band">Marvin Gaye</dummy>
@@ -25334,7 +25348,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location>
 			<show>The Midnight Special</show>
 			<venue>Braves Field</venue>
-			<city>Atlanta GA</city>			
+			<city>Atlanta GA</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:44:51</length>
@@ -25342,7 +25356,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > Low Gen VHS > Panasonic DMR-ES40V > NERO 6 > SA > TMPGEnc (Uncompressed) > DVD  [Menu & Song Select]]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Marvin Gaye</artist>
 		</artists>
@@ -25366,7 +25380,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Marc Johnson</artist>
 			<artist>Joe LaBarbera</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1987-01-03</date>
@@ -25381,11 +25395,330 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[HD over fm>Sangean HDT-1>Rotel-05 SE>SoundBlaster (Live! 24 bit External)>wav(CD Wave Editor)>flac]]></lineage>
-		<remarks>Originally recorded Jan. 3, 1987. Originally broadcast April 2, 1987. This broadcast date: 2014-01-31</remarks>
+		<remarks>Originally recorded Jan. 3, 1987. Originally broadcast April 2, 1987. This
+			broadcast date: 2014-01-31</remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Marian McPartland</artist>
 		</artists>
-		<title></title>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1985-07-02</date>
+		<location>
+			<venue>Palais des Congres (Studios De La Grande Armée)</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:36:07</length>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[Web > Audacity (some noises Cleaning - Applause length cutting) > TLH (SBE - Flac 8)]]></lineage>
+		<remarks>Sound improved and Pitch Fixed (A Flambay - U014945 production)</remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title>The Standards Live missing Tracks</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1985-07-12</date>
+		<location>
+			<venue>PWA Zaal</venue>
+			<city>Den Haag</city>
+			<country>The Netherlands</country>
+		</location>
+		<length>1:58:59</length>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[flac files directlyfrom web + dime > auacity (some minor cutting here and there) > TLH (SBE - Flac 8 ) > Dime]]></lineage>
+		<remarks>More Complete Pitch Fixed (A Flambay - U014945 Production)</remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1979-11-26</date>
+		<location>
+			<venue>Espace Cardin</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:08:59</length>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[FM > Edirol R-09 (WAV) > WaveLab > FLAC (level 8, sector-align)]]></lineage>
+		<remarks><![CDATA[Broadcast : Les LÃ©gendes du Jazz, France Musique, february 10 & 11, 2018 (Cosmikd)]]></remarks>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Marc Johnson</artist>
+			<artist>Joe LaBarbera</artist>
+		</artists>
+		<title>Two unreleased tracks from the official Paris Concert.</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1974-11-09</date>
+		<location>
+			<venue>Fox Theatre</venue>
+			<city>St. Louis MO</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:12:54</length>
+		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[CD > rip with EAC > checksums created with Trader's Little Helper > you]]></lineage>
+		<remarks>notes on the recording: well, it does sound really good for its time. It's
+			described as a soundboard, but please don't expect today's soundboard quality. However,
+			it's really a great song selection and great playing! I love this show.</remarks>
+		<artists>
+			<artist main="true" type="band">Utopia</artist>
+			<artist>Todd Rundgren</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1987-07-02</date>
+		<location>
+			<festival>Estival Jazz Lugano</festival>
+			<city>Lugano</city>
+			<country>Switzerland</country>
+		</location>
+		<length/>
+		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1949-12-25</date>
+		<location>
+			<venue>Carnegie Hall</venue>
+			<city>>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[Jass J-CD-16 (bootleg, mostly Voice of America sourced) --> hard disc --> Trader's Little Helper (flac 8)]]></lineage>
+		<remarks>Stars of Modern Jazz Concert</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Bud Powell Trio</dummy>
+			<artist>Bud Powell</artist>
+			<artist>Curley Russell</artist>
+			<artist>Max Roach</artist>
+			<dummy type="band">Miles Davis Septet</dummy>
+			<artist>Miles Davis</artist>
+			<artist>Benny Green</artist>
+			<artist>Sonny Stitt</artist>
+			<artist>Serge Chaloff</artist>
+			<artist>Bud Powell</artist>
+			<artist>Curley Russell</artist>
+			<artist>Max Roach</artist>
+			<dummy type="band">Stan Getz Quintet</dummy>
+			<artist>Kai Winding</artist>
+			<artist>Stan Getz</artist>
+			<artist>Al Haig</artist>
+			<artist>Tommy Potter</artist>
+			<artist>Roy Haynes</artist>
+			<dummy type="band">Sarah Vaughan duo</dummy>
+			<artist>Sarah Vaughan</artist>
+			<artist>Jimmy Jones</artist>
+			<dummy type="band">Lee Konitz Sextet</dummy>
+			<artist>Lee Konitz</artist>
+			<artist>Warne Marsh</artist>
+			<artist>Lennie Tristano</artist>
+			<artist>Billy Bauer</artist>
+			<artist>Joe Shulman</artist>
+			<artist>Jeff Morton</artist>
+			<dummy type="band">Red Rodney Quintet</dummy>
+			<artist>Red Rodney</artist>
+			<artist>Charlie Parker</artist>
+			<artist>Al Haig</artist>
+			<artist>Tommy Potter</artist>
+			<artist>Roy Haynes</artist>
+		</artists>
+		<title>Jass J-CD-16</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1972-10-04</date>
+		<location>
+			<show>Soul!</show>
+			<city></city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Rahsaan Roland Kirk</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-10-14</date>
+		<location>
+			<venue>Konserthuset</venue>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length/>
+		<source bitrate="192">web</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Vijay Iyer</artist>
+			<artist>Steve Lehman</artist>
+			<artist>Tyshawn Sorey</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-03-23</date>
+		<location>
+			<venue>Jazzklubb Fasching</venue>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length/>
+		<source bitrate="192">web</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Chris Lightcap</artist>
+			<artist>Craig Taborn</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1979-07-13</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length/>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+			<artist>Herbie Hancock</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1954-1967</date>
+		<location>
+			<country>Hungary</country>
+		</location>
+		<length/>
+		<source></source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Sviatoslav Richter</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-06-09</date>
+		<location>
+			<city>Hamburg</city>
+			<country>Germany</country>
+		</location>
+		<length/>
+		<source>DVB</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Mats Eilertsen Rubicon</artist>
+			<artist>Mats Eiliertsen</artist>
+			<artist>Harmen Fraanje</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1976-09-18</date>
+		<location>
+			<city>Frankfurt</city>
+			<country>Germany</country>
+		</location>
+		<length/>
+		<source>DVB</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">John Abercrombie</artist>
+			<artist>Ralph Towner</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2012-08-24</date>
+		<location>
+			<festival>Edinburgh Festival</festival>
+			<venue>Queen's Hall</venue>
+			<city>Edinburgh</city>
+			<country>U.K.</country>
+		</location>
+		<length/>
+		<source bitrate="320">web</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[HD 320k Stream on Squeezebox Touch, Digital Output to -> Alesis Masterlink @ 44.1kHz, 16-bit (track splits, etc) -> CDR -> EAC and TLH to FLAC]]></lineage>
+		<remarks>plays Scriabin, Medtner, Stravinsky, Debussy, Chopin</remarks>
+		<artists>
+			<artist main="true">Daniil Trifonov</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1967-12-21</date>
+		<location>
+			<venue>Austrophon Studios</venue>
+			<city>Wien</city>
+			<country>Austria</country>
+		</location>
+		<length/>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Erich Kleinschuster</artist>
+			<artist>Joe Zawinul</artist>
+		</artists>
+		<title/>
 	</session>
 </KC_ROIO>
