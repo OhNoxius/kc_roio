@@ -20593,19 +20593,20 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x13aac20" av="A">
-		<date type="xs:date">1975-04-07</date>
+		<date type="xs:date">1975-03-27</date>
 		<location>
 			<venue>Trod Nossel Studios</venue>
 			<city>Wallingford CT</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>72min</length>
+		<length>1:12:18</length>
 		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage><![CDATA[FM>Master tape>sony
 cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
-		<remarks/>
+		<remarks>recorded Thursday March 27, 1975 
+			broadcast on WPLR-FM Monday April 7, 1975</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -25720,5 +25721,47 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Joe Zawinul</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1964-xx-xx</date>
+		<location>
+			<venue>TV Studios</venue>
+			<country>Belgium</country>
+		</location>
+		<length/>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Chet Baker</artist>
+			<artist>Jacques Pelzer</artist>
+			<artist>René Urtreger</artist>
+			<artist>Luigi Trussardi</artist>
+			<artist>Franco Manzecchi</artist>
+		</artists>
+		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1979-09-03</date>
+		<location>
+			<festival>Kongsberg Jazz Festival</festival>
+			<city>Kongsberg</city>
+			<country>Norway</country>
+		</location>
+		<length/>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Chet Baker</artist>
+			<artist>Wolfgang Lackerscmid</artist>
+			<artist>Michel Graillier</artist>
+			<artist>Jean Louis Rassinfosse</artist>
+		</artists>
+		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
 	</session>
 </KC_ROIO>
