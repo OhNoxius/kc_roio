@@ -8109,7 +8109,7 @@ file]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
-			<artist>Bill Evans</artist>
+			<artist>Bill Evans (sax)</artist>
 			<artist>Mike Stern</artist>
 			<artist>Marcus Miller</artist>
 			<artist>Al Foster</artist>
@@ -8354,7 +8354,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
-			<artist>Bill Evans</artist>
+			<artist>Bill Evans (sax)</artist>
 			<artist>Steve Grossman</artist>
 			<artist>Jackie McLean</artist>
 			<artist>Joe McCreary</artist>
@@ -12283,7 +12283,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session v="A" official="true">
+	<session av="A" official="true">
 		<date type="xs:date">1960-04-30</date>
 		<location>
 			<venue>Birdland</venue>
