@@ -23290,17 +23290,36 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title/>
 	</session>
 	<session av="A">
+		<date type="xs:date">1968-10-25</date>
+		<location>
+			<venue>Royal Albert Hall</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length></length>
+		<source>SBD</source>
+		<format/>
+		<quality/>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+		</artists>
+		<title>Ahead Of Their Time</title>
+	</session>
+	<session av="A">
 		<date type="xs:date">1969-06-06</date>
 		<location>
 			<venue>Royal Albert Hall</venue>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length>1:46:47</length>
-		<source>AUD</source>
+		<length>1:57:02</length>
+		<source>SBD+AUD</source>
 		<format/>
 		<quality/>
-		<lineage><![CDATA[AUD > ? > traded CDR > EAC (secure mode) > wav Audition 1.5 (retracked only)]]></lineage>
+		<lineage><![CDATA[SBD: SBD reel (probably 2nd gen)->CDR->EAC->SoundForge (speed correction, re-tracking)->FLAC Frontend. AUD: AUD>unknown equipment>cassette>TDK SA-X 90 cassettes>Pioneer CT-W606DR tape deck>SB THX>Adobe Audition CC>WAV (normalized channels>Flac> SF10 (edited, speed corrected, volume level and phase offset adjusted, clicks removed)>wav>FLAC.]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
