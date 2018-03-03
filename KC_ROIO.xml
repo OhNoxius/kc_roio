@@ -1631,6 +1631,59 @@
 		</artists>
 		<title>Play Misty For Me (Clint Eastwood)</title>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1975-09-xx</date>
+		<location>
+			<festival>Monterey Jazz Festival</festival>
+			<city>Monterey CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:58:46</length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Akiyoshi-Tabackin Big Band</dummy>
+			<artist>Clark Terry</artist>
+			<artist>Akiyoshi-Tabackin</artist>
+			<dummy type="band">Paul Desmond Quartet</dummy>
+			<artist>Paul Desmond</artist>
+			<dummy type="band">Bill Evans Trio</dummy>
+			<artist>Bill Evans</artist>
+			<artist>Eddie Gomez</artist>
+			<dummy type="band">Dizzy Gillespie Group</dummy>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Cal Tjader</artist>
+			<artist>Roger Bland</artist>
+			<artist>Mickey Roker</artist>
+			<dummy type="band">Bobby Blue Bland</dummy>
+			<artist>Bobby Blue</artist>
+			<dummy type="band">Etta James And The Outlaws</dummy>
+			<artist>Etta James</artist>
+			<dummy type="band">Marian McPartland</dummy>
+			<artist>Marian McPartland</artist>
+			<dummy type="band">Bill Evans, Marian McPartland, John Lewis, Patrice Rushen</dummy>
+			<artist>Bill Evans</artist>
+			<artist>Marian McPartland</artist>
+			<artist>John Lewis</artist>
+			<artist>Patrice Rushen</artist>
+			<dummy type="band">Blood, Sweat &amp; Tears</dummy>
+			<artist>David Clayton Thomas</artist>
+			<dummy type="band">John Lewis Sextet</dummy>
+			<artist>John Lewis</artist>
+			<artist>Svend Asmussen</artist>
+			<artist>Hubert Laws</artist>
+			<artist>Richard Davis</artist>
+			<artist>Mondel Low</artist>
+			<artist>Roy Burns</artist>
+			<dummy type="band">Chuck Mangione Quartet</dummy>
+			<artist>Chuck Mangione</artist>
+		</artists>
+		<title>Highlights of the 18th Annual MONTEREY JAZZ FESTIVAL 1975 (Storyville)</title>
+	</session>
 	<session id="id0x12fa710" av="V">
 		<date type="xs:date">1974-12-7_14</date>
 		<location>
@@ -5362,6 +5415,30 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Abdou Mboup</artist>
 		</artists>
 		<title>My People</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">2004-xx-xx</date>
+		<location>			
+			<venue>The Point</venue>
+			<city>Cardiff, Wales</city>
+			<country>U.K.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Zawinul Syndicate</artist>
+			<artist main="true">Joe Zawinul</artist>
+			<artist>Sabine Bakongo</artist>
+			<artist>Amit Chatterjee</artist>
+			<artist>Linley Marthe</artist>
+			<artist>Nathaniel Townsley</artist>
+			<artist>Manolo Badrena</artist>
+		</artists>
+		<title>Joe Zawinul: A Musical Portrait (Arthaus, docu by Mark Kidel)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1997-07-13</date>
@@ -25123,7 +25200,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage>RBB (dvb-s, mp2, 320 kbps) / mp3directcut / mp2</lineage>
 		<remarks/>
 		<artists>
-			<artist main="true" typem="band">Joe Henderson and the Second Generation</artist>
+			<artist main="true" type="band">Joe Henderson and the Second Generation</artist>
 			<artist>Joe Henderson</artist>
 		</artists>
 		<title/>
@@ -25782,5 +25859,64 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Jean Louis Rassinfosse</artist>
 		</artists>
 		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1981-xx-xx</date>
+		<location>
+			<country>Canada</country>
+		</location>
+		<length/>
+		<source>LD</source>
+		<format>NTSC</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks>LDrip to DVD?</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Cecil Taylor</artist>
+			<artist>Paul Bley</artist>
+			<artist>Archie Shepp</artist>
+			<artist>Bill Dixon</artist>
+		</artists>
+		<title>Imagine the Sound (Ron Mann)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1980-xx-xx</date>
+		<location>
+			<festival>San Francisco Jazz Festival</festival>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:42:25</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B-</quality>
+		<lineage/>
+		<remarks>japanese tv?</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Dave Brubeck Quartet</dummy>
+			<artist>Dave Brubeck</artist>
+			<artist>Jerry Bergonzi</artist>
+			<artist>Randy Jones</artist>
+			<artist>Chris Brubeck</artist>
+			<dummy type="band">Cal Tjader band</dummy>
+			<artist>Cal Tjader</artist>
+			<dummy type="band">Jon Hendricks &amp; Co.</dummy>
+			<artist>Jon Hendricks</artist>
+			<dummy type="band">The James Leary Orchestra</dummy>
+			<artist>James Leary</artist>
+			<dummy type="band">Chick Corea-Gary Burton</dummy>
+			<artist>Chick Corea</artist>
+			<artist>Gary Burton</artist>
+			<artist type="band">Mel Lewis Jazz Orchestra</artist>
+			<artist>Mel Lewis</artist>
+			<artist>Dick Oatts</artist>
+			<artist>Joe Lovano</artist>
+			<artist>Tom Harell</artist>
+			<artist>Art Pepper</artist>
+			<artist>Mel Torme</artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
