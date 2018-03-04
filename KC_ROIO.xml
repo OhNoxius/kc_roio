@@ -25919,4 +25919,104 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title></title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1984-07-07</date>
+		<location>
+			<festival>Jazz Ost-West Festival</festival>
+			<venue>Meistersingerhalle</venue>
+			<city>Nuremberg</city>
+			<country>Germany</country>
+		</location>
+		<length>0:20:53</length>
+		<source station="BR">TV</source>
+		<format>NTSC</format>
+		<quality/>
+		<lineage><![CDATA[TV > VHS > DVD trade > dime]]></lineage>
+		<remarks>Bayerischen Rundfunk production. info from: http://www.webmutations.com/ceciltaylor/1984.html</remarks>
+		<artists>
+			<artist main="true">Cecil Taylor</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1985-02-22</date>
+		<location>
+			<venue>Town Hall</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:42:25</length>
+		<source>TV</source>
+		<format>NTSC</format>
+		<quality>B-</quality>
+		<lineage/>
+		<remarks>japanese tv?</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Herbie Hancock quintet</dummy>
+			<artist>Herbie Hancock</artist>
+			<artist>Freddie Hubbard</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+			<dummy type="band">Herbie Hancock quintet</dummy>			
+			<artist>Herbie Hancock</artist>
+			<artist>Bobby Hutcherson</artist>
+			<artist>James Newton</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+			<dummy type="band">Stanley Jordan</dummy>
+			<artist>Stanley Jordan</artist>
+			<dummy type="band">Kenny Burrell</dummy>
+			<artist>Kenny Burrell</artist>
+			<artist>Grover Washington Jr.</artist>
+			<artist>Reggie Workman</artist>
+			<artist>Grady Tate</artist>
+			<artist type="band">Art Blakey &amp; the Jazz Messenger</artist>
+			<artist>Art Blakey</artist>
+			<artist>Freddie Hubbard</artist>
+			<artist>Curtis Fuller</artist>
+			<artist>Johnny Griffin</artist>
+			<artist>Walter Davis Jr.</artist>
+			<artist>Reggie Workman</artist>
+			<dummy type="band">McCoy Tyner Quartet</dummy>
+			<artist>McCoy Tyner</artist>
+			<artist>Jackie McLean</artist>
+			<artist>Woody Shaw</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+			<dummy type="band">Charles Lloyd Quartet</dummy>
+			<artist>Charles Lloyd</artist>
+			<artist>Michel Petrucciani</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+			<dummy type="band">Jimmy Smith Quartet</dummy>
+			<artist>Jimmy Smith</artist>
+			<artist>Lou Donaldson</artist>
+			<artist>Kenny Burrell</artist>
+			<artist>Grady Tate</artist>
+			<dummy type="band">Cecil McBee</dummy>
+			<artist>Cecil McBee</artist>			
+		</artists>
+		<title>One Night With Blue Note</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1970-11-01</date>
+		<location>
+			<festival>Jazz Ost-West Festival</festival>
+			<venue>Stadttheater</venue>
+			<city>Bremerhaven</city>
+			<country>Germany</country>
+		</location>
+		<length>0:52:27</length>
+		<source station="Nordwestradio">FM</source>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[FM (analog cable) - Audacity - xACT ]]></lineage>
+		<remarks>Nordwestradio in concert: Pop &amp; Jazz, 2014-04-15. The Paul Bley Synthesizer Show</remarks>
+		<artists>
+			<artist main="true">Paul Bley</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
