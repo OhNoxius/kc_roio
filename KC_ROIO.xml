@@ -3499,18 +3499,18 @@ Recorder]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x4097300" av="V">
-		<date type="xs:date">1968-10-28</date>
+		<date type="xs:date">1968-10-25</date>
 		<location>
-			<venue>Royal Albert Hall</venue>
+			<venue>Royal Festival Hall</venue>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length>21min</length>
-		<source>TV</source>
+		<length>10min</length>
+		<source>VHS</source>
 		<format>PAL</format>
-		<quality/>
+		<quality>C</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>bad rip of Uncle Meat VHS</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
@@ -3525,7 +3525,7 @@ Recorder]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:17:50</length>
-		<source>TV</source>
+		<source>REEL</source>
 		<format>NTSC</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Pacific Film Archives Master Reel > Master VHS > B. Burnett VHS >
@@ -3768,7 +3768,7 @@ CosmikD]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:34:21</length>
-		<source>AUD</source>
+		<source>16mm</source>
 		<format>NTSC</format>
 		<quality/>
 		<lineage><![CDATA[16mm Film Master > SVHS w/timecodes > SVHS > Hard Drive via Pinnacle 11
@@ -4775,7 +4775,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<country>France</country>
 		</location>
 		<length>1:18:02</length>
-		<source>TV</source>
+		<source>VHS</source>
 		<format>PAL</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[master PDM VHS tape => Sharp VC-M512 VCR => Pinnacle Studio MovieBox =>
