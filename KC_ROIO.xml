@@ -1448,7 +1448,7 @@
 	<session av="V">
 		<date type="xs:date">1963-03-22</date>
 		<location>
-			<show>Jazz - Gehart Und Gesehen</show>
+			<show>Jazz – gehört und gesehen</show>
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
@@ -1471,7 +1471,7 @@
 	<session av="V" official="true">
 		<date type="xs:date">1963-03-22</date>
 		<location>
-			<show>Jazz - Gehart Und Gesehen</show>
+			<show>Jazz – gehört und gesehen</show>
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
@@ -26086,5 +26086,198 @@ Editing:
 			<artist>Peter Wolf</artist>
 		</artists>
 		<title>Frank Zappa - We Don't Mess Around</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-04-22</date>
+		<location>
+			<show>Jazz Harmonie</show>
+			<venue>Parc Floral</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:40:39</length>
+		<source/>
+		<format>PAL</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<dummy type="band">Autophysiopsychic Music</dummy>
+			<artist main="true">Yusef Lateef</artist>
+			<artist>Kenny Barron</artist>
+			<artist>Bob Cunningham</artist>
+			<artist>Albert Heath</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-08-xx</date>
+		<location>
+			<city>Chateauvallon</city>
+			<country>France</country>
+		</location>
+		<length>0:34:35</length>
+		<source/>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[DVD received in trade > AVS Video Converter > DVD edited, new menu]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Archie Shepp</artist>
+			<artist>Jasper van't Hof</artist>
+			<artist>Donald "Don" Rafael Garrett</artist>
+			<artist>Muhammad Ali</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1960-04-06</date>
+		<location>
+			<city>Milan</city>
+			<country>Italy</country>
+		</location>
+		<length>0:44:54</length>
+		<source>TV</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[TV > VHS > dvd recorder > dvd from trade > TMPGenc Dvd Author > 
+Video_ts]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true" type="band">Count Basie Orchestra</artist>
+			<artist>Count Basie</artist>
+			<artist>Sonny Cohn</artist>
+			<artist>Snooky Young</artist>
+			<artist>Joe Newman</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Benny Powell</artist>
+			<artist>Frank Wess</artist>
+			<artist>Frank Foster</artist>
+			<artist>Billy Mitchell</artist>
+			<artist>Freddie Green</artist>
+			<artist>Eddie Jones</artist>
+			<artist>Sonny Payne</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Various Artists - Jazz in Italy (PAL)</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Various Artists - Jazz a La Bussola Vol. 1</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Charles Mingus - 1974-07-28, Umbria Jazz, Piazza Del Popolo, Todi, Italy (PAL)</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Friedric Gulda-Chick Corea-Joe Zawinul - 1987-07-04, Wr. Stadthalle, Vienna, Austria (PAL)</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Friedrich Gulda &amp; Joe Zawinul - 1986-11-26, Vienna, Austria (DVB-S) (PAL)</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">Duke Ellington - 1964-03-22, Sanremo Jazz Festival, Italy (PAL)</date>
+		<location>
+			<city></city>
+			<country></country>
+		</location>
+		<length></length>
+		<source/>
+		<format></format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true"></artist>
+			<artist></artist>
+			<artist></artist>
+			<artist></artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
