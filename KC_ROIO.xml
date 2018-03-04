@@ -26019,11 +26019,9 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title></title>
 	</session>
-	 - , , , Germany ()
-	<session av="A">
+	<session av="V">
 		<date type="xs:date">1978-09-08</date>
 		<location>
-			<festival>Jazz Ost-West Festival</festival>
 			<venue>Circus Krone</venue>
 			<city>Munich</city>
 			<country>Germany</country>
