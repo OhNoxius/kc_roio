@@ -20646,8 +20646,8 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x1368670" av="A">
-		<date type="xs:date">1975-03-23</date>
+	<session av="A">
+		<date type="xs:date">1975-03-27</date>
 		<location>
 			<venue>Trod Nossel Studios</venue>
 			<city>Wallingford CT</city>
@@ -20657,8 +20657,31 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<source>preFM</source>
 		<format/>
 		<quality>B+</quality>
+		<lineage><![CDATA[Lineage: pre-FM reel>cass>flac taperchuck3 
+Transfer: Dragon nr-out>zoomH4 16/44.1>hcsd 8gb >Audacity>TLH>flac16 ->[BarnyzFrank new]OcenAudio w/Limiter No6 & Spline EQ for remastering 96kHz24b (see remastering notes for exact details) -> Goldwave (44.1kHz16b conversion, SBE alignment, FLAC level 8) -> Media Monkey (tagging, rename)]]></lineage>
+		<remarks>remaster of other preFM listing</remarks>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Al Di Meola</artist>
+			<artist>Lenny White</artist>
+		</artists>
+		<title/>
+	</session>
+	<session id="id0x1368670" av="A">
+		<date type="xs:date">1975-03-27</date>
+		<location>
+			<venue>Trod Nossel Studios</venue>
+			<city>Wallingford CT</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:25:49</length>
+		<source>preFM</source>
+		<format/>
+		<quality>B</quality>
 		<lineage><![CDATA[Lineage: pre-FM reel>cass>flac taperchuck3 Transfer: Dragon nr-out>zoomH4
-16/44.1>hcsd 8gb >Audacity>TLH>flac16. ]]></lineage>
+16/44.1>hcsd 8gb >Audacity>TLH>flac16.]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -20679,7 +20702,7 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<length>1:12:18</length>
 		<source>FM</source>
 		<format/>
-		<quality>B+</quality>
+		<quality>B-</quality>
 		<lineage><![CDATA[FM>Master tape>sony
 cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
 		<remarks>recorded Thursday March 27, 1975 
