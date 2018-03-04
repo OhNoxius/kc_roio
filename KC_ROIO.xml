@@ -26019,4 +26019,51 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title></title>
 	</session>
+	 - , , , Germany ()
+	<session av="A">
+		<date type="xs:date">1978-09-08</date>
+		<location>
+			<festival>Jazz Ost-West Festival</festival>
+			<venue>Circus Krone</venue>
+			<city>Munich</city>
+			<country>Germany</country>
+		</location>
+		<length>0:58:02</length>
+		<source station="BR">TV</source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[Recording (August 1996, by Bernhard):
+-> Master Super-VHS Mono recording, unknown equipment
+
+Lineage digitization (2017 12 30, Pittylabelle):
+
+Video:
+-> VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL)
+-> VHS player: Panasonic SVHS Player NV-HS 1000
+-> DVD recorder: Panasonic DVD Recorder DMR-ES10
+-> Connection: S-Video out/in
+
+Audio:
+-> Recorder: Olympus LS-12
+-> Connection: Line out/in
+-> WAV-File 16 Bit / 44.1 kHz 
+
+Editing:
+-> Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work
+-> Video: DVD Shrink -> VOB2MPEG -> DGMPGDec
+-> Assembling: MKVMerge: M2V video and LPCM Audio -> *.MKV with chapters]]></lineage>
+		<remarks>Original Broadcast date: 1980 07 01
+			Re-Broadcast date: August 1996 (this torrent)</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist>Ed Mann</artist>
+			<artist>Ike Willis</artist>
+			<artist>Denny Walley</artist>
+			<artist>Arthur Barrow</artist>
+			<artist>Vinnie Colaiuta</artist>
+			<artist>Tommy Mars</artist>
+			<artist>Peter Wolf</artist>
+		</artists>
+		<title>Frank Zappa - We Don't Mess Around</title>
+	</session>
 </KC_ROIO>
