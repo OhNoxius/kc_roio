@@ -296,7 +296,7 @@
 			<artist>Chuck Israels</artist>
 			<artist>Larry Bunker</artist>
 		</artists>
-		<title>Jazz Icons 3</title>
+		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
 	<session id="id0x1180fe0" av="V">
 		<date type="xs:date">1965-03-19</date>
@@ -339,8 +339,10 @@
 		<title>The 1965 London Concerts (Impro-Jazz)</title>
 	</session>
 	<session id="id0x11813a0" av="V" official="true">
-		<date type="xs:date">1965-xx-xx</date>
+		<date type="xs:date">1965-11-03</date>
 		<location>
+			<venue>Maison de la Mutualité</venue>
+			<city>Paris</city>
 			<country>France</country>
 		</location>
 		<length/>
@@ -355,7 +357,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alan Dawson</artist>
 		</artists>
-		<title>Jazz Icons 3</title>
+		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
 	<session id="id0x11816c0" av="V" official="true">
 		<date type="xs:date">1970-xx-xx</date>
@@ -373,7 +375,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<title>Jazz Icons 3</title>
+		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
 	<session id="id0x1182ae0" av="V" official="true">
 		<date type="xs:date">1970-xx-xx</date>
@@ -391,7 +393,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<title>Jazz Icons 3</title>
+		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
 	<session id="id0x1182e00" av="V">
 		<date type="xs:date">1970-xx-xx</date>
@@ -450,7 +452,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Eliot Zigmund</artist>
 		</artists>
-		<title>Jazz Icons 3</title>
+		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
 	<session id="id0x1206900" av="V">
 		<date type="xs:date">1978-xx-xx</date>
@@ -25306,6 +25308,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>DVD screencapture...there is a more original DVD somewhere</remarks>
 		<artists>
+			<artist type="band">Louis Armstrong All Stars</artist>
 			<artist main="true">Louis Armstrong</artist>
 			<artist>Billy Kyle</artist>
 			<artist>Trummy Young</artist>
@@ -25315,6 +25318,31 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Velma Middleton</artist>
 		</artists>
 		<title>Jazz at La Bussola Vol.1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1959-05-07</date>
+		<location>
+			<venue>La Bussola</venue>
+			<city>Focette</city>
+			<country>Italy</country>
+		</location>
+		<length>0:38:44</length>
+		<source station="RAITRE">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
+		<remarks>DVD screencapture...there is a more original DVD somewhere</remarks>
+		<artists>
+			<artist type="band">Louis Armstrong All Stars</artist>
+			<artist main="true">Louis Armstrong</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Trummy Young</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Velma Middleton</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1985-10-27</date>
@@ -26207,103 +26235,171 @@ Video_ts]]></lineage>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">Various Artists - Jazz a La Bussola Vol. 1</date>
+		<date type="xs:date">1974-07-28</date>
 		<location>
-			<city></city>
-			<country></country>
+			<festival>Umbria Jazz</festival>
+			<venue>Piazza Del Popolo</venue>
+			<city>Todi</city>
+			<country>Italy</country>
 		</location>
-		<length></length>
-		<source/>
-		<format></format>
+		<length>0:42:30</length>
+		<source>TV</source>
+		<format>PAL</format>
 		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
+		<lineage><![CDATA[TV > VHS from a trade (at least 2nd gen) > LG dvd recorder > dvd-rw > my hard disk > TMPGenc DVD Author 1.6 > Video_ts > you]]></lineage>
+		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto" aired for the first time during 1975.</remarks>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Don Pullen</artist>
+			<artist>Hamiet Bluiett</artist>
+			<artist>George Adams</artist>
+			<artist>Dannie Richmond</artist>
 		</artists>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">Charles Mingus - 1974-07-28, Umbria Jazz, Piazza Del Popolo, Todi, Italy (PAL)</date>
+		<date type="xs:date">1987-07-04</date>
 		<location>
-			<city></city>
-			<country></country>
+			<venue>Wr. Stadthalle</venue>
+			<city>Vienna</city>
+			<country>Austria</country>
 		</location>
-		<length></length>
-		<source/>
-		<format></format>
+		<length>1:33:02</length>
+		<source>VHS</source>
+		<format>PAL</format>
 		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
+		<lineage><![CDATA[VHS>Panasonic-DVD-Recorder>DVD-RW>PC>Cuttermaran>DVD-Lab>Dime]]></lineage>
+		<remarks>the first seconds/minutes of the first track are missing on the tape</remarks>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist main="true">Friedric Gulda</artist>
+			<artist>Chick Corea</artist>
+			<artist>Joe Zawinul></artist>
 		</artists>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">Friedric Gulda-Chick Corea-Joe Zawinul - 1987-07-04, Wr. Stadthalle, Vienna, Austria (PAL)</date>
+		<date type="xs:date">1986-11-26</date>
 		<location>
-			<city></city>
-			<country></country>
+			<venue>Wiener Konzerthaus (Großer Saal)</venue>
+			<city>Vienna</city>
+			<country>Austria</country>
 		</location>
-		<length></length>
-		<source/>
-		<format></format>
+		<length>2:02:58</length>
+		<source>DVB-S</source>
+		<format>PAL</format>
 		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
+		<lineage><![CDATA[DVB-S>HDD>PC>ProjectX>Cuttermaran>DVD-Lab>Dime]]></lineage>
+		<remarks>2xDVD. digital recording without re-encoding.</remarks>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist main="true">Friedrich Gulda</artist>
+			<artist>Joe Zawinul</artist>
 		</artists>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">Friedrich Gulda &amp; Joe Zawinul - 1986-11-26, Vienna, Austria (DVB-S) (PAL)</date>
+		<date type="xs:date">1964-03-22</date>
 		<location>
-			<city></city>
-			<country></country>
+			<festival>Sanremo Jazz Festival</festival>
+			<city>Sanremo</city>
+			<country>Italy</country>
 		</location>
-		<length></length>
-		<source/>
-		<format></format>
+		<length>0:44:10</length>
+		<source station="RAI SAT">TV</source>
+		<format>PAL</format>
 		<quality/>
-		<lineage><![CDATA[]]></lineage>
+		<lineage><![CDATA[Rai Sat > (unknown devices) > dvd from trade > dvd decrypter > my hard disc > TMPGenc DVD Author 3.0 > Video_ts]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist main="true" type="band">Duke Ellington "All Stars" Octet</artist>
+			<artist>Duke Ellington</artist>
+			<artist>Rolf Ericson</artist>
+			<artist>Lawrence Brown</artist>
+			<artist>Johnny Hodges</artist>
+			<artist>Paul Gonsalves</artist>
+			<artist>Harry Carney</artist>
+			<artist>Bibi Rovére</artist>
+			<artist>Sam Woodyard</artist>
 		</artists>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date">Duke Ellington - 1964-03-22, Sanremo Jazz Festival, Italy (PAL)</date>
+		<date type="xs:date">1970-07-20</date>
 		<location>
-			<city></city>
-			<country></country>
+			<venue>La Bussola</venue>
+			<city>Marina di Pietrasanta</city>
+			<country>Italy</country>
 		</location>
-		<length></length>
-		<source/>
-		<format></format>
-		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
+		<length>0:40:40</length>
+		<source station="RAITRE">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
+		<remarks>schegge</remarks>
 		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
+			<artist type="band">Duke Ellington Orchestra</artist>
+			<artist main="true">Duke Ellington</artist>
+			<artist>Cat Anderson</artist>
+			<artist>Cootie Williams</artist>
+			<artist>Mercer Ellington</artist>
+			<artist>Fred Stone</artist>
+			<artist>Nelson Williams</artist>
+			<artist>Chuck Connors</artist>
+			<artist>Malcom Taylor</artist>
+			<artist>Booty Wood</artist>
+			<artist>Russell Procope</artist>
+			<artist>Norris Turney</artist>
+			<artist>Harold Hashby</artist>
+			<artist>Paul Gonsalves</artist>
+			<artist>Harry Carney</artist>
+			<artist>Wild Bill Davis</artist>
+			<artist>Victor Gaskin</artist>
+			<artist>Rufus Jones</artist>
 		</artists>
-		<title></title>
+		<title>Jazz a La Bussola Vol. 1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1959-04-26</date>
+		<location>
+			<venue>La Bussola</venue>
+			<city>Marina di Pietrasanta</city>
+			<country>Italy</country>
+		</location>
+		<length>0:16:10</length>
+		<source station="RAITRE">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
+		<remarks>schegge</remarks>
+		<artists>
+			<artist type="band">Ella Fitzgerald &amp; Lou Levy 4tet</artist>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Lou Levy</artist>
+			<artist>Herb Ellis</artist>
+			<artist>Wilfred Middlebrooks</artist>
+			<artist>Gus Johngson</artist>
+		</artists>
+		<title>Jazz a La Bussola Vol. 1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1970-05-30</date>
+		<location>
+			<venue>La Bussola</venue>
+			<city>Marina di Pietrasanta</city>
+			<country>Italy</country>
+		</location>
+		<length>0:20:11</length>
+		<source station="RAITRE">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
+		<remarks>schegge</remarks>
+		<artists>
+			<artist type="band">Ella Fitzgerald &amp; Tommy Flanagan Trio</artist>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Tommy Flanagan</artist>
+			<artist>F. De La Rosa</artist>
+			<artist>Ed Thigpen</artist>
+		</artists>
+		<title>Jazz a La Bussola Vol. 1</title>
 	</session>
 </KC_ROIO>
