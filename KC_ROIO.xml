@@ -24729,15 +24729,41 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks/>
 		<artists>
 			<dummy main="true" type="band">Various Artists</dummy>
+			<dummy type="band">Bobby Hackett band</dummy>
 			<artist>Bobby Hackett</artist>
-			<artist>Dizzy Gillespie</artist>
+			<artist></artist>
+			<dummy type="band">Trumpet band</dummy>
+			<artist>Henry Red Allen</artist>
 			<artist>Clark Terry</artist>
 			<artist>Ruby Braff</artist>
-			<artist>Henry Red Allen</artist>
+			<artist>George Wein</artist>
+			<artist>Gene Taylor</artist>
+			<artist>Billy Kay</artist>
+			<dummy type="band">Clark Terry</dummy>
+			<artist>Clark Terry</artist>
+			<artist>Billy Taylor</artist>
+			<artist>Gene Taylor</artist>
+			<artist>Billy Kay</artist>
+			<dummy type="band">George Benson Group</dummy>
 			<artist>George Benson</artist>
+			<artist>Ronnie Cuber</artist>
+			<artist>Lonnie Smith</artist>
+			<artist>Billy Kay</artist>
+			<dummy type="band">Charlie Byrd</dummy>
 			<artist>Charlie Byrd</artist>
+			<dummy type="band">Dizzy Gillespie/Kenny Burrell</dummy>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Kenny Burrell</artist>
+			<artist type="band">All The Trumpeters</artist>
+			<artist>Thad Jones</artist>
+			<artist>Kenny Dorham </artist>
+			<artist>Ruby Braff</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Jimmy Owens</artist>
+			<artist>Howard McGee</artist>
+			<artist>Bobby Hackett</artist>
 		</artists>
-		<title/>
+		<title>The 1966 Trumpet and Guitar Workshop</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1993-08-14</date>
