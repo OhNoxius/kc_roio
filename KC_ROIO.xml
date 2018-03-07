@@ -8655,7 +8655,7 @@ Subs)]]></lineage>
 			<country>U.K.</country>
 		</location>
 		<length>0:04:07</length>
-		<source>TV</source>
+		<source station="BBC Four">TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
 		<lineage/>
@@ -8775,17 +8775,21 @@ Subs)]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x5840b30" av="V">
-		<date type="xs:date">1976-xx-xx</date>
+		<date type="xs:date">1975-xx-xx</date>
 		<location>
-			<festival>Rockpalast Spezial</festival>
+			<show>Rockpalast</show>
 			<country>Germany</country>
 		</location>
 		<length>0:03:16</length>
-		<source>TV</source>
+		<source station="WDR">TV</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[Master VHS --> DVD Recorder --> PC (ProjectX/Mplex) --> You]]></lineage>
+		<remarks>Original broadcast:
+			German TV, WDR, ROCKPALAST, TV-Show No. 3, 1976
+			
+			From Rebroadcast (This Torrent):
+			German TV, WDR, "ROCKPALAST '76 - The First 12 Original Shows", TV-Show No. 3, 1996 January 7</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
