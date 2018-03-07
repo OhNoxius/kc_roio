@@ -11688,69 +11688,6 @@ AC3@256 ]]></lineage>
 		</artists>
 		<title>Live Under The Sky 1988-1989</title>
 	</session>
-	<session id="id0xd9a300" av="V">
-		<date type="xs:date">1986-08-29</date>
-		<location>
-			<festival>Mt. Fuji Jazz Festival</festival>
-			<country>Japan</country>
-		</location>
-		<length/>
-		<source>TV</source>
-		<format>NTSC</format>
-		<quality>B+</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Andrew Hill</artist>
-			<artist>Lou Donaldson</artist>
-			<artist>Herbie Hancock</artist>
-			<artist>Bobby Hutcherson</artist>
-		</artists>
-		<title>Mt. Fuji Jazz Festival, Vol. 1</title>
-	</session>
-	<session av="V">
-		<date type="xs:date">1986-08-29</date>
-		<location>
-			<festival>Mt. Fuji Jazz Festival</festival>
-			<country>Japan</country>
-		</location>
-		<length/>
-		<source>TV</source>
-		<format>NTSC</format>
-		<quality>B+</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Andrew Hill</artist>
-			<artist>Lou Donaldson</artist>
-			<artist>Herbie Hancock</artist>
-			<artist>Bobby Hutcherson</artist>
-		</artists>
-		<title>Mt. Fuji Jazz Festival, Vol. 2</title>
-	</session>
-	<session av="V">
-		<date type="xs:date">1986-08-29</date>
-		<location>
-			<festival>Mt. Fuji Jazz Festival</festival>
-			<country>Japan</country>
-		</location>
-		<length/>
-		<source>TV</source>
-		<format>NTSC</format>
-		<quality>B+</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Andrew Hill</artist>
-			<artist>Lou Donaldson</artist>
-			<artist>Herbie Hancock</artist>
-			<artist>Bobby Hutcherson</artist>
-		</artists>
-		<title>Mt. Fuji Jazz Festival, Vol. 3</title>
-	</session>
 	<session id="id0xd9a760" av="V">
 		<date type="xs:date">1990-07-28_29</date>
 		<location>
@@ -26401,5 +26338,117 @@ Video_ts]]></lineage>
 			<artist>Ed Thigpen</artist>
 		</artists>
 		<title>Jazz a La Bussola Vol. 1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-08-29</date>
+		<location>
+			<festival>Mt. Fuji Jazz Festival</festival>
+			<venue>Yamanaka Lake Shore Special Stage</venue>
+			<city>Yamanashi</city>
+			<country>Japan</country>
+		</location>
+		<length>01:53:48</length>
+		<source>VHS</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">O.T.B. with Jonny Griffin</dummy>
+			<artist>Michael Mossman</artist>
+			<artist>Kenny Garrett</artist>
+			<artist>Ralpf Bowen</artist>
+			<artist>Harry Pickens</artist>
+			<artist>Ralph Peterson</artist>
+			<artist>Jonny Griffin</artist>
+			<dummy type="band">Lou Donaldson + Kankawa-Super Soul Jam</dummy>
+			<artist>Lou Donaldson</artist>
+			<artist>Toshihiko Kankawa</artist>
+			<artist>Keith Copeland</artist>
+			<artist>Kiyoshi Sugimoto</artist>
+			<dummy type="band">Andrew Hill Solo/Trio/Sextet</dummy>
+			<artist>Andrew Hill</artist>
+			<artist>Charnett Moffett</artist>
+			<artist>Keith Coperand</artist>
+			<artist>Woody Shaw</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Bobby Hutcherson</artist>
+			<dummy type="band">Herbie Hanckock group</dummy>
+			<artist>Herbie Hanckock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tonny Williams</artist>
+			<artist>James Newton</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Bobby Hutcherson</artist>
+		</artists>
+		<title>Mt. Fuji Jazz Festival '86 - Vol. 1</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-08-29</date>
+		<location>
+			<festival>Mt. Fuji Jazz Festival</festival>
+			<venue>Yamanaka Lake Shore Special Stage</venue>
+			<city>Yamanashi</city>
+			<country>Japan</country>
+		</location>
+		<length></length>
+		<source>VHS</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Cedar Walton Trio featuring Milt Jackson</dummy>
+			<artist>Milt Jackson</artist>
+			<artist>Cedar Walton</artist>
+			<artist>Buster Williams</artist>
+			<artist>Billy Higgins</artist>
+			<dummy type="band">Andrew Hill Solo/Trio/Sextet</dummy>
+			<artist>Andrew Hill</artist>
+			<artist>Ron Carter</artist>
+			<artist>Billy Higgins</artist>
+			<artist>Woody Shaw</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Bobby Hutcherson</artist>
+			<dummy type="band">Herbie Hanckock group</dummy>
+			<artist>Herbie Hanckock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tonny Williams</artist>
+			<artist>James Newton</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Bobby Hutcherson</artist>
+		</artists>
+		<title>Mt. Fuji Jazz Festival '86 - Vol. 2</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-08-29</date>
+		<location>
+			<festival>Mt. Fuji Jazz Festival</festival>
+			<venue>Yamanaka Lake Shore Special Stage</venue>
+			<city>Yamanashi</city>
+			<country>Japan</country>
+		</location>
+		<length>1:54:29</length>
+		<source>VHS</source>
+		<format>NTSC</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Herbie Hanckock group</dummy>
+			<artist>Herbie Hanckock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tonny Williams</artist>
+			<artist>James Newton</artist>
+			<artist>Joe Henderson</artist>
+			<artist>Bobby Hutcherson</artist>
+			<dummy type="band">Jam session</dummy>
+			<dummy>All Members in Day-Time Stages</dummy>
+			<artist>Freddie Hubbard</artist>	
+		</artists>
+		<title>Mt. Fuji Jazz Festival '86 - Vol. 3</title>
 	</session>
 </KC_ROIO>
