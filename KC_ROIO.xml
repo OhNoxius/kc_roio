@@ -4993,7 +4993,7 @@ DVD-R => Dime]]></lineage>
 	<session id="id0x4f5f210" av="V">
 		<date type="xs:date">1985-02-xx</date>
 		<location>
-			<festival>So What</festival>
+			<show>So What</show>
 			<country>Belgium</country>
 		</location>
 		<length>0:45:48</length>
@@ -9067,7 +9067,7 @@ DVDR3600>DVD>PC]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:08:47</length>
-		<source>TV</source>
+		<source>VHS</source>
 		<format>NTSC</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS (first generation) > DVD-R (2010)]]></lineage>
@@ -9110,7 +9110,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<date type="xs:date">1999-07-23</date>
 		<location>
 			<festival>Woodstock '99</festival>
-			<city>Rome N.Y.C.</city>
+			<city>Rome N.Y.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>1:13:13</length>
@@ -12014,7 +12014,7 @@ AC3@256 ]]></lineage>
 		<date type="xs:date">1971-10-26</date>
 		<location>
 			<venue>Paleis Voor Schone Kunsten</venue>
-			<city>Brussels</city>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length>0:01:40</length>
@@ -23611,8 +23611,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1969-10-28</date>
 		<location>
-			<festival>Actuel Jazz Festival</festival>
-			<venue/>
+			<festival>Festival Actuel</festival>
 			<city>Amougies</city>
 			<country>Belgium</country>
 		</location>
@@ -23661,7 +23660,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location>
 			<show>Stop Pop</show>
 			<venue>Theatre 140</venue>
-			<city>Brussels</city>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length>0:30:34</length>
