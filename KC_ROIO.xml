@@ -26468,4 +26468,25 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Weather Report ‎– Live In Offenbach 1978 (	Art Of Groove ‎– MIG80097)</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1985-07-18</date>
+		<location>
+			<festival>Jazzaldia</festival>
+			<city>San Sebastian</city>
+			<country>Spain</country>
+		</location>
+		<length></length>
+		<source station="rtve.es">web</source>
+		<format>576p</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true" type="band">Keith Jarrett Trio</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title>Jazz entre Amigos - Keith Jarrett</title>
+	</session>
 </KC_ROIO>
