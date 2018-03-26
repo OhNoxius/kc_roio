@@ -25477,26 +25477,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title>The Midnight Special E84, aired September 6, 1974</title>
 	</session>
 	<session av="A">
-		<date type="xs:date">1979-11-26</date>
-		<location>
-			<venue>Espace Cardin</venue>
-			<city>Paris</city>
-			<country>France</country>
-		</location>
-		<length>0:08:59</length>
-		<source>FM</source>
-		<format/>
-		<quality/>
-		<lineage><![CDATA[FM > Edirol R-09 (WAV) > WaveLab > FLAC (level 8, sector-align)]]></lineage>
-		<remarks><![CDATA[Broadcast : Les LÃ©gendes du Jazz, France Musique, february 10 & 11, 2018]]></remarks>
-		<artists>
-			<artist main="true">Bill Evans</artist>
-			<artist>Marc Johnson</artist>
-			<artist>Joe LaBarbera</artist>
-		</artists>
-		<title/>
-	</session>
-	<session av="A">
 		<date type="xs:date">1987-01-03</date>
 		<location>
 			<show>Marian McPartland's Piano Jazz</show>
@@ -26469,7 +26449,7 @@ Video_ts]]></lineage>
 		<title>Weather Report ‎– Live In Offenbach 1978 (	Art Of Groove ‎– MIG80097)</title>
 	</session>
 	<session av="V">
-		<date type="xs:date">1985-07-18</date>
+		<date type="xs:date">1985-07-19</date>
 		<location>
 			<festival>Jazzaldia</festival>
 			<city>San Sebastian</city>
