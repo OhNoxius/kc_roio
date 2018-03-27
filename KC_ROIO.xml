@@ -26583,4 +26583,97 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Jazz entre Amigos - Keith Jarrett</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1991-07-xx</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:28:16</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Omar Hakim</artist>
+		</artists>
+		<title>Wayne Shorter - Live at Montreux 1996 (Eagle Eye Media ‎– EE 39178-9)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1992-07-xx</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:20:59</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Wallace Roney</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+		</artists>
+		<title>Wayne Shorter - Live at Montreux 1996 (Eagle Eye Media ‎– EE 39178-9)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1996-07-xx</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:56:06</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>David Gilmore</artist>
+			<artist>James Beard</artist>
+			<artist>Alphonso Johnson</artist>
+			<artist>Rodney Holmes</artist>
+		</artists>
+		<title>Wayne Shorter - Live at Montreux 1996 (Eagle Eye Media ‎– EE 39178-9)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1990-07-20</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>1:25:00</length>
+		<source></source>
+		<format>PAL</format>
+		<quality/>
+		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
+		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced
+			to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features
+			solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear !
+			
+			Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place
+			then looks at his watch and pulls a face as if to say it's to late for that so they must have been on very late
+			so it was probably July 21st  when they were playing onstage</remarks>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Larry Coryell</artist>
+			<artist>James Beard</artist>
+			<artist>Jeff Andrews</artist>
+			<artist>Ronnie Burrage</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
