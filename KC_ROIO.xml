@@ -8191,7 +8191,7 @@ file]]></lineage>
 			<artist>Al Foster</artist>
 			<artist>Steve Thornton</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis op North Sea Jazz 1984-1988</title>
 	</session>
 	<session id="id0x5779950" av="V">
 		<date type="xs:date">1985-07-13</date>
@@ -8217,7 +8217,7 @@ file]]></lineage>
 			<artist>Steve Thornton</artist>
 			<artist>Vincent Wilburn Jr.</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis op North Sea Jazz 1984-1988</title>
 	</session>
 	<session id="id0x5779f90" av="V">
 		<date type="xs:date">1985-11-01</date>
@@ -8278,8 +8278,9 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
+			<artist>Marilyn Mazur</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis op North Sea Jazz 1984-1988</title>
 	</session>
 	<session id="id0x5793e00" av="V">
 		<date type="xs:date">1989-xx-xx</date>
