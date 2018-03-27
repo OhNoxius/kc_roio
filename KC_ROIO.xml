@@ -8096,6 +8096,30 @@ file]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="V">
+		<date type="xs:date">1973-07-08</date>
+		<location>
+			<venue>Palais des Sports</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:30:19</length>
+		<source></source>
+		<format>PAL</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > DVD]]></lineage>
+		<remarks>Purchased from South American bootlegger and liberated here.</remarks>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>David Liebman</artist>
+			<artist>Reggie Lucas</artist>
+			<artist>Pete Cosey</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Al Foster</artist>
+			<artist>James Mtume Forman</artist>
+		</artists>
+		<title></title>
+	</session>
 	<session id="id0x5743860" av="V">
 		<date type="xs:date">1982-04-21</date>
 		<location>
