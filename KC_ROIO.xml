@@ -1938,11 +1938,11 @@
 			<country>France</country>
 		</location>
 		<length>15min</length>
-		<source>TV</source>
+		<source>REEL</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage trader="Sergey Ivzhenko"></lineage>
+		<remarks>sterh86@gmail.com</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
@@ -1951,7 +1951,54 @@
 			<artist>Booker Ervin</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title/>
+		<title>French TV Jazz Archive 1950's - 1970's</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1964-04-12</date>
+		<location>
+			<venue>University Aula</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:57:58</length>
+		<source station="NRK">web</source>
+		<format>720p</format>
+		<quality>A</quality>
+		<lineage></lineage>
+		<remarks>En time for jazzvenner</remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>Clifford Jordan</artist>
+			<artist>Johnny Coles</artist>
+			<artist>Jaki Byard</artist>			
+			<artist>Dannie Richmond</artist>
+		</artists>
+		<title>French TV Jazz Archive 1950's - 1970's</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1961-08-30</date>
+		<location>
+			<show>Jazz gehört und gesehen</show>
+			<festival>TV/Radio Exhibition</festival>
+			<venue>Messehalle</venue>
+			<city>Berlin</city>
+			<country>Germany</country>
+		</location>
+		<length>0:18:17</length>
+		<source>DVD</source>
+		<format></format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Eric Dolphy</artist>
+			<artist>Benny Bailey</artist>
+			<artist>Pepsy Auer</artist>
+			<artist>George Joyner</artist>
+			<artist>Buster Smith</artist>
+		</artists>
+		<title>Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</title>
 	</session>
 	<session id="id0x1308b30" av="V">
 		<date type="xs:date">1971-xx-xx</date>
@@ -10987,28 +11034,43 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x7b41170" av="V">
-		<date type="xs:date">1960-07-xx</date>
+		<date type="xs:date">1960-07-13</date>
 		<location>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
-		<length/>
-		<source>TV</source>
+		<length>0:48:03</length>
+		<source>REEL</source>
 		<format>PAL</format>
 		<quality>A-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage trader="Sergey Ivzhenko">French TV archive master tape</lineage>
+		<remarks>sterh86@gmail.com</remarks>
 		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band" main="true">Various Artists</dummy>			
+			<dummy type="band">Hans Koller formation</dummy>
+			<artist>Hans Koller</artist>
+			<dummy type="band">Charles Mingus Sextet</dummy>
 			<artist>Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Bud Powell</artist>
 			<artist>Ted Curson</artist>
 			<artist>Booker Ervin</artist>
 			<artist>Dannie Richmond</artist>
+			<dummy type="band">Sister Rosette Tharpe</dummy>
+			<artist>Rosette Tharpe</artist>
+			<artist>Sims Wheeler Orchestra</artist>			
+			<dummy type="band">Wilbur De Paris and his new New Orleans Band</dummy>
+			<artist>Wilbur De Paris</artist>
+			<artist>Sidney de Paris</artist>
+			<artist>Wilbert Kirk</artist>
+			<artist>Doc Cheatham</artist>
+			<artist>John Smith</artist>
+			<artist>Garvin Bushell</artist>
+			<artist>Hayes Alvis</artist>
+			<artist>Sonny White</artist>
 		</artists>
-		<title/>
+		<title>French TV Jazz Archive 1950's - 1970's (Antibes Jazz Festival - episode 3)</title>
 	</session>
 	<session id="id0xd61bd0" av="V">
 		<date type="xs:date">1964-1971</date>
@@ -25441,7 +25503,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Bill Withers</artist>
 			<artist>Curtis Mayfield</artist>
 			<artist>Sammy Davis Jr.</artist>
-			<dummmy type="band">Quincy Jones Big Band feat. Robert Flack</dummmy>
+			<dummy type="band">Quincy Jones Big Band feat. Robert Flack</dummy>
 			<artist>Roberta Flack</artist>
 			<artist>Quincy Jones</artist>
 			<artist type="band">Gladys Knight &amp; The Pips</artist>
@@ -25493,7 +25555,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Bill Withers</artist>
 			<artist>Curtis Mayfield</artist>
 			<artist>Sammy Davis Jr.</artist>
-			<dummmy type="band">Quincy Jones Big Band feat. Robert Flack</dummmy>
+			<dummy type="band">Quincy Jones Big Band feat. Robert Flack</dummy>
 			<artist>Roberta Flack</artist>
 			<artist>Quincy Jones</artist>
 			<artist type="band">Gladys Knight &amp; The Pips</artist>
