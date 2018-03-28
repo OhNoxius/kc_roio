@@ -2789,7 +2789,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x2849fe0" av="V">
-		<date type="xs:date">1971-01-17</date>
+		<date type="xs:date">1971-xx-xx</date>
 		<location>
 			<venue>University of California</venue>
 			<city>Los Angeles CA</city>
@@ -2800,29 +2800,62 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<format>NTSC</format>
 		<quality>B-</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>Double Exposure concert</remarks>
 		<artists>
 			<artist main="true">Donny Hathaway</artist>
 			<artist>Roberta Flack</artist>
 		</artists>
-		<title>Double Exposure (MID VALLEY RECORDS/MVR-DH-002)</title>
+		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
 	</session>
-	<session id="id0x284a3f0" av="V">
-		<date type="xs:date">1972-07-21</date>
+	<session av="A" official="true">
+		<date type="xs:date">1971-08-xx</date>
 		<location>
-			<festival>Flip Wilson Show</festival>
+			<venue>The Troubadour</venue>
+			<city>Hollywood CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>0:03:40</length>
-		<source>DVD</source>
+		<length></length>
+		<source>CD</source>
 		<format/>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Donny Hathaway</artist>
+			<artist>Cornell Dupree</artist>
+			<artist>Phil Upchurch</artist>
+			<artist>Mike Howard</artist>
+			<artist>Willie Weeks</artist>
+			<artist>Fred White</artist>
+			<artist>Earl DeRouen</artist>
 		</artists>
-		<title>MID VALLEY RECORDS/MVR-DH-002</title>
+		<title>Donny Hathaway - Live</title>
+		<title>Donny Hathaway - In Performance</title>
+	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1971-10-27_29</date>
+		<location>
+			<venue>The Bitter End</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Donny Hathaway</artist>
+			<artist>Cornell Dupree</artist>
+			<artist>Phil Upchurch</artist>
+			<artist>Mike Howard</artist>
+			<artist>Willie Weeks</artist>
+			<artist>Fred White</artist>
+			<artist>Earl DeRouen</artist>
+		</artists>
+		<title>Donny Hathaway - Never My Love: The Anthology (Rhino)</title>
+		<title>Donny Hathaway - Live</title>
 	</session>
 	<session id="d0e4825" av="V">
 		<date type="xs:date">1971-01-17</date>
@@ -2839,7 +2872,24 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<artists>
 			<artist main="true">Donny Hathaway</artist>
 		</artists>
-		<title>MID VALLEY RECORDS/MVR-DH-002</title>
+		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
+	</session>
+	<session id="d0e4825" av="V">
+		<date type="xs:date">1971-12-07</date>
+		<location>
+			<festival>Flip Wilson Show</festival>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:03:40</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Donny Hathaway</artist>
+		</artists>
+		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
 	</session>
 	<session id="id0x284a760" av="V">
 		<date type="xs:date">1973-01-10</date>
