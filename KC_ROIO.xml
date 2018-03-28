@@ -9415,7 +9415,7 @@ selection) > transport stream]]></lineage>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[Unknown Gen VHS > HDD Standalone Recorder > TMPGEnc > DVD]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true" type="band">Soft Machine</artist>
