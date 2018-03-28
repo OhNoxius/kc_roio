@@ -26697,6 +26697,7 @@ Video_ts]]></lineage>
 	<session av="V">
 		<date type="xs:date">1985-xx-xx</date>
 		<location>
+			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
 		<length></length>
