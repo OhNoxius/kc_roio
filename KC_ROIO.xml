@@ -505,7 +505,7 @@
 		</location>
 		<length>0:34:27</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07007574/05-08-1974]]></lineage>
 		<remarks/>
@@ -6199,7 +6199,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:43:22</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/jazz/FBUA07004474/06-05-1974&#xA;&#xD;https://tv.nrk.no/serie/jazz/FBUA07005174/13-05-1974]]></lineage>
 		<remarks>+interview</remarks>
@@ -8712,7 +8712,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:42:43</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -11205,11 +11205,11 @@ AC3@256 ]]></lineage>
 			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
-		<length>0:53:20</length>
+		<length>0:53:23</length>
 		<source>TV</source>
 		<format>PAL</format>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[VCR -> DVD-R (Pioneer DVR-5100H-S) -> HDD, audio is 2 channel AC3@256]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
@@ -14305,7 +14305,7 @@ HELPER> flac (level 8)]]></lineage>
 		</location>
 		<length>0:07:50</length>
 		<source channel="NRK">web</source>
-		<format/>
+		<format>720p</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22840,7 +22840,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:38:55</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/musikk-midt-i-middagshvilen/FBUA07001575/21-04-1975]]></lineage>
 		<remarks/>
@@ -22887,7 +22887,7 @@ correction>fades>Flac]]></lineage>
 		</location>
 		<length>1:55:07</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS10001189/25-08-1989
 https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS20001189/01-09-1989
@@ -22910,7 +22910,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:46:29</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -22928,7 +22928,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:50:57</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -22946,7 +22946,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:36:59</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -22968,7 +22968,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:08:42</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks>NRK youth tv magazine 'Flimra'</remarks>
@@ -22989,7 +22989,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:36:37</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23011,7 +23011,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:11</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23033,7 +23033,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:38:58</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23054,7 +23054,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:51:45</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23076,7 +23076,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:40:31</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23096,7 +23096,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:18:25</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23160,7 +23160,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:17</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23183,7 +23183,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:32:52</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07006571/05-08-1971]]></lineage>
 		<remarks/>
@@ -24947,7 +24947,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:23:07</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24969,7 +24969,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:26</length>
 		<source channel="NRK">web</source>
-		<format>flv</format>
+		<format>720p</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
