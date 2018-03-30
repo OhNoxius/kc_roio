@@ -21361,7 +21361,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<length>1:55:38</length>
+		<length>0:42:20</length>
 		<source bitrate="192">web</source>
 		<format>aac</format>
 		<quality>A</quality>
@@ -25897,26 +25897,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks/>
 		<artists>
 			<artist main="true">Rahsaan Roland Kirk</artist>
-		</artists>
-		<title/>
-	</session>
-	<session av="A">
-		<date type="xs:date">2017-10-14</date>
-		<location>
-			<venue>Konserthuset</venue>
-			<city>Stockholm</city>
-			<country>Sweden</country>
-		</location>
-		<length/>
-		<source bitrate="192">web</source>
-		<format/>
-		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
-		<artists>
-			<artist main="true">Vijay Iyer</artist>
-			<artist>Steve Lehman</artist>
-			<artist>Tyshawn Sorey</artist>
 		</artists>
 		<title/>
 	</session>
