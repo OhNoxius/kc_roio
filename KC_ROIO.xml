@@ -7119,21 +7119,21 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length/>
-		<source/>
+		<length>0:05:52</length>
+		<source>DVD</source>
 		<format/>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
-			<artist>Louis Malle</artist>
 			<artist>Barney Wilen</artist>
 			<artist>René Urtreger</artist>
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
+			<dummy>Louis Malle</dummy>
 		</artists>
-		<title/>
+		<title>Elevator to the Gallows (Criterion 335)</title>
 	</session>
 	<session id="id0x54e2ef0" av="V">
 		<date type="xs:date">1957-12-18</date>
@@ -21332,6 +21332,51 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">2010-10-20</date>
+		<location>
+			<venue>Funkhaus Halberg (Studio I)</venue>
+			<city>Saarbrücken</city>
+			<country>Germany</country>
+		</location>
+		<length>1:55:38</length>
+		<source bitrate="320">DVB-S</source>
+		<format>flac</format>
+		<quality>A</quality>
+		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor > flac 
+			(MPEG1 Layer 2/320 kbps)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Vijay Iyer</artist>
+			<artist>Stephan Crump</artist>
+			<artist>Marcus Gilmore</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-10-14</date>
+		<location>
+			<festival>Stockholm Jazzfestival</festival>
+			<venue>Konserthuset</venue>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length>1:55:38</length>
+		<source bitrate="192">web</source>
+		<format>aac</format>
+		<quality>A</quality>
+		<lineage><![CDATA[stream > jdownloader > ffmpeg (stream copy m4a to aac) > mp3directcut (cut concert from entire broadcast) > yamb (put in m4a container)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Vijay Iyer</artist>
+			<artist>Graham Haynes</artist>
+			<artist>Mark Shim</artist>
+			<artist>Steve Lehman</artist>
+			<artist>Stephan Crump</artist>
+			<artist>Marcus Gilmore</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x5780670" av="A">
 		<date type="xs:date">1965-08-xx</date>
 		<location>
@@ -25449,6 +25494,31 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title></title>
 	</session>
 	<session av="V">
+		<date type="xs:date">1959-02-04</date>
+		<location>
+			<venue></venue>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:51:46</length>
+		<source>DVD</source>
+		<format>NTSC</format>
+		<quality>B-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band">Louis Armstrong All Stars</artist>
+			<artist main="true">Louis Armstrong</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Trummy Young</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Velma Middleton</artist>
+		</artists>
+		<title>Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</title>
+	</session>
+	<session av="V">
 		<date type="xs:date">1985-10-27</date>
 		<location>
 			<festival>Jazz Jamboree</festival>
@@ -25859,13 +25929,16 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source bitrate="192">web</source>
-		<format/>
-		<quality/>
-		<lineage><![CDATA[]]></lineage>
+		<format>aac</format>
+		<quality>A</quality>
+		<lineage><![CDATA[stream > jdownloader 2.0]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true">Chris Lightcap</artist>
+			<artist main="true">Chris Lightcap</artist>			
+			<artist>Chris Cheek</artist>
+			<artist>Tony Malaby</artist>
 			<artist>Craig Taborn</artist>
+			<artist>Gerald Cleaver</artist>
 		</artists>
 		<title/>
 	</session>
