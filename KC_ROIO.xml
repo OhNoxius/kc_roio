@@ -5627,21 +5627,21 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<date type="xs:date">2007-xx-xx</date>
 		<location/>
 		<length>0:49:36</length>
-		<source>TV</source>
+		<source station="Mezzo">TV</source>
 		<format>PAL</format>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[TV-Broadcast(Mezzo)>Thomson DC/62UPC>Scart>Philips DVDR3600>DVD>PC]]></lineage>
+		<remarks>Additional editing: TMPGEnc Authoring Works 4(no menu/5 min chapters)</remarks>
 		<artists>
 			<artist main="true">Joe Zawinul</artist>
 		</artists>
-		<title>Documentary: Les Enfants de Miles</title>
+		<title>Les Enfants de Miles: Joe Zaniwul</title>
 	</session>
 	<session id="id0x512e3a0" av="V">
 		<date type="xs:date">2008-xx-xx</date>
 		<location/>
 		<length>0:56:52</length>
-		<source/>
+		<source>HDTV</source>
 		<format>720p</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -23512,15 +23512,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source/>
-		<format>avi</format>
+		<source>DVD</source>
+		<format resolution="544p">avi</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 		</artists>
-		<title>Documentary: Triumph of the Underdog</title>
+		<title>Triumph Of The Underdog (Don McGlynn) (Shanachie Entertainment, 1998)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1999-07-17</date>
@@ -24693,7 +24693,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<length>0:44:52</length>
 		<source channel="VH1">TV</source>
 		<format>NTSC</format>
-		<quality>B+</quality>
+		<quality>A-</quality>
 		<lineage><![CDATA[cable TV > Mitsubishi HS-U650 > Toshiba RD XS 35 (stand alone Hard Drive/DVD Burner w/ basic editing functions)]]></lineage>
 		<remarks>all commercials have been removed and chapter marks created at the appropriate
 			places</remarks>
@@ -26347,26 +26347,6 @@ Video_ts]]></lineage>
 			<artist>Freddie Green</artist>
 			<artist>Eddie Jones</artist>
 			<artist>Sonny Payne</artist>
-		</artists>
-		<title></title>
-	</session>
-	<session av="V">
-		<date type="xs:date">Various Artists - Jazz in Italy (PAL)</date>
-		<location>
-			<city></city>
-			<country></country>
-		</location>
-		<length></length>
-		<source/>
-		<format></format>
-		<quality/>
-		<lineage><![CDATA[]]></lineage>
-		<remarks/>
-		<artists>
-			<artist main="true"></artist>
-			<artist></artist>
-			<artist></artist>
-			<artist></artist>
 		</artists>
 		<title></title>
 	</session>
