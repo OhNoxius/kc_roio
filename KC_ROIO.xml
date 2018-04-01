@@ -9825,7 +9825,7 @@ file]]></lineage>
 		<length>0:59:04</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
-		<quality>B++</quality>
+		<quality>B+</quality>
 		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders,
 			improve color levels, smoothing, mirror stevie piano shots...) AUDIO: My Voice of Sorrow
 			(Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ,
@@ -9861,7 +9861,7 @@ file]]></lineage>
 		<length>0:58:31</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
-		<quality>B</quality>
+		<quality>B-</quality>
 		<lineage/>
 		<remarks>errors in VOB files (bad rip?). best audio, picture not so good.</remarks>
 		<artists>
@@ -9891,7 +9891,7 @@ file]]></lineage>
 		<length>0:59:00</length>
 		<source channel="WNET">TV</source>
 		<format>NTSC</format>
-		<quality>B</quality>
+		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>best pic quality, sound is muddy.</remarks>
 		<artists>
