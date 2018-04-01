@@ -4938,7 +4938,7 @@ DVD-R => Dime]]></lineage>
 			<country>Switzerland</country>
 		</location>
 		<length>1:44:30</length>
-		<source/>
+		<source>web</source>
 		<format>rm</format>
 		<quality>B-</quality>
 		<lineage/>
@@ -25496,7 +25496,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1959-02-04</date>
 		<location>
-			<venue></venue>
 			<city>Antwerpen</city>
 			<country>Belgium</country>
 		</location>
@@ -26816,5 +26815,151 @@ Video_ts]]></lineage>
 			<artist>Jimmy Johnson</artist>
 		</artists>
 		<title>Allan Holdsworth in Japan - Tokyo Dream</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1962-xx-xx</date>
+		<location>
+			<country>Italy</country>
+		</location>
+		<length>0:13:08</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B-</quality>
+		<lineage>Rai Broadcast taped (vhs) by Myself, Transferred by Dextrane</lineage>
+		<remarks>Location and date unknow European tour 1962 ??</remarks>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="band">Jazz Messengers</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Freddie Hubbard</artist>
+			<dummy>Cedar Walton ?</dummy>
+			<dummy>Jymie Merritt ?</dummy>
+			<artist type="band">Cannonball Adderley Quintet</artist>
+			<artist>Cannonbal Adderley</artist>
+			<artist>Julian Adderley</artist>
+			<artist>Joe Zawinul</artist>
+			<dummy>...(cb)</dummy>
+			<dummy>...(d)</dummy>
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1959-xx-xx</date>
+		<location>
+			<venue>Aula Magna dell'Università di Roma</venue>
+			<city>Rome</city>
+			<country>Italy</country>
+		</location>
+		<length>0:21:48</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Dave Brubeck</artist>
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1961-xx-xx</date>
+		<location>
+			<venue>La Bussola</venue>
+			<city>Versilia</city>
+			<country>Italy</country>
+		</location>
+		<length>0:42:30</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[Rai Broadcast>vhs taped by myself years ago>transferred by dextrane]]></lineage>
+		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure; probably Versilia (north Toscana coast) - "La Bussola".</remarks>
+		<artists>
+			<artist type="band">Oscar Peterson Trio</artist>
+			<artist main="true">Oscar Peterson</artist>
+			<artist>Ray Brown</artist>
+			<artist>Ed Thigpen</artist>
+			<artist type="band">Stan Getz-Lou Levy Quartet</artist>
+			<artist>Stan Getz</artist>
+			<artist>Lou Levy</artist>
+			<artist>Ray Brown</artist>
+			<artist>Ed Thigpen</artist>
+			<artist type="band">Roy Eldridge-Herb Hellis Quintet</artist>
+			<artist>Roy Eldrige</artist>
+			<artist>Herb Ellis</artist>
+			<artist>Oscar Peterson</artist>
+			<artist>Ray Brown</artist>
+			<artist>Ed Thigpen</artist>
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1970-xx-xx</date>
+		<location>
+			<venue>Music Inn</venue>
+			<city>Rome</city>
+			<country>Italy</country>
+		</location>
+		<length>0:13:23</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[Rai Broadcast>vhs taped by myself> Dvd transferred by Dextrane]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Jackie Mc Lean</artist>
+			<artist>Tete Montoliu</artist>
+			<dummy>?????</dummy>
+			<artist>Billy Higgins</artist>
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-11-12</date>
+		<location>
+			<festival>Festival del jazz</festival>
+			<venue>Palazzo dello Sport</venue>
+			<city>Turin</city>
+			<country>Italy</country>
+		</location>
+		<length>0:14:00</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[Bw Rai (re)Broadcast 14.06 taped by myself and transferred by Dextrane.]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Sonny Rollins</artist>
+			<artist>Aurell Ray</artist>
+			<artist>Eddie Moore</artist>
+			<dummy>?????</dummy>
+			<dummy>?????</dummy>
+			<dummy>?????</dummy>			
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1956-xx-xx</date>
+		<location>
+			<festival>Festival del jazz</festival>
+			<venue></venue>
+			<city>Milan</city>
+			<country>Italy</country>
+		</location>
+		<length>0:14:00</length>
+		<source station="RAI">TV</source>
+		<format>PAL</format>
+		<quality>B</quality>
+		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
+		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays, directed by Gorni Kramer)</remarks>
+		<artists>
+			<artist main="true">Gerry Mulligan</artist>
+			<artist>Zoot Sims</artist>
+			<artist>Jon Eardley</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Bill Crow</artist>
+			<artist>Dave Bailey</artist>			
+		</artists>
+		<title>JAZZ IN ITALY DVD</title>
 	</session>
 </KC_ROIO>
