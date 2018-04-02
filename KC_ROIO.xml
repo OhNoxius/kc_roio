@@ -5677,7 +5677,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Germany</country>
 		</location>
 		<length>0:43:18</length>
-		<source>DVB-S@320</source>
+		<source bitrate="320">DVB-S</source>
 		<format>flac</format>
 		<quality>A</quality>
 		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor >
@@ -12453,7 +12453,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<length>0:53:33</length>
-		<source>DVB@320</source>
+		<source bitrate="320">DVB</source>
 		<format>flac</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[dvb-s > techno trend tt-premium 2300 > hdd > nero wave editor > flac (MPEG1 Layer 2/320 kbps)]]></lineage>

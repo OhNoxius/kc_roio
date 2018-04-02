@@ -74,16 +74,9 @@
 				<xsl:value-of select="length"/>
 			</td>
 			<td style="text-align:center">
-				<!--source-->
-				<xsl:choose>					
-					<xsl:when test="@official">
-						<xsl:text>OFFICIAL </xsl:text>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="source"/>
-						<!--<xsl:apply-templates select="format"/>-->
-					</xsl:otherwise>
-				</xsl:choose>
+				<!--source-->				
+				<xsl:apply-templates select="./@official"/>
+				<xsl:value-of select="source"/>
 				
 				<!--format-->
 				<br/>
@@ -130,13 +123,17 @@
 	<xsl:template priority="2" match="artists/*[@type = 'band']">
 		<em><xsl:value-of select="."/>: </em>
 	</xsl:template>
+	
+	<xsl:template match="@official">
+		<xsl:text>Official </xsl:text>
+	</xsl:template>
 
-	<xsl:template match="format/@bitrate">
+	<xsl:template match="@bitrate">
 		<xsl:text><![CDATA[@]]></xsl:text>		
 		<xsl:value-of select="."/>
 	</xsl:template>
 	
-	<xsl:template match="format/@resolution">
+	<xsl:template match="@resolution">
 		<xsl:text> (</xsl:text>
 		<xsl:value-of select="."/>
 		<xsl:text>)</xsl:text>
