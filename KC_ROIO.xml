@@ -3764,7 +3764,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:59:52</length>
-		<source>Pre-Broadcast</source>
+		<source>REEL</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Pre Broadcast VHS Master --> DVD]]></lineage>
@@ -6155,10 +6155,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Germany</country>
 		</location>
 		<length>1:27:57</length>
-		<source>TV</source>
+		<source>digisat</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[Digital Satellite -> DVD (Pioneer DVD recorder) -> HDD, audio is 2 channel AC3@256]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
@@ -6256,7 +6256,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Italy</country>
 		</location>
 		<length>0:04:51</length>
-		<source>TV</source>
+		<source station="RAITRE">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
@@ -6264,7 +6264,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
-		<title>Jazz in Piazza: UMBRIA JAZZ 1974</title>
+		<title>Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
 	</session>
 	<session id="id0x5353210" av="V">
 		<date type="xs:date">1976-09-18</date>
@@ -6572,7 +6572,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:57:32</length>
 		<source>LD</source>
-		<format>AVC</format>
+		<format resolution="720x480">AVC</format>
 		<quality>A-</quality>
 		<lineage>LD rip ??</lineage>
 		<remarks>Live at Salvador, Bahia at the Passeio Publico: November 19 and 20, 1991</remarks>
@@ -7390,7 +7390,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 			<country>France</country>
 		</location>
 		<length>1:04:31</length>
-		<source>TV</source>
+		<source>REEL</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Pro Shot > pre-broadcast tapes > ? > DVDR]]></lineage>
@@ -9401,7 +9401,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>0:31:12</length>
 		<source>web</source>
-		<format>HD</format>
+		<format resolution="720x400">AVC</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -11309,16 +11309,57 @@ AC3@256 ]]></lineage>
 			<country>Italy</country>
 		</location>
 		<length>1:01:23</length>
-		<source>TV</source>
+		<source station="RAITRE">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
+			<artist>Perugia Big Band</artist>
+			<artist>Tony Scott</artist>
+			<dummy type="band">Horace Silver Quintet</dummy>
+			<artist>Tom Harrell</artist>
+			<artist>Bob Berg</artist>
+			<artist>Horace Silver</artist>
+			<artist>Michael Richmond</artist>
+			<artist>William Garfing</artist>
+			<dummy type="band">Marian McPartland</dummy>
+			<artist>Marian Mc Partland</artist>
+			<artist>Gerry Mulligan</artist>			
+			<dummy type="band">Gerry Mulligan Quartet</dummy>
+			<artist>Gerry Mulligan</artist>
+			<artist>Renato Sellani</artist>
+			<artist>Dodo Goya</artist>
+			<artist>Tullio De Piscopo</artist>
+			<artist>Gianni Basso</artist>
+			<artist>Dino Piana</artist>
+			<dummy type="band">Charles Mingus Quintet</dummy>
+			<artist>George Adams</artist>
+			<artist>Hamiett Bluiett</artist>
+			<artist>Don Pullen</artist>
+			<artist>Charles Mingus</artist>
+			<artist>Dannie Richmond</artist>
+			<dummy type="band">Keith Jarrett</dummy>
 			<artist>Keith Jarrett</artist>
+			<dummy type="band">Thad Jones &amp; Mel Lewis Sextet</dummy>
+			<artist>Thad Jones</artist>
+			<artist>Pepper Adams</artist>
+			<artist>Jerry Dodgion</artist>
+			<artist>Walter Norris</artist>
+			<artist>George Mraz</artist>
+			<artist>Mel Lewis</artist>
+			<dummy type="band">Sonny Stitt with George Arvanitas Trio</dummy>
+			<artist>Sonny Stitt</artist>
+			<artist>George Arvanitas</artist>
+			<artist>Jackie Samson</artist>
+			<artist>Charles Saudrais</artist>
+			<dummy type="band">Sam Rivers Trio</dummy>
+			<artist>Sam Rivers</artist>
+			<artist>Dave Holland</artist>
+			<artist>Barry Altschul</artist>
 		</artists>
-		<title>Jazz in Piazza: UMBRIA JAZZ 1974</title>
+		<title>Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
 	</session>
 	<session id="id0xd80c20" av="V">
 		<date type="xs:date">1975-xx-xx</date>
@@ -12655,7 +12696,7 @@ Stream>LPRecorder>WAV>CDR>Extraction:EAC>WAV>TLH>FLAC(7)]]></lineage>
 		</location>
 		<length>1:15:29</length>
 		<source/>
-		<format>mp3@160</format>
+		<format bitrate="160">mp3</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
