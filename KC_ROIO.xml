@@ -26942,4 +26942,24 @@ Video_ts]]></lineage>
 		</artists>
 		<title>JAZZ IN ITALY DVD</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">2006-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:54:55</length>
+		<source station="WNED">DTV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist>Chuck D</artist>
+			<artist>Jadakiss</artist>
+			<artist>Mos Def</artist>
+			<artist>Talib Kweli</artist>
+			<artist>Busta Rhymes</artist>			
+		</artists>
+		<title>Hip-Hop: Beyond Beats and Rhymes (Byron Hurt) (PBS Independent Lens, 2006)</title>
+	</session>
 </KC_ROIO>
