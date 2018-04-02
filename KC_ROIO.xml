@@ -2020,7 +2020,7 @@
 			<artist>John Foster</artist>
 			<artist>Roy Brooks</artist>
 		</artists>
-		<title>"Americans in Europe" (Green Line Video)</title>
+		<title>Americans in Europe (Green Line Video)</title>
 	</session>
 	<session id="id0x1309030" av="V">
 		<date type="xs:date">1972-11-05</date>
@@ -11137,7 +11137,7 @@ AC3@256 ]]></lineage>
 			<artist>Bill Evans</artist>
 			<artist>Count Basie</artist>
 		</artists>
-		<title>Americans in Europe</title>
+		<title>Americans in Europe (Green Line Video)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1964-1971</date>
@@ -22776,6 +22776,26 @@ level 5]]></lineage>
 		<title>The Oslo Concerts (SH 6330)</title>
 	</session>
 	<session av="V">
+		<date type="xs:date">1980-08-xx</date>
+		<location>
+			<festival>Molde Jazz Festival</festival>
+			<city>Molde</city>
+			<country>Norway</country>
+		</location>
+		<length>0:42:36</length>
+		<source station="NRK">web</source>
+		<format>720p</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Marc Johnson</artist>
+			<artist>Joe LaBarbera</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
 		<date type="xs:date">1971-09-xx</date>
 		<location>
 			<festival>In the Jazz Set</festival>
@@ -23185,7 +23205,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>FM</source>
 		<format/>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[Source- cd-r trade of FM broadcast> EAC disc extraction> TLH Wav to flac formatting> TLH torrent creation> DIME]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">Academia de Danças</artist>
@@ -27083,5 +27103,38 @@ Video_ts]]></lineage>
 			<artist>Busta Rhymes</artist>			
 		</artists>
 		<title>Hip-Hop: Beyond Beats and Rhymes (Byron Hurt) (PBS Independent Lens, 2006)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1999-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length>2:29:06</length>
+		<source station="">TV</source>
+		<format>PAL</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band">Various Artists</artist>
+			<artist>Chuck D</artist>
+			<artist>Hank Shocklee</artist>
+			<artist>Darryl McDaniels</artist>
+			<artist>Rza</artist>
+			<artist>Ice-T</artist>
+			<artist>Eminem</artist>
+			<artist>Vanilla Ice</artist>
+			<artist>MC Hammer</artist>
+			<artist>Ice Cube</artist>
+			<artist>Tom Silverman</artist>
+			<artist>Russell Simmons</artist>
+			<artist>Rick Rubin</artist>
+			<artist>Fab Five Freddy</artist>
+			<artist>Afrika Bambaataa</artist>
+			<artist>Melle Mel</artist>
+			<artist>Grandmaster Flash</artist>
+			<artist>Kool DJ Herc</artist>
+		</artists>
+		<title>The Hip Hop Years (Channel 4)</title>
 	</session>
 </KC_ROIO>
