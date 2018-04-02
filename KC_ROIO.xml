@@ -27142,7 +27142,7 @@ Video_ts]]></lineage>
 			<artist>Jadakiss</artist>
 			<artist>Mos Def</artist>
 			<artist>Talib Kweli</artist>
-			<artist>Busta Rhymes</artist>			
+			<artist>Busta Rhymes</artist>
 		</artists>
 		<title>Hip-Hop: Beyond Beats and Rhymes (Byron Hurt) (PBS Independent Lens, 2006)</title>
 	</session>
@@ -27178,5 +27178,28 @@ Video_ts]]></lineage>
 			<artist>Kool DJ Herc</artist>
 		</artists>
 		<title>The Hip Hop Years (Channel 4)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1964-01-xx</date>
+		<location>
+			<show>Jazz Prisma</show>
+			<venue>BRT-TV Studio</venue>
+			<city>Brussels</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:29:56</length>
+		<source station="BRT2">cable</source>
+		<format resolution="PAL">mpg</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[cable tv -> vhs -> pc (Power Producer) -> best quality mpeg 2]]></lineage>
+		<remarks>Re-broadcast on Belgian TV BRT2</remarks>
+		<artists>
+			<artist type="band">Max Roach "Freedom Now Suite"</artist>
+			<artist main="true">Max Roach</artist>
+			<artist>Clifford Jordan</artist>
+			<artist>Coleridge-Taylor Perkinson</artist>
+			<artist>Abbey Lincoln</artist>		
+		</artists>
+		<title>Hip-Hop: Beyond Beats and Rhymes (Byron Hurt) (PBS Independent Lens, 2006)</title>
 	</session>
 </KC_ROIO>
