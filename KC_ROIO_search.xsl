@@ -131,14 +131,15 @@
 		<em><xsl:value-of select="."/>: </em>
 	</xsl:template>
 
-	<xsl:template match="resolution">
-		<br/>
-		<em>			
-			<xsl:value-of select="."/>
-			<xsl:text> (</xsl:text>
-			<xsl:value-of select="./@resolution"/>
-			<xsl:text>)</xsl:text>
-		</em>
+	<xsl:template match="format/@bitrate">
+		<xsl:text>@</xsl:text>		
+		<xsl:value-of select="./@bitrate"/>			
+	</xsl:template>
+	
+	<xsl:template match="format/@resolution">
+		<xsl:text> (</xsl:text>
+		<xsl:value-of select="./@resolution"/>
+		<xsl:text>)</xsl:text>	
 	</xsl:template>
 	
 	<xsl:template match="title">
