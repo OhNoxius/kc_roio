@@ -133,12 +133,12 @@
 
 	<xsl:template match="format/@bitrate">
 		<xsl:text><![CDATA[@]]></xsl:text>		
-		<xsl:value-of select="./@bitrate"/>
+		<xsl:value-of select="."/>
 	</xsl:template>
 	
 	<xsl:template match="format/@resolution">
 		<xsl:text> (</xsl:text>
-		<xsl:value-of select="./@resolution"/>
+		<xsl:value-of select="."/>
 		<xsl:text>)</xsl:text>
 	</xsl:template>
 	
