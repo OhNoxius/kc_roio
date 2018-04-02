@@ -77,7 +77,7 @@
 				<!--source-->
 				<xsl:choose>					
 					<xsl:when test="@official">
-						<xsl:text>OFFICIAL</xsl:text>
+						<xsl:text>OFFICIAL </xsl:text>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="source"/>
@@ -132,14 +132,14 @@
 	</xsl:template>
 
 	<xsl:template match="format/@bitrate">
-		<xsl:text>@</xsl:text>		
-		<xsl:value-of select="./@bitrate"/>			
+		<xsl:text><![CDATA[@]]></xsl:text>		
+		<xsl:value-of select="./@bitrate"/>
 	</xsl:template>
 	
 	<xsl:template match="format/@resolution">
 		<xsl:text> (</xsl:text>
 		<xsl:value-of select="./@resolution"/>
-		<xsl:text>)</xsl:text>	
+		<xsl:text>)</xsl:text>
 	</xsl:template>
 	
 	<xsl:template match="title">

@@ -13381,7 +13381,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>0:26:33</length>
 		<source>DVB-S2</source>
-		<format>mp2@329</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S2 - Digital Satellitereceiver > mp2 
 			MPEG 1.0 Layer-2; 48,000 Hz Stereo; 320 Kbps
