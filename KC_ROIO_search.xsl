@@ -74,15 +74,24 @@
 				<xsl:value-of select="length"/>
 			</td>
 			<td style="text-align:center">
-				<xsl:choose>
+				<!--source-->
+				<xsl:choose>					
 					<xsl:when test="@official">
 						<xsl:text>OFFICIAL</xsl:text>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="source"/>
-						<xsl:apply-templates select="format"/>
+						<!--<xsl:apply-templates select="format"/>-->
 					</xsl:otherwise>
 				</xsl:choose>
+				
+				<!--format-->
+				<br/>
+				<em>			
+					<xsl:value-of select="format"/>
+					<xsl:apply-templates select="format/@bitrate"/>
+					<xsl:apply-templates select="format/@resolution"/>					
+				</em>				
 			</td>
 			<td style="text-align:center">
 				<xsl:value-of select="quality"/>
@@ -122,15 +131,16 @@
 		<em><xsl:value-of select="."/>: </em>
 	</xsl:template>
 
-	<xsl:template match="format">
-		<em>
-			<br/>
+	<xsl:template match="resolution">
+		<br/>
+		<em>			
 			<xsl:value-of select="."/>
 			<xsl:text> (</xsl:text>
 			<xsl:value-of select="./@resolution"/>
 			<xsl:text>)</xsl:text>
 		</em>
 	</xsl:template>
+	
 	<xsl:template match="title">
 		<br/>
 		<em>
