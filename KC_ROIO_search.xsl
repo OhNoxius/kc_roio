@@ -74,17 +74,17 @@
 				<xsl:value-of select="length"/>
 			</td>
 			<td style="text-align:center">
-				<!--source-->				
+				<!--source-->
 				<xsl:apply-templates select="./@official"/>
 				<xsl:value-of select="source"/>
 				
 				<!--format-->
 				<br/>
-				<em>			
+				<em>
 					<xsl:value-of select="format"/>
 					<xsl:apply-templates select="format/@bitrate"/>
-					<xsl:apply-templates select="format/@resolution"/>					
-				</em>				
+					<xsl:apply-templates select="format/@resolution"/>	
+				</em>
 			</td>
 			<td style="text-align:center">
 				<xsl:value-of select="quality"/>
