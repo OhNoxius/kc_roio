@@ -116,8 +116,10 @@
 
 	<xsl:template match="format">
 		<em>
-			<xsl:text> (</xsl:text>
+			<br/>
 			<xsl:value-of select="."/>
+			<xsl:text> (</xsl:text>
+			<xsl:value-of select="./@resolution"/>
 			<xsl:text>)</xsl:text>
 		</em>
 	</xsl:template>

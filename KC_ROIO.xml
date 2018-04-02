@@ -28,8 +28,8 @@
 			<country>Belgium</country>
 		</location>
 		<length>0:57:10</length>
-		<source/>
-		<format>1080p</format>
+		<source station="Mezzo LiveHD">HDTV</source>
+		<format resolution="1080p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -51,7 +51,7 @@
 		</location>
 		<length>2:01:02</length>
 		<source>Audience (PRO)</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Lineage:
 			Audio: Soundboard > Digital > 24 Multitracks @ 24 Bits / 48 Khz > Mastering with Samplitude 9.22 and VST (reverb, compressor, etc...) > 2.0 @ 16 Bits / 48 Khz > AC3 version @ 16 Bits / 48 Khz
@@ -86,7 +86,7 @@
 		</location>
 		<length>2:35:06</length>
 		<source>web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -107,7 +107,7 @@
 		</location>
 		<length>3min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>The Midnight Special + Interview</remarks>
@@ -124,7 +124,7 @@
 		</location>
 		<length>30min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>+ Interview</remarks>
@@ -164,7 +164,7 @@
 		</location>
 		<length>1:09:39</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>Brazilian Television?</remarks>
@@ -178,7 +178,7 @@
 		<location/>
 		<length>10min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>RAITRE Broadcast Schegge. Location and date unknow European tour 1962 ??</remarks>
@@ -201,7 +201,7 @@
 		</location>
 		<length>0:55:24</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>8°Festival Internazionale del Jazz</remarks>
@@ -224,7 +224,7 @@
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -247,7 +247,7 @@
 		</location>
 		<length>1:12:49</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -307,7 +307,7 @@
 		</location>
 		<length>0:35:30</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -327,7 +327,7 @@
 		</location>
 		<length>1:10:24</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -404,7 +404,7 @@
 		</location>
 		<length>0:29:30</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -424,7 +424,7 @@
 		</location>
 		<length>0:25:23</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -462,7 +462,7 @@
 		</location>
 		<length>0:28:38</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -481,7 +481,7 @@
 		</location>
 		<length>0:34:39</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[TV > VHS > ? > DVD-R]]></lineage>
 		<remarks/>
@@ -505,7 +505,7 @@
 		</location>
 		<length>0:34:27</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07007574/05-08-1974]]></lineage>
 		<remarks/>
@@ -529,7 +529,7 @@
 		</location>
 		<length>0:18:55</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[TV > VHS > ? > DVD-R]]></lineage>
 		<remarks/>
@@ -554,7 +554,7 @@
 		</location>
 		<length>0:34:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > MPEG Video Wizard > DVD ]]></lineage>
 		<remarks/>
@@ -578,7 +578,7 @@
 		</location>
 		<length>0:52:57</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -601,7 +601,7 @@
 		</location>
 		<length>1:29:50</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -620,7 +620,7 @@
 		</location>
 		<length>0:17:16</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -664,7 +664,7 @@
 		</location>
 		<length>0:41:44</length>
 		<source channel="M6">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage trader="Nic (hulkhogan)"/>
 		<remarks/>
@@ -684,7 +684,7 @@
 		</location>
 		<length>0:45:29</length>
 		<source channel="RAISAT eXtra">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage trader="Nic (hulkhogan)"/>
 		<remarks/>
@@ -702,7 +702,7 @@
 		</location>
 		<length>0:56:50</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -721,7 +721,7 @@
 		</location>
 		<length>1:00:28</length>
 		<source channel="mezzo">TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[early gen DVD with errors -> Womble MPEG Video Wizard 5.0: patch with other source -> mpg]]></lineage>
 		<remarks>repaired skip and synchronisation in other version</remarks>
@@ -740,7 +740,7 @@
 		</location>
 		<length>1:00:28</length>
 		<source channel="mezzo">TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>A--</quality>
 		<lineage trader="Nic (hulkhogan)"><![CDATA[early gen]]></lineage>
 		<remarks>skip at 0:29:29, out of sync afterwards. probably biterrors in files...</remarks>
@@ -759,7 +759,7 @@
 		</location>
 		<length>1:00:49</length>
 		<source channel="mezzo">TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[SATRip]]></lineage>
 		<remarks/>
@@ -779,7 +779,7 @@
 		</location>
 		<length>0:59:29</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -799,7 +799,7 @@
 		</location>
 		<length>0:52:50</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[record DVD playback]]></lineage>
 		<remarks/>
@@ -861,7 +861,7 @@
 		</location>
 		<length>0:49:34</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -879,7 +879,7 @@
 		</location>
 		<length>0:51:57</length>
 		<source>TV</source>
-		<format letterboxed="true">NTSC</format>
+		<format resolution="NTSC" letterboxed="true">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-s (Sky Star 2, MPEG-2 Video, 720x576, 25 fps, MPEG-1 Audio Layer II, 48 KHz, 256 Kb/s), Audio converted with TMPGEnc 4.0 XPress to Linear PCM, 48 KHz, 16 bits), chapters and menue edited via TMPGEnc DVD Author 3]]></lineage>
 		<remarks/>
@@ -900,7 +900,7 @@
 		</location>
 		<length>1:18:38</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -921,7 +921,7 @@
 		</location>
 		<length>1:28:39</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -943,7 +943,7 @@
 		</location>
 		<length>1:00:41</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -963,7 +963,7 @@
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -984,7 +984,7 @@
 		</location>
 		<length>1:33:59</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks>39th Internationale Jazzwoche Burghausen</remarks>
@@ -1000,7 +1000,7 @@
 		<location/>
 		<length>0:05:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Jeff Ballard solo + Larry Grenadier solo</remarks>
@@ -1038,7 +1038,7 @@
 		</location>
 		<length>0:55:24</length>
 		<source/>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -1072,7 +1072,7 @@
 		<location/>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -1089,7 +1089,7 @@
 		</location>
 		<length>0:30:23</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -1109,7 +1109,7 @@
 		</location>
 		<length>0:27:48</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -1126,7 +1126,7 @@
 		</location>
 		<length>0:11:06</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -1146,7 +1146,7 @@
 		</location>
 		<length>0:28:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -1251,7 +1251,7 @@
 		</location>
 		<length>0:29:55</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -1276,7 +1276,7 @@
 		</location>
 		<length>0:09:00</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -1299,7 +1299,7 @@
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -1320,7 +1320,7 @@
 		</location>
 		<length>0:29:00</length>
 		<source>DVD</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>air date 1961-10-24</remarks>
@@ -1342,7 +1342,7 @@
 		</location>
 		<length>0:29:01</length>
 		<source/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>VHS rip?</remarks>
@@ -1364,7 +1364,7 @@
 		</location>
 		<length>0:08:36</length>
 		<source channel="WDR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks><![CDATA[Friedrich Gulda & his Euro-Jazz Orchestra with the Sextett der Juroren (RIAS or SFB TV Broadcast)]]></remarks>
@@ -1387,7 +1387,7 @@
 		</location>
 		<length>0:03:44</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -1433,7 +1433,7 @@
 		</location>
 		<length>0:29:42</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -1456,7 +1456,7 @@
 		</location>
 		<length>0:33:37</length>
 		<source channel="SWR RP">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -1524,7 +1524,7 @@
 		</location>
 		<length>0:55:28</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -1549,7 +1549,7 @@
 		</location>
 		<length>0:56:53</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -1573,7 +1573,7 @@
 		</location>
 		<length>27min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -1620,7 +1620,7 @@
 		</location>
 		<length>0:01:04</length>
 		<source>Bluray</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks>The song being played is 'Country Preacher'</remarks>
@@ -1642,7 +1642,7 @@
 		</location>
 		<length>0:58:46</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks></remarks>
@@ -1695,7 +1695,7 @@
 		</location>
 		<length>0:07:48</length>
 		<source channel="BBC">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>Cannonball Adderley 1960-70 DVD Compilation</remarks>
@@ -1734,7 +1734,7 @@
 		</location>
 		<length>0:04:19</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -1770,7 +1770,7 @@
 		</location>
 		<length>0:27:48</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>audio fragments missing</remarks>
@@ -1792,7 +1792,7 @@
 		</location>
 		<length>0:17:47</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -1814,7 +1814,7 @@
 		</location>
 		<length>0:06:59</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -1858,7 +1858,7 @@
 		</location>
 		<length>0:05:48</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -1879,7 +1879,7 @@
 		</location>
 		<length>0:10:45</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -1939,7 +1939,7 @@
 		</location>
 		<length>15min</length>
 		<source>REEL</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage trader="Sergey Ivzhenko"></lineage>
 		<remarks>sterh86@gmail.com</remarks>
@@ -1962,7 +1962,7 @@
 		</location>
 		<length>0:57:58</length>
 		<source station="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage></lineage>
 		<remarks>En time for jazzvenner</remarks>
@@ -2008,7 +2008,7 @@
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>http://www.loc.gov/item/jots.200028991</remarks>
@@ -2031,7 +2031,7 @@
 		</location>
 		<length>0:41:38</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C >Nokia d-box 1 > harddisk via SCSI >ProjectX (demultiplex) >
 Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
@@ -2065,7 +2065,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 		<location/>
 		<length>1:22:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Digital Satellite -> raw data to HDD, -> ProjectX -> TMPGEnc DVD Author
 -> Video_ts;]]></lineage>
@@ -2111,7 +2111,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 		</location>
 		<length>28min</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -2131,7 +2131,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 		</location>
 		<length>0:43:55</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -2151,7 +2151,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 		</location>
 		<length>0:10:46</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
@@ -2172,7 +2172,7 @@ file]]></lineage>
 		</location>
 		<length>12min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -2191,7 +2191,7 @@ file]]></lineage>
 		</location>
 		<length>1:15:02</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2239,7 +2239,7 @@ file]]></lineage>
 		</location>
 		<length>1:08:28</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C > Technotrend TT-1501 DVB-C PCI card > harddisk > ProjectX
 (demuxing) > Cuttermaran 1.70 (edits and chapters) > DVD-lab Pro 2.5(DVD
@@ -2295,7 +2295,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:55:37</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -2315,7 +2315,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:53:41</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2336,7 +2336,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:59:45</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -2357,7 +2357,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:09:00</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -2379,7 +2379,7 @@ authoring)]]></lineage>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -2416,7 +2416,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:09:05</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -2455,7 +2455,7 @@ authoring)]]></lineage>
 		</location>
 		<length>1:14:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -2478,7 +2478,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:34:12</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -2497,7 +2497,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:25:10</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2518,7 +2518,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:43:14</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2539,7 +2539,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:56:44</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -2562,7 +2562,7 @@ authoring)]]></lineage>
 		</location>
 		<length>0:58:36</length>
 		<source>AUD+FM</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<lineage><![CDATA[VIDEO: unknown audience member > PAL DVDR
 AUDIO: FM/SBD > ? > CDR
 SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/]]></lineage>
@@ -2599,7 +2599,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		</location>
 		<length>0:43:10</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<lineage><![CDATA[Tv > Gen VHS > SA > DVD]]></lineage>
 		<remarks/>
 		<artists>
@@ -2629,7 +2629,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		</location>
 		<length>1:05:53</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -2693,7 +2693,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		</location>
 		<length>0:59:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2737,7 +2737,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		</location>
 		<length>0:09:34</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[original Broadcast VHS-> VHSTAPE-> PHILIPS DVDDR Recorder->DVD->PC->
 TPMGEnDVD AUTHOR 3->YOU]]></lineage>
@@ -2758,7 +2758,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:06:22</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -2797,7 +2797,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>27min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>Double Exposure concert</remarks>
@@ -2901,7 +2901,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:32:08</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -2918,7 +2918,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>12min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -2934,7 +2934,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>30min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -2968,7 +2968,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2986,7 +2986,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>50min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -3005,7 +3005,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:52:09</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -3039,7 +3039,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<location/>
 		<length>0:43:19</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -3058,7 +3058,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:10:35</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>cropped. plosin says: Studio 10, Grosser Sendesaal des NDR Funkhauses, Hamburg for
@@ -3077,7 +3077,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<location/>
 		<length>52min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3095,7 +3095,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:47:57</length>
 		<source channel="1Plus">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS(x) > unknown device > DVDR]]></lineage>
 		<remarks/>
@@ -3113,7 +3113,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length/>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3164,7 +3164,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>24min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -3183,7 +3183,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>20min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -3202,7 +3202,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:37:55</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks><![CDATA[Date de diffusion: 29/05/1973]]></remarks>
@@ -3223,7 +3223,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>34min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3245,7 +3245,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>55min</length>
 		<source>TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -3263,7 +3263,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>24min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -3292,7 +3292,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:52:49</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3310,7 +3310,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</location>
 		<length>0:48:25</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Comcast TV Broadcast>Low Gen VHS>Mitsubishi VCR>Panasonic DMR-E100H DVD
 Recorder]]></lineage>
@@ -3336,7 +3336,7 @@ Recorder]]></lineage>
 		</location>
 		<length>46min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -3355,7 +3355,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:49:42</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -3376,7 +3376,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:58:30</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -3392,7 +3392,7 @@ Recorder]]></lineage>
 		<location/>
 		<length>2min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -3417,7 +3417,7 @@ Recorder]]></lineage>
 		</location>
 		<length>15min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3437,7 +3437,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:08:35</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<lineage/>
 		<remarks>from a tv program called "Forum Musiques", first broadcasted 1968 10 23</remarks>
 		<artists>
@@ -3462,7 +3462,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:14:08</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks>LPCM dub</remarks>
@@ -3488,7 +3488,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:39:23</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Video: SANYO VCR > MEDION DVD STANDALONE HQ Mode Audio: SANYO VCR > WAVELAB
 3, 44kHz 16 bit DUAL MONO]]></lineage>
@@ -3516,7 +3516,7 @@ Recorder]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>fred weintraub's tv show "the bitter end" 1967</remarks>
@@ -3535,7 +3535,7 @@ Recorder]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3554,7 +3554,7 @@ Recorder]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3580,7 +3580,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:22:33</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -3606,7 +3606,7 @@ Recorder]]></lineage>
 		</location>
 		<length>10min</length>
 		<source>VHS</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks>bad rip of Uncle Meat VHS</remarks>
@@ -3625,7 +3625,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:17:50</length>
 		<source>REEL</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Pacific Film Archives Master Reel > Master VHS > B. Burnett VHS >
 			JVC HR-SJVC S-VHS out > Canpous ADVC 110 Firewire out > Sony Vegas Pro 10 >
@@ -3645,7 +3645,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:14:02</length>
 		<source>Blu-ray</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -3664,7 +3664,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:01:10</length>
 		<source channel="Mezzo">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3689,7 +3689,7 @@ Recorder]]></lineage>
 		</location>
 		<length>0:33:57</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DivX with DRM > Fraps (AVI recapture) > TMPGenc Plus > TMPGenc DVD Author
 DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]></lineage>
@@ -3740,7 +3740,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source channel="VPRO">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3765,7 +3765,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:59:52</length>
 		<source>Pre-Broadcast</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Pre Broadcast VHS Master --> DVD]]></lineage>
 		<remarks/>
@@ -3783,7 +3783,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:34:46</length>
 		<source channel="VPRO">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[From digital cable receiver, analog out to Hard disc recorder (Kiss DP558) recorded in MPEG2 best quality, over local network uploaded to computer, converted VOB to MPEG2 in VIDEOREDO, clipped in Studio saved as DV, recoded to MPEG2 in TMPEGenc masking 6 toplines to get rid of noise along the edge, authored in TMPEGauthor.]]></lineage>
 		<remarks/>
@@ -3806,7 +3806,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:54:30</length>
 		<source channel="VPRO">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -3823,7 +3823,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:28:06</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DivX with DRM > Fraps (AVI recapture) > TMPGenc Plus > TMPGenc DVD Author
 DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s)
@@ -3843,7 +3843,7 @@ CosmikD]]></lineage>
 		</location>
 		<length>0:34:21</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -3868,7 +3868,7 @@ CosmikD]]></lineage>
 		</location>
 		<length>0:34:21</length>
 		<source>16mm</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[16mm Film Master > SVHS w/timecodes > SVHS > Hard Drive via Pinnacle 11
 Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
@@ -3896,7 +3896,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>17min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
 			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
@@ -3915,7 +3915,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:11:04</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<remarks>Rebroadcast ABC1 Australia 30th January 2010</remarks>
 		<artists>
@@ -3932,7 +3932,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
 			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
@@ -3959,7 +3959,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:05:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[Captured PAL transport stream with an LG HR536D standalone recorder.
 			.Ts file trimmed with Streamclip 1.2.]]></lineage>
@@ -4004,7 +4004,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:48:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
 			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
@@ -4023,7 +4023,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:40:48</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[goodkingzog's lineage: TV Station > VHS > DVD
 			Unicrayon's lineage: DVD > Demuxed > editing, re-encoded, authoring & branding > DVD]]></lineage>
@@ -4042,7 +4042,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>1:19:22</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>LPCM</remarks>
@@ -4067,7 +4067,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -4089,7 +4089,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:17:17</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4106,7 +4106,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>26min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>John Belushi (*) and some of the SNL Orchestra</remarks>
@@ -4151,7 +4151,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>34min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>John Belushi (*) and some of the SNL Orchestra</remarks>
@@ -4191,7 +4191,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<location/>
 		<length>0:51:56</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4205,7 +4205,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<location/>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4223,7 +4223,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:22:54</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>audio remastered</remarks>
@@ -4245,7 +4245,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>15min</length>
 		<source station="Yle 2">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV -> ... VHS? -> VHS? ... -> DVD]]></lineage>
 		<remarks>there is a lower gen VHS copy out there</remarks>
@@ -4282,7 +4282,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:04:38</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4300,7 +4300,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[(real)TV-Capture(VHS) - MKVmerge - DIME]]></lineage>
 		<remarks/>
@@ -4329,7 +4329,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>0:54:21</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4350,7 +4350,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		</location>
 		<length>144min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Pro-Shot > ? > VHS (unknown generation) > Sony DVD Recorder (FR mode) >
 DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
@@ -4372,7 +4372,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:42:24</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -4394,7 +4394,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>10min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4415,7 +4415,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:58:48</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4436,7 +4436,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>14min</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -4455,7 +4455,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:51:36</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -4482,7 +4482,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:26:22</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -4507,7 +4507,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:31:07</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4532,7 +4532,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>1:06:27</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4554,7 +4554,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:24:27</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -4576,7 +4576,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:18:12</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -4595,7 +4595,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:39:42</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -4617,7 +4617,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length/>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Jumpsuit Tony</remarks>
@@ -4656,7 +4656,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>20min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4697,7 +4697,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:11:28</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<lineage><![CDATA[dvb-s2 > SkyStar HD 2 > ts >VideoReD 4.2x > ts]]></lineage>
 		<remarks/>
 		<artists>
@@ -4715,7 +4715,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:36:05</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -4738,7 +4738,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:15:13</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -4759,7 +4759,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>1:44:05</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -4781,7 +4781,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:49:34</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -4817,7 +4817,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<location/>
 		<length>0:53:51</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -4834,7 +4834,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:44:20</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -4852,7 +4852,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>0:52:17</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>VOB-errors</remarks>
@@ -4875,7 +4875,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		</location>
 		<length>1:18:02</length>
 		<source>VHS</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[master PDM VHS tape => Sharp VC-M512 VCR => Pinnacle Studio MovieBox =>
 DVD-R => Dime]]></lineage>
@@ -4898,7 +4898,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>61min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -4917,7 +4917,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>34min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -4961,7 +4961,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4977,7 +4977,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>4min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -4994,7 +4994,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>3min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -5011,7 +5011,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:24:05</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -5029,7 +5029,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>1:02:36</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5050,7 +5050,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:23:17</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
@@ -5070,7 +5070,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:35:23</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
@@ -5095,7 +5095,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:45:48</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5115,7 +5115,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<artists>
 			<artist main="true">Jakob Bro</artist>
@@ -5136,7 +5136,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>1:04:51</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C > Nokia d-box 1 > harddisk via SCSI > IfoEdit.]]></lineage>
 		<remarks>Edits were made with the Cuttermaran software. No re-encoding was applied during
@@ -5157,7 +5157,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>1:05:13</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[TV-Capture - Mkvmerge - Dime]]></lineage>
 		<remarks/>
@@ -5178,7 +5178,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<lineage><![CDATA[(real)TV-Capture(VHS) - MKVmerge - DIME]]></lineage>
 		<remarks/>
 		<artists>
@@ -5199,7 +5199,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:59:12</length>
 		<source channel="3sat">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5219,7 +5219,7 @@ DVD-R => Dime]]></lineage>
 		</location>
 		<length>0:08:13</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DivX with DRM > Fraps (AVI recapture) > TMPGenc Plus > TMPGenc DVD Author
 DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]></lineage>
@@ -5240,7 +5240,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<artists>
 			<artist main="true">Jimi Hendrix</artist>
@@ -5257,7 +5257,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:08:31</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5297,7 +5297,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:05:51</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>timecoded</remarks>
@@ -5317,7 +5317,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:21:47</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5337,7 +5337,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:14:03</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5379,7 +5379,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:18:11</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5399,7 +5399,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:13:42</length>
 		<source>VHS</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>sourced from old Kurt Max VHS edit</remarks>
@@ -5419,7 +5419,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>21min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5437,7 +5437,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>19min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>14th Bologna Jazz Festival</remarks>
@@ -5481,7 +5481,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:54:52</length>
 		<source>TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -5501,7 +5501,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:15:02</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -5524,7 +5524,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length></length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5548,7 +5548,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:55:32</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5571,7 +5571,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:44:49</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5595,7 +5595,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:57:44</length>
 		<source>HDTV</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality/>
 		<lineage><![CDATA[HDTV > unknown equipment > mp4]]></lineage>
 		<remarks/>
@@ -5614,7 +5614,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<location/>
 		<length>0:31:05</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -5628,7 +5628,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<location/>
 		<length>0:49:36</length>
 		<source station="Mezzo">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV-Broadcast(Mezzo)>Thomson DC/62UPC>Scart>Philips DVDR3600>DVD>PC]]></lineage>
 		<remarks>Additional editing: TMPGEnc Authoring Works 4(no menu/5 min chapters)</remarks>
@@ -5642,7 +5642,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<location/>
 		<length>0:56:52</length>
 		<source>HDTV</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5659,7 +5659,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5710,7 +5710,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5730,7 +5730,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5752,7 +5752,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:29:33</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -5774,7 +5774,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>12min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5796,7 +5796,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>37min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5818,7 +5818,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:19:36</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -5840,7 +5840,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -5858,7 +5858,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<location/>
 		<length>0:29:58</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -5875,7 +5875,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>7min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -5893,7 +5893,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>17min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -5911,7 +5911,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:06:42</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -5930,7 +5930,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:45:19</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[(real) TV-Capture(VHS), MKV-merge, DIME]]></lineage>
 		<remarks/>
@@ -5951,7 +5951,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>37min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -5973,7 +5973,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:15:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5994,7 +5994,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:27:41</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -6035,7 +6035,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:59:15</length>
 		<source>TV</source>
-		<format letterboxed="true">PAL</format>
+		<format resolution="PAL" letterboxed="true">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6054,7 +6054,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>5min</length>
 		<source>DVD-playback</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[record DVD playback]]></lineage>
 		<remarks/>
@@ -6112,7 +6112,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:38:54</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -6133,7 +6133,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:31:21</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6156,7 +6156,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:27:57</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6178,7 +6178,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:17:18</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -6199,7 +6199,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:43:22</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/jazz/FBUA07004474/06-05-1974&#xA;&#xD;https://tv.nrk.no/serie/jazz/FBUA07005174/13-05-1974]]></lineage>
 		<remarks>+interview</remarks>
@@ -6221,7 +6221,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:14:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6239,7 +6239,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:23:34</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -6257,7 +6257,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>0:04:51</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
 		<remarks/>
@@ -6274,7 +6274,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		</location>
 		<length>1:13:14</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS video tape > PC canopus advc> NLE > AVI > TMPG> DVDAUDIO
 DUB!!!]]></lineage>
@@ -6295,7 +6295,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>1:13:14</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[record DVD playback]]></lineage>
 		<remarks/>
@@ -6315,7 +6315,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>1:29:58</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -6350,7 +6350,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>54min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6370,7 +6370,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:58:43</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[traded DVD < DVD Decrypter < dime]]></lineage>
 		<remarks/>
@@ -6390,7 +6390,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>26min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6410,7 +6410,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:55:06</length>
 		<source station="A2-SFP">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -6430,7 +6430,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>80min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6473,7 +6473,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:26:59</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6495,7 +6495,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:55:59</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -6517,7 +6517,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:04:37</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6554,7 +6554,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:31:50</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6599,7 +6599,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>0:57:32</length>
 		<source>DVD</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage>official VHS? -> ... -> DVD</lineage>
 		<remarks>Live at Salvador, Bahia at the Passeio Publico: November 19 and 20, 1991</remarks>
@@ -6626,7 +6626,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>1:16:36</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6647,7 +6647,7 @@ DUB!!!]]></lineage>
 		</location>
 		<length>1:29:55</length>
 		<source channel="WDR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[WDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV
 receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS >
@@ -6671,7 +6671,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:57:45</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[superbly PRO-SHOT DVD in Trade>DVD Decrypter>]]></lineage>
 		<remarks/>
@@ -6693,7 +6693,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>1:02:21</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -6715,7 +6715,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>28min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -6768,7 +6768,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:50:23</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6789,7 +6789,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:06:35</length>
 		<source channel="mezzo">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6810,7 +6810,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:06:35</length>
 		<source channel="mezzoLiveHD">HDTV</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6835,7 +6835,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:37:38</length>
 		<source>web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV)]]></lineage>
 		<remarks>http://www.jazzalavillette.com/evenement/16308</remarks>
@@ -6859,7 +6859,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:58:53</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -6882,7 +6882,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:15:57</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6905,7 +6905,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>1:22:50</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -6928,7 +6928,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:28:20</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6951,7 +6951,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:07:14</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>incomplete</remarks>
@@ -6969,7 +6969,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:45:20</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -6992,7 +6992,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:29:49</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -7013,7 +7013,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:25:46</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -7059,7 +7059,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>1:02:35</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -7097,7 +7097,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>11min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -7144,7 +7144,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>3min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -7259,7 +7259,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:25:56</length>
 		<source>VHS</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS > Panasonic DMR-E50S Stand-alone > Roxio Toast Titanium (author) > DVD]]></lineage>
 		<remarks/>
@@ -7281,7 +7281,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:25:42</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -7303,7 +7303,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>1:00:07</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[Direct copy of master reel RAI TV]]></lineage>
 		<remarks/>
@@ -7325,7 +7325,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:33:20</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[TV >VHS >Sampo standalone DVD recorder in HQ mode (max. one hour) >DVD
 Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
@@ -7391,7 +7391,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 		</location>
 		<length>1:04:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Pro Shot > pre-broadcast tapes > ? > DVDR]]></lineage>
 		<remarks/>
@@ -7413,7 +7413,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 		</location>
 		<length>0:33:35</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[VHS video tapes > PC canopus advc > NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>AUDIO DUB</remarks>
@@ -7457,7 +7457,7 @@ Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
 		</location>
 		<length>0:30:19</length>
 		<source channel="RAISAT">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[RAISAT Album Broadcast > ??? > DVD > TMPGEnc Authoring Works 4 >
 dime]]></lineage>
@@ -7480,7 +7480,7 @@ dime]]></lineage>
 		</location>
 		<length>0:36:07</length>
 		<source channel="RAISAT">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[RAISAT Album Broadcast > ??? > DVD]]></lineage>
 		<remarks>with commentary</remarks>
@@ -7502,7 +7502,7 @@ dime]]></lineage>
 		</location>
 		<length>120min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>early &amp; late show</remarks>
@@ -7589,7 +7589,7 @@ dime]]></lineage>
 		</location>
 		<length>0:43:54</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > 1st Gen VHS > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -7657,7 +7657,7 @@ dime]]></lineage>
 		</location>
 		<length>1:07:48</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage><![CDATA[VHS tape > PC AVI (canopus advc) > NLE > MPG-2 >DVD author]]></lineage>
 		<remarks>AUDIO DUB</remarks>
@@ -7678,7 +7678,7 @@ dime]]></lineage>
 		</location>
 		<length>1:26:29</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage><![CDATA[Unknown Video Footage > Unknown VHS Generation > Godnoes Productions Volume 6
 (DVD-R) NTSC > DVD Decrypter > TLH]]></lineage>
@@ -7704,7 +7704,7 @@ dime]]></lineage>
 		</location>
 		<length>0:29:54</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>AUDIO DUB</remarks>
@@ -7730,7 +7730,7 @@ dime]]></lineage>
 		</location>
 		<length>0:30:14</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -7756,7 +7756,7 @@ dime]]></lineage>
 		</location>
 		<length>0:29:56</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -7782,7 +7782,7 @@ dime]]></lineage>
 		</location>
 		<length>0:30:00</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C-</quality>
 		<lineage/>
 		<remarks/>
@@ -7807,7 +7807,7 @@ dime]]></lineage>
 		</location>
 		<length>0:58:19</length>
 		<source channel="einsfestival*">DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[EinsFestival > TT S2-3200 > DVB Viewer > DVD Maestro]]></lineage>
 		<remarks/>
@@ -7832,7 +7832,7 @@ dime]]></lineage>
 		</location>
 		<length>0:58:41</length>
 		<source channel="WDR">DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[Re-Broadcast 04. July 2011 WDR "Jazzline" ==> Digital HD tuner ==> Harddisc
 ==> MPEG Streamclip ==> Toast Titanium ==> Dime.]]></lineage>
@@ -7858,7 +7858,7 @@ dime]]></lineage>
 		</location>
 		<length>1:10:15</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[1. Join and demux vob files with DGMPGDec, so that each source has now one audio
 and one video file2. Use BeSplit 0.9b8 to raise gain of einsfestival with 3dB BeSplit
@@ -7887,7 +7887,7 @@ file]]></lineage>
 		</location>
 		<length>0:20:52</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS video tape > PC canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>AUDIO DUB</remarks>
@@ -7911,7 +7911,7 @@ file]]></lineage>
 		</location>
 		<length>0:20:21</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Tv > Med Gen VHS > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -7935,7 +7935,7 @@ file]]></lineage>
 		</location>
 		<length>1:19:54</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -7959,7 +7959,7 @@ file]]></lineage>
 		</location>
 		<length>1:22:05</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -7983,7 +7983,7 @@ file]]></lineage>
 		</location>
 		<length>0:40:36</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8031,7 +8031,7 @@ file]]></lineage>
 		</location>
 		<length>0:10:28</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[Tv > Med Gen VHS > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -8057,7 +8057,7 @@ file]]></lineage>
 		</location>
 		<length>0:27:38</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -8083,7 +8083,7 @@ file]]></lineage>
 		</location>
 		<length>1:04:54</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -8131,7 +8131,7 @@ file]]></lineage>
 		</location>
 		<length>0:37:35</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Tv > Master > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -8155,7 +8155,7 @@ file]]></lineage>
 		</location>
 		<length>0:38:35</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -8179,7 +8179,7 @@ file]]></lineage>
 		</location>
 		<length>0:04:09</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C-</quality>
 		<lineage><![CDATA[Tv (B&amp;W) > High Gen VHS > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -8202,7 +8202,7 @@ file]]></lineage>
 		</location>
 		<length>0:30:19</length>
 		<source></source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > DVD]]></lineage>
 		<remarks>Purchased from South American bootlegger and liberated here.</remarks>
@@ -8226,7 +8226,7 @@ file]]></lineage>
 		</location>
 		<length>0:13:24</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -8249,7 +8249,7 @@ file]]></lineage>
 		</location>
 		<length>0:28:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -8274,7 +8274,7 @@ file]]></lineage>
 		</location>
 		<length>0:39:26</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
@@ -8299,7 +8299,7 @@ file]]></lineage>
 		</location>
 		<length>26min</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
@@ -8325,7 +8325,7 @@ file]]></lineage>
 		</location>
 		<length>0:10:30</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -8349,7 +8349,7 @@ file]]></lineage>
 		</location>
 		<length>0:25:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>other guests: Nicolas Cage, Carol Kane</remarks>
@@ -8367,7 +8367,7 @@ file]]></lineage>
 		</location>
 		<length>22min</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C (Cultura24 Broadcast)>Mystique CaBiX-C2 with Alphacrypt>.TS
 file]]></lineage>
@@ -8386,7 +8386,7 @@ file]]></lineage>
 		</location>
 		<length>0:11:53</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -8405,7 +8405,7 @@ file]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -8429,7 +8429,7 @@ file]]></lineage>
 		</location>
 		<length>0:13:55</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -8447,7 +8447,7 @@ file]]></lineage>
 		</location>
 		<length>0:37:08</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -8471,7 +8471,7 @@ file]]></lineage>
 		</location>
 		<length>0:56:26</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8523,7 +8523,7 @@ file]]></lineage>
 		</location>
 		<length>0:27:17</length>
 		<source/>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -8542,7 +8542,7 @@ file]]></lineage>
 		</location>
 		<length>0:14:33</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>hosted by Father Norman J. O'Conner</remarks>
@@ -8579,7 +8579,7 @@ Subs)]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -8617,7 +8617,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:02:32</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -8632,7 +8632,7 @@ Subs)]]></lineage>
 		<location/>
 		<length>1:06:09</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8650,7 +8650,7 @@ Subs)]]></lineage>
 		</location>
 		<length>1:21:44</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8669,7 +8669,7 @@ Subs)]]></lineage>
 		</location>
 		<length>1:14:10</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -8689,7 +8689,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:42:29</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>TIMECODED (Reelin' in The Years)</remarks>
@@ -8712,7 +8712,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:42:43</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8734,7 +8734,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:43:28</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>from a compilation DVD together with the PBS soundstage show</remarks>
@@ -8755,7 +8755,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:43:27</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been
@@ -8778,7 +8778,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:04:07</length>
 		<source station="BBC Four">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8799,7 +8799,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:21:24</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Source: Trade DVD-R]]></lineage>
 		<remarks>Season 2, Episode 17 (1974-11-25) Broadcast date: January 25, 1975</remarks>
@@ -8821,7 +8821,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:58:47</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[1st Gen VHS > DVDR]]></lineage>
 		<remarks/>
@@ -8852,7 +8852,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:55:39</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks>timecoded</remarks>
@@ -8883,7 +8883,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:50:28</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C-</quality>
 		<lineage/>
 		<remarks/>
@@ -8904,7 +8904,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:03:16</length>
 		<source station="WDR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Master VHS --> DVD Recorder --> PC (ProjectX/Mplex) --> You]]></lineage>
 		<remarks>Original broadcast:
@@ -8931,7 +8931,7 @@ Subs)]]></lineage>
 		</location>
 		<length>44min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>Broadcast date: March 16, 1976</remarks>
@@ -8949,7 +8949,7 @@ Subs)]]></lineage>
 		<location/>
 		<length>0:14:22</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks>compilation : 3 songs at 2 different shows</remarks>
@@ -8968,7 +8968,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:50:41</length>
 		<source/>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9006,7 +9006,7 @@ Subs)]]></lineage>
 		</location>
 		<length>2:31:59</length>
 		<source>web</source>
-		<format>HD</format>
+		<format>AVC</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -9030,7 +9030,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:57:02</length>
 		<source channel="Mezzo liveHD">HDTV</source>
-		<format>HDV 1080i</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9054,7 +9054,7 @@ Subs)]]></lineage>
 		</location>
 		<length>1:48:36</length>
 		<source>web</source>
-		<format>HD</format>
+		<format>AVC</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -9076,7 +9076,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:55:18</length>
 		<source channel="Mezzo liveHD">HDTV</source>
-		<format>HDV 1080i</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9098,7 +9098,7 @@ Subs)]]></lineage>
 		</location>
 		<length>0:35:06</length>
 		<source channel="ntr:">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[DVBroadcast(ntr:)>Thomson DC/62UPC>Scart>Philips
 DVDR3600>DVD>PC]]></lineage>
@@ -9123,6 +9123,8 @@ DVDR3600>DVD>PC]]></lineage>
 			<country>Switzerland</country>
 		</location>
 		<length>0:03:15</length>
+		<source>web</source>
+		<format>AVC</format>
 		<remarks>audio upgrade</remarks>
 		<artists>
 			<artist main="true">Robert Glasper</artist>
@@ -9141,8 +9143,8 @@ DVDR3600>DVD>PC]]></lineage>
 			<country>U.K.</country>
 		</location>
 		<length>2:35:19</length>
-		<source/>
-		<format>1080p</format>
+		<source>iTunes</source>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9190,7 +9192,7 @@ DVDR3600>DVD>PC]]></lineage>
 		</location>
 		<length>1:08:47</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[VHS (first generation) > DVD-R (2010)]]></lineage>
 		<remarks/>
@@ -9212,7 +9214,7 @@ DVDR3600>DVD>PC]]></lineage>
 		</location>
 		<length>1:05:56</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks></remarks>
@@ -9237,7 +9239,7 @@ DVDR3600>DVD>PC]]></lineage>
 		</location>
 		<length>1:13:13</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Satellite TV /Germany / Live > Master VHS (TDK or Sony) > LG DVD Burner >
 HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
@@ -9282,7 +9284,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 		</location>
 		<length>0:54:40</length>
 		<source channel="KQED HD">DTV</source>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<lineage><![CDATA[ATSC broadcast > VBox DTA-150 > TSReader (record) > VideoReDo Plus (scene
 selection) > transport stream]]></lineage>
 		<remarks/>
@@ -9299,7 +9301,7 @@ selection) > transport stream]]></lineage>
 		<location/>
 		<length>0:35:10</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -9316,7 +9318,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>0:39:34</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -9340,7 +9342,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>1:03:06</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9363,7 +9365,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>0:10:01</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -9380,7 +9382,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>1:02:14</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9422,7 +9424,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>1:14:18</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -9463,7 +9465,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>0:06:05</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Unknown Gen VHS > HDD Standalone Recorder > TMPGEnc > DVD]]></lineage>
 		<remarks/>
@@ -9531,7 +9533,7 @@ selection) > transport stream]]></lineage>
 		</location>
 		<length>0:48:22</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -9571,7 +9573,7 @@ selection) > transport stream]]></lineage>
 			<country>U.K.</country>
 		</location>
 		<source channel="BBC Four">DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[BBC Four broadcast 2012-02-17 > DVB-S > Hauppauge WinTV > DVBviewer >
 .ts > VideoRedo Plus > mpv &amp; mpa files > mkvmergeGUI v6.7.0 > .mkv
@@ -9616,7 +9618,7 @@ file]]></lineage>
 		</location>
 		<length>0:24:25</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9635,7 +9637,7 @@ file]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -9657,7 +9659,7 @@ file]]></lineage>
 		</location>
 		<length>0:49:54</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -9699,7 +9701,7 @@ file]]></lineage>
 		</location>
 		<length>0:58:52</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9730,7 +9732,7 @@ file]]></lineage>
 		</location>
 		<length>9min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9747,7 +9749,7 @@ file]]></lineage>
 		</location>
 		<length>3min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9761,7 +9763,7 @@ file]]></lineage>
 		<location/>
 		<length>3min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -9777,7 +9779,7 @@ file]]></lineage>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9791,7 +9793,7 @@ file]]></lineage>
 		<location/>
 		<length>3min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9805,7 +9807,7 @@ file]]></lineage>
 		<location/>
 		<length>0:30:29</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -9824,7 +9826,7 @@ file]]></lineage>
 		</location>
 		<length>0:59:04</length>
 		<source channel="WNET">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders,
 			improve color levels, smoothing, mirror stevie piano shots...) AUDIO: My Voice of Sorrow
@@ -9860,7 +9862,7 @@ file]]></lineage>
 		</location>
 		<length>0:58:31</length>
 		<source channel="WNET">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>errors in VOB files (bad rip?). best audio, picture not so good.</remarks>
@@ -9890,7 +9892,7 @@ file]]></lineage>
 		</location>
 		<length>0:59:00</length>
 		<source channel="WNET">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>best pic quality, sound is muddy.</remarks>
@@ -9920,7 +9922,7 @@ file]]></lineage>
 		</location>
 		<length>0:59:00</length>
 		<source channel="WNET">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -9937,7 +9939,7 @@ file]]></lineage>
 		</location>
 		<length>0:18:10</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -9990,7 +9992,7 @@ file]]></lineage>
 		</location>
 		<length>0:02:56</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -10011,7 +10013,7 @@ file]]></lineage>
 		</location>
 		<length>1:28:30</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage trader="Lossless Legs"
 			><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
@@ -10032,7 +10034,7 @@ file]]></lineage>
 		</location>
 		<length>0:30:50</length>
 		<source channel="VH1">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -10067,7 +10069,7 @@ file]]></lineage>
 		</location>
 		<length>0:07:27</length>
 		<source/>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -10084,7 +10086,7 @@ file]]></lineage>
 		</location>
 		<length>0:17:14</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -10101,7 +10103,7 @@ file]]></lineage>
 		</location>
 		<length>0:14:59</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -10119,7 +10121,7 @@ file]]></lineage>
 		</location>
 		<length>0:26:37</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -10139,7 +10141,7 @@ file]]></lineage>
 		</location>
 		<length>0:29:27</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage>NTSC VHS > DVD Recorder > You</lineage>
 		<remarks/>
@@ -10162,7 +10164,7 @@ file]]></lineage>
 		</location>
 		<length>0:29:26</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>has simple DVD menu</remarks>
@@ -10187,7 +10189,7 @@ file]]></lineage>
 		</location>
 		<length>1:31:58</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS > DVD > PC]]></lineage>
 		<remarks/>
@@ -10207,7 +10209,7 @@ file]]></lineage>
 		</location>
 		<length>0:23:46</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -10225,7 +10227,7 @@ file]]></lineage>
 		</location>
 		<length>0:38:37</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>AUDIO DUB</remarks>
@@ -10249,7 +10251,7 @@ file]]></lineage>
 		</location>
 		<length>38min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
@@ -10271,7 +10273,7 @@ file]]></lineage>
 		</location>
 		<length>0:30:02</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -10295,7 +10297,7 @@ file]]></lineage>
 		</location>
 		<length>0:30:45</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -10315,7 +10317,7 @@ file]]></lineage>
 		</location>
 		<length>0:30:45</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[proshot > unknown DVD transfer > purchase > DIME]]></lineage>
 		<remarks> Here is another great video from the French vaults. Chateauvallon in August of
@@ -10339,7 +10341,7 @@ file]]></lineage>
 		</location>
 		<length>1:23:28</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<artists>
 			<artist type="band">V.S.O.P.</artist>
@@ -10361,7 +10363,7 @@ file]]></lineage>
 		</location>
 		<length>7min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
@@ -10384,7 +10386,7 @@ file]]></lineage>
 		</location>
 		<length>9min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
@@ -10406,7 +10408,7 @@ file]]></lineage>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
@@ -10428,7 +10430,7 @@ file]]></lineage>
 		</location>
 		<length>15min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
@@ -10447,7 +10449,7 @@ file]]></lineage>
 		</location>
 		<length>1:01:59</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -10466,7 +10468,7 @@ file]]></lineage>
 		</location>
 		<length>1:02:57</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -10483,7 +10485,7 @@ file]]></lineage>
 		</location>
 		<length>0:59:58</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -10501,7 +10503,7 @@ file]]></lineage>
 		</location>
 		<length>0:49:53</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -10525,7 +10527,7 @@ file]]></lineage>
 		</location>
 		<length>0:58:57</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -10572,7 +10574,7 @@ file]]></lineage>
 		</location>
 		<length>0:47:01</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Digital Satellite -> DVD-Recorder -> DVD -> HDD, audio is 2 channel
 AC3@256 ]]></lineage>
@@ -10595,7 +10597,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:53:23</length>
 		<source channel="Mezzo">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -10617,7 +10619,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:43:09</length>
 		<source channel="ARTE" DVB="true">DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[VIDEO: Digital Satellitereceiver Humax PVR8000 > DVRStudio > mpg > VideoReDo TVSuite > mpg. AUDIO: TV Sat > SkyStar2 > DVB Dream > PVAstrumento > TMPGEnc Authoring
 			DVD PAL (MPEG-2 720x576 25 i/s VBR 5000kbps, audio: 48000 Hz 256 Kb/s Stereo)]]></lineage>
@@ -10636,7 +10638,7 @@ AC3@256 ]]></lineage>
 		<location> </location>
 		<length>0:56:56</length>
 		<source>Blu-ray</source>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10660,7 +10662,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:50:54</length>
 		<source channel="Rai Doc">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -10681,7 +10683,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:17:24</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10703,7 +10705,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:52:23</length>
 		<source/>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10725,7 +10727,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:32:42</length>
 		<source>Blu-ray</source>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10747,7 +10749,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:00:35</length>
 		<source/>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -10769,7 +10771,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:30:49</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10811,7 +10813,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:40:17</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>TIMECODED</remarks>
@@ -10879,7 +10881,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:18:31</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -10926,7 +10928,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:05:21</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10950,7 +10952,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:10:23</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in
@@ -10975,7 +10977,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:56:46</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks/>
@@ -11007,7 +11009,7 @@ AC3@256 ]]></lineage>
 		<location/>
 		<length>0:40:51</length>
 		<source>DVB</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -11026,7 +11028,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:28:49</length>
 		<source channel="DR2">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -11051,7 +11053,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source channel="DR2">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -11071,7 +11073,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source channel="DR2">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -11092,7 +11094,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:48:03</length>
 		<source>REEL</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage trader="Sergey Ivzhenko">French TV archive master tape</lineage>
 		<remarks>sterh86@gmail.com</remarks>
@@ -11180,7 +11182,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -11207,7 +11209,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:53:23</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[VCR -> DVD-R (Pioneer DVR-5100H-S) -> HDD, audio is 2 channel AC3@256]]></lineage>
 		<remarks/>
@@ -11235,7 +11237,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:58:28</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -11254,7 +11256,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>met ,HUMO'</remarks>
@@ -11280,7 +11282,7 @@ AC3@256 ]]></lineage>
 		<location/>
 		<length>3:58:21</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -11308,7 +11310,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:01:23</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[dvdr from trade -> hard disk -> TMPGenc Dvd Author 1.6 -> Video_ts]]></lineage>
 		<remarks/>
@@ -11328,7 +11330,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:00:14</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11359,7 +11361,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:00:14</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11412,7 +11414,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:39:26</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
@@ -11444,7 +11446,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:49:52</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > ? > DVD-R > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
@@ -11504,7 +11506,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:11:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV > Sony beta > Pionner DVD Recorder > DVD-RW > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks/>
@@ -11555,7 +11557,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:42:12</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV > Sony beta > Pionner DVD Recorder > DVD-RW > TMPGEnc > DVD NTSC with menu]]></lineage>
 		<remarks>Miles Davis interview included</remarks>
@@ -11586,7 +11588,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:39:30</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[[Yoshiyuki] 
 ?? > VHS 3rd or 4th generation from master >  Pioneer DVD Recorder 
@@ -11617,7 +11619,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:54:38</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11660,7 +11662,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:45:56</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11698,7 +11700,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:56:15</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11721,7 +11723,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
@@ -11781,7 +11783,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:49:40</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
@@ -11890,7 +11892,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:48:45</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
 		<remarks/>
@@ -11956,7 +11958,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length/>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
@@ -12008,7 +12010,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:55:07</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -12032,7 +12034,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:29:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Miles Davis Tribute Tour</remarks>
@@ -12069,7 +12071,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:22:51</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -12111,7 +12113,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:30:00</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -12137,7 +12139,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:02:03</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -12754,7 +12756,7 @@ flac]]></lineage>
 		</location>
 		<length>1:28:36</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -12977,7 +12979,7 @@ correction]]></lineage>
 		</location>
 		<length>1:23:58</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -13020,7 +13022,7 @@ correction]]></lineage>
 		</location>
 		<length>0:50:57</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C (320 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.
 Edits were made with the mp3DirectCut software.]]></lineage>
@@ -13043,7 +13045,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		</location>
 		<length>1:22:20</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
 		<remarks/>
@@ -13230,7 +13232,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>0:30:15</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -13272,7 +13274,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>0:30:15</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -13465,7 +13467,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<source channel="NDR" DVB="true">DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[NDR / mp2 (48,000 Hz Stereo; 320 Kbps) / mp3directcut / mp2]]></lineage>
 		<remarks/>
@@ -13485,7 +13487,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		</location>
 		<length>1:27:27</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -13531,7 +13533,7 @@ Phase invert, DC offset correction, Music +1dB &amp; Applause -1dB, track no. ch
 		</location>
 		<length>0:15:12</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@192</format>
+		<format bitrate="192">mp2</format>
 		<quality/>
 		<lineage><![CDATA[Humax PVR800 > mp2 (MPEG 1.0 Layer-2; 48,000 Hz Stereo; 192 Kbps) >
 Mpeg2Schnitt (cut to separate performances) ]]></lineage>
@@ -13552,7 +13554,7 @@ Mpeg2Schnitt (cut to separate performances) ]]></lineage>
 		</location>
 		<length>1:55:18</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage><![CDATA[dvb-s > Digital Satellitereceiver Humax PVR8000 > mp2 > mp3DirectCut 2.08
 > mp2]]></lineage>
@@ -13747,7 +13749,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>1:52:48</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@256, 48kHz > raw data > ProjextX > mp3DirectCut > mp2 ]]></lineage>
 		<remarks/>
@@ -13769,7 +13771,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:17:48</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -13791,7 +13793,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:52:56</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -13874,7 +13876,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 		</location>
 		<length>0:51:41</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[DVB-C (320 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.
 Edits were made with the mp3DirectCut software.]]></lineage>
@@ -13897,7 +13899,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		</location>
 		<length>0:54:04</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -14305,7 +14307,7 @@ HELPER> flac (level 8)]]></lineage>
 		</location>
 		<length>0:07:50</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -14631,7 +14633,7 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		</location>
 		<length>0:41:27</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -15084,7 +15086,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		</location>
 		<length/>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -15389,7 +15391,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</location>
 		<length>0:19:23</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -16495,7 +16497,7 @@ check)]]></lineage>
 		</location>
 		<length>0:17:17</length>
 		<source>DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -17336,7 +17338,7 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		</location>
 		<length>0:47:06</length>
 		<source>DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
@@ -19923,7 +19925,7 @@ Unknown]]></lineage>
 		</location>
 		<length>1:26:41</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-S (256 kbps/ 48 khz) > Technotrend C-1400 DVB-S PCI card >
 harddisk.]]></lineage>
@@ -20200,7 +20202,7 @@ TLH (Flac Level 8)]]></lineage>
 			<country>Germany</country>
 		</location>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -21024,7 +21026,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>1:10:11</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -21130,7 +21132,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>1:23:55</length>
 		<source DVB="true">DVB-C</source>
-		<format>mp2@256</format>
+		<format bitrate="256">mp2</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -21297,7 +21299,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 		</location>
 		<length>0:19:17</length>
 		<source DVB="true">DVB-S</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -22473,7 +22475,7 @@ MEP.]]></lineage>
 		</location>
 		<length>20min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22491,7 +22493,7 @@ MEP.]]></lineage>
 		</location>
 		<length>10min</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22509,7 +22511,7 @@ MEP.]]></lineage>
 		</location>
 		<length>0:27:58</length>
 		<source channel="CBC">AVC</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage><![CDATA[Source: CBC TV (Canada) broadcast]]></lineage>
 		<remarks/>
@@ -22722,7 +22724,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:21:35</length>
 		<source channel="RAIDUE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22744,7 +22746,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:30:15</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22764,7 +22766,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:42:37</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22784,7 +22786,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:42:36</length>
 		<source station="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22804,7 +22806,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:28:56</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22824,7 +22826,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:30:11</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -22905,7 +22907,7 @@ level 5]]></lineage>
 		</location>
 		<length>0:38:55</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/musikk-midt-i-middagshvilen/FBUA07001575/21-04-1975]]></lineage>
 		<remarks/>
@@ -22952,7 +22954,7 @@ correction>fades>Flac]]></lineage>
 		</location>
 		<length>1:55:07</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS10001189/25-08-1989
 https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS20001189/01-09-1989
@@ -22975,7 +22977,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:46:29</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -22993,7 +22995,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:50:57</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23011,7 +23013,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:36:59</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23033,7 +23035,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:08:42</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks>NRK youth tv magazine 'Flimra'</remarks>
@@ -23054,7 +23056,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:36:37</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23076,7 +23078,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:11</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23098,7 +23100,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:38:58</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23119,7 +23121,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:51:45</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23141,7 +23143,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:40:31</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23161,7 +23163,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:18:25</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23183,7 +23185,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:39:07</length>
 		<source channel="SWR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>aired by german TV SWR RP 'Jazz Masters'</remarks>
@@ -23225,7 +23227,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:17</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -23248,7 +23250,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:32:52</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07006571/05-08-1971]]></lineage>
 		<remarks/>
@@ -23369,7 +23371,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location/>
 		<length>0:57:01</length>
 		<source channel="nps cultura 24">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-C(NPS)>Thomson DC/62UPC>Scart cable>Philips DVDR3600>DVD>PC. Additional editing: TMPGEnc DVD Author 1.6 (menu/5 min chapters)]]></lineage>
 		<remarks>1996-10-12 first broadcast date. 2011 re-broadcast, nps/CULTURA24 logo, voice-over
@@ -23389,7 +23391,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:52:04</length>
 		<source channel="ARTE concert">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
@@ -23411,7 +23413,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:06:19</length>
 		<source>DVD</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks>Produced by Teun Verbruggen</remarks>
@@ -23433,7 +23435,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:02:07</length>
 		<source channel="WDR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[dvd > dvd trade > dime]]></lineage>
 		<remarks>A documentary by Michael and Joachim Rüsenberg from 1988.</remarks>
@@ -23456,7 +23458,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:15:13</length>
 		<source channel="RAITRE">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Rai 3 re-broadcast > Panasonic VHS recorder > Sony DVD recorder > HDD > AVS Video Converter > MPEG file]]></lineage>
 		<remarks>Rai 3 (Italian Television) "Schegge" re-broadcast early 90's</remarks>
@@ -23477,7 +23479,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:16:29</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Al Fresco's original</remarks>
@@ -23495,7 +23497,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:16:29</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>unicrayon remaster</remarks>
@@ -23551,7 +23553,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:54:01</length>
 		<source channel="RAI Doc">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -23620,7 +23622,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -23643,7 +23645,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:06:54</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks>better quality than jazzdoor DVD</remarks>
@@ -23664,7 +23666,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:40:27</length>
 		<source>Blu-ray</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks>Frank Zappa on last track</remarks>
@@ -23684,7 +23686,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>2:46:41</length>
 		<source channel="FR3"/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>2xDVD. re-encoded probably multiple times</remarks>
@@ -23711,7 +23713,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:26:51</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>stutters</remarks>
@@ -23777,7 +23779,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:22:54</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>host: James Darren</remarks>
@@ -23797,7 +23799,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:58:36</length>
 		<source channel="WTTW">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -23939,7 +23941,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -23957,7 +23959,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -23975,7 +23977,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -23993,7 +23995,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24011,7 +24013,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24029,7 +24031,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24047,7 +24049,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24066,7 +24068,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24080,7 +24082,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location> </location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24094,7 +24096,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<location> </location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>documentary</remarks>
@@ -24113,7 +24115,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:20:46</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Beat-Club S06E07</remarks>
@@ -24132,7 +24134,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>Beat-Club S06E07</remarks>
@@ -24150,7 +24152,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24200,7 +24202,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:49:42</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24231,7 +24233,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source channel="ina.fr">DVD screen rec</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24253,7 +24255,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>121mins</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24283,7 +24285,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:19:30</length>
 		<source channel="VH1">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>interview</remarks>
@@ -24302,7 +24304,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:15:06</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24322,7 +24324,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:16:21</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24341,7 +24343,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:02:12</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24360,7 +24362,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:08:55</length>
 		<source channel="VH1">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24379,7 +24381,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:03:04</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24398,7 +24400,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:19:15</length>
 		<source channel="VH1">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
@@ -24417,7 +24419,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:11:54</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
@@ -24436,7 +24438,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:08:18</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>"PROPERTY OF CBS ENTERPRISES" on screen</remarks>
@@ -24455,7 +24457,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:04:24</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>time code</remarks>
@@ -24474,7 +24476,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:08:31</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>time code</remarks>
@@ -24560,7 +24562,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:04:34</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24580,7 +24582,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:03:20</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24601,7 +24603,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:06:00</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24621,7 +24623,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:06:00</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24641,7 +24643,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>27min</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24661,7 +24663,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>30min</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24681,7 +24683,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>2:05:59</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24747,7 +24749,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:22:12</length>
 		<source channel="ina.fr"/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -24776,7 +24778,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:58:48</length>
 		<source channel="WNET">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"/>
 		<remarks>VHS timecode</remarks>
@@ -24804,7 +24806,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>2:45:47</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) -
@@ -24834,7 +24836,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:44:52</length>
 		<source channel="VH1">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[cable TV > Mitsubishi HS-U650 > Toshiba RD XS 35 (stand alone Hard Drive/DVD Burner w/ basic editing functions)]]></lineage>
 		<remarks>all commercials have been removed and chapter marks created at the appropriate
@@ -24866,7 +24868,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>45min</length>
 		<source channel="VH1">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks>VH1 Storytellers (S05E01)</remarks>
@@ -24896,7 +24898,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>2min</length>
 		<source channel="E!">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24916,7 +24918,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>5min</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24936,7 +24938,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>5min</length>
 		<source station="CNN">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24956,7 +24958,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>5min</length>
 		<source station="CNN">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24976,7 +24978,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>17min</length>
 		<source station="MSNBC">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -24996,7 +24998,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>14min</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25016,7 +25018,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:58:37</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25068,7 +25070,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:49:33</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
@@ -25090,7 +25092,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:59:17</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25113,7 +25115,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:57:23</length>
 		<source/>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25134,7 +25136,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:23:07</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25156,7 +25158,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:41:26</length>
 		<source channel="NRK">web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25229,7 +25231,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:17:14</length>
 		<source>DVD</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>João Moreira dos Santos</remarks>
@@ -25248,7 +25250,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:21:34</length>
 		<source DVB="true">DVB</source>
-		<format>mp2@320</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[dvb-s > digital satellite receiver Humax PVR8000 > mp2 > mp3DirectCut 2.08 > mp2]]></lineage>
 		<remarks>aired by german radio NDR-Info 'Jazz Konzert' on 2015-08-08, hosted by Claudia
@@ -25268,7 +25270,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:04:38</length>
 		<source channel="Mezzo liveHD">HDTV</source>
-		<format>1080i</format>
+		<format resolution="1080i>AVC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[HDTV -> russian re-encode? -> this file]]></lineage>
 		<remarks/>
@@ -25288,7 +25290,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:38:22</length>
 		<source>web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV)]]></lineage>
 		<remarks/>
@@ -25323,7 +25325,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:38:22</length>
 		<source>web</source>
-		<format>720p</format>
+		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[Culturebox Live Webcast > Php/AdobeHDS > HDD > Flash Video (FLV). Additional audio lineage: FLVExtract -> Adobe Audition -> remove small portion of Left channel to synchronize with Right channel -> L-channel + 1,2dB -> Stereo Expander to put the bass more in the middle, but keep the stereo wide]]></lineage>
 		<remarks/>
@@ -25413,7 +25415,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -25432,7 +25434,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:25:40</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks>host: Oscar Brown Jr.</remarks>
@@ -25452,7 +25454,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:47:28</length>
 		<source>web</source>
-		<format>1080p</format>
+		<format resolution="1080p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -25515,7 +25517,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:32:54</length>
 		<source bitrate="320">DVB</source>
-		<format>mp2</format>
+		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage>RBB (dvb-s, mp2, 320 kbps) / mp3directcut / mp2</lineage>
 		<remarks/>
@@ -25576,7 +25578,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:59:12</length>
 		<source station="NDR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[NDR German TV broadcast(see above) > Nokia satellite bowl > Pace satellite TV receiver > via Scart cable > Akai VCR(SP mode) > BASF 240min master VHS > playback on LG VCR > via Scart cable > Panasonic stand alone DVD recorder(XP mode) > Verbatim DVD- > Apple's DVD Studio Pro 4.0 > Verbatim DVD on HD (> YOU)]]></lineage>
 		<remarks/>
@@ -25594,7 +25596,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:38:44</length>
 		<source station="RAITRE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>DVD screencapture...there is a more original DVD somewhere</remarks>
@@ -25619,7 +25621,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:38:44</length>
 		<source station="RAITRE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>DVD screencapture...there is a more original DVD somewhere</remarks>
@@ -25643,7 +25645,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:51:46</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks></remarks>
@@ -25669,7 +25671,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:26:49</length>
 		<source station="TVP Kultura">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
 		<remarks/>
@@ -25690,7 +25692,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source station="TVP Kultura">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Digital Satellite > SkyStar2 > raw data to HDD > Pinnacle Studio Plus > VIDEO_TS]]></lineage>
 		<remarks/>
@@ -25842,7 +25844,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:44:51</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > Low Gen VHS > Panasonic DMR-ES40V > NERO 6 > SA > TMPGEnc (Uncompressed) > DVD  [Menu & Song Select]]]></lineage>
 		<remarks/>
@@ -26222,7 +26224,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length/>
 		<source>LD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage></lineage>
 		<remarks>LDrip to DVD?</remarks>
@@ -26244,7 +26246,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:42:25</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>japanese tv?</remarks>
@@ -26284,7 +26286,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:20:53</length>
 		<source station="BR">TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS > DVD trade > dime]]></lineage>
 		<remarks>Bayerischen Rundfunk production. info from: http://www.webmutations.com/ceciltaylor/1984.html</remarks>
@@ -26302,7 +26304,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:42:25</length>
 		<source>TV</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
 		<remarks>japanese tv?</remarks>
@@ -26383,7 +26385,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:58:02</length>
 		<source station="BR">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Recording (August 1996, by Bernhard):
 -> Master Super-VHS Mono recording, unknown equipment
@@ -26429,7 +26431,7 @@ Editing:
 		</location>
 		<length>0:40:39</length>
 		<source/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -26450,7 +26452,7 @@ Editing:
 		</location>
 		<length>0:34:35</length>
 		<source/>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[DVD received in trade > AVS Video Converter > DVD edited, new menu]]></lineage>
 		<remarks/>
@@ -26470,7 +26472,7 @@ Editing:
 		</location>
 		<length>0:44:54</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS > dvd recorder > dvd from trade > TMPGenc Dvd Author > 
 Video_ts]]></lineage>
@@ -26502,7 +26504,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:42:30</length>
 		<source>TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS from a trade (at least 2nd gen) > LG dvd recorder > dvd-rw > my hard disk > TMPGenc DVD Author 1.6 > Video_ts > you]]></lineage>
 		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto" aired for the first time during 1975.</remarks>
@@ -26524,7 +26526,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>1:33:02</length>
 		<source>VHS</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS>Panasonic-DVD-Recorder>DVD-RW>PC>Cuttermaran>DVD-Lab>Dime]]></lineage>
 		<remarks>the first seconds/minutes of the first track are missing on the tape</remarks>
@@ -26544,7 +26546,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>2:02:58</length>
 		<source>DVB-S</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[DVB-S>HDD>PC>ProjectX>Cuttermaran>DVD-Lab>Dime]]></lineage>
 		<remarks>2xDVD. digital recording without re-encoding.</remarks>
@@ -26563,7 +26565,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:44:10</length>
 		<source station="RAI SAT">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Rai Sat > (unknown devices) > dvd from trade > dvd decrypter > my hard disc > TMPGenc DVD Author 3.0 > Video_ts]]></lineage>
 		<remarks/>
@@ -26589,7 +26591,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:40:40</length>
 		<source station="RAITRE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>schegge</remarks>
@@ -26624,7 +26626,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:16:10</length>
 		<source station="RAITRE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>schegge</remarks>
@@ -26647,7 +26649,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:20:11</length>
 		<source station="RAITRE">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>schegge</remarks>
@@ -26670,7 +26672,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>01:53:48</length>
 		<source>VHS</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
@@ -26706,7 +26708,7 @@ Video_ts]]></lineage>
 		</location>
 		<length></length>
 		<source>VHS</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
@@ -26744,7 +26746,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>1:54:29</length>
 		<source>VHS</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
@@ -26773,7 +26775,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>2:09:55</length>
 		<source>DVD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -26881,7 +26883,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>1:25:00</length>
 		<source></source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced
@@ -26909,7 +26911,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:21:19</length>
 		<source>AUD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Unknown Handheld>VHS(2)>Stand alone Panosonic DMR-ES40V>DVD(1)]]></lineage>
 		<remarks></remarks>
@@ -26926,7 +26928,7 @@ Video_ts]]></lineage>
 		</location>
 		<length></length>
 		<source>LD</source>
-		<format>NTSC</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
 		<remarks></remarks>
@@ -26945,7 +26947,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:13:08</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage>Rai Broadcast taped (vhs) by Myself, Transferred by Dextrane</lineage>
 		<remarks>Location and date unknow European tour 1962 ??</remarks>
@@ -26974,7 +26976,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:21:48</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
 		<remarks></remarks>
@@ -26992,7 +26994,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:42:30</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself years ago>transferred by dextrane]]></lineage>
 		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure; probably Versilia (north Toscana coast) - "La Bussola".</remarks>
@@ -27024,7 +27026,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:13:23</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself> Dvd transferred by Dextrane]]></lineage>
 		<remarks></remarks>
@@ -27046,7 +27048,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:14:00</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Bw Rai (re)Broadcast 14.06 taped by myself and transferred by Dextrane.]]></lineage>
 		<remarks></remarks>
@@ -27070,7 +27072,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:14:00</length>
 		<source station="RAI">TV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
 		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays, directed by Gorni Kramer)</remarks>
@@ -27091,7 +27093,7 @@ Video_ts]]></lineage>
 		</location>
 		<length>0:54:55</length>
 		<source station="WNED">DTV</source>
-		<format>PAL</format>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks></remarks>
@@ -27110,8 +27112,8 @@ Video_ts]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>2:29:06</length>
-		<source station="">TV</source>
-		<format>PAL</format>
+		<source>TV</source>
+		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks></remarks>
