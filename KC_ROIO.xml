@@ -5709,7 +5709,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Germany</country>
 		</location>
 		<length/>
-		<source>TV</source>
+		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -5729,7 +5729,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Germany</country>
 		</location>
 		<length/>
-		<source>TV</source>
+		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
@@ -5839,7 +5839,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>Belgium</country>
 		</location>
 		<length/>
-		<source>TV</source>
+		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
