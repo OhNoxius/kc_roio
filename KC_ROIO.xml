@@ -1038,7 +1038,7 @@
 		</location>
 		<length>0:55:24</length>
 		<source/>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -8523,7 +8523,7 @@ file]]></lineage>
 		</location>
 		<length>0:27:17</length>
 		<source/>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -9284,7 +9284,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 		</location>
 		<length>0:54:40</length>
 		<source channel="KQED HD">DTV</source>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<lineage><![CDATA[ATSC broadcast > VBox DTA-150 > TSReader (record) > VideoReDo Plus (scene
 selection) > transport stream]]></lineage>
 		<remarks/>
@@ -10638,7 +10638,7 @@ AC3@256 ]]></lineage>
 		<location> </location>
 		<length>0:56:56</length>
 		<source>Blu-ray</source>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10705,7 +10705,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:52:23</length>
 		<source/>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -10727,7 +10727,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>1:32:42</length>
 		<source>Blu-ray</source>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -25270,7 +25270,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>1:04:38</length>
 		<source channel="Mezzo liveHD">HDTV</source>
-		<format resolution="1080i>AVC</format>
+		<format resolution="1080i">AVC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[HDTV -> russian re-encode? -> this file]]></lineage>
 		<remarks/>
