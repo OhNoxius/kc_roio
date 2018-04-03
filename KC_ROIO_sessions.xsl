@@ -117,7 +117,7 @@
 	</xsl:template>
 
 	<xsl:template match="@official">
-		<xsl:text>Official </xsl:text>
+		<xsl:text>official </xsl:text>
 	</xsl:template>
 	
 	<xsl:template match="@bitrate">
@@ -126,9 +126,8 @@
 	</xsl:template>
 	
 	<xsl:template match="@resolution">
-		<xsl:text>(</xsl:text>
+		<xsl:text>-</xsl:text>
 		<xsl:value-of select="."/>
-		<xsl:text>)</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="title">
