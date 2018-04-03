@@ -475,7 +475,7 @@
 	<session id="id0x1206cc0" av="V">
 		<date type="xs:date">1974-06-28</date>
 		<location>
-			<festival>Kongsberg Jazz Festival</festival>
+			<festival>Kongsberg Jazzfestival</festival>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -499,7 +499,7 @@
 	<session av="V">
 		<date type="xs:date">1974-06-28</date>
 		<location>
-			<festival>Kongsberg Jazz Festival</festival>
+			<festival>Kongsberg Jazzfestival</festival>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -957,7 +957,7 @@
 	<session id="id0x128d580" av="V">
 		<date type="xs:date">2007-07-28</date>
 		<location>
-			<festival>Jazzaldia Festival</festival>
+			<festival>Jazzaldia</festival>
 			<city>San Sebastian</city>
 			<country>Spain</country>
 		</location>
@@ -2471,7 +2471,7 @@ authoring)]]></lineage>
 	<session id="id0x1616950" av="V">
 		<date type="xs:date">2006-09-03</date>
 		<location>
-			<festival>Tokyo Jazz</festival>
+			<festival>Tokyo Jazz Festival</festival>
 			<venue>Tokyo International Forum, Marunouchi</venue>
 			<city>Tokyo</city>
 			<country>Japan</country>
@@ -2623,7 +2623,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="id0x16206c0" av="V">
 		<date type="xs:date">2007-07-20</date>
 		<location>
-			<festival>Festival Jazz Vitoria Gasteiz</festival>
+			<festival>Festival de Jazz de Vitoria-Gasteiz</festival>
 			<city>Vitoria-Gasteiz</city>
 			<country>Spain</country>
 		</location>
@@ -2666,7 +2666,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="id0x1625fe0" av="V">
 		<date type="xs:date">2013-10-24</date>
 		<location>
-			<festival>Jazzfestival Frankfurt</festival>
+			<festival>Deutsches Jazzfestival</festival>
 			<city>Frankfurt</city>
 			<country>Germany</country>
 		</location>
@@ -4344,7 +4344,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 	<session id="id0x4896120" av="V">
 		<date type="xs:date">1980-12-05</date>
 		<location>
-			<festival>Friday Night in San Francisco</festival>
+			<venue>The Warfield Theatre</venue>
 			<city>San Francisco LA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -4361,12 +4361,12 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist>John McLaughlin</artist>
 			<artist>Paco De Lucia</artist>
 		</artists>
-		<title/>
+		<title>Friday Night in San Francisco</title>
 	</session>
 	<session id="id0x48965d0" av="V">
 		<date type="xs:date">1980-12-05</date>
-		<location>
-			<festival>Friday Night in San Francisco</festival>
+		<location>			
+			<venue>The Warfield Theatre</venue>
 			<city>San Francisco LA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -4651,7 +4651,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	<session id="id0x4f50a40" av="V">
 		<date type="xs:date">1992-09-xx</date>
 		<location>
-			<festival>Birdland (TV Show)</festival>
+			<show>Birdland</show>
 			<city>London</city>
 		</location>
 		<length>20min</length>
@@ -4671,7 +4671,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	<session id="id0x4f50ef0" av="V">
 		<date type="xs:date">1992-09-xx</date>
 		<location>
-			<festival>Birdland (TV Show)</festival>
+			<show>Birdland</show>
 			<city>London</city>
 		</location>
 		<length>0:27:32</length>
@@ -5129,7 +5129,7 @@ DVD-R => Dime]]></lineage>
 	<session id="d0e8793" av="V">
 		<date type="xs:date">1994-09-16</date>
 		<location>
-			<festival>Deutsches Jazzfestival Frankfurt</festival>
+			<festival>Deutsches Jazzfestival</festival>
 			<venue>HR Sendesaal</venue>
 			<city>Frankfurt</city>
 			<country>Germany</country>
@@ -5923,7 +5923,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x5287ef0" av="V">
 		<date type="xs:date">1994-05-06</date>
 		<location>
-			<festival>International Jazzfestival Bern</festival>
+			<festival>Jazzfestival Bern</festival>
 			<venue>Kursaal</venue>
 			<city>Bern</city>
 			<country>Switzerland</country>
@@ -6344,7 +6344,7 @@ DUB!!!]]></lineage>
 	<session id="id0x5359210" av="V">
 		<date type="xs:date">1986-07-03</date>
 		<location>
-			<festival>Estival Jazz</festival>
+			<festival>Estival Jazz Lugano</festival>
 			<city>Lugano</city>
 			<country>Switzerland</country>
 		</location>
@@ -6364,7 +6364,7 @@ DUB!!!]]></lineage>
 	<session id="id0x5359620" av="V">
 		<date type="xs:date">1986-07-03</date>
 		<location>
-			<festival>Estival Jazz</festival>
+			<festival>Estival Jazz Lugano</festival>
 			<city>Lugano</city>
 			<country>Switzerland</country>
 		</location>
@@ -6384,7 +6384,7 @@ DUB!!!]]></lineage>
 	<session id="id0x5365a90" av="V">
 		<date type="xs:date">1986-07-xx</date>
 		<location>
-			<festival>Jazz à Antibes</festival>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
@@ -6404,7 +6404,7 @@ DUB!!!]]></lineage>
 	<session id="id0x5365a90" av="V">
 		<date type="xs:date">1986-07-xx</date>
 		<location>
-			<festival>Jazz à Antibes</festival>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
@@ -6828,8 +6828,8 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 	<session av="V">
 		<date type="xs:date">2015-09-15</date>
 		<location>
-			<festival>Jazz à la Vilette</festival>
-			<venue>La Vilette</venue>
+			<festival>Jazz à la Villette</festival>
+			<venue>La Villette</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -7075,7 +7075,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 	<session id="id0x54d0210" av="V">
 		<date type="xs:date">1996-xx-xx</date>
 		<location>
-			<festival>Jazz Festival Hamburg</festival>
+			<festival>Jazzfestival Hamburg</festival>
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
@@ -8999,7 +8999,7 @@ Subs)]]></lineage>
 	<session id="id0x58d41c0" av="V">
 		<date type="xs:date">2010-09-11</date>
 		<location>
-			<festival>Jazz à la Vilette</festival>
+			<festival>Jazz à la Villette</festival>
 			<venue>Cabaret Sauvage</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -9023,7 +9023,7 @@ Subs)]]></lineage>
 	<session id="id0x58d4710" av="V">
 		<date type="xs:date">2010-09-11</date>
 		<location>
-			<festival>Jazz à la Vilette</festival>
+			<festival>Jazz à la Villette</festival>
 			<venue>Cabaret Sauvage</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -9047,7 +9047,7 @@ Subs)]]></lineage>
 	<session id="id0x58e6cc0" av="V">
 		<date type="xs:date">2010-09-12</date>
 		<location>
-			<festival>Jazz à la Vilette</festival>
+			<festival>Jazz à la Villette</festival>
 			<venue>Cité de la Musique</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -9069,7 +9069,7 @@ Subs)]]></lineage>
 	<session id="id0x58e7170" av="V">
 		<date type="xs:date">2010-09-12</date>
 		<location>
-			<festival>Jazz à la Vilette</festival>
+			<festival>Jazz à la Villette</festival>
 			<venue>Cité de la Musique</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -9440,7 +9440,7 @@ selection) > transport stream]]></lineage>
 	<session id="d0e16814" av="V" official="true">
 		<date type="xs:date">1973-05-17</date>
 		<location>
-			<festival>NDR Jazz Workshop</festival>
+			<festival>NDR Jazzworkshop</festival>
 			<country>Germany</country>
 		</location>
 		<length>1:14:15</length>
@@ -9652,13 +9652,13 @@ file]]></lineage>
 	<session id="id0x5bb9170" av="V">
 		<date type="xs:date">1966-11-14</date>
 		<location>
-			<festival>BBC Jazz Goes To College</festival>
+			<show>Jazz Goes To College</show>
 			<venue>London School Of Economics</venue>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
 		<length>0:49:54</length>
-		<source>TV</source>
+		<source station="BBC Four">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
@@ -10402,7 +10402,7 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1992-09-xx</date>
 		<location>
-			<festival>Birdland</festival>
+			<show>Birdland</show>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
@@ -10655,7 +10655,7 @@ AC3@256 ]]></lineage>
 	<session id="id0x74d74e0" av="V">
 		<date type="xs:date">2004-07-19</date>
 		<location>
-			<festival>Umbria Jazz Festival</festival>
+			<festival>Umbria Jazz</festival>
 			<venue>Arena Santa Giuliana</venue>
 			<city>Perugia</city>
 			<country>Italy</country>
@@ -11179,6 +11179,8 @@ AC3@256 ]]></lineage>
 		<date type="xs:date">1967-08-24_27</date>
 		<location>
 			<festival>Jazz Bilzen</festival>
+			<city>Bilzen</city>
+			<country>Belgium</country>
 		</location>
 		<length/>
 		<source>TV</source>
@@ -11253,6 +11255,8 @@ AC3@256 ]]></lineage>
 		<date type="xs:date">1969-08-21_24</date>
 		<location>
 			<festival>Jazz Bilzen</festival>
+			<city>Bilzen</city>
+			<country>Belgium</country>
 		</location>
 		<length/>
 		<source>TV</source>
@@ -16073,15 +16077,14 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 	<session id="id0x7b3e3f0" av="A">
 		<date type="xs:date">1975-xx-xx</date>
 		<location>
-			<festival>BBC Sounds of Jazz</festival>
 			<country>U.K.</country>
 		</location>
 		<length>0:25:56</length>
-		<source>FM</source>
+		<source station="BBC3">FM</source>
 		<format/>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[FM > cass. > ? > FLAC]]></lineage>
+		<remarks>BBC Sounds of Jazz broadcasts</remarks>
 		<artists>
 			<artist main="true">John Taylor</artist>
 			<artist>Stan Stulzman</artist>
@@ -20255,7 +20258,7 @@ TLH (Flac Level 8)]]></lineage>
 	<session id="id0x5c771c0" av="A">
 		<date type="xs:date">2009-09-18</date>
 		<location>
-			<festival>Jazzfestival Viersen 2009</festival>
+			<festival>Jazzfestival Viersen</festival>
 			<venue>Festhalle</venue>
 			<city>Viersen</city>
 			<country>Germany</country>
@@ -21445,7 +21448,7 @@ frontend>flac level 6]]></lineage>
 	<session id="id0x5782b80" av="A">
 		<date type="xs:date">2001-07-13</date>
 		<location>
-			<festival>Estival Jazz</festival>
+			<festival>Estival Jazz Lugano</festival>
 			<venue>Piazza Della Riforma</venue>
 			<city>Lugano</city>
 			<country>Switzerland</country>
@@ -22988,7 +22991,7 @@ correction>fades>Flac]]></lineage>
 	<session av="V">
 		<date type="xs:date">1989-07-06</date>
 		<location>
-			<festival>Kongsberg Jazz Festival</festival>
+			<festival>Kongsberg Jazzfestival</festival>
 			<venue>Kongsberg Kino</venue>
 			<city>Kongsberg</city>
 			<country>Norway</country>
@@ -24084,7 +24087,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1969-xx-xx</date>
 		<location>
-			<festival>Bilzen Jazz Festival</festival>
+			<festival>Jazz Bilzen</festival>
 			<city>Bilzen</city>
 			<country>Belgium</country>
 		</location>
@@ -26239,7 +26242,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V" official="true">
 		<date type="xs:date">1979-09-03</date>
 		<location>
-			<festival>Kongsberg Jazz Festival</festival>
+			<festival>Kongsberg Jazzfestival</festival>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -26319,7 +26322,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1984-07-07</date>
 		<location>
-			<festival>Jazz Ost-West Festival</festival>
+			<festival>Jazz Ost-West</festival>
 			<venue>Meistersingerhalle</venue>
 			<city>Nuremberg</city>
 			<country>Germany</country>
@@ -26400,7 +26403,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="A">
 		<date type="xs:date">1970-11-01</date>
 		<location>
-			<festival>Jazz Ost-West Festival</festival>
+			<festival>Jazz Ost-West</festival>
 			<venue>Stadttheater</venue>
 			<city>Bremerhaven</city>
 			<country>Germany</country>
