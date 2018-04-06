@@ -5054,11 +5054,11 @@ DVD-R => Dime]]></lineage>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
-		<remarks/>
+		<remarks>German TV broadcast, "Focus On Jazz"</remarks>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 		</artists>
-		<title/>
+		<title>JACO PASTORIUS - DVD Compilation</title>
 	</session>
 	<session id="id0x4f5ec70" av="V">
 		<date type="xs:date">1983-07-15</date>
@@ -5069,13 +5069,13 @@ DVD-R => Dime]]></lineage>
 			<country>Finland</country>
 		</location>
 		<length>0:35:23</length>
-		<source>TV</source>
+		<source>preTV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
-		<remarks/>
+		<remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading, i.e. time stamp)</remarks>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 			<artist>Ron Tooley</artist>
@@ -5085,7 +5085,7 @@ DVD-R => Dime]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>Kenwood Dennard</artist>
 		</artists>
-		<title/>
+		<title>JACO PASTORIUS - DVD Compilation</title>
 	</session>
 	<session id="id0x4f5f210" av="V">
 		<date type="xs:date">1985-02-xx</date>
@@ -8007,7 +8007,7 @@ file]]></lineage>
 		</location>
 		<length>0:34:15</length>
 		<source/>
-		<format>CVID</format>
+		<format resolution="576p">Cinepak</format>
 		<quality>C+</quality>
 		<lineage/>
 		<remarks/>
@@ -23956,8 +23956,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1972-08-06</date>
 		<location>
-			<festival>Estival</festival>
-			<venue>Salle des Sports</venue>
 			<city>La Rochelle</city>
 			<country>France</country>
 		</location>
