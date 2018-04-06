@@ -5531,7 +5531,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<artists>
 			<artist type="band">Zawinul Syndicate</artist>
 			<artist main="true">Joe Zawinul</artist>
-			<artist>Sabine Bakongo</artist>
+			<artist>Sabine Kabongo</artist>
 			<artist>Amit Chatterjee</artist>
 			<artist>Linley Marthe</artist>
 			<artist>Nathaniel Townsley</artist>
@@ -11340,7 +11340,7 @@ AC3@256 ]]></lineage>
 			<artist>Dino Piana</artist>
 			<dummy type="band">Charles Mingus Quintet</dummy>
 			<artist>George Adams</artist>
-			<artist>Hamiett Bluiett</artist>
+			<artist>Hamiet Bluiett</artist>
 			<artist>Don Pullen</artist>
 			<artist>Charles Mingus</artist>
 			<artist>Dannie Richmond</artist>
@@ -12100,7 +12100,7 @@ AC3@256 ]]></lineage>
 			<artist>Dominque Di Plazza</artist>
 			<artist>Brandon Fields</artist>
 			<artist>Trilok Gurtu</artist>
-			<artist>Everett Harp</artist>
+			<artist>Everette Harp</artist>
 			<artist>Larry Kimpell</artist>
 			<artist>John Leftwich</artist>
 			<artist>Bryan Simpson</artist>
@@ -12337,7 +12337,7 @@ AC3@256 ]]></lineage>
 			<artist type="band">Jazz Messengers</artist>
 			<artist>Lee Morgan</artist>
 			<artist>Wayne Shorter</artist>
-			<artist>Walter Davis</artist>
+			<artist>Walter Davis Jr.</artist>
 			<artist>Jymie Merritt</artist>
 		</artists>
 		<title/>
@@ -22667,7 +22667,7 @@ level 5]]></lineage>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Danilo Perez</artist>
 			<artist>Brian Blade</artist>
-			<artist>double bass?</artist>
+			<dummy>double bass?</dummy>
 			<artist>Prima La Musica Orchestra</artist>
 			<artist>Dirk Vermeulen</artist>
 		</artists>
@@ -25092,7 +25092,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Kenny Burrell</artist>
 			<artist type="band">All The Trumpeters</artist>
 			<artist>Thad Jones</artist>
-			<artist>Kenny Dorham </artist>
+			<artist>Kenny Dorham</artist>
 			<artist>Ruby Braff</artist>
 			<artist>Dizzy Gillespie</artist>
 			<artist>Jimmy Owens</artist>
@@ -25528,27 +25528,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title/>
 	</session>
-	<session av="V">
-		<date type="xs:date">2017-06-02</date>
-		<location>
-			<festival>Moers Festival</festival>
-			<city>Moers</city>
-			<country>Germany</country>
-		</location>
-		<length/>
-		<source station=""/>
-		<format/>
-		<quality/>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band" main="true">De Beren Gieren</artist>
-			<artist>Fulco Ottervanger</artist>
-			<artist>Lieven Van Pée</artist>
-			<artist>Simon Segers</artist>
-		</artists>
-		<title/>
-	</session>
 	<session av="A">
 		<date type="xs:date">1987-11-04</date>
 		<location>
@@ -25585,7 +25564,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage>RBB (dvb-s, mp2, 320 kbps) / mp3directcut / mp2</lineage>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Joe Henderson and the Second Generation</artist>
+			<dummy main="true" type="band">Joe Henderson and the Second Generation</dummy>
 			<artist>Joe Henderson</artist>
 		</artists>
 		<title/>
@@ -25792,7 +25771,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>The Staple Singers</artist>
 			<artist>The Temptations</artist>
 			<artist>The Chi lites</artist>
-			<artist>The Main Ingerdient</artist>
+			<artist>The Main Ingredient</artist>
 			<artist>The O'Jays</artist>
 			<artist>Isaac Hayes</artist>
 			<artist>Zulema</artist>
@@ -26311,7 +26290,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Mel Lewis</artist>
 			<artist>Dick Oatts</artist>
 			<artist>Joe Lovano</artist>
-			<artist>Tom Harell</artist>
+			<artist>Tom Harrell</artist>
 			<artist>Art Pepper</artist>
 			<artist>Mel Torme</artist>
 		</artists>
@@ -26572,9 +26551,9 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[VHS>Panasonic-DVD-Recorder>DVD-RW>PC>Cuttermaran>DVD-Lab>Dime]]></lineage>
 		<remarks>the first seconds/minutes of the first track are missing on the tape</remarks>
 		<artists>
-			<artist main="true">Friedric Gulda</artist>
+			<artist main="true">Friedrich Gulda</artist>
 			<artist>Chick Corea</artist>
-			<artist>Joe Zawinul></artist>
+			<artist>Joe Zawinul</artist>
 		</artists>
 		<title></title>
 	</session>
@@ -26611,8 +26590,8 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Rai Sat > (unknown devices) > dvd from trade > dvd decrypter > my hard disc > TMPGenc DVD Author 3.0 > Video_ts]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Duke Ellington "All Stars" Octet</artist>
-			<artist>Duke Ellington</artist>
+			<dummy type="band">Duke Ellington "All Stars" Octet</dummy>
+			<artist main="true">Duke Ellington</artist>
 			<artist>Rolf Ericson</artist>
 			<artist>Lawrence Brown</artist>
 			<artist>Johnny Hodges</artist>
@@ -26672,7 +26651,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>schegge</remarks>
 		<artists>
-			<artist type="band">Ella Fitzgerald &amp; Lou Levy 4tet</artist>
+			<dummy type="band">Ella Fitzgerald &amp; Lou Levy 4tet</dummy>
 			<artist main="true">Ella Fitzgerald</artist>
 			<artist>Lou Levy</artist>
 			<artist>Herb Ellis</artist>
@@ -26695,7 +26674,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[dvd from trade > dvd decrypter > TMPGenc Dvd Author 3.1 > Video_ts]]></lineage>
 		<remarks>schegge</remarks>
 		<artists>
-			<artist type="band">Ella Fitzgerald &amp; Tommy Flanagan Trio</artist>
+			<dummy type="band">Ella Fitzgerald &amp; Tommy Flanagan Trio</dummy>
 			<artist main="true">Ella Fitzgerald</artist>
 			<artist>Tommy Flanagan</artist>
 			<artist>F. De La Rosa</artist>
@@ -26767,8 +26746,8 @@ Video_ts]]></lineage>
 			<artist>Woody Shaw</artist>
 			<artist>Joe Henderson</artist>
 			<artist>Bobby Hutcherson</artist>
-			<dummy type="band">Herbie Hanckock group</dummy>
-			<artist>Herbie Hanckock</artist>
+			<dummy type="band">Herbie Hancock group</dummy>
+			<artist>Herbie Hancock</artist>
 			<artist>Ron Carter</artist>
 			<artist>Tonny Williams</artist>
 			<artist>James Newton</artist>
@@ -26999,8 +26978,8 @@ Video_ts]]></lineage>
 			<artist>Freddie Hubbard</artist>
 			<dummy>Cedar Walton ?</dummy>
 			<dummy>Jymie Merritt ?</dummy>
-			<artist type="band">Cannonball Adderley Quintet</artist>
-			<artist>Cannonbal Adderley</artist>
+			<dummy type="band">Cannonball Adderley Quintet</dummy>
+			<artist>Cannonball Adderley</artist>
 			<artist>Julian Adderley</artist>
 			<artist>Joe Zawinul</artist>
 			<dummy>...(cb)</dummy>
@@ -27040,16 +27019,16 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself years ago>transferred by dextrane]]></lineage>
 		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure; probably Versilia (north Toscana coast) - "La Bussola".</remarks>
 		<artists>
-			<artist type="band">Oscar Peterson Trio</artist>
+			<dummy type="band">Oscar Peterson Trio</dummy>
 			<artist main="true">Oscar Peterson</artist>
 			<artist>Ray Brown</artist>
 			<artist>Ed Thigpen</artist>
-			<artist type="band">Stan Getz-Lou Levy Quartet</artist>
+			<dummy type="band">Stan Getz-Lou Levy Quartet</dummy>
 			<artist>Stan Getz</artist>
 			<artist>Lou Levy</artist>
 			<artist>Ray Brown</artist>
 			<artist>Ed Thigpen</artist>
-			<artist type="band">Roy Eldridge-Herb Hellis Quintet</artist>
+			<dummy type="band">Roy Eldridge-Herb Hellis Quintet</dummy>
 			<artist>Roy Eldrige</artist>
 			<artist>Herb Ellis</artist>
 			<artist>Oscar Peterson</artist>
@@ -27072,7 +27051,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself> Dvd transferred by Dextrane]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist main="true">Jackie Mc Lean</artist>
+			<artist main="true">Jackie McLean</artist>
 			<artist>Tete Montoliu</artist>
 			<dummy>?????</dummy>
 			<artist>Billy Higgins</artist>
