@@ -1450,7 +1450,7 @@
 	<session av="V">
 		<date type="xs:date">1963-03-22</date>
 		<location>
-			<show>Jazz – gehört und gesehen</show>
+			<show>Jazz - gehört und gesehen</show>
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
@@ -1473,7 +1473,7 @@
 	<session av="V" official="true">
 		<date type="xs:date">1963-03-22</date>
 		<location>
-			<show>Jazz – gehört und gesehen</show>
+			<show>Jazz - gehört und gesehen</show>
 			<city>Baden-Baden</city>
 			<country>Germany</country>
 		</location>
@@ -1979,7 +1979,7 @@
 	<session av="V">
 		<date type="xs:date">1961-08-30</date>
 		<location>
-			<show>Jazz gehört und gesehen</show>
+			<show>Jazz - gehört und gesehen</show>
 			<festival>TV/Radio Exhibition</festival>
 			<venue>Messehalle</venue>
 			<city>Berlin</city>
