@@ -27200,4 +27200,23 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Three Pieces after Bach</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">2018-04-02</date>
+		<location>
+			<festival>Umbria Jazz</festival>
+			<city>Perugia, Umbria</city>
+			<country>Italy</country>
+		</location>
+		<length>0:49:37</length>
+		<source station="RAIDUE">TV</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[VHS>DVD]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Joe Zawinul</artist>
+			<artist>Trilok Gurtu</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
