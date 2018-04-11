@@ -11432,7 +11432,7 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0xd8fae0" av="V" official="true">
-		<date type="xs:date">1981-xx-xx</date>
+		<date type="xs:date">1981-09-19</date>
 		<location>
 			<festival>Woodstock Jazz Festival</festival>
 			<city>Woodstock NY</city>
@@ -11446,14 +11446,45 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Jack DeJohnette</artist>
-			<artist>Chick Corea</artist>
+			<dummy type="band">arrival</dummy>
+			<artist>Marilyn Crispell</artist>
+			<artist>Howard Johnson</artist>
+			<artist type="band">Ed Blackwell Quartet</artist>
+			<artist>Ed Blackwell</artist>
+			<artist>Baikida Carroll</artist>
+			<artist>Marilyn Crispell</artist>
+			<artist>Julius Hemphill</artist>
+			<artist type="band">Karl Berger Quintet</artist>
+			<artist>Karl Berger</artist>
+			<artist>Ed Blackwell</artist>
+			<artist>Aiyb Dieng</artist>
+			<artist>Nana Vasconcelos</artist>
+			<artist>Collin Walcott</artist>
+			<artist type="band">Dewey Redman Quartet</artist>
+			<artist>Dewey Redman</artist>
 			<artist>Pat Metheny</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist type="band">Anthony Braxton</artist>
+			<artist>Anthony Braxton</artist>
+			<artist type="band">Anthony Braxton Quartet</artist>
+			<artist>Anthony Braxton</artist>
+			<artist>Chick Corea</artist>
+			<artist>Miroslav Vitous</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist type="band">Konitz/Corea duo</artist>
+			<artist>Lee Konitz</artist>
+			<artist>Chick Corea</artist>
+			<artist type="band">all-stars</artist>
 			<artist>Anthony Braxton</artist>
 			<artist>Lee Konitz</artist>
+			<artist>Pat Metheny</artist>
+			<artist>Chick Corea</artist>
+			<artist>Lee Konitz</artist>
 			<artist>Miroslav Vitous</artist>
+			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title/>
+		<title>Woodstock Jazz Festival (WNRD2501)</title>
 	</session>
 	<session id="id0xd8ffe0" av="V">
 		<date type="xs:date">1981-07-23_27</date>
