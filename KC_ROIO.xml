@@ -11381,10 +11381,9 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Chick Corea</artist>
-			<artist>Quincy Jones</artist>
-			<artist>George Benson</artist>
-			<artist>Stanley Clarke</artist>
+			<host>Quincy Jones</host>
+			<artist>Chick Corea</artist>			
+			<artist>George Benson</artist>			
 			<artist>Freddie Hubbard</artist>
 			<artist>Rashaan Roland Kirk</artist>
 			<artist>Hubert Laws</artist>
@@ -11392,7 +11391,14 @@ AC3@256 ]]></lineage>
 			<artist>Sonny Rollins</artist>
 			<artist>McCoy Tyner</artist>
 			<artist>Bill Watrous</artist>
+			<artist>Stanley Clarke</artist>
 			<artist>Lenny White</artist>
+			<artist type="band">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Alphonso Johnson</artist>
+			<artist>Chester Thompson</artist>
+			<artist>Alex Acuna</artist>
 		</artists>
 		<title/>
 	</session>
