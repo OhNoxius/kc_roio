@@ -27300,4 +27300,65 @@ Video_ts]]></lineage>
 		</artists>
 		<title></title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1966-04-15</date>
+		<location>
+			<venue>Munch Museum</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks>Monk In Oslo</remarks>
+		<artists>
+			<artist main="true">Thelonious Monk</artist>
+			<artist>Charlie Rouse</artist>
+			<artist>Larry Gales</artist>
+			<artist>Ben Riley</artist>
+		</artists>
+		<title>Thelonious Monk - Live in '66 (Jazz Icons)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1966-04-17</date>
+		<location>
+			<country>Denmark</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks>Monk In Denmark</remarks>
+		<artists>
+			<artist main="true">Thelonious Monk</artist>
+			<artist>Charlie Rouse</artist>
+			<artist>Larry Gales</artist>
+			<artist>Ben Riley</artist>
+		</artists>
+		<title>Thelonious Monk - Live in '66 (Jazz Icons)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1971-04-24</date>
+		<location>
+			<show>Teatro 10</show>
+			<city>Rome</city>
+			<country>Italy</country>
+		</location>
+		<length>0:15:52</length>
+		<source>TV</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks><![CDATA[cropped to 16:9?]]></remarks>
+		<artists>
+			<artist main="true">James Brown</artist>
+			<artist>Bootsy Collins</artist>
+			<artist>Phelps Collins</artist>
+			<artist>Ben Riley</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
