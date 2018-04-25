@@ -10901,7 +10901,7 @@ AC3@256 ]]></lineage>
 		</location>
 		<length>0:40:15</length>
 		<source channel="NRK">web</source>
-		<format/>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
