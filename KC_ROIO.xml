@@ -18202,6 +18202,29 @@ flac(lvl8)]]></lineage>
 		</artists>
 		<title>Côte Blues (Jazz Music Yesterday JMY 1010)</title>
 	</session>
+	<session id="id0x4ff8120" av="A">
+		<date type="xs:date">1963-09-20</date>
+		<location>
+			<festival>Monterey Jazz Festival</festival>
+			<venue>County Fairgrounds</venue>
+			<city>Monterey CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:50:46</length>
+		<source/>
+		<format/>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>George Coleman</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+		</artists>
+		<title>Live at the 1963 Monterey Jazz Festival (MJFR-30310)</title>
+	</session>
 	<session av="A" official="true">
 		<date type="xs:date">1964-02-12</date>
 		<location>
