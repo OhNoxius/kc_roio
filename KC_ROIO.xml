@@ -7780,6 +7780,30 @@ dime]]></lineage>
 		</artists>
 		<title>Electric Factory (Godnoes Productions Volume 6)</title>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1971-10-22</date>
+		<location>
+			<venue>Neue Stadthalle</venue>
+			<city>Dietikon</city>
+			<country>Switzerland</country>
+		</location>
+		<length>1:19:47</length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Gary Bartz</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Ndugu Leon Chancler</artist>
+			<artist>Charles Don Alias</artist>
+			<artist>James Mtume Forman</artist>
+		</artists>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+	</session>
 	<session id="id0x569e900" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
@@ -8257,6 +8281,31 @@ file]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1973-11-01</date>
+		<location>
+			<festival>Berliner Jazztage</festival>
+			<venue>Philharmonie</venue>
+			<city>Berlin</city>
+			<country>Germany</country>
+		</location>
+		<length>0:47:20</length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>David Liebman</artist>
+			<artist>Reggie Lucas</artist>
+			<artist>Pete Cosey</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Al Foster</artist>
+			<artist>James Mtume Forman</artist>
+		</artists>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+	</session>
 	<session id="id0x57422b0" av="V">
 		<date type="xs:date">1973-11-13</date>
 		<location>
@@ -8271,8 +8320,8 @@ file]]></lineage>
 		<lineage><![CDATA[Tv (B&amp;W) > High Gen VHS > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true">Miles Davis</artist>
-			<artist>B.B. King</artist>
+			<artist main="true">B.B. King</artist>
+			<artist>Miles Davis</artist>			
 			<artist>Ron Levy</artist>
 			<artist>Wilbert Freeman</artist>
 			<artist>Sonny Freeman</artist>
