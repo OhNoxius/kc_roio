@@ -7691,6 +7691,29 @@ dime]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1970-08-18</date>
+		<location>
+			<venue>Berkshire Music Center</venue>
+			<city>Tanglewood MA</city>
+		</location>
+		<length>0:43:36</length>
+		<source>CD</source>
+		<format/>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Gary Bartz</artist>
+			<artist>Chick Corea</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Dave Holland</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Airto Moreira</artist>
+		</artists>
+		<title>Bitches Brew: 40th Anniversary Collector's Edition</title>
+	</session>
 	<session id="id0x569b900" av="V" official="true">
 		<date type="xs:date">1970-08-29</date>
 		<location>
@@ -19549,6 +19572,29 @@ correction, SBE fixes, re-tracked > flac fFE lvl7 w/SBA (298 MB)]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1970-03-07</date>
+		<location>
+			<venue>Fillmore East</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:30:14</length>
+		<source>CD</source>
+		<format/>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Chick Corea</artist>
+			<artist>Dave Holland</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Airto Moreira</artist>
+		</artists>
+		<title>Live at the Fillmore East (March 7, 1970): It's About That Time</title>
+	</session>
 	<session id="id0x58eac70" av="A">
 		<date type="xs:date">1970-04-09</date>
 		<location>
@@ -19598,6 +19644,29 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1970-04-10</date>
+		<location>
+			<venue>Fillmore West</venue>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:19:21</length>
+		<source>CD</source>
+		<format/>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Steve Grossman</artist>
+			<artist>Chick Corea</artist>
+			<artist>Dave Holland</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Airto Moreira</artist>
+		</artists>
+		<title>Black Beauty: Miles Davis At Fillmore West</title>
+	</session>
 	<session id="id0x58eb710" av="A">
 		<date type="xs:date">1970-04-11</date>
 		<location>
@@ -19605,8 +19674,8 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>San Francisco CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
-		<source>SBD</source>
+		<length>1:06:22</length>
+		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
 		<lineage/>
@@ -19620,6 +19689,29 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<artist>Airto Moreira</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1970-04-11</date>
+		<location>
+			<venue>Fillmore West</venue>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:35:36</length>
+		<source>CD</source>
+		<format/>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Steve Grossman</artist>
+			<artist>Chick Corea</artist>
+			<artist>Dave Holland</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Airto Moreira</artist>
+		</artists>
+		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
 	</session>
 	<session id="id0x58f7c20" av="A">
 		<date type="xs:date">1970-04-12</date>
@@ -19674,8 +19766,8 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
-		<source/>
+		<length>0:46:39</length>
+		<source>CD</source>
 		<format/>
 		<quality/>
 		<lineage/>
@@ -19697,7 +19789,14 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<venue>Fillmore East</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
-		</location> <artists>
+		</location>
+		<length>0:57:59</length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Steve Grossman</artist>
 			<artist>Chick Corea</artist>
@@ -19715,8 +19814,8 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
-		<source/>
+		<length>52:53</length>
+		<source>CD</source>
 		<format/>
 		<quality/>
 		<lineage/>
@@ -19739,8 +19838,8 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
-		<source/>
+		<length>0:57:26</length>
+		<source>CD</source>
 		<format/>
 		<quality/>
 		<lineage/>
