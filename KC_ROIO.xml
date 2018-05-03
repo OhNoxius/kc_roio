@@ -19875,11 +19875,34 @@ sector aligned]]]></lineage>
 			<city>Peabody MA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>1:05:52</length>
 		<source>AUD</source>
 		<format/>
-		<quality>B</quality>
-		<lineage/>
+		<quality>C</quality>
+		<lineage>Unknown</lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Gary Bartz</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Jack DeJohnette</artist>
+			<artist>Airto Moreira</artist>
+		</artists>
+		<title/>
+	</session>
+	<session id="id0x5b33b30" av="A">
+		<date type="xs:date">1971-03-11_14</date>
+		<location>
+			<venue>Lennies on the Turnpike, Route 1</venue>
+			<city>Peabody MA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:33:52</length>
+		<source>AUD</source>
+		<format/>
+		<qualityB-</quality>
+		<lineage><![CDATA[Audience Recording > Live 1970-1973 CD > EAC (Wave) > SoundForge 10.0 Pro > CD Wave > FLAC Frontend (level 6)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
