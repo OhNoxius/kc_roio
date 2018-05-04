@@ -7780,7 +7780,7 @@ dime]]></lineage>
 		</artists>
 		<title>Electric Factory (Godnoes Productions Volume 6)</title>
 	</session>
-	<session av="V" official="true">
+	<session av="A" official="true">
 		<date type="xs:date">1971-10-22</date>
 		<location>
 			<venue>Neue Stadthalle</venue>
@@ -18426,7 +18426,7 @@ flac(lvl8)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>Paris, France (MOON MCD 021-2)</title>
+		<title></title>
 	</session>
 	<session id="id0x4ff86c0" av="A">
 		<date type="xs:date">1964-10-01</date>
@@ -18471,7 +18471,7 @@ wave > flac]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>fall 64 Miles Tree</title>
 	</session>
 	<session id="id0x5125f90" av="A">
 		<date type="xs:date">1964-10-03</date>
@@ -18557,7 +18557,7 @@ via S/PDIF and Midiman Dio 2448 digital soundcard at 48 kHz > CoolEdit Pro 2.0 >
 CD Wave > MKW > SHN > .wav checksums verified before decoding > CoolEdit Pro
 2.0 tracks re-sequenced > CD Wave > Trader's Little Helper > FLAC Level 6,
 ASB]]></lineage>
-		<remarks/>
+		<remarks>early &amp; late show</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -18599,7 +18599,7 @@ editing/remastering (ProTools LE with various plugins) > 16bit aiff > flac
 			<city>Sindelfingen</city>
 			<country>Germany</country>
 		</location>
-		<length>0:47:49</length>
+		<length>0:47:50</length>
 		<source>FM</source>
 		<format/>
 		<quality>B</quality>
@@ -18612,7 +18612,7 @@ editing/remastering (ProTools LE with various plugins) > 16bit aiff > flac
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title/>
+		<title>Miles Davis - Davisiana (Moon Records MCD 033)</title>
 	</session>
 	<session id="id0x5248e00" av="A">
 		<date type="xs:date">1964-10-11</date>
@@ -20217,30 +20217,6 @@ sector aligned]]]></lineage>
 			<artist>Airto Moreira</artist>
 		</artists>
 		<title/>
-	</session>
-	<session av="A" official="true">
-		<date type="xs:date">1971-10-22</date>
-		<location>
-			<festival>Newport Festival In Europe</festival>
-			<venue>Neue Stadthalle</venue>
-			<city>Dietikon</city>
-			<country>Switzerland</country>
-		</location>
-		<length/>
-		<source/>
-		<quality/>
-		<lineage/>
-		<remarks>early set</remarks>
-		<artists>
-			<artist main="true">Miles Davis</artist>
-			<artist>Gary Bartz</artist>
-			<artist>Keith Jarrett</artist>
-			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
-			<artist>Charles Don Alias</artist>
-			<artist>James Mtume Forman</artist>
-		</artists>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
 	</session>
 	<session id="id0x5b344e0" av="A">
 		<date type="xs:date">1971-10-23</date>
