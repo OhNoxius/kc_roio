@@ -25836,6 +25836,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1962-10-15</date>
 		<location>
 			<show>Jazz Scene USA</show>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -25845,7 +25847,18 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Phineas Newborn Jr.</artist>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Art Pepper</artist>
+			<artist>Chet Baker</artist>
+			<artist>Zoot Sims</artist>
+			<artist>Wes Montgomery</artist>
+			<artist type="band">Toshiko Akiyoshi-Lew Tabackin Big Band</artist>
+			<artist>Toshiko Akiyoshi</artist>
+			<artist>Lew Tabackin</artist>
+			<artist type="band">Shelly Manne Quintet</artist>
+			<artist>Shelly Manne</artist>
+			<artist type="band">Phineas Newborn Jr. Trio</artist>
+			<artist>Phineas Newborn Jr.</artist>
 			<artist>Al McKibbon</artist>
 			<artist>Kenny Dennis</artist>
 		</artists>
@@ -25855,14 +25868,16 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1962-10-15</date>
 		<location>
 			<show>Jazz Scene USA</show>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>0:25:40</length>
+		<length>0:25:50</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>host: Oscar Brown Jr.</remarks>
+		<remarks>Episode 16. host: Oscar Brown Jr.</remarks>
 		<artists>
 			<artist main="true">Phineas Newborn Jr.</artist>
 			<artist>Al McKibbon</artist>
@@ -25870,6 +25885,27 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title>Jazz Scene USA: Phineas Newborn Jr. Trio / Jimmy Smith Trio (Shanachie)</title>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-11-26</date>
+		<location>
+			<show>Jazz Scene USA</show>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>25min</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks>Episode 26. host: Oscar Brown Jr.</remarks>
+		<artists>
+			<artist main="true">Jimmy Smith</artist>
+			<artist>Quentin Warren</artist>
+			<artist>Donald Bailey</artist>
+		</artists>
+		<title>Jazz Scene USA: Phineas Newborn Jr. Trio / Jimmy Smith Trio (Shanachie)</title>
+	</session>	
 	<session av="V">
 		<date type="xs:date">2017-06-02</date>
 		<location>
@@ -27707,5 +27743,20 @@ Video_ts]]></lineage>
 			<artist>Ben Riley</artist>
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2008-xx-xx</date>
+		<location>
+		</location>
+		<length>1:58:00</length>
+		<source station="BBC Four">TV</source>
+		<format resolution="832x468">AVC</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks><![CDATA[]]></remarks>
+		<artists>
+			<artist main="true">Quincy Jones</artist>
+		</artists>
+		<title>Quincy Jones - The Many Lives of Q (BBC)</title>
 	</session>
 </KC_ROIO>
