@@ -1181,7 +1181,7 @@
 		<title/>
 	</session>
 	<session id="id0x12a52b0" av="V">
-		<date type="xs:date">1959-10-end</date>
+		<date type="xs:date">1959-10-30</date>
 		<location>
 			<venue>Club St. Germain</venue>
 			<city>Paris</city>
@@ -1200,10 +1200,10 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title/>
+		<title>Bud Powell in Europe (EFORFILMS)</title>
 	</session>
 	<session id="id0x12a5710" av="V">
-		<date type="xs:date">1959-12-xx</date>
+		<date type="xs:date">1959-12-27</date>
 		<location>
 			<venue>Blue Note</venue>
 			<city>Paris</city>
@@ -1222,7 +1222,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title/>
+		<title>Bud Powell in Europe (EFORFILMS)</title>>
 	</session>
 	<session id="id0x12e2bd0" av="V">
 		<date type="xs:date">1962-xx-xx</date>
@@ -1231,9 +1231,73 @@
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<length/>
+		<length>15min</length>
 		<source/>
 		<format/>
+		<quality/>
+		<lineage/>
+		<remarks>Jazz i Monmartre</remarks>
+		<artists>
+			<artist main="true">Bud Powell</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Jørn Elniff</artist>
+		</artists>
+		<title>Bud Powell in Europe (EFORFILMS)</title>
+	</session>
+	<session id="id0x12a52b0" av="V">
+		<date type="xs:date">1959-10-30</date>
+		<location>
+			<venue>Club St. Germain</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>20min</length>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Bud Powell</artist>
+			<artist>Barney Wilen</artist>
+			<artist>Clark Terry</artist>
+			<artist>Pierre Michelot</artist>
+			<artist>Kenny Clarke</artist>
+		</artists>
+		<title>Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
+	</session>
+	<session id="id0x12a5710" av="V">
+		<date type="xs:date">1959-12-27</date>
+		<location>
+			<venue>Blue Note</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>10min</length>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Bud Powell</artist>
+			<artist>Lucky Thompson</artist>
+			<artist>Jimmy Gourley</artist>
+			<artist>Pierre Michelot</artist>
+			<artist>Kenny Clarke</artist>
+		</artists>
+		<title>Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
+	</session>
+	<session id="id0x12e2bd0" av="V">
+		<date type="xs:date">1962-xx-xx</date>
+		<location>
+			<venue>Monmartre Jazz Club</venue>
+			<city>Copenhagen</city>
+			<country>Denmark</country>
+		</location>
+		<length>0:03:20</length>
+		<source station="DR2">TV</source>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -1242,7 +1306,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
-		<title/>
+		<title></title>
 	</session>
 	<session id="id0x12e2f40" av="V">
 		<date type="xs:date">1958-05-07</date>
@@ -11158,27 +11222,7 @@ AC3@256 ]]></lineage>
 			<artist>Charles Mingus</artist>
 		</artists>
 		<title/>
-	</session>
-	<session av="V">
-		<date type="xs:date">1962-xx-xx</date>
-		<location>
-			<venue>Monmartre Jazz Club</venue>
-			<city>Copenhagen</city>
-			<country>Denmark</country>
-		</location>
-		<length/>
-		<source channel="DR2">TV</source>
-		<format resolution="PAL">DVD</format>
-		<quality/>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Bud Powell</artist>
-			<artist>Niels-Henning Ørsted Pedersen</artist>
-			<artist>Jørn Elniff</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
 		<location>
@@ -11261,7 +11305,7 @@ AC3@256 ]]></lineage>
 		<location>
 			<country>France</country>
 		</location>
-		<length>3hours</length>
+		<length>3:06:01</length>
 		<source/>
 		<format/>
 		<quality/>
@@ -11269,23 +11313,35 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
+			<artist type="band">Monty Alexander Trio</artist>
 			<artist>Monty Alexander</artist>
-			<artist>Escoude Trio</artist>
-			<artist>Richard Raux</artist>
+			<artist type="band">Escoude Trio</artist>
+			<artist type="artist">Oscar Peterson trio</artist>
 			<artist>Oscar Peterson</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist type="band">Richard Raux Quartet</artist>
+			<artist>Richard Raux</artist>
+			<artist type="band">Patrick Saussois Quintet</artist>
 			<artist>Patrick Saussois</artist>
 			<artist>Francis Gesmier</artist>
 			<artist>Nicolas Petitjean</artist>
+			<artist type="band">Nicole Croisille Group</artist>
 			<artist>Nicole Croisille</artist>
+			<artist>Tony Bonfis</artist>
+			<artist>Franc Sicbon</artist>
+			<artist>Cristian Lessé</artist>
+			<artist type="band">Toots Thielemans Quartet</artist>
 			<artist>Toots Thielemans</artist>
 			<artist>Fred Hersh</artist>
 			<artist>Marc Johnson</artist>
 			<artist>Joey Baron</artist>
+			<artist type="band">Hermeto Pascoal Group</artist>
 			<artist>Hermeto Pascoal</artist>
+			<artist type="band">Pat Metheny Trio</artist>
 			<artist>Pat Metheny</artist>
 			<artist>Charlie Haden</artist>
 			<artist>Billy Higgins</artist>
+			<artist type="band">Pino Danielli Group</artist>
 			<artist>Pino Danielli</artist>
 		</artists>
 		<title>Jazz on French TV</title>
@@ -27777,5 +27833,25 @@ Video_ts]]></lineage>
 			<artist main="true">Quincy Jones</artist>
 		</artists>
 		<title>Quincy Jones - The Many Lives of Q (BBC)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-07-19</date>
+		<location>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>1:12:03</length>
+		<source></source>
+		<format resolution="PAL">DVD</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[TV broadcast > VHS > ? > DVD > DVD Decrypter > TMPGEnc DVD Author ]]></lineage>
+		<remarks/>
+		<artists>			
+			<artist main="true">Pat Metheny</artist>
+			<artist>Charlie Haden</artist>
+			<artist>Billy Higgins</artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
