@@ -27890,11 +27890,37 @@ Video_ts]]></lineage>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV broadcast > VHS > ? > DVD > DVD Decrypter > TMPGEnc DVD Author ]]></lineage>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Pat Metheny</artist>
 			<artist>Charlie Haden</artist>
 			<artist>Billy Higgins</artist>
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date"></date>
+		<location>			
+		</location>
+		<length></length>
+		<source></source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<dummy type="band">Various Artists</dummy>
+			<artist>Charlie Parker</artist>
+			<artist>Coleman Hawkins</artist>
+			<artist>Ella Fitzgerald</artist>
+			<artist>Lester Young</artist>
+			<artist>Hank Jones</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Oscar Peterson</artist>
+			<artist>Buddy Rich</artist>
+			<artist>Ray Brown</artist>
+			<artist>Count Basie</artist>
+			<artist>Duke Ellington</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
 	</session>
 </KC_ROIO>
