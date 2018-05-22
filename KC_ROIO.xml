@@ -8779,19 +8779,54 @@ Subs)]]></lineage>
 	</session>
 	<session id="id0x57ade00" av="V" official="true">
 		<date type="xs:date">1966-xx-xx</date>
-		<location/>
-		<length>0:24:42</length>
-		<source/>
-		<format/>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:28:00</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks/>
+		<remarks>Shot over three days in Paris whilst the Trio were recoding their music for the Living Theater's project "Who's crazy?". Narrated by Alan Dell and produced by Mike Hodges.</remarks>
 		<artists>
 			<artist main="true">Ornette Coleman</artist>
 			<artist>David Izenzon</artist>
 			<artist>Charles Moffett</artist>
 		</artists>
 		<title>Performing the soundtrack (A Film by Dick Fontaine)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1966-xx-xx</date>
+		<location>
+		</location>
+		<length>0:24:42</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Rahsaan Roland Kirk</artist>
+			<artist>John Cage</artist>
+			<artist>David Tudor</artist>
+		</artists>
+		<title>Sound?? (A Film by Dick Fontaine)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1984-xx-xx</date>
+		<location>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Ornette Coleman</artist>
+		</artists>
+		<title>Ornette: Made in America (Shirley Clarke)</title>
 	</session>
 	<session id="id0x57ae1c0" av="V">
 		<date type="xs:date">1959-01-xx</date>
