@@ -8742,7 +8742,8 @@ file]]></lineage>
 	<session id="id0x57a8620" av="V">
 		<date type="xs:date">1957-xx-xx</date>
 		<location>
-			<festival>The Nat King Cole Show (25 episodes)</festival>
+			<show>The Nat King Cole Show</show>
+			<country>U.S.A.</country>
 		</location>
 		<length/>
 		<source channel="MUZZIK">SatTV</source>
@@ -8750,7 +8751,7 @@ file]]></lineage>
 		<quality/>
 		<lineage><![CDATA[[MUZZIK SatTV Rip] 384x288 MJPEG converted to XviD(21:29 min., French
 Subs)]]></lineage>
-		<remarks/>
+		<remarks>25 episodes</remarks>
 		<artists>
 			<artist main="true">Nat 'King' Cole</artist>
 		</artists>
@@ -10766,7 +10767,7 @@ file]]></lineage>
 	<session id="id0x74d6b80" av="V">
 		<date type="xs:date">2003-07-04</date>
 		<location>
-			<festival>Jazzà Vienne</festival>
+			<festival>Jazz à Vienne</festival>
 			<venue>Théatre Antique</venue>
 			<city>Vienne</city>
 			<country>France</country>
