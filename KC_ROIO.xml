@@ -203,7 +203,7 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[TV > VHS > DVD recorder > DVD from trade > TMPGenc Dvd Author > Video_ts]]></lineage>
 		<remarks>8°Festival Internazionale del Jazz</remarks>
 		<artists>
 			<artist main="true">Art Blakey</artist>
@@ -2210,13 +2210,12 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 	<session id="id0x1344d10" av="V" official="true">
 		<date type="xs:date">1952-02-24</date>
 		<location>
-			<venue>TV Studio</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source/>
-		<format/>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -2228,7 +2227,7 @@ Cuttermaran 1.70 (edits) >IfoEdit (DVD authoring)]]></lineage>
 			<artist>Charlie Smith</artist>
 			<artist>Earl Wilson</artist>
 		</artists>
-		<title/>
+		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
 	</session>
 	<session id="id0x1345580" av="V">
 		<date type="xs:date">1972-11-04</date>
@@ -7273,7 +7272,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 	<session id="id0x54e33a0" av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
 		<location>
-			<show>The Robert Herridge Theater: The Sound of Miles Davis</show>
+			<show>The Robert Herridge Theater</show>
 			<venue>CBS-TV Studio 61</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -7290,13 +7289,15 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
+			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<title>Idem IDVD 1057</title>
+		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
+		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
 		<location>
-			<show>The Robert Herridge Theater: The Sound of Miles Davis</show>
+			<show>The Robert Herridge Theater</show>
 			<venue>CBS-TV Studio 61</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -7312,14 +7313,16 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>John Coltrane</artist>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
-			<artist>Jimmy Cobb</artist>
-		</artists>
-		<title>Jazz Masters Vintage Collection ((c) Fred Baker Film and Video Company)</title>
+			<artist>Jimmy Cobb</artist>			
+			<artist>Gil Evans Orchestra</artist>
+		</artists>		
+		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
 		<location>
-			<show>The Robert Herridge Theater: The Sound of Miles Davis</show>
+			<show>The Robert Herridge Theater</show>
 			<venue>CBS-TV Studio 61</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -7336,13 +7339,15 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
+			<artist>Gil Evans Orchestra</artist>
 		</artists>
+		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
 		<title>Kind of Blue 50th Anniversary Edition (Columbia 33552)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
 		<location>
-			<show>The Robert Herridge Theater: The Sound of Miles Davis</show>
+			<show>The Robert Herridge Theater</show>
 			<venue>CBS-TV Studio 61</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -7359,13 +7364,15 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
+			<artist>Gil Evans Orchestra</artist>
 		</artists>
+		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
 		<title>The Sound of Jazz (Think Visual)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1959-04-02</date>
 		<location>
-			<show>The Robert Herridge Theater: The Sound of Miles Davis</show>
+			<show>The Robert Herridge Theater</show>
 			<venue>CBS-TV Studio 61</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -7382,7 +7389,9 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
+			<artist>Gil Evans Orchestra</artist>
 		</artists>
+		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
 		<title>John Coltrane DVD Collection</title>
 	</session>
 	<session id="id0x54e37b0" av="V">
@@ -25191,7 +25200,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">2015-07-11</date>
 		<location>
-			<festival/>
 			<venue>Théatre de Verdure</venue>
 			<city>Nice</city>
 			<country>France</country>
@@ -25203,6 +25211,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[TSF, FM / Naim Uniti / RH-09R / Audacity / Xact / Flac]]></lineage>
 		<remarks/>
 		<artists>
+			<dummy type="band">Fats Waller Dance Party</dummy>
 			<artist main="true">Jason Moran</artist>
 			<artist>Lisa E. Harris</artist>
 			<artist>Leron Thomas</artist>
@@ -28030,29 +28039,603 @@ Video_ts]]></lineage>
 		<title></title>
 	</session>
 	<session av="V">
-		<date type="xs:date"></date>
-		<location>			
+		<date type="xs:date">1950-xx-xx</date>
+		<location>
+			<venue>Gjon Mili Studio</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
 		</location>
 		<length></length>
-		<source></source>
+		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality></quality>
 		<lineage></lineage>
 		<remarks/>
 		<artists>
-			<dummy type="band">Various Artists</dummy>
 			<artist>Charlie Parker</artist>
 			<artist>Coleman Hawkins</artist>
+			<artist>Hank Jones</artist>
+			<artist>Ray Brown</artist>
+			<artist>Buddy Rich</artist>
 			<artist>Ella Fitzgerald</artist>
 			<artist>Lester Young</artist>
-			<artist>Hank Jones</artist>
-			<artist>Dizzy Gillespie</artist>
-			<artist>Oscar Peterson</artist>
-			<artist>Buddy Rich</artist>
-			<artist>Ray Brown</artist>
-			<artist>Count Basie</artist>
-			<artist>Duke Ellington</artist>
+			<artist>Bill Harris</artist>
+			<artist>Harry Edison</artist>
+			<artist>Flip Phillips</artist>
 		</artists>
 		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1966-xx-xx</date>
+		<location>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Duke Ellington</artist>
+			<artist>John Lamb</artist>
+			<artist>Sam Woodyard</artist>			
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-xx-xx</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Count Basie</artist>
+			<artist>Benny Carter</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Al Grey</artist>
+			<artist>Zoot Sims</artist>
+			<artist>Ray Brown</artist>
+			<artist>Jimmie Smith</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-xx-xx</date>
+		<location>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Joe Pass</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-xx-xx</date>
+		<location>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Paul Smith</artist>
+			<artist>Keter Betts</artist>
+			<artist>Mickey Roker</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1977-xx-xx</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Oscar Peterson</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Clark Terry</artist>
+			<artist>Eddie Lockjaw Davis</artist>			
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Bobby Durham</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>interviews</remarks>
+		<artists>			
+			<artist>Hank Jones</artist>
+			<artist>Harry Edison</artist>
+			<artist>Clark Terry</artist>
+		</artists>
+		<title>Norman Granz presents Improvisation</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1929-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Duke Ellington</artist>
+			<dummy type="band">Cotton Club Orchestra</dummy>
+			<artist>Arthur Whetsol</artist>
+			<artist>Barney Bigard</artist>
+			<artist>Wellman Braud</artist>
+			<artist>Tricky Sam Nanton</artist>
+		</artists>
+		<titlefilm year="1929">Black and Tan</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1930-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Duke Ellington</artist>
+			<dummy type="band">&amp; his Orchestra</dummy>
+			<artist>Juan Tizol</artist>
+			<artist>Barney Bigard</artist>
+		</artists>
+		<titlefilm year="1930">Check and Double Check</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1934-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist>Billy Holiday</artist>
+			<artist main="true">Duke Ellington</artist>			
+			<dummy type="band">&amp; his Orchestra</dummy>
+			<artist>Barney Bigard</artist>
+			<artist>Joe Nanton</artist>
+		</artists>
+		<titlefilm year="1934">Symphony in Black: A Rhapsody of Negro Life</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1937-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Duke Ellington</artist>
+			<dummy type="band">&amp; his Orchestra</dummy>
+		</artists>
+		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and His Orchestra</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1937-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Duke Ellington</artist>
+			<dummy type="band">&amp; his Orchestra</dummy>
+			<artist>Johnny Hodges</artist>
+			<artist>Barney Bigard</artist>
+		</artists>
+		<titlefilm year="1937">The Hit Parade of 1937</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1943-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<artist main="true">Duke Ellington</artist>
+			<dummy type="band">&amp; his Orchestra</dummy>
+			<artist>Johnny Hodges</artist>
+		</artists>
+		<titlefilm year="1943">RKO Jamboree No. 7: Duke Ellington and His Orchestra</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1944-xx-xx</date>
+		<location>
+			<venue>Gjon Mili Studio</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:15</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Lester Young</artist>
+			<artist>Red Callender</artist>
+			<artist>Harry Edison</artist>
+			<artist>Marlowe Morris</artist>
+			<artist>Sid Catlett</artist>
+			<artist>Barney Kessel</artist>
+			<artist>Jo Jones</artist>
+			<artist>John Simmons</artist>
+			<artist>Illinois Jacquet</artist>
+			<artist>Marie Bryant</artist>
+			<artist>Archie Savage</artist>
+			<artist>Garland Finney</artist>
+		</artists>
+		<titlefilm year="1944">Jammin' The Blues</titlefilm>
+		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1957-xx-xx</date>
+		<location>
+			<show>Seven Lively Arts</show>
+			<venue>CBS Studio 58</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>			
+			<artist>Billy Holiday</artist>
+			<artist>Jimmy Rushing</artist>
+			<artist>Coleman Hawkins</artist>
+			<artist>Ben Webster</artist>
+			<artist>Lester Young</artist>
+			<artist>Count Basie</artist>
+			<artist>Thelonious Monk</artist>
+			<artist>Nat Pierce</artist>
+			<artist>Mal Waldron</artist>
+			<artist>Danny Barker</artist>
+			<artist>Freddie Green</artist>
+			<artist>Jim Hall</artist>
+			<artist>Pee Wee Russell</artist>
+			<artist>Jimmy Giuffre</artist>
+			<artist>Gerry Mulligan</artist>
+			<artist>Red Allen</artist>
+			<artist>Emmett Berry</artist>
+			<artist>Doc Cheatham</artist>
+			<artist>Joe Wilder</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Joe Newman</artist>
+			<artist>Rex Stewart</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Benny Morton</artist>
+			<artist>Dicky Wells</artist>
+			<artist>Earl Warren</artist>
+			<artist>Flip Phillips</artist>
+			<artist>Jim Atlas</artist>
+			<artist>Milt Hinton</artist>
+			<artist>Eddie Jones</artist>
+			<artist>Ahmed Abdul-Malik</artist>
+			<artist>Jo Jones</artist>
+			<artist>Osie Johnson</artist>
+			<artist>Ryan Nelson</artist>
+		</artists>
+		<titlefilm>The Sound of Jazz</titlefilm>
+		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1960-09-15</date>
+		<location>
+			<show>The Robert Herridge Theater</show>
+			<venue>CBS-TV Studio 61</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<dummy type="band">Ahmad Jamal Trio</dummy>
+			<artist>Ahmad Jamal</artist>
+			<artist>Israel Crosby</artist>
+			<artist>Vernel Fournier</artist>
+			<dummy type="band">Ben Webster Sextet</dummy>
+			<artist>Ben Webster</artist>
+			<artist>Hank Jones</artist>
+			<artist>George Duvivier</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Jo Jones</artist>			
+		</artists>
+		<titlefilm>Jazz from Studio 61</titlefilm>
+		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1957-xx-xx</date>
+		<location>
+			<show>Seven Lively Arts</show>
+			<venue>CBS Studio 58</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>Blu-ray</source>
+		<format resolution="PAL">1080p</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>			
+			<artist>Billy Holiday</artist>
+			<artist>Jimmy Rushing</artist>
+			<artist>Coleman Hawkins</artist>
+			<artist>Ben Webster</artist>
+			<artist>Lester Young</artist>
+			<artist>Count Basie</artist>
+			<artist>Thelonious Monk</artist>
+			<artist>Nat Pierce</artist>
+			<artist>Mal Waldron</artist>
+			<artist>Danny Barker</artist>
+			<artist>Freddie Green</artist>
+			<artist>Jim Hall</artist>
+			<artist>Pee Wee Russell</artist>
+			<artist>Jimmy Giuffre</artist>
+			<artist>Gerry Mulligan</artist>
+			<artist>Red Allen</artist>
+			<artist>Emmett Berry</artist>
+			<artist>Doc Cheatham</artist>
+			<artist>Joe Wilder</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Joe Newman</artist>
+			<artist>Rex Stewart</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Benny Morton</artist>
+			<artist>Dicky Wells</artist>
+			<artist>Earl Warren</artist>
+			<artist>Flip Phillips</artist>
+			<artist>Jim Atlas</artist>
+			<artist>Milt Hinton</artist>
+			<artist>Eddie Jones</artist>
+			<artist>Ahmed Abdul-Malik</artist>
+			<artist>Jo Jones</artist>
+			<artist>Osie Johnson</artist>
+			<artist>Ryan Nelson</artist>
+		</artists>
+		<titlefilm>The Sound of Jazz</titlefilm>
+		<title>The Sound of Jazz (Think Visual)</title>
+	</session>
+	<session id="id0x1344d10" av="V" official="true">
+		<date type="xs:date">1952-02-24</date>
+		<location>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source>Blu-ray</source>
+		<format resolution="1080p">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Charlie Parker</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Dick Hyman</artist>
+			<artist>Sandy Block</artist>
+			<artist>Charlie Smith</artist>
+			<artist>Earl Wilson</artist>
+		</artists>
+		<title>The Sound of Jazz (Think Visual)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1960-09-15</date>
+		<location>
+			<show>The Robert Herridge Theater</show>
+			<venue>CBS-TV Studio 61</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:18:03</length>
+		<source>Blu-ray</source>
+		<format resolution="PAL">AVC</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<dummy type="band">Ahmad Jamal Trio</dummy>
+			<artist>Ahmad Jamal</artist>
+			<artist>Israel Crosby</artist>
+			<artist>Vernel Fournier</artist>
+			<dummy type="band">Ben Webster Sextet</dummy>
+			<artist>Ben Webster</artist>
+			<artist>Hank Jones</artist>
+			<artist>George Duvivier</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Jo Jones</artist>
+		</artists>
+		<titlefilm>Jazz from Studio 61</titlefilm>
+		<title>The Sound of Jazz (Think Visual)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1944-xx-xx</date>
+		<location>
+			<venue>Gjon Mili Studio</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:15</length>
+		<source>DVD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Lester Young</artist>
+			<artist>Red Callender</artist>
+			<artist>Harry Edison</artist>
+			<artist>Marlowe Morris</artist>
+			<artist>Sid Catlett</artist>
+			<artist>Barney Kessel</artist>
+			<artist>Jo Jones</artist>
+			<artist>John Simmons</artist>
+			<artist>Illinois Jacquet</artist>
+			<artist>Marie Bryant</artist>
+			<artist>Archie Savage</artist>
+			<artist>Garland Finney</artist>
+		</artists>
+		<titlefilm year="1944">Jammin' The Blues</titlefilm>
+		<title>The Sound of Jazz (Think Visual)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1960-09-15</date>
+		<location>
+			<show>The Robert Herridge Theater</show>
+			<venue>CBS-TV Studio 61</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>			
+			<dummy type="band">Ahmad Jamal Trio</dummy>
+			<artist>Ahmad Jamal</artist>
+			<artist>Israel Crosby</artist>
+			<artist>Vernel Fournier</artist>
+			<dummy type="band">Ben Webster Sextet</dummy>
+			<artist>Ben Webster</artist>
+			<artist>Hank Jones</artist>
+			<artist>George Duvivier</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Jo Jones</artist>			
+		</artists>
+		<titlefilm>Jazz from Studio 61</titlefilm>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1957-xx-xx</date>
+		<location>
+			<show>Seven Lively Arts</show>
+			<venue>CBS Studio 58</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>			
+			<artist>Billy Holiday</artist>
+			<artist>Jimmy Rushing</artist>
+			<artist>Coleman Hawkins</artist>
+			<artist>Ben Webster</artist>
+			<artist>Lester Young</artist>
+			<artist>Count Basie</artist>
+			<artist>Thelonious Monk</artist>
+			<artist>Nat Pierce</artist>
+			<artist>Mal Waldron</artist>
+			<artist>Danny Barker</artist>
+			<artist>Freddie Green</artist>
+			<artist>Jim Hall</artist>
+			<artist>Pee Wee Russell</artist>
+			<artist>Jimmy Giuffre</artist>
+			<artist>Gerry Mulligan</artist>
+			<artist>Red Allen</artist>
+			<artist>Emmett Berry</artist>
+			<artist>Doc Cheatham</artist>
+			<artist>Joe Wilder</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Joe Newman</artist>
+			<artist>Rex Stewart</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Vic Dickenson</artist>
+			<artist>Benny Morton</artist>
+			<artist>Dicky Wells</artist>
+			<artist>Earl Warren</artist>
+			<artist>Flip Phillips</artist>
+			<artist>Jim Atlas</artist>
+			<artist>Milt Hinton</artist>
+			<artist>Eddie Jones</artist>
+			<artist>Ahmed Abdul-Malik</artist>
+			<artist>Jo Jones</artist>
+			<artist>Osie Johnson</artist>
+			<artist>Ryan Nelson</artist>
+		</artists>
+		<titlefilm>The Sound of Jazz</titlefilm>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
 	</session>
 </KC_ROIO>
