@@ -301,7 +301,7 @@
 	<session id="id0x1180fe0" av="V">
 		<date type="xs:date">1965-03-19</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
@@ -321,7 +321,7 @@
 	<session av="V">
 		<date type="xs:date">1965-03-19</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
@@ -1311,7 +1311,8 @@
 	<session id="id0x12e2f40" av="V">
 		<date type="xs:date">1958-05-07</date>
 		<location>
-			<festival>The Subject is Jazz: Bop</festival>
+			<show>The Subject is Jazz</show>
+			<country>U.S.A.</country>
 		</location>
 		<length>0:29:55</length>
 		<source>TV</source>
@@ -1329,7 +1330,7 @@
 			<artist>Ed Thigpen</artist>
 			<artist>Gilbert Seldes</artist>
 		</artists>
-		<title/>
+		<title></title>
 	</session>
 	<session id="id0x12e34e0" av="V">
 		<date type="xs:date">1960-xx-xx</date>
@@ -1606,7 +1607,7 @@
 	<session id="id0x12f98b0" av="V">
 		<date type="xs:date">1964-05-12</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<venue>BBC Television Theatre</venue>
 			<city>London</city>
 			<country>U.K.</country>
@@ -1630,7 +1631,7 @@
 	<session id="id0x12f9db0" av="V">
 		<date type="xs:date">1964-05-12</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<venue>BBC Television Theatre</venue>
 			<city>London</city>
 			<country>U.K.</country>
@@ -1654,7 +1655,7 @@
 	<session av="A">
 		<date type="xs:date">1964-05-12</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<venue>BBC Television Theatre</venue>
 			<city>London</city>
 			<country>U.K.</country>
@@ -2874,7 +2875,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 	<session id="id0x163c620" av="V">
 		<date type="xs:date">1966-08-17</date>
 		<location>
-			<festival>Jazz 625</festival>
+			<show>Jazz 625</show>
 			<venue>BBC Television Theatre</venue>
 		</location>
 		<length>12min</length>
@@ -2964,7 +2965,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 	<session id="d0e4825" av="V">
 		<date type="xs:date">1971-01-17</date>
 		<location>
-			<festival>Flip Wilson Show</festival>
+			<show>Flip Wilson Show</show>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -2981,7 +2982,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 	<session id="d0e4825" av="V">
 		<date type="xs:date">1971-12-07</date>
 		<location>
-			<festival>Flip Wilson Show</festival>
+			<show>Flip Wilson Show</show>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:03:40</length>
@@ -7402,10 +7403,10 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:25:42</length>
-		<source>TV</source>
+		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
-		<lineage/>
+		<lineage><![CDATA[... -> Tony Williams compilation DVD -> DVD playback record -> ...]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -8576,7 +8577,7 @@ file]]></lineage>
 	<session id="id0x5793e00" av="V">
 		<date type="xs:date">1989-xx-xx</date>
 		<location>
-			<festival>Arsenio Hall Show</festival>
+			<show>Arsenio Hall Show</show>
 		</location>
 		<length>0:11:53</length>
 		<source>TV</source>
@@ -26790,8 +26791,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true">Mats Eilertsen Rubicon</artist>
-			<artist>Mats Eiliertsen</artist>
+			<dummy type="band">Mats Eilertsen Rubicon</dummy>
+			<artist main="true" >Mats Eilertsen</artist>
 			<artist>Harmen Fraanje</artist>
 		</artists>
 		<title/>

@@ -11,6 +11,8 @@
 	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
 
 	<xsl:strip-space elements="artist"/>
+	<xsl:strip-space elements="festival"/>
+	<xsl:strip-space elements="show"/>
 
 	<xsl:template match="/">
 
@@ -32,7 +34,7 @@
 
 			<tbody>
 				<xsl:apply-templates
-					select="//session[contains(translate(artists, $smallcase, $uppercase), string($chooseArtist)) and contains(translate(location/country, $smallcase, $uppercase), string($chooseCountry)) and contains(translate(location/festival, $smallcase, $uppercase), string($chooseFestival)) and contains(substring(date,1,4), string($chooseYear)) and contains(string($chooseAV), @av)]">
+					select="//session[contains(translate(artists, $smallcase, $uppercase), string($chooseArtist)) and contains(translate(location/country, $smallcase, $uppercase), string($chooseCountry)) and (contains(translate(location/festival, $smallcase, $uppercase), string($chooseFestival)) or contains(translate(location/show, $smallcase, $uppercase), string($chooseFestival))) and contains(substring(date,1,4), string($chooseYear)) and contains(string($chooseAV), @av)]">
 					<xsl:sort select="date" order="ascending"/>
 				</xsl:apply-templates>
 			</tbody>
