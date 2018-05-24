@@ -126,9 +126,9 @@
 		<em><xsl:value-of select="."/>: </em>
 	</xsl:template>
 	
-	<xsl:template match="@official">
+	<!--<xsl:template match="@official">
 		<xsl:text>official </xsl:text>
-	</xsl:template>
+	</xsl:template>-->
 
 	<xsl:template match="@bitrate">
 		<xsl:text><![CDATA[@]]></xsl:text>		
