@@ -78,7 +78,7 @@
 			</td>
 			<td style="text-align:center">
 				<!--source-->
-				<xsl:apply-templates select="./@official"/>
+				<!--<xsl:apply-templates select="./@official"/>-->
 				<xsl:value-of select="source"/>
 				
 				<!--format-->

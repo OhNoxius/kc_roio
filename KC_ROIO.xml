@@ -7355,7 +7355,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</location>
 		<length>0:25:17</length>
 		<source>Blu-ray</source>
-		<format/>
+		<format resolution="1080p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -28533,8 +28533,8 @@ Video_ts]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:25:15</length>
-		<source>DVD</source>
-		<format/>
+		<source>Blu-ray</source>
+		<format resolution="1080p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
