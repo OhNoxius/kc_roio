@@ -1306,7 +1306,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
-		<title></title>
+		<title>Monmartre 1959-1976 Compilation DVD</title>
 	</session>
 	<session id="id0x12e2f40" av="V">
 		<date type="xs:date">1958-05-07</date>
@@ -2809,27 +2809,6 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Frank Tusa</artist>
 			<artist>Badal Roy</artist>
 			<artist>Jeff Williams</artist>
-		</artists>
-		<title/>
-	</session>
-	<session id="id0x163b9f0" av="V">
-		<date type="xs:date">1971-xx-xx</date>
-		<location>
-			<venue>Monmartre Jazz Club</venue>
-			<city>Copenhagen</city>
-			<country>Denmark</country>
-		</location>
-		<length/>
-		<source/>
-		<format/>
-		<quality/>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Dexter Gordon</artist>
-			<artist>Kenny Drew</artist>
-			<artist>Niels-Henning Ørsted Pedersen</artist>
-			<artist>Ole Streenberg</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5809,8 +5788,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session id="id0x5150cc0" av="V" official="true">
-		<date type="xs:date">1960-xx-xx</date>
+		<date type="xs:date">1960-03-28</date>
 		<location>
+			<venue>Apollo Theatre (WDR Studio)</venue>
+			<city>Düsseldorf</city>
 			<country>Germany</country>
 		</location>
 		<length/>
@@ -5824,8 +5805,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
+			<artist>Stan Getz</artist>
+			<artist>Oscar Peterson</artist>
 		</artists>
-		<title>Jazz Icons 2</title>
+		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
 	</session>
 	<session id="id0x5151120" av="V" official="true">
 		<date type="xs:date">1961-11-24</date>
@@ -5846,7 +5829,30 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Jazz Icons 2</title>
+		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-11-19</date>
+		<location>
+			<venue>Konserthuset</venue>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">John Coltrane Quartet</artist>
+			<artist main="true">John Coltrane</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Jimmy Garrison</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<titlefilm>Trumpeten</titlefilm>
+		<title>Jazz Icons 2: Bonus Disc</title>
 	</session>
 	<session id="id0x5151580" av="V" official="true">
 		<date type="xs:date">1963-12-07</date>
@@ -5890,7 +5896,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Jazz Icons 5: Live in France 1965</title>
+		<title>John Coltrane - Live in France 1965 (Jazz Icons 5)</title>
 	</session>
 	<session id="id0x523bf90" av="V" official="true">
 		<date type="xs:date">1965-07-27</date>
@@ -5912,7 +5918,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Jazz Icons 5: Live in France 1965</title>
+		<title>John Coltrane - Live in France 1965 (Jazz Icons 5)</title>
 	</session>
 	<session id="id0x523c440" av="V">
 		<date type="xs:date">1965-07-27</date>
@@ -5956,7 +5962,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Jazz Icons 2</title>
+		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
 	</session>
 	<session id="id0x524ddb0" av="d">
 		<date type="xs:date">1900-01-00</date>
@@ -11275,8 +11281,29 @@ AC3@256 ]]></lineage>
 			<artist>Ben Webster</artist>
 			<artist>Charles Mingus</artist>
 		</artists>
-		<title/>
-	</session>	
+		<title>Monmartre 1959-1976 Compilation DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1964-07-30</date>
+		<location>
+			<festival>Molde Jazz Festival</festival>
+			<city>Molde</city>
+			<country>Norway</country>
+		</location>
+		<length/>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dexter Gordon</artist>
+			<artist>Tete Montoliu</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Alex Riel</artist>
+		</artists>
+		<title>Jazz Icons 2: Bonus Disc</title>
+	</session>
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
 		<location>
@@ -11296,7 +11323,49 @@ AC3@256 ]]></lineage>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Ole Streenberg</artist>
 		</artists>
-		<title/>
+		<title>Monmartre 1959-1976 Compilation DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1964-10-06</date>
+		<location>
+			<festival>Helsinki Jazz Festival</festival>
+			<city>Helsinki</city>
+			<country>Finland</country>
+		</location>
+		<length/>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Brubeck</artist>
+			<artist>Paul Desmond</artist>
+			<artist>Eugene Wright</artist>
+			<artist>Joe Morello</artist>
+		</artists>
+		<title>Jazz Icons 2: Bonus Disc</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-10-30</date>
+		<location>
+			<venue>Konserthuset</venue>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length/>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Sarah Vaughan</artist>
+			<artist>Bob James</artist>
+			<artist>Herb Mickman</artist>
+			<artist>Omar Clay</artist>
+		</artists>
+		<title>Jazz Icons 2: Bonus Disc</title>
 	</session>
 	<session id="id0x7b41170" av="V">
 		<date type="xs:date">1960-07-13</date>
@@ -28638,5 +28707,165 @@ Video_ts]]></lineage>
 		</artists>
 		<titlefilm>The Sound of Jazz</titlefilm>
 		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1990-10-23</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Koningin Elisabethzaal</venue>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+		</location>
+		<length>5min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Toots Thielemans</artist>
+			<artist>Philip Catherine</artist>
+			<artist>Michel Herr</artist>
+			<artist>Hein Van de Geyn</artist>
+			<artist>Dré Pallemaerts</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1992-10-15</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>deSingel</venue>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+		</location>
+		<length>5min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Modern Jazz Quartet</artist>
+			<artist>Milt Jackson</artist>
+			<artist>John Lewis</artist>
+			<artist>Percy Heath</artist>
+			<artist>Mickey Roker</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1993-10-11</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>9min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Sonny Rollins</artist>
+			<artist>Clifton Anderson</artist>
+			<artist>Jerome Harris</artist>
+			<artist>Bob Cranshaw</artist>
+			<artist>Greg Williams</artist>
+			<artist>Victor See-Yuen</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1994-10-25</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Koninklijk Circus</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>5min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1994-10-25</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Koninklijk Circus</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>11min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">The Brecker Brothers</artist>
+			<artist>Michael Brecker</artist>
+			<artist>Randy Brecker</artist>
+			<artist>Dean Brown</artist>
+			<artist>George Whitty</artist>
+			<artist>James Genus</artist>
+			<artist>Rodney Holmes</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1995-10-27</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>10min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dee Dee Bridgewater</artist>
+			<artist>Stéphane Belmondo</artist>
+			<artist>Lionel Belmondo</artist>
+			<artist>Thierry Eliez</artist>
+			<artist>Hein Van de Geyn</artist>
+			<artist>André 'Dédé' Ceccarelli</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1996-10-23</date>
+		<location>
+			<festival>Belga Jazz Festival</festival>
+			<venue>Koninklijk Circus</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>10min</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">The Guitar Trio</artist>
+			<artist>Paco de Lucia</artist>
+			<artist>John McLaughlin</artist>
+			<artist>Al di Meola</artist>
+		</artists>
+		<title>Audi Jazz Promotional DVD</title>
 	</session>
 </KC_ROIO>
