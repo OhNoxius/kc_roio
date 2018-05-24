@@ -1960,7 +1960,7 @@
 	<session id="id0x12ffe50" av="V" official="true">
 		<date type="xs:date">1968-06-18</date>
 		<location>
-			<festival>Jazz Casual</festival>
+			<show>Jazz Casual</show>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -5851,7 +5851,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x5151580" av="V" official="true">
 		<date type="xs:date">1963-12-07</date>
 		<location>
-			<festival>Jazz Casual</festival>
+			<show>Jazz Casual</show>
 			<city>San Francisco LA</city>
 			<country>U.S.A.</country>
 		</location>
