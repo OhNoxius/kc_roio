@@ -20,7 +20,7 @@
 			style="width:100%;">
 			<thead>
 				<tr style="background-color:#EEEEEE;">
-					<th style="width:auto;"/>
+					<th style="width:100px;"/>
 					<th id="sortDate" style="width:auto;">Date</th>
 					<th style="width:29%;">Location</th>
 					<th id="sortArtists" style="width:42%;">Contributing artists</th>
@@ -93,7 +93,7 @@
 				<xsl:value-of select="quality"/>
 			</td>
 			<td style="text-align:center">
-				<input type="button" value="extra" style="border:1;background:none;width:45px;"
+				<input type="button" value="extra" style="border:1;background:none;width:40px;"
 					class="xtrClass"/>
 			</td>
 			<!--LAST COLLUMN : extra. Should be invisisble!!!-->
