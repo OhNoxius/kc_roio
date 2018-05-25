@@ -1713,7 +1713,7 @@
 		<lineage/>
 		<remarks></remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Akiyoshi-Tabackin Big Band</dummy>
 			<artist>Clark Terry</artist>
 			<artist>Akiyoshi-Tabackin</artist>
@@ -25990,7 +25990,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>João Moreira dos Santos</remarks>
 		<artists>
-			<artist main="true">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<artist>Miles Davis</artist>
 		</artists>
 		<title>Cascais Jazz: 40 anos de um festival mítico</title>
@@ -26173,7 +26173,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<artist>Art Pepper</artist>
 			<artist>Chet Baker</artist>
 			<artist>Zoot Sims</artist>
@@ -26329,7 +26329,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<artist>Stevie Wonder</artist>
 			<artist>Marvin Gaye</artist>
 		</artists>
@@ -26753,7 +26753,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[Jass J-CD-16 (bootleg, mostly Voice of America sourced) --> hard disc --> Trader's Little Helper (flac 8)]]></lineage>
 		<remarks>Stars of Modern Jazz Concert</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Bud Powell Trio</dummy>
 			<artist>Bud Powell</artist>
 			<artist>Curley Russell</artist>
@@ -27017,7 +27017,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage></lineage>
 		<remarks>LDrip to DVD?</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<artist>Cecil Taylor</artist>
 			<artist>Paul Bley</artist>
 			<artist>Archie Shepp</artist>
@@ -27039,7 +27039,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>japanese tv?</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Dave Brubeck Quartet</dummy>
 			<artist>Dave Brubeck</artist>
 			<artist>Jerry Bergonzi</artist>
@@ -27097,7 +27097,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage/>
 		<remarks>japanese tv?</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Herbie Hancock quintet</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Freddie Hubbard</artist>
@@ -27465,7 +27465,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">O.T.B. with Jonny Griffin</dummy>
 			<artist>Michael Mossman</artist>
 			<artist>Kenny Garrett</artist>
@@ -27501,7 +27501,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Cedar Walton Trio featuring Milt Jackson</dummy>
 			<artist>Milt Jackson</artist>
 			<artist>Cedar Walton</artist>
@@ -27539,7 +27539,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Herbie Hanckock group</dummy>
 			<artist>Herbie Hanckock</artist>
 			<artist>Ron Carter</artist>
@@ -27950,7 +27950,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[]]></lineage>
 		<remarks></remarks>
 		<artists>
-			<artist type="band">Various Artists</artist>
+			<dummy type="band">Various Artists</dummy>
 			<artist>Chuck D</artist>
 			<artist>Hank Shocklee</artist>
 			<artist>Darryl McDaniels</artist>
