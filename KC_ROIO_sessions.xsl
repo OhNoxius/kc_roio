@@ -10,9 +10,10 @@
 		<table id="sessionsTable" border="0" cellpadding="2" cellspacing="0" style="width:100%;">
 			<thead>
 				<tr style="background-color:#EEEEEE;">
+					<th style="width:2%"/>
 					<th style="width:9;%">Date</th>
 					<th style="width:29%">Location</th>
-					<th style="width:42%">Contributing artists</th>
+					<th style="width:40%">Contributing artists</th>
 					<th style="width:5%">Length</th>
 					<th style="width:6%">Source</th>
 					<th style="width:4%">Q</th>
