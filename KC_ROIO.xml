@@ -18921,6 +18921,28 @@ unknown ripping software > wave > flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A" official="true">
+		<date type="xs:date">1965-12-22_23</date>
+		<location>
+			<venue>The Plugged Nickel</venue>
+			<city>Chicago IL</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>7:32:03</length>
+		<source>CD</source>
+		<format/>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+		</artists>
+		<title>The Complete Live at the Plugged Nickel 1965 (CK 66955)</title>
+	</session>
 	<session id="id0x5249300" av="A">
 		<date type="xs:date">1966-05-21</date>
 		<location>
