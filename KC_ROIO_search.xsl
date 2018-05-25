@@ -21,7 +21,7 @@
 			<thead>
 				<tr style="background-color:#EEEEEE;">
 					<th style="width:2%;"/>
-					<th id="sortDate" style="width:9.5;">Date</th>
+					<th id="sortDate" style="width:10;">Date</th>
 					<th style="width:29%;">Location</th>
 					<th id="sortArtists" style="width:42%;">Contributing artists</th>
 					<th style="width:5%;">Length</th>
