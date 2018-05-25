@@ -340,7 +340,8 @@
 	</session>
 	<session id="id0x11813a0" av="V" official="true">
 		<date type="xs:date">1965-11-03</date>
-		<location>
+		<location>			
+			<festival>Paris Jazz Festival</festival>
 			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -25243,7 +25244,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1965-11-03</date>
 		<location>
 			<festival>Paris Jazz Festival</festival>
-			<venue>Salle de la Mutualité</venue>
+			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -25270,7 +25271,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1965-11-03</date>
 		<location>
 			<festival>Paris Jazz Festival</festival>
-			<venue>Salle de la Mutualité</venue>
+			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
