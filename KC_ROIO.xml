@@ -340,7 +340,7 @@
 	</session>
 	<session id="id0x11813a0" av="V" official="true">
 		<date type="xs:date">1965-11-03</date>
-		<location>			
+		<location>
 			<festival>Paris Jazz Festival</festival>
 			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
@@ -1223,8 +1223,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Bud Powell in Europe (EFORFILMS)</title>>
-	</session>
+		<title>Bud Powell in Europe (EFORFILMS)</title>> </session>
 	<session id="id0x12e2bd0" av="V">
 		<date type="xs:date">1962-xx-xx</date>
 		<location>
@@ -1331,7 +1330,7 @@
 			<artist>Ed Thigpen</artist>
 			<artist>Gilbert Seldes</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x12e34e0" av="V">
 		<date type="xs:date">1960-xx-xx</date>
@@ -1711,7 +1710,7 @@
 		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Akiyoshi-Tabackin Big Band</dummy>
@@ -2007,7 +2006,7 @@
 		<source>REEL</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage trader="Sergey Ivzhenko"></lineage>
+		<lineage trader="Sergey Ivzhenko"/>
 		<remarks>sterh86@gmail.com</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
@@ -2030,17 +2029,17 @@
 		<source station="NRK">web</source>
 		<format resolution="720p">AVC</format>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>En time for jazzvenner</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Clifford Jordan</artist>
 			<artist>Johnny Coles</artist>
-			<artist>Jaki Byard</artist>			
+			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1964-04-12</date>
@@ -2053,14 +2052,14 @@
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>En time for jazzvenner</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Clifford Jordan</artist>
 			<artist>Johnny Coles</artist>
-			<artist>Jaki Byard</artist>			
+			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
 		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
@@ -2074,14 +2073,14 @@
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>Trumpeten</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Clifford Jordan</artist>
 			<artist>Johnny Coles</artist>
-			<artist>Jaki Byard</artist>			
+			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
 		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
@@ -2095,13 +2094,13 @@
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>Jazz Pour Tous</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
 			<artist>Clifford Jordan</artist>
-			<artist>Jaki Byard</artist>			
+			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
 		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
@@ -2117,10 +2116,10 @@
 		</location>
 		<length>0:18:17</length>
 		<source>DVD</source>
-		<format></format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Eric Dolphy</artist>
 			<artist>Benny Bailey</artist>
@@ -2573,7 +2572,7 @@ authoring)]]></lineage>
 			<artist main="true">Chick Corea</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x1616950" av="V">
 		<date type="xs:date">2006-09-03</date>
 		<location>
@@ -2716,7 +2715,8 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
 			<artist>Samuel "Norris" Jones</artist>
-			<artist>Chalmers "Spanky" Alford</artist> <artist>Franklin "Knuckles" Walker</artist>
+			<artist>Chalmers "Spanky" Alford</artist>
+			<artist>Franklin "Knuckles" Walker</artist>
 			<artist>Russel Gunn</artist>
 			<artist>Frank "Root" Lacy</artist>
 			<artist>Jacques "Brother Jacques" Schwarz-Bart</artist>
@@ -2899,7 +2899,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<city>Hollywood CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
@@ -2924,7 +2924,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
@@ -4449,7 +4449,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 	</session>
 	<session id="id0x48965d0" av="V">
 		<date type="xs:date">1980-12-05</date>
-		<location>			
+		<location>
 			<venue>The Warfield Theatre</venue>
 			<city>San Francisco LA</city>
 			<country>U.S.A.</country>
@@ -5157,7 +5157,8 @@ DVD-R => Dime]]></lineage>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
-		<remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading, i.e. time stamp)</remarks>
+		<remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading,
+			i.e. time stamp)</remarks>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 			<artist>Ron Tooley</artist>
@@ -5319,8 +5320,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	</session>
 	<session id="id0x4fa4cc0" av="V">
 		<date type="xs:date">1968-1970</date>
-		<location>
-		</location>
+		<location> </location>
 		<length/>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
@@ -5600,12 +5600,12 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">2004-xx-xx</date>
-		<location>			
+		<location>
 			<venue>The Point</venue>
 			<city>Cardiff, Wales</city>
 			<country>U.K.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
@@ -5837,10 +5837,10 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -7317,11 +7317,12 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>John Coltrane</artist>
 			<artist>Wynton Kelly</artist>
 			<artist>Paul Chambers</artist>
-			<artist>Jimmy Cobb</artist>			
+			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
-		</artists>		
+		</artists>
 		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
+			Company)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
@@ -7762,7 +7763,7 @@ dime]]></lineage>
 		<length>0:43:36</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -7864,7 +7865,8 @@ dime]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875
+			08195)</title>
 	</session>
 	<session id="id0x569e900" av="V">
 		<date type="xs:date">1971-10-23</date>
@@ -8366,7 +8368,8 @@ file]]></lineage>
 			<artist>Al Foster</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875
+			08195)</title>
 	</session>
 	<session id="id0x57422b0" av="V">
 		<date type="xs:date">1973-11-13</date>
@@ -8383,7 +8386,7 @@ file]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">B.B. King</artist>
-			<artist>Miles Davis</artist>			
+			<artist>Miles Davis</artist>
 			<artist>Ron Levy</artist>
 			<artist>Wilbert Freeman</artist>
 			<artist>Sonny Freeman</artist>
@@ -8399,7 +8402,7 @@ file]]></lineage>
 			<country>France</country>
 		</location>
 		<length>0:30:19</length>
-		<source></source>
+		<source/>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Tv > Unknown Gen VHS > Standalone > DVD]]></lineage>
@@ -8413,7 +8416,7 @@ file]]></lineage>
 			<artist>Al Foster</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x5743860" av="V">
 		<date type="xs:date">1982-04-21</date>
@@ -8802,7 +8805,9 @@ Subs)]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>Shot over three days in Paris whilst the Trio were recoding their music for the Living Theater's project "Who's crazy?". Narrated by Alan Dell and produced by Mike Hodges.</remarks>
+		<remarks>Shot over three days in Paris whilst the Trio were recoding their music for the
+			Living Theater's project "Who's crazy?". Narrated by Alan Dell and produced by Mike
+			Hodges.</remarks>
 		<artists>
 			<artist main="true">Ornette Coleman</artist>
 			<artist>David Izenzon</artist>
@@ -8812,14 +8817,13 @@ Subs)]]></lineage>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1966-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>0:24:42</length>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Rahsaan Roland Kirk</artist>
 			<artist>John Cage</artist>
@@ -8829,14 +8833,13 @@ Subs)]]></lineage>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1984-xx-xx</date>
-		<location>
-		</location>
-		<length></length>
+		<location> </location>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Ornette Coleman</artist>
 		</artists>
@@ -9141,11 +9144,9 @@ Subs)]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Master VHS --> DVD Recorder --> PC (ProjectX/Mplex) --> You]]></lineage>
-		<remarks>Original broadcast:
-			German TV, WDR, ROCKPALAST, TV-Show No. 3, 1976
-			
-			From Rebroadcast (This Torrent):
-			German TV, WDR, "ROCKPALAST '76 - The First 12 Original Shows", TV-Show No. 3, 1996 January 7</remarks>
+		<remarks>Original broadcast: German TV, WDR, ROCKPALAST, TV-Show No. 3, 1976 From
+			Rebroadcast (This Torrent): German TV, WDR, "ROCKPALAST '76 - The First 12 Original
+			Shows", TV-Show No. 3, 1996 January 7</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -9451,7 +9452,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
@@ -9661,8 +9662,8 @@ selection) > transport stream]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C > Nokia d-box 2> harddisk]]></lineage>
-		<remarks>Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2.
-			No conversion of any kind has been applied; this is the actual broadcast signal.</remarks>
+		<remarks>Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. No
+			conversion of any kind has been applied; this is the actual broadcast signal.</remarks>
 		<artists>
 			<artist main="true">Roy Haynes</artist>
 			<artist>Marcus Strickland</artist>
@@ -10825,7 +10826,7 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x74d70d0" av="V">
-		<date type="xs:date">2003-xx-xx</date>
+		<date type="xs:date">2003-08-11</date>
 		<location>
 			<festival>Jazz à Marciac</festival>
 			<city>Marciac</city>
@@ -10847,7 +10848,7 @@ AC3@256 ]]></lineage>
 		<title>Wayne Shorter For Ever</title>
 	</session>
 	<session av="V">
-		<date type="xs:date">2004-07-04</date>
+		<date type="xs:date">2004-01-17_25</date>
 		<location>
 			<festival>Cité de la Musique</festival>
 			<city>Paris</city>
@@ -10867,7 +10868,7 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary ARTE: Wayne Shorter Live in Paris (Regie: Marie-Pierre Jaury)</title>
+		<title>Wayne Shorter Live in Paris (Arte 2004)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">2013-xx-xx</date>
@@ -10885,8 +10886,7 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter
-			Quartet</title>
+		<title>The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
 	</session>
 	<session id="id0x74d74e0" av="V">
 		<date type="xs:date">2004-07-19</date>
@@ -10974,8 +10974,7 @@ AC3@256 ]]></lineage>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Documentary: The Language of the Unknown: A Film About the Wayne Shorter
-			Quartet</title>
+		<title>The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
 	</session>
 	<session id="id0x765d7b0" av="V">
 		<date type="xs:date">2013-07-30</date>
@@ -11029,7 +11028,8 @@ AC3@256 ]]></lineage>
 		<location>
 			<venue>Beat Club</venue>
 			<country>Germany</country>
-		</location> <artists>
+		</location>
+		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
 			<artist>Wayne Shorter</artist>
@@ -11378,7 +11378,7 @@ AC3@256 ]]></lineage>
 		<lineage trader="Sergey Ivzhenko">French TV archive master tape</lineage>
 		<remarks>sterh86@gmail.com</remarks>
 		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>			
+			<dummy type="band" main="true">Various Artists</dummy>
 			<dummy type="band">Hans Koller formation</dummy>
 			<artist>Hans Koller</artist>
 			<dummy type="band">Charles Mingus Sextet</dummy>
@@ -11390,7 +11390,7 @@ AC3@256 ]]></lineage>
 			<artist>Dannie Richmond</artist>
 			<dummy type="band">Sister Rosette Tharpe</dummy>
 			<artist>Rosette Tharpe</artist>
-			<artist>Sims Wheeler Orchestra</artist>			
+			<artist>Sims Wheeler Orchestra</artist>
 			<dummy type="band">Wilbur De Paris and his new New Orleans Band</dummy>
 			<artist>Wilbur De Paris</artist>
 			<artist>Sidney de Paris</artist>
@@ -11621,7 +11621,7 @@ AC3@256 ]]></lineage>
 			<artist>William Garfing</artist>
 			<dummy type="band">Marian McPartland</dummy>
 			<artist>Marian Mc Partland</artist>
-			<artist>Gerry Mulligan</artist>			
+			<artist>Gerry Mulligan</artist>
 			<dummy type="band">Gerry Mulligan Quartet</dummy>
 			<artist>Gerry Mulligan</artist>
 			<artist>Renato Sellani</artist>
@@ -11673,8 +11673,8 @@ AC3@256 ]]></lineage>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<host>Quincy Jones</host>
-			<artist>Chick Corea</artist>			
-			<artist>George Benson</artist>			
+			<artist>Chick Corea</artist>
+			<artist>George Benson</artist>
 			<artist>Freddie Hubbard</artist>
 			<artist>Rashaan Roland Kirk</artist>
 			<artist>Hubert Laws</artist>
@@ -14522,7 +14522,8 @@ CDR>trade>EAC Secore Rip>Flac Frontend>Flac]]></lineage>
 			<venue>The Village Gate</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
-		</location> <source>FM</source>
+		</location>
+		<source>FM</source>
 		<format/>
 		<quality>A+</quality>
 		<lineage/>
@@ -15332,7 +15333,7 @@ Soundforge 5: speed correction > flac lvl7 w/SBA (530 MB)]]></lineage>
 			<artist>Itiberê Luiz Zwarg</artist>
 			<artist>Nivaldo Ornellas</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x5cd0170" av="A">
 		<date type="xs:date">1970-01-31</date>
@@ -16005,7 +16006,8 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>Denmark</country>
 		</location>
 		<length>125min</length>
-		<source/> <artists>
+		<source/>
+		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -18126,11 +18128,11 @@ Helper (FLAC, ffp)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18148,11 +18150,11 @@ Helper (FLAC, ffp)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18170,11 +18172,11 @@ Helper (FLAC, ffp)]]></lineage>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18192,11 +18194,11 @@ Helper (FLAC, ffp)]]></lineage>
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18218,7 +18220,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18240,7 +18242,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18371,7 +18373,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18393,7 +18395,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18415,7 +18417,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18503,7 +18505,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<source>CD</source>
 		<format/>
 		<quality>A</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18547,8 +18549,8 @@ Helper (FLAC, ffp)]]></lineage>
 		<length>0:50:46</length>
 		<source/>
 		<format/>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -18569,7 +18571,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<length>2:11:13</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -18613,7 +18615,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<length>0:54:17</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -18679,7 +18681,7 @@ Helper (FLAC, ffp)]]></lineage>
 		<length>0:57:23</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -18711,7 +18713,7 @@ Helper (FLAC, ffp)]]></lineage>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x4ff86c0" av="A">
 		<date type="xs:date">1964-10-01</date>
@@ -18932,8 +18934,8 @@ unknown ripping software > wave > flac]]></lineage>
 		<length>7:32:03</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -19083,7 +19085,8 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<venue>Koningin Elisabethzaal</venue>
 			<city>Antwerpen</city>
 			<country>Belgium</country>
-		</location> <artists>
+		</location>
+		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Herbie Hancock</artist>
@@ -19410,7 +19413,8 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 			<festival>Newport Jazz Festival</festival>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
-		</location> <artists>
+		</location>
+		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Chick Corea</artist>
 			<artist>Dave Holland</artist>
@@ -19448,7 +19452,8 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
-		</location> <artists>
+		</location>
+		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Chick Corea</artist>
@@ -19463,7 +19468,8 @@ Monkey's audio v3.99 lossless high compression]]></lineage>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
-		</location> <artists>
+		</location>
+		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Chick Corea</artist>
@@ -19961,8 +19967,8 @@ correction, SBE fixes, re-tracked > flac fFE lvl7 w/SBA (298 MB)]]></lineage>
 		<length>1:30:14</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -20033,8 +20039,8 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 		<length>1:19:21</length>
 		<source>CD</source>
 		<format/>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -20932,7 +20938,8 @@ TLH (Flac Level 8)]]></lineage>
 			<venue>Hill Auditorium</venue>
 			<city>Ann Arbor MI</city>
 			<country>U.S.A.</country>
-		</location> <source>AUD</source>
+		</location>
+		<source>AUD</source>
 		<format/>
 		<quality>B</quality>
 		<lineage/>
@@ -21569,8 +21576,8 @@ Transfer: Dragon nr-out>zoomH4 16/44.1>hcsd 8gb >Audacity>TLH>flac16 ->[BarnyzFr
 		<quality>B-</quality>
 		<lineage><![CDATA[FM>Master tape>sony
 cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
-		<remarks>recorded Thursday March 27, 1975 
-			broadcast on WPLR-FM Monday April 7, 1975</remarks>
+		<remarks>recorded Thursday March 27, 1975 broadcast on WPLR-FM Monday April 7,
+			1975</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -23550,7 +23557,7 @@ level 5]]></lineage>
 			<artist>Marc Johnson</artist>
 			<artist>Joe LaBarbera</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-09-xx</date>
@@ -24327,11 +24334,11 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>SBD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -24464,7 +24471,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1979-07-19</date>
 		<location>
 			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
-			<venue/>
 			<city>Antibes</city>
 			<country>France</country>
 		</location>
@@ -24508,10 +24514,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1976-10-29</date>
 		<location>
-			<festival/>
-			<venue/>
-			<city/>
-			<country/>
 		</location>
 		<length/>
 		<source channel="BBC"/>
@@ -24625,8 +24627,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1969-12-20</date>
 		<location>
 			<show>Est Panorama</show>
-			<venue/>
-			<city/>
 			<country>France</country>
 		</location>
 		<length>0:04:32</length>
@@ -24690,8 +24690,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1967-xx-xx</date>
 		<location>
-			<venue/>
-			<city/>
 			<country>Italy</country>
 		</location>
 		<length/>
@@ -24744,8 +24742,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1967-11-xx</date>
 		<location>
-			<venue/>
-			<city/>
 			<country>France</country>
 		</location>
 		<length/>
@@ -24762,9 +24758,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
-			<venue/>
-			<city/>
-			<country/>
 		</location>
 		<length/>
 		<source>DVD</source>
@@ -24901,9 +24894,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
 		<location>
-			<venue/>
-			<city/>
-			<country/>
 		</location>
 		<length/>
 		<source>DVD</source>
@@ -25034,8 +25024,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1977-02-15</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:19:30</length>
@@ -25053,8 +25041,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1977-01-08</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:15:06</length>
@@ -25073,8 +25059,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1977-01-19</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:16:21</length>
@@ -25092,8 +25076,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-12-08</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:02:12</length>
@@ -25111,8 +25093,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-11-19</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:08:55</length>
@@ -25130,8 +25110,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-08-24</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:03:04</length>
@@ -25149,8 +25127,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-08-09</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:19:15</length>
@@ -25168,8 +25144,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-04-23</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:11:54</length>
@@ -25187,8 +25161,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1976-04-23</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:08:18</length>
@@ -25206,8 +25178,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1975-12-12</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:04:24</length>
@@ -25225,8 +25195,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1975-08-21</date>
 		<location>
 			<show>The Mike Douglas Show</show>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:08:31</length>
@@ -25325,7 +25293,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Stan Getz</artist>
 			<dummy type="band">Michel Legrand Big Band</dummy>
 			<artist>Michel Legrand</artist>
-			<artist>Georges Arvanitas</artist>	
+			<artist>Georges Arvanitas</artist>
 		</artists>
 		<title>French TV Jazz Rarities 1969-1979</title>
 	</session>
@@ -25818,7 +25786,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1993-08-14</date>
 		<location>
 			<festival>Newport Jazz Festival</festival>
-			<venue/>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
@@ -25840,7 +25807,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2001-08-12</date>
 		<location>
 			<festival>Newport Jazz Festival</festival>
-			<venue/>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
@@ -25849,7 +25815,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks/>
+		<remarks>+ interview with Wayne Shorter</remarks>
 		<artists>
 			<artist type="band" main="true">Wayne Shorter Quartet</artist>
 			<artist>Wayne Shorter</artist>
@@ -25863,7 +25829,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">2008-08-09</date>
 		<location>
 			<festival>Newport Jazz Festival</festival>
-			<venue/>
 			<city>Newport RI</city>
 			<country>U.S.A.</country>
 		</location>
@@ -26231,7 +26196,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Donald Bailey</artist>
 		</artists>
 		<title>Jazz Scene USA: Phineas Newborn Jr. Trio / Jimmy Smith Trio (Shanachie)</title>
-	</session>	
+	</session>
 	<session av="V">
 		<date type="xs:date">2017-06-02</date>
 		<location>
@@ -26338,8 +26303,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1987-xx-xx</date>
 		<location>
-			<venue/>
-			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:59:12</length>
@@ -26401,7 +26364,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Danny Barcelona</artist>
 			<artist>Velma Middleton</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1959-02-04</date>
@@ -26414,7 +26377,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist type="band">Louis Armstrong All Stars</artist>
 			<artist main="true">Louis Armstrong</artist>
@@ -26795,7 +26758,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<date type="xs:date">1972-10-04</date>
 		<location>
 			<show>Soul!</show>
-			<city></city>
+			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -26823,7 +26786,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[stream > jdownloader 2.0]]></lineage>
 		<remarks/>
 		<artists>
-			<artist main="true">Chris Lightcap</artist>			
+			<artist main="true">Chris Lightcap</artist>
 			<artist>Chris Cheek</artist>
 			<artist>Tony Malaby</artist>
 			<artist>Craig Taborn</artist>
@@ -26856,7 +26819,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Hungary</country>
 		</location>
 		<length/>
-		<source></source>
+		<source/>
 		<format/>
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
@@ -26880,7 +26843,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks/>
 		<artists>
 			<dummy type="band">Mats Eilertsen Rubicon</dummy>
-			<artist main="true" >Mats Eilertsen</artist>
+			<artist main="true">Mats Eilertsen</artist>
 			<artist>Harmen Fraanje</artist>
 		</artists>
 		<title/>
@@ -26933,8 +26896,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>FM</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Erich Kleinschuster</artist>
 			<artist>Joe Zawinul</artist>
@@ -26952,7 +26915,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source station="RAITRE">TV</source>
 		<format>DVD</format>
 		<quality>B+</quality>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>or 1956...</remarks>
 		<artists>
 			<artist main="true">Chet Baker</artist>
@@ -26961,7 +26924,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Eddie de Haas</artist>
 			<artist>Charles Saudrais</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1964-xx-xx</date>
@@ -26973,8 +26936,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>DVD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Chet Baker</artist>
 			<artist>Jacques Pelzer</artist>
@@ -26995,8 +26958,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>DVD</source>
 		<format/>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Chet Baker</artist>
 			<artist>Wolfgang Lackerscmid</artist>
@@ -27014,7 +26977,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<source>LD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>LDrip to DVD?</remarks>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
@@ -27062,7 +27025,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Art Pepper</artist>
 			<artist>Mel Torme</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1984-07-07</date>
@@ -27077,11 +27040,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS > DVD trade > dime]]></lineage>
-		<remarks>Bayerischen Rundfunk production. info from: http://www.webmutations.com/ceciltaylor/1984.html</remarks>
+		<remarks>Bayerischen Rundfunk production. info from:
+			http://www.webmutations.com/ceciltaylor/1984.html</remarks>
 		<artists>
 			<artist main="true">Cecil Taylor</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1985-02-22</date>
@@ -27104,7 +27068,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Joe Henderson</artist>
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
-			<dummy type="band">Herbie Hancock quintet</dummy>			
+			<dummy type="band">Herbie Hancock quintet</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Bobby Hutcherson</artist>
 			<artist>James Newton</artist>
@@ -27141,7 +27105,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Kenny Burrell</artist>
 			<artist>Grady Tate</artist>
 			<dummy type="band">Cecil Taylor</dummy>
-			<artist>Cecil Taylor</artist>			
+			<artist>Cecil Taylor</artist>
 		</artists>
 		<title>One Night With Blue Note</title>
 	</session>
@@ -27155,14 +27119,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</location>
 		<length>0:52:27</length>
 		<source station="Nordwestradio">FM</source>
-		<format></format>
+		<format/>
 		<quality/>
 		<lineage><![CDATA[FM (analog cable) - Audacity - xACT ]]></lineage>
-		<remarks>Nordwestradio in concert: Pop &amp; Jazz, 2014-04-15. The Paul Bley Synthesizer Show</remarks>
+		<remarks>Nordwestradio in concert: Pop &amp; Jazz, 2014-04-15. The Paul Bley Synthesizer
+			Show</remarks>
 		<artists>
 			<artist main="true">Paul Bley</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1978-09-08</date>
@@ -27195,8 +27160,8 @@ Editing:
 -> Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work
 -> Video: DVD Shrink -> VOB2MPEG -> DGMPGDec
 -> Assembling: MKVMerge: M2V video and LPCM Audio -> *.MKV with chapters]]></lineage>
-		<remarks>Original Broadcast date: 1980 07 01
-			Re-Broadcast date: August 1996 (this torrent)</remarks>
+		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this
+			torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist>Ed Mann</artist>
@@ -27230,7 +27195,7 @@ Editing:
 			<artist>Bob Cunningham</artist>
 			<artist>Albert Heath</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1973-08-xx</date>
@@ -27250,7 +27215,7 @@ Editing:
 			<artist>Donald "Don" Rafael Garrett</artist>
 			<artist>Muhammad Ali</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1960-04-06</date>
@@ -27280,7 +27245,7 @@ Video_ts]]></lineage>
 			<artist>Eddie Jones</artist>
 			<artist>Sonny Payne</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1974-07-28</date>
@@ -27295,7 +27260,8 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS from a trade (at least 2nd gen) > LG dvd recorder > dvd-rw > my hard disk > TMPGenc DVD Author 1.6 > Video_ts > you]]></lineage>
-		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto" aired for the first time during 1975.</remarks>
+		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto"
+			aired for the first time during 1975.</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Don Pullen</artist>
@@ -27303,7 +27269,7 @@ Video_ts]]></lineage>
 			<artist>George Adams</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1987-07-04</date>
@@ -27323,7 +27289,7 @@ Video_ts]]></lineage>
 			<artist>Chick Corea</artist>
 			<artist>Joe Zawinul</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1986-11-26</date>
@@ -27342,7 +27308,7 @@ Video_ts]]></lineage>
 			<artist main="true">Friedrich Gulda</artist>
 			<artist>Joe Zawinul</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1964-03-22</date>
@@ -27368,7 +27334,7 @@ Video_ts]]></lineage>
 			<artist>Bibi Rovére</artist>
 			<artist>Sam Woodyard</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1970-07-20</date>
@@ -27463,7 +27429,7 @@ Video_ts]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">O.T.B. with Jonny Griffin</dummy>
@@ -27494,12 +27460,12 @@ Video_ts]]></lineage>
 			<city>Yamanashi</city>
 			<country>Japan</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>VHS</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Cedar Walton Trio featuring Milt Jackson</dummy>
@@ -27537,7 +27503,7 @@ Video_ts]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[Un-edited VHS work tape>1st Gen. Copy VHS>this mpeg-2 movie]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
 			<dummy type="band">Herbie Hanckock group</dummy>
@@ -27549,7 +27515,7 @@ Video_ts]]></lineage>
 			<artist>Bobby Hutcherson</artist>
 			<dummy type="band">Jam session</dummy>
 			<dummy>All Members in Day-Time Stages</dummy>
-			<artist>Freddie Hubbard</artist>	
+			<artist>Freddie Hubbard</artist>
 		</artists>
 		<title>Mt. Fuji Jazz Festival '86 - Vol. 3</title>
 	</session>
@@ -27574,7 +27540,7 @@ Video_ts]]></lineage>
 			<artist>Jaco Pastorius</artist>
 			<artist>Peter Erskine</artist>
 		</artists>
-		<title>Weather Report ‎– Live In Offenbach 1978 (	Art Of Groove ‎– MIG80097)</title>
+		<title>Weather Report ‎– Live In Offenbach 1978 ( Art Of Groove ‎– MIG80097)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1980-10-31</date>
@@ -27584,7 +27550,7 @@ Video_ts]]></lineage>
 			<country>Serbia</country>
 		</location>
 		<length>0:51:39</length>
-		<source></source>
+		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage><![CDATA[Vhs trade/standalone burner/DVD shrink/dime/you]]></lineage>
@@ -27596,7 +27562,7 @@ Video_ts]]></lineage>
 			<artist>Jaco Pastorius</artist>
 			<artist>Peter Erskine</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1980-10-31</date>
@@ -27618,7 +27584,7 @@ Video_ts]]></lineage>
 			<artist>Jaco Pastorius</artist>
 			<artist>Peter Erskine</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1985-07-19</date>
@@ -27627,7 +27593,7 @@ Video_ts]]></lineage>
 			<city>San Sebastian</city>
 			<country>Spain</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="rtve.es">web</source>
 		<format>576p</format>
 		<quality>B+</quality>
@@ -27714,17 +27680,17 @@ Video_ts]]></lineage>
 			<country>Switzerland</country>
 		</location>
 		<length>1:25:00</length>
-		<source></source>
+		<source/>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
-		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced
-			to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features
-			solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear !
-			
-			Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place
-			then looks at his watch and pulls a face as if to say it's to late for that so they must have been on very late
-			so it was probably July 21st  when they were playing onstage</remarks>
+		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape
+			synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks
+			and features solos on a couple of the songs, this band plays some of the funkiest jazz
+			you will ever hear ! Claude Nobs does the intro and outro of the band at the end he
+			mentions a jam session at some place then looks at his watch and pulls a face as if to
+			say it's to late for that so they must have been on very late so it was probably July
+			21st when they were playing onstage</remarks>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Larry Coryell</artist>
@@ -27732,7 +27698,7 @@ Video_ts]]></lineage>
 			<artist>Jeff Andrews</artist>
 			<artist>Ronnie Burrage</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1986-xx-xx</date>
@@ -27746,11 +27712,11 @@ Video_ts]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Unknown Handheld>VHS(2)>Stand alone Panosonic DMR-ES40V>DVD(1)]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Allan Holdsworth</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1985-xx-xx</date>
@@ -27758,12 +27724,12 @@ Video_ts]]></lineage>
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>LD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Allan Holdsworth</artist>
 			<artist>Paul Williams</artist>
@@ -27811,7 +27777,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Dave Brubeck</artist>
 		</artists>
@@ -27829,7 +27795,8 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself years ago>transferred by dextrane]]></lineage>
-		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure; probably Versilia (north Toscana coast) - "La Bussola".</remarks>
+		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure;
+			probably Versilia (north Toscana coast) - "La Bussola".</remarks>
 		<artists>
 			<dummy type="band">Oscar Peterson Trio</dummy>
 			<artist main="true">Oscar Peterson</artist>
@@ -27861,7 +27828,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself> Dvd transferred by Dextrane]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Jackie McLean</artist>
 			<artist>Tete Montoliu</artist>
@@ -27883,14 +27850,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Bw Rai (re)Broadcast 14.06 taped by myself and transferred by Dextrane.]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 			<artist>Aurell Ray</artist>
 			<artist>Eddie Moore</artist>
 			<dummy>?????</dummy>
 			<dummy>?????</dummy>
-			<dummy>?????</dummy>			
+			<dummy>?????</dummy>
 		</artists>
 		<title>JAZZ IN ITALY DVD</title>
 	</session>
@@ -27898,7 +27865,6 @@ Video_ts]]></lineage>
 		<date type="xs:date">1956-xx-xx</date>
 		<location>
 			<festival>Festival del jazz</festival>
-			<venue></venue>
 			<city>Milan</city>
 			<country>Italy</country>
 		</location>
@@ -27907,14 +27873,15 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
-		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays, directed by Gorni Kramer)</remarks>
+		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays,
+			directed by Gorni Kramer)</remarks>
 		<artists>
 			<artist main="true">Gerry Mulligan</artist>
 			<artist>Zoot Sims</artist>
 			<artist>Jon Eardley</artist>
 			<artist>Bob Brookmeyer</artist>
 			<artist>Bill Crow</artist>
-			<artist>Dave Bailey</artist>			
+			<artist>Dave Bailey</artist>
 		</artists>
 		<title>JAZZ IN ITALY DVD</title>
 	</session>
@@ -27928,7 +27895,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist>Chuck D</artist>
 			<artist>Jadakiss</artist>
@@ -27948,7 +27915,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
 			<artist>Chuck D</artist>
@@ -27990,9 +27957,9 @@ Video_ts]]></lineage>
 			<artist main="true">Max Roach</artist>
 			<artist>Clifford Jordan</artist>
 			<artist>Coleridge-Taylor Perkinson</artist>
-			<artist>Abbey Lincoln</artist>		
+			<artist>Abbey Lincoln</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">2018-04-02</date>
@@ -28006,7 +27973,7 @@ Video_ts]]></lineage>
 		<format resolution="720p">avc</format>
 		<quality>A</quality>
 		<lineage><![CDATA[web > ? > mp4 file]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
 		</artists>
@@ -28024,12 +27991,12 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[VHS>DVD]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Joe Zawinul</artist>
 			<artist>Trilok Gurtu</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1966-04-15</date>
@@ -28090,12 +28057,11 @@ Video_ts]]></lineage>
 			<artist>Phelps Collins</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">2008-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>1:58:00</length>
 		<source station="BBC Four">TV</source>
 		<format resolution="832x468">AVC</format>
@@ -28115,7 +28081,7 @@ Video_ts]]></lineage>
 			<country>France</country>
 		</location>
 		<length>1:12:03</length>
-		<source></source>
+		<source/>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[TV broadcast > VHS > ? > DVD > DVD Decrypter > TMPGEnc DVD Author ]]></lineage>
@@ -28125,7 +28091,7 @@ Video_ts]]></lineage>
 			<artist>Charlie Haden</artist>
 			<artist>Billy Higgins</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1950-xx-xx</date>
@@ -28134,11 +28100,11 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist>Charlie Parker</artist>
@@ -28161,16 +28127,16 @@ Video_ts]]></lineage>
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<artist>John Lamb</artist>
-			<artist>Sam Woodyard</artist>			
+			<artist>Sam Woodyard</artist>
 		</artists>
 		<title>Norman Granz presents Improvisation</title>
 	</session>
@@ -28181,11 +28147,11 @@ Video_ts]]></lineage>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Count Basie</artist>
@@ -28201,13 +28167,12 @@ Video_ts]]></lineage>
 	</session>
 	<session av="V">
 		<date type="xs:date">1979-xx-xx</date>
-		<location>
-		</location>
-		<length></length>
+		<location> </location>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Joe Pass</artist>
@@ -28216,13 +28181,12 @@ Video_ts]]></lineage>
 	</session>
 	<session av="V">
 		<date type="xs:date">1979-xx-xx</date>
-		<location>
-		</location>
-		<length></length>
+		<location> </location>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Ella Fitzgerald</artist>
@@ -28239,17 +28203,17 @@ Video_ts]]></lineage>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Oscar Peterson</artist>
 			<artist>Dizzy Gillespie</artist>
 			<artist>Clark Terry</artist>
-			<artist>Eddie Lockjaw Davis</artist>			
+			<artist>Eddie Lockjaw Davis</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Bobby Durham</artist>
 		</artists>
@@ -28260,13 +28224,13 @@ Video_ts]]></lineage>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks>interviews</remarks>
-		<artists>			
+		<artists>
 			<artist>Hank Jones</artist>
 			<artist>Harry Edison</artist>
 			<artist>Clark Terry</artist>
@@ -28278,13 +28242,13 @@ Video_ts]]></lineage>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">Cotton Club Orchestra</dummy>
 			<artist>Arthur Whetsol</artist>
@@ -28293,105 +28257,112 @@ Video_ts]]></lineage>
 			<artist>Tricky Sam Nanton</artist>
 		</artists>
 		<titlefilm year="1929">Black and Tan</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1930-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 			<artist>Juan Tizol</artist>
 			<artist>Barney Bigard</artist>
 		</artists>
 		<titlefilm year="1930">Check and Double Check</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1934-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist>Billy Holiday</artist>
-			<artist main="true">Duke Ellington</artist>			
+			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 			<artist>Barney Bigard</artist>
 			<artist>Joe Nanton</artist>
 		</artists>
 		<titlefilm year="1934">Symphony in Black: A Rhapsody of Negro Life</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1937-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 		</artists>
-		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and
+			His Orchestra</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1937-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 			<artist>Johnny Hodges</artist>
 			<artist>Barney Bigard</artist>
 		</artists>
 		<titlefilm year="1937">The Hit Parade of 1937</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1943-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 			<artist>Johnny Hodges</artist>
 		</artists>
 		<titlefilm year="1943">RKO Jamboree No. 7: Duke Ellington and His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
+			26033)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1944-xx-xx</date>
@@ -28431,13 +28402,14 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
+			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
 			<artist>Coleman Hawkins</artist>
@@ -28485,13 +28457,13 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<dummy type="band">Ahmad Jamal Trio</dummy>
 			<artist>Ahmad Jamal</artist>
 			<artist>Israel Crosby</artist>
@@ -28502,7 +28474,7 @@ Video_ts]]></lineage>
 			<artist>George Duvivier</artist>
 			<artist>Buck Clayton</artist>
 			<artist>Vic Dickenson</artist>
-			<artist>Jo Jones</artist>			
+			<artist>Jo Jones</artist>
 		</artists>
 		<titlefilm>Jazz from Studio 61</titlefilm>
 		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
@@ -28515,13 +28487,14 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>Blu-ray</source>
 		<format resolution="PAL">1080p</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
+			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
 			<artist>Coleman Hawkins</artist>
@@ -28594,10 +28567,10 @@ Video_ts]]></lineage>
 		<length>0:18:03</length>
 		<source>Blu-ray</source>
 		<format resolution="PAL">AVC</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<dummy type="band">Ahmad Jamal Trio</dummy>
 			<artist>Ahmad Jamal</artist>
 			<artist>Israel Crosby</artist>
@@ -28651,13 +28624,13 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
 			<dummy type="band">Ahmad Jamal Trio</dummy>
 			<artist>Ahmad Jamal</artist>
 			<artist>Israel Crosby</artist>
@@ -28668,10 +28641,11 @@ Video_ts]]></lineage>
 			<artist>George Duvivier</artist>
 			<artist>Buck Clayton</artist>
 			<artist>Vic Dickenson</artist>
-			<artist>Jo Jones</artist>			
+			<artist>Jo Jones</artist>
 		</artists>
 		<titlefilm>Jazz from Studio 61</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
+			Company)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1957-xx-xx</date>
@@ -28681,13 +28655,14 @@ Video_ts]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
-		<artists>			
+		<quality/>
+		<lineage/>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
+			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
 			<artist>Coleman Hawkins</artist>
@@ -28725,7 +28700,8 @@ Video_ts]]></lineage>
 			<artist>Ryan Nelson</artist>
 		</artists>
 		<titlefilm>The Sound of Jazz</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
+			Company)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1990-10-23</date>
