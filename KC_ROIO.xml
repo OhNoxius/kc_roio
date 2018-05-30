@@ -3240,6 +3240,29 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="V">
+		<date type="xs:date">1979-07-20</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Portugal</country>
+		</location>
+		<length>0:37:25</length>
+		<source/>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Elis Regina</artist>
+			<artist>César Camargo Mariano</artist>
+			<artist>Luiz Maia</artist>
+			<artist>Helio Delmiro</artist>
+			<artist>Paulinho Braga</artist>
+			<artist>Chico Batera</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x3c3eea0" av="V">
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
@@ -4805,11 +4828,11 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<remarks>Plays Gershwin</remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
-			<artist>Terri Lyne Carrington</artist>
+			<artist>Eddie Henderson</artist>			
+			<artist>Eli Degibri</artist>			
 			<artist>Ira Coleman</artist>
+			<artist>Terri Lyne Carrington</artist>
 			<artist>Cyro Baptista Ciari</artist>
-			<artist>Eli Degibri</artist>
-			<artist>Eddie Henderson</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10660,7 +10683,7 @@ file]]></lineage>
 	<session id="id0x6d46620" av="V">
 		<date type="xs:date">1995-xx-xx</date>
 		<location>
-			<festival>Jazz Central</festival>
+			<show>Jazz Central</show>
 			<venue>Black Entertainment Television Studio II</venue>
 			<city>Washington DC</city>
 			<country>U.S.A.</country>
@@ -24202,14 +24225,15 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage><![CDATA[dvd > dvd trade > dime]]></lineage>
 		<remarks>A documentary by Michael and Joachim Rüsenberg from 1988.</remarks>
 		<artists>
-			<artist main="true">Frank Zappa</artist>
+			<dummy type="band">Various Artists</dummy>
+			<artist>Frank Zappa</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Gunther Hampel</artist>
 			<artist>Peter Brötzmann</artist>
 			<artist>Julie Driscoll</artist>
 			<artist>Brian Auger</artist>
 		</artists>
-		<title>Documentary: Essener Songtage - Schöne Poesie Ist Krampf</title>
+		<title>Essener Songtage: Schöne Poesie Ist Krampf</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1972-03-14</date>
@@ -28862,5 +28886,67 @@ Video_ts]]></lineage>
 			<artist>Al di Meola</artist>
 		</artists>
 		<title>Audi Jazz Promotional DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">2001-xx-xx</date>
+		<location>
+			<show>Jazz Central</show>
+			<venue>Black Entertainment Television Studio II</venue>
+			<city>Washington DC</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:45:00</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Herbie Hancock</artist>
+			<artist>Eddie Henderson</artist>			
+			<artist>Eli Degibri</artist>			
+			<artist>Ira Coleman</artist>
+			<artist>Terri Lyne Carrington</artist>
+			<artist>Cyro Baptista Ciari</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-10-19</date>
+		<location>
+			<festival>Jazzfestival Hamburg</festival>
+			<venue>Fabrik</venue>
+			<city>Hamburg</city>
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source DVB="true">DVB</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[DVB-C > Nokia d-box 1 > hardisk via SCSI connection. Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. DVD-rip to .ts with ProjectX 0.91]]></lineage>
+		<remarks>recorded at the "12. Jazzfestival Hamburg 1987"</remarks>
+		<artists>
+			<artist main="true">Randy Brecker</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-10-19</date>
+		<location>
+			<festival>Jazzfestival Hamburg</festival>
+			<venue>Fabrik</venue>
+			<city>Hamburg</city>
+			<country>Germany</country>
+		</location>
+		<length></length>
+		<source DVB="true">DVB</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[DVB-C > Nokia d-box 1 > hardisk via SCSI connection. Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. DVD-rip to .ts with ProjectX 0.91]]></lineage>
+		<remarks>recorded at the "12. Jazzfestival Hamburg 1987"</remarks>
+		<artists>
+			<artist main="true">Michael Brecker</artist>
+		</artists>
+		<title></title>
 	</session>
 </KC_ROIO>
