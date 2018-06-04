@@ -16488,26 +16488,6 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</artists>
 		<title/>
 	</session>
-	<session id="id0xaed0d0" av="A" official="true">
-		<date type="xs:date">1968-08-30_31</date>
-		<location>
-			<venue>Shelly's Manne-Hole</venue>
-			<city>Hollywood CA</city>
-			<country>U.S.A.</country>
-		</location>
-		<length/>
-		<source/>
-		<format/>
-		<quality/>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Keith Jarrett</artist>
-			<artist>Charlie Haden</artist>
-			<artist>Paul Motian</artist>
-		</artists>
-		<title>Somewhere Before</title>
-	</session>
 	<session id="id0xaed440" av="A">
 		<date type="xs:date">1969-08-24</date>
 		<location>
@@ -16528,8 +16508,48 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1969-09-15</date>
+		<location>
+			<venue>Tagskaegget</venue>
+			<city>Aarhus</city>
+			<country>Denmark</country>
+		</location>
+		<length/>
+		<source>FM</source>
+		<format bitrate="192">mp3</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>August “Gus” Nemeth</artist>
+			<artist>Bob Ventrello</artist>
+		</artists>
+		<title>The Dylan Concert</title>
+	</session>
+	<session id="id0xaed0d0" av="A" official="true">
+		<date type="xs:date">1968-08-30_31</date>
+		<location>
+			<venue>Shelly's Manne-Hole</venue>
+			<city>Hollywood CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>Charlie Haden</artist>
+			<artist>Paul Motian</artist>
+		</artists>
+		<title>Somewhere Before</title>
+	</session>	
 	<session id="id0xb0d860" av="A">
-		<date type="xs:date">1969-11-12_14</date>
+		<date type="xs:date">1969-11-12+13</date>
 		<location>
 			<venue>Caméléon</venue>
 			<city>Paris</city>
@@ -16543,8 +16563,28 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>Aldo Romano</artist>
-			<artist>J.F. Clarke</artist>
+			<artist>Jean-François Jenny-Clark</artist>
+			<artist>Aldo Romano</artist>			
+		</artists>
+		<title/>
+	</session>
+	<session id="id0xb0d860" av="A">
+		<date type="xs:date">1969-11-14</date>
+		<location>
+			<venue>Caméléon</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length/>
+		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>August “Gus” Nemeth</artist>
+			<artist>Paul Motian</artist>			
 		</artists>
 		<title/>
 	</session>
@@ -26455,35 +26495,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<title>compilation Jazz Jamboree 1985: Vienna Art Orchestra + Keith Jarrett</title>
 	</session>
 	<session av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
-		<location>
-			<show>ZDF Jazzclub</show>
-			<city/>
-			<country>Germany</country>
-		</location>
-		<length>0:31:52</length>
-		<source channel="3sat">TV</source>
-		<quality>B+</quality>
-		<lineage/>
-		<remarks>part missing. 1969-11-07 broadcast date?</remarks>
-		<artists>
-			<dummy type="band" main="true">Various Artists</dummy>
-			<dummy type="band">Peter Herbolzheimer ...</dummy>
-			<dummy type="band">Toots Thielemans Quartet</dummy>
-			<artist>Toots Thielemans</artist>
-			<artist>Fred Hersh</artist>
-			<artist>Adam Nussbaum</artist>
-			<dummy type="band">Jimmy Smith Trio</dummy>
-			<artist>Jimmy Smith</artist>
-			<dummy type="band">Nancy Wilson Quartet</dummy>
-			<artist>Nancy Wilson</artist>
-			<dummy type="band">Monty Alexander Quintet</dummy>
-			<artist>Monty Alexander</artist>
-			<artist type="band">Modern Jazz Quartet</artist>
-		</artists>
-		<title/>
-	</session>
-	<session av="V">
 		<date type="xs:date">1972-09-xx</date>
 		<location>
 			<festival>Operation PUSH Black Expo</festival>
@@ -28948,5 +28959,71 @@ Video_ts]]></lineage>
 			<artist main="true">Michael Brecker</artist>
 		</artists>
 		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-1990</date>
+		<location>
+			<show>ZDF Jazzclub</show>
+			<city/>
+			<country>Germany</country>
+		</location>
+		<length>0:31:52</length>
+		<source channel="3sat">TV</source>
+		<format resolution="PAL">MPEG2</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks>Peter Herbolzheimer RC &amp; B with Etta Cameron - 1989-06-26
+			Toots Thielemans - 1988-02-29
+			Jimmy Smith - 1988-09-05 
+			Nancy Wilson - 1987-04-20
+			Monty Alexander - 1989-01-16
+			Tribute to Louis Armstrong and Benny Goodman - 1987-05-18
+			Modern Jazz Quartet - 1989-12-11
+			Ramsey Lewis - 1990-08-19</remarks>
+		<artists>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<dummy type="band">Peter Herbolzheimer ...</dummy>
+			<dummy type="band">Toots Thielemans Quartet</dummy>
+			<artist>Toots Thielemans</artist>
+			<artist>Fred Hersh</artist>
+			<artist>Adam Nussbaum</artist>
+			<dummy type="band">Jimmy Smith Trio</dummy>
+			<artist>Jimmy Smith</artist>
+			<dummy type="band">Nancy Wilson Quartet</dummy>
+			<artist>Nancy Wilson</artist>
+			<dummy type="band">Monty Alexander Quintet</dummy>
+			<artist>Monty Alexander</artist>
+			<artist type="band">Modern Jazz Quartet</artist>
+		</artists>
+		<title>The Best Of ZDF Jazzclub</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-xxxx</date>
+		<location>
+			<country>U.K.</country>
+		</location>
+		<length>0:59:30</length>
+		<source channel="BBC">TV</source>
+		<format resolution="720x416">AVC</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<dummy type="band" main="true">Various Artists</dummy>
+			<artist>Sugarhill Gang</artist>
+			<artist>Afrika Bambaata</artist>
+			<artist>Run DMC</artist>
+			<artist>LL Cool J</artist>
+			<artist>Eric B. &amp; Rakim</artist>
+			<artist>Ice T</artist>
+			<artist>Monie Love</artist>
+			<artist>The Fugees</artist>
+			<artist>The Roots</artist>
+			<artist>Dr. Dre</artist>
+			<artist>Eminem</artist>
+			<artist>Dizzee Rascal</artist>
+			<artist>Jay-Z</artist>
+		</artists>
+		<title>Hip Hop at the BBC</title>
 	</session>
 </KC_ROIO>
