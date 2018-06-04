@@ -6201,13 +6201,13 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session av="V">
 		<date type="xs:date">1969-12-02</date>
 		<location>
-			<venue>Club 7</venue>
+			<venue>Club 7 (Restaurant Kongen)</venue>
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
 		<length>0:19:55</length>
 		<source channel="NRK">web</source>
-		<format/>
+		<format resolution="720p">AVC</format>
 		<quality>A</quality>
 		<lineage><![CDATA[https://tv.nrk.no/program/FTEM00006669/jazz-med-keith-jarrett-trio]]></lineage>
 		<remarks/>
@@ -6219,8 +6219,11 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session av="V">
-		<date type="xs:date">1969-11-23</date>
+		<date type="xs:date">1969-11-xx</date>
 		<location>
+			<show>Tous en scène</show>
+			<venue>ORTF Studios</venue>
+			<city>Paris</city>
 			<country>France</country>
 		</location>
 		<length>0:03:52</length>
@@ -6228,7 +6231,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[http://www.ina.fr/video/I07206245]]></lineage>
-		<remarks/>
+		<remarks>broadcast date: 1969-11-23</remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
