@@ -6464,11 +6464,13 @@ DUB!!!]]></lineage>
 		<date type="xs:date">1978-04-15</date>
 		<location>
 			<festival>Saturday Night Live</festival>
+			<venue>NBC Studios</venue>
+			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:04:30</length>
 		<source/>
-		<format>avi</format>
+		<format resolution="640x480">XviD</format>
 		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
