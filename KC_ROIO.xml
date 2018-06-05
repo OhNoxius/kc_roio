@@ -6078,15 +6078,16 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x52883f0" av="V">
 		<date type="xs:date">1994-07-27</date>
 		<location>
+			<festival>Münchner Klaviersommer</festival>
 			<venue>Philharmonie im Gasteig</venue>
 			<city>München</city>
 			<country>Germany</country>
 		</location>
 		<length>37min</length>
-		<source>TV</source>
+		<source station="3sat">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage/>
+		<lineage><![CDATA[3sat TV broadcast > analogue cable > VCR > VHS videotape > DVDR > DVD > HDD]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Joshua Redman</artist>
@@ -6094,7 +6095,29 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Christian McBride</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title/>
+		<title>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1994-07-24</date>
+		<location>
+			<festival>Münchner Klaviersommer</festival>
+			<venue>Philharmonie im Gasteig</venue>
+			<city>München</city>
+			<country>Germany</country>
+		</location>
+		<length>0:45:48</length>
+		<source station="3sat">TV</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[3sat TV broadcast > analogue cable > VCR > VHS videotape > DVDR > DVD > HDD]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Joe Henderson</artist>
+			<artist>Bheki Mseleku</artist>
+			<artist>George Mraz</artist>
+			<artist>Al Foster</artist>
+		</artists>
+		<title>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</title>
 	</session>
 	<session id="id0x52ac8b0" av="V">
 		<date type="xs:date">1997-10-20</date>
@@ -9849,8 +9872,10 @@ file]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
+			<artist>Yoshiaki Masuo</artist>
+			<artist>Rufus Harley</artist>
 		</artists>
-		<title/>
+		<title>Rescued!</title>
 	</session>
 	<session id="id0x5b7a300" av="V">
 		<date type="xs:date">2014-08-03</date>
