@@ -1626,7 +1626,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title/>
+		<title>Vintage Jazz Collection JAZZ 625: Cannonball Adderley Sextet I &amp; II (VAP Video)</title>
 	</session>
 	<session id="id0x12f9db0" av="V">
 		<date type="xs:date">1964-05-12</date>
@@ -1637,8 +1637,8 @@
 			<country>U.K.</country>
 		</location>
 		<length>27min</length>
-		<source>TV</source>
-		<format resolution="PAL">DVD</format>
+		<source></source>
+		<format resolution="NTSC">VCD</format>
 		<quality>C</quality>
 		<lineage/>
 		<remarks/>
@@ -1838,7 +1838,7 @@
 		<format resolution="PAL">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
-		<remarks>audio fragments missing</remarks>
+		<remarks>audio dropouts</remarks>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
