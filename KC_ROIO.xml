@@ -13317,6 +13317,49 @@ correction]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1966-09-08</date>
+		<location>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1966-09-18</date>
+		<location>
+			<festival>Monterey Jazz Festival</festival>
+			<city>Monterey CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</title>
+	</session>
 	<session id="id0x3e913a0" av="A">
 		<date type="xs:date">1966-10-30</date>
 		<location>
@@ -13339,6 +13382,29 @@ correction]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1966-10-29</date>
+		<location>
+			<venue>Aulaen Hall</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title label="Atlantic">Charles Lloyd - The Flowering of the Original (Atlantic WPCR-27266)</title>
+		<title label="Atlantic">Charles Lloyd In Europe (Atlantic WPCR-27207)</title>
+	</session>
 	<session id="id0x3f2f900" av="A">
 		<date type="xs:date">1966-10-30</date>
 		<location>
@@ -13360,6 +13426,43 @@ correction]]></lineage>
 			<artist>Jack DeJohnette</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1967-01-27</date>
+		<location>
+			<venue>Fillmore West</venue>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Ron McClure</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title label="Atlantic">Charles Lloyd - Love-In (Atlantic)</title>
+		<title label="Atlantic">The Charles Lloyd Quartet - Journey Within (Jazz Best Collection 1000)</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1967-05-14</date>
+		<location>
+			<venue>Kalevi Sport Hall</venue>
+			<city>Talinn</city>
+			<country>Estonia</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Ron McClure</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title label="Atlantic">Charles Lloyd In The Soviet Union (Atlantic)</title>
 	</session>
 	<session id="id0x3f2fd60" av="A">
 		<date type="xs:date">1967-07-11</date>
