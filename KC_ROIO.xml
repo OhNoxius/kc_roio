@@ -13405,6 +13405,29 @@ correction]]></lineage>
 		<title/>
 	</session>
 	<session av="A">
+		<date type="xs:date">1966-07-23</date>
+		<location>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>0:38:04</length>
+		<source station="WDR3" bitrate="320">DVB</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac
+			(mpeg1 layer 2/320 kbps) [radio station - wdr3]]]></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>			
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
 		<date type="xs:date">1966-09-08</date>
 		<location>
 			<city>N.Y.C.</city>
@@ -13446,6 +13469,53 @@ correction]]></lineage>
 			<artist>Jack DeJohnette</artist>
 		</artists>
 		<title label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1966-10-25</date>
+		<location>
+			<venue>Studio 1</venue>
+			<city>Köln</city>
+			<country>Germany</country>
+		</location>
+		<length>0:09:22</length>
+		<source station="WDR3" bitrate="320">DVB</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac
+			(mpeg1 layer 2/320 kbps) [radio station - wdr3]]]></lineage>
+		<remarks/>
+		<artists>
+			<artist>Orchestra Kurt Edelhagen</artist>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>			
+		</artists>
+		<title></title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1966-07-26</date>
+		<location>
+			<venue>Guerzenich</venue>
+			<city>Köln</city>
+			<country>Germany</country>
+		</location>
+		<length>0:24:22</length>
+		<source station="WDR3" bitrate="320">DVB</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac
+			(mpeg1 layer 2/320 kbps) [radio station - wdr3]]]></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>			
+		</artists>
+		<title></title>
 	</session>
 	<session id="id0x3e913a0" av="A">
 		<date type="xs:date">1966-10-30</date>
