@@ -2000,11 +2000,15 @@
 		<title/>
 	</session>
 	<session id="id0x1300260" av="V">
-		<date type="xs:date">1982-xx-xx</date>
-		<location/>
-		<length/>
-		<source/>
-		<format/>
+		<date type="xs:date">1982-07-25</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>1:05:47</length>
+		<source station="RTSR">TV</source>
+		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
