@@ -17265,6 +17265,27 @@ check)]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1974-04-14</date>
+		<location>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Lee Konitz</artist>
+			<artist>Chet Baker</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Charlie Haden</artist>
+			<artist>Beaver Harris</artist>			
+		</artists>
+		<title>Lee Konitz meets Keith Jarrett, Chet Baker &amp; Bill Evans: Live in Europe (Historical Master, Limited Edition No. 0918, Jazzview)</title>
+	</session>
 	<session id="id0xd9e7b0" av="A">
 		<date type="xs:date">1974-04-18</date>
 		<location>
