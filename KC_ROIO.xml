@@ -2751,6 +2751,49 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		</artists>
 		<title/>
 	</session>
+	<session av="V">
+		<date type="xs:date">1974-07-25</date>
+		<location>
+			<festival>Jazz à Juan: Juan-les-Pins Jazz Festival</festival>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>0:25:34</length>
+		<source>DVB</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[ORTF (French Television) archives > ? > DVD received in trade > HDD]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Holland</artist>
+			<artist>Sam Rivers</artist>
+			<artist>Anthony Braxton</artist>
+			<artist>Barry Altschul</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1986-05-31</date>
+		<location>
+			<festival>Zelt-Musik-Festival</festival>
+			<city>Freiburg</city>
+			<country>Germany</country>
+		</location>
+		<length>0:58:54</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Holland</artist>
+			<artist>Kenny Wheeler</artist>
+			<artist>Steve Coleman</artist>
+			<artist>Robin Eubanks</artist>
+			<artist>Marvin "Smithy" Smith</artist>
+		</artists>
+		<title>Dave Holland Quintet (ArtHaus)</title>
+	</session>
 	<session id="id0x16206c0" av="V">
 		<date type="xs:date">2007-07-20</date>
 		<location>
@@ -24697,6 +24740,83 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Steve Allen</artist>
 		</artists>
 		<title>Al Fresco DVD V</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-09-xx</date>
+		<location>
+			<city>Gotheborg</city>
+			<country>Sweden</country>
+		</location>
+		<length>0:02:18</length>
+		<source>VHS</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage><![CDATA[Unknown generation VHS-Tape --> Dazzle-Box / PC (Studio 9) --> DVD --> You]]></lineage>
+		<remarks>It makes much more fun with sound, so I overdubbed a little music:
+			"Big Leg Emma", from the CD-Bootleg "Live &amp; Alive" imtrat, Cat.-No.: imt 900.001
+		</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-10-09</date>
+		<location>
+			<show>Hoepla</show>
+			<city>N.Y.C.</city>
+			<country>The Netherlands</country>
+		</location>
+		<length>8min</length>
+		<source>web</source>
+		<format resolution="PAL">mpg</format>
+		<quality/>
+		<lineage><![CDATA[Digital (MPEG Stream) --> PC (ProjectX/Mplex) --> You]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+		</artists>
+		<title>Hoepla for Y!</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-10-10</date>
+		<location>
+			<venue>The Bitter End</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>8min</length>
+		<source>web</source>
+		<format resolution="720p">AVC</format>
+		<quality/>
+		<lineage>Historic Films</lineage>
+		<remarks>timecoded</remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-10-10</date>
+		<location>
+			<venue>The Bitter End</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:07:03</length>
+		<source></source>
+		<format resolution="NTSC">mpg</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Frank Zappa</artist>
+			<artist type="band">The Mothers of Invention</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1962-01-xx</date>
