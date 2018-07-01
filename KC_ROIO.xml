@@ -15904,6 +15904,27 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1960-06-10</date>
+		<location>
+			<venue>Jazz Gallery</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:25:52</length>
+		<source>AUD</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[AUD (B-) CDr from Trade > eac > Flac 8]]></lineage>
+		<remarks>speed corrected</remarks>
+		<artists>
+			<artist main="true">John Coltrane</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Steve Davis</artist>
+			<artist>Pete La Roca</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x5e88170" av="A">
 		<date type="xs:date">1960-06-10</date>
 		<location>
@@ -15925,27 +15946,6 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x5e885d0" av="A">
-		<date type="xs:date">1960-07-xx</date>
-		<location>
-			<venue>Jazz Gallery</venue>
-			<city>N.Y.C.</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>85min</length>
-		<source>AUD</source>
-		<format/>
-		<quality>B-</quality>
-		<lineage><![CDATA[CDr from Trade > eac > Flac 8]]></lineage>
-		<remarks/>
-		<artists>
-			<artist main="true">John Coltrane</artist>
-			<artist>McCoy Tyner</artist>
-			<artist>Steve Davis</artist>
-			<artist>Pete La Roca</artist>
-		</artists>
-		<title/>
-	</session>
 	<session id="id0x5eaaae0" av="A">
 		<date type="xs:date">1961-03_10-xx</date>
 		<location>
@@ -15957,8 +15957,9 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		<source>FM</source>
 		<format/>
 		<quality>C</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[radio broadcast
+			Porter master cass > my cass. (maxell chrome) > NAK w-azimuth adjust > CDR standalone > Flac > world]]></lineage>
+		<remarks>pitch corrected</remarks>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
@@ -16023,7 +16024,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>France</country>
 		</location>
 		<length>1:44:14</length>
-		<source/>
+		<source>pre-FM</source>
 		<format/>
 		<quality>A-</quality>
 		<lineage><![CDATA[Magnetic 114/115 MAG SILVers > Flac > World]]></lineage>
@@ -16082,14 +16083,14 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<title/>
 	</session>
 	<session id="id0x601bea0" av="A">
-		<date type="xs:date">1961-11-22</date>
+		<date type="xs:date" set="2">1961-11-22</date>
 		<location>
 			<venue>Kulttuuritalo</venue>
 			<city>Helsinki</city>
 			<country>Finland</country>
 		</location>
 		<length>0:44:17</length>
-		<source>preFM</source>
+		<source></source>
 		<format/>
 		<quality/>
 		<lineage/>
@@ -16102,6 +16103,31 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Elvin Jones</artist>
 		</artists>
 		<title>Live Trane: Underground</title>
+	</session>
+	<session av="A">
+		<date type="xs:date" set="2">1961-11-22</date>
+		<location>
+			<venue>Kulttuuritalo</venue>
+			<city>Helsinki</city>
+			<country>Finland</country>
+		</location>
+		<length>0:44:33</length>
+		<source>preFM</source>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[Reels(?) - dat - eac - cdr - eac - flac > 
+			
+			Goody's additional lineage:
+			TLH (WAV) > Audition (Pitch Bender*; Track 04 - Reduced glitch at 2:25:57; Tracking; Small edits to smooth transitions) > TLH (FLAC Level 8; Align sector boundaries; .ffp)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">John Coltrane</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Reggie Workman</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session id="id0x601c350" av="A">
 		<date type="xs:date">1961-11-23</date>
@@ -16200,12 +16226,34 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Stuttgart</city>
 			<country>Germany</country>
 		</location>
-		<length>0:28:35</length>
-		<source>DVB-C</source>
-		<format/>
+		<length>0:21:16</length>
+		<source station="SWR2" DVB="true" bitrate="256">DVB-C</source>
+		<format bitrate="256">mp2</format>
 		<quality>A</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[DVB-C (256 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.]]></lineage>
+		<remarks>Edits were made with the mp3DirectCut software.</remarks>
+		<artists>
+			<artist main="true">John Coltrane</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Reggie Workman</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1963-11-04</date>
+		<location>
+			<venue>Mozart-Saal/Liederhalle</venue>
+			<city>Stuttgart</city>
+			<country>Germany</country>
+		</location>
+		<length>0:07:19</length>
+		<source station="SWR2" DVB="true" bitrate="256">DVB-C</source>
+		<format bitrate="256">mp2</format>
+		<quality>A</quality>
+		<lineage><![CDATA[DVB-C (256 kbps/ 48 khz) > Technotrend TT-1501 DVB-C PCI card > harddisk.]]></lineage>
+		<remarks>Edits were made with the mp3DirectCut software.</remarks>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 			<artist>Eric Dolphy</artist>
@@ -16326,17 +16374,20 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<title/>
 	</session>
 	<session id="id0x68d5530" av="A">
-		<date type="xs:date">1962-10-xx</date>
+		<date type="xs:date">1962-11-17</date>
 		<location>
-			<venue>Coltrane Live in Paris</venue>
+			<venue>Olympia</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>0:52:43</length>
-		<source>SBD</source>
+		<length>1:06:17</length>
+		<source></source>
 		<format/>
-		<quality>A</quality>
-		<lineage/>
+		<quality></quality>
+		<lineage><![CDATA[CD-r(with flac files) in trade> Audacity (volume adjustment - noises here and there) > Flac > dime  
+						Goody adds: 
+			dBpoweramp (WAV) > Cool Edit Pro (Pitch Bender - various and sundry offsets) > 
+			TLH (FLAC, ffp) ]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
@@ -16350,15 +16401,15 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 	<session id="id0x70479f0" av="A">
 		<date type="xs:date">1962-11-17</date>
 		<location>
-			<venue>Olympia Theatre</venue>
+			<venue>Olympia</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>92min</length>
+		<length>1:32:08</length>
 		<source/>
 		<format/>
 		<quality>B-</quality>
-		<lineage/>
+		<lineage><![CDATA[CD-r(with flac files) in trade> Audacity (volume adjustment - noises here and there) > Flac > dime]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
@@ -16369,6 +16420,49 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1962-11-17</date>
+		<location>
+			<venue>Olympia</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:19:30</length>
+		<source>FM</source>
+		<format/>
+		<quality></quality>
+		<lineage><![CDATA[Flac files frem WEb > Audacity (volume adjustment - noises here and there) > TLH (SBE Flac 8) > dime  ]]></lineage>
+		<remarks>SOURCE IMPROVED, Pitch Corrected Edition</remarks>
+		<artists>
+			<artist type="band">John Coltrane Quartet</artist>
+			<artist main="true">John Coltrane</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Jimmy Garrison</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1962-xx-xx</date>
+		<location>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:44:10</length>
+		<source></source>
+		<format/>
+		<quality></quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band">John Coltrane Quartet</artist>
+			<artist main="true">John Coltrane</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Jimmy Garrison</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title>trane underground 1 &amp; 2 compilation</title>
+	</session>
 	<session id="id0x7047e50" av="A">
 		<date type="xs:date">1962-11-20</date>
 		<location>
@@ -16377,10 +16471,10 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>Finland</country>
 		</location>
 		<length>80min</length>
-		<source/>
+		<source>AUD</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage/>
+		<lineage><![CDATA[?? >> CDR >> EAC >> FLAC]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
@@ -16697,11 +16791,11 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<city>Juan-les-Pins, Antibes</city>
 			<country>France</country>
 		</location>
-		<length/>
+		<length>1:07:44</length>
 		<source>SBD</source>
 		<format/>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[SBD>Reel(m)>DATC>CDR]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
@@ -16730,6 +16824,29 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
 			<artist>Jimmy Garrison</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title>Sunship Session</title>
+	</session>
+	<session av="A">
+		<date type="xs:date">1965-09-30</date>
+		<location>
+			<venue>The Penthouse</venue>
+			<city>Seattle WA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:08:55</length>
+		<source>FM</source>
+		<format/>
+		<quality/>
+		<lineage/>
+		<remarks>pitch fixed</remarks>
+		<artists>
+			<artist main="true">John Coltrane</artist>
+			<artist>Pharoah Sanders</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Jimmy Garrison</artist>
+			<artist>Donal Garrett</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
 		<title>Sunship Session</title>
