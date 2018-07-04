@@ -10165,10 +10165,15 @@ file]]></lineage>
 		<title>Classic Soul Compilation DVD</title>
 	</session>
 	<session id="id0x5c3e170" av="V">
-		<date type="xs:date">1972-xx-xx</date>
-		<location/>
+		<date type="xs:date">1972-11-25</date>
+		<location>
+			<festival>KROQ's Ultimate 'Roq' Concert</festival>
+			<venue>Memorial Coliseum</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
 		<length>0:30:29</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
@@ -10176,7 +10181,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Coliseum Concert</title>
+		<title>The Coliseum Concert</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1972-11-19</date>
