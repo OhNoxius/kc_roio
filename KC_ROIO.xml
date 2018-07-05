@@ -28155,10 +28155,33 @@ Video_ts]]></lineage>
 			<city>Offenbach</city>
 			<country>Germany</country>
 		</location>
+		<length>2:07:50</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks>sharper/clearer than Art of Groove NTSC version</remarks>
+		<artists>
+			<artist main="true" type="band">Weather Report</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Jaco Pastorius</artist>
+			<artist>Peter Erskine</artist>
+		</artists>
+		<title label="Sony">Weather Report ‎– Forecast Tomorrow (Sony Legacy)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1978-09-28</date>
+		<location>
+			<show>Rockpalast</show>
+			<venue>Stadthalle</venue>
+			<city>Offenbach</city>
+			<country>Germany</country>
+		</location>
 		<length>2:09:55</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality>A</quality>
+		<quality>A-</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
