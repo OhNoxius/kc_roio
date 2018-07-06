@@ -13319,17 +13319,16 @@ flac]]></lineage>
 	<session id="id0x3dfa620" av="A">
 		<date type="xs:date">2011-03-05</date>
 		<location>
-			<venue>Brad Mehldau Masterclass</venue>
 		</location>
 		<length>2:33:55</length>
 		<source>AUD</source>
-		<format/>
+		<format bitrate="128">mp3</format>
 		<quality>A-</quality>
-		<lineage><![CDATA[mp3]]></lineage>
-		<remarks/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks>masterclass</remarks>
 		<artists>
 			<artist main="true">Brad Mehldau</artist>
-			<artist>students</artist>
+			<dummy>students</dummy>
 		</artists>
 		<title/>
 	</session>
@@ -18179,10 +18178,35 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="V">
+		<date type="xs:date">2012-01-17</date>
+		<location>
+			<show>Live In Session On MBE</show>
+			<venue>KCRW FM</venue>
+			<city>Santa Monica CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source>web</source>
+		<format resolution="360p">flash</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Mark de Clive-Lowe</artist>
+			<artist>Nia Andrews</artist>
+			<artist>Tim Lefebvre</artist>
+			<artist>Dexter Story</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x2850170" av="A">
 		<date type="xs:date">2012-01-17</date>
 		<location>
-			<venue>MBE - KCRW FM</venue>
+			<show>Live In Session On MBE</show>
+			<venue>KCRW FM</venue>
+			<city>Santa Monica CA</city>
+			<country>U.S.A.</country>
 		</location>
 		<length/>
 		<source>FM</source>
