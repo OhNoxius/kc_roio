@@ -3194,7 +3194,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage/>
+		<lineage trader="GuitarGoldmine"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Egberto Gismonti</artist>
@@ -9242,11 +9242,33 @@ Subs)]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:50:28</length>
-		<source>TV</source>
+		<source>Pro-shot</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C-</quality>
-		<lineage/>
-		<remarks/>
+		<lineage trader="GuitarGoldmine"></lineage>
+		<remarks>screen capture of DVD-playback. Comes from compilation DVD</remarks>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Al Di Meola</artist>
+			<artist>Lenny White</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-11-03</date>
+		<location>
+			<venue>Evergreen State College</venue>
+			<city>Olympia WA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:50:28</length>
+		<source>Pro-shot</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>C--</quality>
+		<lineage trader="RandyB"></lineage>
+		<remarks>looks 1 gen worse than other version..lot of hiccups also</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -22042,8 +22064,30 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<length>2:01:08</length>
 		<source>SBD</source>
 		<format/>
-		<quality>B</quality>
+		<quality>B-</quality>
 		<lineage><![CDATA[soundboard reel (2nd generation, all-reel no dolby lineage)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Al Di Meola</artist>
+			<artist>Lenny White</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">1974-11-03</date>
+		<location>
+			<venue>Evergreen State College</venue>
+			<city>Olympia WA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>2:01:35</length>
+		<source>SBD</source>
+		<format/>
+		<quality>B-</quality>
+		<lineage><![CDATA[SB > reel > (trade) videotape. Transferred by stevemtl: videotape > Proscan PSVR82 > D500 (SBM) > R44 (16/48) > HD. Soundforge (trim, edit, fades) > R8brain (downsample to 16/44.1) > CDwave (track cut) > TLH (flac level 8, ffp, md5) > TLH (torrent) > DIME]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
