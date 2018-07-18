@@ -187,7 +187,7 @@
 			<artist type="band">Jazz Messengers</artist>
 			<artist>Wayne Shorter</artist>
 			<artist>Freddie Hubbard</artist>
-			<artist>Cedar Walton ?</artist>
+			<dummy>Cedar Walton ?</dummy>
 			<artist>Jymie Merritt ?</artist>
 		</artists>
 		<title/>
@@ -4512,7 +4512,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 			<artist type="band" main="true">Guitar Trio</artist>
 			<artist>Larry Coryell</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 		</artists>
 		<title>Meeting of the Spirits</title>
 	</session>
@@ -4534,7 +4534,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist type="band" main="true">Guitar Trio</artist>
 			<artist>Al Di Meola</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 		</artists>
 		<title>Friday Night in San Francisco</title>
 	</session>
@@ -4555,7 +4555,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist type="band" main="true">Guitar Trio</artist>
 			<artist>Al Di Meola</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 		</artists>
 		<title/>
 	</session>
@@ -4577,7 +4577,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist type="band" main="true">Guitar Trio</artist>
 			<artist>Al Di Meola</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 		</artists>
 		<title/>
 	</session>
@@ -11571,35 +11571,35 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
-			<artist type="band">Monty Alexander Trio</artist>
+			<dummy type="band">Monty Alexander Trio</dummy>
 			<artist>Monty Alexander</artist>
 			<artist type="band">Escoude Trio</artist>
-			<artist type="artist">Oscar Peterson trio</artist>
+			<dummy type="artist">Oscar Peterson trio</dummy>
 			<artist>Oscar Peterson</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
-			<artist type="band">Richard Raux Quartet</artist>
+			<dummy type="band">Richard Raux Quartet</dummy>
 			<artist>Richard Raux</artist>
-			<artist type="band">Patrick Saussois Quintet</artist>
+			<dummy type="band">Patrick Saussois Quintet</dummy>
 			<artist>Patrick Saussois</artist>
 			<artist>Francis Gesmier</artist>
 			<artist>Nicolas Petitjean</artist>
-			<artist type="band">Nicole Croisille Group</artist>
+			<dummy type="band">Nicole Croisille Group</dummy>
 			<artist>Nicole Croisille</artist>
 			<artist>Tony Bonfis</artist>
 			<artist>Franc Sicbon</artist>
 			<artist>Cristian Lessé</artist>
-			<artist type="band">Toots Thielemans Quartet</artist>
+			<dummy type="band">Toots Thielemans Quartet</dummy>
 			<artist>Toots Thielemans</artist>
 			<artist>Fred Hersh</artist>
 			<artist>Marc Johnson</artist>
 			<artist>Joey Baron</artist>
-			<artist type="band">Hermeto Pascoal Group</artist>
+			<dummy type="band">Hermeto Pascoal Group</dummy>
 			<artist>Hermeto Pascoal</artist>
-			<artist type="band">Pat Metheny Trio</artist>
+			<dummy type="band">Pat Metheny Trio</dummy>
 			<artist>Pat Metheny</artist>
 			<artist>Charlie Haden</artist>
 			<artist>Billy Higgins</artist>
-			<artist type="band">Pino Danielli Group</artist>
+			<dummy type="band">Pino Danielli Group</dummy>
 			<artist>Pino Danielli</artist>
 		</artists>
 		<title>Jazz on French TV</title>
@@ -11721,9 +11721,11 @@ AC3@256 ]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
-			<artist>Jackson 5</artist>
+			<artist type="band">The Jackson 5</artist>
+			<artist>Michael Jackson</artist>
 			<artist>The Temptations</artist>
-			<artist>Diana Ross &amp; The Supremes</artist>
+			<dummy type="band">Diana Ross &amp; The Supremes</dummy>
+			<artist>Diana Ross</artist>
 			<artist>Stevie Wonder</artist>
 			<artist>Al Green</artist>
 			<artist>Minnie Ripperton</artist>
@@ -11878,33 +11880,33 @@ AC3@256 ]]></lineage>
 			<dummy type="band">arrival</dummy>
 			<artist>Marilyn Crispell</artist>
 			<artist>Howard Johnson</artist>
-			<artist type="band">Ed Blackwell Quartet</artist>
+			<dummy type="band">Ed Blackwell Quartet</dummy>
 			<artist>Ed Blackwell</artist>
 			<artist>Baikida Carroll</artist>
 			<artist>Marilyn Crispell</artist>
 			<artist>Julius Hemphill</artist>
-			<artist type="band">Karl Berger Quintet</artist>
+			<dummy type="band">Karl Berger Quintet</dummy>
 			<artist>Karl Berger</artist>
 			<artist>Ed Blackwell</artist>
 			<artist>Aiyb Dieng</artist>
 			<artist>Nana Vasconcelos</artist>
 			<artist>Collin Walcott</artist>
-			<artist type="band">Dewey Redman Quartet</artist>
+			<dummy type="band">Dewey Redman Quartet</dummy>
 			<artist>Dewey Redman</artist>
 			<artist>Pat Metheny</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
-			<artist type="band">Anthony Braxton</artist>
+			<dummy type="band">Anthony Braxton</dummy>
 			<artist>Anthony Braxton</artist>
-			<artist type="band">Anthony Braxton Quartet</artist>
+			<dummy type="band">Anthony Braxton Quartet</dummy>
 			<artist>Anthony Braxton</artist>
 			<artist>Chick Corea</artist>
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
-			<artist type="band">Konitz/Corea duo</artist>
+			<dummy type="band">Konitz/Corea duo</dummy>
 			<artist>Lee Konitz</artist>
 			<artist>Chick Corea</artist>
-			<artist type="band">all-stars</artist>
+			<dummy type="band">all-stars</dummy>
 			<artist>Anthony Braxton</artist>
 			<artist>Lee Konitz</artist>
 			<artist>Pat Metheny</artist>
@@ -12183,7 +12185,7 @@ AC3@256 ]]></lineage>
 			<artist>Wayne Shorter</artist>
 			<artist>Marilyn Mazur</artist>
 			<artist>Jim Beard</artist>
-			<artist>Teri-Lynn Carrington</artist>
+			<artist>Terri Lyne Carrington</artist>
 			<artist>Carl James</artist>
 			<dummy type="band">Gadd Gang</dummy>
 			<artist>Steve Gadd</artist>
@@ -12272,7 +12274,7 @@ AC3@256 ]]></lineage>
 			<artist>Steve Logan</artist>
 			<artist>Ricky Peterson</artist>
 			<artist>Don Alias</artist>
-			<artist>Teri-Lynn Carrington</artist>
+			<artist>Terri Lyne Carrington</artist>
 			<dummy type="band">Miles Davis Group</dummy>
 			<artist>Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
@@ -12554,7 +12556,7 @@ AC3@256 ]]></lineage>
 			<artist>George Benson</artist>
 			<artist>Larry Coryell</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 			<artist>George Duke</artist>
 			<artist>Ray Brown</artist>
 			<artist>Dennis Chambers</artist>
@@ -12639,7 +12641,9 @@ AC3@256 ]]></lineage>
 			<artist>Frank Lacy</artist>
 			<artist>Laurent Coq &amp; Jerome Sabbaqh</artist>
 			<artist>Igmar Thomas &amp; The Cypher</artist>
-			<artist>Taylor McFerrin &amp; José James</artist>
+			<dummy type="band">Taylor McFerrin &amp; José James</dummy>
+			<artist>Taylor McFerrin</artist>
+			<artist>José James</artist>
 		</artists>
 		<title>New York Jazzed Out: 10 days into the New York scene</title>
 	</session>
@@ -14138,7 +14142,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
-			<artist>uncertain</artist>
+			<dummy>uncertain</dummy>
 			<artist>Joe Farrell</artist>
 			<artist>Stanley Clarke</artist>
 			<artist>Airto Moreira</artist>
@@ -16936,7 +16940,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist main="true">John McLaughlin</artist>
 			<artist>Philip Catherine</artist>
 			<artist>Larry Coryell</artist>
-			<artist>Paco De Lucia</artist>
+			<artist>Paco de Lucia</artist>
 		</artists>
 		<title/>
 	</session>
@@ -26865,12 +26869,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Chet Baker</artist>
 			<artist>Zoot Sims</artist>
 			<artist>Wes Montgomery</artist>
-			<artist type="band">Toshiko Akiyoshi-Lew Tabackin Big Band</artist>
+			<dummy type="band">Toshiko Akiyoshi-Lew Tabackin Big Band</dummy>
 			<artist>Toshiko Akiyoshi</artist>
 			<artist>Lew Tabackin</artist>
-			<artist type="band">Shelly Manne Quintet</artist>
+			<dummy type="band">Shelly Manne Quintet</dummy>
 			<artist>Shelly Manne</artist>
-			<artist type="band">Phineas Newborn Jr. Trio</artist>
+			<dummy type="band">Phineas Newborn Jr. Trio</dummy>
 			<artist>Phineas Newborn Jr.</artist>
 			<artist>Al McKibbon</artist>
 			<artist>Kenny Dennis</artist>
@@ -27226,7 +27230,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>The Staple Singers</artist>
 			<artist>The Temptations</artist>
 			<artist>The Chi lites</artist>
-			<artist>The Main Ingerdient</artist>
+			<artist>The Main Ingredient</artist>
 			<artist>The O'Jays</artist>
 			<artist>Isaac Hayes</artist>
 			<artist>Zulema</artist>
@@ -29578,7 +29582,7 @@ Video_ts]]></lineage>
 			<artist type="band" main="true">The Guitar Trio</artist>
 			<artist>Paco de Lucia</artist>
 			<artist>John McLaughlin</artist>
-			<artist>Al di Meola</artist>
+			<artist>Al Di Meola</artist>
 		</artists>
 		<title>Audi Jazz Promotional DVD</title>
 	</session>
