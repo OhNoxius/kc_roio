@@ -360,6 +360,28 @@
 		</artists>
 		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1965-11-03</date>
+		<location>
+			<festival>Paris Jazz Festival</festival>
+			<venue>Maison de la Mutualité</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:40:16</length>
+		<source>REEL</source>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B-</quality>
+		<lineage trader="Franz Hoffman"></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Lee Konitz</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Alan Dawson</artist>
+		</artists>
+		<title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+	</session>
 	<session id="id0x11816c0" av="V" official="true">
 		<date type="xs:date">1970-xx-xx</date>
 		<location>
@@ -1845,6 +1867,29 @@
 			<artist type="band">Rufus</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1966-07-23</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<venue>R.T.B. Studio</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:27:48</length>
+		<source>REEL</source>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B</quality>
+		<lineage trader="Franz Hoffman"></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band">Charles Lloyd Quartet</artist>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Cecil McBee</artist>
+			<artist>Jack DeJohnette</artist>
+		</artists>
+		<title>DVD-155  `66 Charles Lloyd &amp; Keith Jarrett; `70-79 Don Cherry,  `98 Phil Woods &amp; Johnny Griffin</title>
 	</session>
 	<session id="id0x12fc5d0" av="V">
 		<date type="xs:date">1966-07-23</date>
@@ -27098,10 +27143,34 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>Antwerpen</city>
 			<country>Belgium</country>
 		</location>
+		<length>0:53:06</length>
+		<source>web</source>
+		<format resolution="PAL">AVC</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]>https://www.sonuma.be/archive/concert-de-louis-armstrong-a-anvers</lineage>
+		<remarks/>
+		<artists>
+			<artist type="band">Louis Armstrong All Stars</artist>
+			<artist main="true">Louis Armstrong</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Trummy Young</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Velma Middleton</artist>
+		</artists>
+		<title>Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1959-02-04</date>
+		<location>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+		</location>
 		<length>0:51:46</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality>B-</quality>
+		<quality>C+</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
 		<artists>
@@ -29713,5 +29782,108 @@ Video_ts]]></lineage>
 			<artist>Jay-Z</artist>
 		</artists>
 		<title>Hip Hop at the BBC</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1957-10-15</date>
+		<location>
+			<show>The Nat King Cole Show</show>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:22:05</length>
+		<source>REEL+DVD</source>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B-</quality>
+		<lineage trader="Franz Hoffman"></lineage>
+		<remarks>Norman Granz's Jazz At The Philarmonic</remarks>
+		<artists>
+			<artist main="true">Nat King Cole</artist>
+			<artist>Oscar Peterson</artist>
+			<artist>Herb Ellis</artist>
+			<artist>Ray Brown</artist>
+			<artist>Coleman Hawkins</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Illinois Jacquet</artist>
+			<artist>Flip Phillips</artist>
+			<artist>Stan Getz</artist>
+			<artist>Jo Jones</artist>
+			<artist>Ella Fitzgerald</artist>
+			<artist>Nelson Riddle</artist>
+			<host>Norman Granz</host>
+		</artists>
+		<title>DVD-9b  JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1982-07-23_25</date>
+		<location>
+			<festival>Montreux Jazz Festival</festival>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:58:33</length>
+		<source>REEL</source>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B-</quality>
+		<lineage trader="Franz Hoffman"></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Stevie Ray Vaughan</dummy>
+			<artist>Stevie Ray Vaughan</artist>
+			<artist>Johnny Copelan</artist>
+			<artist>Reese Wynans</artist>
+			<artist>Tommy Shannon</artist>
+			<artist>Chris Layton</artist>
+			<dummy type="band">Dave Brubeck</dummy>
+			<artist>Dave Brubeck</artist>
+			<artist>Bill Smith</artist>
+			<artist>Chris Brubeck</artist>
+			<artist>Randy Jones</artist>
+			<artist type="band">Modern Jazz Quartet</artist>
+			<artist>John Lewis</artist>
+			<artist>Milt Jackson</artist>
+			<artist>Percy Heath</artist>
+			<artist>Connie Kay</artist>
+			<dummy type="band">B.B. King</dummy>
+			<artist>B.B. King</artist>
+			<artist>James Bolden</artist>
+			<artist>Edgar Synigal</artist>
+			<artist>Joseph Carrier</artist>
+			<artist>Leon Warren</artist>
+			<artist>Russel Jackson</artist>
+			<artist>Herman Jackson</artist>
+			<dummy type="band">Didier Lockwood</dummy>
+			<artist>Didier Lockwood</artist>
+			<artist>David Sancious</artist>
+			<artist>Barry Finnerty</artist>
+			<artist>Alphonso Johnson</artist>
+			<artist>Richie Morales</artist>
+			<dummy type="band">Mose Allison trio</dummy>
+			<artist>Mose Allison</artist>
+			<artist>Jack Bruce</artist>
+			<artist>Billy Cobham</artist>
+			<dummy type="band">Wynton Marsalis quintet</dummy>
+			<artist>Wynton Marsalis</artist>
+			<artist>Branford Marsalis</artist>
+			<artist>Kenny Kirkland</artist>
+			<artist>Phil Bowler</artist>
+			<artist>Jeff 'Tain' Watts</artist>
+			<dummy type="band">John “Hammond” Smith</dummy>
+			<artist>John “Hammond” Smith</artist>
+			<artist type="band">The Lounge Lizards</artist>
+			<artist>John Lurie</artist>
+			<artist>Evan Lurie</artist>
+			<artist>Peter Zummo</artist>
+			<artist>Tony Garnier</artist>
+			<artist>Dougie Browne</artist>
+			<dummy type="band">Lionel Hampton &amp; Lou Donaldson</dummy>
+			<artist>Lionel Hampton</artist>
+			<artist>Lou Donaldson</artist>
+			<artist>Jay McShann</artist>
+			<artist>Leroy Vinnegar</artist>
+			<artist>Jackie Williams</artist>
+			<artist>Slim Gaillard</artist>			
+		</artists>
+		<title>DVD-154 Antibes-79 M.Royal &amp; Sc.Hamilton; Montreux-82; Jazz Off-97: Johnny Griffin; Barney Wilen</title>
 	</session>
 </KC_ROIO>
