@@ -65,12 +65,14 @@
             .btn{
                 -webkit-border-radius:5;
                 -moz-border-radius:5;
-                border-radius:5px;
+                border-radius:8px 8px 0 0;
+                border-bottom: 1px solid transparent;
                 color:#ffffff;
                 font-size:14px;
                 background:#f69c55;
                 padding:4px 8px 4px 8px;
                 text-decoration:none;
+                display: inline;
             }            
             
             .btn:hover{
@@ -78,25 +80,30 @@
                 text-decoration:none;
             }
             
+            .btn:active{
+            	border: 1px solid #000000;
+            	background-color: #ace5cd;
+            }
+            
             a{
                 TEXT-DECORATION:none;
             }
+            
             form{
                 moz-border-radius:10px;
                 webkit-border-radius:10px;
                 border-radius:10px;
                 background-color:#B5C2C7;
-                padding:15px;
+                padding:10px 10px 2px 10px;
                 width:1000px;
                 border-color:#F1F4FE;
                 border-color:rgba(255, 255, 255, .8);
-                margin-bottom:8px;
+                margin-bottom:10px;
             }
             th{
                 FONT-SIZE:78%;
                 MARGIN:0px;
                 COLOR:#000000;
-                
             }
             td{
                 FONT-SIZE:75%;
@@ -426,8 +433,9 @@
                         <td colspan="5" style="border-bottom:none;">
                             <!-- <input id="search" type="button" class="btn" value="search" />
                             <input id="complete" type="button" class="btn" value="show complete list" />-->
-                            <a href="#" id="search" class="btn">search</a>
-                            <a href="#" id="complete" class="btn">show complete list</a>
+                            <a href="#" id="search" class="btn" style="
+                                border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
+                            <a href="#" id="complete" class="btn">listing of shows per artist A-Z</a>
                         </td>
                     </tr>
                 </tbody>
