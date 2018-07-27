@@ -2156,8 +2156,38 @@
 		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
 	</session>
 	<session av="V">
-		<date type="xs:date">1964-04-19</date>
+		<date type="xs:date">1964-04-17</date>
 		<location>
+			<show>Jazz pour tous</show>
+			<venue>Palais des Congrès</venue>
+			<city>Liège</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:32:54</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality>A</quality>
+		<lineage trader="Sonuma"></lineage>
+		<remarks>17/4/1965 - 33 min
+			JAZZ POUR TOUS
+			En 1965, les jazzmen Charles Mingus, Eric Dolphy et leurs musiciens arrivent au Palais des Congrès de Liège et enregistrent un concert pour l'émission "Jazz pour tous". Les autres membres du groupe sont Clifford Jordan (saxophone), Jaki Byard (piano) et Dannie Richmond (batterie). 
+			Serge Leroy (Réalisateur),
+			Nicolas Résimont (Producteur)</remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>Clifford Jordan</artist>
+			<artist>Jaki Byard</artist>
+			<artist>Dannie Richmond</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1964-04-17</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<venue>Palais des Congrès</venue>
+			<city>Liège</city>
 			<country>Belgium</country>
 		</location>
 		<length>33min</length>
@@ -6076,6 +6106,29 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Elvin Jones</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1965-08-01</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<festival>Comblain Jazz Festival</festival>
+			<city>Comblain-la-Tour</city>
+			<country>Belgium</country>
+		</location>
+		<length/>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">John Coltrane Quartet</artist>
+			<artist main="true">John Coltrane</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Jimmy Garrison</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title></title>
 	</session>
 	<session id="id0x524d950" av="V" official="true">
 		<date type="xs:date">1965-08-01</date>
@@ -27144,7 +27197,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Belgium</country>
 		</location>
 		<length>0:53:06</length>
-		<source>web</source>
+		<source station="Sonuma">web</source>
 		<format resolution="PAL">AVC</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]>https://www.sonuma.be/archive/concert-de-louis-armstrong-a-anvers</lineage>
@@ -27159,7 +27212,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Danny Barcelona</artist>
 			<artist>Velma Middleton</artist>
 		</artists>
-		<title>Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</title>
+		<title></title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1959-02-04</date>
@@ -27695,10 +27748,37 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		</artists>
 		<title/>
 	</session>
-	<session av="V" official="true">
-		<date type="xs:date">1964-xx-xx</date>
+	<session av="V">
+		<date type="xs:date">1964-05-02</date>
 		<location>
-			<venue>TV Studios</venue>
+			<show>Jazz pour tous</show>
+			<city>Liège</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:32:08</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>2/5/1964 - 32 min
+			JAZZ POUR TOUS
+			En 1964, le trompettiste américain Chet Baker est de passage à Liège, où réside son ami Jacques Pelzer. Ils enregistrent ensemble une session pour l'émission "Jazz pour tous" diffusée le 2 mai de la même année. Parmi les morceaux interprétés : "Bye Bye Blackbird", "Isn'It Romantic", "Airegin", "Time After Time" et "So What". Les 3 musiciens les accompagnant sont René Urtreger (piano), Luigi Trussardi (contrebasse) et Franco Manzecchi (batterie).
+			Serge Leroy (Réalisateur),
+			Nicolas Résimont (Producteur)</remarks>
+		<artists>
+			<artist main="true">Chet Baker</artist>
+			<artist>Jacques Pelzer</artist>
+			<artist>René Urtreger</artist>
+			<artist>Luigi Trussardi</artist>
+			<artist>Franco Manzecchi</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1964-05-02</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<city>Liège</city>
 			<country>Belgium</country>
 		</location>
 		<length/>
@@ -29996,5 +30076,28 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Jazz On A Summer's Day</title>
 	</session>
-	
+	<session av="V">
+		<date type="xs:date">1965-11-12</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:32:16</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>11/12/1965 - 32 min
+			JAZZ POUR TOUS
+			Concert de Dave Brubeck accompagné de Paul Desmond, Gene Wright et Joe Morello.
+			Paul Roland (Réalisateur),
+			Nicolas Résimont (Producteur)</remarks>
+		<artists>
+			<artist main="true">Dave Brubeck</artist>
+			<artist>Paul Desmond</artist>
+			<artist>Gene Wright</artist>
+			<artist>Joe Morello</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
