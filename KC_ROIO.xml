@@ -29886,4 +29886,115 @@ Video_ts]]></lineage>
 		</artists>
 		<title>DVD-154 Antibes-79 M.Royal &amp; Sc.Hamilton; Montreux-82; Jazz Off-97: Johnny Griffin; Barney Wilen</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1958-07-03_06</date>
+		<location>
+			<festival>Newport Jazz Festival</festival>
+			<city>Newport RI</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:21:28</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A+</quality>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Jimmy Giuffre 3</dummy>
+			<artist>Jimmy Giuffre</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Jim Hall</artist>
+			<dummy type="band">Thelonious Monk Trio</dummy>
+			<artist>Thelonious Monk</artist>
+			<artist>Henry Grimes</artist>
+			<artist>Roy Haynes</artist>
+			<artist type="band">Sonny Stitt and Sal Salvador</artist>
+			<artist>Sonny Stitt</artist>
+			<artist>Sal Salvador</artist>
+			<artist>Gildo Mahones</artist>
+			<artist>Martin Rivera</artist>
+			<artist>Louis Hayes</artist>
+			<dummy type="band">Anita O'Day</dummy>
+			<artist>Anita O'Day</artist>
+			<dummy type="band">George Shearing</dummy>
+			<artist>George Shearing</artist>
+			<artist>Jimmy Bond Jr.</artist>
+			<artist>Ray Mosca</artist>
+			<artist>Emil Richards</artist>
+			<artist>Armando Peraza</artist>
+			<dummy type="band">Dinah Washington</dummy>
+			<artist>Dinah Washington</artist>
+			<artist>Wynton Kelly</artist>
+			<artist>Paul West</artist>
+			<artist>Max Roach</artist>
+			<artist>Don Elliott</artist>
+			<artist>Urbie Green</artist>
+			<artist>Terry Gibbs</artist>
+			<dummy type="band">Gerry Mulligan Quartet</dummy>
+			<artist>Gerry Mulligan</artist>
+			<artist>Art Farmer</artist>
+			<artist>Bill Crow</artist>
+			<artist>Dave Bailey</artist>
+			<dummy type="band">Big Maybelle with Newport Blues Band</dummy>
+			<artist>Big Maybelle</artist>
+			<artist type="band">Newport Blues Band</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Jo Jones</artist>
+			<artist>Jack Teagarden</artist>
+			<artist>Tony Scott</artist>
+			<artist>Buddy Tate</artist>
+			<artist>Rudy Rutherford</artist>
+			<artist>Georgie Auld</artist>
+			<artist>Ray Bryant</artist>
+			<artist>Tommy Bryant</artist>
+			<artist>Kenny Burrell</artist>
+			<dummy type="band">Chuck Berry with Newport Blues Band</dummy>
+			<artist>Chuck Berry</artist>
+			<artist type="band">Newport Blues Band</artist>
+			<artist>Buck Clayton</artist>
+			<artist>Jo Jones</artist>
+			<artist>Jack Teagarden</artist>
+			<artist>Tony Scott</artist>
+			<artist>Buddy Tate</artist>
+			<artist>Rudy Rutherford</artist>
+			<artist>Georgie Auld</artist>
+			<artist>Ray Bryant</artist>
+			<artist>Tommy Bryant</artist>
+			<artist>Kenny Burrell</artist>
+			<dummy type="band">Chico Hamilton Quintet</dummy>
+			<artist>Chico Hamilton</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>John Pisano</artist>
+			<artist>Nathan Gershman</artist>
+			<artist>Harold Gatlor</artist>
+			<dummy type="band">Louis Armstrong and his All-Stars</dummy>
+			<artist>Louis Armstrong</artist>
+			<artist>Trummy Young</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Jack Teagarden</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Velma Middelton</artist>
+			<artist>Bobby Hackett</artist>
+			<dummy type="band">Mahalia Jackson</dummy>
+			<artist>Mahalia Jackson</artist>
+			<artist>Tom Bryant</artist>
+			<artist>Lilton Mitchell</artist>
+			<artist>Mildred Falls</artist>
+			<dummy type="band">Ray Charles</dummy>
+			<artist>Ray Charles</artist>
+			<artist>Marcus Belgrave</artist>
+			<artist>Lee Harper</artist>
+			<artist>David "Fathead" Newman</artist>
+			<artist>Bennie Crawford</artist>
+			<artist>Edgar Willis</artist>
+			<artist>Richie Goldberg</artist>
+			<artist>Marjorie Hendricks</artist>
+			<artist>The Raeletts</artist>
+		</artists>
+		<title>Jazz On A Summer's Day</title>
+	</session>
+	
 </KC_ROIO>
