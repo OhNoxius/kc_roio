@@ -11967,8 +11967,7 @@ AC3@256 ]]></lineage>
 			<artist>Michael Richmond</artist>
 			<artist>William Garfing</artist>
 			<dummy type="band">Marian McPartland</dummy>
-			<artist>Marian Mc Partland</artist>
-			<artist>Gerry Mulligan</artist>
+			<artist>Marian McPartland</artist>
 			<dummy type="band">Gerry Mulligan Quartet</dummy>
 			<artist>Gerry Mulligan</artist>
 			<artist>Renato Sellani</artist>
@@ -28930,13 +28929,12 @@ Video_ts]]></lineage>
 		<title>JAZZ IN ITALY DVD</title>
 	</session>
 	<session av="V">
-		<date type="xs:date">1956-xx-xx</date>
+		<date type="xs:date">1956-02-26</date>
 		<location>
-			<festival>Festival del jazz</festival>
-			<city>Milan</city>
+			<city>Turin</city>
 			<country>Italy</country>
 		</location>
-		<length>0:14:00</length>
+		<length>0:16:09</length>
 		<source station="RAI">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
