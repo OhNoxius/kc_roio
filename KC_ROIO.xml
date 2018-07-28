@@ -30296,4 +30296,271 @@ Video_ts]]></lineage>
 		</artists>
 		<title></title>
 	</session>
+	<session av="V">
+		<date type="xs:date">xxxx-xx-xx</date>
+		<location>
+			<venue>Casino</venue>
+			<city>Spa</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:46:05</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage>https://www.sonuma.be/archive/quartette-earl-hines-le</lineage>
+		<remarks>QUARTETTE EARL HINES (LE)
+			Concert du quartette Earl Hines (piano) enregistré dans la salle de théâtre du casino de Spa. Avec Rudy Ruthersford (saxophone), James Leary (contrebasse), Eddie Graham (batterie) et la chanteuse Marva Josie.
+			Nicolas Dor (Présentateur),
+			Georges Yu (Réalisateur)</remarks>
+		<artists>
+			<artist main="true">Earl Hines</artist>
+			<artist>Rudy Ruthersford</artist>
+			<artist>James Leary</artist>
+			<artist>Eddie Graham</artist>
+			<artist>Marva Josie</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-02-01</date>
+		<location>
+			<show>Pop Shop</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:29:21</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage>https://www.sonuma.be/archive/pop-shop-du-01021973</lineage>
+		<remarks>1/2/1973 - 29 min
+			POP SHOP
+			Concert en studio du groupe Genesis (Tony Banks, Peter Gabirel, Michael Rutherford, Phil Collins et Steve Hackett). Ils interprètent "The fountain of salmacis”, "Twilight", "Musical Box", "The return of the giant hogweed”.
+			John Dauriac (Réalisateur),
+			Nicolas Résimont (Producteur)</remarks>
+		<artists>
+			<artist main="true" type="band">Genesis</artist>
+			<artist>Peter Gabriel</artist>
+			<artist>Phil Collins</artist>
+			<artist>Tony Banks</artist>
+			<artist>Michael Rutherford</artist>
+			<artist>Steve Hackett</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1963-03-10</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:50:08</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Thelonious Monk</artist>
+			<artist>Charlie Rouse</artist>
+			<artist>John Ore</artist>
+			<artist>Frankie Dunlop</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1963-03-10</date>
+		<location>
+			<show>Jazz pour tous</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:27:30</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>29/9/1962 - 28 min
+			JAZZ POUR TOUS
+			Concert donné par le "Modern Jazz Quartet'', un ensemble qui comprend John Lewis au piano, Milton Jackson au vibraharp, Percy Heath à la basse et Connie Kay à la batterie. Ils interprètent : "Ralph's Nero blues", "Fugato from original sin”, "Horo high the moon", “Pierrot", "Django".
+			Serge Leroy (Réalisateur)</remarks>
+		<artists>
+			<artist main="true" type="band">Modern Jazz Quartet</artist>
+			<artist>John Lewis</artist>
+			<artist>Milton Jackson</artist>
+			<artist>Percy Heath</artist>
+			<artist>Connie Kay</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-04-06</date>
+		<location>			
+			<city>Mons</city>
+			<country>Belgium</country>
+		</location>
+		<length>15min</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Sadi Quartet</artist>
+			<artist>Sadi</artist>
+			<artist>Bob Porter</artist>
+			<artist>Roger Vanhaverbeke</artist>
+			<artist>Freddy Rottier</artist>
+		</artists>
+		<title>Three Days In April (Michel Perrin, 1973)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-04-06</date>
+		<location>			
+			<city>Verviers</city>
+			<country>Belgium</country>
+		</location>
+		<length>14min</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">René Thomas</artist>
+			<artist>Freddy De Ronde</artist>
+			<artist>Félix Simtaine</artist>
+		</artists>
+		<title>Three Days In April (Michel Perrin, 1973)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-04-06</date>
+		<location>			
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>15min</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Placebo</artist>
+			<artist>Marc Moulin</artist>
+			<artist>Nicolas Fissette</artist>
+			<artist>Richard Rousselet</artist>
+			<artist>Alex Scorier</artist>
+			<artist>Johnny Dover</artist>
+			<artist>Nicolas Kletchkovsky</artist>
+			<artist>Freddy Rottier</artist>
+		</artists>
+		<title>Three Days In April (Michel Perrin, 1973)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-05-06</date>
+		<location>
+			<show>Cargo de nuit</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:04:42</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>6/5/1987 - 5 min
+			CARGO DE NUIT
+			Rencontre avec Wayne Shorter, en répétitions pour un concert.
+			Wayne Shorter (Intervenant),
+			Marc Moulin (Journaliste),
+			Philippe Pilate (Réalisateur)
+			musique jazz</remarks>
+		<artists>
+			<artist main="true">Wayne Shorter</artist>
+			<artist>Terri Lyne Carrington</artist>
+			<artist>Marilyn Mazur</artist>
+			<interviewer>Marc Moulin</interviewer>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-11-15</date>
+		<location>
+			<show>Cargo de nuit</show>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:07:38</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>15/1/1986 - 8 min
+			CARGO DE NUIT
+			Marc Moulin réalise un entretien avec le trompettiste Miles Davis, figure légendaire du jazz, présent à Bruxelles pour un concert à Forest-National le 31 octobre 1985. Cette interview révèle discrètement une autre facette du jazzman : celle du peintre.
+			Miles Davis (Intervenant),
+			Marc Moulin (Journaliste),
+			Jean-Louis Sbille (Présentateur),
+			Philippe Pilate (Réalisateur)
+			musique jazz,
+			musique,
+			Belgique,
+			Bruxelles</remarks>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<interviewer>Marc Moulin</interviewer>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-11-05</date>
+		<location>
+			<show>Cargo de nuit</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:06:32</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>5/11/1986 - 7 min
+			CARGO DE NUIT
+			Le guitariste de jazz Philip Catherine en studio avec ses musiciens interprète une de ses compositions. Il est interviewé par Jean-Louis Sbille avant sa prestation.
+			Philip Catherine (Intervenant),
+			Philippe Pilate (Réalisateur),
+			Jean-Louis Sbille (Présentateur)
+			musique jazz,
+			Belgique</remarks>
+		<artists>
+			<artist main="true">Philip Catherine</artist>
+			<artist>Hein van de Geyn</artist>
+			<artist>Philip De Cock</artist>
+			<artist>Félix Simtaine</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-11-05</date>
+		<location>
+			<show>Cargo de nuit</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:03:29</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>28/5/1986 - 3 min
+			CARGO DE NUIT
+			Pierre Van Dormael en studio interprète "Everyone goes to Japan".
+			Pierre Van Dormael (Intervenant),
+			Jean-Louis Sbille (Présentateur),
+			Philippe Pilate (Réalisateur)
+			musique jazz,
+			Belgique</remarks>
+		<artists>
+			<artist main="true">Pierre Van Dormael</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
