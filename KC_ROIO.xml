@@ -25233,6 +25233,27 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>San Francisco CA</city>
 			<country>U.S.A.</country>
 		</location>
+		<length>0:29:32</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Sonny Rollins</artist>
+			<artist>Jim Hall</artist>
+			<artist>Bob Cranshaw</artist>
+			<artist>Ben Riley</artist>
+		</artists>
+		<title>Jazz Casual - Sonny Rollins-Carmen McRae (Idem IDVD1005)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1962-03-23</date>
+		<location>
+			<show>Jazz Casual</show>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
 		<length>0:22:02</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
