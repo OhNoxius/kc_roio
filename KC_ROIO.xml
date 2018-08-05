@@ -22308,6 +22308,32 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		</artists>
 		<title/>
 	</session>
+	<session av="A">
+		<date type="xs:date">1975-01-03</date>
+		<location>
+			<venue>The Bottom Line</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:52:00</length>
+		<source>FM</source>
+		<format/>
+		<quality>B+</quality>
+		<lineage>FM broadcast-> unknown tuner and recording device
+			-> my unknown gen Maxell XLIIs cassette
+			-> Nakamichi Dragon (with auto-azimuth) Dolby off, set to type I normal bias
+			-> Zoom H2 -> Goldwave v.5.08 for edits, tracks, channel balance, equalization, maximization at full dynamic range.
+			-> TLH 2.4.1 (build 160)-> FLAC level 8 align on sector boundaries, md5s</lineage>
+		<remarks>VG+ unknown gen.stereo FM tape traded in the 90'. Some hiss in the quieter moments. Samples provided. Digitized, prepared and shared by finkployd49 (August 2018)</remarks>
+		<artists>
+			<artist type="band" main="true">Return to Forever</artist>
+			<artist>Chick Corea</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Al Di Meola</artist>
+			<artist>Lenny White</artist>
+		</artists>
+		<title/>
+	</session>
 	<session id="id0x1367900" av="A">
 		<date type="xs:date">1975-01-29</date>
 		<location>
@@ -30579,6 +30605,155 @@ Video_ts]]></lineage>
 			Belgique</remarks>
 		<artists>
 			<artist main="true">Pierre Van Dormael</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1972-06-08</date>
+		<location>
+			<city>Zaventem</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:03:06</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>BULLETIN D'INFORMATION
+			Rencontre avec le chanteur américain James Brown avant son départ pour le Zaïre.
+			James Brown (Intervenant),
+			(Journaliste)
+			musique pop - rock,
+			politique,
+			minorité,
+			Zaventem,
+			Belgique</remarks>
+		<artists>
+			<artist main="true">James Brown</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1966-05-28</date>
+		<location>
+			<show>Face au public</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:30:09</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my side"…
+			Paul Roland (Réalisateur)</remarks>
+		<artists>
+			<artist main="true">Joan Baez</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1964-12-05</date>
+		<location>
+			<show>Face au public</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:28:57</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my side"…
+			Paul Roland (Réalisateur)</remarks>
+		<artists>
+			<artist main="true">Odetta</artist>
+			<artist>Peter Childs</artist>
+			<artist>Leslie Grinage</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1967-05-29</date>
+		<location>
+			<show>Graffiti</show>
+			<country>Belgium</country>
+		</location>
+		<length>0:05:01</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>29/5/1967 - 5 min
+			GRAFFITI(1966)
+			Olivier Messiaen est un des compositeurs les plus importants du 20ème siècle. Dans cet entretien, il évoque l'influence des chants d'oiseaux dans son œuvre et sa relation avec la pianiste Yvonne Loriod.
+			Olivier Messiaen (Intervenant),
+			Marcel Croës (Journaliste)
+			musique classique,
+			musique</remarks>
+		<artists>
+			<artist main="true">Olivier Messiaen</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1962-06-01</date>
+		<location>
+			<show>L'oeil écoute</show>
+			<venue>Palais des beaux-arts</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:05:01</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>1/6/1962 - 5 min
+			OEIL ECOUTE (L')
+			A l'occasion de son récent concert au Palais des beaux-arts de Bruxelles, rencontre avec Ray Charles. Brève biographie de celui que l'on surnomme "The Genius". Ray Charles exprime son étonnement face à l'enthousiasme pour sa musique en Europe, il présente ses musiciens et arrangeurs et définit ce qu'est la musique soul.
+			Quincy Jones (Sujet),
+			Ray Charles (Intervenant),
+			Benoît Quersin (Journaliste)
+			musique,
+			concert,
+			Bruxelles,
+			Belgique</remarks>
+		<artists>
+			<artist main="true">Ray Charles</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1981-03-27</date>
+		<location>
+			<show>Antenne Soir</show>
+			<city>Liège</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:10:09</length>
+		<source station="Sonuma">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks>27/3/1981 - 10 min
+			ANTENNE SOIR
+			Reportage sur un séminaire de musique jazz qui se déroule au Conservatoire de Liège. Henri Pousseur, directeur du conservatoire, explique la place du jazz parmi les autres musiques enseignées.
+			Willy Lesur (Journaliste),
+			Guy Lemaire (Présentateur),
+			Henri Pousseur (Intervenant),
+			Charles Loos (Intervenant),
+			Richard Rousselet (Intervenant),
+			Garrett List (Intervenant)
+			musique jazz,
+			instrument de musique,
+			enseignement artistique,
+			Liège,
+			Belgique</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Henri Pousseur</artist>
+			<artist>Charles Loos</artist>
+			<artist>Richard Rousselet</artist>
+			<artist>Garrett List</artist>
 		</artists>
 		<title></title>
 	</session>
