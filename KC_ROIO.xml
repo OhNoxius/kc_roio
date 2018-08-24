@@ -3350,7 +3350,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Eddie Gomez</artist>
-			<artist>unknown</artist>
+			<dummy>unknown</dummy>
 		</artists>
 		<title/>
 	</session>
@@ -5306,7 +5306,7 @@ DVD-R => Dime]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Jackson 5</artist>
+			<artist main="true">The Jackson 5</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5322,7 +5322,7 @@ DVD-R => Dime]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Jackson 5</artist>
+			<artist main="true">The Jackson 5</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5339,7 +5339,7 @@ DVD-R => Dime]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Jackson 5</artist>
+			<artist main="true">The Jackson 5</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5356,7 +5356,7 @@ DVD-R => Dime]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">Jackson 5</artist>
+			<artist main="true">The Jackson 5</artist>
 		</artists>
 		<title/>
 	</session>
@@ -6272,7 +6272,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<remarks/>
 		<artists>
 			<artist main="true">John McLaughlin</artist>
-			<artist>Christian Escoude</artist>
+			<artist>Christian Escoudé</artist>
 		</artists>
 		<title/>
 	</session>
@@ -6290,7 +6290,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<remarks/>
 		<artists>
 			<artist main="true">John McLaughlin</artist>
-			<artist>Christian Escoude</artist>
+			<artist>Christian Escoudé</artist>
 		</artists>
 		<title/>
 	</session>
@@ -11780,8 +11780,9 @@ AC3@256 ]]></lineage>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<dummy type="band">Monty Alexander Trio</dummy>
 			<artist>Monty Alexander</artist>
-			<artist type="band">Escoude Trio</artist>
-			<dummy type="artist">Oscar Peterson trio</dummy>
+			<artist type="band">Escoudé Trio</artist>
+			<artist>Christian Escoudé</artist>
+			<dummy type="band">Oscar Peterson trio</dummy>
 			<artist>Oscar Peterson</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<dummy type="band">Richard Raux Quartet</dummy>
@@ -21761,7 +21762,7 @@ TLH (Flac Level 8)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
-			<artist>Danny Glover (host)</artist>
+			<host>Danny Glover</host>
 		</artists>
 		<title>Miles Davis Radio Project</title>
 	</session>
@@ -26773,7 +26774,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<dummy type="band">Dizzy Gillespie/Kenny Burrell</dummy>
 			<artist>Dizzy Gillespie</artist>
 			<artist>Kenny Burrell</artist>
-			<artist type="band">All The Trumpeters</artist>
+			<dummy type="band">All The Trumpeters</dummy>
 			<artist>Thad Jones</artist>
 			<artist>Kenny Dorham</artist>
 			<artist>Ruby Braff</artist>
@@ -28574,7 +28575,7 @@ Video_ts]]></lineage>
 			<dummy type="band">Herbie Hancock group</dummy>
 			<artist>Herbie Hancock</artist>
 			<artist>Ron Carter</artist>
-			<artist>Tonny Williams</artist>
+			<artist>Tony Williams</artist>
 			<artist>James Newton</artist>
 			<artist>Joe Henderson</artist>
 			<artist>Bobby Hutcherson</artist>
@@ -28597,10 +28598,10 @@ Video_ts]]></lineage>
 		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
-			<dummy type="band">Herbie Hanckock group</dummy>
-			<artist>Herbie Hanckock</artist>
+			<dummy type="band">Herbie Hancock group</dummy>
+			<artist>Herbie Hancock</artist>
 			<artist>Ron Carter</artist>
-			<artist>Tonny Williams</artist>
+			<artist>Tony Williams</artist>
 			<artist>James Newton</artist>
 			<artist>Joe Henderson</artist>
 			<artist>Bobby Hutcherson</artist>
@@ -29834,7 +29835,7 @@ Video_ts]]></lineage>
 			<artist main="true">Toots Thielemans</artist>
 			<artist>Philip Catherine</artist>
 			<artist>Michel Herr</artist>
-			<artist>Hein Van de Geyn</artist>
+			<artist>Hein van de Geyn</artist>
 			<artist>Dré Pallemaerts</artist>
 		</artists>
 		<title>Audi Jazz Promotional DVD</title>
@@ -29949,7 +29950,7 @@ Video_ts]]></lineage>
 			<artist>Stéphane Belmondo</artist>
 			<artist>Lionel Belmondo</artist>
 			<artist>Thierry Eliez</artist>
-			<artist>Hein Van de Geyn</artist>
+			<artist>Hein van de Geyn</artist>
 			<artist>André 'Dédé' Ceccarelli</artist>
 		</artists>
 		<title>Audi Jazz Promotional DVD</title>
@@ -30093,7 +30094,7 @@ Video_ts]]></lineage>
 			<artist>Run DMC</artist>
 			<artist>LL Cool J</artist>
 			<artist>Eric B. &amp; Rakim</artist>
-			<artist>Ice T</artist>
+			<artist>Ice-T</artist>
 			<artist>Monie Love</artist>
 			<artist>The Fugees</artist>
 			<artist>The Roots</artist>
@@ -30297,7 +30298,7 @@ Video_ts]]></lineage>
 			<artist>Mort Herbert</artist>
 			<artist>Peanuts Hucko</artist>
 			<artist>Billy Kyle</artist>
-			<artist>Velma Middelton</artist>
+			<artist>Velma Middleton</artist>
 			<artist>Bobby Hackett</artist>
 			<dummy type="band">Mahalia Jackson</dummy>
 			<artist>Mahalia Jackson</artist>
@@ -30473,7 +30474,7 @@ Video_ts]]></lineage>
 		<remarks></remarks>
 		<artists>
 			<artist main="true">René Thomas</artist>
-			<artist>Freddy De Ronde</artist>
+			<artist>Freddy Deronde</artist>
 			<artist>Félix Simtaine</artist>
 		</artists>
 		<title>Three Days In April (Michel Perrin, 1973)</title>
