@@ -7517,30 +7517,6 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x54d04e0" av="V">
-		<date type="xs:date">1994-10-25</date>
-		<location>
-			<venue>Cirque Royal (Koninklijk Circus)</venue>
-			<city>Brussel</city>
-			<country>Belgium</country>
-		</location>
-		<length>11min</length>
-		<source>TV</source>
-		<format resolution="PAL">DVD</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band">The Brecker Brothers</artist>
-			<artist main="true">Michael Brecker</artist>
-			<artist>Randy Brecker</artist>
-			<artist>Dean Brown</artist>
-			<artist>George Whitty</artist>
-			<artist>James Genus</artist>
-			<artist>Rodney Holmes</artist>
-		</artists>
-		<title/>
-	</session>
 	<session id="id0x54e2a90" av="V" official="true">
 		<date type="xs:date">1957-12-04_05</date>
 		<location>
@@ -12706,7 +12682,7 @@ AC3@256 ]]></lineage>
 			<artist>Larry Coryell</artist>
 			<artist>Billy Cobham</artist>
 			<artist>Dori Caymmi</artist>
-			<artist>Romero Lumambo</artist>
+			<artist>Romero Lubambo</artist>
 			<artist>Donald Harrison</artist>
 			<artist>Marcio Montarroyos</artist>
 			<artist>Luiz Avellar</artist>
