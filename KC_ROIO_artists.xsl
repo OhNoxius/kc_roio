@@ -19,7 +19,7 @@
 
 			<!--//small grey line-->
 			<tr>
-				<td colspan="3" style="background-color:#727272;height:1%;"/>
+				<td colspan="3" style="background-color:#727272;height:0.1%;"/>
 			</tr>
 
 			<!--//title row-->

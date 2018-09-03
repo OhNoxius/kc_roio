@@ -219,12 +219,12 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslArtists'] = req.responseXML;
+                    loadedData[ 'xslArtists' ] = req.responseXML;
                     if (checkArtistsLoaded(loadedData)) {
                         xslRefresh(loadedData.xmlInput, loadedData.xslArtists, elementToAddResult);
                         
                         //NEW FUNCTION? check if artistXSL already happened
-                        //make buttons work
+                        //action performed when clicking on artist:
                         $('.artistClass').click(function () {
                             
                             var thisId = this.parentNode.parentNode.id;
@@ -258,28 +258,8 @@
                 }
                 req.onload = function () {
                     loadedData[ 'xslCountries' ] = req.responseXML;
-                    if (checkArtistsLoaded(loadedData)) {
-                        xslRefresh(loadedData.xmlInput, loadedData.xslArtists, elementToAddResult);
-                        
-                        //NEW FUNCTION? check if artistXSL already happened
-                        //make buttons work
-                        $('.artistClass').click(function () {
-                            
-                            var thisId = this.parentNode.parentNode.id;
-                            document.getElementById('lnk_' + thisId).value = document.getElementById('lnk_' + thisId).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
-                            document.getElementById('tab_' + thisId).style.display = document.getElementById('tab_' + thisId).style.display == "table-cell" ? "none": "table-cell";
-                            
-                            if (! $("#tab_" + thisId).data('calc')) {
-                                $("#tab_" + thisId).data('calc', true);
-                                
-                                //nieuwe XSLT uitvoeren hier
-                                xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
-                                elementToAddResult = document.getElementById('tab_' + thisId);
-                                
-                                loadedData[ 'xslResults'] = null;
-                                requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
-                            }
-                        });
+                    if (checkCountriesLoaded(loadedData)) {
+                        xslRefresh(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult);
                     };
                 };
                 req.send();
@@ -412,6 +392,8 @@
                 };
                 //load xml
                 requestXML(xml, loadedData, function() {console.log('XML IS LOADED!');});
+                //populate datalist for search filters
+                requestFilters(xsl_filters, loadedData);
                                 
                 //initialize search button
                 document.getElementById('search').addEventListener('click', function () {
@@ -436,14 +418,13 @@
                 false);
                 
                 document.getElementById('countriesAZ').addEventListener('click', function () {
-                    requestArtists(xsl_artists, loadedData, elementToAddResult);
+                    requestCountries(xsl_countries, loadedData, elementToAddResult);
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },
                 false);
                 
-                //load datalist for search filters
-                requestFilters(xsl_filters, loadedData);
+               
                 
                 //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
             }//]]>
@@ -465,17 +446,17 @@
                         </td>
                         <td style="border-bottom:none;">
                             <label for="countrySelector">country:</label>
-                            <input id="countrySelector" list="countryBox" name="country" />
+                            <input id="countrySelector" list="countryBox" name="country" autocomplete="off"/>
                             <datalist id="countryBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="yearSelector">year:</label>
-                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" />
+                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" autocomplete="off"/>
                             <datalist id="yearBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="festivalSelector">festival/show:</label>
-                            <input id="festivalSelector" list="festivalBox" name="festival" />
+                            <input id="festivalSelector" list="festivalBox" name="festival" autocomplete="off"/>
                             <datalist id="festivalBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
@@ -491,10 +472,10 @@
                             <!-- <input id="search" type="button" class="btn" value="search" />
                             <input id="complete" type="button" class="btn" value="show complete list" />-->
                             <a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
-                            <a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">Artists A/Z</a>
-                            <a href="#" id="CountriesAZ" class="btn" style="background:#7da0db;">Countries A/Z</a>
-                            <a href="#" id="festivalsAZ" class="btn">Festivals/shows A/Z</a>
-                            <a href="#" id="years" class="btn">Chronologically</a>
+                            <a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">artists A/Z</a>
+                            <a href="#" id="countriesAZ" class="btn" style="background:#7da0db;">countries A/Z</a>
+                            <a href="#" id="festivalsAZ" class="btn" style="background:#8bb3f4;">festivals/shows A/Z</a>
+                            <a href="#" id="years" class="btn">chronologically</a>
                         </td>
                     </tr>
                 </tbody>
