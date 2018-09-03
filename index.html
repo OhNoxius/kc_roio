@@ -364,7 +364,7 @@
                 req.send();
             }
             
-            function requestXML(url, loadedData) {
+            function requestXML(url, loadedData, _callback) {
                 var req = new XMLHttpRequest();
                 req.open('GET', url);
                 // to allow us doing XSLT in IE
@@ -411,10 +411,8 @@
                     xmlInput: null, xslFilters: null, xslResults: null, xslArtists: null, xslCountries: null, xslFestivals: null
                 };
                 //load xml
-                requestXML(xml, loadedData);
-                //load datalist for search filters
-                requestFilters(xsl_filters, loadedData);
-                
+                requestXML(xml, loadedData, function() {console.log('XML IS LOADED!');});
+                                
                 //initialize search button
                 document.getElementById('search').addEventListener('click', function () {
                     requestSearch(xsl_search, loadedData, elementToAddResult);
@@ -443,6 +441,9 @@
                     document.getElementById('loading').style.display = 'inline';
                 },
                 false);
+                
+                //load datalist for search filters
+                requestFilters(xsl_filters, loadedData);
                 
                 //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
             }//]]>
@@ -491,7 +492,7 @@
                             <input id="complete" type="button" class="btn" value="show complete list" />-->
                             <a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
                             <a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">Artists A/Z</a>
-                            <a href="#" id="CountriesAZ" class="btn">Countries A/Z</a>
+                            <a href="#" id="CountriesAZ" class="btn" style="background:#7da0db;">Countries A/Z</a>
                             <a href="#" id="festivalsAZ" class="btn">Festivals/shows A/Z</a>
                             <a href="#" id="years" class="btn">Chronologically</a>
                         </td>
