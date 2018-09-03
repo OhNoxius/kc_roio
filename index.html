@@ -381,7 +381,7 @@
                 false);
                 
                 //initilize complete list button
-                document.getElementById('complete').addEventListener('click', function () {
+                document.getElementById('artistsAZ').addEventListener('click', function () {
                     requestArtists(xsl_artists, loadedData, elementToAddResult);
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
@@ -433,9 +433,11 @@
                         <td colspan="5" style="border-bottom:none;">
                             <!-- <input id="search" type="button" class="btn" value="search" />
                             <input id="complete" type="button" class="btn" value="show complete list" />-->
-                            <a href="#" id="search" class="btn" style="
-                                border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
-                            <a href="#" id="complete" class="btn">listing of shows per artist A-Z</a>
+                            <a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
+                            <a href="#" id="artistsAZ" class="btn">Artists A/Z</a>
+                            <a href="#" id="CountriesAZ" class="btn">Countries A/Z</a>
+                            <a href="#" id="festivalsAZ" class="btn">Festivals/Shows A/Z</a>
+                            <a href="#" id="years" class="btn">Chronologically</a>
                         </td>
                     </tr>
                 </tbody>
