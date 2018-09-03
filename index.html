@@ -338,7 +338,7 @@
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('festivalBox'), "festival");
                     }
                     else {
-                        alert('KC_ROIO_filters nog niet geladen');
+                        //alert('KC_ROIO_filters nog niet geladen');
                         }
                 };
                 req.send();
@@ -422,9 +422,7 @@
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },
-                false);
-                
-               
+                false);              
                 
                 //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
             }//]]>
