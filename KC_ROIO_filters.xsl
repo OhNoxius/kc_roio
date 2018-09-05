@@ -7,7 +7,7 @@
 	<xsl:key name="artist" match="artist" use="string()"/>
 	<xsl:key name="country" match="country" use="string()"/>
 	<xsl:key name="event" match="event" use="string()"/>
-	<xsl:key name="date" match="date" use="string()"/>
+	<!--<xsl:key name="date" match="date" use="string()"/>-->
 	<!--	<xsl:strip-space elements="artist"/>-->
 
 	<xsl:param name="chooseParameter"/>
