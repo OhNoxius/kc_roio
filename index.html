@@ -133,13 +133,28 @@
                         proc.setParameter(null, "chooseParameter", chooseParameter);
                         chooseParameter = undefined;
                     }
-                    fragment = proc.transformToFragment(xmlInput, document);
-                    elementToAddResult.appendChild(fragment);
+                    
+                    //DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
+                    //fragment = proc.transformToFragment(xmlInput, document);
+                    //elementToAddResult.appendChild(fragment);
+                    
+                    //DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslREFRESH)
+                    if (elementToAddResult.firstChild) {
+                        elementToAddResult.children[0].style.display = 'none';
+                        //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
+                        elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+                    } else {
+                        elementToAddResult.appendChild(fragment);
+                    }
+                    
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
                 }
             }
             
+            //zelfde als xslTransform, maar specifiek voor 'search' transform?
+            //Hij doet precies hetzelfde, maar isiets veiliger in het kiezen vd node waar hij moet appenden
+            // PLUS hij geeft de searchfilters door (dit is wss niet nodig bij het transformen van andere xslt's?
             function xslRefresh(xmlInput, xsltSheet, elementToAddResult) {
                 
                 if (typeof XSLTProcessor !== 'undefined') {
