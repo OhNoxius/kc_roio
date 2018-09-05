@@ -372,7 +372,7 @@
 		<source>REEL</source>
 		<format resolution="PAL 1/2">mpg</format>
 		<quality>B-</quality>
-		<lineage trader="Franz Hoffman"></lineage>
+		<lineage trader="Franz Hoffman"/>
 		<remarks/>
 		<artists>
 			<artist main="true">Bill Evans</artist>
@@ -380,7 +380,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alan Dawson</artist>
 		</artists>
-		<title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+		<title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
 	</session>
 	<session id="id0x11816c0" av="V" official="true">
 		<date type="xs:date">1970-xx-xx</date>
@@ -1439,8 +1439,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem
-			IDVD1003)</title>
+		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1962-05-16</date>
@@ -1454,7 +1453,7 @@
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Modern Jazz Quartet</artist>
 			<artist>John Lewis</artist>
@@ -1462,8 +1461,7 @@
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem
-			IDVD1003)</title>
+		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1961-10-24</date>
@@ -1553,8 +1551,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records
-			LCD-1307-2)</title>
+		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records LCD-1307-2)</title>
 	</session>
 	<session id="id0x12f4e00" av="V">
 		<date type="xs:date">1963-03-20</date>
@@ -1703,7 +1700,7 @@
 			<country>U.K.</country>
 		</location>
 		<length>27min</length>
-		<source></source>
+		<source/>
 		<format resolution="NTSC">VCD</format>
 		<quality>C</quality>
 		<lineage/>
@@ -1904,8 +1901,8 @@
 		<source>REEL</source>
 		<format resolution="PAL 1/2">mpg</format>
 		<quality>B</quality>
-		<lineage trader="Franz Hoffman"></lineage>
-		<remarks></remarks>
+		<lineage trader="Franz Hoffman"/>
+		<remarks/>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
 			<artist main="true">Charles Lloyd</artist>
@@ -1913,7 +1910,7 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>DVD-155  `66 Charles Lloyd &amp; Keith Jarrett; `70-79 Don Cherry,  `98 Phil Woods &amp; Johnny Griffin</title>
+		<title>DVD-155 `66 Charles Lloyd &amp; Keith Jarrett; `70-79 Don Cherry, `98 Phil Woods &amp; Johnny Griffin</title>
 	</session>
 	<session id="id0x12fc5d0" av="V">
 		<date type="xs:date">1966-07-23</date>
@@ -2122,7 +2119,7 @@
 			<country>U.S.A.</country>
 		</location>
 		<length>0:28:49</length>
-		<source></source>
+		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
@@ -2134,7 +2131,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x1300260" av="V">
 		<date type="xs:date">1982-07-25</date>
@@ -2259,12 +2256,8 @@
 		<source station="Sonuma">web</source>
 		<format resolution="PAL">AVC</format>
 		<quality>A</quality>
-		<lineage trader="Sonuma"></lineage>
-		<remarks>17/4/1965 - 33 min
-			JAZZ POUR TOUS
-			En 1965, les jazzmen Charles Mingus, Eric Dolphy et leurs musiciens arrivent au Palais des Congrès de Liège et enregistrent un concert pour l'émission "Jazz pour tous". Les autres membres du groupe sont Clifford Jordan (saxophone), Jaki Byard (piano) et Dannie Richmond (batterie). 
-			Serge Leroy (Réalisateur),
-			Nicolas Résimont (Producteur)</remarks>
+		<lineage trader="Sonuma"/>
+		<remarks>17/4/1965 - 33 min JAZZ POUR TOUS En 1965, les jazzmen Charles Mingus, Eric Dolphy et leurs musiciens arrivent au Palais des Congrès de Liège et enregistrent un concert pour l'émission "Jazz pour tous". Les autres membres du groupe sont Clifford Jordan (saxophone), Jaki Byard (piano) et Dannie Richmond (batterie). Serge Leroy (Réalisateur), Nicolas Résimont (Producteur)</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
@@ -2272,7 +2265,7 @@
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1964-04-17</date>
@@ -2688,7 +2681,7 @@ authoring)]]></lineage>
 			<artist>Gary Novak</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x15f27b0" av="V">
 		<date type="xs:date">2001-xx-xx</date>
 		<location>
@@ -2844,10 +2837,7 @@ authoring)]]></lineage>
 		<lineage><![CDATA[VIDEO: unknown audience member > PAL DVDR
 AUDIO: FM/SBD > ? > CDR
 SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/]]></lineage>
-		<remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the
-			beginning, so this video is missing about 6.5 minutes. The missing parts of the video
-			are faded out and in, I chose not to let the FM audio play through with a black screen
-			on the video.</remarks>
+		<remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the beginning, so this video is missing about 6.5 minutes. The missing parts of the video are faded out and in, I chose not to let the FM audio play through with a black screen on the video.</remarks>
 		<artists>
 			<artist main="true">D'Angelo</artist>
 			<artist type="band">The Soultronics</artist>
@@ -2909,7 +2899,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		<length>0:25:34</length>
 		<source>DVB</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[ORTF (French Television) archives > ? > DVD received in trade > HDD]]></lineage>
 		<remarks/>
 		<artists>
@@ -3342,7 +3332,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage trader="GuitarGoldmine"></lineage>
+		<lineage trader="GuitarGoldmine"/>
 		<remarks/>
 		<artists>
 			<artist main="true">Egberto Gismonti</artist>
@@ -3362,8 +3352,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks>cropped. plosin says: Studio 10, Grosser Sendesaal des NDR Funkhauses, Hamburg for
-			NDR Jazz Workshop No. 171; produced by Michael Naura.</remarks>
+		<remarks>cropped. plosin says: Studio 10, Grosser Sendesaal des NDR Funkhauses, Hamburg for NDR Jazz Workshop No. 171; produced by Michael Naura.</remarks>
 		<artists>
 			<artist type="band">Academia de Danças</artist>
 			<artist main="true">Egberto Gismonti</artist>
@@ -3815,8 +3804,7 @@ Recorder]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[Video: SANYO VCR > MEDION DVD STANDALONE HQ Mode Audio: SANYO VCR > WAVELAB
 3, 44kHz 16 bit DUAL MONO]]></lineage>
-		<remarks>First Broadcast Date: 1970 10 15 on German TV Station ARD.This Copy is from the
-			converted BETACAM SP Mastertape Cassette: SONY E-60PR</remarks>
+		<remarks>First Broadcast Date: 1970 10 15 on German TV Station ARD.This Copy is from the converted BETACAM SP Mastertape Cassette: SONY E-60PR</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
@@ -4706,7 +4694,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist>Paco de Lucia</artist>
 		</artists>
 		<title/>
-	</session>	
+	</session>
 	<session id="id0x4ac5030" av="V">
 		<date type="xs:date">2010-xx-xx</date>
 		<location>
@@ -5022,8 +5010,8 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<remarks>Plays Gershwin</remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
-			<artist>Eddie Henderson</artist>			
-			<artist>Eli Degibri</artist>			
+			<artist>Eddie Henderson</artist>
+			<artist>Eli Degibri</artist>
 			<artist>Ira Coleman</artist>
 			<artist>Terri Lyne Carrington</artist>
 			<artist>Cyro Baptista Ciari</artist>
@@ -5374,8 +5362,7 @@ DVD-R => Dime]]></lineage>
 		<lineage><![CDATA[?? > (2004 DVD compilation) > DVD+R (2014 trade) > DVD Decrypter > vob
 > Nero (1982-07-02 official release removed) > DVD+R > DVD Decrypter > vob
 > Dime]]></lineage>
-		<remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading,
-			i.e. time stamp)</remarks>
+		<remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading, i.e. time stamp)</remarks>
 		<artists>
 			<artist main="true">Jaco Pastorius</artist>
 			<artist>Ron Tooley</artist>
@@ -5441,8 +5428,7 @@ DVD-R => Dime]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[DVB-C > Nokia d-box 1 > harddisk via SCSI > IfoEdit.]]></lineage>
-		<remarks>Edits were made with the Cuttermaran software. No re-encoding was applied during
-			the DVD authoring; this is the actual broadcasting signal.</remarks>
+		<remarks>Edits were made with the Cuttermaran software. No re-encoding was applied during the DVD authoring; this is the actual broadcasting signal.</remarks>
 		<artists>
 			<artist main="true">James Carter</artist>
 			<artist>Craig Taborn</artist>
@@ -5569,15 +5555,14 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title/>
 	</session>
 	<session av="V" official="true">
-		<date type="xs:date">1967-06-18</date>
-		<location>
-			<event type="festival">Monterey Pop Festival</event>
-			<city>Monterey CA</city>
-			<country>U.S.A.</country>
+		<date type="xs:date">1967-02-25</date>
+		<location>			
+			<city>Chelsford</city>
+			<country>U.K.</country>
 		</location>
 		<length/>
-		<source/>
-		<format/>
+		<source>BDRemux</source>
+		<format resolution="1080i">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5586,7 +5571,27 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Noel Redding</artist>
 			<artist>Mitch Mitchell</artist>
 		</artists>
-		<title>The Jimi Hendrix Experience: Live At Monterey</title>
+		<title>Live At Monterey</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1967-06-18</date>
+		<location>
+			<event type="festival">Monterey Pop Festival</event>
+			<city>Monterey CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length/>
+		<source>BDRemux</source>
+		<format resolution="1080i">AVC</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+			<artist>Noel Redding</artist>
+			<artist>Mitch Mitchell</artist>
+		</artists>
+		<title>Live At Monterey</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1969-05-18</date>
@@ -5657,8 +5662,8 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source/>
-		<format/>
+		<source>BDrip</source>
+		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -5711,22 +5716,24 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<title>4REEL (Room Full of Hendrix)</title>
 	</session>
 	<session id="id0x4fb4170" av="V">
-		<date type="xs:date">1969-xx-xx</date>
+		<date type="xs:date">1969-08-18</date>
 		<location>
-			<event type="festival">Newport Pop Festival</event>
-			<city>Newport RI</city>
+			<event type="festival">Woodstock Festival</event>
+			<city>Bethel NY</city>
 			<country>U.S.A.</country>
 		</location>
-		<length>21min</length>
-		<source>TV</source>
-		<format resolution="NTSC">DVD</format>
-		<quality>A-</quality>
+		<length>1:38:42</length>
+		<source>BDrip</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Jimi Hendrix</artist>
+			<artist>Noel Redding</artist>
+			<artist>Mitch Mitchell</artist>
 		</artists>
-		<title/>
+		<title>Live at Woodstock (Experience Hendrix)</title>
 	</session>
 	<session id="id0x4fb4530" av="V">
 		<date type="xs:date">1973-11-09</date>
@@ -5980,8 +5987,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<source bitrate="320">DVB-S</source>
 		<format>flac</format>
 		<quality>A</quality>
-		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor >
-			flac</lineage>
+		<lineage>dvb-s > techno trend tt-premium s2-6400 twin hd > hdd > nero wave editor > flac</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">John Abercrombie</artist>
@@ -6179,7 +6185,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x524d950" av="V" official="true">
 		<date type="xs:date">1965-08-01</date>
@@ -7569,8 +7575,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
 		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
-			Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1959-04-02</date>
@@ -8113,8 +8118,7 @@ dime]]></lineage>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875
-			08195)</title>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
 	</session>
 	<session id="id0x569e900" av="V">
 		<date type="xs:date">1971-10-23</date>
@@ -8616,8 +8620,7 @@ file]]></lineage>
 			<artist>Al Foster</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875
-			08195)</title>
+		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
 	</session>
 	<session id="id0x57422b0" av="V">
 		<date type="xs:date">1973-11-13</date>
@@ -9053,9 +9056,7 @@ Subs)]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>Shot over three days in Paris whilst the Trio were recoding their music for the
-			Living Theater's project "Who's crazy?". Narrated by Alan Dell and produced by Mike
-			Hodges.</remarks>
+		<remarks>Shot over three days in Paris whilst the Trio were recoding their music for the Living Theater's project "Who's crazy?". Narrated by Alan Dell and produced by Mike Hodges.</remarks>
 		<artists>
 			<artist main="true">Ornette Coleman</artist>
 			<artist>David Izenzon</artist>
@@ -9243,8 +9244,7 @@ Subs)]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage/>
-		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been
-			remastered using video noise reduction and Sony Vegas Pro audio.</remarks>
+		<remarks>Remastered audio and video on newly-authored DVD by TooleMan TV. It has been remastered using video noise reduction and Sony Vegas Pro audio.</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -9370,7 +9370,7 @@ Subs)]]></lineage>
 		<source>Pro-shot</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C-</quality>
-		<lineage trader="GuitarGoldmine"></lineage>
+		<lineage trader="GuitarGoldmine"/>
 		<remarks>screen capture of DVD-playback. Comes from compilation DVD</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -9392,7 +9392,7 @@ Subs)]]></lineage>
 		<source>Pro-shot</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C--</quality>
-		<lineage trader="RandyB"></lineage>
+		<lineage trader="RandyB"/>
 		<remarks>looks 1 gen worse than other version..lot of hiccups also</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -9414,9 +9414,7 @@ Subs)]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[Master VHS --> DVD Recorder --> PC (ProjectX/Mplex) --> You]]></lineage>
-		<remarks>Original broadcast: German TV, WDR, ROCKPALAST, TV-Show No. 3, 1976 From
-			Rebroadcast (This Torrent): German TV, WDR, "ROCKPALAST '76 - The First 12 Original
-			Shows", TV-Show No. 3, 1996 January 7</remarks>
+		<remarks>Original broadcast: German TV, WDR, ROCKPALAST, TV-Show No. 3, 1976 From Rebroadcast (This Torrent): German TV, WDR, "ROCKPALAST '76 - The First 12 Original Shows", TV-Show No. 3, 1996 January 7</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -9932,8 +9930,7 @@ selection) > transport stream]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
 		<lineage><![CDATA[DVB-C > Nokia d-box 2> harddisk]]></lineage>
-		<remarks>Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. No
-			conversion of any kind has been applied; this is the actual broadcast signal.</remarks>
+		<remarks>Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. No conversion of any kind has been applied; this is the actual broadcast signal.</remarks>
 		<artists>
 			<artist main="true">Roy Haynes</artist>
 			<artist>Marcus Strickland</artist>
@@ -10320,7 +10317,7 @@ file]]></lineage>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:30:29</length>
-		<source></source>
+		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
@@ -10342,14 +10339,8 @@ file]]></lineage>
 		<source channel="WNET">TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
-		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders,
-			improve color levels, smoothing, mirror stevie piano shots...) AUDIO: My Voice of Sorrow
-			(Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ,
-			mastering)</lineage>
-		<remarks>Own remaster. Top down view from Stevie's piano playing was filmed through a
-			mirror, showing left hand on the right side and vice versa. These shots are now
-			un-mirrored. Last seconds audio was missing on Footstomp DVD, so was taken from the
-			source for the picture. A-V sync is perfect.</remarks>
+		<lineage>VIDEO: trade DVD (Bruce Remy) -> DGMPGDec -> Adobe Premiere (remove borders, improve color levels, smoothing, mirror stevie piano shots...) AUDIO: My Voice of Sorrow (Footstomp ‎– FSVD-017) DVD (bad rip?)-> DGMPGDec -> Adobe Audition (EQ, mastering)</lineage>
+		<remarks>Own remaster. Top down view from Stevie's piano playing was filmed through a mirror, showing left hand on the right side and vice versa. These shots are now un-mirrored. Last seconds audio was missing on Footstomp DVD, so was taken from the source for the picture. A-V sync is perfect.</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
@@ -10529,8 +10520,7 @@ file]]></lineage>
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage trader="Lossless Legs"
-			><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
+		<lineage trader="Lossless Legs"><![CDATA[SBD>CD(Original Silvers)>EAC(secure mode/offset correct)>WAV>FLAC(A/A+)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
@@ -10834,11 +10824,7 @@ file]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[proshot > unknown DVD transfer > purchase > DIME]]></lineage>
-		<remarks> Here is another great video from the French vaults. Chateauvallon in August of
-			1972 saw some great performances including this one from a power trio with Jean Luc
-			Ponty, Tony Williams and Stanley Clarke. It's black and white but quite crisp video
-			great audio quality. No chapters or menu. Purchased from a bootlegger in South America
-			and liberated here.</remarks>
+		<remarks> Here is another great video from the French vaults. Chateauvallon in August of 1972 saw some great performances including this one from a power trio with Jean Luc Ponty, Tony Williams and Stanley Clarke. It's black and white but quite crisp video great audio quality. No chapters or menu. Purchased from a bootlegger in South America and liberated here.</remarks>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 			<artist>Jean-Luc Ponty</artist>
@@ -11468,8 +11454,7 @@ AC3@256 ]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage trader="Bruce Remy"/>
-		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in
-			Adobe Audition and synced with video</remarks>
+		<remarks>audio dub: audio taken from seperate lossless VHS audio transfer; remastered in Adobe Audition and synced with video</remarks>
 		<artists>
 			<artist type="band" main="true">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -11553,7 +11538,7 @@ AC3@256 ]]></lineage>
 			<artist>Charlie Shavers</artist>
 			<artist>Niels Jørgen Steen</artist>
 			<artist>Finn Ziegler</artist>
-			<artist>Niels-Henning Örstedt Pedersen</artist>			
+			<artist>Niels-Henning Örstedt Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 			<dummy type="band">Charles Mingus</dummy>
 			<artist>Charles Mingus</artist>
@@ -13490,8 +13475,7 @@ flac]]></lineage>
 	</session>
 	<session id="id0x3dfa620" av="A">
 		<date type="xs:date">2011-03-05</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>2:33:55</length>
 		<source>AUD</source>
 		<format bitrate="128">mp3</format>
@@ -13523,7 +13507,7 @@ flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session  av="A">
+	<session av="A">
 		<date type="xs:date">1966-04-29</date>
 		<location>
 			<venue>Gyllene Cirkeln</venue>
@@ -13546,7 +13530,7 @@ flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session  av="A">
+	<session av="A">
 		<date type="xs:date">1966-04-29</date>
 		<location>
 			<venue>Gyllene Cirkeln</venue>
@@ -13568,7 +13552,7 @@ flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session  av="A">
+	<session av="A">
 		<date type="xs:date">1966-05-07</date>
 		<location>
 			<city>Oslo</city>
@@ -13589,7 +13573,7 @@ flac]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session  av="A">
+	<session av="A">
 		<date type="xs:date">1966-05-07</date>
 		<location>
 			<city>Oslo</city>
@@ -13653,9 +13637,9 @@ correction]]></lineage>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Cecil McBee</artist>
-			<artist>Jack DeJohnette</artist>			
+			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1966-07-23</date>
@@ -13675,9 +13659,9 @@ correction]]></lineage>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Cecil McBee</artist>
-			<artist>Jack DeJohnette</artist>			
+			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1966-09-08</date>
@@ -13685,7 +13669,7 @@ correction]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
@@ -13707,7 +13691,7 @@ correction]]></lineage>
 			<city>Monterey CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
@@ -13742,9 +13726,9 @@ correction]]></lineage>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Cecil McBee</artist>
-			<artist>Jack DeJohnette</artist>			
+			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="A">
 		<date type="xs:date">1966-07-26</date>
@@ -13765,9 +13749,9 @@ correction]]></lineage>
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Cecil McBee</artist>
-			<artist>Jack DeJohnette</artist>			
+			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x3e913a0" av="A">
 		<date type="xs:date">1966-10-30</date>
@@ -13798,7 +13782,7 @@ correction]]></lineage>
 			<city>Oslo</city>
 			<country>Norway</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format/>
 		<quality/>
@@ -13843,7 +13827,7 @@ correction]]></lineage>
 			<city>San Francisco CA</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
@@ -13862,7 +13846,7 @@ correction]]></lineage>
 			<city>Talinn</city>
 			<country>Estonia</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<artists>
 			<artist type="band">Charles Lloyd Quartet</artist>
@@ -15429,10 +15413,7 @@ EQ>HHB CDR830]]></lineage>
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[trade CD-R ripped with EAC converted to FLAC with TLH]]></lineage>
-		<remarks>This is the complete 64 min. broadcast, including all dead air segments plus the
-			1:00 Genesis radio spot (to cover for the lost signal/technical difficulties) announcing
-			their upcoming concert at Cohen Auditorium, Tufts University, Medford, Boston, MA on
-			November 17, 1973.</remarks>
+		<remarks>This is the complete 64 min. broadcast, including all dead air segments plus the 1:00 Genesis radio spot (to cover for the lost signal/technical difficulties) announcing their upcoming concert at Cohen Auditorium, Tufts University, Medford, Boston, MA on November 17, 1973.</remarks>
 		<artists>
 			<artist type="band">Mwandishi</artist>
 			<artist main="true">Herbie Hancock</artist>
@@ -15939,8 +15920,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 		<format/>
 		<quality>B</quality>
 		<lineage><![CDATA[FM Mono>?>cdr>eac>flac]]></lineage>
-		<remarks>Quality Good Radio announcer does some talking in between tracks in French Some
-			good jamming</remarks>
+		<remarks>Quality Good Radio announcer does some talking in between tracks in French Some good jamming</remarks>
 		<artists>
 			<artist main="true">Jack Bruce</artist>
 			<artist>Larry Coryell</artist>
@@ -16266,7 +16246,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>Finland</country>
 		</location>
 		<length>0:44:17</length>
-		<source></source>
+		<source/>
 		<format/>
 		<quality/>
 		<lineage/>
@@ -16303,7 +16283,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session id="id0x601c350" av="A">
 		<date type="xs:date">1961-11-23</date>
@@ -16557,9 +16537,9 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>France</country>
 		</location>
 		<length>1:06:17</length>
-		<source></source>
+		<source/>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[CD-r(with flac files) in trade> Audacity (volume adjustment - noises here and there) > Flac > dime  
 						Goody adds: 
 			dBpoweramp (WAV) > Cool Edit Pro (Pitch Bender - various and sundry offsets) > 
@@ -16606,7 +16586,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<length>1:19:30</length>
 		<source>FM</source>
 		<format/>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[Flac files frem WEb > Audacity (volume adjustment - noises here and there) > TLH (SBE Flac 8) > dime  ]]></lineage>
 		<remarks>SOURCE IMPROVED, Pitch Corrected Edition</remarks>
 		<artists>
@@ -16625,11 +16605,11 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<country>France</country>
 		</location>
 		<length>0:44:10</length>
-		<source></source>
+		<source/>
 		<format/>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band">John Coltrane Quartet</artist>
 			<artist main="true">John Coltrane</artist>
@@ -17210,7 +17190,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Paul Motian</artist>
 		</artists>
 		<title>Somewhere Before</title>
-	</session>	
+	</session>
 	<session id="id0xb0d860" av="A">
 		<date type="xs:date">1969-11-12+13</date>
 		<location>
@@ -17227,7 +17207,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jean-François Jenny-Clark</artist>
-			<artist>Aldo Romano</artist>			
+			<artist>Aldo Romano</artist>
 		</artists>
 		<title/>
 	</session>
@@ -17247,7 +17227,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>August “Gus” Nemeth</artist>
-			<artist>Paul Motian</artist>			
+			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
 	</session>
@@ -17544,8 +17524,7 @@ check)]]></lineage>
 		<quality/>
 		<lineage><![CDATA[http://sverigesradio.se/sida/avsnitt/591494?programid=4431 WEB > Audacity
 (noises cutting and volume adjusting) > TLH ( SBE - Flac 8) > dime]]></lineage>
-		<remarks>at 31:40 Kj Starts what is known as the Bremen encore and the last solo (Tokyo
-			1984) Encore</remarks>
+		<remarks>at 31:40 Kj Starts what is known as the Bremen encore and the last solo (Tokyo 1984) Encore</remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -17593,10 +17572,10 @@ check)]]></lineage>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format>flac</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -17604,7 +17583,7 @@ check)]]></lineage>
 			<artist>Chet Baker</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Charlie Haden</artist>
-			<artist>Beaver Harris</artist>			
+			<artist>Beaver Harris</artist>
 		</artists>
 		<title>Lee Konitz meets Keith Jarrett, Chet Baker &amp; Bill Evans: Live in Europe (Historical Master, Limited Edition No. 0918, Jazzview)</title>
 	</session>
@@ -18013,8 +17992,7 @@ Frontend>Level 6]]></lineage>
 		<quality/>
 		<lineage trader="propylaen"><![CDATA[FM -> reel tape 71/2ips -> Akai GX-400DSS -> Sound Forge -> FLAC level 6, sectors aligned and verified.
 			Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC (L8)]]></lineage>
-		<remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a
-			different Memorex reel</remarks>
+		<remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a different Memorex reel</remarks>
 		<artists>
 			<artist type="band">The Eleventh House</artist>
 			<artist main="true">Larry Coryell</artist>
@@ -18060,8 +18038,7 @@ Frontend>Level 6]]></lineage>
 		<format/>
 		<quality>A-</quality>
 		<lineage/>
-		<remarks>Open air concert recorded by Radio Bremen on January 18, 1975 at Post-Aula, Bremen,
-			Germany.</remarks>
+		<remarks>Open air concert recorded by Radio Bremen on January 18, 1975 at Post-Aula, Bremen, Germany.</remarks>
 		<artists>
 			<artist main="true">Larry Coryell</artist>
 			<artist type="band">The Eleventh House</artist>
@@ -19968,9 +19945,7 @@ notes below) -> flac TLH lvl8 w/SBA (556 MB)]]></lineage>
 		<quality>A-</quality>
 		<lineage><![CDATA[FM> ?> Live in Europe', New Sound Planet/ Jazz Up JU 320 > Soundforge
 (rebanding of tracks) > dbPowerAMP > FLAC (level 6)]]></lineage>
-		<remarks>Radio broadcast. Issued as part of a bootleg CD, 'Live in Europe', New Sound
-			Planet/ Jazz Up JU 320. All tracks were issued as a single title, 'Untitled
-			medley'.</remarks>
+		<remarks>Radio broadcast. Issued as part of a bootleg CD, 'Live in Europe', New Sound Planet/ Jazz Up JU 320. All tracks were issued as a single title, 'Untitled medley'.</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -21363,9 +21338,7 @@ Unknown]]></lineage>
 		<length>1:11:51</length>
 		<source>SBD</source>
 		<lineage/>
-		<remarks>same source as lmpp239 except this source is missing Directions, but includes
-			announcements in french, and last track has lower amplitude compared to other
-			source</remarks>
+		<remarks>same source as lmpp239 except this source is missing Directions, but includes announcements in french, and last track has lower amplitude compared to other source</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -22259,11 +22232,7 @@ low-gen recording source 2: complete, higher-gen recording]]></lineage>
 		<source>FM</source>
 		<format/>
 		<quality>B+</quality>
-		<lineage>FM broadcast-> unknown tuner and recording device
-			-> my unknown gen Maxell XLIIs cassette
-			-> Nakamichi Dragon (with auto-azimuth) Dolby off, set to type I normal bias
-			-> Zoom H2 -> Goldwave v.5.08 for edits, tracks, channel balance, equalization, maximization at full dynamic range.
-			-> TLH 2.4.1 (build 160)-> FLAC level 8 align on sector boundaries, md5s</lineage>
+		<lineage>FM broadcast-> unknown tuner and recording device -> my unknown gen Maxell XLIIs cassette -> Nakamichi Dragon (with auto-azimuth) Dolby off, set to type I normal bias -> Zoom H2 -> Goldwave v.5.08 for edits, tracks, channel balance, equalization, maximization at full dynamic range. -> TLH 2.4.1 (build 160)-> FLAC level 8 align on sector boundaries, md5s</lineage>
 		<remarks>VG+ unknown gen.stereo FM tape traded in the 90'. Some hiss in the quieter moments. Samples provided. Digitized, prepared and shared by finkployd49 (August 2018)</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
@@ -22397,8 +22366,7 @@ Transfer: Dragon nr-out>zoomH4 16/44.1>hcsd 8gb >Audacity>TLH>flac16 ->[BarnyzFr
 		<quality>B-</quality>
 		<lineage><![CDATA[FM>Master tape>sony
 cassette>SBAudigy2>PC>Soundforge>CDarchitech>CDR>EAC>Soundforge>TLH]]></lineage>
-		<remarks>recorded Thursday March 27, 1975 broadcast on WPLR-FM Monday April 7,
-			1975</remarks>
+		<remarks>recorded Thursday March 27, 1975 broadcast on WPLR-FM Monday April 7, 1975</remarks>
 		<artists>
 			<artist type="band" main="true">Return to Forever</artist>
 			<artist>Chick Corea</artist>
@@ -24172,14 +24140,8 @@ level 5]]></lineage>
 		<source>FM</source>
 		<quality/>
 		<lineage><![CDATA[FM>?>Trade CD>EAC>FLAC>Vuze>Dimeadozen]]></lineage>
-		<remarks>"They played a suite especially written for this occasion. A piece that showed some
-			of the aspects in the music of the multidirectional Anthony Braxton. Wheeler and Braxton
-			matched each other beautifully, Wheeler is a musician who has much in common with
-			Braxton, an intellectual player with a cool sound and a good ear for Braxton's intricate
-			written lines. Their performance ended with a bebop-like tune, and drummer Bobo Shaw
-			(from Black Artists Group from St. Louis, BAG) who throughout the piece had revealed
-			himself as a very musical and inventive drummer, kept the music on fire." - Ib Skovgaard
-			Petersen</remarks>
+		<remarks>"They played a suite especially written for this occasion. A piece that showed some of the aspects in the music of the multidirectional Anthony Braxton. Wheeler and Braxton matched each other beautifully, Wheeler is a musician who has much in common with Braxton, an intellectual player with a cool sound and a good ear for Braxton's intricate written lines. Their performance ended with a bebop-like tune, and drummer Bobo Shaw (from Black Artists Group from St. Louis, BAG) who
+			throughout the piece had revealed himself as a very musical and inventive drummer, kept the music on fire." - Ib Skovgaard Petersen</remarks>
 		<artists>
 			<artist main="true">Anthony Braxton</artist>
 			<artist>Kenny Wheeler</artist>
@@ -24432,8 +24394,7 @@ level 5]]></lineage>
 		<format>flv</format>
 		<quality>A+</quality>
 		<lineage/>
-		<remarks>Based on the conversation during the rehearsal discussions here this taping was
-			done the day after the band's concert performance Oct. 24th in Copenhagen.</remarks>
+		<remarks>Based on the conversation during the rehearsal discussions here this taping was done the day after the band's concert performance Oct. 24th in Copenhagen.</remarks>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Eddie Gomez</artist>
@@ -24517,8 +24478,7 @@ level 5]]></lineage>
 		<quality>A</quality>
 		<lineage><![CDATA[BBC 320k AAC > i-Stream recorder (44.1k wav)/Adobe Audition&lt;Tracks>phase
 correction>fades>Flac]]></lineage>
-		<remarks>part of EBU recording at Studio 105, Paris France, broadcast on BBC Radio 3 "Jazz
-			Line Up" 2015-01-31 HD Stream master</remarks>
+		<remarks>part of EBU recording at Studio 105, Paris France, broadcast on BBC Radio 3 "Jazz Line Up" 2015-01-31 HD Stream master</remarks>
 		<artists>
 			<artist main="true">Melanie De Biasio</artist>
 			<artist>Dré Pallemaerts</artist>
@@ -24957,9 +24917,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[DVB-C(NPS)>Thomson DC/62UPC>Scart cable>Philips DVDR3600>DVD>PC. Additional editing: TMPGEnc DVD Author 1.6 (menu/5 min chapters)]]></lineage>
-		<remarks>1996-10-12 first broadcast date. 2011 re-broadcast, nps/CULTURA24 logo, voice-over
-			only audible on left channel (= as original broadcast), occasional dutch scrolling
-			message, english subs.</remarks>
+		<remarks>1996-10-12 first broadcast date. 2011 re-broadcast, nps/CULTURA24 logo, voice-over only audible on left channel (= as original broadcast), occasional dutch scrolling message, english subs.</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 		</artists>
@@ -25104,14 +25062,12 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[Unknown generation VHS-Tape --> Dazzle-Box / PC (Studio 9) --> DVD --> You]]></lineage>
-		<remarks>It makes much more fun with sound, so I overdubbed a little music:
-			"Big Leg Emma", from the CD-Bootleg "Live &amp; Alive" imtrat, Cat.-No.: imt 900.001
-		</remarks>
+		<remarks>It makes much more fun with sound, so I overdubbed a little music: "Big Leg Emma", from the CD-Bootleg "Live &amp; Alive" imtrat, Cat.-No.: imt 900.001 </remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-10-09</date>
@@ -25125,7 +25081,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="PAL">mpg</format>
 		<quality/>
 		<lineage><![CDATA[Digital (MPEG Stream) --> PC (ProjectX/Mplex) --> You]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
@@ -25149,7 +25105,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-10-10</date>
@@ -25159,16 +25115,16 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>U.S.A.</country>
 		</location>
 		<length>0:07:03</length>
-		<source></source>
+		<source/>
 		<format resolution="NTSC">mpg</format>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1962-01-02</date>
@@ -25443,8 +25399,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality>B-</quality>
 		<lineage trader="Bruce Remy"/>
-		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of
-			DVD</remarks>
+		<remarks>"TV RECORD" on screen. 1972 in São Paulo Record Theater﻿? screenrip of DVD</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 			<artist>Al Thompson</artist>
@@ -25455,8 +25410,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1976-10-29</date>
-		<location>
-		</location>
+		<location> </location>
 		<length/>
 		<source channel="BBC"/>
 		<format/>
@@ -25699,8 +25653,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1968-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
@@ -25835,8 +25788,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1971-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
@@ -26474,17 +26426,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) -
-			Soul Train ’74; 3. You Got The Love - Soul train ’74; 4. Fools Paradise - Soul Train
-			’75; 5. Medley - Soul Train ’75; 6. Once You Get Started - TopPop ’75; 7. You’re
-			Welcome, Stop On By - Mike Douglas ’75; 8. Sweet Thing - Soul Train ’76; 9. Dance With
-			Me (medley) - Soul Train ’75; 10. Chaka Khan - I Wish You Love - Mike Douglas ’76; 11.
-			Rufus - At Midnight - ’77 video; 12. CK - Do You Love What You Feel - ’79 video; 13. R -
-			Any Love - Mike Douglas ’80; (14 - 21 CK) 14. I’m Every Woman - video ’78; 15. What Cha’
-			Gonna Do For Me - TopPop ’80; 16. We Can Work It Out - Tomorrow Show ’81; 17. I Know
-			You, I Live You - Tom Jones Show ’81; 18. I Feel For You - video ’84; 19. This Is My
-			Night - TopPop ’85; 20. Love Of A Lifetime - video ’86; 21. Ain’t Nobody - TOTP
-			’89;</remarks>
+		<remarks>1. Tell Me Something Good - Midnight Special ’74; 2. I’m A Woman (I’m A Backbone) - Soul Train ’74; 3. You Got The Love - Soul train ’74; 4. Fools Paradise - Soul Train ’75; 5. Medley - Soul Train ’75; 6. Once You Get Started - TopPop ’75; 7. You’re Welcome, Stop On By - Mike Douglas ’75; 8. Sweet Thing - Soul Train ’76; 9. Dance With Me (medley) - Soul Train ’75; 10. Chaka Khan - I Wish You Love - Mike Douglas ’76; 11. Rufus - At Midnight - ’77 video; 12. CK - Do You Love What
+			You Feel - ’79 video; 13. R - Any Love - Mike Douglas ’80; (14 - 21 CK) 14. I’m Every Woman - video ’78; 15. What Cha’ Gonna Do For Me - TopPop ’80; 16. We Can Work It Out - Tomorrow Show ’81; 17. I Know You, I Live You - Tom Jones Show ’81; 18. I Feel For You - video ’84; 19. This Is My Night - TopPop ’85; 20. Love Of A Lifetime - video ’86; 21. Ain’t Nobody - TOTP ’89;</remarks>
 		<artists>
 			<artist main="true">Chaka Khan</artist>
 			<artist type="band">Rufus</artist>
@@ -26504,8 +26447,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[cable TV > Mitsubishi HS-U650 > Toshiba RD XS 35 (stand alone Hard Drive/DVD Burner w/ basic editing functions)]]></lineage>
-		<remarks>all commercials have been removed and chapter marks created at the appropriate
-			places</remarks>
+		<remarks>all commercials have been removed and chapter marks created at the appropriate places</remarks>
 		<artists>
 			<artist main="true" type="band">Steely Dan</artist>
 			<artist>Carolyn Leon</artist>
@@ -26914,8 +26856,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format bitrate="320">mp2</format>
 		<quality/>
 		<lineage><![CDATA[dvb-s > digital satellite receiver Humax PVR8000 > mp2 > mp3DirectCut 2.08 > mp2]]></lineage>
-		<remarks>aired by german radio NDR-Info 'Jazz Konzert' on 2015-08-08, hosted by Claudia
-			Schober</remarks>
+		<remarks>aired by german radio NDR-Info 'Jazz Konzert' on 2015-08-08, hosted by Claudia Schober</remarks>
 		<artists>
 			<artist main="true">Bugge Wesseltoft</artist>
 		</artists>
@@ -27329,7 +27270,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Danny Barcelona</artist>
 			<artist>Velma Middleton</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1959-02-04</date>
@@ -27532,8 +27473,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality>A</quality>
 		<lineage><![CDATA[HD over fm>Sangean HDT-1>Rotel-05 SE>SoundBlaster (Live! 24 bit External)>wav(CD Wave Editor)>flac]]></lineage>
-		<remarks>Originally recorded Jan. 3, 1987. Originally broadcast April 2, 1987. This
-			broadcast date: 2014-01-31</remarks>
+		<remarks>Originally recorded Jan. 3, 1987. Originally broadcast April 2, 1987. This broadcast date: 2014-01-31</remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Marian McPartland</artist>
@@ -27614,9 +27554,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality/>
 		<lineage><![CDATA[CD > rip with EAC > checksums created with Trader's Little Helper > you]]></lineage>
-		<remarks>notes on the recording: well, it does sound really good for its time. It's
-			described as a soundboard, but please don't expect today's soundboard quality. However,
-			it's really a great song selection and great playing! I love this show.</remarks>
+		<remarks>notes on the recording: well, it does sound really good for its time. It's described as a soundboard, but please don't expect today's soundboard quality. However, it's really a great song selection and great playing! I love this show.</remarks>
 		<artists>
 			<artist main="true" type="band">Utopia</artist>
 			<artist>Todd Rundgren</artist>
@@ -27855,7 +27793,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format>DVD</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Chet Baker</artist>
 			<artist>Jean-Louis Chautemps</artist>
@@ -27877,11 +27815,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>2/5/1964 - 32 min
-			JAZZ POUR TOUS
-			En 1964, le trompettiste américain Chet Baker est de passage à Liège, où réside son ami Jacques Pelzer. Ils enregistrent ensemble une session pour l'émission "Jazz pour tous" diffusée le 2 mai de la même année. Parmi les morceaux interprétés : "Bye Bye Blackbird", "Isn'It Romantic", "Airegin", "Time After Time" et "So What". Les 3 musiciens les accompagnant sont René Urtreger (piano), Luigi Trussardi (contrebasse) et Franco Manzecchi (batterie).
-			Serge Leroy (Réalisateur),
-			Nicolas Résimont (Producteur)</remarks>
+		<remarks>2/5/1964 - 32 min JAZZ POUR TOUS En 1964, le trompettiste américain Chet Baker est de passage à Liège, où réside son ami Jacques Pelzer. Ils enregistrent ensemble une session pour l'émission "Jazz pour tous" diffusée le 2 mai de la même année. Parmi les morceaux interprétés : "Bye Bye Blackbird", "Isn'It Romantic", "Airegin", "Time After Time" et "So What". Les 3 musiciens les accompagnant sont René Urtreger (piano), Luigi Trussardi (contrebasse) et Franco Manzecchi (batterie).
+			Serge Leroy (Réalisateur), Nicolas Résimont (Producteur)</remarks>
 		<artists>
 			<artist main="true">Chet Baker</artist>
 			<artist>Jacques Pelzer</artist>
@@ -27889,7 +27824,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Luigi Trussardi</artist>
 			<artist>Franco Manzecchi</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1964-05-02</date>
@@ -28006,8 +27941,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS > DVD trade > dime]]></lineage>
-		<remarks>Bayerischen Rundfunk production. info from:
-			http://www.webmutations.com/ceciltaylor/1984.html</remarks>
+		<remarks>Bayerischen Rundfunk production. info from: http://www.webmutations.com/ceciltaylor/1984.html</remarks>
 		<artists>
 			<artist main="true">Cecil Taylor</artist>
 		</artists>
@@ -28088,8 +28022,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<format/>
 		<quality/>
 		<lineage><![CDATA[FM (analog cable) - Audacity - xACT ]]></lineage>
-		<remarks>Nordwestradio in concert: Pop &amp; Jazz, 2014-04-15. The Paul Bley Synthesizer
-			Show</remarks>
+		<remarks>Nordwestradio in concert: Pop &amp; Jazz, 2014-04-15. The Paul Bley Synthesizer Show</remarks>
 		<artists>
 			<artist main="true">Paul Bley</artist>
 		</artists>
@@ -28126,8 +28059,7 @@ Editing:
 -> Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work
 -> Video: DVD Shrink -> VOB2MPEG -> DGMPGDec
 -> Assembling: MKVMerge: M2V video and LPCM Audio -> *.MKV with chapters]]></lineage>
-		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this
-			torrent)</remarks>
+		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 			<artist>Ed Mann</artist>
@@ -28224,7 +28156,7 @@ Video_ts]]></lineage>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Count Basie</artist>
@@ -28245,7 +28177,7 @@ Video_ts]]></lineage>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Dizzy Gillespie</artist>
@@ -28267,7 +28199,7 @@ Video_ts]]></lineage>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true" type="band">John Coltrane Quartet</artist>
@@ -28291,8 +28223,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[TV > VHS from a trade (at least 2nd gen) > LG dvd recorder > dvd-rw > my hard disk > TMPGenc DVD Author 1.6 > Video_ts > you]]></lineage>
-		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto"
-			aired for the first time during 1975.</remarks>
+		<remarks>This longer version of the Todi show is taken from Rai tv program "Jazz Concerto" aired for the first time during 1975.</remarks>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Don Pullen</artist>
@@ -28738,13 +28669,8 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
-		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape
-			synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks
-			and features solos on a couple of the songs, this band plays some of the funkiest jazz
-			you will ever hear ! Claude Nobs does the intro and outro of the band at the end he
-			mentions a jam session at some place then looks at his watch and pulls a face as if to
-			say it's to late for that so they must have been on very late so it was probably July
-			21st when they were playing onstage</remarks>
+		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear ! Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place then looks at his watch and pulls a face as if to say it's to late for that so they must have been on
+			very late so it was probably July 21st when they were playing onstage</remarks>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Larry Coryell</artist>
@@ -28849,8 +28775,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Broadcast>vhs taped by myself years ago>transferred by dextrane]]></lineage>
-		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure;
-			probably Versilia (north Toscana coast) - "La Bussola".</remarks>
+		<remarks>Various artists in jam in , 60's, 1961 accordig with titles? i am not too sure; probably Versilia (north Toscana coast) - "La Bussola".</remarks>
 		<artists>
 			<dummy type="band">Oscar Peterson Trio</dummy>
 			<artist main="true">Oscar Peterson</artist>
@@ -28926,8 +28851,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage><![CDATA[Rai Re-Broadcast>vhs (1st copy, taped by myself)>Dvd Philips recorder.]]></lineage>
-		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays,
-			directed by Gorni Kramer)</remarks>
+		<remarks>Presentation by Lelio Luttazzi. orchestra (only in background, don't plays, directed by Gorni Kramer)</remarks>
 		<artists>
 			<artist main="true">Gerry Mulligan</artist>
 			<artist>Zoot Sims</artist>
@@ -29310,8 +29234,7 @@ Video_ts]]></lineage>
 			<artist>Tricky Sam Nanton</artist>
 		</artists>
 		<titlefilm year="1929">Black and Tan</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1930-xx-xx</date>
@@ -29331,8 +29254,7 @@ Video_ts]]></lineage>
 			<artist>Barney Bigard</artist>
 		</artists>
 		<titlefilm year="1930">Check and Double Check</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1934-xx-xx</date>
@@ -29353,8 +29275,7 @@ Video_ts]]></lineage>
 			<artist>Joe Nanton</artist>
 		</artists>
 		<titlefilm year="1934">Symphony in Black: A Rhapsody of Negro Life</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1937-xx-xx</date>
@@ -29371,10 +29292,8 @@ Video_ts]]></lineage>
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 		</artists>
-		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and
-			His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and His Orchestra</titlefilm>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1937-xx-xx</date>
@@ -29394,8 +29313,7 @@ Video_ts]]></lineage>
 			<artist>Barney Bigard</artist>
 		</artists>
 		<titlefilm year="1937">The Hit Parade of 1937</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1943-xx-xx</date>
@@ -29414,8 +29332,7 @@ Video_ts]]></lineage>
 			<artist>Johnny Hodges</artist>
 		</artists>
 		<titlefilm year="1943">RKO Jamboree No. 7: Duke Ellington and His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films
-			26033)</title>
+		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1944-xx-xx</date>
@@ -29460,8 +29377,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
-			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
 		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
@@ -29545,8 +29461,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">1080p</format>
 		<quality/>
 		<lineage/>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
-			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
 		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
@@ -29697,8 +29612,7 @@ Video_ts]]></lineage>
 			<artist>Jo Jones</artist>
 		</artists>
 		<titlefilm>Jazz from Studio 61</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
-			Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1957-12-08</date>
@@ -29713,8 +29627,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
-		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58,
-			the Town Theater at 851 Ninth Avenue in New York City</remarks>
+		<remarks>aired on Sunday, December 8, 1957, at 5 p.m. Eastern Time, live from CBS Studio 58, the Town Theater at 851 Ninth Avenue in New York City</remarks>
 		<artists>
 			<artist>Billy Holiday</artist>
 			<artist>Jimmy Rushing</artist>
@@ -29753,8 +29666,7 @@ Video_ts]]></lineage>
 			<artist>Ryan Nelson</artist>
 		</artists>
 		<titlefilm>The Sound of Jazz</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video
-			Company)</title>
+		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1990-10-23</date>
@@ -29927,13 +29839,13 @@ Video_ts]]></lineage>
 		<length>1:45:00</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
-			<artist>Eddie Henderson</artist>			
-			<artist>Eli Degibri</artist>			
+			<artist>Eddie Henderson</artist>
+			<artist>Eli Degibri</artist>
 			<artist>Ira Coleman</artist>
 			<artist>Terri Lyne Carrington</artist>
 			<artist>Cyro Baptista Ciari</artist>
@@ -29948,16 +29860,16 @@ Video_ts]]></lineage>
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
+		<length/>
 		<source DVB="true">DVB</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[DVB-C > Nokia d-box 1 > hardisk via SCSI connection. Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. DVD-rip to .ts with ProjectX 0.91]]></lineage>
 		<remarks>recorded at the "12. Jazzfestival Hamburg 1987"</remarks>
 		<artists>
 			<artist main="true">Randy Brecker</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1987-10-19</date>
@@ -29967,16 +29879,16 @@ Video_ts]]></lineage>
 			<city>Hamburg</city>
 			<country>Germany</country>
 		</location>
-		<length></length>
+		<length/>
 		<source DVB="true">DVB</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[DVB-C > Nokia d-box 1 > hardisk via SCSI connection. Edits were made with Cuttermaran 1.70. DVD authoring was made with DVDLab Pro 2. DVD-rip to .ts with ProjectX 0.91]]></lineage>
 		<remarks>recorded at the "12. Jazzfestival Hamburg 1987"</remarks>
 		<artists>
 			<artist main="true">Michael Brecker</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1987-1990</date>
@@ -29990,14 +29902,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">MPEG2</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks>Peter Herbolzheimer RC &amp; B with Etta Cameron - 1989-06-26
-			Toots Thielemans - 1988-02-29
-			Jimmy Smith - 1988-09-05 
-			Nancy Wilson - 1987-04-20
-			Monty Alexander - 1989-01-16
-			Tribute to Louis Armstrong and Benny Goodman - 1987-05-18
-			Modern Jazz Quartet - 1989-12-11
-			Ramsey Lewis - 1990-08-19</remarks>
+		<remarks>Peter Herbolzheimer RC &amp; B with Etta Cameron - 1989-06-26 Toots Thielemans - 1988-02-29 Jimmy Smith - 1988-09-05 Nancy Wilson - 1987-04-20 Monty Alexander - 1989-01-16 Tribute to Louis Armstrong and Benny Goodman - 1987-05-18 Modern Jazz Quartet - 1989-12-11 Ramsey Lewis - 1990-08-19</remarks>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<dummy type="band">Peter Herbolzheimer ...</dummy>
@@ -30025,7 +29930,7 @@ Video_ts]]></lineage>
 		<format resolution="720x416">AVC</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<dummy type="band" main="true">Various Artists</dummy>
 			<artist>Sugarhill Gang</artist>
@@ -30055,7 +29960,7 @@ Video_ts]]></lineage>
 		<source>REEL+DVD</source>
 		<format resolution="PAL 1/2">mpg</format>
 		<quality>B-</quality>
-		<lineage trader="Franz Hoffman"></lineage>
+		<lineage trader="Franz Hoffman"/>
 		<remarks>Norman Granz's Jazz At The Philarmonic</remarks>
 		<artists>
 			<artist main="true">Nat King Cole</artist>
@@ -30072,7 +29977,7 @@ Video_ts]]></lineage>
 			<artist>Nelson Riddle</artist>
 			<host>Norman Granz</host>
 		</artists>
-		<title>DVD-9b  JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
+		<title>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1982-07-23_25</date>
@@ -30085,8 +29990,8 @@ Video_ts]]></lineage>
 		<source>REEL</source>
 		<format resolution="PAL 1/2">mpg</format>
 		<quality>B-</quality>
-		<lineage trader="Franz Hoffman"></lineage>
-		<remarks></remarks>
+		<lineage trader="Franz Hoffman"/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<dummy type="band">Stevie Ray Vaughan</dummy>
@@ -30143,7 +30048,7 @@ Video_ts]]></lineage>
 			<artist>Jay McShann</artist>
 			<artist>Leroy Vinnegar</artist>
 			<artist>Jackie Williams</artist>
-			<artist>Slim Gaillard</artist>			
+			<artist>Slim Gaillard</artist>
 		</artists>
 		<title>DVD-154 Antibes-79 M.Royal &amp; Sc.Hamilton; Montreux-82; Jazz Off-97: Johnny Griffin; Barney Wilen</title>
 	</session>
@@ -30158,8 +30063,8 @@ Video_ts]]></lineage>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
 			<dummy type="band">Jimmy Giuffre 3</dummy>
@@ -30268,18 +30173,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>11/12/1965 - 32 min
-			JAZZ POUR TOUS
-			Concert de Dave Brubeck accompagné de Paul Desmond, Gene Wright et Joe Morello.
-			Paul Roland (Réalisateur),
-			Nicolas Résimont (Producteur)</remarks>
+		<remarks>11/12/1965 - 32 min JAZZ POUR TOUS Concert de Dave Brubeck accompagné de Paul Desmond, Gene Wright et Joe Morello. Paul Roland (Réalisateur), Nicolas Résimont (Producteur)</remarks>
 		<artists>
 			<artist main="true">Dave Brubeck</artist>
 			<artist>Paul Desmond</artist>
 			<artist>Gene Wright</artist>
 			<artist>Joe Morello</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">xxxx-xx-xx</date>
@@ -30293,10 +30194,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage>https://www.sonuma.be/archive/quartette-earl-hines-le</lineage>
-		<remarks>QUARTETTE EARL HINES (LE)
-			Concert du quartette Earl Hines (piano) enregistré dans la salle de théâtre du casino de Spa. Avec Rudy Ruthersford (saxophone), James Leary (contrebasse), Eddie Graham (batterie) et la chanteuse Marva Josie.
-			Nicolas Dor (Présentateur),
-			Georges Yu (Réalisateur)</remarks>
+		<remarks>QUARTETTE EARL HINES (LE) Concert du quartette Earl Hines (piano) enregistré dans la salle de théâtre du casino de Spa. Avec Rudy Ruthersford (saxophone), James Leary (contrebasse), Eddie Graham (batterie) et la chanteuse Marva Josie. Nicolas Dor (Présentateur), Georges Yu (Réalisateur)</remarks>
 		<artists>
 			<artist main="true">Earl Hines</artist>
 			<artist>Rudy Ruthersford</artist>
@@ -30304,7 +30202,7 @@ Video_ts]]></lineage>
 			<artist>Eddie Graham</artist>
 			<artist>Marva Josie</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1973-02-01</date>
@@ -30317,11 +30215,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage>https://www.sonuma.be/archive/pop-shop-du-01021973</lineage>
-		<remarks>1/2/1973 - 29 min
-			POP SHOP
-			Concert en studio du groupe Genesis (Tony Banks, Peter Gabirel, Michael Rutherford, Phil Collins et Steve Hackett). Ils interprètent "The fountain of salmacis”, "Twilight", "Musical Box", "The return of the giant hogweed”.
-			John Dauriac (Réalisateur),
-			Nicolas Résimont (Producteur)</remarks>
+		<remarks>1/2/1973 - 29 min POP SHOP Concert en studio du groupe Genesis (Tony Banks, Peter Gabirel, Michael Rutherford, Phil Collins et Steve Hackett). Ils interprètent "The fountain of salmacis”, "Twilight", "Musical Box", "The return of the giant hogweed”. John Dauriac (Réalisateur), Nicolas Résimont (Producteur)</remarks>
 		<artists>
 			<artist main="true" type="band">Genesis</artist>
 			<artist>Peter Gabriel</artist>
@@ -30330,7 +30224,7 @@ Video_ts]]></lineage>
 			<artist>Michael Rutherford</artist>
 			<artist>Steve Hackett</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1963-03-10</date>
@@ -30345,14 +30239,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Thelonious Monk</artist>
 			<artist>Charlie Rouse</artist>
 			<artist>John Ore</artist>
 			<artist>Frankie Dunlop</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1963-03-10</date>
@@ -30365,10 +30259,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>29/9/1962 - 28 min
-			JAZZ POUR TOUS
-			Concert donné par le "Modern Jazz Quartet'', un ensemble qui comprend John Lewis au piano, Milton Jackson au vibraharp, Percy Heath à la basse et Connie Kay à la batterie. Ils interprètent : "Ralph's Nero blues", "Fugato from original sin”, "Horo high the moon", “Pierrot", "Django".
-			Serge Leroy (Réalisateur)</remarks>
+		<remarks>29/9/1962 - 28 min JAZZ POUR TOUS Concert donné par le "Modern Jazz Quartet'', un ensemble qui comprend John Lewis au piano, Milton Jackson au vibraharp, Percy Heath à la basse et Connie Kay à la batterie. Ils interprètent : "Ralph's Nero blues", "Fugato from original sin”, "Horo high the moon", “Pierrot", "Django". Serge Leroy (Réalisateur)</remarks>
 		<artists>
 			<artist main="true" type="band">Modern Jazz Quartet</artist>
 			<artist>John Lewis</artist>
@@ -30376,11 +30267,11 @@ Video_ts]]></lineage>
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1973-04-06</date>
-		<location>			
+		<location>
 			<city>Mons</city>
 			<country>Belgium</country>
 		</location>
@@ -30389,7 +30280,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Sadi Quartet</artist>
 			<artist>Sadi</artist>
@@ -30401,7 +30292,7 @@ Video_ts]]></lineage>
 	</session>
 	<session av="V">
 		<date type="xs:date">1973-04-06</date>
-		<location>			
+		<location>
 			<city>Verviers</city>
 			<country>Belgium</country>
 		</location>
@@ -30410,7 +30301,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">René Thomas</artist>
 			<artist>Freddy Deronde</artist>
@@ -30420,7 +30311,7 @@ Video_ts]]></lineage>
 	</session>
 	<session av="V">
 		<date type="xs:date">1973-04-06</date>
-		<location>			
+		<location>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
@@ -30429,7 +30320,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Placebo</artist>
 			<artist>Marc Moulin</artist>
@@ -30453,20 +30344,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>6/5/1987 - 5 min
-			CARGO DE NUIT
-			Rencontre avec Wayne Shorter, en répétitions pour un concert.
-			Wayne Shorter (Intervenant),
-			Marc Moulin (Journaliste),
-			Philippe Pilate (Réalisateur)
-			musique jazz</remarks>
+		<remarks>6/5/1987 - 5 min CARGO DE NUIT Rencontre avec Wayne Shorter, en répétitions pour un concert. Wayne Shorter (Intervenant), Marc Moulin (Journaliste), Philippe Pilate (Réalisateur) musique jazz</remarks>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Terri Lyne Carrington</artist>
 			<artist>Marilyn Mazur</artist>
 			<interviewer>Marc Moulin</interviewer>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1986-11-15</date>
@@ -30480,22 +30365,12 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>15/1/1986 - 8 min
-			CARGO DE NUIT
-			Marc Moulin réalise un entretien avec le trompettiste Miles Davis, figure légendaire du jazz, présent à Bruxelles pour un concert à Forest-National le 31 octobre 1985. Cette interview révèle discrètement une autre facette du jazzman : celle du peintre.
-			Miles Davis (Intervenant),
-			Marc Moulin (Journaliste),
-			Jean-Louis Sbille (Présentateur),
-			Philippe Pilate (Réalisateur)
-			musique jazz,
-			musique,
-			Belgique,
-			Bruxelles</remarks>
+		<remarks>15/1/1986 - 8 min CARGO DE NUIT Marc Moulin réalise un entretien avec le trompettiste Miles Davis, figure légendaire du jazz, présent à Bruxelles pour un concert à Forest-National le 31 octobre 1985. Cette interview révèle discrètement une autre facette du jazzman : celle du peintre. Miles Davis (Intervenant), Marc Moulin (Journaliste), Jean-Louis Sbille (Présentateur), Philippe Pilate (Réalisateur) musique jazz, musique, Belgique, Bruxelles</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<interviewer>Marc Moulin</interviewer>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1986-11-05</date>
@@ -30508,21 +30383,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>5/11/1986 - 7 min
-			CARGO DE NUIT
-			Le guitariste de jazz Philip Catherine en studio avec ses musiciens interprète une de ses compositions. Il est interviewé par Jean-Louis Sbille avant sa prestation.
-			Philip Catherine (Intervenant),
-			Philippe Pilate (Réalisateur),
-			Jean-Louis Sbille (Présentateur)
-			musique jazz,
-			Belgique</remarks>
+		<remarks>5/11/1986 - 7 min CARGO DE NUIT Le guitariste de jazz Philip Catherine en studio avec ses musiciens interprète une de ses compositions. Il est interviewé par Jean-Louis Sbille avant sa prestation. Philip Catherine (Intervenant), Philippe Pilate (Réalisateur), Jean-Louis Sbille (Présentateur) musique jazz, Belgique</remarks>
 		<artists>
 			<artist main="true">Philip Catherine</artist>
 			<artist>Hein van de Geyn</artist>
 			<artist>Philip De Cock</artist>
 			<artist>Félix Simtaine</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1986-11-05</date>
@@ -30535,18 +30403,11 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>28/5/1986 - 3 min
-			CARGO DE NUIT
-			Pierre Van Dormael en studio interprète "Everyone goes to Japan".
-			Pierre Van Dormael (Intervenant),
-			Jean-Louis Sbille (Présentateur),
-			Philippe Pilate (Réalisateur)
-			musique jazz,
-			Belgique</remarks>
+		<remarks>28/5/1986 - 3 min CARGO DE NUIT Pierre Van Dormael en studio interprète "Everyone goes to Japan". Pierre Van Dormael (Intervenant), Jean-Louis Sbille (Présentateur), Philippe Pilate (Réalisateur) musique jazz, Belgique</remarks>
 		<artists>
 			<artist main="true">Pierre Van Dormael</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1972-06-08</date>
@@ -30559,19 +30420,11 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>BULLETIN D'INFORMATION
-			Rencontre avec le chanteur américain James Brown avant son départ pour le Zaïre.
-			James Brown (Intervenant),
-			(Journaliste)
-			musique pop - rock,
-			politique,
-			minorité,
-			Zaventem,
-			Belgique</remarks>
+		<remarks>BULLETIN D'INFORMATION Rencontre avec le chanteur américain James Brown avant son départ pour le Zaïre. James Brown (Intervenant), (Journaliste) musique pop - rock, politique, minorité, Zaventem, Belgique</remarks>
 		<artists>
 			<artist main="true">James Brown</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1966-05-28</date>
@@ -30584,12 +30437,12 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my side"…
-			Paul Roland (Réalisateur)</remarks>
+		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my
+			side"… Paul Roland (Réalisateur)</remarks>
 		<artists>
 			<artist main="true">Joan Baez</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1964-12-05</date>
@@ -30602,14 +30455,14 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my side"…
-			Paul Roland (Réalisateur)</remarks>
+		<remarks>Concert de la chanteuse folk Joan Baez. Entre les chansons, elle répond aux questions des étudiants présents sur le plateau et donne son opinion sur la ségrégation raciale et la violence aux Etats-Unis. La carrière de Joan Baez est intimement liée à celle de Bob Dylan. Ils partageront ensemble un bout de leur vie mais également la scène et certains de leurs engagements politiques et sociaux. Joan Baez reprend ici « It ain’t me babe », écrite en 1964 par Dylan et "With god on my
+			side"… Paul Roland (Réalisateur)</remarks>
 		<artists>
 			<artist main="true">Odetta</artist>
 			<artist>Peter Childs</artist>
 			<artist>Leslie Grinage</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1967-05-29</date>
@@ -30622,17 +30475,11 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>29/5/1967 - 5 min
-			GRAFFITI(1966)
-			Olivier Messiaen est un des compositeurs les plus importants du 20ème siècle. Dans cet entretien, il évoque l'influence des chants d'oiseaux dans son œuvre et sa relation avec la pianiste Yvonne Loriod.
-			Olivier Messiaen (Intervenant),
-			Marcel Croës (Journaliste)
-			musique classique,
-			musique</remarks>
+		<remarks>29/5/1967 - 5 min GRAFFITI(1966) Olivier Messiaen est un des compositeurs les plus importants du 20ème siècle. Dans cet entretien, il évoque l'influence des chants d'oiseaux dans son œuvre et sa relation avec la pianiste Yvonne Loriod. Olivier Messiaen (Intervenant), Marcel Croës (Journaliste) musique classique, musique</remarks>
 		<artists>
 			<artist main="true">Olivier Messiaen</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1962-06-01</date>
@@ -30647,20 +30494,11 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>1/6/1962 - 5 min
-			OEIL ECOUTE (L')
-			A l'occasion de son récent concert au Palais des beaux-arts de Bruxelles, rencontre avec Ray Charles. Brève biographie de celui que l'on surnomme "The Genius". Ray Charles exprime son étonnement face à l'enthousiasme pour sa musique en Europe, il présente ses musiciens et arrangeurs et définit ce qu'est la musique soul.
-			Quincy Jones (Sujet),
-			Ray Charles (Intervenant),
-			Benoît Quersin (Journaliste)
-			musique,
-			concert,
-			Bruxelles,
-			Belgique</remarks>
+		<remarks>1/6/1962 - 5 min OEIL ECOUTE (L') A l'occasion de son récent concert au Palais des beaux-arts de Bruxelles, rencontre avec Ray Charles. Brève biographie de celui que l'on surnomme "The Genius". Ray Charles exprime son étonnement face à l'enthousiasme pour sa musique en Europe, il présente ses musiciens et arrangeurs et définit ce qu'est la musique soul. Quincy Jones (Sujet), Ray Charles (Intervenant), Benoît Quersin (Journaliste) musique, concert, Bruxelles, Belgique</remarks>
 		<artists>
 			<artist main="true">Ray Charles</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1981-03-27</date>
@@ -30674,19 +30512,7 @@ Video_ts]]></lineage>
 		<format resolution="PAL">AVC</format>
 		<quality/>
 		<lineage/>
-		<remarks>27/3/1981 - 10 min
-			ANTENNE SOIR
-			Reportage sur un séminaire de musique jazz qui se déroule au Conservatoire de Liège. Henri Pousseur, directeur du conservatoire, explique la place du jazz parmi les autres musiques enseignées.
-			Willy Lesur (Journaliste),
-			Guy Lemaire (Présentateur),
-			Henri Pousseur (Intervenant),
-			Charles Loos (Intervenant),
-			Richard Rousselet (Intervenant),
-			Garrett List (Intervenant)
-			musique jazz,
-			instrument de musique,
-			enseignement artistique,
-			Liège,
+		<remarks>27/3/1981 - 10 min ANTENNE SOIR Reportage sur un séminaire de musique jazz qui se déroule au Conservatoire de Liège. Henri Pousseur, directeur du conservatoire, explique la place du jazz parmi les autres musiques enseignées. Willy Lesur (Journaliste), Guy Lemaire (Présentateur), Henri Pousseur (Intervenant), Charles Loos (Intervenant), Richard Rousselet (Intervenant), Garrett List (Intervenant) musique jazz, instrument de musique, enseignement artistique, Liège,
 			Belgique</remarks>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
@@ -30695,6 +30521,143 @@ Video_ts]]></lineage>
 			<artist>Richard Rousselet</artist>
 			<artist>Garrett List</artist>
 		</artists>
-		<title></title>
+		<title/>
+	</session>
+	<session av="A">
+		<date type="xs:date">2017-04-13</date>
+		<location>
+			<venue>The Green Space</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:40:12</length>
+		<source station="WXQR">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks>Included on the program were solo piano music by Iyer, and duets with the dynamic drummer-composer 
+			Tyshawn Sorey and with Iyer's longtime performing partner saxophonist-composer Rudresh Mahanthappa. 
+			Acclaimed violinist and champion of new music Jennifer Koh performed Esa-Pekka Salonen’s lyrical 
+			Lachen Verlernt, while George Lewis, the pioneering composer, scholar and member of the Association 
+			for the Advancement of Creative Musicians, joined host Helga Davis on stage for a conversation. </remarks>
+		<artists>
+			<artist main="true">Vijay Iyer</artist>
+			<artist>Stephan Crump</artist>
+			<artist>Marcus Gilmore</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">2018-08-12</date>
+		<location>
+			<event type="festival">Jazz Middelheim</event>
+			<city>Antwerpen</city>
+			<country>Belgium</country>
+		</location>
+		<length>1:18:14</length>
+		<source station="Klara">FM</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Aka Moon</artist>
+			<artist>Fabrizio Cassol</artist>
+			<artist>Michel Hatzigeorgiou</artist>
+			<artist>Stéphane Galland</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1976-07-21</date>
+		<location>
+			<event type="festival">Jazz à Juan: Juan-les-Pins Jazz Festival</event>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>1:43:22</length>
+		<source>AUD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[Flac file direclty from Web > Audacity (Normalization - lots of noises cutting ) > Tlh (SBE - Flac 8 ) > Dime]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1973-03-19</date>
+		<location>
+			<city>Bern</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:52:04</length>
+		<source>FM+AUD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[web > Audacity (Normalization - noises cutting ) > Tlh (SBE - Flac 8 ) > Dime]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1974-10-16</date>
+		<location>
+			<venue>George Washington University</venue>
+			<city>Washington D.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:52:57</length>
+		<source>AUD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[web > Audacity (Normalization - noises cutting ) > Tlh (SBE - Flac 8 ) > Dime]]></lineage>
+		<remarks>Keith Jarrett, Lisner Auditorium, George Washington University, Washington DC, October 16, 1974.  Jarrett played a solo set before being followed by the Gary Burton Quintet.
+			
+			From the master cassettes.  Recorded from about halfway back in the main center section of the auditorium, using an inexpensive Panasonic mono recorder with ALC and cheap Ampex tapes.  The original tapes cannot be located.  This digital transfer was made from those tapes early in the 21st century.  At that time, EQ was used to remove the extreme bottom frequencies to eliminate rumble and the extreme high frequencies to reduce hiss.  
+		</remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-07-25</date>
+		<location>
+			<event type="festival">Jazz à Juan: Juan-les-Pins Jazz Festival</event>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>1:47:07</length>
+		<source>DVB-S</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[TS file recorded by Lewojazz > ffmpeg (16/48 wav)]]></lineage>
+		<remarks>Broadcast: 2018-04-14 &amp; -15 Francemusique 256/48</remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-07-25</date>
+		<location>
+			<event type="festival">Jazz à Juan: Juan-les-Pins Jazz Festival</event>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>1:59:43</length>
+		<source bitrate="128">web</source>
+		<format bitrate="128">mp3</format>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title/>
 	</session>
 </KC_ROIO>
