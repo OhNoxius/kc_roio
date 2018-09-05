@@ -3824,7 +3824,7 @@ Recorder]]></lineage>
 	<session id="id0x3fd76c0" av="V">
 		<date type="xs:date">1968-10-06</date>
 		<location>
-			<event type="festival">Beat Club</event>
+			<event type="tvshow">Beat-Club</event>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
@@ -3890,7 +3890,7 @@ Recorder]]></lineage>
 	<session av="V">
 		<date type="xs:date">1968-10-06</date>
 		<location>
-			<event type="festival">Beat Club</event>
+			<event type="tvshow">Beat-Club</event>
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
@@ -13931,9 +13931,9 @@ correction]]></lineage>
 	<session id="id0x3f301c0" av="A">
 		<date type="xs:date">1967-07-11+18</date>
 		<location>
-			<event type="festival">Montreal Jazz Festival</event>
+			<event type="festival">Montreux Jazz Festival</event>
 			<venue>Montreux &amp; Paris</venue>
-			<country>France?</country>
+			<country>France</country>
 		</location>
 		<length>161min</length>
 		<source>FM</source>
@@ -14790,7 +14790,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 	<session id="id0x535b0d0" av="A">
 		<date type="xs:date">1978-07-16</date>
 		<location>
-			<event type="festival">Marian McPartland Piano Jazz</event>
+			<event type="radioshow">Marian McPartland's Piano Jazz</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:58:24</length>
@@ -14808,7 +14808,7 @@ tape deck w/ Dolby C HXpro >Sony UX-S cassettes transfer (November 2011): Denon 
 	<session av="A">
 		<date type="xs:date">2006-09-09</date>
 		<location>
-			<event type="festival">Marian McPartland Piano Jazz</event>
+			<event type="radioshow">Marian McPartland's Piano Jazz</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:57:52</length>
@@ -15988,7 +15988,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 	<session id="id0x5de69f0" av="A">
 		<date type="xs:date">2002-xx-xx</date>
 		<location>
-			<event type="festival">Marian McPartland Piano Jazz</event>
+			<event type="radioshow">Marian McPartland's Piano Jazz</event>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -22583,7 +22583,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 	<session id="id0x15dffe0" av="A">
 		<date type="xs:date">2006-01-17</date>
 		<location>
-			<event type="festival">Marian McPartland Piano Jazz</event>
+			<event type="radioshow">Marian McPartland's Piano Jazz</event>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -27559,7 +27559,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="A">
 		<date type="xs:date">1987-01-03</date>
 		<location>
-			<event type="tvshow">Marian McPartland's Piano Jazz</event>
+			<event type="radioshow">Marian McPartland's Piano Jazz</event>
 			<venue>Manhattan Beach Studios</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
