@@ -247,7 +247,7 @@
                 req.send();
             }
             
-            function requestCountries(url, loadedData, elementToAddResult) {
+            function requestCountries(url, loadedData, elementToAddResult, sortBy) {
                 var req = new XMLHttpRequest();
                 req.open('GET', url);
                 // to allow us doing XSLT in IE
@@ -259,7 +259,8 @@
                 req.onload = function () {
                     loadedData[ 'xslCountries' ] = req.responseXML;
                     if (checkCountriesLoaded(loadedData)) {
-                        xslRefresh(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult);
+                        xslTransform(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult);
+                        alert("xlsTransform ipv xslRefresh");
                     };
                 };
                 req.send();
@@ -302,7 +303,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults'] = req.responseXML;
+                    loadedData[ 'xslResults' ] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
                         xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
                         
