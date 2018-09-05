@@ -43,13 +43,10 @@
 				<!--<xsl:value-of select="@av"/>-->
 				<xsl:choose>
 					<xsl:when test="@av = 'A'">
-						<img src="audio-icon.png"
-							alt="A" height="24" width="24"/>
+						<img src="audio-icon.png" alt="A" height="24" width="24"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<img
-							src="video-icon.png"
-							alt="V" height="24" width="24"/>
+						<img src="video-icon.png" alt="V" height="24" width="24"/>
 					</xsl:otherwise>
 				</xsl:choose>
 			</td>
@@ -74,21 +71,20 @@
 				<!--source-->
 				<xsl:apply-templates select="./@official"/>
 				<xsl:value-of select="source"/>
-				
+
 				<!--format-->
 				<br/>
 				<em>
 					<xsl:value-of select="format"/>
 					<xsl:apply-templates select="format/@bitrate"/>
-					<xsl:apply-templates select="format/@resolution"/>	
+					<xsl:apply-templates select="format/@resolution"/>
 				</em>
 			</td>
 			<td style="text-align:center">
 				<xsl:value-of select="quality"/>
 			</td>
 			<td style="text-align:center">
-				<input type="button" value="extra" style="border:1;background:none;width:50px;"
-					class="xtrClass"/>
+				<input type="button" value="extra" style="border:1;background:none;width:50px;" class="xtrClass"/>
 			</td>
 		</tr>
 		<tr id="xtr_{generate-id(.)}" height="1" style="display:none">
@@ -110,7 +106,7 @@
 			<td colspan="8" bgcolor="#CCCCCC"/>
 		</tr>
 	</xsl:template>
-	
+
 	<!--	  hieronder stond: match="artists/artist[@type = 'band']-->
 	<xsl:template priority="2" match="artists/*[@type = 'band']">
 		<em><xsl:value-of select="."/>: </em>
@@ -119,12 +115,12 @@
 	<xsl:template match="@official">
 		<xsl:text>official </xsl:text>
 	</xsl:template>
-	
+
 	<xsl:template match="@bitrate">
-		<xsl:text><![CDATA[@]]></xsl:text>		
+		<xsl:text><![CDATA[@]]></xsl:text>
 		<xsl:value-of select="."/>
 	</xsl:template>
-	
+
 	<xsl:template match="@resolution">
 		<xsl:text>-</xsl:text>
 		<xsl:value-of select="."/>

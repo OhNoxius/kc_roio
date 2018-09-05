@@ -140,14 +140,13 @@
                     elementToAddResult.appendChild(fragment);
                     
                     //DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslREFRESH)
-                   <!-- if (elementToAddResult.firstChild) {
-                        elementToAddResult.children[0].style.display = 'none';
-                        //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
-                        elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
-                    } else {
-                        elementToAddResult.appendChild(fragment);
-                    }-->
-                    
+                    //if (elementToAddResult.firstChild) {
+                    //elementToAddResult.children[0].style.display = 'none';
+                    ////elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
+                    //elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+                    //} else {
+                    //elementToAddResult.appendChild(fragment);
+                    //}
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
                 }
@@ -177,6 +176,7 @@
                     }
                     //alert(av);
                     proc.setParameter(null, "chooseAV", av);
+                    //EINDE parameters doorgeven
                     
                     fragment = proc.transformToFragment(xmlInput, document);
                     if (elementToAddResult.firstChild) {
@@ -265,7 +265,7 @@
                 req.send();
             }
             
-            function requestCountries(url, loadedData, elementToAddResult, sortBy) {
+            function requestSortAZ(url, loadedData, elementToAddResult, sortBy) {
                 var req = new XMLHttpRequest();
                 req.open('GET', url);
                 // to allow us doing XSLT in IE
@@ -321,7 +321,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults' ] = req.responseXML;
+                    loadedData[ 'xslResults'] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
                         xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
                         
@@ -349,16 +349,15 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslFilters' ] = req.responseXML;
+                    loadedData[ 'xslFilters'] = req.responseXML;
                     if (checkFiltersLoaded(loadedData)) {
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
                         //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('festivalBox'), "festival");
-                    }
-                    else {
+                    } else {
                         //alert('KC_ROIO_filters nog niet geladen');
-                        }
+                    }
                 };
                 req.send();
             }
@@ -373,7 +372,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xmlInput'] = req.responseXML;
+                    loadedData[ 'xmlInput' ] = req.responseXML;
                 };
                 req.send();
             }
@@ -401,19 +400,21 @@
             function init(xml, xsl, elementToAddResult) {
                 xml = 'KC_ROIO.xml';
                 xsl_artists = 'KC_ROIO_artists.xsl';
-                xsl_countries = 'KC_ROIO_countries.xsl';
-                xsl_filters = 'KC_ROIO_filters.xsl';              
-                xsl_search = 'KC_ROIO_search.xsl';              
+                xsl_sortAZ = 'KC_ROIO_sortAZ.xsl';
+                xsl_filters = 'KC_ROIO_filters.xsl';
+                xsl_search = 'KC_ROIO_search.xsl';
                 
                 elementToAddResult = document.getElementById('result');
                 var loadedData = {
-                    xmlInput: null, xslFilters: null, xslResults: null, xslArtists: null, xslCountries: null, xslFestivals: null
+                    xmlInput: null, xslFilters: null, xslResults: null, xslArtists: null, xslSortAZ: null
                 };
                 //load xml
-                requestXML(xml, loadedData, function() {console.log('XML IS LOADED!');});
+                requestXML(xml, loadedData, function () {
+                    console.log('XML IS LOADED!');
+                });
                 //populate datalist for search filters
                 requestFilters(xsl_filters, loadedData);
-                                
+                
                 //initialize search button
                 document.getElementById('search').addEventListener('click', function () {
                     requestSearch(xsl_search, loadedData, elementToAddResult);
@@ -436,12 +437,13 @@
                 },
                 false);
                 
+                //more general sortAZ function call: countries
                 document.getElementById('countriesAZ').addEventListener('click', function () {
-                    requestCountries(xsl_countries, loadedData, elementToAddResult, "country");
+                    requestSortAZ(xsl_sortAZ, loadedData[ 'xslCountries' ] , elementToAddResult, "country");
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },
-                false);              
+                false);
                 
                 //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
             }//]]>
@@ -458,37 +460,40 @@
                     <tr>
                         <td style="border-bottom:none;">
                             <label for="artistSelector">artist:</label>
-                            <input id="artistSelector" list="artistBox" name="artist" autocomplete="off"/>
+                            <input id="artistSelector" list="artistBox" name="artist" autocomplete="off" />
                             <datalist id="artistBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="countrySelector">country:</label>
-                            <input id="countrySelector" list="countryBox" name="country" autocomplete="off"/>
+                            <input id="countrySelector" list="countryBox" name="country" autocomplete="off" />
                             <datalist id="countryBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="yearSelector">year:</label>
-                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" autocomplete="off"/>
+                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" autocomplete="off" />
                             <datalist id="yearBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="festivalSelector">festival/show:</label>
-                            <input id="festivalSelector" list="festivalBox" name="festival" autocomplete="off"/>
+                            <input id="festivalSelector" list="festivalBox" name="festival" autocomplete="off" />
                             <datalist id="festivalBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
-                            <input type="checkbox" name="a/v" value="A" id="audio" checked="checked"
-                                 /><label for="audio">audio</label>
+                            <input type="checkbox" name="a/v" value="A" id="audio" checked="checked" /><label for="audio">audio</label>
                             <br />
-                            <input type="checkbox" name="a/v" value="V" id="video" checked="checked"
-                                 /><label for="video">video</label>
+                            <input type="checkbox" name="a/v" value="V" id="video" checked="checked" /><label for="video">video</label>
+                        </td>
+                        <td colspan="5" style="border-bottom:none;">
+                            <!-- <input id="search" type="button" class="btn" value="search" />
+                            <input id="complete" type="button" class="btn" value="show complete list" />-->
+                            <a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="5" style="border-bottom:none;">
                             <!-- <input id="search" type="button" class="btn" value="search" />
                             <input id="complete" type="button" class="btn" value="show complete list" />-->
-                            <a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
+                            <!--<a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>-->
                             <a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">artists A/Z</a>
                             <a href="#" id="countriesAZ" class="btn" style="background:#7da0db;">countries A/Z</a>
                             <a href="#" id="festivalsAZ" class="btn" style="background:#8bb3f4;">festivals/shows A/Z</a>
@@ -520,8 +525,7 @@
             </fieldset>-->
         </form>
         <div id="result">
-            <h4 id="loading" class="loading" style="display:inline;font-size:100%;">start typing
-                above to begin search</h4>
+            <h4 id="loading" class="loading" style="display:inline;font-size:100%;">start typing above to begin search</h4>
             <div id="dummy"></div>
         </div>
     </body>
