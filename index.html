@@ -273,7 +273,7 @@
                 req.send();
             }
             
-            function requestSortYears(url, loadedData, elementToAddResult) {
+            function requestSortYears(loadedData, elementToAddResult) {
                 document.getElementById('loading').innerHTML = 'loading';
                 document.getElementById('loading').style.display = 'inline';
                 //LEGE JAARTABEL MAKEN VOOR ELK JAAR
@@ -490,7 +490,7 @@
                 
                 //sortYears
                 document.getElementById('chrono').addEventListener('click', function () {
-                    requestSortYears(xsl_sortYears, loadedData, elementToAddResult);
+                    requestSortYears(loadedData, elementToAddResult);
                     //"loading" zichtbaarheidcode verplaats naar in de functie, omdat het anders te traag aanpast                 
                 },
                 false);
