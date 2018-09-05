@@ -2688,26 +2688,7 @@ authoring)]]></lineage>
 			<artist>Gary Novak</artist>
 		</artists>
 		<title/>
-	</session>
-	<session id="id0x15f23f0" av="V">
-		<date type="xs:date">1994-10-25</date>
-		<location>
-			<event type="festival">Audi Jazz Festival</event>
-			<venue>Cirque Royale (Koninklijk Circus)</venue>
-			<city>Brussel</city>
-			<country>Belgium</country>
-		</location>
-		<length>5min</length>
-		<source>TV</source>
-		<format resolution="PAL">DVD</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist main="true">Chick Corea</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session id="id0x15f27b0" av="V">
 		<date type="xs:date">2001-xx-xx</date>
 		<location>
@@ -4725,29 +4706,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 			<artist>Paco de Lucia</artist>
 		</artists>
 		<title/>
-	</session>
-	<session id="id0x4ac4b30" av="V">
-		<date type="xs:date">1996-10-23</date>
-		<location>
-			<event type="festival">Audi Jazz Festival</event>
-			<venue>Cirque Royale (Koninklijk Circus)</venue>
-			<city>Brussel</city>
-			<country>Belgium</country>
-		</location>
-		<length>10min</length>
-		<source>TV</source>
-		<format resolution="PAL">DVD</format>
-		<quality>A</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band" main="true">Guitar Trio</artist>
-			<artist>Al Di Meola</artist>
-			<artist>John McLaughlin</artist>
-			<artist>Paco de Lucia</artist>
-		</artists>
-		<title/>
-	</session>
+	</session>	
 	<session id="id0x4ac5030" av="V">
 		<date type="xs:date">2010-xx-xx</date>
 		<location>
@@ -9137,7 +9096,7 @@ Subs)]]></lineage>
 	<session id="id0x57ae1c0" av="V">
 		<date type="xs:date">1959-01-xx</date>
 		<location>
-			<event type="festival">Fatty's Saloon</event>
+			<venue>Fatty's Saloon</venue>
 			<city>Vienna</city>
 			<country>Austria</country>
 		</location>
@@ -11168,7 +11127,7 @@ AC3@256 ]]></lineage>
 	<session av="V">
 		<date type="xs:date">2004-01-17_25</date>
 		<location>
-			<event type="festival">Cité de la Musique</event>
+			<venue>Cité de la Musique</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -11848,7 +11807,10 @@ AC3@256 ]]></lineage>
 	<session id="id0xd7d9f0" av="V">
 		<date type="xs:date">1967-12-12</date>
 		<location>
-			<event type="festival">Hollywood Palace</event>
+			<event type="tvshow">The Hollywood Palace</event>
+			<venue>Hollywood Palace</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
 		</location>
 		<length>0:58:28</length>
 		<source>TV</source>
@@ -12702,10 +12664,11 @@ AC3@256 ]]></lineage>
 	<session id="id0xdafc70" av="V">
 		<date type="xs:date">1990-1996</date>
 		<location>
-			<event type="festival">Audi Jazz Festival</event>
+			<event type="festival">Belga Jazz Festival</event>
+			<country>Belgium</country>
 		</location>
 		<length>0:55:07</length>
-		<source>TV</source>
+		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
@@ -12718,7 +12681,7 @@ AC3@256 ]]></lineage>
 			<artist>Hein van de Geyn</artist>
 			<artist>Dré Pallemaerts</artist>
 		</artists>
-		<title/>
+		<title>Audi Jazz Promotional DVD</title>
 	</session>
 	<session id="id0xdb0170" av="V">
 		<date type="xs:date">1991-10-16</date>

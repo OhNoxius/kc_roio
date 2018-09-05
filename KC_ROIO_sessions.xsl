@@ -23,7 +23,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<xsl:apply-templates select="//session[(artists/* = $chooseParameter) or (location/country = $chooseParameter) or (location/event = $chooseParameter)]">
+				<xsl:apply-templates select="//session[(artists/* = $chooseParameter) or (location/country = $chooseParameter) or (location/event = $chooseParameter) or contains(substring(date,1,4), string($chooseParameter))]">
 					<xsl:sort select="date" order="ascending"/>
 				</xsl:apply-templates>
 			</tbody>
