@@ -166,7 +166,7 @@
                     proc.setParameter(null, "chooseArtist", document.getElementById('artistSelector').value.toUpperCase());
                     proc.setParameter(null, "chooseCountry", document.getElementById('countrySelector').value.toUpperCase());
                     proc.setParameter(null, "chooseYear", document.getElementById('yearSelector').value);
-                    proc.setParameter(null, "chooseFestival", document.getElementById('festivalSelector').value.toUpperCase());
+                    proc.setParameter(null, "chooseEvent", document.getElementById('eventSelector').value.toUpperCase());
                     av = "";
                     if (document.getElementById('audio').checked) {
                         av = av.concat("A");
@@ -237,7 +237,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslArtists' ] = req.responseXML;
+                    loadedData[ 'xslArtists'] = req.responseXML;
                     if (checkArtistsLoaded(loadedData)) {
                         xslRefresh(loadedData.xmlInput, loadedData.xslArtists, elementToAddResult);
                         
@@ -256,7 +256,7 @@
                                 xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
                                 elementToAddResult = document.getElementById('tab_' + thisId);
                                 
-                                loadedData[ 'xslResults'] = null;
+                                loadedData[ 'xslResults' ] = null;
                                 requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
                             }
                         });
@@ -275,9 +275,9 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslCountries' ] = req.responseXML;
-                    if (checkCountriesLoaded(loadedData)) {
-                        xslTransform(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult, sortBy);
+                    loadedData[ 'xslSortAZ' ] = req.responseXML;
+                    if (checkSortAZLoaded(loadedData)) {
+                        xslTransform(loadedData.xmlInput, loadedData.xslSortAZ, elementToAddResult, sortBy);
                         //alert("xlsTransform ipv xslRefresh");
                     };
                 };
@@ -321,7 +321,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults'] = req.responseXML;
+                    loadedData[ 'xslResults' ] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
                         xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
                         
@@ -349,12 +349,12 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslFilters'] = req.responseXML;
+                    loadedData[ 'xslFilters' ] = req.responseXML;
                     if (checkFiltersLoaded(loadedData)) {
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
                         //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
-                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('festivalBox'), "festival");
+                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('eventBox'), "event");
                     } else {
                         //alert('KC_ROIO_filters nog niet geladen');
                     }
@@ -372,7 +372,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xmlInput' ] = req.responseXML;
+                    loadedData[ 'xmlInput'] = req.responseXML;
                 };
                 req.send();
             }
@@ -381,14 +381,10 @@
                 return loadedData.xmlInput != null && loadedData.xslArtists != null;
             }
             
-            function checkCountriesLoaded(loadedData) {
-                return loadedData.xmlInput != null && loadedData.xslCountries != null;
-            }
-            
-            function checkFestivalsLoaded(loadedData) {
-                return loadedData.xmlInput != null && loadedData.xslFestivals != null;
-            }
-            
+            function checkSortAZLoaded(loadedData) {
+                return loadedData.xmlInput != null && loadedData.xslSortAZ != null;
+            }            
+      
             function checkFiltersLoaded(loadedData) {
                 return loadedData.xmlInput != null && loadedData.xslFilters != null;
             }
@@ -439,7 +435,15 @@
                 
                 //more general sortAZ function call: countries
                 document.getElementById('countriesAZ').addEventListener('click', function () {
-                    requestSortAZ(xsl_sortAZ, loadedData[ 'xslCountries' ] , elementToAddResult, "country");
+                    requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "country");
+                    document.getElementById('loading').innerHTML = 'loading';
+                    document.getElementById('loading').style.display = 'inline';
+                },
+                false);
+                
+                //more general sortAZ function call: events
+                document.getElementById('eventsAZ').addEventListener('click', function () {
+                    requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "event");
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },
@@ -474,9 +478,9 @@
                             <datalist id="yearBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
-                            <label for="festivalSelector">festival/show:</label>
-                            <input id="festivalSelector" list="festivalBox" name="festival" autocomplete="off" />
-                            <datalist id="festivalBox"> </datalist>
+                            <label for="eventSelector">festival/show:</label>
+                            <input id="eventSelector" list="eventBox" name="event" autocomplete="off" />
+                            <datalist id="eventBox"> </datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <input type="checkbox" name="a/v" value="A" id="audio" checked="checked" /><label for="audio">audio</label>
@@ -496,8 +500,8 @@
                             <!--<a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>-->
                             <a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">artists A/Z</a>
                             <a href="#" id="countriesAZ" class="btn" style="background:#7da0db;">countries A/Z</a>
-                            <a href="#" id="festivalsAZ" class="btn" style="background:#8bb3f4;">festivals/shows A/Z</a>
-                            <a href="#" id="years" class="btn">chronologically</a>
+                            <a href="#" id="eventsAZ" class="btn" style="background:#8bb3f4;">festivals/shows A/Z</a>
+                            <a href="#" id="years" class="btn" style="background:#7da0db;">chronologically</a>
                         </td>
                     </tr>
                 </tbody>

@@ -4,8 +4,11 @@
 	<xsl:param name="chooseParameter"/>
 	
 	<xsl:strip-space elements="country"/>
+	<xsl:strip-space elements="event"/>
 
+	<xsl:key name="artist" match="artist" use="string()"/>
 	<xsl:key name="country" match="country" use="string()"/>
+	<xsl:key name="event" match="event" use="string()"/>
 	<!--	<xsl:strip-space elements="artist"/>-->
 
 	<xsl:template match="/">
@@ -21,7 +24,7 @@
 
 			<!--//small grey line-->
 			<tr>
-				<td colspan="3" style="background-color:#727272;height:1%;"/>
+				<td colspan="3" style="background-color:#727272;height:0.1%;"/>
 			</tr>
 
 			<!--//title row-->

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" >
 	
-	<xsl:strip-space elements="festival"/>
+	<xsl:strip-space elements="event"/>
 	<xsl:strip-space elements="country"/>
 	
 	<xsl:key name="artist" match="artist" use="string()"/>
 	<xsl:key name="country" match="country" use="string()"/>
-	<xsl:key name="festival" match="festival" use="string()"/>
+	<xsl:key name="event" match="event" use="string()"/>
 	<xsl:key name="date" match="date" use="string()"/>
 	<!--	<xsl:strip-space elements="artist"/>-->
 
