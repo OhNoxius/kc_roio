@@ -228,45 +228,7 @@
                 '</tr>' +
                 
                 '</table>';
-            }
-            
-            function requestArtists(url, loadedData, elementToAddResult) {
-                var req = new XMLHttpRequest();
-                req.open('GET', url);
-                // to allow us doing XSLT in IE
-                try {
-                    req.responseType = "msxml-document"
-                }
-                catch (ex) {
-                }
-                req.onload = function () {
-                    loadedData[ 'xslArtists'] = req.responseXML;
-                    if (checkArtistsLoaded(loadedData)) {
-                        xslRefresh(loadedData.xmlInput, loadedData.xslArtists, elementToAddResult);
-                        
-                        //NEW FUNCTION? check if artistXSL already happened
-                        //action performed when clicking on artist:
-                        $('.artistClass').click(function () {
-                            
-                            var thisId = this.parentNode.parentNode.id;
-                            document.getElementById('lnk_' + thisId).value = document.getElementById('lnk_' + thisId).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
-                            document.getElementById('tab_' + thisId).style.display = document.getElementById('tab_' + thisId).style.display == "table-cell" ? "none": "table-cell";
-                            
-                            if (! $("#tab_" + thisId).data('calc')) {
-                                $("#tab_" + thisId).data('calc', true);
-                                
-                                //nieuwe XSLT uitvoeren hier
-                                xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
-                                elementToAddResult = document.getElementById('tab_' + thisId);
-                                
-                                loadedData[ 'xslResults'] = null;
-                                requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
-                            }
-                        });
-                    };
-                };
-                req.send();
-            }
+            }            
             
             function requestSortAZ(url, loadedData, elementToAddResult, sortBy) {
                 var req = new XMLHttpRequest();
@@ -278,10 +240,31 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslSortAZ'] = req.responseXML;
+                    loadedData[ 'xslSortAZ' ] = req.responseXML;
                     if (checkSortAZLoaded(loadedData)) {
                         xslTransform(loadedData.xmlInput, loadedData.xslSortAZ, elementToAddResult, sortBy);
                         //alert("xlsTransform ipv xslRefresh");
+                        
+                        //NEW FUNCTION? check if artistXSL already happened
+                        //action performed when clicking on artist:
+                        $('.artistClass').click(function () {
+                            var thisId = this.parentNode.parentNode.id;
+                            document.getElementById('lnk_' + thisId).value = document.getElementById('lnk_' + thisId).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
+                            document.getElementById('tab_' + thisId).style.display = document.getElementById('tab_' + thisId).style.display == "table-cell" ? "none": "table-cell";
+                            
+                            if (! $("#tab_" + thisId).data('calc')) {
+                                $("#tab_" + thisId).data('calc', true);
+                                
+                                //nieuwe XSLT uitvoeren hier
+                                xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
+                                elementToAddResult = document.getElementById('tab_' + thisId);
+                                
+                                loadedData[ 'xslSessions' ] = null;
+                                requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
+                                //zoek op:
+                                //alert(this.parentNode.parentNode.summary);     
+                            }
+                        });
                     };
                 };
                 req.send();
@@ -297,9 +280,9 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults'] = req.responseXML;
+                    loadedData[ 'xslSessions'] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
-                        xslTransform(loadedData.xmlInput, loadedData.xslResults, elementToAddResult, chooseArtist);
+                        xslTransform(loadedData.xmlInput, loadedData.xslSessions, elementToAddResult, chooseArtist);
                         
                         //make extra button work
                         $('.xtrClass').click(function () {
@@ -324,10 +307,10 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults'] = req.responseXML;
+                    loadedData[ 'xslSessions'] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
                         //hier meegeven dat hij de parameters in KC_ROIO_search moet toewijzen (ipv van in xslRefresh zelf)?
-                        xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
+                        xslRefresh(loadedData.xmlInput, loadedData.xslSessions, elementToAddResult);
                         
                         //make extra button work
                         //alternatively: datatables add child row!
@@ -394,19 +377,18 @@
             }
             
             function checkResultsLoaded(loadedData) {
-                return loadedData.xmlInput != null && loadedData.xslResults != null;
+                return loadedData.xmlInput != null && loadedData.xslSessions != null;
             }
             
             function init(xml, xsl, elementToAddResult) {
                 xml = 'KC_ROIO.xml';
-                xsl_artists = 'KC_ROIO_artists.xsl';
                 xsl_sortAZ = 'KC_ROIO_sortAZ.xsl';
                 xsl_filters = 'KC_ROIO_filters.xsl';
                 xsl_search = 'KC_ROIO_search.xsl';
                 
                 elementToAddResult = document.getElementById('result');
                 var loadedData = {
-                    xmlInput: null, xslFilters: null, xslResults: null, xslArtists: null, xslSortAZ: null
+                    xmlInput: null, xslFilters: null, xslSessions: null, xslSortAZ: null
                 };
                 //load xml
                 requestXML(xml, loadedData, function () {
@@ -431,7 +413,8 @@
                 
                 //initialize ArtistsAZ list button
                 document.getElementById('artistsAZ').addEventListener('click', function () {
-                    requestArtists(xsl_artists, loadedData, elementToAddResult);
+                    //requestArtists(xsl_artists, loadedData, elementToAddResult);
+                    requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "artist");    
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },

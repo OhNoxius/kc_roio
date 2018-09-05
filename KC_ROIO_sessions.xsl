@@ -4,6 +4,8 @@
 	<xsl:param name="chooseParameter"/>
 
 	<xsl:strip-space elements="artist"/>
+	<xsl:strip-space elements="country"/>
+	<xsl:strip-space elements="event"/>
 
 	<xsl:template match="/">
 
@@ -21,11 +23,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<!--				<xsl:apply-templates select="//session[contains(artists,string($chooseArtist))]">
-					<xsl:sort select="date" order="ascending"/>
-				</xsl:apply-templates>-->
-
-				<xsl:apply-templates select="//session[artists/* = $chooseParameter]">
+				<xsl:apply-templates select="//session[(artists/* = $chooseParameter) or (location/* = $chooseParameter)]">
 					<xsl:sort select="date" order="ascending"/>
 				</xsl:apply-templates>
 			</tbody>
