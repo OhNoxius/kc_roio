@@ -135,18 +135,20 @@
                         chooseParameter = undefined;
                     }
                     
-                    //DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
                     fragment = proc.transformToFragment(xmlInput, document);
-                    elementToAddResult.appendChild(fragment);
+                    
+                    //DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
+                    //elementToAddResult.appendChild(fragment);
                     
                     //DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslREFRESH)
-                    //if (elementToAddResult.firstChild) {
-                    //elementToAddResult.children[0].style.display = 'none';
-                    ////elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
-                    //elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
-                    //} else {
-                    //elementToAddResult.appendChild(fragment);
-                    //}
+                    if (elementToAddResult.firstChild) {
+                        elementToAddResult.children[0].style.display = 'none';
+                        //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
+                        elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+                    } else {
+                        elementToAddResult.appendChild(fragment);
+                    }
+                    
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
                 }
@@ -189,6 +191,7 @@
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
                 }
+                
                 var table = $('#searchTable').DataTable({
                     
                     "paging": false,
@@ -256,7 +259,7 @@
                                 xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
                                 elementToAddResult = document.getElementById('tab_' + thisId);
                                 
-                                loadedData[ 'xslResults' ] = null;
+                                loadedData[ 'xslResults'] = null;
                                 requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
                             }
                         });
@@ -275,7 +278,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslSortAZ' ] = req.responseXML;
+                    loadedData[ 'xslSortAZ'] = req.responseXML;
                     if (checkSortAZLoaded(loadedData)) {
                         xslTransform(loadedData.xmlInput, loadedData.xslSortAZ, elementToAddResult, sortBy);
                         //alert("xlsTransform ipv xslRefresh");
@@ -321,8 +324,9 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslResults' ] = req.responseXML;
+                    loadedData[ 'xslResults'] = req.responseXML;
                     if (checkResultsLoaded(loadedData)) {
+                        //hier meegeven dat hij de parameters in KC_ROIO_search moet toewijzen (ipv van in xslRefresh zelf)?
                         xslRefresh(loadedData.xmlInput, loadedData.xslResults, elementToAddResult);
                         
                         //make extra button work
@@ -349,7 +353,7 @@
                 catch (ex) {
                 }
                 req.onload = function () {
-                    loadedData[ 'xslFilters' ] = req.responseXML;
+                    loadedData[ 'xslFilters'] = req.responseXML;
                     if (checkFiltersLoaded(loadedData)) {
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
@@ -383,8 +387,8 @@
             
             function checkSortAZLoaded(loadedData) {
                 return loadedData.xmlInput != null && loadedData.xslSortAZ != null;
-            }            
-      
+            }
+            
             function checkFiltersLoaded(loadedData) {
                 return loadedData.xmlInput != null && loadedData.xslFilters != null;
             }
