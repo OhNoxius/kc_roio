@@ -127,6 +127,7 @@
                 if (typeof XSLTProcessor !== 'undefined') {
                     var proc = new XSLTProcessor();
                     proc.importStylesheet(xsltSheet);
+                    
                     // pass through filter parameter to XSLT
                     if (chooseParameter !== undefined) {
                         //alert('geef deze parameter door:' + chooseParameter);
@@ -135,17 +136,17 @@
                     }
                     
                     //DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
-                    //fragment = proc.transformToFragment(xmlInput, document);
-                    //elementToAddResult.appendChild(fragment);
+                    fragment = proc.transformToFragment(xmlInput, document);
+                    elementToAddResult.appendChild(fragment);
                     
                     //DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslREFRESH)
-                    if (elementToAddResult.firstChild) {
+                   <!-- if (elementToAddResult.firstChild) {
                         elementToAddResult.children[0].style.display = 'none';
                         //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
                         elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
                     } else {
                         elementToAddResult.appendChild(fragment);
-                    }
+                    }-->
                     
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
@@ -161,6 +162,8 @@
                     var proc = new XSLTProcessor();
                     proc.importStylesheet(xsltSheet);
                     
+                    //dit moet niet altijd doorgegeven worden? alleen maar als het over een "search" transformatie gaat.
+                    //optie: parameter(bool) toevoegen om aan te geven of dit moet of niet)
                     proc.setParameter(null, "chooseArtist", document.getElementById('artistSelector').value.toUpperCase());
                     proc.setParameter(null, "chooseCountry", document.getElementById('countrySelector').value.toUpperCase());
                     proc.setParameter(null, "chooseYear", document.getElementById('yearSelector').value);
@@ -274,8 +277,8 @@
                 req.onload = function () {
                     loadedData[ 'xslCountries' ] = req.responseXML;
                     if (checkCountriesLoaded(loadedData)) {
-                        xslTransform(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult);
-                        alert("xlsTransform ipv xslRefresh");
+                        xslTransform(loadedData.xmlInput, loadedData.xslCountries, elementToAddResult, sortBy);
+                        //alert("xlsTransform ipv xslRefresh");
                     };
                 };
                 req.send();
@@ -434,7 +437,7 @@
                 false);
                 
                 document.getElementById('countriesAZ').addEventListener('click', function () {
-                    requestCountries(xsl_countries, loadedData, elementToAddResult);
+                    requestCountries(xsl_countries, loadedData, elementToAddResult, "country");
                     document.getElementById('loading').innerHTML = 'loading';
                     document.getElementById('loading').style.display = 'inline';
                 },

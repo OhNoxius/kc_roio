@@ -1,19 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
+	<xsl:param name="chooseParameter"/>
+	
 	<xsl:key name="countries" match="country" use="string()"/>
 	<!--	<xsl:strip-space elements="artist"/>-->
 
 	<xsl:template match="/">
 		<div id="resultsTable">
 			<xsl:apply-templates
-				select="//country[generate-id() = generate-id(key('countries', string())[1])]">
+				select="//*[local-name()=$chooseParameter][generate-id() = generate-id(key($chooseParameter, string())[1])]">
 				<xsl:sort select="." order="ascending"/>
 			</xsl:apply-templates>
 		</div>
 	</xsl:template>
 
-	<xsl:template match="//country">
+	<xsl:template match="//*">
 		<table id="{generate-id(.)}" summary="{string(current())}" style="width: 100%" border="0"
 			align="length" cellpadding="3" cellspacing="0">
 
