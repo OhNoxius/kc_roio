@@ -420,8 +420,8 @@
             
             function checkSortAZLoaded(loadedData) {
                 return loadedData.xmlInput != null && loadedData.xslSortAZ != null;
-            }            
-
+            }
+            
             function checkFiltersLoaded(loadedData) {
                 return loadedData.xmlInput != null && loadedData.xslFilters != null;
             }
@@ -491,7 +491,7 @@
                 //sortYears
                 document.getElementById('chrono').addEventListener('click', function () {
                     requestSortYears(loadedData, elementToAddResult);
-                    //"loading" zichtbaarheidcode verplaats naar in de functie, omdat het anders te traag aanpast                 
+                    //"loading" zichtbaarheidcode verplaats naar in de functie, omdat het anders te traag aanpast
                 },
                 false);
                 
