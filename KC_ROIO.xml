@@ -2957,15 +2957,15 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="id0x1625c20" av="V">
 		<date type="xs:date">2009-05-09</date>
 		<location>
-			<event type="festival">Festival Jazz à Liège</event>
+			<event type="festival">Jazz à Liège</event>
 			<city>Liège</city>
 			<country>Belgium</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
+		<length>0:50:35</length>
+		<source>Cable</source>
+		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[Cable -> Digicorder -> Sony RDR-AT105 -> DVD -> CloneDVD5 -> PC]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Dave Holland</artist>
@@ -2982,9 +2982,9 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<city>Frankfurt</city>
 			<country>Germany</country>
 		</location>
-		<length>84min</length>
+		<length>1:24:15</length>
 		<source>web</source>
-		<format/>
+		<format resolution="PAL">AVC</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
@@ -3022,7 +3022,6 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="id0x163bdb0" av="V">
 		<date type="xs:date">1956-05-09</date>
 		<location>
-			<event type="tvshow">A Date with Dizzy</event>
 			<venue>Studio</venue>
 			<country>U.S.A.</country>
 		</location>
@@ -3030,9 +3029,8 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage><![CDATA[original Broadcast VHS-> VHSTAPE-> PHILIPS DVDDR Recorder->DVD->PC->
-TPMGEnDVD AUTHOR 3->YOU]]></lineage>
-		<remarks>filmed by John Hubley</remarks>
+		<lineage><![CDATA[original Broadcast VHS-> VHSTAPE-> PHILIPS DVDDR Recorder->DVD->PC->TPMGEnDVD AUTHOR 3->YOU]]></lineage>
+		<remarks/>
 		<artists>
 			<artist main="true">Dizzy Gillespie</artist>
 			<artist>Sahib Shihab</artist>
@@ -3040,7 +3038,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 			<artist>Nelson Boyd</artist>
 			<artist>Charlie Persip</artist>
 		</artists>
-		<title/>
+		<title>Date with Dizzy (John Hubley, 1958)</title>
 	</session>
 	<session id="id0x163c300" av="V">
 		<date type="xs:date">1960-xx-xx</date>
