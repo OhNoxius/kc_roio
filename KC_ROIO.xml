@@ -638,8 +638,9 @@
 	<session id="id0x120d440" av="V">
 		<date type="xs:date">1969-08-17</date>
 		<location>
-			<event type="festival">Woodstock 1969</event>
-			<venue>Vol. 4</venue>
+			<event type="festival">Woodstock</event>
+			<city>Bethel NY</city>
+			<country>U.S.A.</country>
 		</location>
 		<length>0:17:16</length>
 		<source>TV</source>
@@ -659,7 +660,7 @@
 			<artist>Lew Soloff</artist>
 			<artist>Chuck Winfield</artist>
 		</artists>
-		<title>Woodstock 1969 – Extended Edition</title>
+		<title>Woodstock 1969 – Extended Edition (Vol. 4)</title>
 	</session>
 	<session id="id0x1265b80" av="V">
 		<date type="xs:date">1999-xx-xx</date>
@@ -2294,8 +2295,7 @@
 		<date type="xs:date">1961-08-30</date>
 		<location>
 			<event type="tvshow">Jazz - gehört und gesehen</event>
-			<event type="festival">TV/Radio Exhibition</event>
-			<venue>Messehalle</venue>
+			<venue>Berliner Funkturm</venue>
 			<city>Berlin</city>
 			<country>Germany</country>
 		</location>
@@ -5720,7 +5720,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x4fb4170" av="V">
 		<date type="xs:date">1969-08-18</date>
 		<location>
-			<event type="festival">Woodstock Festival</event>
+			<event type="festival">Woodstock</event>
 			<city>Bethel NY</city>
 			<country>U.S.A.</country>
 		</location>
@@ -10234,7 +10234,7 @@ file]]></lineage>
 	<session id="id0x5bdbf90" av="V">
 		<date type="xs:date">1966-xx-xx</date>
 		<location>
-			<event type="festival">Mike Douglas Show</event>
+			<event type="festival">The Mike Douglas Show</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>9min</length>
@@ -10246,7 +10246,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title/>
+		<title>Classic Soul Compilation DVD</title>
 	</session>
 	<session id="id0x5bdc300" av="V">
 		<date type="xs:date">1968-xx-xx</date>
@@ -10267,23 +10267,28 @@ file]]></lineage>
 		<title>Classic Soul Compilation DVD</title>
 	</session>
 	<session id="id0x5bdc6c0" av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
-		<location/>
+		<date type="xs:date">1970-08-11</date>
+		<location>
+			<event type="tvshow">The Dick Cavett Show</event>
+			<country>U.S.A.</country>
+		</location>
 		<length>3min</length>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>better here: https://www.youtube.com/watch?v=zxexKLsLpw0</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
 		<title>Classic Soul Compilation DVD</title>
 	</session>
 	<session id="id0x5c3da90" av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">1967-xx-xx</date>
 		<location>
 			<event type="tvshow">This is Stevie Wonder</event>
+			<city>Montreal</city>
+			<country>Canada</country>
 		</location>
 		<length>5min</length>
 		<source>TV</source>
@@ -10304,7 +10309,7 @@ file]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>My Cherie Amour</remarks>
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
@@ -25931,7 +25936,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title/>
+		<title></title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1977-01-08</date>
@@ -27153,18 +27158,26 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>0:53:54</length>
 		<source/>
-		<format/>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<dummy type="band">Various Artists</dummy>
+			<host>Bill Murray</host>
 			<artist>Stevie Wonder</artist>
 			<artist>Marvin Gaye</artist>
+			<artist>The Marvelettes</artist>
+			<artist type="band">The Supremes</artist>
+			<artist>Diana Ross</artist>
+			<artist type="band">Martha and the Vandellas</artist>
+			<artist>Martha Reeves</artist>
+			<artist type="band">The Miracles</artist>
+			<artist>Smokey Robinson</artist>
 		</artists>
-		<title/>
+		<title>Flashback DVD</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1987-xx-xx</date>
