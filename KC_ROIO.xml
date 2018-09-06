@@ -1182,7 +1182,7 @@
 	<session id="id0x12a49a0" av="V">
 		<date type="xs:date">1971-10-23</date>
 		<location>
-			<event type="festival">POP 2</event>
+			<event type="show">POP 2</event>
 			<venue>Taverne de L'Olympia</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -3185,7 +3185,7 @@ TPMGEnDVD AUTHOR 3->YOU]]></lineage>
 	<session id="id0x284a760" av="V">
 		<date type="xs:date">1973-01-10</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -3994,6 +3994,7 @@ Recorder]]></lineage>
 	<session id="id0x4265030" av="V">
 		<date type="xs:date">1970-12-15</date>
 		<location>
+			<event type="tvshow">POP 2</event>
 			<venue>Palais de Gaumont</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -4130,6 +4131,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x4265620" av="V">
 		<date type="xs:date">1970-12-xx</date>
 		<location>
+			<event type="tvshow">POP 2</event>
 			<country>France</country>
 		</location>
 		<length>0:28:06</length>
@@ -5303,7 +5305,8 @@ DVD-R => Dime]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist main="true">The Jackson 5</artist>
+			<artist type="band" main="true">The Jackson 5</artist>
+			<artist>Michael Jackson</artist>
 		</artists>
 		<title/>
 	</session>
@@ -5502,6 +5505,7 @@ DVD-R => Dime]]></lineage>
 	<session id="id0x4f8f7b0" av="V">
 		<date type="xs:date">1971-02-16</date>
 		<location>
+			<event type="tvshow">POP 2</event>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -5556,7 +5560,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	</session>
 	<session av="V" official="true">
 		<date type="xs:date">1967-02-25</date>
-		<location>			
+		<location>
 			<city>Chelsford</city>
 			<country>U.K.</country>
 		</location>
@@ -10116,7 +10120,7 @@ file]]></lineage>
 	<session id="id0x5bb8950" av="V">
 		<date type="xs:date">1973-01-13</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -10330,7 +10334,7 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -10360,7 +10364,7 @@ file]]></lineage>
 	<session id="id0x5c3e4e0" av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -10390,7 +10394,7 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1972-11-19</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -10420,7 +10424,7 @@ file]]></lineage>
 	<session av="V">
 		<date type="xs:date">1973-02-28</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -16021,7 +16025,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 	<session av="V">
 		<date type="xs:date">1985-11-xx</date>
 		<location>
-			<event type="festival">Munich Piano Summer</event>
+			<event type="festival">Münchner Klaviersommer</event>
 			<city>Munchen</city>
 			<country>Germany</country>
 		</location>
@@ -25865,7 +25869,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1973-09-13</date>
 		<location>
-			<festival/>
+			<event type="tvshow">POP 2</event>
 			<venue>Bataclan</venue>
 			<city>Paris</city>
 			<country>France</country>
@@ -25884,7 +25888,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Mike Mandel</artist>
 			<artist>Danny Trifan</artist>
 		</artists>
-		<title>POP2</title>
+		<title>POP 2</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1975-77</date>
@@ -26388,7 +26392,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1971-12-29</date>
 		<location>
-			<event type="tvshow">SOUL!</event>
+			<event type="tvshow">Soul!</event>
 			<venue>WNET</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
@@ -26949,24 +26953,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Elizabeth Weisser</artist>
 			<artist>Jay Campbell</artist>
 			<artist>Jen Shyu</artist>
-		</artists>
-		<title/>
-	</session>
-	<session av="V">
-		<date type="xs:date">1972-xx-xx</date>
-		<location>
-			<event type="tvshow">The Jackson 5 Show</event>
-			<country>U.S.A.</country>
-		</location>
-		<length>0:24:05</length>
-		<source/>
-		<format/>
-		<quality>B-</quality>
-		<lineage/>
-		<remarks/>
-		<artists>
-			<artist type="band" main="true">The Jackson 5</artist>
-			<artist>Michael Jackson</artist>
 		</artists>
 		<title/>
 	</session>
@@ -30535,11 +30521,8 @@ Video_ts]]></lineage>
 		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage/>
-		<remarks>Included on the program were solo piano music by Iyer, and duets with the dynamic drummer-composer 
-			Tyshawn Sorey and with Iyer's longtime performing partner saxophonist-composer Rudresh Mahanthappa. 
-			Acclaimed violinist and champion of new music Jennifer Koh performed Esa-Pekka Salonen’s lyrical 
-			Lachen Verlernt, while George Lewis, the pioneering composer, scholar and member of the Association 
-			for the Advancement of Creative Musicians, joined host Helga Davis on stage for a conversation. </remarks>
+		<remarks>Included on the program were solo piano music by Iyer, and duets with the dynamic drummer-composer Tyshawn Sorey and with Iyer's longtime performing partner saxophonist-composer Rudresh Mahanthappa. Acclaimed violinist and champion of new music Jennifer Koh performed Esa-Pekka Salonen’s lyrical Lachen Verlernt, while George Lewis, the pioneering composer, scholar and member of the Association for the Advancement of Creative Musicians, joined host Helga Davis on stage for a
+			conversation. </remarks>
 		<artists>
 			<artist main="true">Vijay Iyer</artist>
 			<artist>Stephan Crump</artist>
@@ -30615,10 +30598,8 @@ Video_ts]]></lineage>
 		<format>flac</format>
 		<quality/>
 		<lineage><![CDATA[web > Audacity (Normalization - noises cutting ) > Tlh (SBE - Flac 8 ) > Dime]]></lineage>
-		<remarks>Keith Jarrett, Lisner Auditorium, George Washington University, Washington DC, October 16, 1974.  Jarrett played a solo set before being followed by the Gary Burton Quintet.
-			
-			From the master cassettes.  Recorded from about halfway back in the main center section of the auditorium, using an inexpensive Panasonic mono recorder with ALC and cheap Ampex tapes.  The original tapes cannot be located.  This digital transfer was made from those tapes early in the 21st century.  At that time, EQ was used to remove the extreme bottom frequencies to eliminate rumble and the extreme high frequencies to reduce hiss.  
-		</remarks>
+		<remarks>Keith Jarrett, Lisner Auditorium, George Washington University, Washington DC, October 16, 1974. Jarrett played a solo set before being followed by the Gary Burton Quintet. From the master cassettes. Recorded from about halfway back in the main center section of the auditorium, using an inexpensive Panasonic mono recorder with ALC and cheap Ampex tapes. The original tapes cannot be located. This digital transfer was made from those tapes early in the 21st century. At that time,
+			EQ was used to remove the extreme bottom frequencies to eliminate rumble and the extreme high frequencies to reduce hiss. </remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -30654,7 +30635,7 @@ Video_ts]]></lineage>
 		<format bitrate="128">mp3</format>
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
