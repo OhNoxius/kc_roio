@@ -2517,32 +2517,32 @@ file]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x13def40" av="V">
-		<date type="xs:date">1986-xx-xx</date>
+		<date type="xs:date">1990-xx-xx</date>
 		<location/>
 		<length>0:54:37</length>
-		<source/>
-		<format>avi</format>
+		<source>TV</source>
+		<format resolution="352x280">DivX 4</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz Entre Amigos Part I (docu)</title>
+		<title>Jazz entre amigos  - Chick Corea (Part I)</title>
 	</session>
 	<session id="id0x13df2b0" av="V">
-		<date type="xs:date">1986-xx-xx</date>
+		<date type="xs:date">1990-xx-xx</date>
 		<location/>
 		<length>0:48:20</length>
-		<source/>
-		<format>avi</format>
+		<source>TV</source>
+		<format resolution="352x280">DivX 4</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz Entre Amigos Part II (docu)</title>
+		<title>Jazz entre amigos  - Chick Corea (Part II)</title>
 	</session>
 	<session id="id0x13df620" av="V">
 		<date type="xs:date">1988-07-13</date>
@@ -4572,18 +4572,18 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 	<session id="id0x4893ea0" av="V">
 		<date type="xs:date">1989-xx-xx</date>
 		<location>
-			<event type="festival">Jazz Entre Amigos</event>
+			<event type="festival">Jazz entre amigos</event>
 		</location>
 		<length>0:55:17</length>
-		<source/>
-		<format>avi</format>
+		<source>TV</source>
+		<format resolution="PAL">DivX 5</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Gary Burton</artist>
 		</artists>
-		<title/>
+		<title>Jazz entre amigos - Gary Burton</title>
 	</session>
 	<session id="id0x48941c0" av="V">
 		<date type="xs:date">1977-05-24</date>
@@ -24864,8 +24864,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<country>Spain</country>
 		</location>
 		<length/>
-		<source>web</source>
-		<format/>
+		<source station="rtve.es">web</source>
+		<format resolution="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -24877,18 +24877,18 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Peter Erskine</artist>
 			<artist>Robert Thomas Jr</artist>
 		</artists>
-		<title>Documentary: Jazz entre Amigos - Josef Zawinul</title>
+		<title>Jazz entre amigos - Josef Zawinul</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1974-10-21</date>
-		<location>
+		<location>			
 			<event type="festival">Don Kirshner's Rock Concert</event>
 			<city/>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
-		<source>web</source>
-		<format/>
+		<source station="rtve.es">web</source>
+		<format resolution="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
 		<remarks/>
@@ -24900,7 +24900,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Darryl Brown</artist>
 			<artist>Dom Um Romao</artist>
 		</artists>
-		<title>Documentary: Jazz entre Amigos - Josef Zawinul</title>
+		<title>Documentary: Jazz entre amigos - Josef Zawinul</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1994-xx-xx</date>
@@ -28587,7 +28587,7 @@ Video_ts]]></lineage>
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Jazz entre Amigos - Keith Jarrett</title>
+		<title>Jazz entre amigos - Keith Jarrett</title>
 	</session>
 	<session av="V">
 		<date type="xs:date">1991-07-15</date>
@@ -30520,7 +30520,7 @@ Video_ts]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session av="A">
+	<session av="V">
 		<date type="xs:date">2017-04-13</date>
 		<location>
 			<venue>The Green Space</venue>
@@ -30651,5 +30651,276 @@ Video_ts]]></lineage>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>2:03:17</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Joe Zawinul</artist>
+		</artists>
+		<title>Jazz entre amigos - Josef Zawinul (Pt.1 + 2)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1989-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:57:50</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Archie Shepp</artist>
+		</artists>
+		<title>Jazz entre amigos - Archie Shepp</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>1:03:28</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe Labarbera (bateria).</remarks>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+		</artists>
+		<title>Jazz entre amigos - Bill Evans</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1979-11-28</date>
+		<location>			
+			<venue>TVE Studios</venue>
+			<city>Esplugues de Llobregat, Barcelona</city>
+			<country>Spain</country>
+		</location>
+		<length></length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe Labarbera (bateria).</remarks>
+		<artists>
+			<artist main="true">Bill Evans</artist>
+			<artist>Marc Johnson</artist>
+			<artist>Joe Labarbera</artist>
+		</artists>
+		<title>Jazz entre amigos - Bill Evans</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1991-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>4hours</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Charlie Parker</artist>
+		</artists>
+		<title>Jazz entre amigos - Charlie Parker (Pt.1 - 4)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1990-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:56:12</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Chet Baker</artist>
+		</artists>
+		<title>Jazz entre amigos - Chet Baker</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1990-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>1:53:12</length>
+		<source station="rtve.es">web</source>
+		<format resultion="550x440">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Chick Corea</artist>
+		</artists>
+		<title>Jazz entre amigos - Chick Corea (Pt.1 - 2)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1991-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:53:58</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">John Coltrane</artist>
+		</artists>
+		<title>Jazz entre amigos - John Coltrane</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1985-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>1:47:05</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks>a dedicado al músico y pianista norteamericano Keith Jarrett, en el que se ofrecen actuaciones del concierto que ofreció el 19 de julio de 1985 en el Festival de Jazz de San Sebastián.
+			
+			Incluye una entrevista al contrabajista y componente del grupo de Keith Jarrett, Gary Peacock.</remarks>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+		</artists>
+		<title>Jazz entre amigos - Keith Jarrett</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:54:34</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Michel Petrucciani</artist>
+			<artist>Horace Parlan</artist>
+		</artists>
+		<title>Jazz entre amigos - Michel Petrucciani, Horace Parlan y Keith Jarrett</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1988-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:55:43</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Paul Bley</artist>
+		</artists>
+		<title>Jazz entre amigos - Paul Bley</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1989-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:58:02</length>
+		<source>TV</source>
+		<format resultion="576p">DivX 5</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Chick Corea</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Bill Evans</artist>
+		</artists>
+		<title>Jazz entre amigos - Pianistas Legendarios</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1989-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:58:04</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist>Chick Corea</artist>
+			<artist>McCoy Tyner</artist>
+			<artist>Bill Evans</artist>
+		</artists>
+		<title>Jazz entre amigos - Pianistas Legendarios</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1988-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:53:37</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Steve Lacy</artist>
+		</artists>
+		<title>Jazz entre amigos - Steve Lacy</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1987-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:54:44</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+		</artists>
+		<title>Jazz entre amigos - The Village Vanguard</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1986-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+		</location>
+		<length>0:54:31</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Toots Thielemans</artist>
+		</artists>
+		<title>Jazz entre amigos - Toots Thielemans</title>
 	</session>
 </KC_ROIO>
