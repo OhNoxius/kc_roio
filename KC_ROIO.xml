@@ -3149,7 +3149,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="d0e4825" av="V">
 		<date type="xs:date">1971-01-17</date>
 		<location>
-			<event type="tvshow">Flip Wilson Show</event>
+			<event type="tvshow">The Flip Wilson Show</event>
 			<country>U.S.A.</country>
 		</location>
 		<length/>
@@ -5243,7 +5243,7 @@ DVD-R => Dime]]></lineage>
 	<session id="id0x4f58670" av="V">
 		<date type="xs:date">1970-05-10</date>
 		<location>
-			<event type="festival">Ed Sullivan Show</event>
+			<event type="tvshow">The Ed Sullivan Show</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>5min</length>
@@ -6264,7 +6264,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x5287b80" av="V">
 		<date type="xs:date">1985-xx-xx</date>
 		<location>
-			<event type="festival">Johnny Carson Show</event>
+			<event type="tvshow">The Tonight Show Starring Johnny Carson</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:06:42</length>
@@ -8799,7 +8799,7 @@ file]]></lineage>
 	<session id="id0x577a580" av="V">
 		<date type="xs:date">1986-10-07</date>
 		<location>
-			<event type="festival">Dick Cavett Show</event>
+			<event type="tvshow">The Dick Cavett Show</event>
 		</location>
 		<length>0:25:18</length>
 		<source>TV</source>
@@ -21022,7 +21022,7 @@ cents) > Trader's Little Helper (FLAC Level 8, ffp)]]></lineage>
 	<session id="id0x5913b80" av="A">
 		<date type="xs:date">1970-07-19_22</date>
 		<location>
-			<event type="festival">Dick Cavett Show</event>
+			<event type="tvshow">The Dick Cavett Show</event>
 			<venue>ABC-TV Studios</venue>
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
