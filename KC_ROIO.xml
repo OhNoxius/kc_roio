@@ -30923,4 +30923,26 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Jazz entre amigos - Toots Thielemans</title>
 	</session>
+	<session av="V">
+		<date type="xs:date">1990-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz entre amigos</event>
+			<event type="festival">Festival de Jazz de Vitoria-Gasteiz</event>
+			<city>Vitoria-Gasteiz</city>
+			<country>Spain</country>
+		</location>
+		<length>0:53:39</length>
+		<source station="rtve.es">web</source>
+		<format resultion="576p">AVC</format>
+		<quality>B</quality>
+		<lineage/>
+		<remarks>Primer programa dedicado al concierto ofrecido en el festival de Jazz de Vitoria de 1990 por el cuarteto musical de jazz formado por Herbie Hancock (teclados), Jack DeJohnette (batería), Pat Metheny (guitarra) y Dave Holland (contrabajo).</remarks>
+		<artists>
+			<artist main="true">Jack DeJohnette</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Pat Metheny</artist>
+			<artist>Dave Holland</artist>
+		</artists>
+		<title>Jazz entre amigos - Pat Metheny, Jack DeJohnette, Dave Holland y Herbie Hancock (Parte 1)</title>
+	</session>
 </KC_ROIO>
