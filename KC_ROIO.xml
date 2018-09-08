@@ -28524,7 +28524,7 @@ Video_ts]]></lineage>
 		</artists>
 		<title>Weather Report ‎– Live In Offenbach 1978 ( Art Of Groove ‎– MIG80097)</title>
 	</session>
-	<session av="V" official="true">
+	<session av="V">
 		<date type="xs:date">1980-10-31</date>
 		<location>
 			<event type="festival">Beogradski Dzez</event>
@@ -28546,7 +28546,7 @@ Video_ts]]></lineage>
 		</artists>
 		<title/>
 	</session>
-	<session av="V" official="true">
+	<session av="V">
 		<date type="xs:date">1980-10-31</date>
 		<location>
 			<event type="festival">Beogradski Dzez</event>
@@ -30944,5 +30944,28 @@ Video_ts]]></lineage>
 			<artist>Dave Holland</artist>
 		</artists>
 		<title>Jazz entre amigos - Pat Metheny, Jack DeJohnette, Dave Holland y Herbie Hancock (Parte 1)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1979-03-07</date>
+		<location>
+			<event type="tvshow">Rock Goes To College</event>
+			<venue>Oxford Polytechnic</venue>
+			<city>Oxford, England</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:41:46</length>
+		<source station="BBC">DVD</source>
+		<format resultion="NTSC">DVD</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks>Manufactured By – www.keyproduction.co.uk</remarks>
+		<artists>
+			<artist main="true">Bill Bruford</artist>
+			<artist>Annette Peacock</artist>
+			<artist>Allan Holdsworth</artist>
+			<artist>Dave Stewart</artist>
+			<artist>Jeff Berlin</artist>
+		</artists>
+		<title>Bruford ‎– Rock Goes To College (Winterfold BBWF008DVD)</title>
 	</session>
 </KC_ROIO>
