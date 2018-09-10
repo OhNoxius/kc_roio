@@ -23,7 +23,7 @@
 	<session id="id0x3f2da40" av="V">
 		<date type="xs:date">2012-12-07</date>
 		<location>
-			<venue>Jazzstation</venue>
+			<venue>Jazz Station</venue>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
@@ -7341,6 +7341,60 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		</artists>
 		<title>Meeting of the Spirits 1972</title>
 	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1974-07-07</date>
+		<location>
+			<event type="festival">Montreux Jazz Festival</event>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>0:50:47</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Mahavishnu Orchestra</artist>
+			<artist>John McLaughlin</artist>
+			<artist>Michael Walden</artist>
+			<artist>Jan Hammer</artist>
+			<artist>Jean-Luc Ponty</artist>
+			<artist>Ralphe Armstrong</artist>
+			<artist>Gayle Moran></artist>
+			<dummy type="band">ensemble</dummy>
+			<artist>Phillip Hirschi</artist>
+			<artist>Bob Knapp</artist>
+			<artist>Steve Frankovitch</artist>
+			<artist>Carol Shive</artist>
+			<artist>Steve Kindler</artist>
+			<artist>Marsha Westbrook</artist>
+		</artists>
+		<title label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</title>
+	</session>
+	<session av="V" official="true">
+		<date type="xs:date">1984-07-xx</date>
+		<location>
+			<event type="festival">Montreux Jazz Festival</event>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length></length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Mahavishnu Orchestra</artist>
+			<artist>John McLaughlin</artist>
+			<artist>Jonas Hellborg</artist>
+			<artist>Danny Gottlieb</artist>
+			<artist>Mitchell Forman</artist>
+			<artist>Bill Evans (sax)</artist>
+		</artists>
+		<title label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</title>
+	</session>
 	<session id="id0x54365d0" av="V">
 		<date type="xs:date">1974-02-08</date>
 		<location>
@@ -9025,7 +9079,7 @@ file]]></lineage>
 Subs)]]></lineage>
 		<remarks>25 episodes</remarks>
 		<artists>
-			<artist main="true">Nat 'King' Cole</artist>
+			<artist main="true">Nat King Cole</artist>
 		</artists>
 		<title/>
 	</session>
@@ -9325,7 +9379,7 @@ Subs)]]></lineage>
 			<artist>Herbie Hancock</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
-			<artist>Mike Clarke</artist>
+			<artist>Mike Clark</artist>
 			<artist>Bill Summers</artist>
 			<dummy type="band">Chick Corea - Herbie Hancock Duo</dummy>
 			<artist>Chick Corea</artist>
@@ -9356,7 +9410,7 @@ Subs)]]></lineage>
 			<artist>Herbie Hancock</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
-			<artist>Mike Clarke</artist>
+			<artist>Mike Clark</artist>
 			<artist>Bill Summers</artist>
 			<dummy type="band">Chick Corea - Herbie Hancock Duo</dummy>
 			<artist>Chick Corea</artist>
@@ -10355,7 +10409,7 @@ file]]></lineage>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
 			<artist>Scott Edwards Jr.</artist>
-			<artist>Ollie Brown</artist>
+			<artist>Ollie E. Brown</artist>
 			<artist>Ralph Hammer</artist>
 			<artist>Ray Parker Jr.</artist>
 			<artist>Keith Stevens</artist>
@@ -10385,7 +10439,7 @@ file]]></lineage>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
 			<artist>Scott Edwards Jr.</artist>
-			<artist>Ollie Brown</artist>
+			<artist>Ollie E. Brown</artist>
 			<artist>Ralph Hammer</artist>
 			<artist>Ray Parker Jr.</artist>
 			<artist>Keith Stevens</artist>
@@ -10415,7 +10469,7 @@ file]]></lineage>
 			<artist main="true">Stevie Wonder</artist>
 			<artist type="band">Wonderlove</artist>
 			<artist>Scott Edwards Jr.</artist>
-			<artist>Ollie Brown</artist>
+			<artist>Ollie E. Brown</artist>
 			<artist>Ralph Hammer</artist>
 			<artist>Ray Parker Jr.</artist>
 			<artist>Keith Stevens</artist>
@@ -11071,7 +11125,8 @@ file]]></lineage>
 			<artist>Danilo Perez</artist>
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
-			<artist>Orchestre National de Lyon (o.l.v. David Robertson)</artist>
+			<artist>Orchestre National de Lyon</artist>
+			<conductor>David Robertson</conductor>
 		</artists>
 		<title/>
 	</session>
@@ -11548,7 +11603,7 @@ AC3@256 ]]></lineage>
 			<artist>Charlie Shavers</artist>
 			<artist>Niels Jørgen Steen</artist>
 			<artist>Finn Ziegler</artist>
-			<artist>Niels-Henning Örstedt Pedersen</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 			<dummy type="band">Charles Mingus</dummy>
 			<artist>Charles Mingus</artist>
@@ -12029,7 +12084,7 @@ AC3@256 ]]></lineage>
 			<artist>Karl Berger</artist>
 			<artist>Ed Blackwell</artist>
 			<artist>Aiyb Dieng</artist>
-			<artist>Nana Vasconcelos</artist>
+			<artist>Naná Vasconcelos</artist>
 			<artist>Collin Walcott</artist>
 			<dummy type="band">Dewey Redman Quartet</dummy>
 			<artist>Dewey Redman</artist>
@@ -12518,7 +12573,7 @@ AC3@256 ]]></lineage>
 			<artist>Akira Okazawa</artist>
 			<artist>Midori Takada</artist>
 			<artist>Kazutoki Umezu</artist>
-			<artist>Nana Vasconcellos</artist>
+			<artist>Naná Vasconcelos</artist>
 			<artist>Wayne Shorter</artist>
 			<dummy type="band">Parallel Realities Live</dummy>
 			<artist>Pat Metheny</artist>
@@ -14821,7 +14876,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 			<artist main="true">Egberto Gismonti</artist>
 			<artist>Palle Danielsson</artist>
 			<artist>Daniel Humair</artist>
-			<artist>Nana Vasconcelos</artist>
+			<artist>Naná Vasconcelos</artist>
 			<artist>Hermeto Pascoal</artist>
 		</artists>
 		<title/>
@@ -14841,7 +14896,7 @@ Edits were made with the mp3DirectCut software.]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Egberto Gismonti</artist>
-			<artist>Nana Vasconcelos</artist>
+			<artist>Naná Vasconcelos</artist>
 		</artists>
 		<title/>
 	</session>
@@ -27918,7 +27973,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<dummy type="band">Chick Corea-Gary Burton</dummy>
 			<artist>Chick Corea</artist>
 			<artist>Gary Burton</artist>
-			<artist type="band">Mel Lewis Jazz Orchestra</artist>
+			<artist type="band">Mel Lewis Big Band</artist>
 			<artist>Mel Lewis</artist>
 			<artist>Dick Oatts</artist>
 			<artist>Joe Lovano</artist>
@@ -30075,7 +30130,7 @@ Video_ts]]></lineage>
 			<artist>Thelonious Monk</artist>
 			<artist>Henry Grimes</artist>
 			<artist>Roy Haynes</artist>
-			<artist type="band">Sonny Stitt and Sal Salvador</artist>
+			<dummy type="band">Sonny Stitt and Sal Salvador</dummy>
 			<artist>Sonny Stitt</artist>
 			<artist>Sal Salvador</artist>
 			<artist>Gildo Mahones</artist>
@@ -30197,7 +30252,7 @@ Video_ts]]></lineage>
 		<remarks>QUARTETTE EARL HINES (LE) Concert du quartette Earl Hines (piano) enregistré dans la salle de théâtre du casino de Spa. Avec Rudy Ruthersford (saxophone), James Leary (contrebasse), Eddie Graham (batterie) et la chanteuse Marva Josie. Nicolas Dor (Présentateur), Georges Yu (Réalisateur)</remarks>
 		<artists>
 			<artist main="true">Earl Hines</artist>
-			<artist>Rudy Ruthersford</artist>
+			<artist>Rudy Rutherford</artist>
 			<artist>James Leary</artist>
 			<artist>Eddie Graham</artist>
 			<artist>Marva Josie</artist>
@@ -30263,7 +30318,7 @@ Video_ts]]></lineage>
 		<artists>
 			<artist main="true" type="band">Modern Jazz Quartet</artist>
 			<artist>John Lewis</artist>
-			<artist>Milton Jackson</artist>
+			<artist>Milt Jackson</artist>
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
