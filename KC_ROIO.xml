@@ -740,12 +740,13 @@
 	<session id="id0x12665d0" av="V">
 		<date type="xs:date">1999-07-12</date>
 		<location>
-			<event type="festival">Polideportivo Mendizorroza</event>
+			<event type="festival">Festival de Jazz de Vitoria-Gasteiz</event>
+			<venue>Polideportivo Mendizorroza</venue>
 			<city>Vitoria-Gasteiz</city>
 			<country>Spain</country>
 		</location>
 		<length>0:56:50</length>
-		<source>TV</source>
+		<source station="TVE2">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
 		<lineage/>
@@ -2528,7 +2529,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz entre amigos  - Chick Corea (Part I)</title>
+		<title>Jazz entre amigos - Chick Corea (Part I)</title>
 	</session>
 	<session id="id0x13df2b0" av="V">
 		<date type="xs:date">1990-xx-xx</date>
@@ -2542,7 +2543,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz entre amigos  - Chick Corea (Part II)</title>
+		<title>Jazz entre amigos - Chick Corea (Part II)</title>
 	</session>
 	<session id="id0x13df620" av="V">
 		<date type="xs:date">1988-07-13</date>
@@ -3166,7 +3167,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 	<session id="d0e4825" av="V">
 		<date type="xs:date">1971-12-07</date>
 		<location>
-			<event type="tvshow">Flip Wilson Show</event>
+			<event type="tvshow">The Flip Wilson Show</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>0:03:40</length>
@@ -7657,7 +7658,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 	<session id="id0x54e37b0" av="V">
 		<date type="xs:date">1964-09-10</date>
 		<location>
-			<event type="tvshow">Steve Allen Show</event>
+			<event type="tvshow">The Steve Allen Show</event>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -10251,7 +10252,7 @@ file]]></lineage>
 	<session id="id0x5bdc300" av="V">
 		<date type="xs:date">1968-xx-xx</date>
 		<location>
-			<event type="tvshow">Steve Allen Show</event>
+			<event type="tvshow">The Steve Allen Show</event>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -14246,7 +14247,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 	<session id="id0x4f7f900" av="A">
 		<date type="xs:date">1971-09-12</date>
 		<location>
-			<event type="festival">Summer JazzDays</event>
+			<event type="festival">Warsaw Summer Jazz Days</event>
 			<city>Warszaw</city>
 			<country>Poland</country>
 		</location>
@@ -17038,7 +17039,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 	<session id="id0x7b3db30" av="A">
 		<date type="xs:date">1968-08-09</date>
 		<location>
-			<event type="festival">Total Music Meeting Berlin ‘68</event>
+			<event type="festival">Total Music Meeting</event>
 			<venue>Quartier von Quasimodo</venue>
 			<city>West Berlin</city>
 			<country>Germany</country>
@@ -24881,7 +24882,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	</session>
 	<session av="V">
 		<date type="xs:date">1974-10-21</date>
-		<location>			
+		<location>
 			<event type="festival">Don Kirshner's Rock Concert</event>
 			<city/>
 			<country>U.S.A.</country>
@@ -25023,7 +25024,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1963-03-04</date>
 		<location>
-			<event type="tvshow">Steve Allen Show</event>
+			<event type="tvshow">The Steve Allen Show</event>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -25042,7 +25043,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 	<session av="V">
 		<date type="xs:date">1963-03-04</date>
 		<location>
-			<event type="tvshow">Steve Allen Show</event>
+			<event type="tvshow">The Steve Allen Show</event>
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
@@ -25936,7 +25937,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date type="xs:date">1977-01-08</date>
@@ -30702,12 +30703,12 @@ Video_ts]]></lineage>
 	</session>
 	<session av="V">
 		<date type="xs:date">1979-11-28</date>
-		<location>			
+		<location>
 			<venue>TVE Studios</venue>
 			<city>Esplugues de Llobregat, Barcelona</city>
 			<country>Spain</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="rtve.es">web</source>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
@@ -30730,7 +30731,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Charlie Parker</artist>
 		</artists>
@@ -30746,7 +30747,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Chet Baker</artist>
 		</artists>
@@ -30762,7 +30763,7 @@ Video_ts]]></lineage>
 		<format resultion="550x440">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
@@ -30778,7 +30779,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
@@ -30794,9 +30795,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks>a dedicado al músico y pianista norteamericano Keith Jarrett, en el que se ofrecen actuaciones del concierto que ofreció el 19 de julio de 1985 en el Festival de Jazz de San Sebastián.
-			
-			Incluye una entrevista al contrabajista y componente del grupo de Keith Jarrett, Gary Peacock.</remarks>
+		<remarks>a dedicado al músico y pianista norteamericano Keith Jarrett, en el que se ofrecen actuaciones del concierto que ofreció el 19 de julio de 1985 en el Festival de Jazz de San Sebastián. Incluye una entrevista al contrabajista y componente del grupo de Keith Jarrett, Gary Peacock.</remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
@@ -30812,7 +30811,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist>Keith Jarrett</artist>
@@ -30831,7 +30830,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Paul Bley</artist>
 		</artists>
@@ -30847,7 +30846,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">DivX 5</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist>Chick Corea</artist>
@@ -30866,7 +30865,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist>Chick Corea</artist>
@@ -30885,7 +30884,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Steve Lacy</artist>
 		</artists>
@@ -30901,7 +30900,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 		</artists>
@@ -30917,7 +30916,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Toots Thielemans</artist>
 		</artists>
