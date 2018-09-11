@@ -136,8 +136,8 @@
 	<session id="id0x53cce00" av="V" official="true">
 		<date type="xs:date">1978-10-18</date>
 		<location>
-			<city>Milan</city>
-			<country>Italy</country>
+			<city>Lugano</city>
+			<country>Switzerland</country>
 		</location>
 		<length>0:54:19</length>
 		<source/>
@@ -155,7 +155,7 @@
 			<artist>Roberto Sion</artist>
 			<artist>Georgiana de Moraes</artist>
 		</artists>
-		<title>Musicalmente dallo Studio 3</title>
+		<title>Musicalmente dallo Studio 3 (Mascia Cantoni)</title>
 	</session>
 	<session id="id0x5428ef0" av="V">
 		<date type="xs:date">1987-xx-xx</date>
@@ -2153,7 +2153,7 @@
 			<artist main="true">Charles Lloyd</artist>
 			<artist>Michel Petrucciani</artist>
 			<artist>Palle Danielsson</artist>
-			<artist>Woody “Sonship” Theus</artist>
+			<artist>Woody Theus (aka Sonship)</artist>
 		</artists>
 		<title/>
 	</session>
@@ -2312,7 +2312,7 @@
 			<artist>Benny Bailey</artist>
 			<artist>Pepsy Auer</artist>
 			<artist>George Joyner</artist>
-			<artist>Buster Smith</artist>
+			<artist>Earl Smith (aka Buster)</artist>
 		</artists>
 		<title>Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</title>
 	</session>
@@ -2847,12 +2847,12 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Ahmir "?uestlove" Thompson</artist>
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
-			<artist>Samuel "Norris" Jones</artist>
-			<artist>Chalmers "Spanky" Alford</artist>
-			<artist>Franklin Walker</artist>
+			<artist>Samuel Jones (aka Norris)</artist>
+			<artist>Chalmers Alford (aka Spanky)</artist>
+			<artist>Franklin Walker (aka Knuckles)</artist>
 			<artist>Russel Gunn</artist>
-			<artist>Frank "Root" Lacy</artist>
-			<artist>Jacques Schwarz-Bart</artist>
+			<artist>Frank Lacy (aka Root)</artist>
+			<artist>Jacques Schwarz-Bart (aka Brother Jacques)</artist>
 			<artist>Shelby Johnson</artist>
 			<artist>Jack King</artist>
 			<artist>Anthony Hamilton</artist>
@@ -2879,12 +2879,12 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Ahmir "?uestlove" Thompson</artist>
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
-			<artist>Samuel "Norris" Jones</artist>
-			<artist>Chalmers "Spanky" Alford</artist>
-			<artist>Franklin "Knuckles" Walker</artist>
+			<artist>Samuel Jones (aka Norris)</artist>
+			<artist>Chalmers Alford (aka Spanky)</artist>
+			<artist>Franklin Walker (aka Knuckles)</artist>
 			<artist>Russel Gunn</artist>
-			<artist>Frank "Root" Lacy</artist>
-			<artist>Jacques "Brother Jacques" Schwarz-Bart</artist>
+			<artist>Frank Lacy (aka Root)</artist>
+			<artist>Jacques Schwarz-Bart (aka Brother Jacques)</artist>
 			<artist>Shelby Johnson</artist>
 			<artist>Jack King</artist>
 			<artist>Anthony Hamilton</artist>
@@ -2930,7 +2930,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist>Kenny Wheeler</artist>
 			<artist>Steve Coleman</artist>
 			<artist>Robin Eubanks</artist>
-			<artist>Marvin "Smithy" Smith</artist>
+			<artist>Marvin Smith (aka Smitty)</artist>
 		</artists>
 		<title>Dave Holland Quintet (ArtHaus)</title>
 	</session>
@@ -3581,9 +3581,9 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 		<remarks/>
 		<artists>
 			<artist main="true">Erykah Badu</artist>
-			<artist>Charles "Pudgei" Bell</artist>
+			<artist>Charles Bell (aka Pudgei)</artist>
 			<artist>Hubert Eaves</artist>
-			<artist>Norman "Keys" Hurt</artist>
+			<artist>Norman Hurt (aka Keys)</artist>
 			<artist>Karen Cox</artist>
 			<artist>Chonta Gilbert</artist>
 			<artist>Joyce Strong</artist>
@@ -3632,7 +3632,7 @@ Recorder]]></lineage>
 			<artist>Eugene Young</artist>
 			<artist>R.C. Williams</artist>
 			<artist>Braylon Lacy</artist>
-			<artist>Gino "Lock Johnson" Iglehart</artist>
+			<artist>Gino Iglehart (aka Lock Johnson)</artist>
 			<artist>Ramon Gonzalez</artist>
 			<artist>Dwayne Kerr</artist>
 			<artist>Ndambi</artist>
@@ -4647,7 +4647,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Guitar Trio</artist>
+			<artist type="band" main="true">The Guitar Trio</artist>
 			<artist>Larry Coryell</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
@@ -4669,7 +4669,7 @@ Studio > DVD > MPEG > TMPG 1.6/iDVD 6 > MyDVDedit > DVD]]></lineage>
 DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Guitar Trio</artist>
+			<artist type="band" main="true">The Guitar Trio</artist>
 			<artist>Al Di Meola</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
@@ -4690,7 +4690,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Guitar Trio</artist>
+			<artist type="band" main="true">The Guitar Trio</artist>
 			<artist>Al Di Meola</artist>
 			<artist>John McLaughlin</artist>
 			<artist>Paco de Lucia</artist>
@@ -4827,9 +4827,9 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
-		<artists>
-			<artist type="band">Headhunters</artist>
+		<artists>			
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -4850,8 +4850,8 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -6467,7 +6467,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Bob Ventrello</artist>
 		</artists>
 		<title/>
@@ -6487,7 +6487,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
@@ -6508,7 +6508,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<remarks>broadcast date: 1969-11-23</remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Aldo Romano</artist>
 		</artists>
 		<title/>
@@ -7384,7 +7384,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>Jan Hammer</artist>
 			<artist>Jean-Luc Ponty</artist>
 			<artist>Ralphe Armstrong</artist>
-			<artist>Gayle Moran></artist>
+			<artist>Gayle Moran</artist>
 			<dummy type="band">ensemble</dummy>
 			<artist>Phillip Hirschi</artist>
 			<artist>Bob Knapp</artist>
@@ -8948,7 +8948,7 @@ file]]></lineage>
 			<artist main="true">Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
 			<artist>David Sanborn</artist>
-			<artist>Joe "Foley" McCreary</artist>
+			<artist>Joe McCreary (aka Foley)</artist>
 			<artist>Adam Holzman</artist>
 			<artist>Marcus Miller</artist>
 			<artist>Ricky Wellman</artist>
@@ -8989,7 +8989,7 @@ file]]></lineage>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
-			<artist>Foley</artist>
+			<artist>Joe McCreary (aka Foley)</artist>
 			<artist>Kei Akagi</artist>
 			<artist>Richard Patterson</artist>
 			<artist>Ricky Wellman</artist>
@@ -9399,8 +9399,9 @@ Subs)]]></lineage>
 			<artist>Stanley Clarke</artist>
 			<artist>Al Di Meola</artist>
 			<artist>Lenny White</artist>
-			<artist type="band">Headhunters</artist>
+			<dummy main="true">Herbie Hancock and the Headhunters</dummy>
 			<artist>Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -9430,8 +9431,9 @@ Subs)]]></lineage>
 			<artist>Stanley Clarke</artist>
 			<artist>Al Di Meola</artist>
 			<artist>Lenny White</artist>
-			<artist type="band">Headhunters</artist>
+			<dummy main="true">Herbie Hancock and the Headhunters</dummy>
 			<artist>Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -10148,7 +10150,7 @@ selection) > transport stream]]></lineage>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 			<artist>Kenny Drew</artist>
-			<artist>Albert "Tootie" Heath</artist>
+			<artist>Albert Heath (aka Tootie)</artist>
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 		</artists>
 		<title/>
@@ -10743,7 +10745,7 @@ file]]></lineage>
 			<artist type="band">Utopia</artist>
 			<artist main="true">Todd Rundgren</artist>
 			<artist>Mark "Moogy" Klingman</artist>
-			<artist>Jean Yves "M. Frog" Labat</artist>
+			<artist>Jean Yves Labat (aka M. Frog)</artist>
 			<artist>Ralph Schuckett</artist>
 			<artist>John Siegler</artist>
 			<artist>Kevin Ellman</artist>
@@ -10765,7 +10767,7 @@ file]]></lineage>
 		<artists>
 			<artist type="band">Utopia</artist>
 			<artist main="true">Todd Rundgren</artist>
-			<artist>Mark "Moogy" Klingman</artist>
+			<artist>Moogy Klingman</artist>
 			<artist>Jean Yves "M. Frog" Labat</artist>
 			<artist>Ralph Schuckett</artist>
 			<artist>John Siegler</artist>
@@ -10792,7 +10794,7 @@ file]]></lineage>
 			<artist main="true">Todd Rundgren</artist>
 			<artist>Roger Powell</artist>
 			<artist>Kasim Sulton</artist>
-			<artist>John "Willie" Wilcox</artist>
+			<artist>John Wilcox (aka Willie)</artist>
 		</artists>
 		<title/>
 	</session>
@@ -12465,7 +12467,7 @@ AC3@256 ]]></lineage>
 			<artist type="band" main="true">Various Artists</artist>
 			<dummy type="band">Marlon Jordan Quartet</dummy>
 			<artist>Marlon Jordan</artist>
-			<artist>Bill Childs</artist>
+			<artist>Billy Childs</artist>
 			<artist>Robert Hurst</artist>
 			<artist>Gene Jackson</artist>
 			<dummy type="band">Select Live Under The Sky Special Quartet</dummy>
@@ -12483,7 +12485,7 @@ AC3@256 ]]></lineage>
 			<artist>John Gilmore</artist>
 			<artist>Danny Thompson</artist>
 			<artist>Elo Omoe</artist>
-			<artist>Earl "Buster" Smith</artist>
+			<artist>Earl Smith (aka Buster)</artist>
 			<artist>Samarai</artist>
 			<artist>Rollo Radford</artist>
 			<artist>Bruce Edwards</artist>
@@ -12499,7 +12501,7 @@ AC3@256 ]]></lineage>
 			<dummy type="band">Miles Davis Group</dummy>
 			<artist>Miles Davis</artist>
 			<artist>Kenny Garrett</artist>
-			<artist>Foley</artist>
+			<artist>Joe McCreary (aka Foley)</artist>
 			<artist>Adam Holzman</artist>
 			<artist>Benny Rietveld</artist>
 			<artist>Ricky Wellman</artist>
@@ -12732,7 +12734,7 @@ AC3@256 ]]></lineage>
 			<artist>Dean Brown</artist>
 			<artist>Philippe Saisse</artist>
 			<artist>Deron Johnson</artist>
-			<artist>Michael "Patches" Stewart</artist>
+			<artist>Michael Stewart (aka Pathes)</artist>
 			<artist>Don Alias</artist>
 		</artists>
 		<title>Live Under The Sky '92</title>
@@ -14147,7 +14149,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 			<artist>Milt Jackson</artist>
 			<artist>Ray Brown</artist>
 			<artist>Stan Levey</artist>
-			<artist>Ernie "Bubbles" Whiteman</artist>
+			<MC>Ernie Whitman (aka Bubbles)</MC>
 		</artists>
 		<title/>
 	</session>
@@ -15559,8 +15561,8 @@ Alone>CDR>EAC>WAV>FLAC]]></lineage>
 alignment)]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>			
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15587,8 +15589,8 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 8)]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>	
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15610,8 +15612,8 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 (level 6)]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15632,8 +15634,8 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15653,8 +15655,8 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<lineage><![CDATA[DVB-S@320, 48kHz > raw data > ProjextX > mp3DirectCut > mp2]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15677,8 +15679,8 @@ disk>Goldwave/Cooledit(cuts, edits, clicks, noise, track marking)> happy hard
 disk>Dime World]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15701,8 +15703,8 @@ disk>Dime World]]></lineage>
 HDD]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15724,8 +15726,8 @@ HDD]]></lineage>
 > HD > SoundForge 7.0 > CD Wave >FLAC Frontend (level 6)]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15751,8 +15753,8 @@ in)>audacity>wav(16/48) done in Oct 2009 Taped By: Jeff J. Dat(0) Transferred By
 weedwacker]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15857,8 +15859,8 @@ Soundforge 5: speed correction > flac lvl7 w/SBA (530 MB)]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">Headhunters</artist>
 			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -16211,7 +16213,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 			<artist main="true">John Coltrane</artist>
 			<artist>McCoy Tyner</artist>
 			<artist>Reggie Workman</artist>
-			<artist>Raphael Garrett</artist>
+			<artist>Donald Garrett</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
 		<title/>
@@ -17093,7 +17095,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 			<artist>Pharoah Sanders</artist>
 			<artist>McCoy Tyner</artist>
 			<artist>Jimmy Garrison</artist>
-			<artist>Donal Garrett</artist>
+			<artist>Donald Garrett</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
 		<title>Sunship Session</title>
@@ -17237,7 +17239,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Bob Ventrello</artist>
 		</artists>
 		<title/>
@@ -17257,7 +17259,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Bob Ventrello</artist>
 		</artists>
 		<title>The Dylan Concert</title>
@@ -17317,7 +17319,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
@@ -17336,7 +17338,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
@@ -17356,7 +17358,7 @@ dime > Goody's additional lineage: dBpoweramp (WAV) > Cool Edit Pro (Pitch Bende
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
@@ -17376,7 +17378,7 @@ Dime]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Paul Motian</artist>
 		</artists>
 		<title/>
@@ -17414,7 +17416,7 @@ Dime]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
-			<artist>August “Gus” Nemeth</artist>
+			<artist>August Nemeth (aka Gus)</artist>
 			<artist>Aldo Romano</artist>
 		</artists>
 		<title/>
@@ -18610,7 +18612,7 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 			<artist>Cecil Payne</artist>
 			<artist>Tadd Dameron</artist>
 			<artist>John Collins</artist>
-			<artist>Dillon “Curly” Russell</artist>
+			<artist>Dillon Russell (aka Curly)</artist>
 			<artist>Kenny Clarke</artist>
 			<artist>Carlos Vidal</artist>
 		</artists>
@@ -18633,10 +18635,10 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Aime Barelli</artist>
-			<artist>Oran "Hot Lips" Page</artist>
+			<artist>Oran Page (aka Hot Lips)</artist>
 			<artist>Kenny Dorham</artist>
 			<artist>Bill Coleman</artist>
-			<artist>Russell "Big Chief" Moore</artist>
+			<artist>Big Chief Russell Moore</artist>
 			<artist>Hubert Rostaing</artist>
 			<artist>Sidney Bechet</artist>
 			<artist>Charlie Parker</artist>
@@ -22739,8 +22741,8 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<artist main="true">Roy Hargrove</artist>
 			<artist>Bobby Sparks</artist>
 			<artist>Keith Anderson</artist>
-			<artist>Spanky (Chalmers Alford)</artist>
-			<artist>Jacques Schwarz-Bart</artist>
+			<artist>Chalmers Alford (aka Spanky)</artist>
+			<artist>Jacques Schwarz-Bart (aka Brother Jacques)</artist>
 			<artist>Rene Neufville</artist>
 			<artist>Reggie Washington</artist>
 			<artist>Jason Thomas</artist>
@@ -28172,7 +28174,7 @@ Editing:
 			<artist main="true">Yusef Lateef</artist>
 			<artist>Kenny Barron</artist>
 			<artist>Bob Cunningham</artist>
-			<artist>Albert Heath</artist>
+			<artist>Albert Heath (aka Tootie)</artist>
 		</artists>
 		<title/>
 	</session>
@@ -28191,7 +28193,7 @@ Editing:
 		<artists>
 			<artist main="true">Archie Shepp</artist>
 			<artist>Jasper van't Hof</artist>
-			<artist>Donald "Don" Rafael Garrett</artist>
+			<artist>Donald Garrett</artist>
 			<artist>Muhammad Ali</artist>
 		</artists>
 		<title/>
@@ -29009,7 +29011,7 @@ Video_ts]]></lineage>
 		<lineage><![CDATA[cable tv -> vhs -> pc (Power Producer) -> best quality mpeg 2]]></lineage>
 		<remarks>Re-broadcast on Belgian TV BRT2</remarks>
 		<artists>
-			<artist type="band">Max Roach "Freedom Now Suite"</artist>
+			<dummy type="band">Max Roach "Freedom Now Suite"</dummy>
 			<artist main="true">Max Roach</artist>
 			<artist>Clifford Jordan</artist>
 			<artist>Coleridge-Taylor Perkinson</artist>
@@ -30117,7 +30119,7 @@ Video_ts]]></lineage>
 			<artist>Branford Marsalis</artist>
 			<artist>Kenny Kirkland</artist>
 			<artist>Phil Bowler</artist>
-			<artist>Jeff 'Tain' Watts</artist>
+			<artist>Jeff "Tain" Watts</artist>
 			<dummy type="band">John “Hammond” Smith</dummy>
 			<artist>John “Hammond” Smith</artist>
 			<artist type="band">The Lounge Lizards</artist>
@@ -30237,7 +30239,7 @@ Video_ts]]></lineage>
 			<artist>Ray Charles</artist>
 			<artist>Marcus Belgrave</artist>
 			<artist>Lee Harper</artist>
-			<artist>David "Fathead" Newman</artist>
+			<artist>David Newman (aka Fathead)</artist>
 			<artist>Bennie Crawford</artist>
 			<artist>Edgar Willis</artist>
 			<artist>Richie Goldberg</artist>
