@@ -158,20 +158,21 @@
 		<title>Musicalmente dallo Studio 3</title>
 	</session>
 	<session id="id0x5428ef0" av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">1987-xx-xx</date>
 		<location>
+			<city>São Paulo</city>
 			<country>Brazil</country>
 		</location>
 		<length>1:09:39</length>
-		<source>TV</source>
+		<source station="TV Cultura">TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage/>
-		<remarks>Brazilian Television?</remarks>
+		<remarks>Show reprisado pela TV Cultura em 1999 na programação de comemoração dos 30 anos da emissora.</remarks>
 		<artists>
 			<artist main="true">Antonio Carlos Jobim</artist>
 		</artists>
-		<title/>
+		<title>Traiger Productions</title>
 	</session>
 	<session id="id0x54292b0" av="V">
 		<date type="xs:date">1962-xx-xx</date>
@@ -6223,15 +6224,32 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 			<country>U.K.</country>
 		</location>
 		<length>0:29:58</length>
-		<source>TV</source>
+		<source station="Music AIR">TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[japanese tv -> ??? -> coltrane & gillespie DVD]]></lineage>
 		<remarks>https://www.loc.gov/item/jots.200021851/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Impressions", "Alabama", "Vigil", "Naima" by and performed by John Coltrane; "My favorite things" by Oscar Hammerstein II, Richard Rodgers. (Songs). John Coltrane profiled, with tv clips of the musician in performance and interviews with Jean Toussaint, Joshua Redman, Ed Jones, Lee Konitz, James Lincoln Collier, Evan Parker, Michael Cuscuna, Billy Cobham. (Personnel On Camera). Motion Picture (Form).</remarks>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
 		<title>Jazz Heroes: JOHN COLTRANE BLOWING FOR HIS SOUL (Nick Bray, 1998)</title>
+	</session>
+	<session av="V">
+		<date type="xs:date">1998-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz Heroes</event>
+			<country>U.K.</country>
+		</location>
+		<length>0:29:51</length>
+		<source station="Music AIR">TV</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A</quality>
+		<lineage><![CDATA[japanese tv -> ??? -> coltrane & gillespie DVD]]></lineage>
+		<remarks>https://www.loc.gov/item/jots.200021823/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Salt peanuts" by Dizzy Gillespie, Kenny Clarke; "I got rhythm" by Ira and George Gershwin; "Things to come" by Dizzy Gillespie, Gil Fuller; "Hot house" by Tadd Dameron; "Manteca" by Dizzy Gillespie, Gil Fuller; "And then she stopped". (Songs). Dizzy Gillespie profiled. Interviews with Jon Faddis, Ed Jones, Jean Toussaint, Scott Stroman, Billy Cobham, James Lincoln Collier + film and tv clips. (Personnel On Camera). Motion Picture (Form). </remarks>		
+		<artists>
+			<artist main="true">John Coltrane</artist>
+		</artists>
+		<title>Jazz Heroes: DIZZY GILLESPIE BOP AND A BENT TRUMPET (Janice Sutherland, 1998)</title>
 	</session>
 	<session id="id0x524e440" av="V">
 		<date type="xs:date">1980-07-04</date>
