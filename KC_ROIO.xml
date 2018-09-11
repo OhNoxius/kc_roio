@@ -2844,7 +2844,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist main="true">D'Angelo</artist>
 			<artist type="band">The Soultronics</artist>
 			<artist>Pino Palladino</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
 			<artist>Samuel Jones (aka Norris)</artist>
@@ -2876,7 +2876,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 & Sony DVD Architect Pro 10.2 by Rand
 			<artist main="true">D'Angelo</artist>
 			<artist type="band">The Soultronics</artist>
 			<artist>Pino Palladino</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Michael Archer</artist>
 			<artist>June Bervine</artist>
 			<artist>Samuel Jones (aka Norris)</artist>
@@ -4827,7 +4827,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<quality>A</quality>
 		<lineage/>
 		<remarks/>
-		<artists>			
+		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
@@ -5114,7 +5114,7 @@ DVDs > DVD Decrypter > Sony Vegas 6.0c > Sony DVD Architect 3.0c]]></lineage>
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage trader="Nic (hulkhogan)"></lineage>
+		<lineage trader="Nic (hulkhogan)"/>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
@@ -6220,7 +6220,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 	<session id="id0x524ddb0" av="V">
 		<date type="xs:date">1998-xx-xx</date>
 		<location>
-		<event type="tvshow">Jazz Heroes</event>
+			<event type="tvshow">Jazz Heroes</event>
 			<country>U.K.</country>
 		</location>
 		<length>0:29:58</length>
@@ -6228,7 +6228,8 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[japanese tv -> ??? -> coltrane & gillespie DVD]]></lineage>
-		<remarks>https://www.loc.gov/item/jots.200021851/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Impressions", "Alabama", "Vigil", "Naima" by and performed by John Coltrane; "My favorite things" by Oscar Hammerstein II, Richard Rodgers. (Songs). John Coltrane profiled, with tv clips of the musician in performance and interviews with Jean Toussaint, Joshua Redman, Ed Jones, Lee Konitz, James Lincoln Collier, Evan Parker, Michael Cuscuna, Billy Cobham. (Personnel On Camera). Motion Picture (Form).</remarks>
+		<remarks>https://www.loc.gov/item/jots.200021851/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Impressions", "Alabama", "Vigil", "Naima" by and performed by John Coltrane; "My favorite things" by Oscar Hammerstein II, Richard Rodgers. (Songs). John Coltrane profiled, with tv clips of the musician in performance and interviews with Jean Toussaint, Joshua Redman, Ed Jones, Lee Konitz, James Lincoln Collier, Evan Parker, Michael Cuscuna, Billy Cobham. (Personnel On
+			Camera). Motion Picture (Form).</remarks>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
@@ -6245,7 +6246,8 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD]]>
 		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage><![CDATA[japanese tv -> ??? -> coltrane & gillespie DVD]]></lineage>
-		<remarks>https://www.loc.gov/item/jots.200021823/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Salt peanuts" by Dizzy Gillespie, Kenny Clarke; "I got rhythm" by Ira and George Gershwin; "Things to come" by Dizzy Gillespie, Gil Fuller; "Hot house" by Tadd Dameron; "Manteca" by Dizzy Gillespie, Gil Fuller; "And then she stopped". (Songs). Dizzy Gillespie profiled. Interviews with Jon Faddis, Ed Jones, Jean Toussaint, Scott Stroman, Billy Cobham, James Lincoln Collier + film and tv clips. (Personnel On Camera). Motion Picture (Form). </remarks>		
+		<remarks>https://www.loc.gov/item/jots.200021823/. motion picture | Made-for-TV series. Short film (under 30 minutes). "Salt peanuts" by Dizzy Gillespie, Kenny Clarke; "I got rhythm" by Ira and George Gershwin; "Things to come" by Dizzy Gillespie, Gil Fuller; "Hot house" by Tadd Dameron; "Manteca" by Dizzy Gillespie, Gil Fuller; "And then she stopped". (Songs). Dizzy Gillespie profiled. Interviews with Jon Faddis, Ed Jones, Jean Toussaint, Scott Stroman, Billy Cobham, James Lincoln
+			Collier + film and tv clips. (Personnel On Camera). Motion Picture (Form). </remarks>
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
@@ -9762,7 +9764,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Leonard Hubbard (aka HUB)</artist>
 			<artist>James Gray (aka Kamal)</artist>
 			<artist>Kyle Jones (aka Scratch)</artist>
@@ -9787,7 +9789,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Dice Raw</artist>
 			<artist>Bahamadia</artist>
 		</artists>
@@ -9809,7 +9811,7 @@ DVDR3600>DVD>PC]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Dice Raw</artist>
 			<artist>Common</artist>
 			<artist>Jill Scott</artist>
@@ -9835,7 +9837,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>Dice Raw</artist>
 			<artist>Erykah Badu</artist>
 			<artist>Kyle Jones (aka Scratch)</artist>
@@ -9858,7 +9860,7 @@ HDD > Vegas 9.0 Platinum > DVD Architect 5.0 > You]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 		</artists>
 		<title/>
 	</session>
@@ -9879,7 +9881,7 @@ selection) > transport stream]]></lineage>
 		<artists>
 			<artist type="band" main="true">The Roots</artist>
 			<artist>Black Thought</artist>
-			<artist>Ahmir "?uestlove" Thompson</artist>
+			<artist>Ahmir Thompson (aka ?uestlove)</artist>
 			<artist>John Legend</artist>
 		</artists>
 		<title/>
@@ -9894,7 +9896,8 @@ selection) > transport stream]]></lineage>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
 		<lineage/>
-		<remarks>https://www.loc.gov/item/jots.200026401/. motion picture | Made-for-TV programme or made-for-video/DVD release. Medium length film (30-60 minutes). "China boy" by Dick Winfree, Phil Boutelje; "Summertime" by Du Bose Heyward, George Gershwin; "Ol' man river" by Oscar Hammerstein II, Jerome Kern; "Boléro triste", "Nuages" by Django Reinhardt; "Les yeux noirs" (trad.); "Caravan" by Irving Mills, Juan Tizol, Duke Ellington; "Pepito". (Songs). The Rosenberg Trio profiled, with music and interviews with members of the group:- Stochelo Rosenberg, guitar; Nous'che Rosenberg, rhythm guitar; Nonnie Rosenberg, acoustic double bass; plus rehearsal footage with Jaap van Zweden, violin, and a film clip of Django Reinhardt and Stéphane Grappelly playing in Holland with other members of the Quintette of the Hot Club of France. (Personnel On Camera). Motion Picture (Form).</remarks>
+		<remarks>https://www.loc.gov/item/jots.200026401/. motion picture | Made-for-TV programme or made-for-video/DVD release. Medium length film (30-60 minutes). "China boy" by Dick Winfree, Phil Boutelje; "Summertime" by Du Bose Heyward, George Gershwin; "Ol' man river" by Oscar Hammerstein II, Jerome Kern; "Boléro triste", "Nuages" by Django Reinhardt; "Les yeux noirs" (trad.); "Caravan" by Irving Mills, Juan Tizol, Duke Ellington; "Pepito". (Songs). The Rosenberg Trio profiled, with music
+			and interviews with members of the group:- Stochelo Rosenberg, guitar; Nous'che Rosenberg, rhythm guitar; Nonnie Rosenberg, acoustic double bass; plus rehearsal footage with Jaap van Zweden, violin, and a film clip of Django Reinhardt and Stéphane Grappelly playing in Holland with other members of the Quintette of the Hot Club of France. (Personnel On Camera). Motion Picture (Form).</remarks>
 		<artists>
 			<artist type="band" main="true">Rosenberg Trio</artist>
 		</artists>
@@ -15562,7 +15565,7 @@ alignment)]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
-			<artist type="band">Headhunters</artist>			
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
@@ -15590,7 +15593,7 @@ downsampling>normalisation to -0.01 db>CD Wave tracking>Flac Frontend (level
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
-			<artist type="band">Headhunters</artist>	
+			<artist type="band">Headhunters</artist>
 			<artist>Bennie Maupin</artist>
 			<artist>Paul Jackson</artist>
 			<artist>Mike Clark</artist>
