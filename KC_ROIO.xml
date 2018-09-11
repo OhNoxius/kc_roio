@@ -1140,7 +1140,7 @@
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band">The Trinity</artist>
+			<artist type="band">Brian Auger and the Trinity</artist>
 			<artist main="true">Brian Auger</artist>
 			<artist>Julie Driscoll</artist>
 		</artists>
@@ -1779,9 +1779,10 @@
 		<remarks/>
 		<artists>
 			<artist type="band">Various Artists</artist>
-			<dummy type="band">Akiyoshi-Tabackin Big Band</dummy>
+			<dummy type="band">Toshiko Akiyoshi-Lew Tabackin Big Band</dummy>
+			<artist>Toshiko Akiyoshi</artist>
+			<artist>Lew Tabackin</artist>
 			<artist>Clark Terry</artist>
-			<artist>Akiyoshi-Tabackin</artist>
 			<dummy type="band">Paul Desmond Quartet</dummy>
 			<artist>Paul Desmond</artist>
 			<dummy type="band">Bill Evans Trio</dummy>
@@ -7415,7 +7416,7 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 			<artist>John McLaughlin</artist>
 			<artist>Jonas Hellborg</artist>
 			<artist>Danny Gottlieb</artist>
-			<artist>Mitchell Forman</artist>
+			<artist>Mitchel Forman</artist>
 			<artist>Bill Evans (sax)</artist>
 		</artists>
 		<title label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</title>
@@ -7454,8 +7455,8 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
-			<artist>Wilbert Fletcher</artist>
+			<artist>Juini Booth</artist>
+			<artist>Wilbert Fletcher (aka Wilby)</artist>
 			<artist>Guilherme Franco</artist>
 		</artists>
 		<title/>
@@ -7477,8 +7478,8 @@ flexible time mode) > Sony DVD- on HD (> dime > YOU)]]></lineage>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
-			<artist>Wilbert Fletcher</artist>
+			<artist>Juini Booth</artist>
+			<artist>Wilbert Fletcher (aka Wilby)</artist>
 			<artist>Guilherme Franco</artist>
 		</artists>
 		<title/>
@@ -8198,7 +8199,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8224,7 +8225,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8250,7 +8251,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8276,7 +8277,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8302,7 +8303,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8327,7 +8328,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8353,7 +8354,7 @@ dime]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8383,7 +8384,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8407,7 +8408,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8431,7 +8432,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8455,7 +8456,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8479,7 +8480,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8503,7 +8504,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -8527,7 +8528,7 @@ file]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -9018,7 +9019,7 @@ file]]></lineage>
 			<artist>Bill Evans (sax)</artist>
 			<artist>Steve Grossman</artist>
 			<artist>Jackie McLean</artist>
-			<artist>Joe McCreary</artist>
+			<artist>Joe McCreary (aka Foley)</artist>
 			<artist>John Scofield</artist>
 			<artist>Deron Johnson</artist>
 			<artist>Herbie Hancock</artist>
@@ -9545,7 +9546,7 @@ Subs)]]></lineage>
 		<remarks>compilation : 3 songs at 2 different shows</remarks>
 		<artists>
 			<artist main="true">Richard Bona</artist>
-			<artist>unknown</artist>
+			<dummy>unknown</dummy>
 		</artists>
 		<title/>
 	</session>
@@ -10747,7 +10748,7 @@ file]]></lineage>
 		<artists>
 			<artist type="band">Utopia</artist>
 			<artist main="true">Todd Rundgren</artist>
-			<artist>Mark "Moogy" Klingman</artist>
+			<artist>Moogy Klingman</artist>
 			<artist>Jean Yves Labat (aka M. Frog)</artist>
 			<artist>Ralph Schuckett</artist>
 			<artist>John Siegler</artist>
@@ -10771,7 +10772,7 @@ file]]></lineage>
 			<artist type="band">Utopia</artist>
 			<artist main="true">Todd Rundgren</artist>
 			<artist>Moogy Klingman</artist>
-			<artist>Jean Yves "M. Frog" Labat</artist>
+			<artist>Jean Yves Labat (aka M. Frog)</artist>
 			<artist>Ralph Schuckett</artist>
 			<artist>John Siegler</artist>
 			<artist>Kevin Ellman</artist>
@@ -10837,7 +10838,7 @@ file]]></lineage>
 			<artist>Ted Dunbar</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>Warren Smith</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
+			<artist>Juini Booth</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10861,7 +10862,7 @@ file]]></lineage>
 			<artist>Ted Dunbar</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>Warren Smith</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
+			<artist>Juini Booth</artist>
 		</artists>
 		<title/>
 	</session>
@@ -10883,7 +10884,7 @@ file]]></lineage>
 			<artist>Ted Dunbar</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>Warren Smith</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
+			<artist>Juini Booth</artist>
 		</artists>
 		<title>POP 2</title>
 	</session>
@@ -11928,8 +11929,8 @@ AC3@256 ]]></lineage>
 			<artist type="band">Taste</artist>
 			<artist type="band">Life</artist>
 			<artist type="band">Bonzo Dog Doo Dah Band</artist>
-			<artist type="band"><![CDATA[Steve Shorter & Tilly Set]]></artist>
-			<artist type="band"><![CDATA[Brian Auger & Trinity]]></artist>
+			<artist type="band">Steve Shorter &amp; Tilly Set></artist>
+			<artist type="band">Brian Auger and the Trinity</artist>
 			<artist>Brian Auger</artist>
 			<artist>Julie Driscoll</artist>
 			<artist type="band">Marsha Hunt</artist>
@@ -12198,7 +12199,7 @@ AC3@256 ]]></lineage>
 			<artist>Jack DeJohnette</artist>
 			<dummy type="band">Chick Corea Trio</dummy>
 			<artist>Chick Corea</artist>
-			<artist>Miroslov Vitous</artist>
+			<artist>Miroslav Vitous</artist>
 			<artist>Roy Haynes</artist>
 			<artist type="band">Weather Report</artist>
 			<artist>Joe Zawinul</artist>
@@ -12212,7 +12213,7 @@ AC3@256 ]]></lineage>
 			<artist>David T. Walker</artist>
 			<artist>Barry Finnerty</artist>
 			<artist>Tim Landers</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Larry Graham</artist>
 		</artists>
 		<title>Live Under The Sky 1981-83</title>
@@ -12665,12 +12666,12 @@ AC3@256 ]]></lineage>
 			<artist>Tom Barney</artist>
 			<artist>Buddy Williams</artist>
 			<artist>Don Alias</artist>
-			<artist type="band">Marcus Miller Project</artist>
+			<dummy type="band">Marcus Miller Project</dummy>
 			<artist>Marcus Miller</artist>
 			<artist>Philippe Saisse</artist>
 			<artist>Dean Brown</artist>
 			<artist>Everette Harp</artist>
-			<artist>Michael Stewart</artist>
+			<artist>Michael Stewart (aka Pathes)</artist>
 			<artist>Poogie Bell</artist>
 			<artist>Steve Thornton</artist>
 			<artist>Stacy Campbell</artist>
@@ -12909,7 +12910,7 @@ AC3@256 ]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -14494,7 +14495,7 @@ applied) -> WAV -> CDWave Editor (tracking) -> TLH (FLAC8)]]></lineage>
 		<lineage><![CDATA[NDR / mp2 (48,000 Hz Stereo; 320 Kbps) / mp3directcut / mp2]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band">Chris Dave Drumheadz</artist>
+			<artist type="band">Chris Dave and the Drumhedz</artist>
 			<artist main="true">Chris Dave</artist>
 			<artist>Isaiah Sharkey Thomas</artist>
 		</artists>
@@ -16152,7 +16153,7 @@ download (FLAC) > WAV (remastering) > FLAC > torrentially yours
 			<artist>Hugh Lawson</artist>
 			<artist>Erni Farrow</artist>
 			<artist>Roy Brooks</artist>
-			<artist>unknown</artist>
+			<dummy>unknown</dummy>
 		</artists>
 		<title/>
 	</session>
@@ -18482,8 +18483,8 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
-			<artist>Wilby Fletcher</artist>
+			<artist>Juini Booth</artist>
+			<artist>Wilbert Fletcher (aka Wilby)</artist>
 			<artist>Antonio Franco</artist>
 		</artists>
 		<title/>
@@ -18523,8 +18524,8 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
-			<artist>Wilby Fletcher</artist>
+			<artist>Juini Booth</artist>
+			<artist>Wilbert Fletcher (aka Wilby)</artist>
 		</artists>
 		<title/>
 	</session>
@@ -18565,8 +18566,8 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
-			<artist>Wilbert Fletcher</artist>
+			<artist>Juini Booth</artist>
+			<artist>Wilbert Fletcher (aka Wilby)</artist>
 			<artist>Guilherme Franco</artist>
 		</artists>
 		<title/>
@@ -18672,7 +18673,7 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Beryl Booker</artist>
-			<artist>Don Elliot</artist>
+			<artist>Don Elliott</artist>
 			<artist>Chuck Wayne</artist>
 			<artist>Clyde Lombardi</artist>
 			<artist>Connie Kay</artist>
@@ -21393,7 +21394,7 @@ sector aligned]]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21418,7 +21419,7 @@ Unknown]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21440,7 +21441,7 @@ Unknown]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21464,7 +21465,7 @@ Unknown]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21489,7 +21490,7 @@ Unknown]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21513,7 +21514,7 @@ Unknown]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21538,7 +21539,7 @@ harddisk.]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21562,7 +21563,7 @@ harddisk.]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21586,7 +21587,7 @@ harddisk.]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21610,7 +21611,7 @@ harddisk.]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -21634,7 +21635,7 @@ harddisk.]]></lineage>
 			<artist>Gary Bartz</artist>
 			<artist>Keith Jarrett</artist>
 			<artist>Michael Henderson</artist>
-			<artist>Ndugu Leon Chancler</artist>
+			<artist>Leon Ndugu Chancler</artist>
 			<artist>Charles Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
@@ -22954,7 +22955,7 @@ TheTooleMan Additional lineage: FLAC -> WAV -> CDR -> EAC (secure) -> FLAC
 			<artist type="band">Lifetime</artist>
 			<artist main="true">Tony Williams</artist>
 			<artist>Ted Dunbar</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
+			<artist>Juini Booth</artist>
 			<artist>Tony Williams</artist>
 		</artists>
 		<title/>
@@ -24014,8 +24015,7 @@ correction)>FLAC]]></lineage>
 		<lineage/>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
-			<artist>ECM All-Stars</artist>
+			<dummy type="band" main="true">ECM All-Stars</dummy>
 			<artist>Ralph Towner</artist>
 			<artist>John Abercrombie</artist>
 			<artist>Steve Kuhn</artist>
@@ -24724,7 +24724,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<artists>
 			<artist main="true">McCoy Tyner</artist>
 			<artist>Azar Lawrence</artist>
-			<artist>Arthur Edward ‘Juni’ Booth</artist>
+			<artist>Juini Booth</artist>
 			<artist>Eccleston Wendell Wainwright</artist>
 			<artist>Guilherme Franco</artist>
 		</artists>
@@ -25362,7 +25362,6 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 			<artist>Ian Underwood</artist>
 			<artist>Bunk Gardner</artist>
 			<artist>Motorhead Sherwood</artist>
-			<artist>Bunk Gardner</artist>
 			<artist>Buzz Gardner</artist>
 			<artist>Ray Collins</artist>
 			<artist>Dick Barber</artist>
@@ -26109,7 +26108,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<lineage trader="Bruce Remy"/>
 		<remarks/>
 		<artists>
-			<artist main="true">Michelle Philips</artist>
+			<artist main="true">Michelle Phillips</artist>
 		</artists>
 		<title/>
 	</session>
@@ -27949,9 +27948,9 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989]]></linea
 		<remarks/>
 		<artists>
 			<artist main="true">Chet Baker</artist>
-			<artist>Wolfgang Lackerscmid</artist>
+			<artist>Wolfgang Lackerschmid</artist>
 			<artist>Michel Graillier</artist>
-			<artist>Jean Louis Rassinfosse</artist>
+			<artist>Jean-Louis Rassinfosse</artist>
 		</artists>
 		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
 	</session>
@@ -28870,8 +28869,8 @@ Video_ts]]></lineage>
 			<artist>Lou Levy</artist>
 			<artist>Ray Brown</artist>
 			<artist>Ed Thigpen</artist>
-			<dummy type="band">Roy Eldridge-Herb Hellis Quintet</dummy>
-			<artist>Roy Eldrige</artist>
+			<dummy type="band">Roy Eldridge-Herb Ellis Quintet</dummy>
+			<artist>Roy Eldridge</artist>
 			<artist>Herb Ellis</artist>
 			<artist>Oscar Peterson</artist>
 			<artist>Ray Brown</artist>
@@ -29886,7 +29885,7 @@ Video_ts]]></lineage>
 			<artist>Lionel Belmondo</artist>
 			<artist>Thierry Eliez</artist>
 			<artist>Hein van de Geyn</artist>
-			<artist>André 'Dédé' Ceccarelli</artist>
+			<artist>André Ceccarelli (aka Dédé)</artist>
 		</artists>
 		<title>Audi Jazz Promotional DVD</title>
 	</session>
@@ -30786,7 +30785,7 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe Labarbera (bateria).</remarks>
+		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe LaBarbera (bateria).</remarks>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 		</artists>
@@ -30804,11 +30803,11 @@ Video_ts]]></lineage>
 		<format resultion="576p">AVC</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe Labarbera (bateria).</remarks>
+		<remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe LaBarbera (bateria).</remarks>
 		<artists>
 			<artist main="true">Bill Evans</artist>
 			<artist>Marc Johnson</artist>
-			<artist>Joe Labarbera</artist>
+			<artist>Joe LaBarbera</artist>
 		</artists>
 		<title>Jazz entre amigos - Bill Evans</title>
 	</session>
