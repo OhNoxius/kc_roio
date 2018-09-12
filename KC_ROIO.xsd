@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="KC_ROIO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="session"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="session">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="artists"/>
+        <xs:element ref="date"/>
+        <xs:element ref="format"/>
+        <xs:element ref="length"/>
+        <xs:element ref="lineage"/>
+        <xs:element ref="location"/>
+        <xs:element ref="quality"/>
+        <xs:element ref="remarks"/>
+        <xs:element ref="source"/>
+        <xs:element ref="title"/>
+        <xs:element ref="titlefilm"/>
+      </xs:choice>
+      <xs:attribute name="av" use="required" type="xs:NCName"/>
+      <xs:attribute name="id" type="xs:NCName"/>
+      <xs:attribute name="official" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="artists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="artist"/>
+          <xs:element ref="dummy"/>
+          <xs:element ref="host"/>
+        </xs:choice>
+        <xs:choice minOccurs="0">
+          <xs:element ref="MC"/>
+          <xs:element ref="conductor"/>
+          <xs:element ref="interviewer"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="artist">
+    <xs:complexType mixed="true">
+      <xs:attribute name="main" type="xs:boolean"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dummy">
+    <xs:complexType mixed="true">
+      <xs:attribute name="main" type="xs:boolean"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="host" type="xs:string"/>
+  <xs:element name="MC" type="xs:string"/>
+  <xs:element name="conductor" type="xs:string"/>
+  <xs:element name="interviewer" type="xs:string"/>
+  <xs:element name="date">
+    <xs:complexType mixed="true">
+      <xs:attribute name="set" type="xs:integer"/>
+      <xs:attribute name="type" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="format">
+    <xs:complexType mixed="true">
+      <xs:attribute name="bitrate" type="xs:integer"/>
+      <xs:attribute name="letterboxed" type="xs:boolean"/>
+      <xs:attribute name="resolution"/>
+      <xs:attribute name="resultion" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="length" type="xs:string"/>
+  <xs:element name="lineage">
+    <xs:complexType mixed="true">
+      <xs:attribute name="trader"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="event"/>
+          <xs:element ref="venue"/>
+        </xs:choice>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="city"/>
+        <xs:element minOccurs="0" ref="country"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="event">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="venue" type="xs:string"/>
+  <xs:element name="city" type="xs:string"/>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="quality" type="xs:string"/>
+  <xs:element name="remarks" type="xs:string"/>
+  <xs:element name="source">
+    <xs:complexType mixed="true">
+      <xs:attribute name="DVB" type="xs:boolean"/>
+      <xs:attribute name="bitrate" type="xs:integer"/>
+      <xs:attribute name="channel"/>
+      <xs:attribute name="station"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title">
+    <xs:complexType mixed="true">
+      <xs:attribute name="label"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titlefilm">
+    <xs:complexType mixed="true">
+      <xs:attribute name="year" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
