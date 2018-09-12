@@ -82,7 +82,7 @@
 				<xsl:value-of select="quality"/>
 			</td>
 			<td style="text-align:center">
-				<input type="button" value="extra" style="border:1;background:none;width:50px;" class="xtrClass"/>
+				<input type="button" value="extra" style="border:1;background:none;width:49px;" class="xtrClass"/>
 			</td>
 		</tr>
 		<tr id="xtr_{generate-id(.)}" height="1" style="display:none">

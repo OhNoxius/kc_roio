@@ -93,7 +93,7 @@
 				<xsl:value-of select="quality"/>
 			</td>
 			<td style="text-align:center">
-				<input type="button" value="extra" style="border:1;background:none;width:45px;"
+				<input type="button" value="extra" style="border:1;background:none;width:49px;"
 					class="xtrClass"/>
 			</td>
 			<!--LAST COLLUMN : extra. Should be invisisble!!!-->

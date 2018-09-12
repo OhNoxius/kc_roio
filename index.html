@@ -129,7 +129,7 @@
         <!--<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>-->
         <script type="text/javascript" src="dataTables.min.js"></script>
 
-        <script type="text/javascript">m
+        <script type="text/javascript">
             //<![CDATA[
             function xslTransform(xmlInput, xsltSheet, elementToAddResult, chooseParameter) {
                 
@@ -143,23 +143,30 @@
                         proc.setParameter(null, "chooseParameter", chooseParameter);
                         chooseParameter = undefined;
                     }
+                    else alert("chooseParameter == undefined");
                     
-                    fragment = proc.transformToFragment(xmlInput, document);
+                    var fragment = proc.transformToFragment(xmlInput, document);
                     
                     //DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
                     //elementToAddResult.appendChild(fragment);
                     
                     //DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslSearch)
-                    if (elementToAddResult.firstChild) {
+                    //if (elementToAddResult.firstChild) {
+                    if (elementToAddResult.hasChildNodes()) {
+                        //IN DE TOEKOMST VERVANGEN DOOR CSS, en dan enkel de elementToAddResult als string doorgeven
+                        //$('.result).css('display'​​​​​​​​​​​​​​​​​​​​​​​​​​​,'none');​​​​​​
                         elementToAddResult.children[0].style.display = 'none';
+                        //elementToAddResult.firstChild.style.display = 'none';
                         //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
                         elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
                     } else {
                         elementToAddResult.appendChild(fragment);
                     }
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
+                    //in case the transformatie niet geslaagd is: gewoon de ongewijzigde xmldata appenden?
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
                 }
+                else alert("XSLTProcessor == 'undefined'");
             }
             
             //zelfde als xslTransform, maar specifiek voor 'search' transform?
@@ -188,7 +195,7 @@
                     proc.setParameter(null, "chooseAV", av);
                     //EINDE parameters doorgeven
                     
-                    fragment = proc.transformToFragment(xmlInput, document);
+                    var fragment = proc.transformToFragment(xmlInput, document);
                     if (elementToAddResult.firstChild) {
                         elementToAddResult.children[0].style.display = 'none';
                         //elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]); //child0 is de 'loading...' tekst
@@ -398,10 +405,10 @@
                 req.onload = function () {
                     loadedData[ 'xslFilters'] = req.responseXML;
                     if (checkFiltersLoaded(loadedData)) {
+                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('eventBox'), "event");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
-                        //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
-                        xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('eventBox'), "event");
+                        //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");                        
                     } else {
                         //alert('KC_ROIO_filters nog niet geladen');
                     }
@@ -411,7 +418,7 @@
             
             function requestXML(url, loadedData, _callback) {
                 var req = new XMLHttpRequest();
-                req.open('GET', url);
+                req.open('GET', url, false); //,false => SYNCHRONOUS REQUEST!! browser wacht op antwoord...wordt afgeraden, hier alternatief (timeout enzo) https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
                 // to allow us doing XSLT in IE
                 try {
                     req.responseType = "msxml-document"
@@ -436,7 +443,7 @@
                 return loadedData.xmlInput != null && loadedData.xslSessions != null;
             }
             
-            function init(xml, xsl, elementToAddResult) {
+            function init() {
                 xml = 'KC_ROIO.xml';
                 xsl_sortAZ = 'KC_ROIO_sortAZ.xsl';
                 xsl_filters = 'KC_ROIO_filters.xsl';
@@ -451,9 +458,8 @@
                 //load xml
                 requestXML(xml, loadedData, function () {
                     console.log('XML IS LOADED!');
-                });
-                //populate datalist for search filters
-                requestFilters(xsl_filters, loadedData);
+                    alert('XML IS LOADED!');
+                });                
                 
                 //initialize search button
                 document.getElementById('search').addEventListener('click', function () {
@@ -501,6 +507,9 @@
                 },
                 false);
                 
+                //populate datalist for search filters
+                requestFilters(xsl_filters, loadedData);
+                
                 //alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
             }//]]>
          </script>
@@ -517,22 +526,23 @@
                         <td style="border-bottom:none;">
                             <label for="artistSelector">artist:</label>
                             <input id="artistSelector" list="artistBox" name="artist" autocomplete="off" />
-                            <datalist id="artistBox"> </datalist>
+                            <!--//WAAROM HEB IK AL DIE DATALISTS EEN SPATIE ALS BASISWAARDE GEGEVEN?????-->
+                            <datalist id="artistBox"></datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="countrySelector">country:</label>
                             <input id="countrySelector" list="countryBox" name="country" autocomplete="off" />
-                            <datalist id="countryBox"> </datalist>
+                            <datalist id="countryBox"></datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="yearSelector">year:</label>
-                            <input id="yearSelector" list="yearBox" name="year" style="width:50px;" autocomplete="off" />
-                            <datalist id="yearBox"> </datalist>
+                            <input id="yearSelector" list="yearBox" name="year" autocomplete="off" style="width:50px;" />
+                            <datalist id="yearBox"></datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <label for="eventSelector">festival/show:</label>
                             <input id="eventSelector" list="eventBox" name="event" autocomplete="off" />
-                            <datalist id="eventBox"> </datalist>
+                            <datalist id="eventBox"></datalist>
                         </td>
                         <td style="border-bottom:none;">
                             <input type="checkbox" name="a/v" value="A" id="audio" checked="checked" /><label for="audio">audio</label>

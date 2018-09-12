@@ -5281,9 +5281,9 @@ DVD-R => Dime]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x4f5cd60" av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">1971-04-18</date>
 		<location>
-			<event type="festival">Diana Ross Special</event>
+			<event type="tvshow">Diana! (Diana Ross Special)</event>
 			<country>U.S.A.</country>
 		</location>
 		<length>3min</length>
@@ -5291,7 +5291,7 @@ DVD-R => Dime]]></lineage>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks/>
+		<remarks>aired April 18, 1971</remarks>
 		<artists>
 			<artist main="true">The Jackson 5</artist>
 		</artists>
@@ -11589,14 +11589,23 @@ AC3@256 ]]></lineage>
 		<date type="xs:date">1959-1969</date>
 		<location/>
 		<length>0:40:51</length>
-		<source>DVB</source>
+		<source DVB="true" station="arte">DVB</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A+</quality>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[BR-alpha/ARTE > TT S2-3200 > DVB Viewer > ... > TMPGEnc Author 4 (added menu)]]></lineage>
+		<remarks>It was a compilation dvd with a Clark Terry concert. It is an upgrade to the U:S:E version because there is no re-encoding, this is the actual broadcast signal. </remarks>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<artist type="band" main="true">Various Artists</artist>			
 			<artist>Louis Armstrong</artist>
+			<artist>Thelonious Monk</artist>
+			<artist>Baden Powell</artist>
+			<artist>Miles Davis</artist>
+			<artist>Duke Ellington</artist>
+			<artist>Dave Brubeck</artist>
+			<artist>Carmen McRae</artist>
+			<artist>Albert Mangelsdorff</artist>
+			<artist>Cannonball Adderley</artist>
+			<artist>George Lewis</artist>
 		</artists>
 		<title>Miles and More – Best of the Joachim-Ernst Berendt's Archive</title>
 	</session>
@@ -11939,10 +11948,10 @@ AC3@256 ]]></lineage>
 		<title/>
 	</session>
 	<session id="id0xd7e170" av="V">
-		<date type="xs:date">197x-xx-xx</date>
+		<date type="xs:date">1960-1970</date>
 		<location/>
 		<length>3:58:21</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
@@ -13472,7 +13481,7 @@ flac]]></lineage>
 	<session id="id0x144c120" av="A">
 		<date type="xs:date">2006-06-28</date>
 		<location>
-			<event type="festival">Montreal Jazz Festival</event>
+			<event type="festival">Festival International de Jazz de Montréal</event>
 			<city>Montreal</city>
 			<country>Canada</country>
 		</location>
@@ -18407,7 +18416,7 @@ wave>adobe audition 2.0 16/44.1>flac]]></lineage>
 	<session id="id0x284fd10" av="A">
 		<date type="xs:date">1998-07-xx</date>
 		<location>
-			<event type="festival">Montreal Jazz Festival</event>
+			<event type="festival">Festival International de Jazz de Montréal</event>
 			<city>Montreal</city>
 			<country>Canada</country>
 		</location>
@@ -21759,11 +21768,11 @@ TLH (Flac Level 8)]]></lineage>
 		<title/>
 	</session>
 	<session id="id0x5be4580" av="A">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">1990-xx-xx</date>
 		<location>
 			<country>U.S.A.</country>
 		</location>
-		<length/>
+		<length>8hours</length>
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
@@ -21773,7 +21782,7 @@ TLH (Flac Level 8)]]></lineage>
 			<artist main="true">Miles Davis</artist>
 			<host>Danny Glover</host>
 		</artists>
-		<title>Miles Davis Radio Project</title>
+		<title>The Miles Davis Radio Project (Zouk Productions, 1990)</title>
 	</session>
 	<session id="id0x5c76950" av="A">
 		<date type="xs:date">2008-01-21</date>
@@ -30271,7 +30280,7 @@ Video_ts]]></lineage>
 		<title/>
 	</session>
 	<session av="V">
-		<date type="xs:date">xxxx-xx-xx</date>
+		<date type="xs:date">197x-xx-xx</date>
 		<location>
 			<venue>Casino</venue>
 			<city>Spa</city>
