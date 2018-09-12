@@ -96,13 +96,13 @@
 				<input type="button" value="extra" style="border:1;background:none;width:49px;"
 					class="xtrClass"/>
 			</td>
-			<!--BEFORE USING DATATABLES-->
-			<!--LAST COLLUMN : extra. Should be invisisble!!!-->
-			<!--<td class="xtrRow" style="display:none;">
+			<!--<!-\-BEFORE USING DATATABLES-\->
+			<!-\-LAST COLLUMN : extra. Should be invisisble!!!-\->
+			<!-\-<td class="xtrRow" style="display:none;">
 				<xsl:value-of select="lineage"/>
 				<br/>
 				<xsl:value-of select="remarks"/>
-			</td>-->
+			</td>-\->-->
 		</tr>
 		<!--<tr id="xtr_{generate-id(.)}" height="1" style="display:none">
 			<td colspan="8" bgcolor="#EEEEEE">
