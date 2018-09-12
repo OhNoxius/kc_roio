@@ -220,9 +220,13 @@
                 // Add event listener for opening and closing details
                 $('#searchTable tbody').on('click', '.xtrClass', function () {
                     
-                    var tr = $(this).closest('tr');
+                    var tr = $(this).closest('tr'); //zoek de rij waarin de "extra" knop staat
                     var row = table.row(tr);
-                    var cell = table.cell($(this).closest('td').next());
+                    var cell = table.cell($(this).closest('td').next()); //zoek de cel rechts van de knop: onzichtbare cel met lineage en remarks info
+                    //dit is misschien niet de beste oplossing...
+                    //mss beter om een nieuwe transformatie te doen hier??? ik heb er al een stylesheet voor...
+                    //*voordeel van huidige methode is dat het heel makkelijk is om die lineage en remarks bij de 1e transformatie op te slaan
+                    //alternatief: onzichtbare rij maken ipv onzichtbare cel????
                     
                     if (row.child.isShown()) {
                         // This row is already open - close it
