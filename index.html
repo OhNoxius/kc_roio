@@ -142,8 +142,7 @@
                         //alert('geef deze parameter door:' + chooseParameter);
                         proc.setParameter(null, "chooseParameter", chooseParameter);
                         chooseParameter = undefined;
-                    }
-                    else alert("chooseParameter == undefined");
+                    } else alert("chooseParameter == undefined");
                     
                     var fragment = proc.transformToFragment(xmlInput, document);
                     
@@ -165,8 +164,7 @@
                 } else if (typeof xmlInput.transformNode !== 'undefined') {
                     //in case the transformatie niet geslaagd is: gewoon de ongewijzigde xmldata appenden?
                     elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
-                }
-                else alert("XSLTProcessor == 'undefined'");
+                } else alert("XSLTProcessor == 'undefined'");
             }
             
             //zelfde als xslTransform, maar specifiek voor 'search' transform?
@@ -220,9 +218,11 @@
                 // Add event listener for opening and closing details
                 $('#searchTable tbody').on('click', '.xtrClass', function () {
                     
-                    var tr = $(this).closest('tr'); //zoek de rij waarin de "extra" knop staat
+                    var tr = $(this).closest('tr');
+                    //zoek de rij waarin de "extra" knop staat
                     var row = table.row(tr);
-                    var cell = table.cell($(this).closest('td').next()); //zoek de cel rechts van de knop: onzichtbare cel met lineage en remarks info
+                    var cell = table.cell($(this).closest('td').next());
+                    //zoek de cel rechts van de knop: onzichtbare cel met lineage en remarks info
                     //dit is misschien niet de beste oplossing...
                     //mss beter om een nieuwe transformatie te doen hier??? ik heb er al een stylesheet voor...
                     //*voordeel van huidige methode is dat het heel makkelijk is om die lineage en remarks bij de 1e transformatie op te slaan
@@ -412,7 +412,7 @@
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('eventBox'), "event");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
                         xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
-                        //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");                        
+                        //xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
                     } else {
                         //alert('KC_ROIO_filters nog niet geladen');
                     }
@@ -422,7 +422,8 @@
             
             function requestXML(url, loadedData, _callback) {
                 var req = new XMLHttpRequest();
-                req.open('GET', url, false); //,false => SYNCHRONOUS REQUEST!! browser wacht op antwoord...wordt afgeraden, hier alternatief (timeout enzo) https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
+                req.open('GET', url, false);
+                //,false => SYNCHRONOUS REQUEST!! browser wacht op antwoord...wordt afgeraden, hier alternatief (timeout enzo) https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
                 // to allow us doing XSLT in IE
                 try {
                     req.responseType = "msxml-document"
@@ -463,7 +464,7 @@
                 requestXML(xml, loadedData, function () {
                     console.log('XML IS LOADED!');
                     alert('XML IS LOADED!');
-                });                
+                });
                 
                 //initialize search button
                 document.getElementById('search').addEventListener('click', function () {

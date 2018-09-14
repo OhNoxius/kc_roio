@@ -1,5 +1,5 @@
-<?xml-stylesheet type="text/xsl" href="KC_ROIO_idtransform.xsl"?><KC_ROIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="KC_ROIO.xsd">
+<?xml-stylesheet type="text/xsl" href="KC_ROIO_idtransform.xsl"?>
+<KC_ROIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KC_ROIO.xsd">
    <session id="d1e3" av="V">
       <date type="xs:date">1969-10-24_28</date>
       <location>
@@ -53,10 +53,7 @@
       <source>Audience (PRO)</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>Lineage:
-			Audio: Soundboard &gt; Digital &gt; 24 Multitracks @ 24 Bits / 48 Khz &gt; Mastering with Samplitude 9.22 and VST (reverb, compressor, etc...) &gt; 2.0 @ 16 Bits / 48 Khz &gt; AC3 version @ 16 Bits / 48 Khz
-			Video: 1 Camera in 16:9 anamorphic DV standard &gt; Sony Vegas 7 &gt; MC MPEG2 Encoder &gt; m2v file.
-			Authoring: TMPGEnc DVD AUTHOR 3</lineage>
+      <lineage>Lineage: Audio: Soundboard &gt; Digital &gt; 24 Multitracks @ 24 Bits / 48 Khz &gt; Mastering with Samplitude 9.22 and VST (reverb, compressor, etc...) &gt; 2.0 @ 16 Bits / 48 Khz &gt; AC3 version @ 16 Bits / 48 Khz Video: 1 Camera in 16:9 anamorphic DV standard &gt; Sony Vegas 7 &gt; MC MPEG2 Encoder &gt; m2v file. Authoring: TMPGEnc DVD AUTHOR 3</lineage>
       <remarks>Photos (2 video cut due to mini dv tape change): Jempi
 			Sound: Michel ANDINA
 			Video recording + Audio/Video Mastering: Ludwig LAISNÉ</remarks>
@@ -1105,8 +1102,7 @@
       <source>DVB</source>
       <format/>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac
-(MPEG1 Layer 2/256 kbps)</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac (MPEG1 Layer 2/256 kbps)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Brad Mehldau</artist>
@@ -2350,8 +2346,7 @@
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>DVB-C &gt;Nokia d-box 1 &gt; harddisk via SCSI &gt;ProjectX (demultiplex) &gt;
-Cuttermaran 1.70 (edits) &gt;IfoEdit (DVD authoring)</lineage>
+      <lineage>DVB-C &gt;Nokia d-box 1 &gt; harddisk via SCSI &gt;ProjectX (demultiplex) &gt; Cuttermaran 1.70 (edits) &gt;IfoEdit (DVD authoring)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Charles Mingus</artist>
@@ -2384,8 +2379,7 @@ Cuttermaran 1.70 (edits) &gt;IfoEdit (DVD authoring)</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>Digital Satellite -&gt; raw data to HDD, -&gt; ProjectX -&gt; TMPGEnc DVD Author
--&gt; Video_ts;</lineage>
+      <lineage>Digital Satellite -&gt; raw data to HDD, -&gt; ProjectX -&gt; TMPGEnc DVD Author -&gt; Video_ts;</lineage>
       <remarks/>
       <artists>
          <artist main="true">Charlie Haden</artist>
@@ -2469,8 +2463,7 @@ Cuttermaran 1.70 (edits) &gt;IfoEdit (DVD authoring)</lineage>
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS
-file</lineage>
+      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Chick Corea</artist>
@@ -2557,9 +2550,7 @@ file</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>DVB-C &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk &gt; ProjectX
-(demuxing) &gt; Cuttermaran 1.70 (edits and chapters) &gt; DVD-lab Pro 2.5(DVD
-authoring)</lineage>
+      <lineage>DVB-C &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk &gt; ProjectX (demuxing) &gt; Cuttermaran 1.70 (edits and chapters) &gt; DVD-lab Pro 2.5(DVD authoring)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Chick Corea</artist>
@@ -2837,9 +2828,7 @@ authoring)</lineage>
       <length>0:58:36</length>
       <source>AUD+FM</source>
       <format resolution="PAL">DVD</format>
-      <lineage>VIDEO: unknown audience member &gt; PAL DVDR
-AUDIO: FM/SBD &gt; ? &gt; CDR
-SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 &amp; Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/</lineage>
+      <lineage>VIDEO: unknown audience member &gt; PAL DVDR AUDIO: FM/SBD &gt; ? &gt; CDR SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 &amp; Sony DVD Architect Pro 10.2 by RandyB @ http://funkit.virose.net/</lineage>
       <remarks>The FM audio recording is 63min:27sec total and it is missing a few minutes at the beginning, so this video is missing about 6.5 minutes. The missing parts of the video are faded out and in, I chose not to let the FM audio play through with a black screen on the video.</remarks>
       <artists>
          <artist main="true">D'Angelo</artist>
@@ -3625,8 +3614,7 @@ SYNC, EDIT, AUTHORING: Sony Vegas Pro 10.0 &amp; Sony DVD Architect Pro 10.2 by 
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>A-</quality>
-      <lineage>Comcast TV Broadcast&gt;Low Gen VHS&gt;Mitsubishi VCR&gt;Panasonic DMR-E100H DVD
-Recorder</lineage>
+      <lineage>Comcast TV Broadcast&gt;Low Gen VHS&gt;Mitsubishi VCR&gt;Panasonic DMR-E100H DVD Recorder</lineage>
       <remarks/>
       <artists>
          <artist main="true">Erykah Badu</artist>
@@ -3803,8 +3791,7 @@ Recorder</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>Video: SANYO VCR &gt; MEDION DVD STANDALONE HQ Mode Audio: SANYO VCR &gt; WAVELAB
-3, 44kHz 16 bit DUAL MONO</lineage>
+      <lineage>Video: SANYO VCR &gt; MEDION DVD STANDALONE HQ Mode Audio: SANYO VCR &gt; WAVELAB 3, 44kHz 16 bit DUAL MONO</lineage>
       <remarks>First Broadcast Date: 1970 10 15 on German TV Station ARD.This Copy is from the converted BETACAM SP Mastertape Cassette: SONY E-60PR</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -3939,9 +3926,7 @@ Recorder</lineage>
       <source>REEL</source>
       <format resolution="NTSC">DVD</format>
       <quality>B-</quality>
-      <lineage>Pacific Film Archives Master Reel &gt; Master VHS &gt; B. Burnett VHS &gt;
-			JVC HR-SJVC S-VHS out &gt; Canpous ADVC 110 Firewire out &gt; Sony Vegas Pro 10 &gt;
-			MPEG &gt; Sony DVD Arch 4.0 &gt; DVD</lineage>
+      <lineage>Pacific Film Archives Master Reel &gt; Master VHS &gt; B. Burnett VHS &gt; JVC HR-SJVC S-VHS out &gt; Canpous ADVC 110 Firewire out &gt; Sony Vegas Pro 10 &gt; MPEG &gt; Sony DVD Arch 4.0 &gt; DVD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4004,8 +3989,7 @@ Recorder</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author
-DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</lineage>
+      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4139,9 +4123,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</l
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author
-DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s)
-CosmikD</lineage>
+      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</lineage>
       <remarks>Interviews probably recorded between dec 4 and 10 1971</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4184,8 +4166,7 @@ CosmikD</lineage>
       <source>16mm</source>
       <format resolution="NTSC">DVD</format>
       <quality/>
-      <lineage>16mm Film Master &gt; SVHS w/timecodes &gt; SVHS &gt; Hard Drive via Pinnacle 11
-Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
+      <lineage>16mm Film Master &gt; SVHS w/timecodes &gt; SVHS &gt; Hard Drive via Pinnacle 11 Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4212,8 +4193,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD
-			Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
+      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4248,8 +4228,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD
-			Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
+      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4275,8 +4254,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>Captured PAL transport stream with an LG HR536D standalone recorder.
-			.Ts file trimmed with Streamclip 1.2.</lineage>
+      <lineage>Captured PAL transport stream with an LG HR536D standalone recorder. .Ts file trimmed with Streamclip 1.2.</lineage>
       <remarks>Digital Rebroadcast 8th January 2012</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4320,8 +4298,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD
-			Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
+      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
       <remarks>Music: Festival Hall, Melbourne RDNZL</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4339,8 +4316,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD
-			Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
+      <lineage>goodkingzog's lineage: TV Station &gt; VHS &gt; DVD Unicrayon's lineage: DVD &gt; Demuxed &gt; editing, re-encoded, authoring &amp; branding &gt; DVD</lineage>
       <remarks>Music: Sydney Rehearsal St Alfonzo's Pancake Breakfast</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -4666,8 +4642,7 @@ Studio &gt; DVD &gt; MPEG &gt; TMPG 1.6/iDVD 6 &gt; MyDVDedit &gt; DVD</lineage>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>B-</quality>
-      <lineage>Pro-Shot &gt; ? &gt; VHS (unknown generation) &gt; Sony DVD Recorder (FR mode) &gt;
-DVDs &gt; DVD Decrypter &gt; Sony Vegas 6.0c &gt; Sony DVD Architect 3.0c</lineage>
+      <lineage>Pro-Shot &gt; ? &gt; VHS (unknown generation) &gt; Sony DVD Recorder (FR mode) &gt; DVDs &gt; DVD Decrypter &gt; Sony Vegas 6.0c &gt; Sony DVD Architect 3.0c</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">The Guitar Trio</artist>
@@ -5172,8 +5147,7 @@ DVDs &gt; DVD Decrypter &gt; Sony Vegas 6.0c &gt; Sony DVD Architect 3.0c</linea
       <source>VHS</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>master PDM VHS tape =&gt; Sharp VC-M512 VCR =&gt; Pinnacle Studio MovieBox =&gt;
-DVD-R =&gt; Dime</lineage>
+      <lineage>master PDM VHS tape =&gt; Sharp VC-M512 VCR =&gt; Pinnacle Studio MovieBox =&gt; DVD-R =&gt; Dime</lineage>
       <remarks/>
       <artists>
          <artist main="true">Hermeto Pascoal</artist>
@@ -5346,9 +5320,7 @@ DVD-R =&gt; Dime</lineage>
       <length>0:23:17</length>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
-      <lineage>?? &gt; (2004 DVD compilation) &gt; DVD+R (2014 trade) &gt; DVD Decrypter &gt; vob
-&gt; Nero (1982-07-02 official release removed) &gt; DVD+R &gt; DVD Decrypter &gt; vob
-&gt; Dime</lineage>
+      <lineage>?? &gt; (2004 DVD compilation) &gt; DVD+R (2014 trade) &gt; DVD Decrypter &gt; vob &gt; Nero (1982-07-02 official release removed) &gt; DVD+R &gt; DVD Decrypter &gt; vob &gt; Dime</lineage>
       <remarks>German TV broadcast, "Focus On Jazz"</remarks>
       <artists>
          <artist main="true">Jaco Pastorius</artist>
@@ -5367,9 +5339,7 @@ DVD-R =&gt; Dime</lineage>
       <source>preTV</source>
       <format resolution="NTSC">DVD</format>
       <quality/>
-      <lineage>?? &gt; (2004 DVD compilation) &gt; DVD+R (2014 trade) &gt; DVD Decrypter &gt; vob
-&gt; Nero (1982-07-02 official release removed) &gt; DVD+R &gt; DVD Decrypter &gt; vob
-&gt; Dime</lineage>
+      <lineage>?? &gt; (2004 DVD compilation) &gt; DVD+R (2014 trade) &gt; DVD Decrypter &gt; vob &gt; Nero (1982-07-02 official release removed) &gt; DVD+R &gt; DVD Decrypter &gt; vob &gt; Dime</lineage>
       <remarks>Magyar Televízió (Hungarian TV) pre-broadcast source with TCR (Time Code Reading, i.e. time stamp)</remarks>
       <artists>
          <artist main="true">Jaco Pastorius</artist>
@@ -5377,7 +5347,7 @@ DVD-R =&gt; Dime</lineage>
          <artist>Alex Foster</artist>
          <artist>Delmar Brown</artist>
          <artist>Mike Stern</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Kenwood Dennard</artist>
       </artists>
       <title>JACO PASTORIUS - DVD Compilation</title>
@@ -5518,8 +5488,7 @@ DVD-R =&gt; Dime</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author
-DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</lineage>
+      <lineage>DivX with DRM &gt; Fraps (AVI recapture) &gt; TMPGenc Plus &gt; TMPGenc DVD Author DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Jean-Luc Ponty</artist>
@@ -6689,8 +6658,7 @@ DVD PAL (MPEG-2 720x576 25 i/s CBR 5800kbps, Audio 48000 Hz 384 Kb/s) CosmikD</l
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>B+</quality>
-      <lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVDAUDIO
-DUB!!!</lineage>
+      <lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVDAUDIO DUB!!!</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -7068,10 +7036,7 @@ DUB!!!</lineage>
       <source channel="WDR">TV</source>
       <format resolution="PAL">DVD</format>
       <quality>B+</quality>
-      <lineage>WDR German TV broadcast(see above) &gt; Nokia satellite bowl &gt; Pace satellite TV
-receiver &gt; via Scart cable &gt; Akai VCR(SP mode) &gt; BASF 240min master VHS &gt;
-playback on LG VCR &gt; via Scart cable &gt; Panasonic stand alone DVD recorder(1h30min
-flexible time mode) &gt; Sony DVD- on HD (&gt; dime &gt; YOU)</lineage>
+      <lineage>WDR German TV broadcast(see above) &gt; Nokia satellite bowl &gt; Pace satellite TV receiver &gt; via Scart cable &gt; Akai VCR(SP mode) &gt; BASF 240min master VHS &gt; playback on LG VCR &gt; via Scart cable &gt; Panasonic stand alone DVD recorder(1h30min flexible time mode) &gt; Sony DVD- on HD (&gt; dime &gt; YOU)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -7792,8 +7757,7 @@ flexible time mode) &gt; Sony DVD- on HD (&gt; dime &gt; YOU)</lineage>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>A</quality>
-      <lineage>TV &gt;VHS &gt;Sampo standalone DVD recorder in HQ mode (max. one hour) &gt;DVD
-Decrypter &gt;TMPGEnc DVD Author &gt;DVD &gt;DVD Decrypter</lineage>
+      <lineage>TV &gt;VHS &gt;Sampo standalone DVD recorder in HQ mode (max. one hour) &gt;DVD Decrypter &gt;TMPGEnc DVD Author &gt;DVD &gt;DVD Decrypter</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -7924,8 +7888,7 @@ Decrypter &gt;TMPGEnc DVD Author &gt;DVD &gt;DVD Decrypter</lineage>
       <source channel="RAISAT">TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
-      <lineage>RAISAT Album Broadcast &gt; ??? &gt; DVD &gt; TMPGEnc Authoring Works 4 &gt;
-dime</lineage>
+      <lineage>RAISAT Album Broadcast &gt; ??? &gt; DVD &gt; TMPGEnc Authoring Works 4 &gt; dime</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8168,8 +8131,7 @@ dime</lineage>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>C</quality>
-      <lineage>Unknown Video Footage &gt; Unknown VHS Generation &gt; Godnoes Productions Volume 6
-(DVD-R) NTSC &gt; DVD Decrypter &gt; TLH</lineage>
+      <lineage>Unknown Video Footage &gt; Unknown VHS Generation &gt; Godnoes Productions Volume 6 (DVD-R) NTSC &gt; DVD Decrypter &gt; TLH</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8200,7 +8162,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
@@ -8226,7 +8188,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8252,7 +8214,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8278,7 +8240,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8304,7 +8266,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8329,7 +8291,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8346,8 +8308,7 @@ dime</lineage>
       <source channel="WDR">DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>Re-Broadcast 04. July 2011 WDR "Jazzline" ==&gt; Digital HD tuner ==&gt; Harddisc
-==&gt; MPEG Streamclip ==&gt; Toast Titanium ==&gt; Dime.</lineage>
+      <lineage>Re-Broadcast 04. July 2011 WDR "Jazzline" ==&gt; Digital HD tuner ==&gt; Harddisc ==&gt; MPEG Streamclip ==&gt; Toast Titanium ==&gt; Dime.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8355,7 +8316,7 @@ dime</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8372,12 +8333,7 @@ dime</lineage>
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>1. Join and demux vob files with DGMPGDec, so that each source has now one audio
-and one video file2. Use BeSplit 0.9b8 to raise gain of einsfestival with 3dB BeSplit
--core( -input einsfestival.mp2 -output einsfestival_3dB.mp2 -type mp2 ) -ota( -G 3dB )3.
-mux audio and video of both sources, so each source is now 1 mpg file4. join the files
-with Womble MPEG Video DVD 5, accurately on the correct frame5. export to 1 complete mpg
-file</lineage>
+      <lineage>1. Join and demux vob files with DGMPGDec, so that each source has now one audio and one video file2. Use BeSplit 0.9b8 to raise gain of einsfestival with 3dB BeSplit -core( -input einsfestival.mp2 -output einsfestival_3dB.mp2 -type mp2 ) -ota( -G 3dB )3. mux audio and video of both sources, so each source is now 1 mpg file4. join the files with Womble MPEG Video DVD 5, accurately on the correct frame5. export to 1 complete mpg file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8385,7 +8341,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8409,7 +8365,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8433,7 +8389,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8457,7 +8413,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8481,7 +8437,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8505,7 +8461,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8529,7 +8485,7 @@ file</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -8813,8 +8769,7 @@ file</lineage>
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
-      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS
-file</lineage>
+      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8838,8 +8793,7 @@ file</lineage>
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
-      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS
-file</lineage>
+      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8906,8 +8860,7 @@ file</lineage>
       <source>DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
-      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS
-file</lineage>
+      <lineage>DVB-C (Cultura24 Broadcast)&gt;Mystique CaBiX-C2 with Alphacrypt&gt;.TS file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -8955,7 +8908,7 @@ file</lineage>
          <artist>Adam Holzman</artist>
          <artist>Marcus Miller</artist>
          <artist>Ricky Wellman</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
       </artists>
       <title/>
    </session>
@@ -9102,8 +9055,7 @@ file</lineage>
       <source channel="MUZZIK">SatTV</source>
       <format>XviD</format>
       <quality/>
-      <lineage>[MUZZIK SatTV Rip] 384x288 MJPEG converted to XviD(21:29 min., French
-Subs)</lineage>
+      <lineage>[MUZZIK SatTV Rip] 384x288 MJPEG converted to XviD(21:29 min., French Subs)</lineage>
       <remarks>25 episodes</remarks>
       <artists>
          <artist main="true">Nat King Cole</artist>
@@ -9691,8 +9643,7 @@ Subs)</lineage>
       <source channel="ntr:">TV</source>
       <format resolution="PAL">DVD</format>
       <quality>B+</quality>
-      <lineage>DVBroadcast(ntr:)&gt;Thomson DC/62UPC&gt;Scart&gt;Philips
-DVDR3600&gt;DVD&gt;PC</lineage>
+      <lineage>DVBroadcast(ntr:)&gt;Thomson DC/62UPC&gt;Scart&gt;Philips DVDR3600&gt;DVD&gt;PC</lineage>
       <remarks/>
       <artists>
          <artist main="true">Robert Glasper</artist>
@@ -9832,8 +9783,7 @@ DVDR3600&gt;DVD&gt;PC</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>Satellite TV /Germany / Live &gt; Master VHS (TDK or Sony) &gt; LG DVD Burner &gt;
-HDD &gt; Vegas 9.0 Platinum &gt; DVD Architect 5.0 &gt; You</lineage>
+      <lineage>Satellite TV /Germany / Live &gt; Master VHS (TDK or Sony) &gt; LG DVD Burner &gt; HDD &gt; Vegas 9.0 Platinum &gt; DVD Architect 5.0 &gt; You</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">The Roots</artist>
@@ -9876,8 +9826,7 @@ HDD &gt; Vegas 9.0 Platinum &gt; DVD Architect 5.0 &gt; You</lineage>
       <length>0:54:40</length>
       <source channel="KQED HD">DTV</source>
       <format resolution="1080i">AVC</format>
-      <lineage>ATSC broadcast &gt; VBox DTA-150 &gt; TSReader (record) &gt; VideoReDo Plus (scene
-selection) &gt; transport stream</lineage>
+      <lineage>ATSC broadcast &gt; VBox DTA-150 &gt; TSReader (record) &gt; VideoReDo Plus (scene selection) &gt; transport stream</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">The Roots</artist>
@@ -10169,9 +10118,7 @@ selection) &gt; transport stream</lineage>
       <source channel="BBC Four">DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>BBC Four broadcast 2012-02-17 &gt; DVB-S &gt; Hauppauge WinTV &gt; DVBviewer &gt;
-.ts &gt; VideoRedo Plus &gt; mpv &amp;amp; mpa files &gt; mkvmergeGUI v6.7.0 &gt; .mkv
-file</lineage>
+      <lineage>BBC Four broadcast 2012-02-17 &gt; DVB-S &gt; Hauppauge WinTV &gt; DVBviewer &gt; .ts &gt; VideoRedo Plus &gt; mpv &amp;amp; mpa files &gt; mkvmergeGUI v6.7.0 &gt; .mkv file</lineage>
       <remarks/>
       <artists>
          <artist main="true">Sonny Rollins</artist>
@@ -10836,7 +10783,7 @@ file</lineage>
          <artist main="true">Tony Williams</artist>
          <artist>Larry Young</artist>
          <artist>Ted Dunbar</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Warren Smith</artist>
          <artist>Juini Booth</artist>
       </artists>
@@ -10860,7 +10807,7 @@ file</lineage>
          <artist main="true">Tony Williams</artist>
          <artist>Larry Young</artist>
          <artist>Ted Dunbar</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Warren Smith</artist>
          <artist>Juini Booth</artist>
       </artists>
@@ -10882,7 +10829,7 @@ file</lineage>
          <artist main="true">Tony Williams</artist>
          <artist>Larry Young</artist>
          <artist>Ted Dunbar</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Warren Smith</artist>
          <artist>Juini Booth</artist>
       </artists>
@@ -11173,8 +11120,7 @@ file</lineage>
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>Digital Satellite -&gt; DVD-Recorder -&gt; DVD -&gt; HDD, audio is 2 channel
-AC3@256 </lineage>
+      <lineage>Digital Satellite -&gt; DVD-Recorder -&gt; DVD -&gt; HDD, audio is 2 channel AC3@256 </lineage>
       <remarks/>
       <artists>
          <artist type="band">Wayne Shorter Quartet</artist>
@@ -11218,8 +11164,7 @@ AC3@256 </lineage>
       <source channel="ARTE" DVB="true">DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage>VIDEO: Digital Satellitereceiver Humax PVR8000 &gt; DVRStudio &gt; mpg &gt; VideoReDo TVSuite &gt; mpg. AUDIO: TV Sat &gt; SkyStar2 &gt; DVB Dream &gt; PVAstrumento &gt; TMPGEnc Authoring
-			DVD PAL (MPEG-2 720x576 25 i/s VBR 5000kbps, audio: 48000 Hz 256 Kb/s Stereo)</lineage>
+      <lineage>VIDEO: Digital Satellitereceiver Humax PVR8000 &gt; DVRStudio &gt; mpg &gt; VideoReDo TVSuite &gt; mpg. AUDIO: TV Sat &gt; SkyStar2 &gt; DVB Dream &gt; PVAstrumento &gt; TMPGEnc Authoring DVD PAL (MPEG-2 720x576 25 i/s VBR 5000kbps, audio: 48000 Hz 256 Kb/s Stereo)</lineage>
       <remarks>combination of 2 sources! best out there</remarks>
       <artists>
          <artist type="band">Wayne Shorter Quartet</artist>
@@ -12339,13 +12284,7 @@ AC3@256 </lineage>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>B+</quality>
-      <lineage>[Yoshiyuki] 
-?? &gt; VHS 3rd or 4th generation from master &gt;  Pioneer DVD Recorder 
-&gt; DVD-RW &gt; TMPGEnc DVD Author(for create menu) &gt; DVD NTSC
-[Jazznoise] 
-&gt; TMPGEnc Mpeg Editor (normalize(audio 95%)/cut initial 1-2 min blank)
-&gt; TMPGEnc Author 1.6 (create chapter menu)
-&gt; DVD NTSC with menu</lineage>
+      <lineage>[Yoshiyuki] ?? &gt; VHS 3rd or 4th generation from master &gt; Pioneer DVD Recorder &gt; DVD-RW &gt; TMPGEnc DVD Author(for create menu) &gt; DVD NTSC [Jazznoise] &gt; TMPGEnc Mpeg Editor (normalize(audio 95%)/cut initial 1-2 min blank) &gt; TMPGEnc Author 1.6 (create chapter menu) &gt; DVD NTSC with menu</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -12920,7 +12859,7 @@ AC3@256 </lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -13086,8 +13025,7 @@ AC3@256 </lineage>
       <source>web</source>
       <format/>
       <quality>A+</quality>
-      <lineage>Internet
-Stream&gt;LPRecorder&gt;WAV&gt;CDR&gt;Extraction:EAC&gt;WAV&gt;TLH&gt;FLAC(7)</lineage>
+      <lineage>Internet Stream&gt;LPRecorder&gt;WAV&gt;CDR&gt;Extraction:EAC&gt;WAV&gt;TLH&gt;FLAC(7)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Bill Carrothers</artist>
@@ -13308,10 +13246,7 @@ Stream&gt;LPRecorder&gt;WAV&gt;CDR&gt;Extraction:EAC&gt;WAV&gt;TLH&gt;FLAC(7)</l
       <source>FM</source>
       <format/>
       <quality>A+</quality>
-      <lineage>FM (analog cable) &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier
-&gt;Sony MDS-JE320 minidisc deck (normal play mode) playback: Sharp Minidisc Deck MD-R2
-&gt;Terratec Aureon 5.1 PCI via SPDIF &gt; Wavelab Lite &gt; harddisk &gt; FLAC
-8</lineage>
+      <lineage>FM (analog cable) &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Sony MDS-JE320 minidisc deck (normal play mode) playback: Sharp Minidisc Deck MD-R2 &gt;Terratec Aureon 5.1 PCI via SPDIF &gt; Wavelab Lite &gt; harddisk &gt; FLAC 8</lineage>
       <remarks/>
       <artists>
          <artist main="true">Brad Mehldau</artist>
@@ -13427,8 +13362,7 @@ Stream&gt;LPRecorder&gt;WAV&gt;CDR&gt;Extraction:EAC&gt;WAV&gt;TLH&gt;FLAC(7)</l
       <source>DVB-S</source>
       <format/>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt;
-flac</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist main="true">Brad Mehldau</artist>
@@ -13468,8 +13402,7 @@ flac</lineage>
       <source>DVB-S</source>
       <format/>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt;
-flac</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist main="true">Brad Mehldau</artist>
@@ -13532,8 +13465,7 @@ flac</lineage>
       <source>DVB-S</source>
       <format/>
       <quality>A+</quality>
-      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac 
-(MPEG1 Layer 2/256 kbps)</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac (MPEG1 Layer 2/256 kbps)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Brad Mehldau</artist>
@@ -13624,8 +13556,7 @@ flac</lineage>
       <source bitrate="192">web</source>
       <format>flac</format>
       <quality/>
-      <lineage>stream &gt; video download helper &gt; audio maker &gt; nero wave editor &gt; flac
-(aac 192 kbps) [radio station - p2]</lineage>
+      <lineage>stream &gt; video download helper &gt; audio maker &gt; nero wave editor &gt; flac (aac 192 kbps) [radio station - p2]</lineage>
       <remarks/>
       <artists>
          <artist type="band">Charles Lloyd Quartet</artist>
@@ -13711,9 +13642,7 @@ flac</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>flac files directly from web &gt; audacity (3-4 small noises in Forest flower and
-Love ship) &gt; TLH (SBE -Flac 8) &gt; Dime. Thanks to Flambay for the Pitch
-correction</lineage>
+      <lineage>flac files directly from web &gt; audacity (3-4 small noises in Forest flower and Love ship) &gt; TLH (SBE -Flac 8) &gt; Dime. Thanks to Flambay for the Pitch correction</lineage>
       <remarks>danish radio broadcast</remarks>
       <artists>
          <artist type="band">Charles Lloyd Quartet</artist>
@@ -13735,8 +13664,7 @@ correction</lineage>
       <source station="WDR3" bitrate="320">DVB</source>
       <format>flac</format>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac
-			(mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac (mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
       <remarks/>
       <artists>
          <artist type="band">Charles Lloyd Quartet</artist>
@@ -13823,8 +13751,7 @@ correction</lineage>
       <source station="WDR3" bitrate="320">DVB</source>
       <format>flac</format>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac
-			(mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac (mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
       <remarks/>
       <artists>
          <artist>Orchestra Kurt Edelhagen</artist>
@@ -13847,8 +13774,7 @@ correction</lineage>
       <source station="WDR3" bitrate="320">DVB</source>
       <format>flac</format>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac
-			(mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac (mpeg1 layer 2/320 kbps) [radio station - wdr3]</lineage>
       <remarks/>
       <artists>
          <artist type="band">Charles Lloyd Quartet</artist>
@@ -14056,8 +13982,7 @@ correction</lineage>
       <source DVB="true">DVB</source>
       <format bitrate="320">mp2</format>
       <quality>A+</quality>
-      <lineage>DVB-C (320 kbps/ 48 khz) &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk.
-Edits were made with the mp3DirectCut software.</lineage>
+      <lineage>DVB-C (320 kbps/ 48 khz) &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk. Edits were made with the mp3DirectCut software.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Charles Lloyd</artist>
@@ -14100,8 +14025,7 @@ Edits were made with the mp3DirectCut software.</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Radio Klara FM -&gt; Adobe Audition CS6.6 (48KH-16bit)(3db boost, noise reduction
-applied) -&gt; WAV -&gt; CDWave Editor (tracking) -&gt; TLH (FLAC8)</lineage>
+      <lineage>Radio Klara FM -&gt; Adobe Audition CS6.6 (48KH-16bit)(3db boost, noise reduction applied) -&gt; WAV -&gt; CDWave Editor (tracking) -&gt; TLH (FLAC8)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Charles Lloyd</artist>
@@ -14415,9 +14339,7 @@ applied) -&gt; WAV -&gt; CDWave Editor (tracking) -&gt; TLH (FLAC8)</lineage>
       <source>DVB-S2</source>
       <format bitrate="320">mp2</format>
       <quality/>
-      <lineage>DVB-S2 - Digital Satellitereceiver &gt; mp2 
-			MPEG 1.0 Layer-2; 48,000 Hz Stereo; 320 Kbps
-			mp3DirectCut 2.08 &gt; mp2</lineage>
+      <lineage>DVB-S2 - Digital Satellitereceiver &gt; mp2 MPEG 1.0 Layer-2; 48,000 Hz Stereo; 320 Kbps mp3DirectCut 2.08 &gt; mp2</lineage>
       <remarks>Broadcast: WDR3. Date: 2016-08-15</remarks>
       <artists>
          <artist main="true">Chick Corea</artist>
@@ -14483,7 +14405,7 @@ applied) -&gt; WAV -&gt; CDWave Editor (tracking) -&gt; TLH (FLAC8)</lineage>
          <artist>Joe Farrell</artist>
          <artist>Andy Simpkins</artist>
          <artist>Gayle Moran</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Stanley Clarke</artist>
          <artist>Tommy Brechtlein</artist>
          <artist>John Denske</artist>
@@ -14541,13 +14463,8 @@ applied) -&gt; WAV -&gt; CDWave Editor (tracking) -&gt; TLH (FLAC8)</lineage>
       <source>DAB</source>
       <format/>
       <quality/>
-      <lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0
-(mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH
-(SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder
-(44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume
-/ balance changes + tracking for continuity and to remove most of the announcer v2 Edit:
-Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no. change
-&amp;amp; Flac Tags</lineage>
+      <lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB
+         &amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
       <remarks/>
       <artists>
          <artist main="true">Craig Taborn</artist>
@@ -14567,8 +14484,7 @@ Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no
       <source DVB="true">DVB-S</source>
       <format bitrate="192">mp2</format>
       <quality/>
-      <lineage>Humax PVR800 &gt; mp2 (MPEG 1.0 Layer-2; 48,000 Hz Stereo; 192 Kbps) &gt;
-Mpeg2Schnitt (cut to separate performances) </lineage>
+      <lineage>Humax PVR800 &gt; mp2 (MPEG 1.0 Layer-2; 48,000 Hz Stereo; 192 Kbps) &gt; Mpeg2Schnitt (cut to separate performances) </lineage>
       <remarks/>
       <artists>
          <artist main="true">Craig Taborn</artist>
@@ -14588,8 +14504,7 @@ Mpeg2Schnitt (cut to separate performances) </lineage>
       <source DVB="true">DVB-S</source>
       <format bitrate="256">mp2</format>
       <quality/>
-      <lineage>dvb-s &gt; Digital Satellitereceiver Humax PVR8000 &gt; mp2 &gt; mp3DirectCut 2.08
-&gt; mp2</lineage>
+      <lineage>dvb-s &gt; Digital Satellitereceiver Humax PVR8000 &gt; mp2 &gt; mp3DirectCut 2.08 &gt; mp2</lineage>
       <remarks/>
       <artists>
          <artist main="true">Craig Taborn</artist>
@@ -14609,8 +14524,7 @@ Mpeg2Schnitt (cut to separate performances) </lineage>
       <source>DVB</source>
       <format/>
       <quality>A</quality>
-      <lineage>Radio DLF &gt; DVB-S (256kbps/48khz) &gt; TechniSat SkyStar HD 2 &gt; HDD &gt;
-Audacity &gt; Flac 6</lineage>
+      <lineage>Radio DLF &gt; DVB-S (256kbps/48khz) &gt; TechniSat SkyStar HD 2 &gt; HDD &gt; Audacity &gt; Flac 6</lineage>
       <remarks/>
       <artists>
          <artist main="true">Craig Taborn</artist>
@@ -14648,8 +14562,7 @@ Audacity &gt; Flac 6</lineage>
       <source>DVB</source>
       <format/>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor
-&gt; flac</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist type="band">Heroics</artist>
@@ -14671,8 +14584,7 @@ Audacity &gt; Flac 6</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>SP-CMC-8/tascam dr-1/track splitted, applause faded, silence removed with
-Audacity/channel patch with Creative Wavestudio/flac</lineage>
+      <lineage>SP-CMC-8/tascam dr-1/track splitted, applause faded, silence removed with Audacity/channel patch with Creative Wavestudio/flac</lineage>
       <remarks/>
       <artists>
          <artist type="band">Heroics</artist>
@@ -14695,8 +14607,7 @@ Audacity/channel patch with Creative Wavestudio/flac</lineage>
       <source>DVB</source>
       <format/>
       <quality/>
-      <lineage>source: dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave
-editor &gt; flac (mpeg1 layer 2/256 kbps) [radio station - rete due]</lineage>
+      <lineage>source: dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac (mpeg1 layer 2/256 kbps) [radio station - rete due]</lineage>
       <remarks/>
       <artists>
          <artist type="band">Heroics</artist>
@@ -14718,8 +14629,7 @@ editor &gt; flac (mpeg1 layer 2/256 kbps) [radio station - rete due]</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>Telefunken HT880 &gt; Edirol UA_4FX &gt; CoolEdit normalization &amp;amp; Pan
-Expand&gt; Flac level 6</lineage>
+      <lineage>Telefunken HT880 &gt; Edirol UA_4FX &gt; CoolEdit normalization &amp;amp; Pan Expand&gt; Flac level 6</lineage>
       <remarks/>
       <artists>
          <artist type="band">Heroics</artist>
@@ -14740,8 +14650,7 @@ Expand&gt; Flac level 6</lineage>
       <source/>
       <format/>
       <quality/>
-      <lineage>lineage virtually unknown. I received it on cd-r in a trade without any info so
-?&gt;cd-r&gt;wav&gt;flac(6)</lineage>
+      <lineage>lineage virtually unknown. I received it on cd-r in a trade without any info so ?&gt;cd-r&gt;wav&gt;flac(6)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Dave Holland</artist>
@@ -14762,10 +14671,7 @@ Expand&gt; Flac level 6</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Denon DR-M 24HX
-tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Denon DR-M
-24HX &gt;Denon PMA-425R amplifier &gt;Terratec DMXFire 1024 soundcard &gt;WaveLab Lite
-&gt;harddisk &gt;.wav &gt;FLAC level 8</lineage>
+      <lineage>FM &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Denon DR-M 24HX tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Denon DR-M 24HX &gt;Denon PMA-425R amplifier &gt;Terratec DMXFire 1024 soundcard &gt;WaveLab Lite &gt;harddisk &gt;.wav &gt;FLAC level 8</lineage>
       <remarks/>
       <artists>
          <artist main="true">Dave Holland</artist>
@@ -14888,8 +14794,7 @@ tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Den
       <source DVB="true" bitrate="256">DVB-S</source>
       <format>flac</format>
       <quality/>
-      <lineage>DVB-S &gt; SkyStar2 &gt; Kaffeine (MP2 256 kbs, 48 khz) &gt; XCFA (WAV conversion)
-&gt; Wavelab &gt; FLAC (level 8)</lineage>
+      <lineage>DVB-S &gt; SkyStar2 &gt; Kaffeine (MP2 256 kbs, 48 khz) &gt; XCFA (WAV conversion) &gt; Wavelab &gt; FLAC (level 8)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Dré Pallemaerts</artist>
@@ -14910,8 +14815,7 @@ tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Den
       <source DVB="true">DVB</source>
       <format bitrate="320">mp2</format>
       <quality/>
-      <lineage>DVB-C (320 kbps/ 48 khz) &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk.
-Edits were made with the mp3DirectCut software.</lineage>
+      <lineage>DVB-C (320 kbps/ 48 khz) &gt; Technotrend TT-1501 DVB-C PCI card &gt; harddisk. Edits were made with the mp3DirectCut software.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Egberto Gismonti</artist>
@@ -14951,8 +14855,7 @@ Edits were made with the mp3DirectCut software.</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Magnetic Records MRCD 130 &gt; EAC &gt; FLAC &gt; mininova seed &gt; wav &gt;
-soundforge 5: speed correction &gt; flac FFE lvl7 w/SBA (381 MB)</lineage>
+      <lineage>Magnetic Records MRCD 130 &gt; EAC &gt; FLAC &gt; mininova seed &gt; wav &gt; soundforge 5: speed correction &gt; flac FFE lvl7 w/SBA (381 MB)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Eric Dolphy</artist>
@@ -14994,8 +14897,7 @@ soundforge 5: speed correction &gt; flac FFE lvl7 w/SBA (381 MB)</lineage>
       <source>SBD</source>
       <format/>
       <quality>A+</quality>
-      <lineage>Master tape &gt; Tape &gt; Tape Maxell XLII &gt; Sony cassette tc-we475 &gt; Audigy
-2 24/96 &gt; sf10</lineage>
+      <lineage>Master tape &gt; Tape &gt; Tape Maxell XLII &gt; Sony cassette tc-we475 &gt; Audigy 2 24/96 &gt; sf10</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -15020,8 +14922,7 @@ soundforge 5: speed correction &gt; flac FFE lvl7 w/SBA (381 MB)</lineage>
       <source>SBD</source>
       <format/>
       <quality>B-</quality>
-      <lineage>SBD&gt;?&gt;unknown gen cassette&gt;Nakamichi DR-10&gt;Terratec DMX6 Fire 24/96
-soundcard&gt;Adobe Audition 1.5&gt;WAV&gt;Flac Frontend encoding level 5&gt;FLAC </lineage>
+      <lineage>SBD&gt;?&gt;unknown gen cassette&gt;Nakamichi DR-10&gt;Terratec DMX6 Fire 24/96 soundcard&gt;Adobe Audition 1.5&gt;WAV&gt;Flac Frontend encoding level 5&gt;FLAC </lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -15042,8 +14943,7 @@ soundcard&gt;Adobe Audition 1.5&gt;WAV&gt;Flac Frontend encoding level 5&gt;FLAC
       <source>SBD</source>
       <format/>
       <quality/>
-      <lineage>Reel-to-reel tape (probably 1st gen)-&gt;ReVox A77-&gt;MacBook Pro 17'-&gt;Peak Pro
-5.2-&gt;CDR-&gt;EAC-&gt;SoundForge (some minor editing)-&gt;FLAC Frontend</lineage>
+      <lineage>Reel-to-reel tape (probably 1st gen)-&gt;ReVox A77-&gt;MacBook Pro 17'-&gt;Peak Pro 5.2-&gt;CDR-&gt;EAC-&gt;SoundForge (some minor editing)-&gt;FLAC Frontend</lineage>
       <remarks/>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -15143,8 +15043,7 @@ soundcard&gt;Adobe Audition 1.5&gt;WAV&gt;Flac Frontend encoding level 5&gt;FLAC
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM Broadcast &gt;Braun TG 1000&gt;Reel tape&gt;Phillips CDR 870 Standalone&gt;AUDIO
-CDR&gt;trade&gt;EAC Secore Rip&gt;Flac Frontend&gt;Flac</lineage>
+      <lineage>FM Broadcast &gt;Braun TG 1000&gt;Reel tape&gt;Phillips CDR 870 Standalone&gt;AUDIO CDR&gt;trade&gt;EAC Secore Rip&gt;Flac Frontend&gt;Flac</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Gateway Trio</artist>
@@ -15269,8 +15168,7 @@ CDR&gt;trade&gt;EAC Secore Rip&gt;Flac Frontend&gt;Flac</lineage>
       <source>FM</source>
       <format/>
       <quality>B-</quality>
-      <lineage>fm&gt;?&gt;DIME 2005-Unknown linage-&gt; Nero(CDR&gt; dB POWER&gt; TRADERS LITTLE
-HELPER&gt; flac (level 8)</lineage>
+      <lineage>fm&gt;?&gt;DIME 2005-Unknown linage-&gt; Nero(CDR&gt; dB POWER&gt; TRADERS LITTLE HELPER&gt; flac (level 8)</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15366,8 +15264,7 @@ HELPER&gt; flac (level 8)</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>FM recording &gt; TRADE CD &gt; dB POWER&gt; TRADERS LITTLE HELPER&gt; flac (level
-8) &gt;Adobe Audition 2.0 (see below) &gt; FLAC</lineage>
+      <lineage>FM recording &gt; TRADE CD &gt; dB POWER&gt; TRADERS LITTLE HELPER&gt; flac (level 8) &gt;Adobe Audition 2.0 (see below) &gt; FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15391,8 +15288,7 @@ HELPER&gt; flac (level 8)</lineage>
       <source>FM</source>
       <format/>
       <quality>A</quality>
-      <lineage>Radio FM broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend
-(level 6)</lineage>
+      <lineage>Radio FM broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend (level 6)</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15464,8 +15360,7 @@ HELPER&gt; flac (level 8)</lineage>
       <source channel="WBCN-FM">FM</source>
       <format/>
       <quality>B++</quality>
-      <lineage>WBCN broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend
-(level 6)</lineage>
+      <lineage>WBCN broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend (level 6)</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15491,8 +15386,7 @@ HELPER&gt; flac (level 8)</lineage>
       <source channel="WBCN-FM">FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>WBCN FM&gt;Sony R2R 7"reel @ 7.5ips No Dolby MR&gt;Akai 6X4000-D&gt;Numark
-EQ&gt;HHB CDR830</lineage>
+      <lineage>WBCN FM&gt;Sony R2R 7"reel @ 7.5ips No Dolby MR&gt;Akai 6X4000-D&gt;Numark EQ&gt;HHB CDR830</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15544,8 +15438,7 @@ EQ&gt;HHB CDR830</lineage>
       <source/>
       <format/>
       <quality>B</quality>
-      <lineage>UNK GEN CASS TDK SA 90&gt;NAK DR 10&gt;Sony Stand
-Alone&gt;CDR&gt;EAC&gt;WAV&gt;FLAC</lineage>
+      <lineage>UNK GEN CASS TDK SA 90&gt;NAK DR 10&gt;Sony Stand Alone&gt;CDR&gt;EAC&gt;WAV&gt;FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band">Mwandishi</artist>
@@ -15569,9 +15462,7 @@ Alone&gt;CDR&gt;EAC&gt;WAV&gt;FLAC</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>FM &gt; Analog &gt; SoundForge &gt; CD &gt; MKWact &gt; shn &gt; WAV (dBPoweramp)
-&gt; retracking &amp;amp; renaming files (Adobe Audition) &gt; FLAC (LVL8 with sector
-alignment)</lineage>
+      <lineage>FM &gt; Analog &gt; SoundForge &gt; CD &gt; MKWact &gt; shn &gt; WAV (dBPoweramp) &gt; retracking &amp;amp; renaming files (Adobe Audition) &gt; FLAC (LVL8 with sector alignment)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15593,13 +15484,8 @@ alignment)</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88
-coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with
-Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband
-compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier
-plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz
-downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (level
-8)</lineage>
+      <lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend
+         (level 8)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15621,8 +15507,7 @@ downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>WBCN broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend
-(level 6)</lineage>
+      <lineage>WBCN broadcast &gt; CD in trade &gt; EAC &gt; SoundForge 7.0 &gt; FLAC Frontend (level 6)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15687,9 +15572,7 @@ downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (
       <source>FM</source>
       <format/>
       <quality>A</quality>
-      <lineage>FM&gt;REEL TO REEL&gt;Years Passing By&gt;Revox A77&gt;hard
-disk&gt;Goldwave/Cooledit(cuts, edits, clicks, noise, track marking)&gt; happy hard
-disk&gt;Dime World</lineage>
+      <lineage>FM&gt;REEL TO REEL&gt;Years Passing By&gt;Revox A77&gt;hard disk&gt;Goldwave/Cooledit(cuts, edits, clicks, noise, track marking)&gt; happy hard disk&gt;Dime World</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15712,8 +15595,7 @@ disk&gt;Dime World</lineage>
       <source>DVB</source>
       <format/>
       <quality>A</quality>
-      <lineage>dvb-s (mpeg2 – 328kb/s-48.000Hz) &gt; HDD &gt; Audacity (editing &gt; flac) &gt;
-HDD</lineage>
+      <lineage>dvb-s (mpeg2 – 328kb/s-48.000Hz) &gt; HDD &gt; Audacity (editing &gt; flac) &gt; HDD</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15735,8 +15617,7 @@ HDD</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>FM &gt; n generation tape &gt; Aiwa Tape Deck AD-WX828 &gt; Audigy Soundblaster
-&gt; HD &gt; SoundForge 7.0 &gt; CD Wave &gt;FLAC Frontend (level 6)</lineage>
+      <lineage>FM &gt; n generation tape &gt; Aiwa Tape Deck AD-WX828 &gt; Audigy Soundblaster &gt; HD &gt; SoundForge 7.0 &gt; CD Wave &gt;FLAC Frontend (level 6)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15758,12 +15639,7 @@ HDD</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Source: FM Lineage: Off Air Master Cassette C-120(unknown
-brand)&gt;Dat(0)&gt;wav(16/48)&gt;wav(16/44)&gt;flac Transfer Master
-Cassettes&gt;Dat(0): details unknown done by taper in 2006 Transfer
-Dat(0)&gt;wav(16/48): R-184MD&gt;Tascam DA-20(S/PDIF out)&gt;audiophile 192(S/PDIF
-in)&gt;audacity&gt;wav(16/48) done in Oct 2009 Taped By: Jeff J. Dat(0) Transferred By:
-weedwacker</lineage>
+      <lineage>Source: FM Lineage: Off Air Master Cassette C-120(unknown brand)&gt;Dat(0)&gt;wav(16/48)&gt;wav(16/44)&gt;flac Transfer Master Cassettes&gt;Dat(0): details unknown done by taper in 2006 Transfer Dat(0)&gt;wav(16/48): R-184MD&gt;Tascam DA-20(S/PDIF out)&gt;audiophile 192(S/PDIF in)&gt;audacity&gt;wav(16/48) done in Oct 2009 Taped By: Jeff J. Dat(0) Transferred By: weedwacker</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -15828,8 +15704,7 @@ weedwacker</lineage>
       <source>AUD</source>
       <format/>
       <quality>B-</quality>
-      <lineage>AUD&gt;?&gt;CDr from Trade&gt;EAC&gt;WAV&gt;Track w/ CD Wave&gt;FLAC &gt; wav &gt;
-Soundforge 5: speed correction &gt; flac lvl7 w/SBA (530 MB)</lineage>
+      <lineage>AUD&gt;?&gt;CDr from Trade&gt;EAC&gt;WAV&gt;Track w/ CD Wave&gt;FLAC &gt; wav &gt; Soundforge 5: speed correction &gt; flac lvl7 w/SBA (530 MB)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Herbie Hancock</artist>
@@ -16002,9 +15877,7 @@ Soundforge 5: speed correction &gt; flac lvl7 w/SBA (530 MB)</lineage>
       <source>AUD</source>
       <format/>
       <quality>B-</quality>
-      <lineage>original lineage: master &gt; wav &gt; flac additional lineage here is: dime
-download (FLAC) &gt; WAV (remastering) &gt; FLAC &gt; torrentially yours
-(again).</lineage>
+      <lineage>original lineage: master &gt; wav &gt; flac additional lineage here is: dime download (FLAC) &gt; WAV (remastering) &gt; FLAC &gt; torrentially yours (again).</lineage>
       <remarks>Jack Bruce and friends, late show</remarks>
       <artists>
          <artist main="true">Jack Bruce</artist>
@@ -16219,8 +16092,7 @@ download (FLAC) &gt; WAV (remastering) &gt; FLAC &gt; torrentially yours
       <source>FM</source>
       <format/>
       <quality>C</quality>
-      <lineage>radio broadcast
-			Porter master cass &gt; my cass. (maxell chrome) &gt; NAK w-azimuth adjust &gt; CDR standalone &gt; Flac &gt; world</lineage>
+      <lineage>radio broadcast Porter master cass &gt; my cass. (maxell chrome) &gt; NAK w-azimuth adjust &gt; CDR standalone &gt; Flac &gt; world</lineage>
       <remarks>pitch corrected</remarks>
       <artists>
          <artist main="true">John Coltrane</artist>
@@ -16242,9 +16114,7 @@ download (FLAC) &gt; WAV (remastering) &gt; FLAC &gt; torrentially yours
       <source>SBD</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Reel to Reel Master /TEAC Reel to Reel Deck/Nakamichi CR2A/ Philips CR-765 / flac -
-dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender
--50 cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
+      <lineage>Reel to Reel Master /TEAC Reel to Reel Deck/Nakamichi CR2A/ Philips CR-765 / flac - dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender -50 cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
       <lineage>speed corrected</lineage>
       <remarks/>
       <artists>
@@ -16377,10 +16247,7 @@ dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch
       <source>preFM</source>
       <format/>
       <quality/>
-      <lineage>Reels(?) - dat - eac - cdr - eac - flac &gt; 
-			
-			Goody's additional lineage:
-			TLH (WAV) &gt; Audition (Pitch Bender*; Track 04 - Reduced glitch at 2:25:57; Tracking; Small edits to smooth transitions) &gt; TLH (FLAC Level 8; Align sector boundaries; .ffp)</lineage>
+      <lineage>Reels(?) - dat - eac - cdr - eac - flac &gt; Goody's additional lineage: TLH (WAV) &gt; Audition (Pitch Bender*; Track 04 - Reduced glitch at 2:25:57; Tracking; Small edits to smooth transitions) &gt; TLH (FLAC Level 8; Align sector boundaries; .ffp)</lineage>
       <remarks/>
       <artists>
          <artist main="true">John Coltrane</artist>
@@ -16646,10 +16513,7 @@ dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch
       <source/>
       <format/>
       <quality/>
-      <lineage>CD-r(with flac files) in trade&gt; Audacity (volume adjustment - noises here and there) &gt; Flac &gt; dime  
-						Goody adds: 
-			dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender - various and sundry offsets) &gt; 
-			TLH (FLAC, ffp) </lineage>
+      <lineage>CD-r(with flac files) in trade&gt; Audacity (volume adjustment - noises here and there) &gt; Flac &gt; dime Goody adds: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender - various and sundry offsets) &gt; TLH (FLAC, ffp) </lineage>
       <remarks/>
       <artists>
          <artist type="band">John Coltrane Quartet</artist>
@@ -16693,7 +16557,7 @@ dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>Flac files frem WEb &gt; Audacity (volume adjustment - noises here and there) &gt; TLH (SBE Flac 8) &gt; dime  </lineage>
+      <lineage>Flac files frem WEb &gt; Audacity (volume adjustment - noises here and there) &gt; TLH (SBE Flac 8) &gt; dime </lineage>
       <remarks>SOURCE IMPROVED, Pitch Corrected Edition</remarks>
       <artists>
          <artist type="band">John Coltrane Quartet</artist>
@@ -17208,8 +17072,7 @@ dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch
       <source>DVB</source>
       <format/>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor
-&gt; flac</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist main="true">John Taylor</artist>
@@ -17386,8 +17249,7 @@ dime &gt; Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch
       <source/>
       <format/>
       <quality/>
-      <lineage>Web &gt; Audacity (noises and Volumes treatment) &gt; TLH (SBE - Flac8) &gt;
-Dime</lineage>
+      <lineage>Web &gt; Audacity (noises and Volumes treatment) &gt; TLH (SBE - Flac8) &gt; Dime</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17483,8 +17345,7 @@ Dime</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM &gt; Edirol R-09 (WAV) &gt; Wavelab &gt; FLAC (level 8, sector align) Broadcast
-: Nuit Keith Jarrett, France Musique, 9 may 2010 Cosmikd (Goody's set list)</lineage>
+      <lineage>FM &gt; Edirol R-09 (WAV) &gt; Wavelab &gt; FLAC (level 8, sector align) Broadcast : Nuit Keith Jarrett, France Musique, 9 may 2010 Cosmikd (Goody's set list)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17504,8 +17365,7 @@ Dime</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>France Musique (Jazz sur le vif, december 28 2013), FM / Marantz tuner / RH-09R /
-Audacity / Xact</lineage>
+      <lineage>France Musique (Jazz sur le vif, december 28 2013), FM / Marantz tuner / RH-09R / Audacity / Xact</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17545,9 +17405,7 @@ Audacity / Xact</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>exact linage unknown (received in a CD-R trade) Note: This is from the first
-re-broadcast; a later version from a re-broadcast in 2010 is marred by FM
-noise.</lineage>
+      <lineage>exact linage unknown (received in a CD-R trade) Note: This is from the first re-broadcast; a later version from a re-broadcast in 2010 is marred by FM noise.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17567,9 +17425,7 @@ noise.</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM &gt; Edirol R-09 (WAV) &gt; Wavelab &gt; FLAC (level 8, sector align) &gt; TomP
-edit (Nero 8) &gt; Tag &amp;amp; Rename (flac tags) &gt; TLH (flac 6 + SBE / decode
-check)</lineage>
+      <lineage>FM &gt; Edirol R-09 (WAV) &gt; Wavelab &gt; FLAC (level 8, sector align) &gt; TomP edit (Nero 8) &gt; Tag &amp;amp; Rename (flac tags) &gt; TLH (flac 6 + SBE / decode check)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17628,8 +17484,7 @@ check)</lineage>
       <source>web</source>
       <format/>
       <quality/>
-      <lineage>http://sverigesradio.se/sida/avsnitt/591494?programid=4431 WEB &gt; Audacity
-(noises cutting and volume adjusting) &gt; TLH ( SBE - Flac 8) &gt; dime</lineage>
+      <lineage>http://sverigesradio.se/sida/avsnitt/591494?programid=4431 WEB &gt; Audacity (noises cutting and volume adjusting) &gt; TLH ( SBE - Flac 8) &gt; dime</lineage>
       <remarks>at 31:40 Kj Starts what is known as the Bremen encore and the last solo (Tokyo 1984) Encore</remarks>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17660,8 +17515,7 @@ check)</lineage>
       <source>preFM</source>
       <format/>
       <quality/>
-      <lineage>DAT &gt;.wav via S/PDIF and Midiman Dio 2448 digital soundcard &gt;SoundForge 6.0
-&gt;CD Wave &gt;FLAC Frontend (Level 8, SBE OK)</lineage>
+      <lineage>DAT &gt;.wav via S/PDIF and Midiman Dio 2448 digital soundcard &gt;SoundForge 6.0 &gt;CD Wave &gt;FLAC Frontend (Level 8, SBE OK)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
@@ -17862,8 +17716,7 @@ check)</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>H2New Zoom using internal mics; Mid-Side Stereo; settings 44kHz / 16-bit &gt; gain
-5 &gt; Flac 5 &gt; uTorrent</lineage>
+      <lineage>H2New Zoom using internal mics; Mid-Side Stereo; settings 44kHz / 16-bit &gt; gain 5 &gt; Flac 5 &gt; uTorrent</lineage>
       <remarks/>
       <artists>
          <artist type="band">Keith Jarrett Trio</artist>
@@ -17903,9 +17756,7 @@ check)</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>WBCN FM &gt; ? &gt; CDR &gt; EAC &gt; FLAC &amp;#xD; Goody's additional lineage:
-dBpoweramp (WAV) &gt; Audition (Tracking; channel alignment and phase correction; click
-repair) &gt; Trader's Little Helper (FLAC Level 8; .ffp)</lineage>
+      <lineage>WBCN FM &gt; ? &gt; CDR &gt; EAC &gt; FLAC &amp;#xD; Goody's additional lineage: dBpoweramp (WAV) &gt; Audition (Tracking; channel alignment and phase correction; click repair) &gt; Trader's Little Helper (FLAC Level 8; .ffp)</lineage>
       <remarks/>
       <artists>
          <artist type="band">Foreplay</artist>
@@ -17928,10 +17779,7 @@ repair) &gt; Trader's Little Helper (FLAC Level 8; .ffp)</lineage>
       <source/>
       <format/>
       <quality>B</quality>
-      <lineage>(probably) master tape &gt; NC's reel &gt; allsoundz' 2nd gen reel played back on
-Akai GX4000D &gt; Numark 20 Band Equalizer &gt; HHB CDR 830 by allsoundz from 2nd gen
-reel &gt; cdr&gt;eac(secure mode)&gt;flac(level 6) by carville 20 december
-2007</lineage>
+      <lineage>(probably) master tape &gt; NC's reel &gt; allsoundz' 2nd gen reel played back on Akai GX4000D &gt; Numark 20 Band Equalizer &gt; HHB CDR 830 by allsoundz from 2nd gen reel &gt; cdr&gt;eac(secure mode)&gt;flac(level 6) by carville 20 december 2007</lineage>
       <remarks/>
       <artists>
          <artist type="band">Foreplay</artist>
@@ -17976,8 +17824,7 @@ reel &gt; cdr&gt;eac(secure mode)&gt;flac(level 6) by carville 20 december
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM Broadcast&gt;REEL TO REEL TAPE&gt;CDR Phillips 880&gt;EAC Secure&gt;Flac
-Frontend&gt;Level 6</lineage>
+      <lineage>FM Broadcast&gt;REEL TO REEL TAPE&gt;CDR Phillips 880&gt;EAC Secure&gt;Flac Frontend&gt;Level 6</lineage>
       <remarks/>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -18070,9 +17917,7 @@ Frontend&gt;Level 6</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>source: fm cassette master. taped on a Sony TC-152 w/dolby by Jerry Moore.			
-			lineage: c.m.&gt;sbm1&gt;cdr&gt;eac&gt;cd wave&gt;flac
-			transfers by Rob Berger</lineage>
+      <lineage>source: fm cassette master. taped on a Sony TC-152 w/dolby by Jerry Moore. lineage: c.m.&gt;sbm1&gt;cdr&gt;eac&gt;cd wave&gt;flac transfers by Rob Berger</lineage>
       <remarks/>
       <artists>
          <artist type="band">The Eleventh House</artist>
@@ -18096,8 +17941,7 @@ Frontend&gt;Level 6</lineage>
       <source channel="WNYU">FM</source>
       <format/>
       <quality/>
-      <lineage trader="propylaen">FM -&gt; reel tape 71/2ips -&gt; Akai GX-400DSS -&gt; Sound Forge -&gt; FLAC level 6, sectors aligned and verified.
-			Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt; FLAC (L8)</lineage>
+      <lineage trader="propylaen">FM -&gt; reel tape 71/2ips -&gt; Akai GX-400DSS -&gt; Sound Forge -&gt; FLAC level 6, sectors aligned and verified. Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt; FLAC (L8)</lineage>
       <remarks>48 minutes were broadcast of a 94 minute set, of which 27 minutes survive on a different Memorex reel</remarks>
       <artists>
          <artist type="band">The Eleventh House</artist>
@@ -18166,9 +18010,7 @@ Frontend&gt;Level 6</lineage>
       <source>preFM</source>
       <format/>
       <quality/>
-      <lineage>Transferred mix and mastered by Steve H/AKA fzmoi69 From SONY TC-K707ES into Sound
-Forge Pro 10.01 Contrast Clause : This show may have been seeded here before. This
-torrent is direct from the master casstte.</lineage>
+      <lineage>Transferred mix and mastered by Steve H/AKA fzmoi69 From SONY TC-K707ES into Sound Forge Pro 10.01 Contrast Clause : This show may have been seeded here before. This torrent is direct from the master casstte.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -18214,9 +18056,7 @@ torrent is direct from the master casstte.</lineage>
       <source>preFM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>1st gen. soundboard tape (a/k/a "pre-FM") WCUW radio master reel &gt; played on
-Revox reel deck into Tascam cassette deck (dolby off) &gt; Maxell XLII-S cassette &gt;
-soundforge 4.5 &gt; FLAC 6 &gt; torrentially yours.</lineage>
+      <lineage>1st gen. soundboard tape (a/k/a "pre-FM") WCUW radio master reel &gt; played on Revox reel deck into Tascam cassette deck (dolby off) &gt; Maxell XLII-S cassette &gt; soundforge 4.5 &gt; FLAC 6 &gt; torrentially yours.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -18234,10 +18074,7 @@ soundforge 4.5 &gt; FLAC 6 &gt; torrentially yours.</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage> pre-recorded FM broadcast &gt; master tape on unknown probably good quality
-equipment by German taper &gt; 1st gen. cassette trade copy (maxell XLII 90 min.
-cassette) &gt; played on nak. 300 into soundforge (wav) &gt; flac (sb's aligned) &gt;
-torrentially yours.</lineage>
+      <lineage> pre-recorded FM broadcast &gt; master tape on unknown probably good quality equipment by German taper &gt; 1st gen. cassette trade copy (maxell XLII 90 min. cassette) &gt; played on nak. 300 into soundforge (wav) &gt; flac (sb's aligned) &gt; torrentially yours.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -18302,9 +18139,7 @@ torrentially yours.</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>source: aud cassette master, taped by Ken Flemming, kenco on LL lineage: sony
-tc-153, maxell xl-II90's, dolby b &gt; nak dragon&gt;hd-p2 24/96&gt;hd&gt; cd
-wave&gt;adobe audition 2.0 16/44.1&gt;flac</lineage>
+      <lineage>source: aud cassette master, taped by Ken Flemming, kenco on LL lineage: sony tc-153, maxell xl-II90's, dolby b &gt; nak dragon&gt;hd-p2 24/96&gt;hd&gt; cd wave&gt;adobe audition 2.0 16/44.1&gt;flac</lineage>
       <remarks>transferred &amp; seeded by Rob Berger 11/8/09</remarks>
       <artists>
          <artist main="true">Larry Coryell</artist>
@@ -18642,8 +18477,7 @@ wave&gt;adobe audition 2.0 16/44.1&gt;flac</lineage>
       <source>FM</source>
       <format/>
       <quality>B</quality>
-      <lineage>ORTF Radio Broadcast &gt; Jazz Factory JFCD 22882 &gt; EAC Wave &gt; TLH Flac Level
-8</lineage>
+      <lineage>ORTF Radio Broadcast &gt; Jazz Factory JFCD 22882 &gt; EAC Wave &gt; TLH Flac Level 8</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -18676,8 +18510,7 @@ wave&gt;adobe audition 2.0 16/44.1&gt;flac</lineage>
       <source>FM</source>
       <format/>
       <quality>B-</quality>
-      <lineage>WJZ radio broadcast &gt; ?? &gt; cd (Peter Losin's Archive) &gt; cd duplicated
-(burner to burner) &gt; eac &gt; wav &gt; flac (lvl 8 )</lineage>
+      <lineage>WJZ radio broadcast &gt; ?? &gt; cd (Peter Losin's Archive) &gt; cd duplicated (burner to burner) &gt; eac &gt; wav &gt; flac (lvl 8 )</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -18700,8 +18533,7 @@ wave&gt;adobe audition 2.0 16/44.1&gt;flac</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>KXLW Broadcast Fresh Air &gt; ?? &gt; cd Peter Losin's Archive &gt; cd duplicated
-burner to burner &gt; eac &gt; wav &gt; flac lvl8</lineage>
+      <lineage>KXLW Broadcast Fresh Air &gt; ?? &gt; cd Peter Losin's Archive &gt; cd duplicated burner to burner &gt; eac &gt; wav &gt; flac lvl8</lineage>
       <remarks>interviewed by Harry Frost</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -18873,8 +18705,7 @@ burner to burner &gt; eac &gt; wav &gt; flac lvl8</lineage>
       <source>preFM</source>
       <format/>
       <quality>A</quality>
-      <lineage>dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender +47 cents) &gt; Trader's Little
-Helper (FLAC, ffp)</lineage>
+      <lineage>dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender +47 cents) &gt; Trader's Little Helper (FLAC, ffp)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19184,8 +19015,7 @@ Helper (FLAC, ffp)</lineage>
       <source>FM</source>
       <format/>
       <quality>B</quality>
-      <lineage>FM &gt; tape &gt; recording, tracking and editing wav file in Audacity &gt; CD-R
-&gt; Wav &gt; TLH (Flac 8, sector alignment)</lineage>
+      <lineage>FM &gt; tape &gt; recording, tracking and editing wav file in Audacity &gt; CD-R &gt; Wav &gt; TLH (Flac 8, sector alignment)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19604,8 +19434,7 @@ Helper (FLAC, ffp)</lineage>
       <source>FM</source>
       <format/>
       <quality>C+</quality>
-      <lineage>ORTF Radio Broadcast &gt; ?? &gt; disk 1 of the fall 64 Miles Tree &gt; ?? &gt;
-wave &gt; flac</lineage>
+      <lineage>ORTF Radio Broadcast &gt; ?? &gt; disk 1 of the fall 64 Miles Tree &gt; ?? &gt; wave &gt; flac</lineage>
       <remarks>early show</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19627,8 +19456,7 @@ wave &gt; flac</lineage>
       <source>FM</source>
       <format/>
       <quality>B-</quality>
-      <lineage>??? &gt; FLAC &gt; TLH &gt; WAV &gt; Adobe Audition (Pitch Bender: -91 cents;
-Quality Level: Perfect [Slowest]) &gt; CD Wave &gt; TLH &gt; FLAC</lineage>
+      <lineage>??? &gt; FLAC &gt; TLH &gt; WAV &gt; Adobe Audition (Pitch Bender: -91 cents; Quality Level: Perfect [Slowest]) &gt; CD Wave &gt; TLH &gt; FLAC</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19672,8 +19500,7 @@ Quality Level: Perfect [Slowest]) &gt; CD Wave &gt; TLH &gt; FLAC</lineage>
       <source>FM</source>
       <format/>
       <quality>B-</quality>
-      <lineage>Magnetic Records MRCD-117 FM or SBD &gt; ? &gt; Silver Boot MRCD 117 &gt; EAC (4x,
-secure) &gt; FLAC (level 6, with sector align)</lineage>
+      <lineage>Magnetic Records MRCD-117 FM or SBD &gt; ? &gt; Silver Boot MRCD 117 &gt; EAC (4x, secure) &gt; FLAC (level 6, with sector align)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19695,11 +19522,7 @@ secure) &gt; FLAC (level 6, with sector align)</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>Süddeutscher Rundfunk SDR Radio Broadcast Station Reel &gt; ? &gt; DAT &gt; .wav
-via S/PDIF and Midiman Dio 2448 digital soundcard at 48 kHz &gt; CoolEdit Pro 2.0 &gt;
-CD Wave &gt; MKW &gt; SHN &gt; .wav checksums verified before decoding &gt; CoolEdit Pro
-2.0 tracks re-sequenced &gt; CD Wave &gt; Trader's Little Helper &gt; FLAC Level 6,
-ASB</lineage>
+      <lineage>Süddeutscher Rundfunk SDR Radio Broadcast Station Reel &gt; ? &gt; DAT &gt; .wav via S/PDIF and Midiman Dio 2448 digital soundcard at 48 kHz &gt; CoolEdit Pro 2.0 &gt; CD Wave &gt; MKW &gt; SHN &gt; .wav checksums verified before decoding &gt; CoolEdit Pro 2.0 tracks re-sequenced &gt; CD Wave &gt; Trader's Little Helper &gt; FLAC Level 6, ASB</lineage>
       <remarks>early &amp; late show</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19721,10 +19544,7 @@ ASB</lineage>
       <source>FM</source>
       <format/>
       <quality>B</quality>
-      <lineage>Original lineage: Radio broadcasts &gt; Moon Records silver &gt; Express Rip &gt;
-CD Wave &gt; Trader's Little Helper Dime Additional lineage: flac &gt; aiff &gt; 24bit
-editing/remastering (ProTools LE with various plugins) &gt; 16bit aiff &gt; flac
-(xACT)</lineage>
+      <lineage>Original lineage: Radio broadcasts &gt; Moon Records silver &gt; Express Rip &gt; CD Wave &gt; Trader's Little Helper Dime Additional lineage: flac &gt; aiff &gt; 24bit editing/remastering (ProTools LE with various plugins) &gt; 16bit aiff &gt; flac (xACT)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19768,8 +19588,7 @@ editing/remastering (ProTools LE with various plugins) &gt; 16bit aiff &gt; flac
       <source>TV</source>
       <format/>
       <quality>B-</quality>
-      <lineage>RAI TV Broadcast &gt; ?? &gt; Disc #7 of the fall 1964 miles-trees vine &gt;
-unknown ripping software &gt; wave &gt; flac</lineage>
+      <lineage>RAI TV Broadcast &gt; ?? &gt; Disc #7 of the fall 1964 miles-trees vine &gt; unknown ripping software &gt; wave &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19813,8 +19632,7 @@ unknown ripping software &gt; wave &gt; flac</lineage>
       <source>AUD</source>
       <format/>
       <quality>B</quality>
-      <lineage>Cassette ?gen -&gt; Nak DR-1 -&gt; Audiophile2496 - &gt; Soundforge -&gt; wav -&gt;
-flac</lineage>
+      <lineage>Cassette ?gen -&gt; Nak DR-1 -&gt; Audiophile2496 - &gt; Soundforge -&gt; wav -&gt; flac</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -19836,9 +19654,7 @@ flac</lineage>
       <source>AUD</source>
       <format/>
       <quality>B</quality>
-      <lineage>Cassette ?gen -&gt; Nak DR-1 -&gt; Audiophile2496 - &gt; Soundforge -&gt; wav -&gt;
-flac (previous DIME seed) -&gt; Soundforge 9: speed correction, additional fixes (see
-notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
+      <lineage>Cassette ?gen -&gt; Nak DR-1 -&gt; Audiophile2496 - &gt; Soundforge -&gt; wav -&gt; flac (previous DIME seed) -&gt; Soundforge 9: speed correction, additional fixes (see notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20049,8 +19865,7 @@ notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>FM&gt; ?&gt; Live in Europe', New Sound Planet/ Jazz Up JU 320 &gt; Soundforge
-(rebanding of tracks) &gt; dbPowerAMP &gt; FLAC (level 6)</lineage>
+      <lineage>FM&gt; ?&gt; Live in Europe', New Sound Planet/ Jazz Up JU 320 &gt; Soundforge (rebanding of tracks) &gt; dbPowerAMP &gt; FLAC (level 6)</lineage>
       <remarks>Radio broadcast. Issued as part of a bootleg CD, 'Live in Europe', New Sound Planet/ Jazz Up JU 320. All tracks were issued as a single title, 'Untitled medley'.</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20159,8 +19974,7 @@ notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>Audience Recording &gt; ?? &gt; Miles Trees (L5) &gt; ripped with unknown software
-&gt; wave &gt; shn &gt; flac</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; Miles Trees (L5) &gt; ripped with unknown software &gt; wave &gt; shn &gt; flac</lineage>
       <remarks>early show</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20182,8 +19996,7 @@ notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>Audience Recording &gt; ?? &gt; Miles Trees (L5) &gt; ripped with unknown software
-&gt; wave &gt; shn &gt; flac</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; Miles Trees (L5) &gt; ripped with unknown software &gt; wave &gt; shn &gt; flac</lineage>
       <remarks>late show</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20205,8 +20018,7 @@ notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <source>AUD</source>
       <format/>
       <quality>B</quality>
-      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; cd duplicated
-(burner to burner) &gt; eac &gt; wave &gt; flac (lvl 8 )</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; cd duplicated (burner to burner) &gt; eac &gt; wave &gt; flac (lvl 8 )</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20288,8 +20100,7 @@ notes below) -&gt; flac TLH lvl8 w/SBA (556 MB)</lineage>
       <source>AUD</source>
       <format/>
       <quality>C+</quality>
-      <lineage>Audience Recording &gt; ?? &gt; Electric Blue boot CD EB006 &gt; EAC 99b4 &gt;
-Monkey's audio v3.99 lossless high compression</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; Electric Blue boot CD EB006 &gt; EAC 99b4 &gt; Monkey's audio v3.99 lossless high compression</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20378,7 +20189,7 @@ Monkey's audio v3.99 lossless high compression</lineage>
          <artist>Harvey Brooks</artist>
          <artist>Jack DeJohnette</artist>
          <artist>Lenny White</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Jumma Santos</artist>
       </artists>
       <title>Deep Brew</title>
@@ -20407,7 +20218,7 @@ Monkey's audio v3.99 lossless high compression</lineage>
          <artist>Harvey Brooks</artist>
          <artist>Jack DeJohnette</artist>
          <artist>Lenny White</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>Jumma Santos</artist>
       </artists>
       <title>The Making of Bitches Brew</title>
@@ -20440,8 +20251,7 @@ Monkey's audio v3.99 lossless high compression</lineage>
       <source>AUD</source>
       <format/>
       <quality>C+</quality>
-      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; CD Duplicated
-(burner to burner) &gt; eac &gt; flac lvl 8</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; CD Duplicated (burner to burner) &gt; eac &gt; flac lvl 8</lineage>
       <remarks>1st concert</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20463,8 +20273,7 @@ Monkey's audio v3.99 lossless high compression</lineage>
       <source>AUD</source>
       <format/>
       <quality>C+</quality>
-      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; CD Duplicated
-(burner to burner) &gt; eac &gt; flac lvl 8</lineage>
+      <lineage>Audience Recording &gt; ?? &gt; wave &gt; Peter Losin's Archive &gt; CD Duplicated (burner to burner) &gt; eac &gt; flac lvl 8</lineage>
       <remarks>2nd concert</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20574,10 +20383,7 @@ Monkey's audio v3.99 lossless high compression</lineage>
       <source>FM</source>
       <format/>
       <quality>A</quality>
-      <lineage>Original lineage: Unknown TV Broadcast &gt; reel-to-reel tape (unknown equipment)
-&gt; ?? &gt; CD &gt; flac 8 Additional lineage: flac &gt; aiff &gt; 24bit processed and
-edited (ProTools LE with various plug-ins; Izotope RX) &gt; 16bit AIFF &gt; flac 8
-(xACT)</lineage>
+      <lineage>Original lineage: Unknown TV Broadcast &gt; reel-to-reel tape (unknown equipment) &gt; ?? &gt; CD &gt; flac 8 Additional lineage: flac &gt; aiff &gt; 24bit processed and edited (ProTools LE with various plug-ins; Izotope RX) &gt; 16bit AIFF &gt; flac 8 (xACT)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20643,8 +20449,7 @@ edited (ProTools LE with various plug-ins; Izotope RX) &gt; 16bit AIFF &gt; flac
       <source>FM</source>
       <format/>
       <quality>A</quality>
-      <lineage>FM or SBD &gt; ? &gt; Silver Boot JMY 1013-2 &gt; eac (secure) &gt; flac (level 6
-w/ sector align)</lineage>
+      <lineage>FM or SBD &gt; ? &gt; Silver Boot JMY 1013-2 &gt; eac (secure) &gt; flac (level 6 w/ sector align)</lineage>
       <remarks>early set</remarks>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20749,8 +20554,7 @@ w/ sector align)</lineage>
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>Audience recording -&gt; Original (Silver) Bootleg CD -&gt; EAC (Secure Mode) -&gt;
-WAV -&gt; dbPowerAmp Music Converter -&gt; FLAC (Level 8)</lineage>
+      <lineage>Audience recording -&gt; Original (Silver) Bootleg CD -&gt; EAC (Secure Mode) -&gt; WAV -&gt; dbPowerAmp Music Converter -&gt; FLAC (Level 8)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20774,8 +20578,7 @@ WAV -&gt; dbPowerAmp Music Converter -&gt; FLAC (Level 8)</lineage>
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>flambay lineage portion: jkeisers seed flac &gt; wav &gt; Soundforge 5: speed
-correction, SBE fixes, re-tracked &gt; flac fFE lvl7 w/SBA (298 MB)</lineage>
+      <lineage>flambay lineage portion: jkeisers seed flac &gt; wav &gt; Soundforge 5: speed correction, SBE fixes, re-tracked &gt; flac fFE lvl7 w/SBA (298 MB)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20845,8 +20648,7 @@ correction, SBE fixes, re-tracked &gt; flac fFE lvl7 w/SBA (298 MB)</lineage>
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>FM broadcast &gt;master reel-to-reel &gt;TDK SA-C90 cassette tape on Nakamichi
-Dragon</lineage>
+      <lineage>FM broadcast &gt;master reel-to-reel &gt;TDK SA-C90 cassette tape on Nakamichi Dragon</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -20869,9 +20671,7 @@ Dragon</lineage>
       <source>SBD</source>
       <format/>
       <quality>B++</quality>
-      <lineage>FM broadcast &gt;master reel-to-reel &gt;TDK SA-C90 cassette tape on Nakamichi
-Dragon Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender +47
-cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
+      <lineage>FM broadcast &gt;master reel-to-reel &gt;TDK SA-C90 cassette tape on Nakamichi Dragon Goody's additional lineage: dBpoweramp (WAV) &gt; Cool Edit Pro (Pitch Bender +47 cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21179,8 +20979,7 @@ cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
       <source>TV</source>
       <format/>
       <quality/>
-      <lineage>Audio from TV broadcast &gt; ?? &gt; Trade &gt; EAC (4x, secure) &gt; FLAC (level
-6, with sector align)</lineage>
+      <lineage>Audio from TV broadcast &gt; ?? &gt; Trade &gt; EAC (4x, secure) &gt; FLAC (level 6, with sector align)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21253,9 +21052,7 @@ cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
       <source>SBD</source>
       <format/>
       <quality>A-</quality>
-      <lineage>soundboard &gt; KPFA-FM radio broadcast &gt; ? &gt; CD &gt; EAC (secure mode) &gt;
-Cubase SX2 (minor re-tracking, no sound processing applied) &gt; flac 1.1.2 [-8, -V,
-sector aligned]</lineage>
+      <lineage>soundboard &gt; KPFA-FM radio broadcast &gt; ? &gt; CD &gt; EAC (secure mode) &gt; Cubase SX2 (minor re-tracking, no sound processing applied) &gt; flac 1.1.2 [-8, -V, sector aligned]</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21404,7 +21201,7 @@ sector aligned]</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21420,8 +21217,7 @@ sector aligned]</lineage>
       <source>SBD</source>
       <format/>
       <quality/>
-      <lineage>Soundboard &gt; Belgian Radio and Television (BRT) Radio Broadcast &gt;
-Unknown</lineage>
+      <lineage>Soundboard &gt; Belgian Radio and Television (BRT) Radio Broadcast &gt; Unknown</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21429,7 +21225,7 @@ Unknown</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21451,7 +21247,7 @@ Unknown</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21475,7 +21271,7 @@ Unknown</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21500,7 +21296,7 @@ Unknown</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21524,7 +21320,7 @@ Unknown</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title>Another Bitches Brew (Jazz Door (G) JD 1284/5)</title>
@@ -21540,8 +21336,7 @@ Unknown</lineage>
       <source DVB="true">DVB-S</source>
       <format bitrate="256">mp2</format>
       <quality>A+</quality>
-      <lineage>DVB-S (256 kbps/ 48 khz) &gt; Technotrend C-1400 DVB-S PCI card &gt;
-harddisk.</lineage>
+      <lineage>DVB-S (256 kbps/ 48 khz) &gt; Technotrend C-1400 DVB-S PCI card &gt; harddisk.</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21549,7 +21344,7 @@ harddisk.</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21573,7 +21368,7 @@ harddisk.</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21597,7 +21392,7 @@ harddisk.</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title>Two Miles Live (Discurios DIS 201 CD)</title>
@@ -21621,7 +21416,7 @@ harddisk.</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21645,7 +21440,7 @@ harddisk.</lineage>
          <artist>Keith Jarrett</artist>
          <artist>Michael Henderson</artist>
          <artist>Leon Ndugu Chancler</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
          <artist>James Mtume Forman</artist>
       </artists>
       <title/>
@@ -21723,8 +21518,7 @@ harddisk.</lineage>
       <source/>
       <format/>
       <quality/>
-      <lineage>Audience Recording / Radio Broadcast &gt; Soulard VGM-SOU CD 3 &gt; EAC (Wave) .
-TLH (Flac Level 8)</lineage>
+      <lineage>Audience Recording / Radio Broadcast &gt; Soulard VGM-SOU CD 3 &gt; EAC (Wave) . TLH (Flac Level 8)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Miles Davis</artist>
@@ -21876,8 +21670,7 @@ TLH (Flac Level 8)</lineage>
       <source>AUD</source>
       <format/>
       <quality>B</quality>
-      <lineage>AUD &gt; Audition (Pitch Bender -38 cents) &gt; Trader's Little Helper (FLAC Level
-8, ffp)</lineage>
+      <lineage>AUD &gt; Audition (Pitch Bender -38 cents) &gt; Trader's Little Helper (FLAC Level 8, ffp)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Pat Metheny</artist>
@@ -22022,10 +21815,7 @@ TLH (Flac Level 8)</lineage>
       <source>FM</source>
       <format/>
       <quality>A+</quality>
-      <lineage>FM (analog cable) &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier
-&gt;Denon DR-M 24HX three head tape deck w/ Dolby C HXpro &gt;Sony UX-S cassette
-&gt;Terratec DMXFire 1024 soundcard&gt;WaveLab Lite &gt;harddisk &gt;CDR &gt;.wav
-&gt;FLAC level 8]</lineage>
+      <lineage>FM (analog cable) &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Denon DR-M 24HX three head tape deck w/ Dolby C HXpro &gt;Sony UX-S cassette &gt;Terratec DMXFire 1024 soundcard&gt;WaveLab Lite &gt;harddisk &gt;CDR &gt;.wav &gt;FLAC level 8]</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22048,8 +21838,7 @@ TLH (Flac Level 8)</lineage>
       <source>FM</source>
       <format/>
       <quality>A</quality>
-      <lineage>FM &gt; tape &gt; CD-R &gt; Sound Forge &gt; FLAC (268 mb) Transferred by:
-Boneroller Remastered by: TheTooleMan (smt), July, 2004</lineage>
+      <lineage>FM &gt; tape &gt; CD-R &gt; Sound Forge &gt; FLAC (268 mb) Transferred by: Boneroller Remastered by: TheTooleMan (smt), July, 2004</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22139,8 +21928,7 @@ Boneroller Remastered by: TheTooleMan (smt), July, 2004</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>WXRT FM Broadcast&gt;?&gt;CDR in trade&gt;EAC&gt;edit w/ CD Wave
-Editor&gt;FLAC</lineage>
+      <lineage>WXRT FM Broadcast&gt;?&gt;CDR in trade&gt;EAC&gt;edit w/ CD Wave Editor&gt;FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22162,8 +21950,7 @@ Editor&gt;FLAC</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>FM broadcast &gt; Unknown recording device &gt; CD in trade &gt; EAC &gt; HD &gt;
-SoundForge 7.0 &gt; CD Wave &gt; FLAC Frontend (level 6)</lineage>
+      <lineage>FM broadcast &gt; Unknown recording device &gt; CD in trade &gt; EAC &gt; HD &gt; SoundForge 7.0 &gt; CD Wave &gt; FLAC Frontend (level 6)</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22185,8 +21972,7 @@ SoundForge 7.0 &gt; CD Wave &gt; FLAC Frontend (level 6)</lineage>
       <source>FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Restored and mixed from two sources by TheTooleMan, June 2004 source 1: incomplete
-low-gen recording source 2: complete, higher-gen recording</lineage>
+      <lineage>Restored and mixed from two sources by TheTooleMan, June 2004 source 1: incomplete low-gen recording source 2: complete, higher-gen recording</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22424,8 +22210,7 @@ low-gen recording source 2: complete, higher-gen recording</lineage>
       <source>preFM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>Lineage: pre-FM reel&gt;cass&gt;flac taperchuck3 
-Transfer: Dragon nr-out&gt;zoomH4 16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;flac16 -&gt;[BarnyzFrank new]OcenAudio w/Limiter No6 &amp; Spline EQ for remastering 96kHz24b (see remastering notes for exact details) -&gt; Goldwave (44.1kHz16b conversion, SBE alignment, FLAC level 8) -&gt; Media Monkey (tagging, rename)</lineage>
+      <lineage>Lineage: pre-FM reel&gt;cass&gt;flac taperchuck3 Transfer: Dragon nr-out&gt;zoomH4 16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;flac16 -&gt;[BarnyzFrank new]OcenAudio w/Limiter No6 &amp; Spline EQ for remastering 96kHz24b (see remastering notes for exact details) -&gt; Goldwave (44.1kHz16b conversion, SBE alignment, FLAC level 8) -&gt; Media Monkey (tagging, rename)</lineage>
       <remarks>remaster of other preFM listing</remarks>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22447,8 +22232,7 @@ Transfer: Dragon nr-out&gt;zoomH4 16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;fla
       <source>preFM</source>
       <format/>
       <quality>B</quality>
-      <lineage>Lineage: pre-FM reel&gt;cass&gt;flac taperchuck3 Transfer: Dragon nr-out&gt;zoomH4
-16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;flac16.</lineage>
+      <lineage>Lineage: pre-FM reel&gt;cass&gt;flac taperchuck3 Transfer: Dragon nr-out&gt;zoomH4 16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;flac16.</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22470,8 +22254,7 @@ Transfer: Dragon nr-out&gt;zoomH4 16/44.1&gt;hcsd 8gb &gt;Audacity&gt;TLH&gt;fla
       <source>FM</source>
       <format/>
       <quality>B-</quality>
-      <lineage>FM&gt;Master tape&gt;sony
-cassette&gt;SBAudigy2&gt;PC&gt;Soundforge&gt;CDarchitech&gt;CDR&gt;EAC&gt;Soundforge&gt;TLH</lineage>
+      <lineage>FM&gt;Master tape&gt;sony cassette&gt;SBAudigy2&gt;PC&gt;Soundforge&gt;CDarchitech&gt;CDR&gt;EAC&gt;Soundforge&gt;TLH</lineage>
       <remarks>recorded Thursday March 27, 1975 broadcast on WPLR-FM Monday April 7, 1975</remarks>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22493,9 +22276,7 @@ cassette&gt;SBAudigy2&gt;PC&gt;Soundforge&gt;CDarchitech&gt;CDR&gt;EAC&gt;Soundf
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>FM =&gt; cassette =&gt; HHB CDR830/CD-R/W =&gt; EAC =&gt; Nero Wave Editor (track
-splits and fade in/fade out) =&gt; FLAC frontend (w/SBE correction) =&gt; upload (from
-tmat44)</lineage>
+      <lineage>FM =&gt; cassette =&gt; HHB CDR830/CD-R/W =&gt; EAC =&gt; Nero Wave Editor (track splits and fade in/fade out) =&gt; FLAC frontend (w/SBE correction) =&gt; upload (from tmat44)</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22539,9 +22320,7 @@ tmat44)</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>Lineage: unknown FM recording -&gt; tape -&gt; CD -&gt; Sound Forge -&gt; FLAC
-TheTooleMan Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt; FLAC
-(L8)</lineage>
+      <lineage>Lineage: unknown FM recording -&gt; tape -&gt; CD -&gt; Sound Forge -&gt; FLAC TheTooleMan Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt; FLAC (L8)</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Return to Forever</artist>
@@ -22942,7 +22721,7 @@ TheTooleMan Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt
          <artist>Jack Bruce</artist>
          <artist>Larry Young</artist>
          <artist>Warren Smith</artist>
-         <artist>Charles Don Alias</artist>
+         <artist>Don Alias</artist>
       </artists>
       <title/>
    </session>
@@ -23002,8 +22781,7 @@ TheTooleMan Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt
       <source bitrate="320">DVB-S</source>
       <format>flac</format>
       <quality>A</quality>
-      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac 
-			(MPEG1 Layer 2/320 kbps)</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium 2300 &gt; hdd &gt; nero wave editor &gt; flac (MPEG1 Layer 2/320 kbps)</lineage>
       <remarks/>
       <artists>
          <artist main="true">Vijay Iyer</artist>
@@ -23047,8 +22825,7 @@ TheTooleMan Additional lineage: FLAC -&gt; WAV -&gt; CDR -&gt; EAC (secure) -&gt
       <source>SBD</source>
       <format/>
       <quality>B-</quality>
-      <lineage>SBD&gt;probably Reel to Reel Tape&gt;CD&gt;trade&gt;EAC Secure&gt;Flac
-frontend&gt;flac level 6</lineage>
+      <lineage>SBD&gt;probably Reel to Reel Tape&gt;CD&gt;trade&gt;EAC Secure&gt;Flac frontend&gt;flac level 6</lineage>
       <remarks/>
       <artists>
          <artist main="true">Wayne Shorter</artist>
@@ -23324,8 +23101,7 @@ frontend&gt;flac level 6</lineage>
       <source>FM</source>
       <format/>
       <quality>B</quality>
-      <lineage>Cassette via trade (unk gen 3+) -&gt; Nak DR-1 -&gt; Audiophile 2496 -&gt;
-Soundforge -&gt; wav -&gt; flac</lineage>
+      <lineage>Cassette via trade (unk gen 3+) -&gt; Nak DR-1 -&gt; Audiophile 2496 -&gt; Soundforge -&gt; wav -&gt; flac</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23394,8 +23170,7 @@ Soundforge -&gt; wav -&gt; flac</lineage>
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>SBD &gt; Audio cassette (3-4th generation) &gt; Nakamichi DR-1 &gt; Audiophile 2496
-&gt; Soundforge &gt; CD &gt; wav &gt; SHN &gt; flac</lineage>
+      <lineage>SBD &gt; Audio cassette (3-4th generation) &gt; Nakamichi DR-1 &gt; Audiophile 2496 &gt; Soundforge &gt; CD &gt; wav &gt; SHN &gt; flac</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23486,8 +23261,7 @@ Soundforge -&gt; wav -&gt; flac</lineage>
       <source>SBD</source>
       <format/>
       <quality>B</quality>
-      <lineage>Cassette via trade (unk gen 3+) -&gt; Nak DR-1 -&gt; Audiophile 2496 -&gt;
-Soundforge -&gt; wav -&gt; flac</lineage>
+      <lineage>Cassette via trade (unk gen 3+) -&gt; Nak DR-1 -&gt; Audiophile 2496 -&gt; Soundforge -&gt; wav -&gt; flac</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23556,8 +23330,7 @@ Soundforge -&gt; wav -&gt; flac</lineage>
       <source>SBD</source>
       <format/>
       <quality>B</quality>
-      <lineage>SBD &gt; cassette (~3rd gen) &gt; nak DR-1 &gt; audiophile 2496 &gt; soundforge
-&gt; cdr &gt; eac &gt; flac </lineage>
+      <lineage>SBD &gt; cassette (~3rd gen) &gt; nak DR-1 &gt; audiophile 2496 &gt; soundforge &gt; cdr &gt; eac &gt; flac </lineage>
       <remarks>The Players Tavern?</remarks>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23626,9 +23399,7 @@ Soundforge -&gt; wav -&gt; flac</lineage>
       <source>AUD</source>
       <format/>
       <quality/>
-      <lineage>Maxell XLII Cassette&gt;Nakamichi CR-7A cassette deck&gt;Tascam US-122L&gt;Sound
-Forge 7.0 (record/edits/resample)&gt;FLAC Level 8&gt;WAV&gt;CDWav (tracking)&gt;EAC
-(append)&gt;FLAC 8&gt;FLAC</lineage>
+      <lineage>Maxell XLII Cassette&gt;Nakamichi CR-7A cassette deck&gt;Tascam US-122L&gt;Sound Forge 7.0 (record/edits/resample)&gt;FLAC Level 8&gt;WAV&gt;CDWav (tracking)&gt;EAC (append)&gt;FLAC 8&gt;FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23650,8 +23421,7 @@ Forge 7.0 (record/edits/resample)&gt;FLAC Level 8&gt;WAV&gt;CDWav (tracking)&gt;
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>Cassette (?gen) -&gt; Nak DR-1 -&gt; audiophile 24/96 -&gt; wav -&gt; Soundforge
-(eq, normalize, fix gaps) -&gt; cd-r -&gt; EAC -&gt; flac</lineage>
+      <lineage>Cassette (?gen) -&gt; Nak DR-1 -&gt; audiophile 24/96 -&gt; wav -&gt; Soundforge (eq, normalize, fix gaps) -&gt; cd-r -&gt; EAC -&gt; flac</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23744,9 +23514,7 @@ Forge 7.0 (record/edits/resample)&gt;FLAC Level 8&gt;WAV&gt;CDWav (tracking)&gt;
       <source channel="WXRT">FM</source>
       <format/>
       <quality>A-</quality>
-      <lineage>Maxell XLII Cassette (master)&gt;Sony TC-WE8258 cassette deck&gt;Gina20&gt;Sound
-Forge 7.0 (record/edits)&gt;FLAC Level 8 Patch source: "Solarizations" boot
-CD&gt;EAC&gt;FLAC</lineage>
+      <lineage>Maxell XLII Cassette (master)&gt;Sony TC-WE8258 cassette deck&gt;Gina20&gt;Sound Forge 7.0 (record/edits)&gt;FLAC Level 8 Patch source: "Solarizations" boot CD&gt;EAC&gt;FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23769,8 +23537,7 @@ CD&gt;EAC&gt;FLAC</lineage>
       <source>SBD</source>
       <format/>
       <quality>B+</quality>
-      <lineage>$$$&gt;Solarizations silver cd&gt;EAC&gt;FLAC (via Trader's Little
-Helper")</lineage>
+      <lineage>$$$&gt;Solarizations silver cd&gt;EAC&gt;FLAC (via Trader's Little Helper")</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23815,9 +23582,7 @@ Helper")</lineage>
       <source>FM</source>
       <format/>
       <quality>B</quality>
-      <lineage>Maxell XLII Cassette&gt;Nakamichi CR-7A cassette deck&gt;Tascam US-122L&gt;Sound
-Forge 7.0 (record/edits/resample)&gt;CDWav (tracking)&gt;Goldwave (speed
-correction)&gt;FLAC</lineage>
+      <lineage>Maxell XLII Cassette&gt;Nakamichi CR-7A cassette deck&gt;Tascam US-122L&gt;Sound Forge 7.0 (record/edits/resample)&gt;CDWav (tracking)&gt;Goldwave (speed correction)&gt;FLAC</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -23909,8 +23674,7 @@ correction)&gt;FLAC</lineage>
       <source>FM</source>
       <format/>
       <quality>B+</quality>
-      <lineage>CDR &gt; EAC &gt; wav &gt; (No Edit) &gt; FLAC frontend &gt; flac (Level
-6)</lineage>
+      <lineage>CDR &gt; EAC &gt; wav &gt; (No Edit) &gt; FLAC frontend &gt; flac (Level 6)</lineage>
       <remarks/>
       <artists>
          <artist type="band" main="true">Weather Report</artist>
@@ -24063,8 +23827,7 @@ correction)&gt;FLAC</lineage>
       <source>FM</source>
       <format/>
       <quality/>
-      <lineage>FM &gt; Edirol R-09 (WAV) &gt; WaveLab &gt; FLAC (level 8, sector-align) Broadcast
-: Jazz sur le vif, France Musique, 22 march 2014 Cosmikd</lineage>
+      <lineage>FM &gt; Edirol R-09 (WAV) &gt; WaveLab &gt; FLAC (level 8, sector-align) Broadcast : Jazz sur le vif, France Musique, 22 march 2014 Cosmikd</lineage>
       <remarks/>
       <artists>
          <artist main="true">Jozef Dumoulin</artist>
@@ -24100,8 +23863,7 @@ correction)&gt;FLAC</lineage>
       <source channel="BBCFour">DVB</source>
       <format resolution="PAL">DVD</format>
       <quality>A+</quality>
-      <lineage>BBCFour DVB-C Tivo&gt;LG stand alone DVD rec&gt;PC&gt;Authored using Magix
-MEP.</lineage>
+      <lineage>BBCFour DVB-C Tivo&gt;LG stand alone DVD rec&gt;PC&gt;Authored using Magix MEP.</lineage>
       <remarks>Compilation first broadcast February 2012 on BBCFour</remarks>
       <artists>
          <artist main="true" type="band">Various Artists</artist>
@@ -24187,8 +23949,7 @@ MEP.</lineage>
       <length>0:52:58</length>
       <source>FM</source>
       <quality/>
-      <lineage>FM&gt;low gen, unknown lineage&gt;trade&gt;CDR&gt;EAC Secure Rip&gt;Flac Frontend,
-level 5</lineage>
+      <lineage>FM&gt;low gen, unknown lineage&gt;trade&gt;CDR&gt;EAC Secure Rip&gt;Flac Frontend, level 5</lineage>
       <remarks/>
       <artists>
          <artist main="true">Paul Bley</artist>
@@ -24207,8 +23968,7 @@ level 5</lineage>
       <length>0:52:31</length>
       <source>DVB</source>
       <quality/>
-      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac
-(mpeg1 layer 2/320 kbps) [radio station - nordewestradio]</lineage>
+      <lineage>dvb-s &gt; techno trend tt-premium s2-6400 twin hd &gt; hdd &gt; nero wave editor &gt; flac (mpeg1 layer 2/320 kbps) [radio station - nordewestradio]</lineage>
       <remarks/>
       <artists>
          <artist main="true">Paul Bley</artist>
@@ -24581,8 +24341,7 @@ level 5</lineage>
       <source channel="BBC">web</source>
       <format/>
       <quality>A</quality>
-      <lineage>BBC 320k AAC &gt; i-Stream recorder (44.1k wav)/Adobe Audition&amp;lt;Tracks&gt;phase
-correction&gt;fades&gt;Flac</lineage>
+      <lineage>BBC 320k AAC &gt; i-Stream recorder (44.1k wav)/Adobe Audition&amp;lt;Tracks&gt;phase correction&gt;fades&gt;Flac</lineage>
       <remarks>part of EBU recording at Studio 105, Paris France, broadcast on BBC Radio 3 "Jazz Line Up" 2015-01-31 HD Stream master</remarks>
       <artists>
          <artist main="true">Melanie De Biasio</artist>
@@ -24604,9 +24363,7 @@ correction&gt;fades&gt;Flac</lineage>
       <source channel="NRK">web</source>
       <format resolution="720p">AVC</format>
       <quality>A</quality>
-      <lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS10001189/25-08-1989
-https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS20001189/01-09-1989
-https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989</lineage>
+      <lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS10001189/25-08-1989 https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS20001189/01-09-1989 https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989</lineage>
       <remarks>3 parts</remarks>
       <artists>
          <artist type="band">Chick Corea Akoustic Band</artist>
@@ -27547,7 +27304,7 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989</lineage>
       <source>TV</source>
       <format resolution="NTSC">DVD</format>
       <quality>B+</quality>
-      <lineage>Tv &gt; Low Gen VHS &gt; Panasonic DMR-ES40V &gt; NERO 6 &gt; SA &gt; TMPGEnc (Uncompressed) &gt; DVD  [Menu &amp; Song Select]</lineage>
+      <lineage>Tv &gt; Low Gen VHS &gt; Panasonic DMR-ES40V &gt; NERO 6 &gt; SA &gt; TMPGEnc (Uncompressed) &gt; DVD [Menu &amp; Song Select]</lineage>
       <remarks/>
       <artists>
          <artist main="true">Marvin Gaye</artist>
@@ -28133,26 +27890,8 @@ https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS30001189/15-09-1989</lineage>
       <source station="BR">TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>Recording (August 1996, by Bernhard):
--&gt; Master Super-VHS Mono recording, unknown equipment
-
-Lineage digitization (2017 12 30, Pittylabelle):
-
-Video:
--&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL)
--&gt; VHS player: Panasonic SVHS Player NV-HS 1000
--&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10
--&gt; Connection: S-Video out/in
-
-Audio:
--&gt; Recorder: Olympus LS-12
--&gt; Connection: Line out/in
--&gt; WAV-File 16 Bit / 44.1 kHz 
-
-Editing:
--&gt; Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work
--&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec
--&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
+      <lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound
+         Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
       <remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
       <artists>
          <artist main="true">Frank Zappa</artist>
@@ -28219,8 +27958,7 @@ Editing:
       <source>TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>TV &gt; VHS &gt; dvd recorder &gt; dvd from trade &gt; TMPGenc Dvd Author &gt; 
-Video_ts</lineage>
+      <lineage>TV &gt; VHS &gt; dvd recorder &gt; dvd from trade &gt; TMPGenc Dvd Author &gt; Video_ts</lineage>
       <remarks/>
       <artists>
          <artist main="true" type="band">Count Basie Orchestra</artist>
@@ -28760,7 +28498,7 @@ Video_ts</lineage>
       <source/>
       <format resolution="PAL">DVD</format>
       <quality/>
-      <lineage>VHS video tape &gt; PC  canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVD</lineage>
+      <lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVD</lineage>
       <remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear ! Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place then looks at his watch and pulls a face as if to say it's to late for that so they must have been on
 			very late so it was probably July 21st when they were playing onstage</remarks>
       <artists>
