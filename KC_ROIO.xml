@@ -11883,7 +11883,7 @@
          <artist type="band">Taste</artist>
          <artist type="band">Life</artist>
          <artist type="band">Bonzo Dog Doo Dah Band</artist>
-         <artist type="band">Steve Shorter &amp; Tilly Set&gt;</artist>
+         <artist type="band">Steve Shorter &amp; Tilly Set</artist>
          <artist type="band">Brian Auger and the Trinity</artist>
          <artist>Brian Auger</artist>
          <artist>Julie Driscoll</artist>
@@ -25545,7 +25545,7 @@
       <title>Dada Was Here (Video Anthology) 1967-1971</title>
    </session>
    <session id="d1e36903" av="V">
-      <date type="xs:date">1969-xx-xx</date>
+      <date type="xs:date">1969-08-22</date>
       <location>
          <event type="festival">Jazz Bilzen</event>
          <city>Bilzen</city>
@@ -25559,6 +25559,9 @@
       <remarks/>
       <artists>
          <artist main="true" type="band">Soft Machine</artist>
+         <artist>Mike Ratledge</artist>
+         <artist>Hugh Hopper</artist>
+         <artist>Robert Wyatt</artist>
       </artists>
       <title>Dada Was Here (Video Anthology) 1967-1971</title>
    </session>
