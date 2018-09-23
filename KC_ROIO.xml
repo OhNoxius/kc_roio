@@ -1,4 +1,5 @@
 <?xml-stylesheet type="text/xsl" href="KC_ROIO_idtransform.xsl"?>
+<?xml-stylesheet type="text/xsl" href="KC_ROIO_idtransform.xsl"?>
 <KC_ROIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="KC_ROIO.xsd">
    <session id="d1e3" av="V">
       <date type="xs:date">1969-10-24_28</date>
@@ -437,34 +438,37 @@
       <title/>
    </session>
    <session id="id0x1183210" av="V">
-      <date type="xs:date">1972-02-xx</date>
+      <date type="xs:date">1972-02-12</date>
       <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
          <venue>Funkhaus</venue>
          <city>Hamburg</city>
          <country>Germany</country>
       </location>
       <length>0:25:23</length>
-      <source>TV</source>
+      <source>digisat</source>
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
-      <lineage/>
-      <remarks/>
+      <lineage><![CDATA[Digital Satellite -> raw data to HDD -> ProjectX -> TMPGEnc DVD Author -> Video_ts;]]></lineage>
+      <remarks>(The rehearsal on 12th February for this performance has been issued on DVD. Same personnel). The programme has also been referred to as "Backstage Report".</remarks>
       <artists>
          <artist main="true">Bill Evans</artist>
          <artist>Herb Geller</artist>
          <artist>Eddie Gomez</artist>
          <artist>Marty Morell</artist>
       </artists>
-      <title/>
+      <titlefilm>Backstage-Report über die Proben für ein Jazzkonzert (NDR production)</titlefilm>
    </session>
    <session id="id0x1183670" av="V" official="true">
-      <date type="xs:date">1975-xx-xx</date>
+      <date type="xs:date">1975-02-21</date>
       <location>
+         <venue>The Louisiana Museum of Modern Art</venue>
+         <city>Elsinore</city>
          <country>Denmark</country>
       </location>
       <length/>
-      <source/>
-      <format/>
+      <source>DVD</source>
+      <format resolution="PAL">DVD</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -6488,6 +6492,7 @@
    <session id="id0x52fc120" av="V">
       <date type="xs:date">1972-06-14</date>
       <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
          <venue>NDR Strudio 10</venue>
          <city>Hannover</city>
          <country>Germany</country>
@@ -6541,14 +6546,14 @@
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
       <lineage>Digital Satellite -&gt; DVD (Pioneer DVD recorder) -&gt; HDD, audio is 2 channel AC3@256</lineage>
-      <remarks/>
+      <remarks></remarks>
       <artists>
          <artist main="true">Keith Jarrett</artist>
          <artist>Jan Garbarek</artist>
          <artist>Palle Danielsson</artist>
          <artist>Jon Christensen</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #100</titlefilm>
    </session>
    <session id="id0x5339f40" av="V">
       <date type="xs:date">1974-04-18</date>
@@ -6570,7 +6575,7 @@
          <artist>Palle Danielsson</artist>
          <artist>Jon Christensen</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #100</titlefilm>
    </session>
    <session id="id0x533a3f0" av="V">
       <date type="xs:date">1974-04-xx</date>
@@ -6723,6 +6728,42 @@
          <artist main="true">Keith Jarrett</artist>
       </artists>
       <title>Saturday Night Live S03E17</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1984-01-25</date>
+      <location>
+         <venue>Kan-i Hoken Hall</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Keith Jarrett</artist>
+      </artists>
+      <title>Last Solo 1984</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1987-04-14</date>
+      <location>
+         <venue>Suntory Hall</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+         <length>01:41:53</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Keith Jarrett</artist>
+      </artists>
+      <title>Solo Tribute: The 100th Performance in Japan</title>
    </session>
    <session id="id0x5359210" av="V">
       <date type="xs:date">1986-07-03</date>
@@ -9984,6 +10025,8 @@
       <date type="xs:date">1973-05-17</date>
       <location>
          <event type="festival">NDR Jazzworkshop</event>
+         <venue>Congresszentrum</venue>
+         <city>Hamburg</city>
          <country>Germany</country>
       </location>
       <length>1:14:15</length>
@@ -9999,6 +10042,7 @@
          <artist>John Marshall</artist>
          <artist>Roy Babbington</artist>
       </artists>
+      <titlefilm>NDR Jazzworkshop #89</titlefilm>
       <title>NDR Jazz Workshop (Cuneiform RUNE 305/306)</title>
    </session>
    <session id="id0x5b373f0" av="V">
@@ -11305,6 +11349,7 @@
    <session id="id0x76cbc20" av="V">
       <date type="xs:date">1971-09-03</date>
       <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
          <venue>Funkausstellung</venue>
          <city>Berlin</city>
          <country>Germany</country>
@@ -11326,7 +11371,7 @@
          <artist>Alan Skidmore</artist>
          <artist>John Surman</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</titlefilm>
    </session>
    <session id="id0x76cc260" av="V" official="true">
       <date type="xs:date">1971-xx-xx</date>
@@ -14663,6 +14708,7 @@
    <session id="id0x5354e50" av="A">
       <date type="xs:date">1981-03-20</date>
       <location>
+         <event type="festival">NDR Jazzworkshop</event>
          <venue>Funkhaus</venue>
          <city>Hamburg</city>
          <country>Germany</country>
@@ -14672,11 +14718,11 @@
       <format/>
       <quality/>
       <lineage>FM &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Denon DR-M 24HX tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Denon DR-M 24HX &gt;Denon PMA-425R amplifier &gt;Terratec DMXFire 1024 soundcard &gt;WaveLab Lite &gt;harddisk &gt;.wav &gt;FLAC level 8</lineage>
-      <remarks/>
+      <remarks></remarks>
       <artists>
          <artist main="true">Dave Holland</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #160</titlefilm>
    </session>
    <session id="id0x53551c0" av="A">
       <date type="xs:date">2010-10-23</date>
@@ -17567,7 +17613,7 @@
          <artist>Jon Christensen</artist>
          <artist>Palle Danielsson</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #100</titlefilm>
    </session>
    <session id="id0x1062cc0" av="A">
       <date type="xs:date">1974-07-02</date>
@@ -21807,7 +21853,8 @@
    <session id="id0x7490a40" av="A">
       <date type="xs:date">1972-09-15</date>
       <location>
-         <venue>Studio 10, Funkhaus</venue>
+         <event type="radioshow">NDR Jazzworkshop</event>
+         <venue>Funkhaus (Studio 10)</venue>
          <city>Hamburg</city>
          <country>Germany</country>
       </location>
@@ -21824,7 +21871,7 @@
          <artist>Stanley Clarke</artist>
          <artist>Airto Moreira</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #81: Chick Corea's Return to Forever</titlefilm>
    </session>
    <session id="id0x7490f40" av="A">
       <date type="xs:date">1972-09-17</date>
@@ -22998,6 +23045,7 @@
    <session id="id0x726de00" av="A">
       <date type="xs:date">1971-09-03</date>
       <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
          <venue>Funkausstellung</venue>
          <city>Berlin</city>
          <country>Germany</country>
@@ -23020,6 +23068,7 @@
          <artist>John Surman</artist>
       </artists>
       <title/>
+      <titlefilm>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</titlefilm>
    </session>
    <session id="d1e33301" av="A" official="true">
       <date type="xs:date">1972-01-13</date>
@@ -24496,6 +24545,29 @@
       </artists>
       <title/>
    </session>
+   <session av="A">
+      <date type="xs:date">1976-01-13</date>
+      <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
+         <venue>Funkhaus (Studio 10, Grosser Sendesaal)</venue>
+         <city>Hamburg</city>
+         <country>Germany</country>
+      </location>
+      <length>1:50:01</length>
+      <source channel="NDR">FM</source>
+      <format>flac</format>
+      <quality></quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Jan Garbarek</artist>
+         <artist>Kenny Wheeler</artist>
+         <artist>Bobo Stenson</artist>
+         <artist>Palle Danielsson</artist>
+         <artist>Jon Christensen</artist>
+      </artists>
+      <titlefilm>NDR Jazzworkshop #115</titlefilm>
+   </session>
    <session id="d1e35408" av="V">
       <date type="xs:date">1974-12-17</date>
       <location>
@@ -24584,6 +24656,7 @@
    <session id="d1e35531" av="V">
       <date type="xs:date">1980-06-13</date>
       <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
          <venue>NDR Funkhaus</venue>
          <city>Hannover</city>
          <country>Germany</country>
@@ -24599,7 +24672,7 @@
          <artist>Jan Garbarek</artist>
          <artist>Charlie Haden</artist>
       </artists>
-      <title/>
+      <titlefilm>NDR Jazzworkshop #152</titlefilm>
    </session>
    <session id="d1e35559" av="A">
       <date type="xs:date">1982-05-25</date>
@@ -27149,6 +27222,90 @@
          <artist>Velma Middleton</artist>
       </artists>
       <title>Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1985-02-15</date>
+      <location>
+         <venue>Koseinenkin Hall</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage></lineage>
+      <remarks/>
+      <artists>
+         <artist type="band">Keith Jarrett Trio</artist>
+         <artist main="true">Keith Jarrett</artist>
+         <artist>Gary Peacock</artist>
+         <artist>Jack DeJohnette</artist>
+      </artists>
+      <title label="ECM">Keith Jarrett Trio - Standards I (ECM DVD 5502)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1986-10-26</date>
+      <location>
+         <venue>Hitomi Memorial Hall</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage></lineage>
+      <remarks/>
+      <artists>
+         <artist type="band">Keith Jarrett Trio</artist>
+         <artist main="true">Keith Jarrett</artist>
+         <artist>Gary Peacock</artist>
+         <artist>Jack DeJohnette</artist>
+      </artists>
+      <title label="ECM">Keith Jarrett Trio - Standards II (ECM DVD 5503)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1993-07-25</date>
+      <location>
+         <venue>Open Theater East</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage></lineage>
+      <remarks/>
+      <artists>
+         <artist type="band">Keith Jarrett Trio</artist>
+         <artist main="true">Keith Jarrett</artist>
+         <artist>Gary Peacock</artist>
+         <artist>Jack DeJohnette</artist>
+      </artists>
+      <title label="ECM">Keith Jarrett Trio - Live in Japan 93 (ECM DVD 5504)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1996-03-30</date>
+      <location>
+         <venue>Hitomi Memorial Hall</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage></lineage>
+      <remarks/>
+      <artists>
+         <artist type="band">Keith Jarrett Trio</artist>
+         <artist main="true">Keith Jarrett</artist>
+         <artist>Gary Peacock</artist>
+         <artist>Jack DeJohnette</artist>
+      </artists>
+      <title label="ECM">Keith Jarrett Trio - Live in Japan 96 (ECM DVD 5505)</title>
    </session>
    <session id="d1e39291" av="V">
       <date type="xs:date">1985-10-27</date>
@@ -30806,5 +30963,340 @@
          <artist>Jeff Berlin</artist>
       </artists>
       <title>Bruford ‎– Rock Goes To College (Winterfold BBWF008DVD)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1960-02-xx</date>
+      <location>
+         <event type="tvshow">Jazz pour tous</event>			
+         <country>Belgium</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Quincy Jones</artist>
+         <artist>Porter Kilbert</artist>
+         <artist>Phil Woods</artist>
+         <artist>Budd Johnson</artist>
+         <artist>Jerome Richardson</artist>
+         <artist>Sahib Shihab</artist>
+         <artist>Benny Bailey</artist>
+         <artist>Leonard Johnson</artist>
+         <artist>Floyd Standifer</artist>
+         <artist>Clark Terry</artist>
+         <artist>Jimmy Cleveland</artist>
+         <artist>Quentin Jackson</artist>
+         <artist>Melba Liston</artist>
+         <artist>Ake Persson</artist>
+         <artist>Les Spann</artist>
+         <artist>Patti Bown</artist>
+         <artist>Buddy Catlett</artist>
+         <artist>Joe Harris</artist>
+      </artists>
+      <title>Quincy Jones - Live in '60 (Jazz Icons)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1960-05-20</date>
+      <location>
+         <venue>Municipal theater</venue>
+         <city>Lausanne</city>
+         <country>Switzerland</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Quincy Jones</artist>
+         <artist>Porter Kilbert</artist>
+         <artist>Phil Woods</artist>
+         <artist>Jerome Richardson</artist>
+         <artist>Sahib Shihab</artist>
+         <artist>Benny Bailey</artist>
+         <artist>Leonard Johnson</artist>
+         <artist>Floyd Standifer</artist>
+         <artist>Roger Guerin</artist>
+         <artist>Jimmy Cleveland</artist>
+         <artist>Quentin Jackson</artist>
+         <artist>Melba Liston</artist>
+         <artist>Ake Persson</artist>
+         <artist>Les Spann</artist>
+         <artist>Patti Bown</artist>
+         <artist>Buddy Catlett</artist>
+         <artist>Joe Harris</artist>
+      </artists>
+      <title>Quincy Jones - Live in '60 (Jazz Icons)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1958-05-19</date>
+      <location>
+         <venue>Koninklijk Circus</venue>
+         <city>Brussel</city>
+         <country>Belgium</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Dizzy Gillespie</artist>
+         <artist>Sonny Stitt</artist>
+         <artist>Lou Levy</artist>
+         <artist>Ray Brown</artist>
+         <artist>Gus Johnson</artist>
+      </artists>
+      <title>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1970-11-04</date>
+      <location>
+         <venue>Tivoli Konsertsal</venue>
+         <city>Copenhagen</city>
+         <country>Denmark</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Dizzy Gillespie</artist>
+         <artist type="band">Clarke-Boland Big Band</artist>
+         <artist>Tony Coe</artist>
+         <artist>Derek Humble</artist>
+         <artist>Billy Mitchell</artist>
+         <artist>Ronnie Scott</artist>
+         <artist>Sahib Shihab</artist>
+         <artist>Benny Bailey</artist>
+         <artist>Art Farmer</artist>
+         <artist>Dusko Goykovich</artist>
+         <artist>Idrees Sulieman</artist>
+         <artist>Nat Peck</artist>
+         <artist>Ake Persson</artist>
+         <artist>Erik Van Lier</artist>
+         <artist>Francy Boland</artist>
+         <artist>Jimmy Woode</artist>
+         <artist>Kenny Clarke</artist>
+      </artists>
+      <title>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1975-06-08</date>
+      <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
+         <venue>Onkel Pö's Carnegie Hall</venue>
+         <city>Hamburg</city>
+         <country>Germany</country>
+      </location>
+      <length>0:45:58</length>
+      <source station="N3">TV</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage><![CDATA[N3 TV broadcast > analogue cable > VCRec > VHS videotape > DVDRec > DVD > HDD]]></lineage>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">John Surman</artist>
+         <artist>Dieter Feichtner</artist>
+         <artist>Barre Phillips</artist>
+      </artists>
+      <titlefilm>NDR Jazzworkshop #110</titlefilm>
+   </session>
+   <session av="V">
+      <date type="xs:date">1969-12-07+12</date>
+      <location>
+         <event type="tvshow">NDR Jazzworkshop</event>
+         <venue>Funkhaus (Studio B)</venue>
+         <city>Hamburg</city>
+         <country>Germany</country>
+      </location>
+      <length>0:40:53</length>
+      <source station="BRalpha">TV</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A+</quality>
+      <lineage><![CDATA[DVB-C > Technotrend TT-1501 DVB-C PCI card > harddisk.
+DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > DVDlab Pro 2.51.]]></lineage>
+      <remarks>broadcast: BR Alpha, August 4, 2013</remarks>
+      <artists>
+         <artist main="true">Friedrich Gulda</artist>
+         <artist>Kenny Wheeler</artist>
+         <artist>John Surman</artist>
+         <artist>Barre Phillips</artist>
+         <artist>Pierre Cavalli</artist>
+         <artist>Klaus Weiss</artist>
+      </artists>
+      <titlefilm>NDR Jazzworkshop #54: WHEEL IN THE RIGHT MACHINE</titlefilm>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1970-07-04</date>
+      <location>
+         <event type="festival">Newport Jazz Festival</event>
+         <city>Newport RI</city>
+         <country>U.S.A.</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Louis Armstrong</artist>
+         <artist>Bobby Hackett</artist>
+         <artist>Tyree Glenn</artist>
+         <artist>Dave McKenna</artist>
+         <artist>Jack Lesberg</artist>
+         <artist>Oliver Jackson</artist>
+         <artist>Joe Newman</artist>
+         <artist>Jimmy Owens</artist>
+         <artist>Wild Bill Davison</artist>
+         <artist>Benny Morton</artist>
+         <artist>Larry Ridley</artist>
+         <artist>Oliver Jackson</artist>
+         <artist type="band">Preservation Hall Jazz Band</artist>
+         <artist>Dede Pierce</artist>
+         <artist>Jim Robinson</artist>
+         <artist>Willie Humphrey</artist>
+         <artist>Captain John Handy</artist>
+         <artist>Billie Pierce</artist>
+         <artist>Allan Jaffe</artist>
+         <artist>Cie Frazier</artist>
+      </artists>
+      <title>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1970-07-10</date>
+      <location>
+         <event type="festival">Newport Jazz Festival</event>
+         <city>Newport RI</city>
+         <country>U.S.A.</country>
+      </location>
+      <length></length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>A+</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Louis Armstrong</artist>
+         <artist>Bobby Hackett</artist>
+         <artist>Dizzy Gillespie</artist>
+         <artist>Tyree Glenn</artist>
+         <artist>Dave McKenna</artist>
+         <artist>Jack Lesberg</artist>
+         <artist>Oliver Jackson</artist>
+         <artist>Joe Newman</artist>
+         <artist>Jimmy Owens</artist>
+         <artist>Wild Bill Davison</artist>
+         <artist>Ray Nance</artist>
+         <artist>Benny Morton</artist>
+         <artist>Larry Ridley</artist>
+         <artist>Oliver Jackson</artist>
+         <artist type="band">Mahalia Jackson</artist>
+         <artist>Mahalia Jackson</artist>
+         <artist>Gwen Lightner</artist>
+         <artist>Ralph Jones</artist>
+      </artists>
+      <title>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1970-07-04+10</date>
+      <location>
+         <event type="festival">Newport Jazz Festival</event>
+         <city>Newport RI</city>
+         <country>U.S.A.</country>
+      </location>
+      <length></length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Louis Armstrong</artist>
+         <artist>Bobby Hackett</artist>
+         <artist>Dizzy Gillespie</artist>
+         <artist>Tyree Glenn</artist>
+         <artist>Dave McKenna</artist>
+         <artist>Jack Lesberg</artist>
+         <artist>Oliver Jackson</artist>
+         <artist>Joe Newman</artist>
+         <artist>Jimmy Owens</artist>
+         <artist>Wild Bill Davison</artist>
+         <artist>Ray Nance</artist>
+         <artist>Benny Morton</artist>
+         <artist>Larry Ridley</artist>
+         <artist>Oliver Jackson</artist>
+         <artist type="band">Mahalia Jackson</artist>
+         <artist>Mahalia Jackson</artist>
+         <artist>Gwen Lightner</artist>
+         <artist>Ralph Jones</artist>
+         <artist type="band">Eureka Brass Band</artist>
+         <artist>Percy Humphrey </artist>
+         <artist>De De Pierce</artist>
+         <artist>Lionel Ferbos</artist>
+         <artist>Captain John Handy</artist>
+         <artist>Orange Kellin</artist>
+         <artist>Cie Frazier</artist>
+         <artist>Booker T. Glass</artist>
+         <artist>Jim Robinson</artist>
+         <artist>Paul Crawford</artist>
+         <artist>Billie Pierce</artist>
+         <artist>Alan Jaffe</artist>
+         <artist>Willie Humphrey</artist>
+      </artists>
+      <title>“Anatomy Of A Performance” “TRUMPET PLAYER’S TRIBUTE” “FINALE” unknown film?</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1971-02-28</date>
+      <location>
+         <venue>Monmartre Jazz Club</venue>
+         <city>Copenhagen</city>
+         <country>Denmark</country>
+      </location>
+      <length></length>
+      <source station="DR2">TV</source>
+      <format resultion="PAL">DVD</format>
+      <quality>B</quality>
+      <lineage></lineage>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Ben Webster</artist>
+         <artist>Charlie Shavers</artist>
+         <artist>Niels Jørgen Steen</artist>
+         <artist>Finn Ziegler</artist>
+         <artist>Niels-Henning Ørsted Pedersen</artist>
+         <artist>Jørn Elniff</artist>
+      </artists>
+      <title>Monmartre 1959-1976 Compilation DVD</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1983-02-18</date>
+      <location>
+         <venue>Södra Teatern</venue>
+         <city>Stocholm</city>
+         <country>Sweden</country>
+      </location>
+      <length>0:54:38</length>
+      <source>DVD</source>
+      <format resultion="PAL">DVD</format>
+      <quality>A</quality>
+      <lineage></lineage>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Stan Getz</artist>
+         <artist>Chet Baker</artist>
+         <artist>Jim McNeely</artist>
+         <artist>George Mraz</artist>
+         <artist>Victor Lewis</artist>
+      </artists>
+      <title>Live In Stockholm 1983</title>
    </session>
 </KC_ROIO>
