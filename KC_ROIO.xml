@@ -4592,15 +4592,24 @@
          <city>Stuttgart</city>
          <country>Germany</country>
       </location>
-      <length/>
-      <source>TV</source>
+      <length>0:27:36</length>
+      <source station="1plus">TV</source>
       <format resolution="PAL">DVD</format>
       <quality/>
       <lineage>(real)TV-Capture(VHS) - MKVmerge - DIME</lineage>
       <remarks/>
       <artists>
+         <artist main="true" type="band">Various Artists</artist>
+         <dummy type="band">Jan Garbarek Group</dummy>
+         <artist>Jan Garbarek</artist>
+         <artist>Rainer Brüninghaus</artist>
+         <artist>Eberhard Weber</artist>
+         <artist>Manu Katché</artist>
+         <dummy type="band">piano duo</dummy>
+         <dummy>?</dummy>
+         <dummy>?</dummy>
          <dummy type="band">Gerry Mulligan's "Re-Birth of the Cool"</dummy>
-         <artist main="true">Gerry Mulligan</artist>
+         <artist>Gerry Mulligan</artist>
          <artist>Rob McConnell</artist>
          <artist>Art Farmer</artist>
          <artist>Mike Mossman</artist>
@@ -4612,7 +4621,7 @@
          <artist>Dean Johnson</artist>
          <artist>Ron Vincent</artist>
       </artists>
-      <title/>
+      <title>Jan Garbarek, Gerry Mulligan, and many more - 1992-07-05, Jazzgipfel, Stuttgart, Germany, TV-Capture</title>
    </session>
    <session id="id0x4895c20" av="V">
       <date type="xs:date">1979-02-14</date>
@@ -5436,26 +5445,6 @@
          <artist>Craig Taborn</artist>
          <artist>Jaribu Shahid</artist>
          <artist>Tani Tabbal</artist>
-      </artists>
-      <title/>
-   </session>
-   <session id="id0x4f8ef40" av="V">
-      <date type="xs:date">1992-07-05</date>
-      <location>
-         <event type="festival">Jazzgipfel</event>
-         <city>Stuttgart</city>
-         <country>Germany</country>
-      </location>
-      <length/>
-      <source>TV</source>
-      <format resolution="PAL">DVD</format>
-      <lineage>(real)TV-Capture(VHS) - MKVmerge - DIME</lineage>
-      <remarks/>
-      <artists>
-         <artist main="true">Jan Garbarek</artist>
-         <artist>Rainer Brüninghaus</artist>
-         <artist>Eberhard Weber</artist>
-         <artist>Manu Katché</artist>
       </artists>
       <title/>
    </session>
@@ -6546,7 +6535,7 @@
       <format resolution="PAL">DVD</format>
       <quality>A</quality>
       <lineage>Digital Satellite -&gt; DVD (Pioneer DVD recorder) -&gt; HDD, audio is 2 channel AC3@256</lineage>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Keith Jarrett</artist>
          <artist>Jan Garbarek</artist>
@@ -6736,7 +6725,7 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
@@ -6754,7 +6743,7 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-         <length>01:41:53</length>
+      <length>01:41:53</length>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
@@ -12616,15 +12605,15 @@
       <title>Live Under The Sky '90</title>
    </session>
    <session id="d1e18479" av="V">
-      <date type="xs:date">1990-07-28_29 + 1991-07-27_28</date>
+      <date type="xs:date">1990-07-28_29</date>
       <location>
          <event type="festival">Live Under The Sky</event>
          <venue>Yomiuri-Land Theatre East</venue>
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length>1:48:45</length>
-      <source>TV</source>
+      <length>55min</length>
+      <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>B+</quality>
       <lineage/>
@@ -12636,13 +12625,6 @@
          <artist>Herbie Hancock</artist>
          <artist>Dave Holland</artist>
          <artist>Jack DeJohnette</artist>
-         <dummy type="band">Milton Nascimento band</dummy>
-         <artist>Milton Nascimento</artist>
-         <artist>Robertinho Silva</artist>
-         <artist>Tulio Mourao Pontes</artist>
-         <artist>Vanderlei Silva</artist>
-         <artist>Joao Baptista Carvahiho</artist>
-         <artist>Ronald Silva</artist>
          <dummy type="band">Select Live Special Band</dummy>
          <artist>Al Jarreau</artist>
          <artist>Miki Howard</artist>
@@ -12659,6 +12641,32 @@
          <artist>Tom Barney</artist>
          <artist>Buddy Williams</artist>
          <artist>Don Alias</artist>
+      </artists>
+      <title>Jazz: Live Under The Skies (BWF)</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1991-07-27_28</date>
+      <location>
+         <event type="festival">Live Under The Sky</event>
+         <venue>Yomiuri-Land Theatre East</venue>
+         <city>Tokyo</city>
+         <country>Japan</country>
+      </location>
+      <length>55min</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DVD</format>
+      <quality>B+</quality>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist type="band" main="true">Various Artists</artist>
+         <dummy type="band">Milton Nascimento band</dummy>
+         <artist>Milton Nascimento</artist>
+         <artist>Robertinho Silva</artist>
+         <artist>Tulio Mourao Pontes</artist>
+         <artist>Vanderlei Silva</artist>
+         <artist>Joao Baptista Carvahiho</artist>
+         <artist>Ronald Silva</artist>
          <dummy type="band">Marcus Miller Project</dummy>
          <artist>Marcus Miller</artist>
          <artist>Philippe Saisse</artist>
@@ -12679,7 +12687,7 @@
          <artist>Stanley Clarke</artist>
          <artist>Robertinho Silva</artist>
       </artists>
-      <title>Jazz Under The Skies</title>
+      <title>Jazz: Live Under The Skies (BWF)</title>
    </session>
    <session id="d1e18604" av="V">
       <date type="xs:date">1992-07-25_26</date>
@@ -14718,7 +14726,7 @@
       <format/>
       <quality/>
       <lineage>FM &gt;Telefunken HT 870 tuner &gt;Telefunken HA 870 amplifier &gt;Denon DR-M 24HX tape deck w/ Dolby C HXpro &gt;Sony UX-S cassettes transfer (November 2011): Denon DR-M 24HX &gt;Denon PMA-425R amplifier &gt;Terratec DMXFire 1024 soundcard &gt;WaveLab Lite &gt;harddisk &gt;.wav &gt;FLAC level 8</lineage>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Dave Holland</artist>
       </artists>
@@ -24556,7 +24564,7 @@
       <length>1:50:01</length>
       <source channel="NDR">FM</source>
       <format>flac</format>
-      <quality></quality>
+      <quality/>
       <lineage/>
       <remarks/>
       <artists>
@@ -27230,11 +27238,11 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
-      <lineage></lineage>
+      <lineage/>
       <remarks/>
       <artists>
          <artist type="band">Keith Jarrett Trio</artist>
@@ -27251,11 +27259,11 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
-      <lineage></lineage>
+      <lineage/>
       <remarks/>
       <artists>
          <artist type="band">Keith Jarrett Trio</artist>
@@ -27272,11 +27280,11 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
-      <lineage></lineage>
+      <lineage/>
       <remarks/>
       <artists>
          <artist type="band">Keith Jarrett Trio</artist>
@@ -27293,11 +27301,11 @@
          <city>Tokyo</city>
          <country>Japan</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
-      <lineage></lineage>
+      <lineage/>
       <remarks/>
       <artists>
          <artist type="band">Keith Jarrett Trio</artist>
@@ -30967,15 +30975,15 @@
    <session av="V" official="true">
       <date type="xs:date">1960-02-xx</date>
       <location>
-         <event type="tvshow">Jazz pour tous</event>			
+         <event type="tvshow">Jazz pour tous</event>
          <country>Belgium</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resultion="PAL">DVD</format>
       <quality>A+</quality>
       <lineage/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Quincy Jones</artist>
          <artist>Porter Kilbert</artist>
@@ -31005,12 +31013,12 @@
          <city>Lausanne</city>
          <country>Switzerland</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resultion="PAL">DVD</format>
       <quality>A+</quality>
       <lineage/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Quincy Jones</artist>
          <artist>Porter Kilbert</artist>
@@ -31039,12 +31047,12 @@
          <city>Brussel</city>
          <country>Belgium</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resultion="PAL">DVD</format>
       <quality>A+</quality>
       <lineage/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Dizzy Gillespie</artist>
          <artist>Sonny Stitt</artist>
@@ -31061,12 +31069,12 @@
          <city>Copenhagen</city>
          <country>Denmark</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resultion="PAL">DVD</format>
       <quality>A+</quality>
       <lineage/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Dizzy Gillespie</artist>
          <artist type="band">Clarke-Boland Big Band</artist>
@@ -31101,7 +31109,7 @@
       <format resultion="PAL">DVD</format>
       <quality>A+</quality>
       <lineage><![CDATA[N3 TV broadcast > analogue cable > VCRec > VHS videotape > DVDRec > DVD > HDD]]></lineage>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">John Surman</artist>
          <artist>Dieter Feichtner</artist>
@@ -31141,7 +31149,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <city>Newport RI</city>
          <country>U.S.A.</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
@@ -31178,7 +31186,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <city>Newport RI</city>
          <country>U.S.A.</country>
       </location>
-      <length></length>
+      <length/>
       <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality>A+</quality>
@@ -31213,8 +31221,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <city>Newport RI</city>
          <country>U.S.A.</country>
       </location>
-      <length></length>
-      <source></source>
+      <length/>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B</quality>
       <lineage/>
@@ -31261,12 +31269,12 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <city>Copenhagen</city>
          <country>Denmark</country>
       </location>
-      <length></length>
+      <length/>
       <source station="DR2">TV</source>
       <format resultion="PAL">DVD</format>
       <quality>B</quality>
-      <lineage></lineage>
-      <remarks></remarks>
+      <lineage/>
+      <remarks/>
       <artists>
          <artist main="true">Ben Webster</artist>
          <artist>Charlie Shavers</artist>
@@ -31288,8 +31296,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <source>DVD</source>
       <format resultion="PAL">DVD</format>
       <quality>A</quality>
-      <lineage></lineage>
-      <remarks></remarks>
+      <lineage/>
+      <remarks/>
       <artists>
          <artist main="true">Stan Getz</artist>
          <artist>Chet Baker</artist>
