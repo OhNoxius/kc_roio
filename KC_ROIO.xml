@@ -25420,7 +25420,7 @@
       </location>
       <length>0:17:28</length>
       <source/>
-      <format>mpg</format>
+      <format resolution="PAL">mpg</format>
       <quality>B+</quality>
       <lineage trader="Bruce Remy"/>
       <remarks/>
@@ -25445,7 +25445,7 @@
       </location>
       <length>0:02:05</length>
       <source/>
-      <format>mpg</format>
+      <format resolution="PAL">mpg</format>
       <quality>B+</quality>
       <lineage trader="Bruce Remy"/>
       <remarks>broadcast date: 1970-05-29</remarks>
@@ -25491,7 +25491,7 @@
       </location>
       <length>0:30:34</length>
       <source channel="RTB"/>
-      <format>mpg</format>
+      <format resolution="PAL">mpg</format>
       <quality>B+</quality>
       <lineage trader="Bruce Remy"/>
       <remarks>broadcast date: 1971-07-31</remarks>
@@ -25512,7 +25512,7 @@
       </location>
       <length>0:06:56</length>
       <source channel="RTB"/>
-      <format>mpg</format>
+      <format resolution="PAL">mpg</format>
       <quality>B+</quality>
       <lineage trader="Bruce Remy"/>
       <remarks>filename: 1972.05.05. JT MONTPELLIER?</remarks>
