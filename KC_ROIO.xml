@@ -31307,4 +31307,649 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </artists>
       <title>Live In Stockholm 1983</title>
    </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-12-07</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:09</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">John Coltrane Quartet</artist>
+         <artist>John Coltrane</artist>
+         <artist>McCoy Tyner</artist>
+         <artist>Jimmy Garrison</artist>
+         <artist>Elvin Jones</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-03-23</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:07</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Sonny Rollins</artist>
+         <artist>Jim Hall</artist>
+         <artist>Bob Cranshaw</artist>
+         <artist>Ben Riley</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1968-05-09</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:02</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">B.B. King</artist>
+         <artist>Mose Thomas</artist>
+         <artist>Lee Gatling</artist>
+         <artist>James Toney</artist>
+         <artist>Sonny Freeman</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-xx-xx</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:02</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Gerry Mulligan</artist>
+         <artist>Bob Brookmeyer</artist>
+         <artist>Wyatt Ruther</artist>
+         <artist>Gus Johnson</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1964-01-10</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:10</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Art Farmer</artist>
+         <artist>Jim Hall</artist>
+         <artist>Steve Swallow</artist>
+         <artist>Walter Perkins</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1964-05-09</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:16</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Art Pepper</artist>
+         <artist>Frank Strazzeri</artist>
+         <artist>Fred Marshall</artist>
+         <artist>Bill Goodwin</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1968-06-18</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:55</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Charles Lloyd Quartet</artist>
+         <artist>Charles Lloyd</artist>
+         <artist>Keith Jarrett</artist>
+         <artist>Ron McClure</artist>
+         <artist>Jack DeJohnette</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-03-01</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:01</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Paul Winter</artist>
+         <artist>Richard Whitsell</artist>
+         <artist>Jay Cameron</artist>
+         <artist>Warren Bernhardt</artist>
+         <artist>Arthur Harper, Jr.</artist>
+         <artist>Ben Riley</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-09-25</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:05</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Bola Sete &amp; Vince Guaraldi Trio</artist>
+         <artist>Bola Sete</artist>
+         <artist>Vince Guaraldi</artist>
+         <artist>Fred Marshall</artist>
+         <artist>Jerry Granelli</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-06-20</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:05</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Turk Murphy &amp; The San Francisco Jazz Band</artist>
+         <artist>Turk Murphy</artist>
+         <artist>Bob Neighbor</artist>
+         <artist>Bob Helm</artist>
+         <artist>Peter Clute</artist>
+         <artist>Harold Johnson</artist>
+         <artist>Lloyd Byasse</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-05-xx</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:03</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <artist>Woody Herman</artist>
+         <artist>Bill Chase</artist>
+         <artist>Dave Gale</artist>
+         <artist>Billy Hunt</artist>
+         <artist>Phil Wilson</artist>
+         <artist>Henry Southall</artist>
+         <artist>Bob Rudolph</artist>
+         <artist>Sal Nistico</artist>
+         <artist>Jackie Stevens</artist>
+         <artist>Bobby Jones</artist>
+         <artist>Frank Hittner</artist>
+         <artist>Nat Pierce</artist>
+         <artist>Chuck Andrus</artist>
+         <artist>Jake Hanna</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-06-01</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:13</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <artist>Woody Herman</artist>
+         <artist>Bill Chase</artist>
+         <artist>Dave Gale</artist>
+         <artist>Billy Hunt</artist>
+         <artist>Phil Wilson</artist>
+         <artist>Henry Southall</artist>
+         <artist>Bob Rudolph</artist>
+         <artist>Sal Nistico</artist>
+         <artist>Jackie Stevens</artist>
+         <artist>Bobby Jones</artist>
+         <artist>Paul Fontaine</artist>
+         <artist>Nat Pierce</artist>
+         <artist>Chuck Andrus</artist>
+         <artist>Jake Hanna</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-06-01</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:08</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <artist>Woody Herman</artist>
+         <artist>Bill Chase</artist>
+         <artist>Paul Fontaine</artist>
+         <artist>Dabby Nolan</artist>
+         <artist>Gerry Lamy</artist>
+         <artist>Billy Hunt</artist>
+         <artist>Phil Wilson</artist>
+         <artist>Henry Southall</artist>
+         <artist>Kenny Wexsel</artist>
+         <artist>Sal Nistico</artist>
+         <artist>Carmen Leggio</artist>
+         <artist>Jackie Stevens</artist>
+         <artist>Tom Anastos</artist>         
+         <artist>Nat Pierce</artist>
+         <artist>Chuck Andrus</artist>
+         <artist>Jake Hanna</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-05-16</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:06</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Moden Jazz Quartet</artist>
+         <artist>John Lewis</artist>
+         <artist>Milt Jackson</artist>
+         <artist>Percy Heath</artist>
+         <artist>Connie Kay</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1961-10-17</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:01</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Dave Brubeck Quartet</artist>
+         <artist>Dave Brubeck</artist>
+         <artist>Paul Desmond</artist>
+         <artist>Gene Wright</artist>
+         <artist>Joe Morello</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1968-04-22</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:52</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Thad Jones/Mel Lewis Orchestra</artist>
+         <artist>Thad Jones</artist>
+         <artist>Snooky Young</artist>
+         <artist>Randy Brecker</artist>
+         <artist>Danny Moore</artist>
+         <artist>Garnett Brown</artist>
+         <artist>Benny Powell</artist>
+         <artist>Bob Brookmeyer</artist>
+         <artist>Jimmy Knepper</artist>
+         <artist>Seldon Powell</artist>
+         <artist>Jerry Dodgion</artist>
+         <artist>Jerome Richardson</artist>
+         <artist>Pepper Adams</artist>
+         <artist>Roland Hanna</artist>
+         <artist>Richard Davis</artist>
+         <artist>Mel Lewis</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1961-01-17</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:58</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Dizzy Gillespie</artist>
+         <artist>Leo Wright</artist>
+         <artist>Lalo Schifrin</artist>
+         <artist>Bob Cunningham</artist>
+         <artist>Chuck Lampkin</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1961-10-24</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:00</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Cannonball Adderley</artist>
+         <artist>Nat Adderley</artist>
+         <artist>Joe Zawinul</artist>
+         <artist>Sam Jones</artist>
+         <artist>Louis Hayes</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-12-06</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:09</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Muggsy Spanier</artist>
+         <artist>Robert Mielke</artist>
+         <artist>Darnell Howard</artist>
+         <artist>Joe Sullivan</artist>
+         <artist>George Pops Foster</artist>
+         <artist>Earl Watkins</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-12-18</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:55</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Joe Sullivan</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1964-05-02</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:38</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Mel Torme</artist>
+         <artist>Gary Long</artist>
+         <artist>Perry Lind</artist>
+         <artist>Benny Barth</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-01-02</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:06</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Jimmy Witherspoon</artist>
+         <artist>Ben Webster</artist>
+         <artist>Vince Guaraldi</artist>
+         <artist>Monty Budwig</artist>
+         <artist>Colin Bailey</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-03-15</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:38</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Carmen McRae</artist>
+         <artist>Norman Simmons</artist>
+         <artist>Victor Sproles</artist>
+         <artist>Walter Perkins</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-02-22</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:11</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true" type="band">Lambert, Hendricks &amp; Bavan</artist>
+         <artist>Dave Lambert</artist>
+         <artist>Jon Hendricks</artist>
+         <artist>Yolanda Bavan</artist>
+         <artist>Pony Poindexter</artist>
+         <artist>Gildo Mahones</artist>
+         <artist>George Tucker</artist>
+         <artist>Jimmie Smith</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1968-08-21</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:58</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Count Basie</artist>
+         <artist>Norman Keenan</artist>
+         <artist>Freddie Green</artist>
+         <artist>Sonny Payne</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-02-15</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:05</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Earl Hines</artist>
+         <artist>John Green</artist>
+         <artist>Earl Watkins</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-10-26</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:03</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Jimmy Rushing</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1963-01-23</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:28:59</length>
+      <source>DVD</source>
+      <format resolution="NTSC">DivX 5</format>
+      <quality/>
+      <lineage/>
+      <remarks>records: played to interviews w. Louis Armstrong (t,v,speech)</remarks>
+      <artists>
+         <artist main="true">Louis Armstrong</artist>
+      </artists>
+      <title label="Efor">Jazz Casual: The Complete Series</title>
+   </session>
 </KC_ROIO>
