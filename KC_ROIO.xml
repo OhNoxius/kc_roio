@@ -2123,7 +2123,7 @@
          <country>U.S.A.</country>
       </location>
       <length>0:28:49</length>
-      <source/>
+      <source>DVD</source>
       <format resolution="NTSC">DVD</format>
       <quality/>
       <lineage/>
@@ -2135,7 +2135,7 @@
          <artist>Ron McClure</artist>
          <artist>Jack DeJohnette</artist>
       </artists>
-      <title/>
+      <title label="Eforfilms">Keith Jarrett ‎– Directions: In The Charles Lloyd Mood</title>
    </session>
    <session id="id0x1300260" av="V">
       <date type="xs:date">1982-07-25</date>
@@ -25083,13 +25083,35 @@
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true">Ben Webster</artist>
+         <artist main="true">Jimmy Witherspoon</artist>
+         <artist>Ben Webster</artist>
          <artist>Vince Guaraldi</artist>
          <artist>Monty Budwig</artist>
-         <artist>Colin Bailey</artist>
-         <artist>Jimmy Witherspoon</artist>
+         <artist>Colin Bailey</artist>   
       </artists>
-      <title>Four Tenors (Idem)</title>
+      <title label="Idem">Four Tenors (Idem)</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1962-01-02</date>
+      <location>
+         <event type="tvshow">Jazz Casual</event>
+         <city>San Francisco CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:29:30</length>
+      <source>DVD</source>
+      <format resolution="PAL">DVD</format>
+      <quality/>
+      <lineage/>
+      <remarks/>
+      <artists>
+         <artist main="true">Jimmy Witherspoon</artist>
+         <artist>Ben Webster</artist>
+         <artist>Vince Guaraldi</artist>
+         <artist>Monty Budwig</artist>
+         <artist>Colin Bailey</artist>         
+      </artists>
+      <title label="Idem">Ralph Gleason's Jazz Casual: Jimmy Witherspoon &amp; Ben Webster; Jimmy Rushing (Idem IDVD1002)</title>
    </session>
    <session id="d1e36152" av="V" official="true">
       <date type="xs:date">1962-03-23</date>
@@ -31316,7 +31338,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:09</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31338,7 +31360,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:07</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31359,7 +31381,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:02</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31381,7 +31403,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:02</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31402,7 +31424,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:10</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31423,7 +31445,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:16</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31444,7 +31466,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:55</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31466,7 +31488,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:01</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31489,7 +31511,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:05</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31511,7 +31533,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:05</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31535,7 +31557,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:03</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31567,7 +31589,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:13</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31599,7 +31621,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:08</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31633,7 +31655,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:06</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31655,7 +31677,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:01</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31677,7 +31699,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:52</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31710,7 +31732,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:58</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31732,7 +31754,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:00</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31754,7 +31776,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:09</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31777,7 +31799,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:55</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31795,7 +31817,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:38</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31816,7 +31838,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:06</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31838,7 +31860,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:38</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31859,7 +31881,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:11</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31884,7 +31906,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:58</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31905,7 +31927,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:05</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31925,7 +31947,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:29:03</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks/>
@@ -31943,7 +31965,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </location>
       <length>0:28:59</length>
       <source>DVD</source>
-      <format resolution="NTSC">DivX 5</format>
+      <format>DivX 5</format>
       <quality/>
       <lineage/>
       <remarks>records: played to interviews w. Louis Armstrong (t,v,speech)</remarks>
