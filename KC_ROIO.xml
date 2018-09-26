@@ -31974,4 +31974,182 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       </artists>
       <title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
    </session>
+   <session av="V">
+      <date type="xs:date">1956-xx-xx</date>
+      <location>
+         <event type="festival">Jazz at the Philharmonic</event>
+         <country>Belgium</country>
+      </location>
+      <length>0:37:28</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Ella Fitzgerald</artist>
+         <artist>Oscar Peterson</artist>
+         <artist>Herb Ellis</artist>
+         <artist>Ray Brown</artist>
+         <artist>Jo Jones</artist>
+         <artist>Roy Eldridge</artist>
+         <dummy>Jimmy Jones??</dummy>
+      </artists>
+      <title>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1959-10-29</date>
+      <location>
+         <event type="festival">Newport Jazz Festival te Antwerpen</event>
+         <venue>Zaal Majestic</venue>
+         <city>Antwerpen</city>
+         <country>Belgium</country>
+      </location>
+      <length>1:06:52</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks>buck clayton: ORTF-TV-17/09/1960. jam session: unknown. dizzy gillespie: RTF-TV-60/7/30</remarks>
+      <artists>
+         <artist main="true" type="band">Various Artists</artist>
+         <dummy type="band">Dizzy Gillespie Quintet</dummy>
+         <artist>Dizzy Gillespie</artist>
+         <artist>Leo N. Wright</artist>
+         <artist>Junior Mance</artist>
+         <artist>Art Davis</artist>
+         <artist>Teddy Stewart</artist>
+         <artist>Jimmy Rushing</artist>
+         <dummy type="band">Buck Clayton All Stars</dummy>
+         <artist>Buck Clayton</artist>
+         <artist>Buddy Tate</artist>
+         <artist>Dickie Wells</artist>
+         <artist>Earl Warren</artist>
+         <artist>Emmett Berry</artist>
+         <artist>Al Williams</artist>
+         <artist>George Wein</artist>
+         <artist>Gene Ramey</artist>
+         <artist>Herb Lovelle</artist>
+         <dummy type="band">Jam Session</dummy>
+         <artist>Dizzy Gillespie</artist>
+         <artist>Leo N. Wright</artist>
+         <artist>George Wein</artist>
+         <artist>Art Davis</artist>
+         <artist>Teddy Stewart</artist>
+         <artist>Buck Clayton</artist>
+         <artist>Buddy Tate</artist>
+         <artist>Dickie Wells</artist>
+         <artist>Earl Warren</artist>
+         <artist>Emmett Berry</artist>
+         <artist>Jacques Sells</artist>
+         <host>Willis Conover</host>
+      </artists>
+      <title>DVD-114  1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1957-05-03or04</date>
+      <location>
+         <event type="festival">Jazz at the Philharmonic</event>
+         <venue>Paleis voor Schone Kunsten</venue>
+         <city>Brussel</city>
+         <country>Belgium</country>
+      </location>
+      <length>0:24:46</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks>(Stuff Smith (vln) belonged to the programm became ill &amp; had to return to USA) an obviously 2nd part of the concert announced with Roy Eldridge is missing</remarks>
+      <artists>
+         <artist main="true">Oscar Peterson</artist>
+         <artist>Herb Ellis</artist>
+         <artist>Ray Brown</artist>
+      </artists>
+      <title>DVD-113  JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1966-05-xx</date>
+      <location>
+         <event type="tvshow">Jazz pour tous</event>
+         <venue>Blue Note</venue>
+         <city>Brussel</city>
+         <country>Belgium</country>
+      </location>
+      <length>0:44:04</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks>Show time at the Blue Note. TV-67/1/7 Sat.</remarks>
+      <artists>
+         <artist main="true">Ted Curson</artist>
+         <artist>Pony Poindexter</artist>
+         <artist>Booker Ervin</artist>
+         <artist>Nathan Davis</artist>
+         <artist>Kenny Drew</artist>
+         <artist>Jimmy Woode</artist>
+         <artist>Edgar Bateman</artist>
+      </artists>
+      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1963-xx-xx</date>
+      <location>
+         <event type="tvshow">Jazz pour tous</event>        
+         <country>Belgium</country>
+      </location>
+      <length>0:26:51</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks></remarks>
+      <artists>
+         <artist main="true">Rahsaan Roland Kirk</artist>
+         <artist>George Gruntz</artist>
+         <artist>Guy Pedersen</artist>
+         <artist>Daniel Humair</artist>
+      </artists>
+      <title>DVD-156  JazzPourTous-Art Blakey; Quincy Jones;Ch.Mingus &amp; E.Dolphy; Bobby Jaspar etc.</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1967-xx-xx</date>
+      <location>
+         <event type="tvshow">Face au public</event>
+         <city>Brussel</city>
+         <country>Belgium</country>
+      </location>
+      <length>0:31:47</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks>TV-67/9/3 Sun.; 32min., Philippe Marouani (dir)</remarks>
+      <artists>
+         <artist main="true">Jackie Davis</artist>
+      </artists>
+      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1962-01-13</date>
+      <location>
+         <event type="tvshow">Jazz pour tous</event>
+         <city>Brussel</city>
+         <country>Belgium</country>
+      </location>
+      <length>0:27:34</length>
+      <source></source>
+      <format resolution="PAL 1/2">mpg</format>
+      <quality>B-</quality>
+      <lineage trader="Franz Hoffman"/>
+      <remarks>TV-62/1/16;</remarks>
+      <artists>
+         <artist main="true">Bobby Jaspar</artist>
+         <artist>René Thomas</artist>
+         <artist>Benoît Quersin</artist>
+         <artist>Amedeo Tommasi</artist>
+         <artist>Daniel Humair</artist>
+      </artists>
+      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+   </session>
 </KC_ROIO>
