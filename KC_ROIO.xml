@@ -9095,6 +9095,7 @@
    <session id="id0x57ada40" av="V">
       <date type="xs:date">1980-11-02</date>
       <location>
+         <event type="festival">Berliner Jazztage</event>
          <city>Berlin</city>
          <country>Germany</country>
       </location>
@@ -25087,7 +25088,7 @@
          <artist>Ben Webster</artist>
          <artist>Vince Guaraldi</artist>
          <artist>Monty Budwig</artist>
-         <artist>Colin Bailey</artist>   
+         <artist>Colin Bailey</artist>
       </artists>
       <title label="Idem">Four Tenors (Idem)</title>
    </session>
@@ -25109,7 +25110,7 @@
          <artist>Ben Webster</artist>
          <artist>Vince Guaraldi</artist>
          <artist>Monty Budwig</artist>
-         <artist>Colin Bailey</artist>         
+         <artist>Colin Bailey</artist>
       </artists>
       <title label="Idem">Ralph Gleason's Jazz Casual: Jimmy Witherspoon &amp; Ben Webster; Jimmy Rushing (Idem IDVD1002)</title>
    </session>
@@ -31639,7 +31640,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Sal Nistico</artist>
          <artist>Carmen Leggio</artist>
          <artist>Jackie Stevens</artist>
-         <artist>Tom Anastos</artist>         
+         <artist>Tom Anastos</artist>
          <artist>Nat Pierce</artist>
          <artist>Chuck Andrus</artist>
          <artist>Jake Hanna</artist>
@@ -31981,11 +31982,11 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>0:37:28</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Ella Fitzgerald</artist>
          <artist>Oscar Peterson</artist>
@@ -32006,7 +32007,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>1:06:52</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
@@ -32044,7 +32045,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Jacques Sells</artist>
          <host>Willis Conover</host>
       </artists>
-      <title>DVD-114  1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</title>
+      <title>DVD-114 1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</title>
    </session>
    <session av="V">
       <date type="xs:date">1957-05-03or04</date>
@@ -32055,7 +32056,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>0:24:46</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
@@ -32065,7 +32066,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Herb Ellis</artist>
          <artist>Ray Brown</artist>
       </artists>
-      <title>DVD-113  JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</title>
+      <title>DVD-113 JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</title>
    </session>
    <session av="V">
       <date type="xs:date">1966-05-xx</date>
@@ -32076,7 +32077,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>0:44:04</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
@@ -32090,27 +32091,27 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Jimmy Woode</artist>
          <artist>Edgar Bateman</artist>
       </artists>
-      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+      <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
    </session>
    <session av="V">
       <date type="xs:date">1963-xx-xx</date>
       <location>
-         <event type="tvshow">Jazz pour tous</event>        
+         <event type="tvshow">Jazz pour tous</event>
          <country>Belgium</country>
       </location>
       <length>0:26:51</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
-      <remarks></remarks>
+      <remarks/>
       <artists>
          <artist main="true">Rahsaan Roland Kirk</artist>
          <artist>George Gruntz</artist>
          <artist>Guy Pedersen</artist>
          <artist>Daniel Humair</artist>
       </artists>
-      <title>DVD-156  JazzPourTous-Art Blakey; Quincy Jones;Ch.Mingus &amp; E.Dolphy; Bobby Jaspar etc.</title>
+      <title>DVD-156 JazzPourTous-Art Blakey; Quincy Jones;Ch.Mingus &amp; E.Dolphy; Bobby Jaspar etc.</title>
    </session>
    <session av="V">
       <date type="xs:date">1967-xx-xx</date>
@@ -32120,7 +32121,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>0:31:47</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
@@ -32128,7 +32129,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <artists>
          <artist main="true">Jackie Davis</artist>
       </artists>
-      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+      <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
    </session>
    <session av="V">
       <date type="xs:date">1962-01-13</date>
@@ -32138,7 +32139,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <country>Belgium</country>
       </location>
       <length>0:27:34</length>
-      <source></source>
+      <source/>
       <format resolution="PAL 1/2">mpg</format>
       <quality>B-</quality>
       <lineage trader="Franz Hoffman"/>
@@ -32150,6 +32151,6 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Amedeo Tommasi</artist>
          <artist>Daniel Humair</artist>
       </artists>
-      <title>DVD-157 JazzPourTous  Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+      <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
    </session>
 </KC_ROIO>
