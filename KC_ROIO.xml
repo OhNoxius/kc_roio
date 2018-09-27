@@ -25311,22 +25311,26 @@
          <city>Ontaria CA</city>
          <country>U.S.A.</country>
       </location>
-      <length>2:46:41</length>
-      <source channel="FR3"/>
+      <length>4:36:05</length>
+      <source/>
       <format resolution="NTSC">DVD</format>
       <quality>C+</quality>
-      <lineage trader="Bruce Remy"/>
-      <remarks>2xDVD. re-encoded probably multiple times</remarks>
+      <lineage trader="TTD">ABC In Concert Broadcast to Beta NTSC to DVD to DVD Clone</lineage>
+      <remarks>ABC In Concert TV Broadcast
+         With synchronized FM Audio
+         From the Flying M Archive
+         Presented by Krw_co</remarks>
       <artists>
          <artist main="true" type="band">Various Artists</artist>
          <artist type="band">Rare Earth</artist>
          <artist type="band">Earth, Wind &amp; Fire</artist>
          <artist type="band">The Eagles</artist>
+         <artist>Jackson Browne</artist>
          <artist type="band">Seals &amp; Crofts</artist>
-         <artist type="band">The Eagles</artist>
          <artist>Black Oak Arkansas</artist>
          <artist>Black Sabath</artist>
          <artist>Emerson, Lake &amp; Palmer</artist>
+         <artist type="band">Deep Purple</artist>
       </artists>
       <title/>
    </session>
@@ -32150,6 +32154,31 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Benoît Quersin</artist>
          <artist>Amedeo Tommasi</artist>
          <artist>Daniel Humair</artist>
+      </artists>
+      <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1962-01-13</date>
+      <location>
+         <event type="festival">Jazzfest Wien</event>
+         <venue>Arena</venue>
+         <city>Vienna</city>
+         <country>Austria</country>
+      </location>
+      <length>1:09:43</length>
+      <source>TV</source>
+      <format resolution="PAL">mpg</format>
+      <quality>B+</quality>
+      <lineage trader="TTD">ORF TV broadcast > analogue cable > VCR > VHS videotape > DVDR > DVD > HDD</lineage>
+      <remarks>The Arena was situated in the former slaughterhouse St. Marx.</remarks>
+      <artists>
+         <artist main="true" type="band">Pat Metheny Group</artist>
+         <artist>Pat Metheny</artist>
+         <artist>Lyle Mays</artist>
+         <artist>Steve Rodby</artist>
+         <artist>Paul Wertico</artist>
+         <artist>Armando Marcal</artist>
+         <artist>Pedro Aznar</artist>
       </artists>
       <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
    </session>
