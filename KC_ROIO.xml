@@ -14442,7 +14442,7 @@
          <artist>Gayle Moran</artist>
          <artist>Don Alias</artist>
          <artist>Stanley Clarke</artist>
-         <artist>Tommy Brechtlein</artist>
+         <artist>Tom Brechtlein</artist>
          <artist>John Denske</artist>
          <artist>George Duke</artist>
       </artists>
@@ -30302,7 +30302,7 @@
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Sadi Quartet</artist>
+         <dummy main="true" type="band">Sadi Quartet</dummy>
          <artist>Sadi</artist>
          <artist>Bob Porter</artist>
          <artist>Roger Vanhaverbeke</artist>
@@ -32148,7 +32148,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
    </session>
    <session av="V">
-      <date type="xs:date">1962-01-13</date>
+      <date type="xs:date">1991-06-25</date>
       <location>
          <event type="festival">Jazzfest Wien</event>
          <venue>Arena</venue>
@@ -32170,7 +32170,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Armando Marcal</artist>
          <artist>Pedro Aznar</artist>
       </artists>
-      <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+      <title></title>
    </session>
    <session av="V" official="true">
       <date type="xs:date">1974-06-30</date>
@@ -32205,6 +32205,6 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>George Mraz</artist>
          <artist>Mel Lewis</artist>
       </artists>
-      <title></title>
+      <title/>
    </session>
 </KC_ROIO>
