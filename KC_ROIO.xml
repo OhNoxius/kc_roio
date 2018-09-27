@@ -2680,25 +2680,6 @@
       </artists>
       <title/>
    </session>
-   <session id="id0x15f27b0" av="V">
-      <date type="xs:date">2001-xx-xx</date>
-      <location>
-         <venue>NTV Russian Television</venue>
-         <country>Russia</country>
-      </location>
-      <length>0:42:20</length>
-      <source/>
-      <format>avi</format>
-      <quality>A-</quality>
-      <lineage/>
-      <remarks/>
-      <artists>
-         <artist main="true">Chick Corea</artist>
-         <artist>Avishai Cohen</artist>
-         <artist>Jeff Ballard</artist>
-      </artists>
-      <title/>
-   </session>
    <session id="id0x1605c20" av="V">
       <date type="xs:date">1997-07-17</date>
       <location>
@@ -16176,7 +16157,7 @@
          <artist main="true">John Coltrane</artist>
          <artist>McCoy Tyner</artist>
          <artist>Reggie Workman</artist>
-         <artist>Arthur Davis</artist>
+         <artist>Art Davis</artist>
          <artist>Elvin Jones</artist>
       </artists>
       <title/>
@@ -16198,7 +16179,7 @@
          <artist main="true">John Coltrane</artist>
          <artist>McCoy Tyner</artist>
          <artist>Reggie Workman</artist>
-         <artist>Arthur Davis</artist>
+         <artist>Art Davis</artist>
          <artist>Elvin Jones</artist>
       </artists>
       <title/>
@@ -26940,8 +26921,8 @@
          <country>Russia</country>
       </location>
       <length>0:42:21</length>
-      <source/>
-      <format>mpg</format>
+      <source station="NTV">TV</source>
+      <format resolution="">Divx 5</format>
       <quality>A-</quality>
       <lineage/>
       <remarks>(brownish) black and white</remarks>
@@ -31530,7 +31511,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Bola Sete &amp; Vince Guaraldi Trio</artist>
+         <dummy main="true" type="band">Bola Sete &amp; Vince Guaraldi Trio</dummy>
          <artist>Bola Sete</artist>
          <artist>Vince Guaraldi</artist>
          <artist>Fred Marshall</artist>
@@ -31552,7 +31533,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Turk Murphy &amp; The San Francisco Jazz Band</artist>
+         <dummy main="true" type="band">Turk Murphy &amp; The San Francisco Jazz Band</dummy>
          <artist>Turk Murphy</artist>
          <artist>Bob Neighbor</artist>
          <artist>Bob Helm</artist>
@@ -31576,7 +31557,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <dummy main="true" type="band">Woody Herman &amp; his Swingin' Herd</dummy>
          <artist>Woody Herman</artist>
          <artist>Bill Chase</artist>
          <artist>Dave Gale</artist>
@@ -31608,7 +31589,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <dummy main="true" type="band">Woody Herman &amp; his Swingin' Herd</dummy>
          <artist>Woody Herman</artist>
          <artist>Bill Chase</artist>
          <artist>Dave Gale</artist>
@@ -31640,7 +31621,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Woody Herman &amp; his Swingin' Herd</artist>
+         <dummy main="true" type="band">Woody Herman &amp; his Swingin' Herd</dummy>
          <artist>Woody Herman</artist>
          <artist>Bill Chase</artist>
          <artist>Paul Fontaine</artist>
@@ -31900,7 +31881,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true" type="band">Lambert, Hendricks &amp; Bavan</artist>
+         <dummy main="true" type="band">Lambert, Hendricks &amp; Bavan</dummy>
          <artist>Dave Lambert</artist>
          <artist>Jon Hendricks</artist>
          <artist>Yolanda Bavan</artist>
@@ -32190,5 +32171,40 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Pedro Aznar</artist>
       </artists>
       <title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+   </session>
+   <session av="V" official="true">
+      <date type="xs:date">1974-06-30</date>
+      <location>
+         <event type="festival">Kongsberg Jazz Festival</event>
+         <city>Kongsberg</city>
+         <country>Norway</country>
+      </location>
+      <length>0:41:45</length>
+      <source station="NRK">web</source>
+      <format resolution="720p">AVC</format>
+      <quality/>
+      <lineage/>
+      <remarks>First broadcast by NRK1 in their "Jazzforum" program on January 2, 1975 </remarks>
+      <artists>
+         <artist main="true" type="band">Thad Jones/Mel Lewis Orchestra</artist>
+         <artist>Thad Jones</artist>
+         <artist>Jon Faddis</artist>
+         <artist>Steve Furtado</artist>
+         <artist>Jim Bossy</artist>
+         <artist>Cecil Bridgewater</artist>
+         <artist>Jimmy Knepper</artist>
+         <artist>Billy Campbell</artist>
+         <artist>Quentin Jackson</artist>
+         <artist>Dave Taylor</artist>
+         <artist>Jerry Dodgion</artist>
+         <artist>Ed Xiques</artist>
+         <artist>Billy Harper</artist>
+         <artist>Ron Bridgewater</artist>
+         <artist>Pepper Adams</artist>
+         <artist>Walter Norris</artist>
+         <artist>George Mraz</artist>
+         <artist>Mel Lewis</artist>
+      </artists>
+      <title></title>
    </session>
 </KC_ROIO>
