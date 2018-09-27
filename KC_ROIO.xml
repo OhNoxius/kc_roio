@@ -25328,9 +25328,18 @@
          <artist>Jackson Browne</artist>
          <artist type="band">Seals &amp; Crofts</artist>
          <artist>Black Oak Arkansas</artist>
-         <artist>Black Sabath</artist>
-         <artist>Emerson, Lake &amp; Palmer</artist>
+         <artist type="band">Black Sabath</artist>
+         <artist>Ozzy Osbourne</artist>
+         <artist type="band">Emerson, Lake &amp; Palmer</artist>
+         <artist>Keith Emerson</artist>
+         <artist>Greg Lake</artist>
+         <artist>Carl Palmer</artist>
          <artist type="band">Deep Purple</artist>
+         <artist>David Coverdale</artist>
+         <artist>Ritchie Blackmore</artist>
+         <artist>Glen Hughes</artist>
+         <artist>Jon Lord</artist>
+         <artist>Ian Paice</artist>
       </artists>
       <title/>
    </session>
