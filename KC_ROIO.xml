@@ -1407,15 +1407,27 @@
          <city>Paris</city>
          <country>France</country>
       </location>
-      <length/>
-      <source>TV</source>
+      <length>0:33:56</length>
+      <source>REEL</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage/>
-      <remarks/>
+      <lineage trader="Sergey"></lineage>
+      <remarks>French TV archive master tape</remarks>
       <artists>
-         <artist main="true">Cannonball Adderley</artist>
+         <artist type="band" main="true">Various Artists</artist>
+         <dummy type="band">J. J. Johnson Quartet</dummy>
+         <artist>J. J. Johnson</artist>
+         <artist>Victor Feldman</artist>
+         <artist>Sam Jones</artist>
+         <artist>Louis Hayes</artist>
+         <dummy type="band">Cannonball Adderley Quintet</dummy>
+         <artist>Cannonball Adderley</artist>
          <artist>Nat Adderley</artist>
+         <artist>Victor Feldman</artist>
+         <artist>Sam Jones</artist>
+         <artist>Louis Hayes</artist>
+         <dummy type="band">Stan Getz Quartet</dummy>
+         <artist>Stan Getz</artist>
          <artist>Victor Feldman</artist>
          <artist>Sam Jones</artist>
          <artist>Louis Hayes</artist>
@@ -10182,28 +10194,6 @@
       <remarks/>
       <artists>
          <artist main="true">The Spinners</artist>
-      </artists>
-      <title/>
-   </session>
-   <session id="id0x5bb8d10" av="V">
-      <date type="xs:date">1960-11-25</date>
-      <location>
-         <event type="festival">Jazz at the Philharmonic</event>
-         <venue>Salle Pleyel</venue>
-         <city>Paris</city>
-         <country>France</country>
-      </location>
-      <length/>
-      <source>TV</source>
-      <format resolution="PAL">DVD</format>
-      <quality>A-</quality>
-      <lineage/>
-      <remarks/>
-      <artists>
-         <artist main="true">Stan Getz</artist>
-         <artist>Victor Feldman</artist>
-         <artist>Sam Jones</artist>
-         <artist>Louis Hayes</artist>
       </artists>
       <title/>
    </session>
