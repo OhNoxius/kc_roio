@@ -1411,7 +1411,7 @@
       <source>REEL</source>
       <format resolution="PAL">DVD</format>
       <quality>A-</quality>
-      <lineage trader="Sergey"></lineage>
+      <lineage trader="Sergey"/>
       <remarks>French TV archive master tape</remarks>
       <artists>
          <artist type="band" main="true">Various Artists</artist>
@@ -32027,7 +32027,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
          <artist>Dickie Wells</artist>
          <artist>Earl Warren</artist>
          <artist>Emmett Berry</artist>
-         <artist>Jacques Sells</artist>
+         <artist>Jack Sels</artist>
          <host>Willis Conover</host>
       </artists>
       <title>DVD-114 1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</title>
