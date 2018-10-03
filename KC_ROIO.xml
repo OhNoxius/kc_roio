@@ -11658,7 +11658,8 @@
       <lineage/>
       <remarks/>
       <artists>
-         <artist main="true">Dave Brubeck</artist>
+         <artist main="true" type="band">Dave Brubeck Quartet</artist>
+         <artist>Dave Brubeck</artist>
          <artist>Paul Desmond</artist>
          <artist>Eugene Wright</artist>
          <artist>Joe Morello</artist>
@@ -30186,7 +30187,8 @@
       <lineage/>
       <remarks>11/12/1965 - 32 min JAZZ POUR TOUS Concert de Dave Brubeck accompagné de Paul Desmond, Gene Wright et Joe Morello. Paul Roland (Réalisateur), Nicolas Résimont (Producteur)</remarks>
       <artists>
-         <artist main="true">Dave Brubeck</artist>
+         <artist main="true" type="band">Dave Brubeck Quartet</artist>
+         <artist>Dave Brubeck</artist>
          <artist>Paul Desmond</artist>
          <artist>Eugene Wright</artist>
          <artist>Joe Morello</artist>
