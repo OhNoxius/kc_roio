@@ -28759,14 +28759,76 @@
          <artist>Freddie Hubbard</artist>
          <dummy>Cedar Walton ?</dummy>
          <dummy>Jymie Merritt ?</dummy>
-         <dummy type="band">Cannonball Adderley Quintet</dummy>
-         <artist>Cannonball Adderley</artist>
-         <artist>Julian Adderley</artist>
-         <artist>Joe Zawinul</artist>
-         <dummy>...(cb)</dummy>
-         <dummy>...(d)</dummy>
       </artists>
       <title>JAZZ IN ITALY DVD</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1962-10-29</date>
+      <location>
+         <event type="tvshow">Jazz Scene USA</event>
+         <country>U.S.A.</country>
+      </location>
+      <length>0:03:44</length>
+      <source station="RAI">TV</source>
+      <format resolution="PAL">DVD</format>
+      <quality>B-</quality>
+      <lineage>Rai Broadcast taped (vhs) by Myself, Transferred by Dextrane</lineage>
+      <remarks>part from the Jazz Scene USA show</remarks>
+      <artists>         
+         <artist main="true">Cannonball Adderley</artist>
+         <artist>Nat Adderley</artist>
+         <artist>Yusef Lateef</artist>
+         <artist>Joe Zawinul</artist>
+         <artist>Sam Jones</artist>
+         <artist>Louis Hayes</artist>
+      </artists>
+      <title>JAZZ IN ITALY DVD</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1962-10-29</date>
+      <location>
+         <event type="tvshow">Jazz Scene USA</event>
+         <city>Los Angeles CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>25min</length>
+      <source>DVDrip?</source>
+      <format resolution="576x432">DivX 5</format>
+      <quality>B+</quality>
+      <lineage trader="franco3 (soulseek)"></lineage>
+      <remarks></remarks>
+      <artists>         
+         <artist main="true">Cannonball Adderley</artist>
+         <artist>Nat Adderley</artist>
+         <artist>Yusef Lateef</artist>
+         <artist>Joe Zawinul</artist>
+         <artist>Sam Jones</artist>
+         <artist>Louis Hayes</artist>
+      </artists>
+      <title>Shanachie productions</title>
+   </session>
+   <session av="V">
+      <date type="xs:date">1962-06-04</date>
+      <location>
+         <event type="tvshow">Jazz Scene USA</event>
+         <city>Los Angeles CA</city>
+         <country>U.S.A.</country>
+      </location>
+      <length>25min</length>
+      <source>DVDrip?</source>
+      <format resolution="576x432">DivX 5</format>
+      <quality>B+</quality>
+      <lineage trader="franco3 (soulseek)"></lineage>
+      <remarks></remarks>
+      <artists>         
+         <artist main="true">Teddy Edwards</artist>
+         <artist>Freddie Hill</artist>
+         <artist>Richard Boone</artist>
+         <artist>John Houston</artist>
+         <artist>Stan Gilbert</artist>
+         <artist>Doug Sides</artist>
+      </artists>
+      <title>Shanachie productions</title>
    </session>
    <session id="d1e41476" av="V">
       <date type="xs:date">1959-xx-xx</date>
