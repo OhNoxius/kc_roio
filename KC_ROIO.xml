@@ -32863,7 +32863,6 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
   <session av="V">
     <date>1965-09-16</date>
     <location>
-      <event type="tvshow">NDR Jazzworkshop</event>
       <venue>Grace Cathedral</venue>
       <city>San Francisco CA</city>
       <country>U.S.A.</country>
@@ -32900,18 +32899,17 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
     <product label="Eagle Vision">Love You Madly/A Concert of Sacred Music at Grace Cathedral (EREDV 490)</product>
   </session>
   <session av="V">
-    <date>1967-xx-xx</date>
+    <date>1965-xx-xx</date>
     <location>
-      <event type="tvshow">NDR Jazzworkshop</event>
-      <city>Hamburg</city>
-      <country>Germany</country>
+      <country>U.S.A.</country>
     </location>
     <length>0:59:07</length>
     <source channel=""/>
     <format resolution="PAL">DVD</format>
     <quality/>
     <lineage/>
-    <remarks/>
+    <remarks>Duke Ellington in interview, rehearsing, recording and touring together with performance footage of his orchestra:- Cat Anderson, Cootie Williams, Mercer Ellington, Herbie Jones, trumpet; Chuck Connors, Lawrence Brown, Buster Cooper, trombone; Paul Gonsalves, Jimmy Hamilton, Johnny Hodges, Russell Procope, Harry Carney, reeds; Duke Ellington, piano; John Lamb, acoustic double bass; Louie Bellson, drums; The Herman McCoy Choir, Jon Hendricks, Esther Marrow, vocal; Bunny Briggs, taps. Dizzy Gillespie, Earl Hines, Jon Hendricks, Russell Procope and Bunny Briggs are interviewed at The Monterey Jazz Festival. (Personnel on Camera)
+      -  Recorded over a period of two months in 1965 at Basin Street West in North Beach, Coast Recorders, The Fairmont Hotel and Grace Cathedral, San Francisco, and at the 1965 Monterey Jazz Festival.</remarks>
     <artists>
       <artist main="true">Duke Ellington</artist>
       <commentary>Ralph J. Gleason</commentary>
