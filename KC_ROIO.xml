@@ -32757,7 +32757,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
     <lineage/>
     <remarks/>
     <artists>
-      <artist main="true">Friedrich Gulda</artist>
+      <artist main="true">Keith Jarrett</artist>
       <artist>Charlie Haden</artist>
       <artist>Paul Motian</artist>
     </artists>
@@ -32859,5 +32859,64 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       <artist>Fred Braceful</artist>
     </artists>
     <title label="">NDR Jazzworkshop Compilation</title>
+  </session>
+  <session av="V">
+    <date>1965-09-16</date>
+    <location>
+      <event type="tvshow">NDR Jazzworkshop</event>
+      <venue>Grace Cathedral</venue>
+      <city>San Francisco CA</city>
+      <country>U.S.A.</country>
+    </location>
+    <length>0:58:05</length>
+    <source channel=""/>
+    <format resolution="PAL">DVD</format>
+    <quality/>
+    <lineage/>
+    <remarks/>
+    <artists>
+      <artist main="true">Duke Ellington</artist>
+      <artist>Cat Anderson</artist>
+      <artist>Mercer Ellington</artist>
+      <artist>Herb Jones</artist>
+      <artist>Cootie Williams</artist>      
+      <artist>Lawrence Brown</artist>
+      <artist>Buster Cooper</artist>
+      <artist>Chuck Connors</artist>      
+      <artist>Russell Procope</artist>
+      <artist>Jimmy Hamilton</artist>
+      <artist>Johnny Hodges</artist>
+      <artist>Paul Gonsalves</artist>      
+      <artist>Harry Carney</artist>
+      <artist>John Lamb</artist>
+      <artist>Louie Bellson</artist>      
+      <artist>Esther Marrow</artist>
+      <artist>Jimmy McPhail</artist>
+      <artist>Jon Hendricks</artist>
+      <artist>The Herman McCoy Choir</artist>
+      <artist>Bunny Briggs</artist>
+    </artists>
+    <title>A Concert of Sacred Music</title>
+    <product label="Eagle Vision">Love You Madly/A Concert of Sacred Music at Grace Cathedral (EREDV 490)</product>
+  </session>
+  <session av="V">
+    <date>1967-xx-xx</date>
+    <location>
+      <event type="tvshow">NDR Jazzworkshop</event>
+      <city>Hamburg</city>
+      <country>Germany</country>
+    </location>
+    <length>0:59:07</length>
+    <source channel=""/>
+    <format resolution="PAL">DVD</format>
+    <quality/>
+    <lineage/>
+    <remarks/>
+    <artists>
+      <artist main="true">Duke Ellington</artist>
+      <commentary>Ralph J. Gleason</commentary>
+    </artists>
+    <title>Love You Madly (Richard Moore, 1967)</title>
+    <product label="Eagle Vision">Love You Madly/A Concert of Sacred Music at Grace Cathedral (EREDV 490)</product>
   </session>
 </KC_ROIO>
