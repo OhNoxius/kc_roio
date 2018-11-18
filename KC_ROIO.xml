@@ -11920,12 +11920,12 @@
       <city>Bilzen</city>
       <country>Belgium</country>
     </location>
-    <length/>
-    <source>TV</source>
+    <length>2:34:46</length>
+    <source station="BRT">TV</source>
     <format resolution="PAL">DVD</format>
     <quality/>
     <lineage/>
-    <remarks>met ,HUMO'</remarks>
+    <remarks>met ,HUMO'. (Two band from 1968: The Move + Roland Van Campenhout)</remarks>
     <artists>
       <artist type="band" main="true">Various Artists</artist>
       <artist type="band">Deep Purple</artist>
@@ -11934,14 +11934,41 @@
       <artist type="band">Taste</artist>
       <artist type="band">Life</artist>
       <artist type="band">Bonzo Dog Doo Dah Band</artist>
-      <artist type="band">Steve Shorter &amp; Tilly Set</artist>
+      <dummy type="band">Steve Shorter &amp; Tilly Set</dummy>
+      <artist>Steve Shorter</artist>
       <artist type="band">Brian Auger and the Trinity</artist>
       <artist>Brian Auger</artist>
       <artist>Julie Driscoll</artist>
-      <artist type="band">Marsha Hunt</artist>
-      <artist type="band">Moody Blues</artist>
+      <dummy type="band">Marsha Hunt</dummy>
+      <artist>Marsha Hunt</artist>
+      <artist type="band">The Moody Blues</artist>
+      <artist type="band">Soft Machine</artist>
+      <artist>Mike Ratledge</artist>
+      <artist>Hugh Hopper</artist>
+      <artist>Robert Wyatt</artist>
+      <artist type="band">The Move</artist>
+      <dummy type="band">Roland and the Blues Workshop</dummy>
+      <artist>Roland Van Campenhout</artist>
     </artists>
-    <title/>
+    <title>jazz bilzen 21*22*23*24*VIII'69 *met HUMO (compilation DVD)</title>
+  </session>
+  <session id="id0xd7dea0" av="V">
+    <date>1969-08-23</date>
+    <location>
+      <event type="festival">Jazz Bilzen</event>
+      <city>Bilzen</city>
+      <country>Belgium</country>
+    </location>
+    <length>0:04:28</length>
+    <source>DVD?</source>
+    <format resolution="PAL">DVD</format>
+    <quality/>
+    <lineage/>
+    <remarks></remarks>
+    <artists>
+      <artist type="band">The Moody Blues</artist>
+    </artists>
+    <product label=""></product>
   </session>
   <session id="id0xd7e170" av="V">
     <date>1960-1970</date>
@@ -25688,7 +25715,7 @@
       <city>Bilzen</city>
       <country>Belgium</country>
     </location>
-    <length/>
+    <length>0:15:17</length>
     <source>DVD</source>
     <format resolution="NTSC">DVD</format>
     <quality/>
@@ -30788,7 +30815,7 @@
     </location>
     <length>2:03:17</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30804,7 +30831,7 @@
     </location>
     <length>0:57:50</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30820,7 +30847,7 @@
     </location>
     <length>1:03:28</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe LaBarbera (bateria).</remarks>
@@ -30838,7 +30865,7 @@
     </location>
     <length/>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks>Programa biográfico sobre el gran pianista Bill Evans, renovador del ambiente jazzístico y maestro indiscutible para toda una generación. Entre las entrevistas, declaraciones y montajes sobre su persona se intercalan temas musicales que forman parte de la que se ha considerado su mejor actuación, grabada el 28 de noviembre de 1979 en los estudios de TVE de Esplugues de Llobregat, acompañado de Marc Johnson (contrabajo) y Joe LaBarbera (bateria).</remarks>
@@ -30856,7 +30883,7 @@
     </location>
     <length>4hours</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30872,7 +30899,7 @@
     </location>
     <length>0:56:12</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30888,7 +30915,7 @@
     </location>
     <length>1:53:12</length>
     <source station="rtve.es">web</source>
-    <format resultion="550x440">AVC</format>
+    <format resolution="550x440">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30904,7 +30931,7 @@
     </location>
     <length>0:53:58</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30920,7 +30947,7 @@
     </location>
     <length>1:47:05</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks>a dedicado al músico y pianista norteamericano Keith Jarrett, en el que se ofrecen actuaciones del concierto que ofreció el 19 de julio de 1985 en el Festival de Jazz de San Sebastián. Incluye una entrevista al contrabajista y componente del grupo de Keith Jarrett, Gary Peacock.</remarks>
@@ -30936,7 +30963,7 @@
     </location>
     <length>0:54:34</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30955,7 +30982,7 @@
     </location>
     <length>0:55:43</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30971,7 +30998,7 @@
     </location>
     <length>0:58:02</length>
     <source>TV</source>
-    <format resultion="576p">DivX 5</format>
+    <format resolution="576p">DivX 5</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -30990,7 +31017,7 @@
     </location>
     <length>0:58:04</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -31009,7 +31036,7 @@
     </location>
     <length>0:53:37</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -31025,7 +31052,7 @@
     </location>
     <length>0:54:44</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -31041,7 +31068,7 @@
     </location>
     <length>0:54:31</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -31060,7 +31087,7 @@
     </location>
     <length>0:53:39</length>
     <source station="rtve.es">web</source>
-    <format resultion="576p">AVC</format>
+    <format resolution="576p">AVC</format>
     <quality>B</quality>
     <lineage/>
     <remarks>Primer programa dedicado al concierto ofrecido en el festival de Jazz de Vitoria de 1990 por el cuarteto musical de jazz formado por Herbie Hancock (teclados), Jack DeJohnette (batería), Pat Metheny (guitarra) y Dave Holland (contrabajo).</remarks>
@@ -31082,7 +31109,7 @@
     </location>
     <length>0:41:46</length>
     <source station="BBC">DVD</source>
-    <format resultion="NTSC">DVD</format>
+    <format resolution="NTSC">DVD</format>
     <quality>A</quality>
     <lineage/>
     <remarks>Manufactured By – www.keyproduction.co.uk</remarks>
@@ -31103,7 +31130,7 @@
     </location>
     <length/>
     <source>DVD</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage/>
     <remarks/>
@@ -31138,7 +31165,7 @@
     </location>
     <length/>
     <source>DVD</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage/>
     <remarks/>
@@ -31172,7 +31199,7 @@
     </location>
     <length/>
     <source>DVD</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage/>
     <remarks/>
@@ -31194,7 +31221,7 @@
     </location>
     <length/>
     <source>DVD</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage/>
     <remarks/>
@@ -31230,7 +31257,7 @@
     </location>
     <length>0:45:58</length>
     <source station="N3">TV</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage>
       <![CDATA[N3 TV broadcast > analogue cable > VCRec > VHS videotape > DVDRec > DVD > HDD]]>
@@ -31253,7 +31280,7 @@
     </location>
     <length>0:40:53</length>
     <source station="BRalpha">TV</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A+</quality>
     <lineage>
       <![CDATA[DVB-C > Technotrend TT-1501 DVB-C PCI card > harddisk.
@@ -31399,7 +31426,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
     </location>
     <length/>
     <source station="DR2">TV</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>B</quality>
     <lineage/>
     <remarks/>
@@ -31422,7 +31449,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
     </location>
     <length>0:54:38</length>
     <source>DVD</source>
-    <format resultion="PAL">DVD</format>
+    <format resolution="PAL">DVD</format>
     <quality>A</quality>
     <lineage/>
     <remarks/>
@@ -32916,5 +32943,67 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
     </artists>
     <title>Love You Madly (Richard Moore, 1967)</title>
     <product label="Eagle Vision">Love You Madly/A Concert of Sacred Music at Grace Cathedral (EREDV 490)</product>
+  </session>
+  <session av="V" official="true">
+    <date>1964-06-27</date>
+    <location>
+      <event type="tvshow">Jazz 625</event>
+      <country>U.K.</country>
+    </location>
+    <length></length>
+    <source>DVD</source>
+    <format>DVD</format>
+    <quality/>
+    <lineage/>
+    <remarks/>
+    <artists>
+      <artist main="true">Art Farmer</artist>
+      <artist>Jim Hall</artist>
+      <artist>Steve Swallow</artist>
+      <artist>Pete La Roca</artist>
+    </artists>
+    <title label="Reelin' in the Years">Jazz Icons 4: Art Farmer, Live in '64</title>
+  </session>
+  <session av="V" official="true">
+    <date>1983-06-26</date>
+    <location>
+      <event type="festival">Jazz Bühne Berlin</event>
+      <city>Berlin</city>
+      <country>Germany</country>
+    </location>
+    <length>0:35:55</length>
+    <source></source>
+    <format resolution="PAL 1/2">MPG</format>
+    <quality/>
+    <lineage/>
+    <remarks/>
+    <artists>
+      <artist main="true">Art Farmer</artist>
+      <artist>Harry Sokal</artist>
+      <artist>Fritz Pauer</artist>
+      <artist>Günther Wohlgenannt</artist>
+      <artist>Juris Dudli</artist>
+    </artists>
+    <title label="">Jazz Bühne extra</title>
+  </session>
+  <session av="V">
+    <date>1962-10-01</date>
+    <location>
+      <event type="festival">Jazz Scene USA</event>
+      <city>Los Angeles CA</city>
+      <country>U.S.A.</country>
+    </location>
+    <length>0:11:45</length>
+    <source></source>
+    <format resolution="PAL 1/2">MPG</format>
+    <quality/>
+    <lineage/>
+    <remarks/>
+    <artists>
+      <artist main="true">Barney Kessel</artist>
+      <artist>Barney Woodson</artist>
+      <artist>Stan Levey</artist>
+    </artists>
+    <title label=""></title>
   </session>
 </KC_ROIO>
