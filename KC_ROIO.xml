@@ -217,7 +217,7 @@
 		<title/>
 	</session>
 	<session id="id0x5de3170" av="V">
-		<date>1965-xx-xx</date>
+		<date>1965-11-03</date>
 		<location>
 			<city>Paris</city>
 			<country>France</country>
@@ -12075,7 +12075,7 @@
 			<artist>Chick Corea</artist>
 			<artist>George Benson</artist>
 			<artist>Freddie Hubbard</artist>
-			<artist>Rashaan Roland Kirk</artist>
+			<artist>Rahsaan Roland Kirk</artist>
 			<artist>Hubert Laws</artist>
 			<artist>Airto Moreira</artist>
 			<artist>Sonny Rollins</artist>
@@ -28317,6 +28317,30 @@
 		</artists>
 		<title/>
 	</session>
+	<session av="V" official="true">
+		<date>1975-07-20</date>
+		<location>
+			<event type="festival">Montreux Jazz Festival</event>
+			<city>Montreux</city>
+			<country>Switzerland</country>
+		</location>
+		<length>1:25:32</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Don Pullen</artist>
+			<artist>Jack Walrath</artist>
+			<artist>George Adams</artist>
+			<artist>Dannie Richmond</artist>
+			<artist>Gerry Mulligan</artist>
+			<artist>Benny Bailey</artist>
+		</artists>
+		<title label="Eagle Vision">Charles Mingus - Live at Montreux 1975</title>
+	</session>
 	<session id="d1e40684" av="V">
 		<date>1987-07-04</date>
 		<location>
@@ -32988,7 +33012,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz 625</event>
 			<country>U.K.</country>
 		</location>
-		<length/>
+		<length>1:04:05</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
