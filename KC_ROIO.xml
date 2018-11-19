@@ -32256,11 +32256,11 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz pour tous</event>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
-		<quality></quality>
-		<lineage></lineage>
+		<quality/>
+		<lineage/>
 		<remarks>Broadcast on December 27, 1964</remarks>
 		<artists>
 			<artist main="true">Rahsaan Roland Kirk</artist>
@@ -32276,12 +32276,12 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Rolando</event>
 			<country>The Netherlands</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Rahsaan Roland Kirk</artist>
 			<artist>George Gruntz</artist>
@@ -32297,12 +32297,12 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
-		<quality></quality>
-		<lineage></lineage>
-		<remarks></remarks>
+		<quality/>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Rahsaan Roland Kirk</artist>
 			<artist>Ron Burton</artist>

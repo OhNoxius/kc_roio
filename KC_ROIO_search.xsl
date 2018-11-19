@@ -15,7 +15,7 @@
 
 	<xsl:template match="/">
 
-		<table id="searchTable" width="100%" border="0" cellpadding="2" cellspacing="0"
+		<table class="sessionTable" id="searchTable" width="100%" border="0" cellpadding="2" cellspacing="0"
 			style="width:100%;">
 			<thead>
 				<tr style="background-color:#EEEEEE;">
@@ -45,7 +45,7 @@
 	</xsl:template>
 
 	<xsl:template match="//session">
-		<tr class="sessionrow">
+		<tr class="sessionRow">
 			<xsl:attribute name="id">
 				<xsl:value-of select="@id"/>
 			</xsl:attribute>

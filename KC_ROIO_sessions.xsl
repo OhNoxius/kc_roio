@@ -9,7 +9,7 @@
 
 	<xsl:template match="/">
 
-		<table id="sessionsTable" border="0" cellpadding="2" cellspacing="0" style="width:100%;">
+		<table class="sessionTable" id="sessionTable" border="0" cellpadding="2" cellspacing="0" style="width:100%;">
 			<thead>
 				<tr style="background-color:#EEEEEE;">
 					<th style="width:2%"/>

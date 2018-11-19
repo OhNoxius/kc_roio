@@ -12,7 +12,7 @@
 	<!--	<xsl:strip-space elements="artist"/>-->
 
 	<xsl:template match="/">
-		<div id="resultsTable">
+		<div class="sortTable" id="sortTable">
 			<xsl:apply-templates select="//*[local-name()=$chooseParameter][generate-id() = generate-id(key($chooseParameter, string())[1])]">
 				<xsl:sort select="." order="ascending"/>
 			</xsl:apply-templates>
@@ -28,7 +28,7 @@
 			</tr>
 
 			<!--//title row-->
-			<tr style="background-color:#EEEEEE;height:10px;" class="artistClass">
+			<tr style="background-color:#EEEEEE;" class="sortRow">
 				<td>
 					<strong>
 						<xsl:value-of select="."/>
