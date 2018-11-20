@@ -24628,7 +24628,7 @@
 		<length>0:38:58</length>
 		<source channel="NRK">web</source>
 		<format resolution="720p">AVC</format>
-		<quality>A</quality>
+		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -24637,7 +24637,7 @@
 			<artist>Eberhard Weber</artist>
 			<artist>Jon Christensen</artist>
 		</artists>
-		<title/>
+		<title>Jazz i Munch-museet</title>
 	</session>
 	<session id="d1e35439" av="V">
 		<date>1975-08-xx</date>
@@ -28328,8 +28328,8 @@
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Don Pullen</artist>
@@ -33067,5 +33067,142 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Stan Levey</artist>
 		</artists>
 		<title label=""/>
+	</session>
+	<session av="V">
+		<date>1977-xx-xx</date>
+		<location>
+			<venue>Zhivago</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:58:53</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/musikalsk-gjestebud/1978/FUHA00000678</lineage>
+		<remarks>Musikalsk gjestebud – Broadcast 10. februar 1978</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<artist type="band">Country Express</artist>
+			<artist type="band">Fiskum's kvartett m/ Dagfinn Rohde</artist>
+			<artist>Dagfinn Rohde</artist>
+			<artist type="band">Høst</artist>
+			<artist>Bernt Bodahl</artist>
+			<artist>Geir Jahren</artist>
+			<artist>Halvdan Nedrejord</artist>
+			<artist>John Hesla</artist>
+			<artist>Willy Bendiksen</artist>
+			<artist type="band">Toots Thielemans Kvartett</artist>			
+			<artist>Toots Thielemans</artist>
+			<artist>Ole Kock Hansen</artist>
+			<artist>James Leary</artist>
+			<artist>James Marshall</artist>
+		</artists>
+		<title label="">Musikalsk gjestebud – 10. februar 1978</title>
+	</session>
+	<session av="V">
+		<date>1963-xx-xx</date>
+		<location>
+			<country>Norway</country>
+		</location>
+		<length>0:58:53</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/jazzkjelleren/1963/FBUA63003763/avspiller</lineage>
+		<remarks>Jazzkjelleren – Broadcast 16. februar 1963</remarks>
+		<artists>
+			<artist main="true">Coleman Hawkins</artist>
+		</artists>
+		<title>Jazzkjelleren</title>
+	</session>
+	<session av="V">
+		<date>1970-10-22</date>
+		<location>
+			<event type="festival">Newport Jazz Festival (Norway)</event>
+			<venue>Njårdhallen</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:40:48</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/newport-jazz-festival-i-njaardhallen/FUHA01000270/01-04-1971 + https://tv.nrk.no/serie/newport-jazz-festival-i-njaardhallen/FUHA01002270/14-09-1971</lineage>
+		<remarks>mod</remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Eddie Preston</artist>
+			<artist>Charles McPherson</artist>
+			<artist>Bobby Jones</artist>
+			<artist>Jaki Byard</artist>
+			<artist>Dannie Richmond</artist>
+		</artists>
+		<title>Newport Jazz Festival i Njårdhallen: Newport Jazz Festival - Charlie Mingus Sextet</title>
+	</session>
+	<session av="V">
+		<date>1970-10-22</date>
+		<location>
+			<event type="festival">Newport Jazz Festival (Norway)</event>
+			<venue>Njårdhallen</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:48:02</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/newport-jazz-festival-i-njaardhallen/1971/FUHA01000271</lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Modern Jazz Quartet</artist>
+			<artist>John Lewis</artist>
+			<artist>Milt Jackson</artist>
+			<artist>Percy Heath</artist>
+			<artist>Connie Kay</artist>
+		</artists>
+		<title>Newport Jazz Festival i Njårdhallen: Newport Jazz Festival - Modern Jazz Quartet</title>
+	</session>
+	<session av="V">
+		<date>1975-xx-xx</date>
+		<location>
+			<venue>Munch Museum</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:41:01</length>
+		<source channel="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality/>
+		<lineage>https://tv.nrk.no/serie/jazz-i-munch-museet</lineage>
+		<remarks>Jazz i Munch-museet – 18. juli 1975</remarks>
+		<artists>
+			<artist main="true">Clifford Jordan</artist>
+			<artist>Cedar Walton</artist>
+			<artist>Sam Jones</artist>
+			<artist>Billy Higgins</artist>
+		</artists>
+		<title>Jazz i Munch-museet</title>
+	</session>
+	<session av="V">
+		<date>1968-xx-xx</date>
+		<location>
+			<event type="festival">Kongsberg Jazzfestival</event>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>0:39:00</length>
+		<source channel="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality/>
+		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/1969/FUHA69001169</lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Yusef Lateef</artist>
+			<artist>Kenny Drew</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Albert Heath</artist>
+		</artists>
+		<title>Jazz på Kongsberg</title>
 	</session>
 </KC_ROIO>
