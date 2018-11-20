@@ -33092,7 +33092,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Halvdan Nedrejord</artist>
 			<artist>John Hesla</artist>
 			<artist>Willy Bendiksen</artist>
-			<artist type="band">Toots Thielemans Kvartett</artist>			
+			<artist type="band">Toots Thielemans Kvartett</artist>
 			<artist>Toots Thielemans</artist>
 			<artist>Ole Kock Hansen</artist>
 			<artist>James Leary</artist>
@@ -33153,7 +33153,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage>https://tv.nrk.no/serie/newport-jazz-festival-i-njaardhallen/1971/FUHA01000271</lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Modern Jazz Quartet</artist>
 			<artist>John Lewis</artist>
@@ -33196,7 +33196,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="720p">AVC</format>
 		<quality/>
 		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/1969/FUHA69001169</lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Yusef Lateef</artist>
 			<artist>Kenny Drew</artist>
