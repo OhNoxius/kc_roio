@@ -24779,7 +24779,7 @@
 		<length>0:32:52</length>
 		<source channel="NRK">web</source>
 		<format resolution="720p">AVC</format>
-		<quality>A</quality>
+		<quality>A+</quality>
 		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/FBUA07006571/05-08-1971</lineage>
 		<remarks/>
 		<artists>
@@ -24789,6 +24789,29 @@
 			<artist>Jon Christensen</artist>
 		</artists>
 		<title/>
+	</session>
+	<session av="V">
+		<date>1974-06-30</date>
+		<location>
+			<event type="festival">Kongsberg Jazzfestival</event>
+			<venue>Kongsberg Kino</venue>
+			<city>Kongsberg</city>
+			<country>Norway</country>
+		</location>
+		<length>0:40:49</length>
+		<source channel="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/1974/FUHA02003374</lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Sonny Rollins</artist>
+			<artist>Rufus Harley</artist>
+			<artist>Yoshiaki Masuo</artist>
+			<artist>Bob Cranshaw</artist>
+			<artist>David Lee</artist>
+		</artists>
+		<title>Tillat for alle</title>
 	</session>
 	<session id="d1e35655" av="A" official="true">
 		<date>1955-07-17</date>
@@ -33204,5 +33227,27 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Albert Heath</artist>
 		</artists>
 		<title>Jazz på Kongsberg</title>
+	</session>
+	<session av="V">
+		<date>2016-08-xx</date>
+		<location>
+			<event type="festival">Oslo Jazz Festival</event>
+			<venue>Universitetets Aula</venue>
+			<city>Oslo</city>
+			<country>Norway</country>
+		</location>
+		<length>1:05:55</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/hovedscenen-tv/2017/MKTV15022317</lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Charles Lloyd</artist>
+			<artist>Jason Moran</artist>
+			<dummy>?</dummy>
+			<artist>Eric Harland</artist>
+		</artists>
+		<title>Hovedscenen</title>
 	</session>
 </KC_ROIO>
