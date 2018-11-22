@@ -12859,14 +12859,13 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A</quality>
-		<lineage/>
+		<lineage><![CDATA[Source: Broadcast TV > Digital transfert (unknown) > Dvd-Video > Tmpgenc Dvd Author > Re-authoring]]></lineage>
 		<remarks/>
 		<artists>
-			<artist type="band" main="true">Various Artists</artist>
+			<artist main="true">Michel Hatzigeorgiou</artist>
 			<artist>Peter Graves (cond)</artist>
 			<artist>Toots Thielemans</artist>
 			<artist>Othello Molineaux</artist>
-			<artist>Michel Hatzigeorgiou</artist>
 			<artist>Félix Pastorius</artist>
 			<artist>Laurent Blondiau</artist>
 			<artist>Bert Joris</artist>
@@ -12889,7 +12888,7 @@
 			<artist>Paul ?</artist>
 			<artist>Jazebel Loute</artist>
 		</artists>
-		<title>Michel's Hatzigeorgiou's "Tribute to Jaco Pastorius"</title>
+		<title>Michel Hatzigeorgiou's "Tribute to Jaco Pastorius"</title>
 	</session>
 	<session id="id0xdb86c0" av="V">
 		<date>2010-xx-xx</date>
@@ -33107,7 +33106,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 			<artist type="band">Country Express</artist>
-			<artist type="band">Fiskum's kvartett m/ Dagfinn Rohde</artist>
+			<dummy type="band">Fiskum's kvartett m/ Dagfinn Rohde</dummy>
 			<artist>Dagfinn Rohde</artist>
 			<artist type="band">Høst</artist>
 			<artist>Bernt Bodahl</artist>
@@ -33115,7 +33114,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Halvdan Nedrejord</artist>
 			<artist>John Hesla</artist>
 			<artist>Willy Bendiksen</artist>
-			<artist type="band">Toots Thielemans Kvartett</artist>
+			<dummy type="band">Toots Thielemans Kvartett</dummy>
 			<artist>Toots Thielemans</artist>
 			<artist>Ole Kock Hansen</artist>
 			<artist>James Leary</artist>
