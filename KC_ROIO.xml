@@ -216,15 +216,17 @@
 		</artists>
 		<title/>
 	</session>
-	<session id="id0x5de3170" av="V">
+	<session id="id0x5de3170" av="V" official="true">
 		<date>1965-11-03</date>
 		<location>
+			<event type="festival">Paris Jazz Festival</event>
+			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length/>
-		<source>TV</source>
-		<format resolution="PAL">DVD</format>
+		<length>0:51:09</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -236,7 +238,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Nathan Davis</artist>
 		</artists>
-		<title/>
+		<title>Art Blakey - Live in '65 (Jazz Icons 4)</title>
 	</session>
 	<session id="id0x6897670" av="V">
 		<date>1972-08-20</date>
@@ -285,9 +287,9 @@
 		<location>
 			<country>Sweden</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
+		<length>0:09:23</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -346,9 +348,9 @@
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
+		<length>0:14:14</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -387,9 +389,9 @@
 		<location>
 			<country>Denmark</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
+		<length>0:15:13</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -405,9 +407,9 @@
 		<location>
 			<country>Sweden</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
+		<length>0:29:04</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -469,9 +471,9 @@
 			<city>Elsinore</city>
 			<country>Denmark</country>
 		</location>
-		<length/>
+		<length>0:29:20</length>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -10109,7 +10111,7 @@
 		<date>1965-11-04</date>
 		<location>
 			<event type="festival">Paris Jazz Festival</event>
-			<venue>La maison de la Mutualité</venue>
+			<venue>Maison de la Mutualité</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -10117,8 +10119,10 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage/>
-		<remarks/>
+		<lineage><![CDATA[TV > unknown source > MPEG2 > authoring]]></lineage>
+		<remarks><![CDATA[Two parts. 1st was originally broadcasted by French TV at the time. The 2nd part appears to be raw unbroadcasted material.
+			Sourced from French TV master tape. This show is one of the hundreds French TV jazz shows I have.
+			If you are looking for other jazz footage from French TV archive, particular artists, lists etc, contact me - [b]sterh87@gmail.com[/b]]]></remarks>
 		<artists>
 			<artist main="true">Sonny Rollins</artist>
 			<artist>Gilbert Rovere</artist>
