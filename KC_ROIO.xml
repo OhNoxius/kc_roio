@@ -32343,7 +32343,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V">
 		<date>1967-10-2x</date>
 		<location>
-			<event type="fesetival">Kongsberg Jazz Festival</event>
+			<event type="fesetival">Kongsberg Jazzfestival</event>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -32429,7 +32429,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V" official="true">
 		<date>1974-06-30</date>
 		<location>
-			<event type="festival">Kongsberg Jazz Festival</event>
+			<event type="festival">Kongsberg Jazzfestival</event>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -33256,7 +33256,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V">
 		<date>1975-xx-xx</date>
 		<location>
-			<event type="festival">Kongsberg Jazz Festival</event>
+			<event type="festival">Kongsberg Jazzfestival</event>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
@@ -33303,7 +33303,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V">
 		<date>1973-xx-xx</date>
 		<location>
-			<event type="festival">Kongsberg Jazz Festival</event>
+			<event type="festival">Kongsberg Jazzfestival</event>
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
