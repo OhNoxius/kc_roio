@@ -33253,4 +33253,88 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title>Hovedscenen</title>
 	</session>
+	<session av="V">
+		<date>1975-xx-xx</date>
+		<location>
+			<event type="festival">Kongsberg Jazz Festival</event>
+			<city>Kongsberg</city>
+			<country>Norway</country>
+		</location>
+		<length>0:49:49</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS00007675/22-10-1975</lineage>
+		<remarks>Broadcast 22 october 1975</remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>			
+			<dummy type="band">Christian Reim Quartet</dummy>
+			<artist>Carl Magnus Neumann</artist>
+			<artist>Christian Reim</artist>
+			<artist>Bjørn Kjellemyr</artist>
+			<artist>Ole Jacob Hansen</artist>			
+			<dummy type="band">Don Cherry Quintet</dummy>
+			<artist>Don Cherry</artist>
+			<artist>Billy Higgins</artist>
+			<artist>Arild Andersen</artist>
+			<dummy type="band">Tomasz Stanko med Polsk Radio Storband</dummy>
+			<artist>Tomasz Stanko</artist>
+			<artist>Polsk Radio Storband</artist>
+			<dummy type="band">Ed Thigpen's Action-Re-Action</dummy>
+			<artist>Ed Thigpen</artist>
+			<artist>Kjell Öhman</artist>
+			<artist>Mads Vinding</artist>
+			<artist>Janne Schaffer</artist>
+			<artist>Carlinhos Pandeiro de Ouro</artist>
+			<dummy type="band">Elvin Jones Quartet</dummy>
+			<artist>Elvin Jones</artist>
+			<artist>David Williams</artist>
+			<artist>Pat LaBarbera</artist>
+			<artist>Roland Prince</artist>
+			<dummy type="band">Charlie Mingus Quintet</dummy>
+			<artist>Charles Mingus</artist>
+			<artist>Don Pullen</artist>
+			<artist>Dannie Richmond</artist>
+			<artist>George Adams</artist>
+			<artist>Jack Walrath</artist>
+		</artists>
+		<title>Tillatt for alle</title>
+	</session>
+	<session av="V">
+		<date>1973-xx-xx</date>
+		<location>
+			<event type="festival">Kongsberg Jazz Festival</event>
+			<city>Kongsberg</city>
+			<country>Norway</country>
+		</location>
+		<length>1:03:35</length>
+		<source station="NRK">web</source>
+		<format resolution="720p">AVC</format>
+		<quality>A+</quality>
+		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/1974/FUHA01006073/avspiller</lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>			
+			<dummy type="band">unknown?</dummy>					
+			<dummy type="band">Sax Meeting</dummy>
+			<artist>Dexter Gordon</artist>
+			<artist>Johnny Griffin</artist>
+			<artist>Leo Wright</artist>
+			<artist>Sahib Shihab</artist>
+			<artist>Kenny Drew</artist>
+			<artist>Niels-Henning Ørsted Pedersen</artist>
+			<artist>Ed Thigpen</artist>
+			<dummy type="band">Gerald Wilson &amp; Festival Bigband</dummy>
+			<artist>Gerald Wilson</artist>
+			<dummy type="band">Dusko Goykovich Quintet</dummy>
+			<artist>Dusko Goykovich</artist>
+			<artist>Horace Parlan</artist>
+			<dummy type="band">Gary Bartz NTU Troop</dummy>
+			<artist>Gary Bartz</artist>
+			<dummy type="band">Kenny Drew Trio + Johnny Griffin</dummy>
+			<artist>Kenny Drew</artist>
+			<artist>Johnny Griffin</artist>
+		</artists>
+		<title>Bilder og vellyd fra Jazzfestivalen i Kongsberg 1973</title>
+	</session>
 </KC_ROIO>
