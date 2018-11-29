@@ -28900,6 +28900,29 @@
 			<city>Los Angeles CA</city>
 			<country>U.S.A.</country>
 		</location>
+		<length>0:25:24</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality>B</quality>
+		<lineage trader="Franz Hoffman"/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title></title>
+	</session>
+	<session av="V">
+		<date>1962-10-29</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
 		<length>25min</length>
 		<source>DVDrip?</source>
 		<format resolution="576x432">DivX 5</format>
@@ -28913,6 +28936,29 @@
 			<artist>Joe Zawinul</artist>
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
+		</artists>
+		<title>Shanachie productions</title>
+	</session>
+	<session av="V">
+		<date>1962-06-04</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>25min</length>
+		<source>DVDrip?</source>
+		<format resolution="576x432">DivX 5</format>
+		<quality>B+</quality>
+		<lineage trader="franco3 (soulseek)"/>
+		<remarks/>
+		<artists>
+			<artist main="true">Teddy Edwards</artist>
+			<artist>Freddie Hill</artist>
+			<artist>Richard Boone</artist>
+			<artist>John Houston</artist>
+			<artist>Stan Gilbert</artist>
+			<artist>Doug Sides</artist>
 		</artists>
 		<title>Shanachie productions</title>
 	</session>
