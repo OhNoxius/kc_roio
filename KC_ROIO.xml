@@ -25637,7 +25637,7 @@
 		<location>
 			<country>Italy</country>
 		</location>
-		<length/>
+		<length>0:04:36</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25655,7 +25655,7 @@
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length/>
+		<length>0:03:57</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25673,7 +25673,7 @@
 			<city/>
 			<country>The Netherlands</country>
 		</location>
-		<length/>
+		<length>0:10:30</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25689,7 +25689,7 @@
 		<location>
 			<country>France</country>
 		</location>
-		<length/>
+		<length>0:05:28</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25703,7 +25703,7 @@
 	<session id="d1e36864" av="V">
 		<date>1968-xx-xx</date>
 		<location/>
-		<length/>
+		<length>0:06:18</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25721,7 +25721,7 @@
 			<city/>
 			<country>France</country>
 		</location>
-		<length/>
+		<length>0:05:02</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25761,7 +25761,7 @@
 			<city>Kralingen</city>
 			<country>The Netherlands</country>
 		</location>
-		<length/>
+		<length>0:06:22</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25775,7 +25775,7 @@
 	<session id="d1e36951" av="V">
 		<date>1970-xx-xx</date>
 		<location/>
-		<length/>
+		<length>0:09:17</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25788,7 +25788,10 @@
 	</session>
 	<session id="d1e36968" av="V">
 		<date>1971-xx-xx</date>
-		<location/>
+		<location>
+			<event type="tvshow">Anatomy of Pop</event>
+			<country>U.K.</country>
+		</location>
 		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
@@ -25827,7 +25830,7 @@
 			<city>Bremen</city>
 			<country>Germany</country>
 		</location>
-		<length/>
+		<length>0:31:23</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -25840,7 +25843,11 @@
 	</session>
 	<session id="d1e37040" av="V">
 		<date>1971-xx-xx</date>
-		<location/>
+		<location>
+			<event type="tvshow">POP 2</event>
+			<venue>Church Street 399</venue>
+			<country>U.K.</country>
+		</location>
 		<length/>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
