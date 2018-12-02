@@ -32359,7 +32359,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz pour tous</event>
 			<country>Belgium</country>
 		</location>
-		<length/>
+		<length>0:27:51</length>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
 		<quality/>
@@ -32377,9 +32377,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<date>1963-xx-xx</date>
 		<location>
 			<event type="tvshow">Rolando</event>
+			<city>Amersfoort</city>
 			<country>The Netherlands</country>
 		</location>
-		<length/>
+		<length>0:24:22</length>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
 		<quality/>
@@ -32400,7 +32401,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Kongsberg</city>
 			<country>Norway</country>
 		</location>
-		<length/>
+		<length>0:26:54</length>
 		<source>DVD</source>
 		<format resolution="NTSC">NTSC</format>
 		<quality/>
@@ -33389,5 +33390,70 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Johnny Griffin</artist>
 		</artists>
 		<title>Bilder og vellyd fra Jazzfestivalen i Kongsberg 1973</title>
+	</session>
+	<session av="V">
+		<date>1965-03-27</date>
+		<location>
+			<event type="tvshow">Jazz 625</event>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:38:12</length>
+		<source channel="BBC Four">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage><![CDATA[BBC>Philips stand alone DVD Recorder>Menu,chapters & ripped to folder using nero.]]></lineage>
+		<remarks>Broadcast BBC 4 Friday 15th January 2010</remarks>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="band">The Jazz Messengers</artist>
+			<artist>Lee Morgan</artist>
+			<artist>John Gilmore</artist>
+			<artist>John Hicks</artist>
+			<artist>Victor Sproles</artist>
+		</artists>
+		<title>Jazz BBC Archives 1964-1965 (compilation)</title>
+	</session>
+	<session av="V">
+		<date>1964-10-01</date>
+		<location>
+			<event type="tvshow">Jazz 625</event>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:26:16</length>
+		<source channel="BBC Four">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage><![CDATA[BBC>Philips stand alone DVD Recorder>Menu,chapters & ripped to folder using nero.]]></lineage>
+		<remarks>Broadcast BBC 4 Friday 15th January 2010</remarks>
+		<artists>
+			<artist main="true">Oscar Peterson</artist>
+			<artist>Ray Brown</artist>
+			<artist>Ed Thigpen</artist>
+		</artists>
+		<title>Jazz BBC Archives 1964-1965 (compilation)</title>
+	</session>
+	<session av="V">
+		<date>1965-03-14</date>
+		<location>
+			<event type="tvshow">Jazz 625</event>
+			<venue>Marquee Club</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length>0:34:39</length>
+		<source channel="BBC Four">web</source>
+		<format resolution="PAL">AVC</format>
+		<quality/>
+		<lineage><![CDATA[BBC>Philips stand alone DVD Recorder>Menu,chapters & ripped to folder using nero.]]></lineage>
+		<remarks>Broadcast BBC 4 Friday 15th January 2010</remarks>
+		<artists>
+			<artist main="true">Thelonious Monk</artist>
+			<artist>Charlie Rouse</artist>
+			<artist>Larry Gales</artist>
+			<artist>Ben Riley</artist>
+		</artists>
+		<title>Jazz BBC Archives 1964-1965 (compilation)</title>
 	</session>
 </KC_ROIO>
