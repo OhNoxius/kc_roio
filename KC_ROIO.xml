@@ -19238,7 +19238,7 @@
 	<session id="id0x4f8c670" av="A">
 		<date>1963-07-25</date>
 		<location>
-			<venue>Théâtre du Champs-Élysées</venue>
+			<venue>Théâtre des Champs-Élysées</venue>
 			<city>Paris</city>
 			<country>France</country>
 		</location>
@@ -25320,7 +25320,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -27968,7 +27968,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format/>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -27990,7 +27990,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format/>
+		<format resolution="NTSC">DVD</format>
 		<quality/>
 		<lineage/>
 		<remarks/>
@@ -29231,7 +29231,7 @@
 		</location>
 		<length>32min</length>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks>Monk In Oslo</remarks>
@@ -29250,7 +29250,7 @@
 		</location>
 		<length>29min</length>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A</quality>
 		<lineage/>
 		<remarks>Monk In Denmark</remarks>
@@ -31230,7 +31230,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -31265,7 +31265,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -31299,7 +31299,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -31321,7 +31321,7 @@
 		</location>
 		<length/>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
@@ -33455,5 +33455,59 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Ben Riley</artist>
 		</artists>
 		<title>Jazz BBC Archives 1964-1965 (compilation)</title>
+	</session>
+	<session av="A" official="true">
+		<date>1959-11-15</date>
+		<location>
+			<venue>Théâtre des Champs-Élysées</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>1:28:31</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks>includes short interview</remarks>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="band">The Jazz Messengers</artist>
+			<artist>Lee Morgan</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Walter Davis Jr.</artist>
+			<artist>Jymie Merritt</artist>
+		</artists>
+		<title>Jazz Icons 5: Art Blakey's Jazz Messengers - Live in France 1959</title>
+	</session>
+	<session av="A" official="true">
+		<date>1976-04-13</date>
+		<location>
+			<venue>The Ed Sullivan Theater</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:46:25</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true" type="band">Various Arists</artist>
+			<artist>Dizzy Gillespie</artist>
+			<artist>Joe Newman</artist>
+			<artist>Stan Getz</artist>
+			<artist>Gerry Mulligan</artist>
+			<artist>Count Basie</artist>
+			<artist>Roland Hanna</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Freddie Green</artist>
+			<artist>Lionel Hampton</artist>
+			<artist>Max Roach</artist>
+			<artist>Joe Williams</artist>
+			<artist>Dionne Warwick</artist>
+		</artists>
+		<title>The CBS Festival of Lively Arts for Young People: The Original Rompin' Stompin' Hot and Heavy, Cool and Groovy All Star Jazz Show (Gary Keys)</title>
+		<product label="MVD Visual">All Star Jazz Show: Live From The Ed Sullivan Theater (MVD5178D)</product>
 	</session>
 </KC_ROIO>
