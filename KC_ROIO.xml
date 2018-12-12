@@ -33456,7 +33456,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title>Jazz BBC Archives 1964-1965 (compilation)</title>
 	</session>
-	<session av="A" official="true">
+	<session av="V" official="true">
 		<date>1959-11-15</date>
 		<location>
 			<venue>Théâtre des Champs-Élysées</venue>
@@ -33479,7 +33479,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title>Jazz Icons 5: Art Blakey's Jazz Messengers - Live in France 1959</title>
 	</session>
-	<session av="A" official="true">
+	<session av="V" official="true">
 		<date>1976-04-13</date>
 		<location>
 			<venue>The Ed Sullivan Theater</venue>
@@ -33509,5 +33509,21 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title>The CBS Festival of Lively Arts for Young People: The Original Rompin' Stompin' Hot and Heavy, Cool and Groovy All Star Jazz Show (Gary Keys)</title>
 		<product label="MVD Visual">All Star Jazz Show: Live From The Ed Sullivan Theater (MVD5178D)</product>
+	</session>
+	<session av="A" official="true">
+		<date>2001-xx-xx</date>
+		<location>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:43:29</length>
+		<source station="VH1">TV</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[VHS (master/SP mode) -> HQ 4head HiFi/Stereo VCR -> Canon ZR85 -> Firewire -> PC -> Nero]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Jimi Hendrix</artist>
+		</artists>
+		<title>VH1 Legends: Jimi Hendrix (2001)</title>
 	</session>
 </KC_ROIO>
