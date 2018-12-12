@@ -2255,6 +2255,7 @@
 	<session id="d1e3200" av="V">
 		<date>1964-04-13</date>
 		<location>
+			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
 		<length>31min</length>
@@ -33525,5 +33526,49 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist main="true">Jimi Hendrix</artist>
 		</artists>
 		<title>VH1 Legends: Jimi Hendrix (2001)</title>
+	</session>
+	<session av="A">
+		<date>1964-04-13</date>
+		<location>
+			<city>Stockholm</city>
+			<country>Sweden</country>
+		</location>
+		<length>0:41:45</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>Clifford Jordan</artist>
+			<artist>Johnny Coles</artist>
+			<artist>Jaki Byard</artist>
+			<artist>Dannie Richmond</artist>
+		</artists>
+		<product label="Bandstand">Charles Mingus - Meditations On Integration (BDCD1524)</product>
+	</session>
+	<session av="A">
+		<date>1964-04-14</date>
+		<location>
+			<city>Copenhagen</city>
+			<country>Denmark</country>
+		</location>
+		<length>0:22:15</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Charles Mingus</artist>
+			<artist>Eric Dolphy</artist>
+			<artist>Clifford Jordan</artist>
+			<artist>Johnny Coles</artist>
+			<artist>Jaki Byard</artist>
+			<artist>Dannie Richmond</artist>
+		</artists>
+		<product label="Bandstand">Charles Mingus - Meditations On Integration (BDCD1524)</product>
 	</session>
 </KC_ROIO>
