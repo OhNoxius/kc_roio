@@ -33571,4 +33571,195 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<product label="Bandstand">Charles Mingus - Meditations On Integration (BDCD1524)</product>
 	</session>
+	<session av="A" official="true">
+		<date>1962-01-12+14</date>
+		<location>
+			<venue>Village Vanguard</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:45:00</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>In New York &amp; Los Angeles</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-10-29</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:32</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>In New York &amp; Los Angeles</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-09-21_23</date>
+		<location>
+			<venue>The Jazz Workshop</venue>
+			<city>San Francisco CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:19:42</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>Jazz Workshop Revisited</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-03-10</date>
+		<location>
+			<venue>Birdland</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>The Birdland Broadcasts</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-11-24</date>
+		<location>
+			<venue>Birdland</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>The Birdland Broadcasts</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-12-01</date>
+		<location>
+			<venue>Birdland</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length></length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>The Birdland Broadcasts</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1962-08-05</date>
+		<location>
+			<event type="festival">Comblain Jazz Festival</event>
+			<city>Comblain-la-Tour</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:51:20</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Yusef Lateef</artist>
+			<artist>Joe Zawinul</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>In Europe</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
+	<session av="A" official="true">
+		<date>1960-08-13</date>
+		<location>
+			<venue>Birdland</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:23:16</length>
+		<source>CD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Cannonball Adderley</artist>
+			<artist>Nat Adderley</artist>
+			<artist>Victor Feldman</artist>
+			<artist>Sam Jones</artist>
+			<artist>Louis Hayes</artist>
+		</artists>
+		<title>In Europe</title>
+		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
+	</session>
 </KC_ROIO>
