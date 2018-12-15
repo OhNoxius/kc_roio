@@ -33762,4 +33762,69 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title>In Europe</title>
 		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
 	</session>
+	<session av="V" official="true">
+		<date>1957-06-06</date>
+		<location>
+			<event type="tvshow">Jazz pour tous</event>
+			<city>Brussels</city>
+			<country>Belgium</country>
+		</location>
+		<length>34min</length>
+		<source station="RTBF">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Don Abney</artist>
+			<artist>Ray Brown</artist>
+			<artist>Jo Jones</artist>
+			<artist>Roy Eldridge</artist>
+			<artist>Oscar Peterson</artist>
+			<artist>Roy Eldridge</artist>
+		</artists>
+		<title>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</title>
+	</session>
+	<session av="V" official="true">
+		<date>1963-04-03</date>
+		<location>
+			<event type="tvshow">Mork Sang</event>
+			<country>Sweden</country>
+		</location>
+		<length>22min</length>
+		<source station="SVT">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Tommy Flanagan</artist>
+			<artist>Jim Hughart</artist>
+			<artist>Gus Johnson</artist>
+			<artist>Les Spann</artist>
+		</artists>
+		<title>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</title>
+	</session>
+	<session av="V">
+		<date>1996-07-25</date>
+		<location>
+			<event type="festival">Jazz à Juan: Juan-les-Pins Jazz Festival</event>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>1:04:05</length>
+		<source station="">TV</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[Japanese TV broadcast(see above) > unknown VCR > master VHS > playback on unknown VCR > unknown stand alone DVD recorder(most likely SP mode) > unknown editing programms > DVD > my traded DVD (> YOU)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">John McLaughlin</artist>
+			<artist>Joey DeFrancesco</artist>
+			<artist>Elvin Jones</artist>
+		</artists>
+		<title></title>
+	</session>
 </KC_ROIO>
