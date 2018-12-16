@@ -20,7 +20,8 @@
 			<artist>Frank Zappa</artist>
 			<artist>Bill Bruford</artist>
 		</artists>
-		<title label=""/>
+		<title/>
+		<product label=""/>
 	</session>
 	<session id="id0x3f2da40" av="V">
 		<date>2012-12-07</date>
@@ -154,7 +155,7 @@
 			<artist>Roberto Sion</artist>
 			<artist>Georgiana de Moraes</artist>
 		</artists>
-		<title>Musicalmente dallo Studio 3 (Mascia Cantoni)</title>
+		<product>Musicalmente dallo Studio 3 (Mascia Cantoni)</product>
 	</session>
 	<session id="id0x5428ef0" av="V">
 		<date>1987-xx-xx</date>
@@ -238,7 +239,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Nathan Davis</artist>
 		</artists>
-		<title>Art Blakey - Live in '65 (Jazz Icons 4)</title>
+		<product>Art Blakey - Live in '65 (Jazz Icons 4)</product>
 	</session>
 	<session id="id0x6897670" av="V">
 		<date>1972-08-20</date>
@@ -280,7 +281,7 @@
 		<artists>
 			<artist main="true">Bill Dixon</artist>
 		</artists>
-		<title>Tapestries for Small Orchestra: Going to the Center</title>
+		<product>Tapestries for Small Orchestra: Going to the Center</product>
 	</session>
 	<session id="id0x1180bd0" av="V" official="true">
 		<date>1964-xx-xx</date>
@@ -298,7 +299,7 @@
 			<artist>Chuck Israels</artist>
 			<artist>Larry Bunker</artist>
 		</artists>
-		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
+		<product>Bill Evans: Live '64-'75 (Jazz Icons 3)</product>
 	</session>
 	<session id="id0x1180fe0" av="V">
 		<date>1965-03-19</date>
@@ -360,7 +361,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alan Dawson</artist>
 		</artists>
-		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
+		<product>Bill Evans: Live '64-'75 (Jazz Icons 3)</product>
 	</session>
 	<session id="d1e510" av="V">
 		<date>1965-11-03</date>
@@ -382,7 +383,8 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alan Dawson</artist>
 		</artists>
-		<title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+		<title/>
+		<product>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</product>
 	</session>
 	<session id="id0x11816c0" av="V" official="true">
 		<date>1970-xx-xx</date>
@@ -400,7 +402,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
+		<product>Bill Evans: Live '64-'75 (Jazz Icons 3)</product>
 	</session>
 	<session id="id0x1182ae0" av="V" official="true">
 		<date>1970-xx-xx</date>
@@ -418,7 +420,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
+		<product>Bill Evans: Live '64-'75 (Jazz Icons 3)</product>
 	</session>
 	<session id="id0x1182e00" av="V">
 		<date>1970-xx-xx</date>
@@ -462,7 +464,7 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<titlefilm>Backstage-Report über die Proben für ein Jazzkonzert (NDR production)</titlefilm>
+		<title>Backstage-Report über die Proben für ein Jazzkonzert (NDR production)</title>
 	</session>
 	<session id="id0x1183670" av="V" official="true">
 		<date>1975-02-21</date>
@@ -482,7 +484,8 @@
 			<artist>Eddie Gomez</artist>
 			<artist>Eliot Zigmund</artist>
 		</artists>
-		<title>Bill Evans: Live '64-'75 (Jazz Icons 3)</title>
+		<title/>
+		<product>Bill Evans: Live '64-'75 (Jazz Icons 3)</product>
 	</session>
 	<session id="id0x1206900" av="V">
 		<date>1978-xx-xx</date>
@@ -667,7 +670,7 @@
 			<artist>Lew Soloff</artist>
 			<artist>Chuck Winfield</artist>
 		</artists>
-		<title>Woodstock 1969 – Extended Edition (Vol. 4)</title>
+		<product>Woodstock 1969 – Extended Edition (Vol. 4)</product>
 	</session>
 	<session id="id0x1265b80" av="V">
 		<date>1999-xx-xx</date>
@@ -1643,7 +1646,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Jazz Icons: Cannonball Adderley Live in '63</title>
+		<product>Jazz Icons: Cannonball Adderley Live in '63</product>
 	</session>
 	<session id="d1e2294" av="V" official="true">
 		<date>1963-03-24</date>
@@ -1666,7 +1669,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Jazz Icons: Cannonball Adderley Live in '63</title>
+		<product>Jazz Icons: Cannonball Adderley Live in '63</product>
 	</session>
 	<session id="id0x12f5300" av="V">
 		<date>1963-07-07</date>
@@ -1713,7 +1716,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Vintage Jazz Collection JAZZ 625: Cannonball Adderley Sextet I &amp; II (VAP Video)</title>
+		<product>Vintage Jazz Collection JAZZ 625: Cannonball Adderley Sextet I &amp; II (VAP Video)</product>
 	</session>
 	<session id="id0x12f9db0" av="V">
 		<date>1964-05-12</date>
@@ -1783,7 +1786,7 @@
 			<artist>Walter Booker</artist>
 			<artist>Roy McCurdy</artist>
 		</artists>
-		<title>Play Misty For Me (Clint Eastwood)</title>
+		<title year="1971">Play Misty For Me (Clint Eastwood)</title>
 	</session>
 	<session id="d1e2501" av="V" official="true">
 		<date>1975-09-xx</date>
@@ -1837,7 +1840,7 @@
 			<dummy type="band">Chuck Mangione Quartet</dummy>
 			<artist>Chuck Mangione</artist>
 		</artists>
-		<title>Highlights of the 18th Annual MONTEREY JAZZ FESTIVAL 1975 (Storyville)</title>
+		<product label="Storyville">Highlights of the 18th Annual MONTEREY JAZZ FESTIVAL 1975 (Storyville)</product>
 	</session>
 	<session id="id0x12fa710" av="V">
 		<date>1974-12-7_14</date>
@@ -1935,7 +1938,8 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>DVD-155 `66 Charles Lloyd &amp; Keith Jarrett; `70-79 Don Cherry, `98 Phil Woods &amp; Johnny Griffin</title>
+		<title/>
+		<product>DVD-155 `66 Charles Lloyd &amp; Keith Jarrett; `70-79 Don Cherry, `98 Phil Woods &amp; Johnny Griffin</product>
 	</session>
 	<session id="id0x12fc5d0" av="V">
 		<date>1966-07-23</date>
@@ -2001,7 +2005,7 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Charles LLoyd 1966-67 DVD Compilation</title>
+		<product>Charles LLoyd 1966-67 DVD Compilation</product>
 	</session>
 	<session id="d0e2871" av="V">
 		<date>1966-08-07</date>
@@ -2045,7 +2049,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Charles LLoyd 1966-67 DVD Compilation</title>
+		<product>Charles LLoyd 1966-67 DVD Compilation</product>
 	</session>
 	<session id="id0x12ff9a0" av="V">
 		<date>1967-xx-xx</date>
@@ -2066,8 +2070,8 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<titlefilm>Jazz the Intimate Art</titlefilm>
-		<title>Charles LLoyd 1966-67 DVD Compilation</title>
+		<title>Jazz the Intimate Art</title>
+		<product>Charles LLoyd 1966-67 DVD Compilation</product>
 	</session>
 	<session id="id0x12ffe50" av="V" official="true">
 		<date>1968-06-18</date>
@@ -2090,7 +2094,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Rhino">Ralph Gleason's Jazz Casual: Paul Winter Sextet; Charles Lloyd Quartet (Rhino 2003)</title>
+		<product label="Rhino">Ralph Gleason's Jazz Casual: Paul Winter Sextet; Charles Lloyd Quartet (Rhino 2003)</product>
 	</session>
 	<session id="d1e2967" av="V" official="true">
 		<date>1963-03-01</date>
@@ -2114,7 +2118,7 @@
 			<artist>Arthur Harper, Jr.</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title label="Rhino">Ralph Gleason's Jazz Casual: Paul Winter Sextet; Charles Lloyd Quartet (Rhino 2003)</title>
+		<product label="Rhino">Ralph Gleason's Jazz Casual: Paul Winter Sextet; Charles Lloyd Quartet (Rhino 2003)</product>
 	</session>
 	<session id="d1e3001" av="V" official="true">
 		<date>1968-06-18</date>
@@ -2137,7 +2141,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Idem">Four Tenors (Idem)</title>
+		<product label="Idem">Four Tenors (Idem)</product>
 	</session>
 	<session id="d1e3034" av="V" official="true">
 		<date>1968-06-18</date>
@@ -2160,7 +2164,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Eforfilms">Keith Jarrett ‎– Directions: In The Charles Lloyd Mood</title>
+		<product label="Eforfilms">Keith Jarrett ‎– Directions: In The Charles Lloyd Mood</product>
 	</session>
 	<session id="id0x1300260" av="V">
 		<date>1982-07-25</date>
@@ -2250,7 +2254,7 @@
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
+		<product>Charles Mingus - Live in '64 (Jazz Icons)</product>
 	</session>
 	<session id="d1e3200" av="V">
 		<date>1964-04-13</date>
@@ -2272,7 +2276,7 @@
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
+		<product>Charles Mingus - Live in '64 (Jazz Icons)</product>
 	</session>
 	<session id="d1e3232" av="V">
 		<date>1964-04-17</date>
@@ -2318,7 +2322,7 @@
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
-		<title>Charles Mingus - Live in '64 (Jazz Icons)</title>
+		<product>Charles Mingus - Live in '64 (Jazz Icons)</product>
 	</session>
 	<session id="d1e3303" av="V">
 		<date>1961-08-30</date>
@@ -2341,7 +2345,7 @@
 			<artist>George Joyner</artist>
 			<artist>Earl Smith (aka Buster)</artist>
 		</artists>
-		<title>Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</title>
+		<product>Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</product>
 	</session>
 	<session id="id0x1308b30" av="V">
 		<date>1971-xx-xx</date>
@@ -2363,7 +2367,7 @@
 			<artist>John Foster</artist>
 			<artist>Roy Brooks</artist>
 		</artists>
-		<title>Americans in Europe (Green Line Video)</title>
+		<product>Americans in Europe (Green Line Video)</product>
 	</session>
 	<session id="id0x1309030" av="V">
 		<date>1972-11-05</date>
@@ -2418,7 +2422,7 @@
 			<artist>Keith Jarrett</artist>
 			<artist>Carla Bley</artist>
 		</artists>
-		<title>Rambling Boy (Reto Caduff, 2009)</title>
+		<title year="2009">Rambling Boy (Reto Caduff, 2009)</title>
 	</session>
 	<session id="id0x1344d10" av="V" official="true">
 		<date>1952-02-24</date>
@@ -2440,7 +2444,7 @@
 			<artist>Charlie Smith</artist>
 			<artist>Earl Wilson</artist>
 		</artists>
-		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+		<product label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</product>
 	</session>
 	<session id="id0x1345580" av="V">
 		<date>1972-11-04</date>
@@ -6008,7 +6012,7 @@
 			<artist>Stan Getz</artist>
 			<artist>Oscar Peterson</artist>
 		</artists>
-		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
+		<product>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</product>
 	</session>
 	<session id="id0x5151120" av="V" official="true">
 		<date>1961-11-24</date>
@@ -6029,7 +6033,8 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
+		<title/>
+		<product>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</product>
 	</session>
 	<session id="d1e8654" av="V" official="true">
 		<date>1962-11-19</date>
@@ -6051,8 +6056,8 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<titlefilm>Trumpeten</titlefilm>
-		<title>Jazz Icons 2: Bonus Disc</title>
+		<title>Trumpeten</title>
+		<product>Jazz Icons 2: Bonus Disc</product>
 	</session>
 	<session id="id0x5151580" av="V" official="true">
 		<date>1963-12-07</date>
@@ -6097,7 +6102,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>John Coltrane - Live in France 1965 (Jazz Icons 5)</title>
+		<product>John Coltrane - Live in France 1965 (Jazz Icons 5)</product>
 	</session>
 	<session id="id0x523bf90" av="V" official="true">
 		<date>1965-07-27</date>
@@ -6119,7 +6124,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>John Coltrane - Live in France 1965 (Jazz Icons 5)</title>
+		<product>John Coltrane - Live in France 1965 (Jazz Icons 5)</product>
 	</session>
 	<session id="id0x523c440" av="V">
 		<date>1965-07-27</date>
@@ -6186,7 +6191,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</title>
+		<product>John Coltrane - Live '60, '61 &amp; '65 (Jazz Icons 2)</product>
 	</session>
 	<session id="id0x524ddb0" av="V">
 		<date>1998-xx-xx</date>
@@ -6204,7 +6209,7 @@
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
-		<title>Jazz Heroes: JOHN COLTRANE BLOWING FOR HIS SOUL (Nick Bray, 1998)</title>
+		<title year="1998">Jazz Heroes: JOHN COLTRANE BLOWING FOR HIS SOUL (Nick Bray, 1998)</title>
 	</session>
 	<session id="d1e8908" av="V">
 		<date>1998-xx-xx</date>
@@ -6222,7 +6227,7 @@
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
-		<title>Jazz Heroes: DIZZY GILLESPIE BOP AND A BENT TRUMPET (Janice Sutherland, 1998)</title>
+		<title year="1998">Jazz Heroes: DIZZY GILLESPIE BOP AND A BENT TRUMPET (Janice Sutherland, 1998)</title>
 	</session>
 	<session id="id0x524e440" av="V">
 		<date>1980-07-04</date>
@@ -6319,7 +6324,7 @@
 			<artist>Christian McBride</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</title>
+		<product>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</product>
 	</session>
 	<session id="d1e9070" av="V">
 		<date>1994-07-24</date>
@@ -6341,7 +6346,7 @@
 			<artist>George Mraz</artist>
 			<artist>Al Foster</artist>
 		</artists>
-		<title>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</title>
+		<product>JOSHUA REDMAN &amp; JOE HENDERSON QUARTETS DVD</product>
 	</session>
 	<session id="id0x52ac8b0" av="V">
 		<date>1997-10-20</date>
@@ -6550,7 +6555,7 @@
 			<artist>Palle Danielsson</artist>
 			<artist>Jon Christensen</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #100</titlefilm>
+		<title>NDR Jazzworkshop #100</title>
 	</session>
 	<session id="id0x5339f40" av="V">
 		<date>1974-04-18</date>
@@ -6572,7 +6577,7 @@
 			<artist>Palle Danielsson</artist>
 			<artist>Jon Christensen</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #100</titlefilm>
+		<title>NDR Jazzworkshop #100</title>
 	</session>
 	<session id="id0x533a3f0" av="V">
 		<date>1974-04-xx</date>
@@ -6648,7 +6653,7 @@
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
-		<title>Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
+		<title year="1974">Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
 	</session>
 	<session id="id0x5353210" av="V">
 		<date>1976-09-18</date>
@@ -7399,7 +7404,7 @@
 			<artist>Steve Kindler</artist>
 			<artist>Marsha Westbrook</artist>
 		</artists>
-		<title label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</title>
+		<product label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</product>
 	</session>
 	<session id="d1e10595" av="V" official="true">
 		<date>1984-07-xx</date>
@@ -7422,7 +7427,7 @@
 			<artist>Mitchel Forman</artist>
 			<artist>Bill Evans (sax)</artist>
 		</artists>
-		<title label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</title>
+		<product label="Eagle Vision">Live At Montreux 1984 / 1974 (EREDV640)</product>
 	</session>
 	<session id="id0x54365d0" av="V">
 		<date>1974-02-08</date>
@@ -7591,7 +7596,8 @@
 			<artist>Kenny Clarke</artist>
 			<dummy>Louis Malle</dummy>
 		</artists>
-		<title>Elevator to the Gallows (Criterion 335)</title>
+		<title/>
+		<product label="Criterion">Elevator to the Gallows (Criterion 335)</product>
 	</session>
 	<session id="id0x54e2ef0" av="V">
 		<date>1957-12-18</date>
@@ -7637,8 +7643,8 @@
 			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+		<title year="1959">The Sound of Miles Davis</title>
+		<product label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</product>
 	</session>
 	<session id="d1e10937" av="V" official="true">
 		<date>1959-04-02</date>
@@ -7662,8 +7668,8 @@
 			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title year="1959">The Sound of Miles Davis</title>
+		<product>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</product>
 	</session>
 	<session id="d1e10974" av="V" official="true">
 		<date>1959-04-02</date>
@@ -7687,8 +7693,8 @@
 			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>Kind of Blue 50th Anniversary Edition (Columbia 33552)</title>
+		<title year="1959">The Sound of Miles Davis</title>
+		<product>Kind of Blue 50th Anniversary Edition (Columbia 33552)</product>
 	</session>
 	<session id="d1e11011" av="V" official="true">
 		<date>1959-04-02</date>
@@ -7712,8 +7718,8 @@
 			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>The Sound of Jazz (Think Visual)</title>
+		<title year="1959">The Sound of Miles Davis</title>
+		<product>The Sound of Jazz (Think Visual)</product>
 	</session>
 	<session id="d1e11049" av="V">
 		<date>1959-04-02</date>
@@ -7737,8 +7743,8 @@
 			<artist>Jimmy Cobb</artist>
 			<artist>Gil Evans Orchestra</artist>
 		</artists>
-		<titlefilm year="1959">The Sound of Miles Davis</titlefilm>
-		<title>John Coltrane DVD Collection</title>
+		<title year="1959">The Sound of Miles Davis</title>
+		<product>John Coltrane DVD Collection</product>
 	</session>
 	<session id="id0x54e37b0" av="V">
 		<date>1964-09-10</date>
@@ -10040,8 +10046,8 @@
 			<artist>John Marshall</artist>
 			<artist>Roy Babbington</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #89</titlefilm>
-		<title>NDR Jazz Workshop (Cuneiform RUNE 305/306)</title>
+		<title>NDR Jazzworkshop #89</title>
+		<product label="Cuneiform">NDR Jazz Workshop (Cuneiform RUNE 305/306)</product>
 	</session>
 	<session id="id0x5b373f0" av="V">
 		<date>1974-xx-xx</date>
@@ -11349,7 +11355,7 @@
 			<artist>Alan Skidmore</artist>
 			<artist>John Surman</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</titlefilm>
+		<title>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</title>
 	</session>
 	<session av="V">
 		<date>1971-09-25</date>
@@ -11381,7 +11387,7 @@
 			<artist>Alan Skidmore</artist>
 			<artist>John Surman</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</titlefilm>
+		<title>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</title>
 	</session>
 	<session id="id0x76cc260" av="V" official="true">
 		<date>1971-xx-xx</date>
@@ -11670,7 +11676,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alex Riel</artist>
 		</artists>
-		<title>Jazz Icons 2: Bonus Disc</title>
+		<product>Jazz Icons 2: Bonus Disc</product>
 	</session>
 	<session id="d1e16856" av="V">
 		<date>1971-xx-xx</date>
@@ -11713,7 +11719,7 @@
 			<artist>Eugene Wright</artist>
 			<artist>Joe Morello</artist>
 		</artists>
-		<title>Jazz Icons 2: Bonus Disc</title>
+		<product>Jazz Icons 2: Bonus Disc</product>
 	</session>
 	<session id="d1e16914" av="V">
 		<date>1967-10-30</date>
@@ -11734,7 +11740,7 @@
 			<artist>Herb Mickman</artist>
 			<artist>Omar Clay</artist>
 		</artists>
-		<title>Jazz Icons 2: Bonus Disc</title>
+		<product>Jazz Icons 2: Bonus Disc</product>
 	</session>
 	<session id="id0x7b41170" av="V">
 		<date>1960-07-13</date>
@@ -11773,7 +11779,7 @@
 			<artist>Hayes Alvis</artist>
 			<artist>Sonny White</artist>
 		</artists>
-		<title>French TV Jazz Archive 1950's - 1970's (Antibes Jazz Festival - episode 3)</title>
+		<product>French TV Jazz Archive 1950's - 1970's (Antibes Jazz Festival - episode 3)</product>
 	</session>
 	<session id="id0xd61bd0" av="V">
 		<date>1964-1971</date>
@@ -11790,7 +11796,7 @@
 			<artist>Bill Evans</artist>
 			<artist>Count Basie</artist>
 		</artists>
-		<title>Americans in Europe (Green Line Video)</title>
+		<product>Americans in Europe (Green Line Video)</product>
 	</session>
 	<session id="d1e17036" av="V">
 		<date>1986-xx-xx</date>
@@ -11837,7 +11843,7 @@
 			<dummy type="band">Pino Danielli Group</dummy>
 			<artist>Pino Danielli</artist>
 		</artists>
-		<title>Jazz on French TV</title>
+		<product>Jazz on French TV</product>
 	</session>
 	<session id="id0xd61ef0" av="V">
 		<date>1967-08-24_27</date>
@@ -11955,7 +11961,7 @@
 			<dummy type="band">Roland and the Blues Workshop</dummy>
 			<artist>Roland Van Campenhout</artist>
 		</artists>
-		<title>jazz bilzen 21*22*23*24*VIII'69 *met HUMO (compilation DVD)</title>
+		<product>jazz bilzen 21*22*23*24*VIII'69 *met HUMO (compilation DVD)</product>
 	</session>
 	<session id="id0xd7dea0" av="V">
 		<date>1969-08-23</date>
@@ -11973,6 +11979,7 @@
 		<artists>
 			<artist type="band">The Moody Blues</artist>
 		</artists>
+		<title/>
 		<product label=""/>
 	</session>
 	<session id="id0xd7e170" av="V">
@@ -12000,7 +12007,7 @@
 			<artist>Marvin Gaye</artist>
 			<artist>Natalie Cole</artist>
 		</artists>
-		<title>Classic Soul Compilation</title>
+		<product>Classic Soul Compilation</product>
 	</session>
 	<session id="id0xd80900" av="V">
 		<date>1974-07-xx</date>
@@ -12058,7 +12065,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Barry Altschul</artist>
 		</artists>
-		<title>Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
+		<title year="1974">Jazz in Piazza: UMBRIA JAZZ 1974 (Pino Adriano)</title>
 	</session>
 	<session id="id0xd80c20" av="V">
 		<date>1975-11-18</date>
@@ -12179,7 +12186,7 @@
 			<artist>Miroslav Vitous</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Woodstock Jazz Festival (WNRD2501)</title>
+		<product>Woodstock Jazz Festival (WNRD2501)</product>
 	</session>
 	<session id="id0xd8ffe0" av="V">
 		<date>1981-07-23_27</date>
@@ -12691,7 +12698,7 @@
 			<artist>Buddy Williams</artist>
 			<artist>Don Alias</artist>
 		</artists>
-		<title>Jazz: Live Under The Skies (BWF)</title>
+		<product label="BWF?">Jazz: Live Under The Skies (BWF)</product>
 	</session>
 	<session av="V">
 		<date>1991-07-27_28</date>
@@ -12736,7 +12743,7 @@
 			<artist>Stanley Clarke</artist>
 			<artist>Robertinho Silva</artist>
 		</artists>
-		<title>Jazz: Live Under The Skies (BWF)</title>
+		<product label="BWF?">Jazz: Live Under The Skies (BWF)</product>
 	</session>
 	<session id="d1e18604" av="V">
 		<date>1992-07-25_26</date>
@@ -12813,7 +12820,7 @@
 			<artist>Hein van de Geyn</artist>
 			<artist>Dré Pallemaerts</artist>
 		</artists>
-		<title>Audi Jazz Promotional DVD</title>
+		<product>Audi Jazz Promotional DVD</product>
 	</session>
 	<session id="id0xdb0170" av="V">
 		<date>1991-10-16</date>
@@ -13817,7 +13824,7 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</title>
+		<product label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</product>
 	</session>
 	<session id="d1e20172" av="A">
 		<date>1966-09-18</date>
@@ -13839,7 +13846,7 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</title>
+		<product label="Atlantic">Forest Flower: Charles Lloyd at Monterey (Atlantic 8122-71746-2) (1994)</product>
 	</session>
 	<session id="d1e20202" av="A">
 		<date>1966-10-25</date>
@@ -13928,8 +13935,8 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Atlantic">Charles Lloyd - The Flowering of the Original (Atlantic WPCR-27266)</title>
-		<title label="Atlantic">Charles Lloyd In Europe (Atlantic WPCR-27207)</title>
+		<product label="Atlantic">Charles Lloyd - The Flowering of the Original (Atlantic WPCR-27266)</product>
+		<product label="Atlantic">Charles Lloyd In Europe (Atlantic WPCR-27207)</product>
 	</session>
 	<session id="id0x3f2f900" av="A">
 		<date>1966-10-30</date>
@@ -13969,8 +13976,8 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Atlantic">Charles Lloyd - Love-In (Atlantic)</title>
-		<title label="Atlantic">The Charles Lloyd Quartet - Journey Within (Jazz Best Collection 1000)</title>
+		<product label="Atlantic">Charles Lloyd - Love-In (Atlantic)</product>
+		<product label="Atlantic">The Charles Lloyd Quartet - Journey Within (Jazz Best Collection 1000)</product>
 	</session>
 	<session id="d1e20390" av="A">
 		<date>1967-05-14</date>
@@ -13988,7 +13995,7 @@
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Atlantic">Charles Lloyd In The Soviet Union (Atlantic)</title>
+		<product label="Atlantic">Charles Lloyd In The Soviet Union (Atlantic)</product>
 	</session>
 	<session id="id0x3f2fd60" av="A">
 		<date>1967-07-11</date>
@@ -14564,7 +14571,8 @@
 		<source>DAB</source>
 		<format/>
 		<quality/>
-		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
+		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB
+			&amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
@@ -14777,7 +14785,7 @@
 		<artists>
 			<artist main="true">Dave Holland</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #160</titlefilm>
+		<title>NDR Jazzworkshop #160</title>
 	</session>
 	<session id="id0x53551c0" av="A">
 		<date>2010-10-23</date>
@@ -15585,7 +15593,8 @@
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (level 8)</lineage>
+		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend
+			(level 8)</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
@@ -17667,7 +17676,6 @@
 			<artist>Jon Christensen</artist>
 			<artist>Palle Danielsson</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #100</titlefilm>
 	</session>
 	<session id="id0x1062cc0" av="A">
 		<date>1974-07-02</date>
@@ -19016,7 +19024,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title label="Dragon Of Sweden">Miles Davis in Stockholm 1960 Complete (DRCD 228)</title>
+		<product label="Dragon Of Sweden">Miles Davis in Stockholm 1960 Complete (DRCD 228)</product>
 	</session>
 	<session id="d1e27443" av="A" official="true">
 		<date>1960-03-24</date>
@@ -19190,7 +19198,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title label="Dragon Of Sweden">Miles Davis in Stockholm 1960 Complete (DRCD 228)</title>
+		<product label="Dragon Of Sweden">Miles Davis in Stockholm 1960 Complete (DRCD 228)</product>
 	</session>
 	<session id="d1e27691" av="A" official="true">
 		<date>1960-10-15</date>
@@ -21925,7 +21933,7 @@
 			<artist>Stanley Clarke</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #81: Chick Corea's Return to Forever</titlefilm>
+		<title>NDR Jazzworkshop #81: Chick Corea's Return to Forever</title>
 	</session>
 	<session id="id0x7490f40" av="A">
 		<date>1972-09-17</date>
@@ -23122,7 +23130,7 @@
 			<artist>John Surman</artist>
 		</artists>
 		<title/>
-		<titlefilm>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</titlefilm>
+		<title>NDR Jazzworkshop #73: WEATHER REPORT &amp; GUESTS</title>
 	</session>
 	<session id="d1e33301" av="A" official="true">
 		<date>1972-01-13</date>
@@ -24620,7 +24628,7 @@
 			<artist>Palle Danielsson</artist>
 			<artist>Jon Christensen</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #115</titlefilm>
+		<title>NDR Jazzworkshop #115</title>
 	</session>
 	<session id="d1e35408" av="V">
 		<date>1974-12-17</date>
@@ -24726,7 +24734,7 @@
 			<artist>Jan Garbarek</artist>
 			<artist>Charlie Haden</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #152</titlefilm>
+		<title>NDR Jazzworkshop #152</title>
 	</session>
 	<session id="d1e35559" av="A">
 		<date>1982-05-25</date>
@@ -25159,7 +25167,7 @@
 			<artist>Monty Budwig</artist>
 			<artist>Colin Bailey</artist>
 		</artists>
-		<title label="Idem">Four Tenors (Idem)</title>
+		<product label="Idem">Four Tenors (Idem)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-01-02</date>
@@ -25182,7 +25190,7 @@
 			<artist>Monty Budwig</artist>
 			<artist>Colin Bailey</artist>
 		</artists>
-		<title label="Idem">Ralph Gleason's Jazz Casual: Jimmy Witherspoon &amp; Ben Webster; Jimmy Rushing (Idem IDVD1002)</title>
+		<product label="Idem">Ralph Gleason's Jazz Casual: Jimmy Witherspoon &amp; Ben Webster; Jimmy Rushing (Idem IDVD1002)</product>
 	</session>
 	<session id="d1e36152" av="V" official="true">
 		<date>1962-03-23</date>
@@ -25333,7 +25341,8 @@
 			<artist>Bobby Timmons</artist>
 			<artist>Jymie Merritt</artist>
 		</artists>
-		<title>Jazz Icons: Art Blakey Live in '58</title>
+		<title/>
+		<product>Jazz Icons: Art Blakey Live in '58</product>
 	</session>
 	<session id="d1e36363" av="V">
 		<date>1995-05-02</date>
@@ -27365,7 +27374,7 @@
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="ECM">Keith Jarrett Trio - Standards I (ECM DVD 5502)</title>
+		<product label="ECM">Keith Jarrett Trio - Standards I (ECM DVD 5502)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1986-10-26</date>
@@ -27386,7 +27395,7 @@
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="ECM">Keith Jarrett Trio - Standards II (ECM DVD 5503)</title>
+		<product label="ECM">Keith Jarrett Trio - Standards II (ECM DVD 5503)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1993-07-25</date>
@@ -27407,7 +27416,7 @@
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="ECM">Keith Jarrett Trio - Live in Japan 93 (ECM DVD 5504)</title>
+		<product label="ECM">Keith Jarrett Trio - Live in Japan 93 (ECM DVD 5504)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1996-03-30</date>
@@ -27428,7 +27437,7 @@
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="ECM">Keith Jarrett Trio - Live in Japan 96 (ECM DVD 5505)</title>
+		<product label="ECM">Keith Jarrett Trio - Live in Japan 96 (ECM DVD 5505)</product>
 	</session>
 	<session id="d1e39291" av="V">
 		<date>1985-10-27</date>
@@ -27980,7 +27989,8 @@
 			<artist>Luigi Trussardi</artist>
 			<artist>Franco Manzecchi</artist>
 		</artists>
-		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
+		<title/>
+		<product>Jazz Icons: Chet Baker Live in '64 &amp; '79</product>
 	</session>
 	<session id="d1e40113" av="V" official="true">
 		<date>1979-09-03</date>
@@ -28001,7 +28011,8 @@
 			<artist>Michel Graillier</artist>
 			<artist>Jean-Louis Rassinfosse</artist>
 		</artists>
-		<title>Jazz Icons: Chet Baker Live in '64 &amp; '79</title>
+		<title/>
+		<product>Jazz Icons: Chet Baker Live in '64 &amp; '79</product>
 	</session>
 	<session id="d1e40141" av="V" official="true">
 		<date>1981-xx-xx</date>
@@ -28174,7 +28185,8 @@
 		<source station="BR">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
+		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound
+			Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
 		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -28280,7 +28292,7 @@
 			<artist>Freddie Green</artist>
 			<artist>Sonny Payne</artist>
 		</artists>
-		<title label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</title>
+		<product label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</product>
 	</session>
 	<session id="d1e40585" av="V" official="true">
 		<date>1961-01-17</date>
@@ -28303,7 +28315,7 @@
 			<artist>Bob Cunningham</artist>
 			<artist>Chuck Lampkin</artist>
 		</artists>
-		<title label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</title>
+		<product label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</product>
 	</session>
 	<session id="d1e40617" av="V" official="true">
 		<date>1963-12-07</date>
@@ -28326,7 +28338,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</title>
+		<product label="Rhino">Ralph Gleason's Jazz Casual: Count Basie, Dizzy Gillespie, John Coltrane (Rhino R2 976664)</product>
 	</session>
 	<session id="d1e40649" av="V">
 		<date>1974-07-28</date>
@@ -28373,7 +28385,7 @@
 			<artist>Gerry Mulligan</artist>
 			<artist>Benny Bailey</artist>
 		</artists>
-		<title label="Eagle Vision">Charles Mingus - Live at Montreux 1975</title>
+		<product label="Eagle Vision">Charles Mingus - Live at Montreux 1975</product>
 	</session>
 	<session id="d1e40684" av="V">
 		<date>1987-07-04</date>
@@ -28642,7 +28654,7 @@
 			<artist>Jaco Pastorius</artist>
 			<artist>Peter Erskine</artist>
 		</artists>
-		<title label="Sony">Weather Report ‎– Forecast Tomorrow (Sony Legacy)</title>
+		<product label="Sony">Weather Report ‎– Forecast Tomorrow (Sony Legacy)</product>
 	</session>
 	<session id="d1e41124" av="V" official="true">
 		<date>1978-09-28</date>
@@ -28909,7 +28921,7 @@
 			<country>U.S.A.</country>
 		</location>
 		<length>0:25:24</length>
-		<source></source>
+		<source/>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality>B</quality>
 		<lineage trader="Franz Hoffman"/>
@@ -28922,7 +28934,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V">
 		<date>1962-10-29</date>
@@ -29242,7 +29254,8 @@
 			<artist>Larry Gales</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title>Thelonious Monk - Live in '66 (Jazz Icons)</title>
+		<title/>
+		<product>Thelonious Monk - Live in '66 (Jazz Icons)</product>
 	</session>
 	<session id="d1e41870" av="V">
 		<date>1966-04-17</date>
@@ -29261,7 +29274,8 @@
 			<artist>Larry Gales</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title>Thelonious Monk - Live in '66 (Jazz Icons)</title>
+		<title/>
+		<product>Thelonious Monk - Live in '66 (Jazz Icons)</product>
 	</session>
 	<session id="d1e41898" av="V">
 		<date>1971-04-24</date>
@@ -29343,7 +29357,8 @@
 			<artist>Harry Edison</artist>
 			<artist>Flip Phillips</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42017" av="V">
 		<date>1966-xx-xx</date>
@@ -29363,7 +29378,8 @@
 			<artist>John Lamb</artist>
 			<artist>Sam Woodyard</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42044" av="V">
 		<date>1977-07-14</date>
@@ -29388,7 +29404,8 @@
 			<artist>Ray Brown</artist>
 			<artist>Jimmie Smith</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42081" av="V">
 		<date>1979-xx-xx</date>
@@ -29402,7 +29419,8 @@
 		<artists>
 			<artist main="true">Joe Pass</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42099" av="V">
 		<date>1979-xx-xx</date>
@@ -29419,7 +29437,8 @@
 			<artist>Keter Betts</artist>
 			<artist>Mickey Roker</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42122" av="V">
 		<date>1977-07-14</date>
@@ -29442,7 +29461,8 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Bobby Durham</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42155" av="V">
 		<date>1987-xx-xx</date>
@@ -29460,7 +29480,8 @@
 			<artist>Harry Edison</artist>
 			<artist>Clark Terry</artist>
 		</artists>
-		<title>Norman Granz presents Improvisation</title>
+		<title/>
+		<product label="MAWA">Norman Granz presents Improvisation (MAWA 600)</product>
 	</session>
 	<session id="d1e42179" av="V">
 		<date>1929-xx-xx</date>
@@ -29481,8 +29502,8 @@
 			<artist>Wellman Braud</artist>
 			<artist>Tricky Sam Nanton</artist>
 		</artists>
-		<titlefilm year="1929">Black and Tan</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1929">Black and Tan</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42210" av="V">
 		<date>1930-xx-xx</date>
@@ -29501,8 +29522,8 @@
 			<artist>Juan Tizol</artist>
 			<artist>Barney Bigard</artist>
 		</artists>
-		<titlefilm year="1930">Check and Double Check</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1930">Check and Double Check</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42237" av="V">
 		<date>1934-xx-xx</date>
@@ -29522,8 +29543,8 @@
 			<artist>Barney Bigard</artist>
 			<artist>Joe Nanton</artist>
 		</artists>
-		<titlefilm year="1934">Symphony in Black: A Rhapsody of Negro Life</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1934">Symphony in Black: A Rhapsody of Negro Life</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42266" av="V">
 		<date>1937-xx-xx</date>
@@ -29540,8 +29561,8 @@
 			<artist main="true">Duke Ellington</artist>
 			<dummy type="band">&amp; his Orchestra</dummy>
 		</artists>
-		<titlefilm year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1937">Paramount Pictorial No. 889: Record Making with Duke Ellington and His Orchestra</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42289" av="V">
 		<date>1937-xx-xx</date>
@@ -29560,8 +29581,8 @@
 			<artist>Johnny Hodges</artist>
 			<artist>Barney Bigard</artist>
 		</artists>
-		<titlefilm year="1937">The Hit Parade of 1937</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1937">The Hit Parade of 1937</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42316" av="V">
 		<date>1943-xx-xx</date>
@@ -29579,8 +29600,8 @@
 			<dummy type="band">&amp; his Orchestra</dummy>
 			<artist>Johnny Hodges</artist>
 		</artists>
-		<titlefilm year="1943">RKO Jamboree No. 7: Duke Ellington and His Orchestra</titlefilm>
-		<title label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</title>
+		<title year="1943">RKO Jamboree No. 7: Duke Ellington and His Orchestra</title>
+		<product label="Storyville">Duke Ellington &amp; His Orchestra 1929-1943 (Storyville Films 26033)</product>
 	</session>
 	<session id="d1e42341" av="V" official="true">
 		<date>1944-xx-xx</date>
@@ -29609,8 +29630,8 @@
 			<artist>Archie Savage</artist>
 			<artist>Garland Finney</artist>
 		</artists>
-		<titlefilm year="1944">Jammin' The Blues</titlefilm>
-		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+		<title year="1944">Jammin' The Blues</title>
+		<product label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</product>
 	</session>
 	<session id="d1e42389" av="V">
 		<date>1957-12-08</date>
@@ -29663,8 +29684,8 @@
 			<artist>Osie Johnson</artist>
 			<artist>Ryan Nelson</artist>
 		</artists>
-		<titlefilm>The Sound of Jazz</titlefilm>
-		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+		<title>The Sound of Jazz</title>
+		<product label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</product>
 	</session>
 	<session id="d1e42489" av="V">
 		<date>1960-09-15</date>
@@ -29693,8 +29714,8 @@
 			<artist>Vic Dickenson</artist>
 			<artist>Jo Jones</artist>
 		</artists>
-		<titlefilm>Jazz from Studio 61</titlefilm>
-		<title label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</title>
+		<title>Jazz from Studio 61</title>
+		<product label="Idem">Greatest Jazz Films Ever (Idem IDVD 1059)</product>
 	</session>
 	<session id="d1e42536" av="V">
 		<date>1957-12-08</date>
@@ -29747,8 +29768,8 @@
 			<artist>Osie Johnson</artist>
 			<artist>Ryan Nelson</artist>
 		</artists>
-		<titlefilm>The Sound of Jazz</titlefilm>
-		<title>The Sound of Jazz (Think Visual)</title>
+		<title>The Sound of Jazz</title>
+		<product>The Sound of Jazz (Think Visual)</product>
 	</session>
 	<session id="id0x1344d10" av="V" official="true">
 		<date>1952-02-24</date>
@@ -29799,8 +29820,8 @@
 			<artist>Vic Dickenson</artist>
 			<artist>Jo Jones</artist>
 		</artists>
-		<titlefilm>Jazz from Studio 61</titlefilm>
-		<title>The Sound of Jazz (Think Visual)</title>
+		<title>Jazz from Studio 61</title>
+		<product>The Sound of Jazz (Think Visual)</product>
 	</session>
 	<session id="d1e42714" av="V" official="true">
 		<date>1944-xx-xx</date>
@@ -29829,8 +29850,8 @@
 			<artist>Archie Savage</artist>
 			<artist>Garland Finney</artist>
 		</artists>
-		<titlefilm year="1944">Jammin' The Blues</titlefilm>
-		<title>The Sound of Jazz (Think Visual)</title>
+		<title year="1944">Jammin' The Blues</title>
+		<product>The Sound of Jazz (Think Visual)</product>
 	</session>
 	<session id="d1e42763" av="V">
 		<date>1960-09-15</date>
@@ -29859,8 +29880,8 @@
 			<artist>Vic Dickenson</artist>
 			<artist>Jo Jones</artist>
 		</artists>
-		<titlefilm>Jazz from Studio 61</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title>Jazz from Studio 61</title>
+		<product>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</product>
 	</session>
 	<session id="d1e42810" av="V">
 		<date>1957-12-08</date>
@@ -29913,8 +29934,8 @@
 			<artist>Osie Johnson</artist>
 			<artist>Ryan Nelson</artist>
 		</artists>
-		<titlefilm>The Sound of Jazz</titlefilm>
-		<title>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</title>
+		<title>The Sound of Jazz</title>
+		<product>Jazz Masters: Vintage Collection 1958-1961((c) Fred Baker Film and Video Company)</product>
 	</session>
 	<session id="d1e42909" av="V">
 		<date>1990-10-23</date>
@@ -30230,7 +30251,8 @@
 			<artist>Nelson Riddle</artist>
 			<host>Norman Granz</host>
 		</artists>
-		<title>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
+		<title/>
+		<product>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</product>
 	</session>
 	<session id="d1e43392" av="V">
 		<date>1982-07-23_25</date>
@@ -30303,7 +30325,8 @@
 			<artist>Jackie Williams</artist>
 			<artist>Slim Gaillard</artist>
 		</artists>
-		<title>DVD-154 Antibes-79 M.Royal &amp; Sc.Hamilton; Montreux-82; Jazz Off-97: Johnny Griffin; Barney Wilen</title>
+		<title/>
+		<product>DVD-154 Antibes-79 M.Royal &amp; Sc.Hamilton; Montreux-82; Jazz Off-97: Johnny Griffin; Barney Wilen</product>
 	</session>
 	<session id="d1e43532" av="V">
 		<date>1958-07-03_06</date>
@@ -31255,7 +31278,8 @@
 			<artist>Buddy Catlett</artist>
 			<artist>Joe Harris</artist>
 		</artists>
-		<title>Quincy Jones - Live in '60 (Jazz Icons)</title>
+		<title/>
+		<product>Quincy Jones - Live in '60 (Jazz Icons)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1960-05-20</date>
@@ -31289,7 +31313,8 @@
 			<artist>Buddy Catlett</artist>
 			<artist>Joe Harris</artist>
 		</artists>
-		<title>Quincy Jones - Live in '60 (Jazz Icons)</title>
+		<title/>
+		<product>Quincy Jones - Live in '60 (Jazz Icons)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1958-05-19</date>
@@ -31311,7 +31336,8 @@
 			<artist>Ray Brown</artist>
 			<artist>Gus Johnson</artist>
 		</artists>
-		<title>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</title>
+		<title/>
+		<product>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1970-11-04</date>
@@ -31346,7 +31372,8 @@
 			<artist>Kenny Clare</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</title>
+		<title/>
+		<product>Dizzy Gillespie - Live in '58 &amp; '70 (Jazz Icons)</product>
 	</session>
 	<session av="V">
 		<date>1975-06-08</date>
@@ -31369,7 +31396,7 @@
 			<artist>Dieter Feichtner</artist>
 			<artist>Barre Phillips</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #110</titlefilm>
+		<title>NDR Jazzworkshop #110</title>
 	</session>
 	<session av="V">
 		<date>1969-12-07+12</date>
@@ -31396,7 +31423,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Pierre Cavalli</artist>
 			<artist>Klaus Weiss</artist>
 		</artists>
-		<titlefilm>NDR Jazzworkshop #54: WHEEL IN THE RIGHT MACHINE</titlefilm>
+		<title>NDR Jazzworkshop #54: WHEEL IN THE RIGHT MACHINE</title>
 	</session>
 	<session av="V" official="true">
 		<date>1970-07-04</date>
@@ -31433,7 +31460,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Allan Jaffe</artist>
 			<artist>Cie Frazier</artist>
 		</artists>
-		<title>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</title>
+		<title/>
+		<product>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1970-07-10</date>
@@ -31468,7 +31496,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Gwen Lightner</artist>
 			<artist>Ralph Jones</artist>
 		</artists>
-		<title>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</title>
+		<title/>
+		<product>Louis Armstrong - Good Evening Ev'rybody (Universal Music ‎– 2731402)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1970-07-04+10</date>
@@ -31539,7 +31568,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
-		<title>Monmartre 1959-1976 Compilation DVD</title>
+		<title/>
+		<product>Monmartre 1959-1976 Compilation DVD</product>
 	</session>
 	<session av="V" official="true">
 		<date>1983-02-18</date>
@@ -31561,7 +31591,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>George Mraz</artist>
 			<artist>Victor Lewis</artist>
 		</artists>
-		<title>Live In Stockholm 1983</title>
+		<title/>
+		<product>Live In Stockholm 1983</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-12-07</date>
@@ -31584,7 +31615,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-03-23</date>
@@ -31606,7 +31638,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Bob Cranshaw</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1968-05-09</date>
@@ -31629,7 +31662,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>James Toney</artist>
 			<artist>Sonny Freeman</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-xx-xx</date>
@@ -31651,7 +31685,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Wyatt Ruther</artist>
 			<artist>Gus Johnson</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1964-01-10</date>
@@ -31673,7 +31708,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Steve Swallow</artist>
 			<artist>Walter Perkins</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1964-05-09</date>
@@ -31695,7 +31731,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Fred Marshall</artist>
 			<artist>Bill Goodwin</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1968-06-18</date>
@@ -31718,7 +31755,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Ron McClure</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-03-01</date>
@@ -31742,7 +31780,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Arthur Harper, Jr.</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-09-25</date>
@@ -31765,7 +31804,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Fred Marshall</artist>
 			<artist>Jerry Granelli</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-06-20</date>
@@ -31790,7 +31830,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Harold Johnson</artist>
 			<artist>Lloyd Byasse</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-05-xx</date>
@@ -31823,7 +31864,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Chuck Andrus</artist>
 			<artist>Jake Hanna</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-06-01</date>
@@ -31856,7 +31898,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Chuck Andrus</artist>
 			<artist>Jake Hanna</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-06-01</date>
@@ -31891,7 +31934,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Chuck Andrus</artist>
 			<artist>Jake Hanna</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-05-16</date>
@@ -31914,7 +31958,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1961-10-17</date>
@@ -31937,7 +31982,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eugene Wright</artist>
 			<artist>Joe Morello</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1968-04-22</date>
@@ -31971,7 +32017,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Richard Davis</artist>
 			<artist>Mel Lewis</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1961-01-17</date>
@@ -31994,7 +32041,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Bob Cunningham</artist>
 			<artist>Chuck Lampkin</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1961-10-24</date>
@@ -32017,7 +32065,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-12-06</date>
@@ -32041,7 +32090,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>George Pops Foster</artist>
 			<artist>Earl Watkins</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-12-18</date>
@@ -32060,7 +32110,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<artists>
 			<artist main="true">Joe Sullivan</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1964-05-02</date>
@@ -32082,7 +32133,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Perry Lind</artist>
 			<artist>Benny Barth</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-01-02</date>
@@ -32105,7 +32157,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Monty Budwig</artist>
 			<artist>Colin Bailey</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-03-15</date>
@@ -32127,7 +32180,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Victor Sproles</artist>
 			<artist>Walter Perkins</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-02-22</date>
@@ -32153,7 +32207,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>George Tucker</artist>
 			<artist>Jimmie Smith</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1968-08-21</date>
@@ -32175,7 +32230,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Freddie Green</artist>
 			<artist>Sonny Payne</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-02-15</date>
@@ -32196,7 +32252,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>John Green</artist>
 			<artist>Earl Watkins</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1962-10-26</date>
@@ -32215,7 +32272,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<artists>
 			<artist main="true">Jimmy Rushing</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-01-23</date>
@@ -32234,30 +32292,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<artists>
 			<artist main="true">Louis Armstrong</artist>
 		</artists>
-		<title label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</title>
-	</session>
-	<session av="V">
-		<date>1956-xx-xx</date>
-		<location>
-			<event type="festival">Jazz at the Philharmonic</event>
-			<country>Belgium</country>
-		</location>
-		<length>0:37:28</length>
-		<source/>
-		<format resolution="PAL 1/2">mpg</format>
-		<quality>B-</quality>
-		<lineage trader="Franz Hoffman"/>
-		<remarks/>
-		<artists>
-			<artist main="true">Ella Fitzgerald</artist>
-			<artist>Oscar Peterson</artist>
-			<artist>Herb Ellis</artist>
-			<artist>Ray Brown</artist>
-			<artist>Jo Jones</artist>
-			<artist>Roy Eldridge</artist>
-			<dummy>Jimmy Jones??</dummy>
-		</artists>
-		<title>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</title>
+		<title/>
+		<product label="Efor">Ralph Gleason's Jazz Casual: The Complete Series</product>
 	</session>
 	<session av="V">
 		<date>1959-10-29</date>
@@ -32306,7 +32342,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jack Sels</artist>
 			<host>Willis Conover</host>
 		</artists>
-		<title>DVD-114 1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</title>
+		<title/>
+		<product>DVD-114 1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</product>
 	</session>
 	<session av="V">
 		<date>1957-05-03or04</date>
@@ -32327,7 +32364,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Herb Ellis</artist>
 			<artist>Ray Brown</artist>
 		</artists>
-		<title>DVD-113 JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</title>
+		<title/>
+		<product>DVD-113 JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</product>
 	</session>
 	<session av="V">
 		<date>1966-05-xx</date>
@@ -32352,7 +32390,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jimmy Woode</artist>
 			<artist>Edgar Bateman</artist>
 		</artists>
-		<title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+		<title/>
+		<product>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</product>
 	</session>
 	<session av="V">
 		<date>1963-11-03</date>
@@ -32372,7 +32411,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Guy Pedersen</artist>
 			<artist>Daniel Humair</artist>
 		</artists>
-		<title>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</title>
+		<product>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</product>
 	</session>
 	<session av="V">
 		<date>1963-xx-xx</date>
@@ -32393,7 +32432,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Guy Pedersen</artist>
 			<artist>Daniel Humair</artist>
 		</artists>
-		<title>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</title>
+		<product>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</product>
 	</session>
 	<session av="V">
 		<date>1967-10-2x</date>
@@ -32414,7 +32453,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Alex Riel</artist>
 		</artists>
-		<title>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</title>
+		<product>Jazz Icons 3: Rahsaan Roland Kirk - Live in '63 &amp; '67</product>
 	</session>
 	<session av="V">
 		<date>1967-07-xx</date>
@@ -32432,7 +32471,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<artists>
 			<artist main="true">Jackie Davis</artist>
 		</artists>
-		<title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+		<title/>
+		<product>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</product>
 	</session>
 	<session av="V">
 		<date>1962-01-13</date>
@@ -32454,7 +32494,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Amedeo Tommasi</artist>
 			<artist>Daniel Humair</artist>
 		</artists>
-		<title>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</title>
+		<title/>
+		<product>DVD-157 JazzPourTous Chet Baker; Dave Brubeck; Odetta; Lee Konitz &amp; Bill Evans; Ted Curson;</product>
 	</session>
 	<session av="V">
 		<date>1991-06-25</date>
@@ -32644,7 +32685,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jay Anderson</artist>
 			<artist>Joey Baron</artist>
 		</artists>
-		<title label=""/>
+		<title/><product label=""/>
 	</session>
 	<session av="V">
 		<date>1987-03-01</date>
@@ -32686,7 +32727,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jack Six</artist>
 			<artist>Alan Dawson</artist>
 		</artists>
-		<title label=""/>
+		<title/><product label=""/>
 	</session>
 	<session av="V">
 		<date>1976-01-23</date>
@@ -32709,7 +32750,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Volker Kriegel</artist>
 			<artist>Toots Thielemans</artist>
 		</artists>
-		<title label=""/>
+		<title/><product label=""/>
 	</session>
 	<session av="V">
 		<date>1987-12-26</date>
@@ -32727,7 +32768,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<dummy type="band">George Shearing Quintet</dummy>
 			<artist main="true">George Shearing</artist>
 		</artists>
-		<title label="">ZDF JazzClub</title>
+		<title>ZDF JazzClub</title>
 	</session>
 	<session av="V">
 		<date>1980-07-08</date>
@@ -32750,7 +32791,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Mark Egan</artist>
 			<artist>Dan Gottlieb</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1972-01-28</date>
@@ -32775,7 +32816,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Pierre Favre</artist>
 			<artist>Karin Krog</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1972-02-12</date>
@@ -32796,7 +32837,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eddie Gomez</artist>
 			<artist>Marty Morell</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1968-03-xx</date>
@@ -32819,7 +32860,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Barre Phillips</artist>
 			<artist>Makaya Ntsoko</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1982-03-25</date>
@@ -32842,7 +32883,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Zeca Assumpção</artist>
 			<artist>Nenê</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1980-06-13</date>
@@ -32863,7 +32904,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jan Garbarek</artist>
 			<artist>Charlie Haden</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1979-10-30</date>
@@ -32887,7 +32928,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Carl Burnett</artist>
 			<artist>Leon Thomas</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1970-12-07_12</date>
@@ -32910,7 +32951,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Barre Phillips</artist>
 			<artist>Klaus Weiss</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1972-06-14</date>
@@ -32931,7 +32972,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Charlie Haden</artist>
 			<artist>Paul Motian</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1966-04-22</date>
@@ -32958,7 +32999,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Peter Trunk</artist>
 			<artist>Cees See</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1969-03-03_07</date>
@@ -32980,7 +33021,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Peter Baumeister</artist>
 			<artist>Ingfried Hoffmann</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1971-09-03</date>
@@ -33006,7 +33047,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Alan Skidmore</artist>
 			<artist>John Surman</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1967-xx-xx</date>
@@ -33028,7 +33069,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eberhard Weber</artist>
 			<artist>Fred Braceful</artist>
 		</artists>
-		<title label="">NDR Jazzworkshop Compilation</title>
+		<product label="">NDR Jazzworkshop Compilation</product>
 	</session>
 	<session av="V">
 		<date>1965-09-16</date>
@@ -33082,7 +33123,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
       -  Recorded over a period of two months in 1965 at Basin Street West in North Beach, Coast Recorders, The Fairmont Hotel and Grace Cathedral, San Francisco, and at the 1965 Monterey Jazz Festival.</remarks>
 		<artists>
 			<artist main="true">Duke Ellington</artist>
-			<commentary>Ralph J. Gleason</commentary>
+			<host>Ralph J. Gleason</host>
 		</artists>
 		<title>Love You Madly (Richard Moore, 1967)</title>
 		<product label="Eagle Vision">Love You Madly/A Concert of Sacred Music at Grace Cathedral (EREDV 490)</product>
@@ -33105,7 +33146,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Steve Swallow</artist>
 			<artist>Pete La Roca</artist>
 		</artists>
-		<title label="Reelin' in the Years">Jazz Icons 4: Art Farmer - Live in '64</title>
+		<product label="Reelin' in the Years">Jazz Icons 4: Art Farmer - Live in '64</product>
 	</session>
 	<session av="V" official="true">
 		<date>1983-06-26</date>
@@ -33127,7 +33168,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Günther Wohlgenannt</artist>
 			<artist>Juris Dudli</artist>
 		</artists>
-		<title label="">Jazz Bühne extra</title>
+		<title>Jazz Bühne extra</title>
 	</session>
 	<session av="V">
 		<date>1962-10-01</date>
@@ -33147,7 +33188,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Barney Woodson</artist>
 			<artist>Stan Levey</artist>
 		</artists>
-		<title label=""/>
+		<title/>
+		<product label=""/>
 	</session>
 	<session av="V">
 		<date>1977-xx-xx</date>
@@ -33179,7 +33221,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>James Leary</artist>
 			<artist>James Marshall</artist>
 		</artists>
-		<title label="">Musikalsk gjestebud – 10. februar 1978</title>
+		<title>Musikalsk gjestebud – 10. februar 1978</title>
 	</session>
 	<session av="V">
 		<date>1963-xx-xx</date>
@@ -33322,12 +33364,12 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/FMUS00007675/22-10-1975</lineage>
 		<remarks>Broadcast 22 october 1975</remarks>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>			
+			<artist main="true" type="band">Various Artists</artist>
 			<dummy type="band">Christian Reim Quartet</dummy>
 			<artist>Carl Magnus Neumann</artist>
 			<artist>Christian Reim</artist>
 			<artist>Bjørn Kjellemyr</artist>
-			<artist>Ole Jacob Hansen</artist>			
+			<artist>Ole Jacob Hansen</artist>
 			<dummy type="band">Don Cherry Quintet</dummy>
 			<artist>Don Cherry</artist>
 			<artist>Billy Higgins</artist>
@@ -33367,10 +33409,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="720p">AVC</format>
 		<quality>A+</quality>
 		<lineage>https://tv.nrk.no/serie/kongsberg-jazzfestival/1974/FUHA01006073/avspiller</lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
-			<artist main="true" type="band">Various Artists</artist>			
-			<dummy type="band">unknown?</dummy>					
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy type="band">unknown?</dummy>
 			<dummy type="band">Sax Meeting</dummy>
 			<artist>Dexter Gordon</artist>
 			<artist>Johnny Griffin</artist>
@@ -33468,7 +33510,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
+		<lineage/>
 		<remarks>includes short interview</remarks>
 		<artists>
 			<artist main="true">Art Blakey</artist>
@@ -33478,7 +33520,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Walter Davis Jr.</artist>
 			<artist>Jymie Merritt</artist>
 		</artists>
-		<title>Jazz Icons 5: Art Blakey's Jazz Messengers - Live in France 1959</title>
+		<product>Jazz Icons 5: Art Blakey's Jazz Messengers - Live in France 1959</product>
 	</session>
 	<session av="V" official="true">
 		<date>1976-04-13</date>
@@ -33491,8 +33533,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage></lineage>
-		<remarks></remarks>
+		<lineage/>
+		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Arists</artist>
 			<artist>Dizzy Gillespie</artist>
@@ -33521,7 +33563,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[VHS (master/SP mode) -> HQ 4head HiFi/Stereo VCR -> Canon ZR85 -> Firewire -> PC -> Nero]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Jimi Hendrix</artist>
 		</artists>
@@ -33538,7 +33580,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format>flac</format>
 		<quality>A</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
@@ -33547,6 +33589,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
+		<title/>
 		<product label="Bandstand">Charles Mingus - Meditations On Integration (BDCD1524)</product>
 	</session>
 	<session av="A">
@@ -33560,7 +33603,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format>flac</format>
 		<quality>A</quality>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 			<artist>Eric Dolphy</artist>
@@ -33569,6 +33612,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jaki Byard</artist>
 			<artist>Dannie Richmond</artist>
 		</artists>
+		<title/>
 		<product label="Bandstand">Charles Mingus - Meditations On Integration (BDCD1524)</product>
 	</session>
 	<session av="A" official="true">
@@ -33650,7 +33694,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format>flac</format>
 		<quality/>
@@ -33674,7 +33718,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format>flac</format>
 		<quality/>
@@ -33698,7 +33742,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>N.Y.C.</city>
 			<country>U.S.A.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source>CD</source>
 		<format>flac</format>
 		<quality/>
@@ -33762,19 +33806,44 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title>In Europe</title>
 		<product label="Phono">Cannonball Adderley Sextet with Joe Zawinul - Complete 1962 Live Performances (870258)</product>
 	</session>
+	<session av="V">
+		<date>1957-05-07</date>
+		<location>
+			<event type="festival">Jazz at the Philharmonic</event>
+			<venue>Palais des Beaux-Arts</venue>
+			<country>Belgium</country>
+		</location>
+		<length>0:37:28</length>
+		<source/>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B-</quality>
+		<lineage trader="Franz Hoffman"/>
+		<remarks>has one more song than the Jazz Icons DVD</remarks>
+		<artists>
+			<artist main="true">Ella Fitzgerald</artist>
+			<artist>Don Abney</artist>
+			<artist>Ray Brown</artist>
+			<artist>Jo Jones</artist>
+			<artist>Roy Eldridge</artist>
+		</artists>
+		<title/>
+		<product>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</product>
+	</session>
 	<session av="V" official="true">
 		<date>1957-06-06</date>
 		<location>
+			<event type="festival">Jazz at the Philharmonic</event>
 			<event type="tvshow">Jazz pour tous</event>
+			<venue>Palais des Beaux-Arts</venue>
 			<city>Brussels</city>
 			<country>Belgium</country>
 		</location>
 		<length>34min</length>
 		<source station="RTBF">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
-		<remarks/>
+		<remarks>Jazz pour tous broadcast 6 May, 1957?</remarks>
 		<artists>
 			<artist main="true">Ella Fitzgerald</artist>
 			<artist>Don Abney</artist>
@@ -33784,7 +33853,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Oscar Peterson</artist>
 			<artist>Roy Eldridge</artist>
 		</artists>
-		<title>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</title>
+		<title/>
+		<product>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-04-03</date>
@@ -33795,7 +33865,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>22min</length>
 		<source station="SVT">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -33805,7 +33875,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Gus Johnson</artist>
 			<artist>Les Spann</artist>
 		</artists>
-		<title>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</title>
+		<title/>
+		<product>Jazz Icons: Ella Fitzgerald - Live in '57 &amp; '63</product>
 	</session>
 	<session av="V">
 		<date>1996-07-25</date>
@@ -33817,7 +33888,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>1:04:05</length>
 		<source station="">TV</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[Japanese TV broadcast(see above) > unknown VCR > master VHS > playback on unknown VCR > unknown stand alone DVD recorder(most likely SP mode) > unknown editing programms > DVD > my traded DVD (> YOU)]]></lineage>
 		<remarks/>
 		<artists>
@@ -33825,7 +33896,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Joey DeFrancesco</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title></title>
+		<title/>
 	</session>
 	<session av="V" official="true">
 		<date>1962-xx-xx</date>
@@ -33834,10 +33905,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Brussels</city>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="RTBF">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -33846,7 +33917,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jimmy Woode</artist>
 			<artist>Kansas Fields</artist>
 		</artists>
-		<title>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</title>
+		<title/>
+		<product>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</product>
 	</session>
 	<session av="V" official="true">
 		<date>1964-10-02</date>
@@ -33856,10 +33928,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="BBC">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -33868,7 +33940,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Charles Thompson</artist>
 			<artist>Jimmy Woode</artist>
 		</artists>
-		<title>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</title>
+		<title/>
+		<product>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</product>
 	</session>
 	<session av="V" official="true">
 		<date>1963-xx-xx</date>
@@ -33876,10 +33949,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz Prisma</event>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="BRT">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks>Broadcast December 3, 1963?</remarks>
 		<artists>
@@ -33887,7 +33960,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eddie Calhoun</artist>
 			<artist>Kelly Martin</artist>
 		</artists>
-		<title>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</title>
+		<title/>
+		<product>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</product>
 	</session>
 	<session av="V" official="true">
 		<date>1964-xx-xx</date>
@@ -33895,17 +33969,18 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Live In Sweden</event>
 			<country>Sweden</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="SVT">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Erroll Garner</artist>
 			<artist>Eddie Calhoun</artist>
 			<artist>Kelly Martin</artist>
 		</artists>
-		<title>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</title>
+		<title/>
+		<product>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</product>
 	</session>
 </KC_ROIO>

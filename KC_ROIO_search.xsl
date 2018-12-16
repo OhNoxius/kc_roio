@@ -69,6 +69,7 @@
 			<td>
 				<xsl:apply-templates select="location/*"/>
 				<xsl:apply-templates select="title"/>
+				<xsl:apply-templates select="product"/>
 			</td>
 			<td>
 				<xsl:apply-templates select="artists/*"/>
@@ -142,6 +143,13 @@
 	</xsl:template>
 	
 	<xsl:template match="title">
+		<br/>
+		<em>
+			<xsl:value-of select="."/>
+		</em>
+	</xsl:template>
+	
+	<xsl:template match="product">
 		<br/>
 		<em>
 			<xsl:value-of select="."/>

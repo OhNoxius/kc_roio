@@ -20,7 +20,7 @@
         <xs:element ref="remarks"/>
         <xs:element ref="source"/>
         <xs:element ref="title"/>
-        <xs:element ref="titlefilm"/>
+        <xs:element ref="product"/>
       </xs:choice>
       <xs:attribute name="av" use="required" type="xs:NCName"/>
       <xs:attribute name="id" type="xs:NCName"/>
@@ -108,15 +108,15 @@
       <xs:attribute name="channel"/>
       <xs:attribute name="station"/>
     </xs:complexType>
-  </xs:element>
+  </xs:element>  
   <xs:element name="title">
     <xs:complexType mixed="true">
-      <xs:attribute name="label"/>
+      <xs:attribute name="year" type="xs:integer"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="titlefilm">
+  <xs:element name="product">
     <xs:complexType mixed="true">
-      <xs:attribute name="year" type="xs:integer"/>
+      <xs:attribute name="label"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>
