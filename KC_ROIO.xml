@@ -33827,4 +33827,85 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title></title>
 	</session>
+	<session av="V" official="true">
+		<date>1962-xx-xx</date>
+		<location>
+			<event type="festival">Adolphe Sax Festival</event>
+			<city>Brussels</city>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source station="RTBF">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Coleman Hawkins</artist>
+			<artist>George Arvanitas</artist>
+			<artist>Jimmy Woode</artist>
+			<artist>Kansas Fields</artist>
+		</artists>
+		<title>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</title>
+	</session>
+	<session av="V" official="true">
+		<date>1964-10-02</date>
+		<location>
+			<event type="tvshow">Jazz 625</event>
+			<venue>Wembley Town Hall</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length></length>
+		<source station="BBC">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Coleman Hawkins</artist>
+			<artist>Harry Edison (Sweets)</artist>
+			<artist>Charles Thompson</artist>
+			<artist>Jimmy Woode</artist>
+		</artists>
+		<title>Jazz Icons 4: Coleman Hawkins - Live in '62 &amp; '64</title>
+	</session>
+	<session av="V" official="true">
+		<date>1963-xx-xx</date>
+		<location>
+			<event type="tvshow">Jazz Prisma</event>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source station="BRT">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks>Broadcast December 3, 1963?</remarks>
+		<artists>
+			<artist main="true">Erroll Garner</artist>
+			<artist>Eddie Calhoun</artist>
+			<artist>Kelly Martin</artist>
+		</artists>
+		<title>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</title>
+	</session>
+	<session av="V" official="true">
+		<date>1964-xx-xx</date>
+		<location>
+			<event type="tvshow">Live In Sweden</event>
+			<country>Sweden</country>
+		</location>
+		<length></length>
+		<source station="SVT">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Erroll Garner</artist>
+			<artist>Eddie Calhoun</artist>
+			<artist>Kelly Martin</artist>
+		</artists>
+		<title>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</title>
+	</session>
 </KC_ROIO>
