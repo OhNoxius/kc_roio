@@ -34033,7 +34033,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz Prisma</event>
 			<country>Belgium</country>
 		</location>
-		<length>29min</length>
+		<length>24min</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality></quality>
@@ -34054,7 +34054,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>London</city>
 			<country>Belgium</country>
 		</location>
-		<length>29min</length>
+		<length>25min</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality></quality>
@@ -34072,6 +34072,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V" official="true">
 		<date>1964-07-29</date>
 		<location>
+			<city>Amersfoort</city>
 			<country>The Netherlands</country>
 		</location>
 		<length></length>
@@ -34115,6 +34116,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<date>1963-09-20</date>
 		<location>
 			<event type="tvshow">Jazz Prisma</event>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length></length>
@@ -34131,5 +34133,47 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title></title>
 		<product>Dexter Gordon - Live in '63 &amp; '64 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1964-10-10</date>
+		<location>
+			<event type="tvshow">Jazz pour tous</event>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source station="RTBF">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Brubeck</artist>
+			<artist>Paul Desmond</artist>
+			<artist>Eugene Wright</artist>
+			<artist>Joe Morello</artist>
+		</artists>
+		<title></title>
+		<product>Dave Brubeck - Live in '64 &amp; '66 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1966-11-06</date>
+		<location>
+			<event type="tvshow">Jazz - gehört und gesehen</event>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source station="SWR">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Brubeck</artist>
+			<artist>Paul Desmond</artist>
+			<artist>Eugene Wright</artist>
+			<artist>Joe Morello</artist>
+		</artists>
+		<title></title>
+		<product>Dave Brubeck - Live in '64 &amp; '66 (Jazz Icons 2)</product>
 	</session>
 </KC_ROIO>
