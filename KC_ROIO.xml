@@ -33949,7 +33949,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz Prisma</event>
 			<country>Belgium</country>
 		</location>
-		<length/>
+		<length>0:31:40</length>
 		<source station="BRT">DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -33969,7 +33969,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Live In Sweden</event>
 			<country>Sweden</country>
 		</location>
-		<length/>
+		<length>31min</length>
 		<source station="SVT">DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
@@ -34075,7 +34075,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Amersfoort</city>
 			<country>The Netherlands</country>
 		</location>
-		<length></length>
+		<length>32min</length>
 		<source station="AVRO">DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality></quality>
@@ -34097,7 +34097,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Lugano</city>
 			<country>Switzerland</country>
 		</location>
-		<length></length>
+		<length>21min</length>
 		<source station="RTSI">DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality></quality>
@@ -34119,7 +34119,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length>13min</length>
 		<source station="BRT">DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality></quality>
@@ -34175,5 +34175,55 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title></title>
 		<product>Dave Brubeck - Live in '64 &amp; '66 (Jazz Icons 2)</product>
+	</session>
+	<session av="V">
+		<date>1961-01-11</date>
+		<location>
+			<venue>TBS-TV Studios</venue>
+			<city>Tokyo</city>
+			<country>Japan</country>
+		</location>
+		<length></length>
+		<source station="">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="band">The Jazz Messengers</artist>
+			<artist>Lee Morgan</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Bobby Timmons</artist>
+			<artist>Jymie Merritt</artist>
+			<artist>Nobuo Hara Sharps</artist>
+			<artist>Flats big band</artist>
+		</artists>
+		<title></title>
+		<product label="Impro-Jazz">Art Blakey's Jazz Messengers - Tokyo 1961 + London 1965 (IJ 519)</product>
+	</session>
+	<session av="V">
+		<date>1965-03-07</date>
+		<location>
+			<venue>Cine-Tele Sound Studio</venue>
+			<city>London</city>
+			<country>U.K.</country>
+		</location>
+		<length></length>
+		<source station="">DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="band">The Jazz Messengers</artist>
+			<artist>Lee Morgan</artist>
+			<artist>John Gilmore</artist>
+			<artist>John Hicks</artist>
+			<artist>Victor Sproles</artist>
+		</artists>
+		<title></title>
+		<product label="Impro-Jazz">Art Blakey's Jazz Messengers - Tokyo 1961 + London 1965 (IJ 519)</product>
 	</session>
 </KC_ROIO>
