@@ -34211,7 +34211,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</location>
 		<length></length>
 		<source station="">DVD</source>
-		<format resolution="PAL">DVD</format>
+		<format resolution="NTSC">DVD</format>
 		<quality></quality>
 		<lineage/>
 		<remarks/>
