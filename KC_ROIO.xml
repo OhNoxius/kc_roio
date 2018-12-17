@@ -27329,7 +27329,7 @@
 			<artist>Danny Barcelona</artist>
 			<artist>Velma Middleton</artist>
 		</artists>
-		<title/>
+		<title>Satchmo Spécial</title>
 	</session>
 	<session id="d1e39253" av="V">
 		<date>1959-02-04</date>
@@ -27353,7 +27353,7 @@
 			<artist>Danny Barcelona</artist>
 			<artist>Velma Middleton</artist>
 		</artists>
-		<title>Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</title>
+		<product label="Eforfilms">Louis Armstrong - Live in Antwerp, 1959 (Eforfilms, 286 9077)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1985-02-15</date>
@@ -32346,28 +32346,6 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<product>DVD-114 1959 Buck Clayton, Dizzy Gillespie Jimmy Rushing, Cat Anderson, Ella Fitzgeral; etc.</product>
 	</session>
 	<session av="V">
-		<date>1957-05-03or04</date>
-		<location>
-			<event type="festival">Jazz at the Philharmonic</event>
-			<venue>Paleis voor Schone Kunsten</venue>
-			<city>Brussel</city>
-			<country>Belgium</country>
-		</location>
-		<length>0:24:46</length>
-		<source/>
-		<format resolution="PAL 1/2">mpg</format>
-		<quality>B-</quality>
-		<lineage trader="Franz Hoffman"/>
-		<remarks>(Stuff Smith (vln) belonged to the programm became ill &amp; had to return to USA) an obviously 2nd part of the concert announced with Roy Eldridge is missing</remarks>
-		<artists>
-			<artist main="true">Oscar Peterson</artist>
-			<artist>Herb Ellis</artist>
-			<artist>Ray Brown</artist>
-		</artists>
-		<title/>
-		<product>DVD-113 JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</product>
-	</session>
-	<session av="V">
 		<date>1966-05-xx</date>
 		<location>
 			<event type="tvshow">Jazz pour tous</event>
@@ -33813,6 +33791,28 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<venue>Palais des Beaux-Arts</venue>
 			<country>Belgium</country>
 		</location>
+		<length>0:24:46</length>
+		<source/>
+		<format resolution="PAL 1/2">mpg</format>
+		<quality>B+</quality>
+		<lineage trader="Franz Hoffman"/>
+		<remarks>Stuff Smith (vln) belonged to the programm became ill &amp; had to return to USA) an obviously 2nd part of the concert announced with Roy Eldridge is missing.</remarks>
+		<artists>
+			<artist main="true">Oscar Peterson</artist>
+			<artist>Herb Ellis</artist>
+			<artist>Ray Brown</artist>
+			<host>Norman Granz</host>
+		</artists>
+		<title/>
+		<product>DVD-113 JATP `57 Oscar Peterson; 60 Paris part-2, JJ.Johnson, Stan Getz, Adderley Bros. / 59, Art Blakey / 55+70 Don Byas</product>
+	</session>
+	<session av="V">
+		<date>1957-05-07</date>
+		<location>
+			<event type="festival">Jazz at the Philharmonic</event>
+			<venue>Palais des Beaux-Arts</venue>
+			<country>Belgium</country>
+		</location>
 		<length>0:37:28</length>
 		<source/>
 		<format resolution="PAL 1/2">mpg</format>
@@ -33830,7 +33830,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<product>DVD-9b JazzAt The Philharmonic:1950-84; Nat King Cole `56; UK `66</product>
 	</session>
 	<session av="V" official="true">
-		<date>1957-06-06</date>
+		<date>1957-05-07</date>
 		<location>
 			<event type="festival">Jazz at the Philharmonic</event>
 			<event type="tvshow">Jazz pour tous</event>
@@ -33982,5 +33982,154 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title/>
 		<product>Jazz Icons 4: Erroll Garner - Live in '63 &amp; '64</product>
+	</session>
+	<session av="V" official="true">
+		<date>1959-03-2x</date>
+		<location>
+			<city></city>
+			<country>Belgium</country>
+		</location>
+		<length>0:53:01</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band">Louis Armstrong All Stars</artist>
+			<artist main="true">Louis Armstrong</artist>
+			<artist>Billy Kyle</artist>
+			<artist>Trummy Young</artist>
+			<artist>Peanuts Hucko</artist>
+			<artist>Mort Herbert</artist>
+			<artist>Danny Barcelona</artist>
+			<artist>Velma Middleton</artist>
+		</artists>
+		<product>Louis Armstrong - Live in '59 (Jazz Icons)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1965-04-02</date>
+		<location>
+			<country>The Netherlands</country>
+		</location>
+		<length>29min</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Wes Montgomery</artist>
+			<artist>Pim Jacobs</artist>
+			<artist>Ruud Jacobs</artist>
+			<artist>Han Bennink</artist>
+		</artists>
+		<title>Wes Montgomery</title>
+		<product>Wes Montgomery - Live in '65 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1965-04-04</date>
+		<location>
+			<event type="tvshow">Jazz Prisma</event>
+			<country>Belgium</country>
+		</location>
+		<length>29min</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Wes Montgomery</artist>
+			<artist>Harold Mabern</artist>
+			<artist>Arthur Harper</artist>
+			<artist>Jimmy Lovelace</artist>
+		</artists>
+		<product>Wes Montgomery - Live in '65 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1965-04-04</date>
+		<location>
+			<venue>Ronnie Scott's Jazz Club</venue>
+			<city>London</city>
+			<country>Belgium</country>
+		</location>
+		<length>29min</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Wes Montgomery</artist>
+			<artist>Stan Tracey</artist>
+			<artist>Rick Laird</artist>
+			<artist>Jackie Dougan</artist>
+		</artists>
+		<title>Tempo: Boss Guitar- The Art of Wes Montgomery</title>
+		<product>Wes Montgomery - Live in '65 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1964-07-29</date>
+		<location>
+			<country>The Netherlands</country>
+		</location>
+		<length></length>
+		<source station="AVRO">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dexter Gordon</artist>
+			<artist>George Gruntz</artist>
+			<artist>Guy Pederson</artist>
+			<artist>Daniel Humair</artist>
+		</artists>
+		<title>Dexter Gordon</title>
+		<product>Dexter Gordon - Live in '63 &amp; '64 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1963-09-20</date>
+		<location>
+			<event type="festival">Estival Jazz Lugano</event>
+			<city>Lugano</city>
+			<country>Switzerland</country>
+		</location>
+		<length></length>
+		<source station="RTSI">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dexter Gordon</artist>
+			<artist>Kenny Drew</artist>
+			<artist>Gilbert Rovere (aka Bibi)</artist>
+			<artist>Art Taylor</artist>
+		</artists>
+		<title>Lugano Festival Internazionale</title>
+		<product>Dexter Gordon - Live in '63 &amp; '64 (Jazz Icons 2)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1963-09-20</date>
+		<location>
+			<event type="tvshow">Jazz Prisma</event>
+			<country>Belgium</country>
+		</location>
+		<length></length>
+		<source station="BRT">DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Dexter Gordon</artist>
+			<artist>George Gruntz</artist>
+			<artist>Guy Pederson</artist>
+			<artist>Daniel Humair</artist>
+		</artists>
+		<title></title>
+		<product>Dexter Gordon - Live in '63 &amp; '64 (Jazz Icons 2)</product>
 	</session>
 </KC_ROIO>
