@@ -34226,4 +34226,37 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title></title>
 		<product label="Impro-Jazz">Art Blakey's Jazz Messengers - Tokyo 1961 + London 1965 (IJ 519)</product>
 	</session>
+	<session av="V">
+		<date>1972-xx-xx</date>
+		<location>
+			<event type="tvshow">Musikladen</event>
+			<country>Germany</country>
+		</location>
+		<length>0:29:21</length>
+		<source station="einsfestival">TV</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Bill Withers</artist>
+		</artists>
+	</session>
+	<session av="V">
+		<date>1973-xx-xx</date>
+		<location>
+			<event type="tvshow">BBC In Concert</event>
+			<country>U.K.</country>
+		</location>
+		<length>0:29:24</length>
+		<source station="BBC Four">DVB</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage><![CDATA[SkyStar2/DVBViewer->VideoRedo->DVDLab]]></lineage>
+		<remarks>BBC4 DVB-S, 7th June 2006, logo free.</remarks>
+		<artists>
+			<artist main="true">Bill Withers</artist>
+		</artists>
+		<title>BBC In Concert</title>
+	</session>	
 </KC_ROIO>
