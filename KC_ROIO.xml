@@ -14571,8 +14571,7 @@
 		<source>DAB</source>
 		<format/>
 		<quality/>
-		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB
-			&amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
+		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
@@ -15593,8 +15592,7 @@
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend
-			(level 8)</lineage>
+		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (level 8)</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
@@ -25323,7 +25321,7 @@
 	<session id="d1e36329" av="V">
 		<date>1958-11-30</date>
 		<location>
-			<venue>Palais Des Beaux Arts</venue>
+			<venue>Paleis voor Schone Kunsten</venue>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
@@ -28185,8 +28183,7 @@
 		<source station="BR">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound
-			Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
+		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
 		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -30762,7 +30759,7 @@
 		<date>1962-06-01</date>
 		<location>
 			<event type="tvshow">L'oeil écoute</event>
-			<venue>Palais des beaux-arts</venue>
+			<venue>Paleis voor Schone Kunsten</venue>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
@@ -33788,7 +33785,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<date>1957-05-07</date>
 		<location>
 			<event type="festival">Jazz at the Philharmonic</event>
-			<venue>Palais des Beaux-Arts</venue>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length>0:24:46</length>
@@ -33810,7 +33808,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<date>1957-05-07</date>
 		<location>
 			<event type="festival">Jazz at the Philharmonic</event>
-			<venue>Palais des Beaux-Arts</venue>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length>0:37:28</length>
@@ -33834,8 +33833,8 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<location>
 			<event type="festival">Jazz at the Philharmonic</event>
 			<event type="tvshow">Jazz pour tous</event>
-			<venue>Palais des Beaux-Arts</venue>
-			<city>Brussels</city>
+			<venue>Paleis voor Schone Kunsten</venue>
+			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
 		<length>34min</length>
@@ -33986,13 +33985,13 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	<session av="V" official="true">
 		<date>1959-03-2x</date>
 		<location>
-			<city></city>
+			<city/>
 			<country>Belgium</country>
 		</location>
 		<length>0:53:01</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34015,7 +34014,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>29min</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34036,7 +34035,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>24min</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34057,7 +34056,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>25min</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34078,7 +34077,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>32min</length>
 		<source station="AVRO">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34100,7 +34099,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>21min</length>
 		<source station="RTSI">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34122,7 +34121,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>13min</length>
 		<source station="BRT">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34131,7 +34130,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Guy Pederson</artist>
 			<artist>Daniel Humair</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product>Dexter Gordon - Live in '63 &amp; '64 (Jazz Icons 2)</product>
 	</session>
 	<session av="V" official="true">
@@ -34140,10 +34139,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz pour tous</event>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="RTBF">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34152,7 +34151,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eugene Wright</artist>
 			<artist>Joe Morello</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product>Dave Brubeck - Live in '64 &amp; '66 (Jazz Icons 2)</product>
 	</session>
 	<session av="V" official="true">
@@ -34161,10 +34160,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="tvshow">Jazz - gehört und gesehen</event>
 			<country>Belgium</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="SWR">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34173,7 +34172,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eugene Wright</artist>
 			<artist>Joe Morello</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product>Dave Brubeck - Live in '64 &amp; '66 (Jazz Icons 2)</product>
 	</session>
 	<session av="V">
@@ -34183,10 +34182,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Tokyo</city>
 			<country>Japan</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34199,7 +34198,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Nobuo Hara Sharps</artist>
 			<artist>Flats big band</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product label="Impro-Jazz">Art Blakey's Jazz Messengers - Tokyo 1961 + London 1965 (IJ 519)</product>
 	</session>
 	<session av="V">
@@ -34209,10 +34208,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>London</city>
 			<country>U.K.</country>
 		</location>
-		<length></length>
+		<length/>
 		<source station="">DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -34223,7 +34222,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>John Hicks</artist>
 			<artist>Victor Sproles</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product label="Impro-Jazz">Art Blakey's Jazz Messengers - Tokyo 1961 + London 1965 (IJ 519)</product>
 	</session>
 </KC_ROIO>
