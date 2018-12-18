@@ -20,8 +20,7 @@
 			<artist>Frank Zappa</artist>
 			<artist>Bill Bruford</artist>
 		</artists>
-		<title/>
-		<product label=""/>
+		<title year="1969">Amougies Festival Documentary (Marc Mopty)</title>
 	</session>
 	<session id="id0x3f2da40" av="V">
 		<date>2012-12-07</date>
@@ -339,7 +338,7 @@
 			<artist>Chuck Israels</artist>
 			<artist>Larry Bunker</artist>
 		</artists>
-		<title>The 1965 London Concerts (Impro-Jazz)</title>
+		<product label="Impro-Jazz">The 1965 London Concerts (Impro-Jazz)</product>
 	</session>
 	<session id="id0x11813a0" av="V" official="true">
 		<date>1965-11-03</date>
@@ -1254,7 +1253,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Bud Powell in Europe (EFORFILMS)</title>
+		<product label="Eforfilms">Bud Powell in Europe</product>
 	</session>
 	<session id="id0x12a5710" av="V">
 		<date>1959-12-27</date>
@@ -1276,7 +1275,8 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Bud Powell in Europe (EFORFILMS)</title> &gt; </session>
+		<product label="Eforfilms">Bud Powell in Europe</product>
+	</session>
 	<session id="id0x12e2bd0" av="V">
 		<date>1962-xx-xx</date>
 		<location>
@@ -1295,7 +1295,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
-		<title>Bud Powell in Europe (EFORFILMS)</title>
+		<product label="Eforfilms">Bud Powell in Europe</product>
 	</session>
 	<session id="id0x12a52b0" av="V">
 		<date>1959-10-30</date>
@@ -1317,7 +1317,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
+		<title year="1990">Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
 	</session>
 	<session id="id0x12a5710" av="V">
 		<date>1959-12-27</date>
@@ -1339,7 +1339,7 @@
 			<artist>Pierre Michelot</artist>
 			<artist>Kenny Clarke</artist>
 		</artists>
-		<title>Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
+		<title year="1990">Jazz Memories 1958-1972: Piano Giants Special (1990)</title>
 	</session>
 	<session id="id0x12e2bd0" av="V">
 		<date>1962-xx-xx</date>
@@ -1359,7 +1359,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Jørn Elniff</artist>
 		</artists>
-		<title>Monmartre 1959-1976 Compilation DVD</title>
+		<product>Monmartre 1959-1976 Compilation DVD</product>
 	</session>
 	<session id="id0x12e2f40" av="V">
 		<date>1958-05-07</date>
@@ -1405,7 +1405,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball Adderley 1960-70 DVD Compilation</title>
+		<product>Cannonball Adderley 1960-70 DVD Compilation</product>
 	</session>
 	<session id="id0x12f2a40" av="V">
 		<date>1960-11-25</date>
@@ -1463,7 +1463,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</title>
+		<product label="Idem">Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</product>
 	</session>
 	<session id="d1e2033" av="V" official="true">
 		<date>1962-05-16</date>
@@ -1486,7 +1486,7 @@
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</title>
+		<product label="Idem">Ralph Gleason's Jazz Casual: Cannonball Adderly Quintet + Modern Jazz Quartet (Idem IDVD1003)</product>
 	</session>
 	<session id="d1e2065" av="V" official="true">
 		<date>1961-10-24</date>
@@ -1509,7 +1509,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Idem IDVD1010?</title>
+		<product label="Idem">Idem IDVD1010?</product>
 	</session>
 	<session id="id0x12f33a0" av="V">
 		<date>1966-06-01</date>
@@ -1532,7 +1532,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Mel Lewis</artist>
 		</artists>
-		<title>Cannonball Adderley 1960-70 DVD Compilation</title>
+		<product>Cannonball Adderley 1960-70 DVD Compilation</product>
 	</session>
 	<session id="id0x12f4900" av="V">
 		<date>1962-08-05</date>
@@ -1555,7 +1555,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball Adderley 1960-70 DVD Compilation</title>
+		<product>Cannonball Adderley 1960-70 DVD Compilation</product>
 	</session>
 	<session id="d1e2166" av="A" official="true">
 		<date>1962-08-05</date>
@@ -1578,7 +1578,7 @@
 			<artist>Sam Jones</artist>
 			<artist>Louis Hayes</artist>
 		</artists>
-		<title>Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records LCD-1307-2)</title>
+		<product label="Landmark Records">Cannonball In Europe! (The Cannonball Adderley Collection Vol.7 - Landmark Records LCD-1307-2)</product>
 	</session>
 	<session id="id0x12f4e00" av="V">
 		<date>1963-03-20</date>
@@ -1854,7 +1854,7 @@
 		<format resolution="PAL">DVD</format>
 		<quality>B</quality>
 		<lineage/>
-		<remarks>Cannonball Adderley 1960-70 DVD Compilation</remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Cannonball Adderley</artist>
 			<artist>Nat Adderley</artist>
@@ -1863,6 +1863,7 @@
 			<artist>Roy McCurdy</artist>
 		</artists>
 		<title>Jazz Ship</title>
+		<product>Cannonball Adderley 1960-70 DVD Compilation</product>
 	</session>
 	<session id="id0x12fbb80" av="V">
 		<date>1974-09-07</date>
@@ -1983,7 +1984,7 @@
 			<artist>Cecil McBee</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Charles LLoyd 1966-67 DVD Compilation</title>
+		<product>Charles LLoyd 1966-67 DVD Compilation</product>
 	</session>
 	<session id="id0x12fdfe0" av="V">
 		<date>1966-08-07</date>
@@ -2345,7 +2346,7 @@
 			<artist>George Joyner</artist>
 			<artist>Earl Smith (aka Buster)</artist>
 		</artists>
-		<product>Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</product>
+		<product label="Impro-Jazz">Eric Dolphy - In Europe 1961-1964 (Impro-Jazz)</product>
 	</session>
 	<session id="id0x1308b30" av="V">
 		<date>1971-xx-xx</date>
@@ -2558,7 +2559,7 @@
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz entre amigos - Chick Corea (Part I)</title>
+		<title year="1990">>Jazz entre amigos - Chick Corea (Part I)</title>
 	</session>
 	<session id="id0x13df2b0" av="V">
 		<date>1990-xx-xx</date>
@@ -2572,7 +2573,7 @@
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz entre amigos - Chick Corea (Part II)</title>
+		<title year="1990">>Jazz entre amigos - Chick Corea (Part II)</title>
 	</session>
 	<session id="id0x13df620" av="V">
 		<date>1988-07-13</date>
@@ -2937,7 +2938,7 @@
 			<artist>Robin Eubanks</artist>
 			<artist>Marvin Smith (aka Smitty)</artist>
 		</artists>
-		<title>Dave Holland Quintet (ArtHaus)</title>
+		<product label="ArtHaus">Dave Holland Quintet (ArtHaus)</product>
 	</session>
 	<session id="id0x16206c0" av="V">
 		<date>2007-07-20</date>
@@ -3045,7 +3046,7 @@
 			<artist>Nelson Boyd</artist>
 			<artist>Charlie Persip</artist>
 		</artists>
-		<title>Date with Dizzy (John Hubley, 1958)</title>
+		<title year="1958">Date with Dizzy (John Hubley, 1958)</title>
 	</session>
 	<session id="id0x163c300" av="V">
 		<date>1960-xx-xx</date>
@@ -3096,12 +3097,13 @@
 		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
 		<lineage/>
-		<remarks>Double Exposure concert</remarks>
+		<remarks></remarks>
 		<artists>
 			<artist main="true">Donny Hathaway</artist>
 			<artist>Roberta Flack</artist>
 		</artists>
-		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
+		<title>Double Exposure</title>
+		<product label="Mid Valley Records">Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</product>
 	</session>
 	<session id="d1e4441" av="A" official="true">
 		<date>1971-08-xx</date>
@@ -3125,8 +3127,8 @@
 			<artist>Fred White</artist>
 			<artist>Earl DeRouen</artist>
 		</artists>
-		<title>Donny Hathaway - Live</title>
-		<title>Donny Hathaway - In Performance</title>
+		<product>Donny Hathaway - Live</product>
+		<product>Donny Hathaway - In Performance</product>
 	</session>
 	<session id="d1e4477" av="A" official="true">
 		<date>1971-10-27_29</date>
@@ -3150,8 +3152,8 @@
 			<artist>Fred White</artist>
 			<artist>Earl DeRouen</artist>
 		</artists>
-		<title>Donny Hathaway - Never My Love: The Anthology (Rhino)</title>
-		<title>Donny Hathaway - Live</title>
+		<product label="Rhino">Donny Hathaway - Never My Love: The Anthology (Rhino)</product>
+		<product>Donny Hathaway - Live</product>
 	</session>
 	<session id="d0e4825" av="V">
 		<date>1971-01-17</date>
@@ -3168,7 +3170,7 @@
 		<artists>
 			<artist main="true">Roberta Flack</artist>
 		</artists>
-		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
+		<product label="Mid Valley Records">Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</product>
 	</session>
 	<session id="d0e4825" av="V">
 		<date>1971-12-07</date>
@@ -3185,7 +3187,7 @@
 		<artists>
 			<artist main="true">Donny Hathaway</artist>
 		</artists>
-		<title>Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</title>
+		<product label="Mid Valley Records">Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</product>
 	</session>
 	<session id="id0x284a760" av="V">
 		<date>1973-01-10</date>
@@ -3965,7 +3967,7 @@
 			<artist>Frank Zappa</artist>
 			<artist type="band" main="true">Pink Floyd</artist>
 		</artists>
-		<title>Pink Floyd - The Early Years 1965-1972</title>
+		<product>Pink Floyd - The Early Years 1965-1972</product>
 	</session>
 	<session id="id0x4264ae0" av="V">
 		<date>1970-12-15</date>
@@ -4041,7 +4043,7 @@
 			<artist>George Duke</artist>
 			<artist>Aynsley Dunbar</artist>
 		</artists>
-		<title>Beat the Boots II: Disconnected Synapses (Rhino - R2 71017)</title>
+		<product>Beat the Boots II: Disconnected Synapses (Rhino - R2 71017)</product>
 	</session>
 	<session id="d1e5781" av="V">
 		<date>1970-11-06</date>
@@ -4066,7 +4068,7 @@
 			<artist>George Duke</artist>
 			<artist>Aynsley Dunbar</artist>
 		</artists>
-		<title>Frank Zappa: VPRO Documentary by Roelof Kiers</title>
+		<title year="1971">Frank Zappa (VPRO Documentary, Roelof Kiers)</title>
 	</session>
 	<session id="d1e5818" av="V">
 		<date>1991-xx-xx</date>
@@ -4126,7 +4128,7 @@
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
 		</artists>
-		<title>Frank Zappa: VPRO Documentary by Roelof Kiers</title>
+		<title year="1971">Frank Zappa (VPRO Documentary, Roelof Kiers)</title>
 	</session>
 	<session id="id0x4265620" av="V">
 		<date>1970-12-xx</date>
@@ -4384,7 +4386,7 @@
 			<artist>Tom Fowler</artist>
 			<artist>Chester Thompson</artist>
 		</artists>
-		<title>A Token of His Extreme (Eagle Rock Entertainment)</title>
+		<product>A Token of His Extreme (Eagle Rock Entertainment)</product>
 	</session>
 	<session id="id0x5bdbf90" av="V">
 		<date>1976-xx-xx</date>
@@ -4401,7 +4403,7 @@
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
-		<title>A Token of His Extreme (Eagle Rock Entertainment)</title>
+		<product>A Token of His Extreme (Eagle Rock Entertainment)</product>
 	</session>
 	<session id="id0x44816c0" av="V">
 		<date>1976-12-11</date>
@@ -4503,7 +4505,7 @@
 		<artists>
 			<artist main="true">Frank Zappa</artist>
 		</artists>
-		<title>Frank Scheffer documentary: The present day composer refuses to die</title>
+		<title year="2000">The present day composer refuses to die (Frank Scheffer)</title>
 	</session>
 	<session id="id0x448de50" av="V">
 		<date>2007-xx-xx</date>
@@ -4566,7 +4568,7 @@
 	<session id="id0x4893ea0" av="V">
 		<date>1989-xx-xx</date>
 		<location>
-			<event type="festival">Jazz entre amigos</event>
+			<event type="tvshow">Jazz entre amigos</event>
 		</location>
 		<length>0:55:17</length>
 		<source>TV</source>
@@ -4577,7 +4579,7 @@
 		<artists>
 			<artist main="true">Gary Burton</artist>
 		</artists>
-		<title>Jazz entre amigos - Gary Burton</title>
+		<title year="1989">Jazz entre amigos - Gary Burton</title>
 	</session>
 	<session id="id0x48941c0" av="V">
 		<date>1977-05-24</date>
@@ -7832,7 +7834,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 1</title>
+		<product>The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x54f4b80" av="V" official="true">
 		<date>1967-11-07</date>
@@ -7853,7 +7855,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 1</title>
+		<product>The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x54f4fe0" av="V">
 		<date>1969-07-25</date>
@@ -8007,7 +8009,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Bitches Brew 40th Anniversary Edition</title>
+		<product>Bitches Brew 40th Anniversary Edition</product>
 	</session>
 	<session id="id0x550f3a0" av="V" official="true">
 		<date>1969-11-07</date>
@@ -8029,7 +8031,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 2</title>
+		<product>The Bootleg Series, Vol. 2</product>
 	</session>
 	<session id="id0x552e860" av="V">
 		<date>1969-11-08</date>
@@ -8209,7 +8211,7 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+		<product>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</product>
 	</session>
 	<session id="id0x569e900" av="V">
 		<date>1971-10-23</date>
@@ -8705,7 +8707,7 @@
 			<artist>Al Foster</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</title>
+		<product>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</product>
 	</session>
 	<session id="id0x57422b0" av="V">
 		<date>1973-11-13</date>
@@ -10092,7 +10094,7 @@
 			<artist>John Marshall</artist>
 			<artist>Roy Babbington</artist>
 		</artists>
-		<title>Switzerland 1974 (Cuneiform RUNE 395/396)</title>
+		<product label="Cuneiform">Switzerland 1974 (Cuneiform RUNE 395/396)</product>
 	</session>
 	<session id="id0x5b673a0" av="V" official="true">
 		<date>1965-10-31</date>
@@ -10175,7 +10177,7 @@
 			<artist>Yoshiaki Masuo</artist>
 			<artist>Rufus Harley</artist>
 		</artists>
-		<title>Sonny Rollins '74: Rescued! (BBC Arena)</title>
+		<title year="2012">Sonny Rollins '74: Rescued! (BBC Arena)</title>
 	</session>
 	<session id="id0x5b7a300" av="V">
 		<date>2014-08-03</date>
@@ -10261,7 +10263,7 @@
 			<artist>Stanley Clarke</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>Eagle Rock Entertainment</title>
+		<product label="Eagle Rock Entertainment">Stan Getz Quartet: Live at Montreux 1972</product>
 	</session>
 	<session id="id0x2849b30" av="V">
 		<date>1982-12-05</date>
@@ -10310,7 +10312,7 @@
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Classic Soul Compilation DVD</title>
+		<product>Classic Soul Compilation DVD</product>
 	</session>
 	<session id="id0x5bdc300" av="V">
 		<date>1968-xx-xx</date>
@@ -10328,7 +10330,7 @@
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Classic Soul Compilation DVD</title>
+		<product>Classic Soul Compilation DVD</product>
 	</session>
 	<session id="id0x5bdc6c0" av="V">
 		<date>1970-08-11</date>
@@ -10345,7 +10347,7 @@
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Classic Soul Compilation DVD</title>
+		<product>Classic Soul Compilation DVD</product>
 	</session>
 	<session id="id0x5c3da90" av="V">
 		<date>1967-xx-xx</date>
@@ -10363,7 +10365,7 @@
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Classic Soul Compilation DVD</title>
+		<product>Classic Soul Compilation DVD</product>
 	</session>
 	<session id="id0x5c3de00" av="V">
 		<date>xxxx-xx-xx</date>
@@ -10377,7 +10379,7 @@
 		<artists>
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
-		<title>Classic Soul Compilation DVD</title>
+		<product>Classic Soul Compilation DVD</product>
 	</session>
 	<session id="id0x5c3e170" av="V">
 		<date>1972-11-25</date>
@@ -10456,7 +10458,7 @@
 			<artist>Lani Groves</artist>
 			<artist>Deloris Harvin</artist>
 		</artists>
-		<title>My Voice of Sorrow (Footstomp ‎– FSVD-017)</title>
+		<product label="Footstomp">My Voice of Sorrow (Footstomp ‎– FSVD-017)</product>
 	</session>
 	<session id="d1e15115" av="V">
 		<date>1972-11-19</date>
@@ -10599,7 +10601,7 @@
 			<artist>Reggie McBride</artist>
 			<artist>Ollie E. Brown</artist>
 		</artists>
-		<title>Funkafied Rainbow (Big 'Fro Bootleg BF-001/2)</title>
+		<product>Funkafied Rainbow (Big 'Fro Bootleg BF-001/2)</product>
 	</session>
 	<session id="id0x5e8b120" av="V">
 		<date>1974-01-23</date>
@@ -11046,7 +11048,7 @@
 		<artists>
 			<artist main="true">Toots Thielemans</artist>
 		</artists>
-		<title>Toots, l’incroyable destin d’un ketje de Bruxelles (Pierre Barré, Thierry Loreau)</title>
+		<title year="2008">Toots, l’incroyable destin d’un ketje de Bruxelles (Pierre Barré, Thierry Loreau)</title>
 	</session>
 	<session id="id0x744d1c0" av="V">
 		<date>2009-xx-xx</date>
@@ -11201,7 +11203,7 @@
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>Wayne Shorter Live in Paris (Arte 2004)</title>
+		<title year="2004">Wayne Shorter Live in Paris (Arte 2004)</title>
 	</session>
 	<session id="d1e16188" av="V" official="true">
 		<date>2013-xx-xx</date>
@@ -11219,7 +11221,7 @@
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+		<product>The Language of the Unknown: A Film About the Wayne Shorter Quartet</product>
 	</session>
 	<session id="id0x74d74e0" av="V">
 		<date>2004-07-19</date>
@@ -11307,7 +11309,7 @@
 			<artist>John Patitucci</artist>
 			<artist>Brian Blade</artist>
 		</artists>
-		<title>The Language of the Unknown: A Film About the Wayne Shorter Quartet</title>
+		<product>The Language of the Unknown: A Film About the Wayne Shorter Quartet</product>
 	</session>
 	<session id="id0x765d7b0" av="V">
 		<date>2013-07-30</date>
@@ -11518,7 +11520,7 @@
 			<artist>Chester Thompson</artist>
 			<artist>Alex Acuna</artist>
 		</artists>
-		<title>Live in Berlin 1975</title>
+		<product>Live in Berlin 1975</product>
 	</session>
 	<session id="id0x79d8e50" av="V" official="true">
 		<date>1977-06-10</date>
@@ -11542,7 +11544,8 @@
 			<artist>Manolo Badrena</artist>
 			<artist>Alex Acuna</artist>
 		</artists>
-		<title>Burt Sugarman's The Midnight Special: More 1977</title>
+		<title>The Midnight Special, episode 5.23</title>
+		<product>Burt Sugarman's The Midnight Special: More 1977</product>
 	</session>
 	<session id="id0x79d8e50" av="V">
 		<date>1977-06-10</date>
@@ -11655,7 +11658,7 @@
 			<dummy type="band">Charles Mingus</dummy>
 			<artist>Charles Mingus</artist>
 		</artists>
-		<title>Monmartre 1959-1976 Compilation DVD</title>
+		<product>Monmartre 1959-1976 Compilation DVD</product>
 	</session>
 	<session id="d1e16827" av="V">
 		<date>1964-07-30</date>
@@ -11697,7 +11700,7 @@
 			<artist>Niels-Henning Ørsted Pedersen</artist>
 			<artist>Ole Streenberg</artist>
 		</artists>
-		<title>Monmartre 1959-1976 Compilation DVD</title>
+		<product>Monmartre 1959-1976 Compilation DVD</product>
 	</session>
 	<session id="d1e16885" av="V">
 		<date>1964-10-06</date>
@@ -16297,7 +16300,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x601b9f0" av="A">
 		<date>1961-11-20</date>
@@ -16341,7 +16344,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="d1e23726" av="A">
 		<date type="xs:date" set="2">1961-11-22</date>
@@ -16386,7 +16389,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x6894860" av="A">
 		<date>1961-11-24</date>
@@ -16409,7 +16412,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x6894d10" av="A">
 		<date>1961-11-27</date>
@@ -16453,7 +16456,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x68956c0" av="A">
 		<date>1961-11-29</date>
@@ -16519,7 +16522,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground (Disc 06)</title>
+		<product>Live Trane: Underground (Disc 06)</product>
 	</session>
 	<session id="id0x6898030" av="A">
 		<date>1961-12-02</date>
@@ -16541,7 +16544,7 @@
 			<artist>Reggie Workman</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x68d4860" av="A">
 		<date>1962-02-10</date>
@@ -16734,7 +16737,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground</title>
+		<product>Live Trane: Underground</product>
 	</session>
 	<session id="id0x7048710" av="A">
 		<date>1962-11-28</date>
@@ -16928,7 +16931,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground (Disc 9-10)</title>
+		<product>Live Trane: Underground (Disc 9-10)</product>
 	</session>
 	<session id="d1e24555" av="A">
 		<date>1963-11-01</date>
@@ -16950,7 +16953,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground (Disc 10)</title>
+		<product>Live Trane: Underground (Disc 10)</product>
 	</session>
 	<session id="id0x7818170" av="A">
 		<date>1963-11-04</date>
@@ -16971,7 +16974,7 @@
 			<artist>Jimmy Garrison</artist>
 			<artist>Elvin Jones</artist>
 		</artists>
-		<title>Live Trane: Underground (Disc 11-12)</title>
+		<product>Live Trane: Underground (Disc 11-12)</product>
 	</session>
 	<session id="id0x7818580" av="A">
 		<date>1963-11-04</date>
@@ -18934,7 +18937,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title>The Final Tour: The Bootleg Series, Vol. 6</title>
+		<product>The Final Tour: The Bootleg Series, Vol. 6</product>
 	</session>
 	<session id="d1e27322" av="A">
 		<date type="xs:date" set="1">1960-03-20</date>
@@ -19000,7 +19003,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title>The Final Tour: The Bootleg Series, Vol. 6</title>
+		<product>The Final Tour: The Bootleg Series, Vol. 6</product>
 	</session>
 	<session id="d1e27412" av="A">
 		<date>1960-03-22</date>
@@ -19044,7 +19047,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title>The Final Tour: The Bootleg Series, Vol. 6</title>
+		<product>The Final Tour: The Bootleg Series, Vol. 6</product>
 	</session>
 	<session id="id0x4f82950" av="A">
 		<date>1960-03-30</date>
@@ -19790,7 +19793,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<product>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</product>
 	</session>
 	<session id="id0x534b7b0" av="A">
 		<date>1967-04-07</date>
@@ -19833,7 +19836,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<product>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</product>
 	</session>
 	<session id="id0x54bd170" av="A">
 		<date>1967-10-30</date>
@@ -19871,7 +19874,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 1</title>
+		<product>The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x54c4a90" av="A">
 		<date>1967-11-01</date>
@@ -19958,7 +19961,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 1</title>
+		<product>The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x54c53f0" av="A">
 		<date>1967-11-04</date>
@@ -20001,7 +20004,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 1</title>
+		<product>The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x5698080" av="A">
 		<date>1967-11-07</date>
@@ -20192,8 +20195,8 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Bitches Brew Live (Sony 81485)</title>
-		<title>Miles Davis at Newport; 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<product label="Sony">Bitches Brew Live (Sony 81485)</product>
+		<product>Miles Davis at Newport; 1955-1975 (The Bootleg Series, Vol. 4)</product>
 	</session>
 	<session id="id0x57a3170" av="A">
 		<date>1969-07-07</date>
@@ -20231,7 +20234,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 2</title>
+		<product>The Bootleg Series, Vol. 2</product>
 	</session>
 	<session id="id0x57a3620" av="A" official="true">
 		<date>1969-07-26</date>
@@ -20247,7 +20250,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 2</title>
+		<product>The Bootleg Series, Vol. 2</product>
 	</session>
 	<session id="id0x57a9b30" av="A">
 		<date>1969-07-27</date>
@@ -20603,7 +20606,7 @@
 			<artist>Dave Holland</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>The Bootleg Series Vol. 2</title>
+		<product>The Bootleg Series Vol. 2</product>
 	</session>
 	<session id="id0x5830300" av="A">
 		<date>1969-11-05</date>
@@ -20856,7 +20859,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<product>The Bootleg Series, Vol. 3: Miles at the Fillmore</product>
 	</session>
 	<session id="id0x58f7c20" av="A">
 		<date>1970-04-12</date>
@@ -20926,7 +20929,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<product>The Bootleg Series, Vol. 3: Miles at the Fillmore</product>
 	</session>
 	<session id="d0e34350" av="A" official="true">
 		<date>1970-06-18</date>
@@ -20950,7 +20953,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<product>The Bootleg Series, Vol. 3: Miles at the Fillmore</product>
 	</session>
 	<session id="id0x590fb30" av="A" official="true">
 		<date>1970-06-19</date>
@@ -20974,7 +20977,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<product>The Bootleg Series, Vol. 3: Miles at the Fillmore</product>
 	</session>
 	<session id="id0x5910030" av="A" official="true">
 		<date>1970-06-20</date>
@@ -20998,7 +21001,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>The Bootleg Series, Vol. 3: Miles at the Fillmore</title>
+		<product>The Bootleg Series, Vol. 3: Miles at the Fillmore</product>
 	</session>
 	<session id="id0x59105d0" av="A">
 		<date>1970-07-06</date>
@@ -21429,7 +21432,7 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<title>Another Bitches Brew (Jazz Door (G) JD 1284/5)</title>
+		<product>Another Bitches Brew (Jazz Door (G) JD 1284/5)</product>
 	</session>
 	<session id="id0x5b5a080" av="A">
 		<date>1971-11-03</date>
@@ -24843,7 +24846,7 @@
 			<artist>Percy Heath</artist>
 			<artist>Connie Kay</artist>
 		</artists>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<product>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</product>
 	</session>
 	<session id="d1e35685" av="A" official="true">
 		<date>1958-07-03</date>
@@ -24865,7 +24868,7 @@
 			<artist>Paul Chambers</artist>
 			<artist>Jimmy Cobb</artist>
 		</artists>
-		<title>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</title>
+		<product>Miles Davis at Newport: 1955-1975 (The Bootleg Series, Vol. 4)</product>
 	</session>
 	<session id="d1e35715" av="V">
 		<date>1986-07-15</date>
@@ -24888,7 +24891,7 @@
 			<artist>Peter Erskine</artist>
 			<artist>Robert Thomas Jr</artist>
 		</artists>
-		<title>Jazz entre amigos - Josef Zawinul</title>
+		<title year="1986">Jazz entre amigos - Josef Zawinul</title>
 	</session>
 	<session id="d1e35749" av="V">
 		<date>1974-10-21</date>
@@ -24911,7 +24914,7 @@
 			<artist>Darryl Brown</artist>
 			<artist>Dom Um Romao</artist>
 		</artists>
-		<title>Documentary: Jazz entre amigos - Josef Zawinul</title>
+		<title year="1986">Jazz entre amigos - Josef Zawinul</title>
 	</session>
 	<session id="d1e35783" av="V">
 		<date>1994-xx-xx</date>
@@ -24925,7 +24928,7 @@
 		<artists>
 			<artist main="true">Miles Davis</artist>
 		</artists>
-		<title>Documentary: Miles (Film by Philippe Koechlin)</title>
+		<title year="1994">Miles (Philippe Koechlin)</title>
 	</session>
 	<session id="d1e35802" av="V">
 		<date>1992-xx-xx</date>
@@ -24983,7 +24986,7 @@
 			<artist>Arve Henriksen</artist>
 			<artist>Stian Westerhus</artist>
 		</artists>
-		<title>LOMAHONGVA Images (RATOFFDVD001 / RAT036)</title>
+		<product label="Rat Records">LOMAHONGVA Images (RATOFFDVD001 / RAT036)</product>
 	</session>
 	<session id="d1e35889" av="V">
 		<date>1968-09-25_29</date>
@@ -25048,7 +25051,7 @@
 			<artist main="true">Frank Zappa</artist>
 			<artist>Steve Allen</artist>
 		</artists>
-		<title>Al Fresco DVD V</title>
+		<product>Al Fresco DVD V</product>
 	</session>
 	<session id="d1e35989" av="V">
 		<date>1963-03-04</date>
@@ -25067,7 +25070,7 @@
 			<artist main="true">Frank Zappa</artist>
 			<artist>Steve Allen</artist>
 		</artists>
-		<title>Al Fresco DVD V</title>
+		<product>Al Fresco DVD V</product>
 	</session>
 	<session id="d1e36016" av="V">
 		<date>1967-09-xx</date>
@@ -25210,7 +25213,7 @@
 			<artist>Bob Cranshaw</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title>Ralph Gleason's Jazz Casual: Sonny Rollins-Carmen McRae (Idem IDVD1005)</title>
+		<product label="Idem">Ralph Gleason's Jazz Casual: Sonny Rollins-Carmen McRae (Idem IDVD1005)</product>
 	</session>
 	<session id="d1e36182" av="V" official="true">
 		<date>1962-03-23</date>
@@ -25232,7 +25235,7 @@
 			<artist>Bob Cranshaw</artist>
 			<artist>Ben Riley</artist>
 		</artists>
-		<title>Four Tenors (Idem)</title>
+		<product label="Idem">Four Tenors (Idem)</product>
 	</session>
 	<session id="d1e36212" av="V" official="true">
 		<date>1998-xx-xx</date>
@@ -25248,7 +25251,8 @@
 		<artists>
 			<artist main="true">Charles Mingus</artist>
 		</artists>
-		<title>Triumph Of The Underdog (Don McGlynn) (Shanachie Entertainment, 1998)</title>
+		<title year="1998">Triumph Of The Underdog (Don McGlynn)</title>
+		<product label="Shanachie">Triumph Of The Underdog (Shanachie Entertainment, 1998)</product>
 	</session>
 	<session id="d1e36231" av="V">
 		<date>1999-07-17</date>
@@ -25286,7 +25290,7 @@
 			<artist main="true">Frank Zappa</artist>
 			<artist type="band">The Mothers of Invention</artist>
 		</artists>
-		<title>Ahead Of Their Time</title>
+		<product>Ahead Of Their Time</product>
 	</session>
 	<session id="d1e36281" av="A">
 		<date>1969-06-06</date>
@@ -25361,7 +25365,7 @@
 			<artist>John Patitucci</artist>
 			<artist>Gary Novak</artist>
 		</artists>
-		<title>Time Warp - One World Over</title>
+		<product>Time Warp - One World Over</product>
 	</session>
 	<session id="d1e36394" av="V">
 		<date>1969-10-25</date>
@@ -25380,7 +25384,7 @@
 			<artist>Frank Zappa</artist>
 			<artist type="band" main="true">Pink Floyd</artist>
 		</artists>
-		<title>Pink Floyd - The Early Years 1965-1972</title>
+		<product>Pink Floyd - The Early Years 1965-1972</product>
 	</session>
 	<session id="d1e36423" av="V">
 		<date>1974-04-06</date>
@@ -25442,7 +25446,7 @@
 			<artist>Bob Harris</artist>
 			<artist>Bunny Brunel</artist>
 		</artists>
-		<title>Rare Shots Compilation DVD</title>
+		<product>Rare Shots Compilation DVD</product>
 	</session>
 	<session id="d1e36498" av="V">
 		<date>1971-xx-xx</date>
@@ -25574,7 +25578,7 @@
 			<artist>Nick Evans</artist>
 			<artist>Mark Charig</artist>
 		</artists>
-		<title>French news item Amougies (Music Power - European Music Revolution) (1970)</title>
+		<title year="1970">French news item Amougies (Music Power - European Music Revolution) (1970)</title>
 	</session>
 	<session id="d1e36689" av="V">
 		<date>1969-12-20</date>
@@ -28739,7 +28743,7 @@
 			<artist>Gary Peacock</artist>
 			<artist>Jack DeJohnette</artist>
 		</artists>
-		<title>Jazz entre amigos - Keith Jarrett</title>
+		<title year="1985">Jazz entre amigos - Keith Jarrett</title>
 	</session>
 	<session id="d1e41255" av="V">
 		<date>1991-07-15</date>
@@ -30943,7 +30947,7 @@
 		<artists>
 			<artist main="true">Joe Zawinul</artist>
 		</artists>
-		<title>Jazz entre amigos - Josef Zawinul (Pt.1 + 2)</title>
+		<title year="1987">Jazz entre amigos - Josef Zawinul (Pt.1 + 2)</title>
 	</session>
 	<session id="d1e44451" av="V">
 		<date>1989-xx-xx</date>
@@ -30959,7 +30963,7 @@
 		<artists>
 			<artist main="true">Archie Shepp</artist>
 		</artists>
-		<title>Jazz entre amigos - Archie Shepp</title>
+		<title year="1989">Jazz entre amigos - Archie Shepp</title>
 	</session>
 	<session id="d1e44472" av="V">
 		<date>1986-xx-xx</date>
@@ -30975,7 +30979,7 @@
 		<artists>
 			<artist main="true">Bill Evans</artist>
 		</artists>
-		<title>Jazz entre amigos - Bill Evans</title>
+		<title year="1986">Jazz entre amigos - Bill Evans</title>
 	</session>
 	<session id="d1e44494" av="V">
 		<date>1979-11-28</date>
@@ -30995,7 +30999,7 @@
 			<artist>Marc Johnson</artist>
 			<artist>Joe LaBarbera</artist>
 		</artists>
-		<title>Jazz entre amigos - Bill Evans</title>
+		<title year="1986">Jazz entre amigos - Bill Evans</title>
 	</session>
 	<session id="d1e44523" av="V">
 		<date>1991-xx-xx</date>
@@ -31011,7 +31015,7 @@
 		<artists>
 			<artist main="true">Charlie Parker</artist>
 		</artists>
-		<title>Jazz entre amigos - Charlie Parker (Pt.1 - 4)</title>
+		<title year="1991">Jazz entre amigos - Charlie Parker (Pt.1 - 4)</title>
 	</session>
 	<session id="d1e44544" av="V">
 		<date>1990-xx-xx</date>
@@ -31027,7 +31031,7 @@
 		<artists>
 			<artist main="true">Chet Baker</artist>
 		</artists>
-		<title>Jazz entre amigos - Chet Baker</title>
+		<title year="1990">>Jazz entre amigos - Chet Baker</title>
 	</session>
 	<session id="d1e44565" av="V">
 		<date>1990-xx-xx</date>
@@ -31043,7 +31047,7 @@
 		<artists>
 			<artist main="true">Chick Corea</artist>
 		</artists>
-		<title>Jazz entre amigos - Chick Corea (Pt.1 - 2)</title>
+		<title year="1990">>Jazz entre amigos - Chick Corea (Pt.1 - 2)</title>
 	</session>
 	<session id="d1e44586" av="V">
 		<date>1991-xx-xx</date>
@@ -31059,7 +31063,7 @@
 		<artists>
 			<artist main="true">John Coltrane</artist>
 		</artists>
-		<title>Jazz entre amigos - John Coltrane</title>
+		<title year="1991">>Jazz entre amigos - John Coltrane</title>
 	</session>
 	<session id="d1e44608" av="V">
 		<date>1985-xx-xx</date>
@@ -31075,7 +31079,7 @@
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 		</artists>
-		<title>Jazz entre amigos - Keith Jarrett</title>
+		<title year="1985">>Jazz entre amigos - Keith Jarrett</title>
 	</session>
 	<session id="d1e44630" av="V">
 		<date>1987-xx-xx</date>
@@ -31094,7 +31098,7 @@
 			<artist>Michel Petrucciani</artist>
 			<artist>Horace Parlan</artist>
 		</artists>
-		<title>Jazz entre amigos - Michel Petrucciani, Horace Parlan y Keith Jarrett</title>
+		<title year="1987">>Jazz entre amigos - Michel Petrucciani, Horace Parlan y Keith Jarrett</title>
 	</session>
 	<session id="d1e44657" av="V">
 		<date>1988-xx-xx</date>
@@ -31110,7 +31114,7 @@
 		<artists>
 			<artist main="true">Paul Bley</artist>
 		</artists>
-		<title>Jazz entre amigos - Paul Bley</title>
+		<title year="1988">>Jazz entre amigos - Paul Bley</title>
 	</session>
 	<session id="d1e44678" av="V">
 		<date>1989-xx-xx</date>
@@ -31129,7 +31133,7 @@
 			<artist>McCoy Tyner</artist>
 			<artist>Bill Evans</artist>
 		</artists>
-		<title>Jazz entre amigos - Pianistas Legendarios</title>
+		<title year="1989">>Jazz entre amigos - Pianistas Legendarios</title>
 	</session>
 	<session id="d1e44705" av="V">
 		<date>1989-xx-xx</date>
@@ -31148,7 +31152,7 @@
 			<artist>McCoy Tyner</artist>
 			<artist>Bill Evans</artist>
 		</artists>
-		<title>Jazz entre amigos - Pianistas Legendarios</title>
+		<title year="1989">>Jazz entre amigos - Pianistas Legendarios</title>
 	</session>
 	<session id="d1e44732" av="V">
 		<date>1988-xx-xx</date>
@@ -31164,7 +31168,7 @@
 		<artists>
 			<artist main="true">Steve Lacy</artist>
 		</artists>
-		<title>Jazz entre amigos - Steve Lacy</title>
+		<title year="1988">>Jazz entre amigos - Steve Lacy</title>
 	</session>
 	<session id="d1e44753" av="V">
 		<date>1987-xx-xx</date>
@@ -31180,7 +31184,7 @@
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
 		</artists>
-		<title>Jazz entre amigos - The Village Vanguard</title>
+		<title year="1987">>Jazz entre amigos - The Village Vanguard</title>
 	</session>
 	<session id="d1e44774" av="V">
 		<date>1986-xx-xx</date>
@@ -31196,7 +31200,7 @@
 		<artists>
 			<artist main="true">Toots Thielemans</artist>
 		</artists>
-		<title>Jazz entre amigos - Toots Thielemans</title>
+		<title year="1986">>Jazz entre amigos - Toots Thielemans</title>
 	</session>
 	<session id="d1e44795" av="V">
 		<date>1990-xx-xx</date>
@@ -31218,7 +31222,7 @@
 			<artist>Pat Metheny</artist>
 			<artist>Dave Holland</artist>
 		</artists>
-		<title>Jazz entre amigos - Pat Metheny, Jack DeJohnette, Dave Holland y Herbie Hancock (Parte 1)</title>
+		<title year="1990">>Jazz entre amigos - Pat Metheny, Jack DeJohnette, Dave Holland y Herbie Hancock (Parte 1)</title>
 	</session>
 	<session id="d1e44829" av="V" official="true">
 		<date>1979-03-07</date>
@@ -31241,7 +31245,7 @@
 			<artist>Dave Stewart</artist>
 			<artist>Jeff Berlin</artist>
 		</artists>
-		<title>Bruford ‎– Rock Goes To College (Winterfold BBWF008DVD)</title>
+		<product label="Winterfold">Bruford ‎– Rock Goes To College (Winterfold BBWF008DVD)</product>
 	</session>
 	<session av="V" official="true">
 		<date>1960-02-xx</date>
