@@ -14154,8 +14154,7 @@
 		<source>DAB</source>
 		<format/>
 		<quality/>
-		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB
-			&amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
+		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
@@ -15132,8 +15131,7 @@
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend
-			(level 8)</lineage>
+		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (level 8)</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
@@ -27336,8 +27334,7 @@
 		<source station="BR">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound
-			Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
+		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
 		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -29684,7 +29681,7 @@
 		<title year="1973">Three Days In April (Michel Perrin, 1973)</title>
 	</session>
 	<session id="d1e43935" av="V">
-		<date>1973-04-06</date>
+		<date>1973-04-07</date>
 		<location>
 			<city>Verviers</city>
 			<country>Belgium</country>
@@ -29703,7 +29700,7 @@
 		<title year="1973">Three Days In April (Michel Perrin, 1973)</title>
 	</session>
 	<session id="d1e43961" av="V">
-		<date>1973-04-06</date>
+		<date>1973-04-12</date>
 		<location>
 			<city>Brussel</city>
 			<country>Belgium</country>
@@ -33201,7 +33198,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<date>1966-11-06</date>
 		<location>
 			<event type="tvshow">Jazz - gehört und gesehen</event>
-			<country>Belgium</country>
+			<country>Germany</country>
 		</location>
 		<length/>
 		<source station="SWR">DVD</source>
