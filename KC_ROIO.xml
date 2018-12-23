@@ -14154,7 +14154,8 @@
 		<source>DAB</source>
 		<format/>
 		<quality/>
-		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB &amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
+		<lineage>First 2 dates: DAB (MPEG-I Layer II at 192 kb/s joint stereo) &gt; Cyrus DAB8.0 (mp2) SD card &gt; wav (Foobar) &gt; Convert to 44.1k &amp;amp; Editing (Nero 8) &gt; TLH (SBE &amp;amp; decode check and flac 6) Third date: 320k AAC &gt; Abyss i-Stream recorder (44.1k wav) &gt; Nero (edit) &gt; TLH (flac 6 + md5 + SBE/decode check) V1 Edit: Volume / balance changes + tracking for continuity and to remove most of the announcer v2 Edit: Phase invert, DC offset correction, Music +1dB
+			&amp;amp; Applause -1dB, track no. change &amp;amp; Flac Tags</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Craig Taborn</artist>
@@ -15131,7 +15132,8 @@
 		<source>FM</source>
 		<format/>
 		<quality>A-</quality>
-		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend (level 8)</lineage>
+		<lineage>FM&gt;Master Reel (3 3/4 ips)&gt;CAS (play back: Nakamichi LX-3, no dolby, JH 88 coaxial wires)&gt;Marian Marc 2 (setting: 24 bit/44.1 Khz)&gt;HD&gt;remaster with Wavelab 5.0 using digital noise reduction, shuffle imager, linear phase multiband compressor (upward expander mode), linear phase equalizer and valve preamp warmyfier plug ins at 32, 48 and 64 bit solution (with dithering)&gt;16 bit/44.1 Khz downsampling&gt;normalisation to -0.01 db&gt;CD Wave tracking&gt;Flac Frontend
+			(level 8)</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
@@ -27334,7 +27336,8 @@
 		<source station="BR">TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
+		<lineage>Recording (August 1996, by Bernhard): -&gt; Master Super-VHS Mono recording, unknown equipment Lineage digitization (2017 12 30, Pittylabelle): Video: -&gt; VHS cassette: Masterclone (MC), JUJI Super VHS Pro 240 (PAL) -&gt; VHS player: Panasonic SVHS Player NV-HS 1000 -&gt; DVD recorder: Panasonic DVD Recorder DMR-ES10 -&gt; Connection: S-Video out/in Audio: -&gt; Recorder: Olympus LS-12 -&gt; Connection: Line out/in -&gt; WAV-File 16 Bit / 44.1 kHz Editing: -&gt; Audio: Sound
+			Forge 10.0 / iZotope RX 5: Channel adjustment, volume maximization, a little restauration work -&gt; Video: DVD Shrink -&gt; VOB2MPEG -&gt; DGMPGDec -&gt; Assembling: MKVMerge: M2V video and LPCM Audio -&gt; *.MKV with chapters</lineage>
 		<remarks>Original Broadcast date: 1980 07 01 Re-Broadcast date: August 1996 (this torrent)</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
@@ -33294,5 +33297,212 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist main="true">Bill Withers</artist>
 		</artists>
 		<title>BBC In Concert</title>
+	</session>
+	<session av="V">
+		<date>1962-10-01</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:11:45</length>
+		<source>TV</source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Barney Kessel</artist>
+			<artist>Barney Woodson</artist>
+			<artist>Stan Levey</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #12</title>
+		<product>DVD-68    white-modern bands - G.Shearing; J.Giuffre; Brubeck; S. Hamilton, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-09-04</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:11</length>
+		<source/>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Nancy Wilson</artist>
+			<artist>Lou Levy</artist>
+			<artist>Al McKibbon</artist>
+			<artist>Kenny Dennis</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #11</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-10-01</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:20:56</length>
+		<source/>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Shorty Rogers</artist>
+			<artist>Gary LeFebvre</artist>
+			<artist>Lou Levy</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Larry Bunker</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #14</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-10-01</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:09:37</length>
+		<source>TV</source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Shorty Rogers</artist>
+			<artist>Gary LeFebvre</artist>
+			<artist>Lou Levy</artist>
+			<artist>Gary Peacock</artist>
+			<artist>Larry Bunker</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #14</title>
+		<product>DVD-67a  -Chet Baker  1959-86;   Shorty .Rogers 1962-83,  Red Rodney  1975-90</product>
+	</session>
+	<session av="V">
+		<date>1962-07-31</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:31</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Frank Rosolino</artist>
+			<artist>Michael Melvoin</artist>
+			<artist>Bob Bertaux</artist>
+			<artist>Nick Martinis</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #06</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-10-01</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:30</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Stan Kenton</artist>
+			<dummy type="band">Mellophonium</dummy>
+			<artist>Conte Candoli</artist>
+			<artist>Marvin Stamm</artist>
+			<artist>Bob Behrendt</artist>
+			<artist>Dalton Smith</artist>
+			<artist>Keith LaMotte</artist>
+			<artist>Bud Parker</artist>
+			<artist>Tom Ringo</artist>
+			<artist>Bob Fitzpatrick</artist>
+			<artist>Jim Amlotte</artist>
+			<artist>Dave Wheeler</artist>
+			<artist>Dwight Carver</artist>
+			<artist>Joe Burnett</artist>
+			<artist>Lou Gasca</artist>
+			<artist>Ray Starling</artist>
+			<artist>Gabe Baltazar</artist>
+			<artist>Don Menza</artist>
+			<artist>Ray Florian</artist>
+			<artist>Allan Beutler</artist>
+			<artist>Joel Kaye</artist>
+			<artist>Bucky Calabrese</artist>
+			<artist>Dee Barton</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #13</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-06-04</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:20:21</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Teddy Edwards</artist>
+			<artist>Freddie Hill</artist>
+			<artist>Richard Boone</artist>
+			<artist>John Houston</artist>
+			<artist>Stan Gilbert</artist>
+			<artist>Doug Sides</artist>
+		</artists>
+		<title>JAZZ SCENE U.S.A. #04</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1962-06-04</date>
+		<location>
+			<event type="tvshow">Jazz Scene USA</event>
+			<venue>CBS Television City</venue>
+			<city>Los Angeles CA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:25:29</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Shelly Manne</artist>
+			<artist>Conte Candoli</artist>
+			<artist>Richie Kamuca</artist>
+			<artist>Russ Freeman</artist>
+			<artist>Monty Budwig</artist>	
+		</artists>
+		<title>JAZZ SCENE U.S.A. #04</title>
+		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
 	</session>
 </KC_ROIO>
