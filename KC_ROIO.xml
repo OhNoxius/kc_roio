@@ -11253,7 +11253,10 @@
 	</session>
 	<session id="id0x7b40a90" av="V">
 		<date>1959-1969</date>
-		<location/>
+		<location>
+			<event type="tvshow">Jazz - gehört und gesehen</event>
+			<country>Germany</country>
+		</location>
 		<length>0:40:51</length>
 		<source DVB="true" station="arte">DVB</source>
 		<format resolution="PAL">DVD</format>
@@ -11273,7 +11276,30 @@
 			<artist>Cannonball Adderley</artist>
 			<artist>George Lewis</artist>
 		</artists>
-		<title>Miles and More – Best of the Joachim-Ernst Berendt's Archive</title>
+		<product>Miles and More: Best of the Joachim-Ernst Berendt's Archive</product>
+	</session>
+	<session av="V">
+		<date>1964-06-06</date>
+		<location>
+			<event type="tvshow">Jazz - gehört und gesehen</event>
+			<city>Frankfurt</city>
+			<country>Germany</country>
+		</location>
+		<length>0:03:47</length>
+		<source station="ARTE3" DVB="true">DVB</source>
+		<format resolution="PAL">DVD</format>
+		<quality/>
+		<lineage><![CDATA[BR-alpha/ARTE > TT S2-3200 > DVB Viewer > TMPGEnc Author 4 (added menu)]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Albert Mangelsdorff</artist>
+			<artist>Conte Candoli</artist>
+			<artist>Richie Kamuca</artist>
+			<artist>Russ Freeman</artist>
+			<artist>Monty Budwig</artist>	
+		</artists>
+		<title></title>
+		<product>Miles and More: The Best of the Joachim-Ernst Berendt's Archive</product>
 	</session>
 	<session id="id0x7b40e50" av="V">
 		<date>1959-1976</date>
@@ -33310,7 +33336,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source>TV</source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Barney Kessel</artist>
@@ -33332,7 +33358,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source/>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Nancy Wilson</artist>
@@ -33355,7 +33381,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source/>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Shorty Rogers</artist>
@@ -33379,7 +33405,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source>TV</source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Shorty Rogers</artist>
@@ -33403,7 +33429,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source></source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Rosolino</artist>
@@ -33426,7 +33452,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source></source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Stan Kenton</artist>
@@ -33468,7 +33494,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source></source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Teddy Edwards</artist>
@@ -33493,7 +33519,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source></source>
 		<format resolution="PAL 1/2">MPG</format>
 		<quality/>
-		<lineage/>
+		<lineage trader="Franz Hoffman"></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Shelly Manne</artist>
@@ -33504,5 +33530,28 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title>JAZZ SCENE U.S.A. #04</title>
 		<product>DVD-11g 1962,  CBS-TV-series, Jazz Scene USA, etc.</product>
+	</session>
+	<session av="V">
+		<date>1965-02-21</date>
+		<location>
+			<event type="tvshow">Jazz 625</event>
+			<country>U.K.</country>
+		</location>
+		<length>0:31:33</length>
+		<source></source>
+		<format resolution="PAL 1/2">MPG</format>
+		<quality/>
+		<lineage trader="Franz Hoffman"></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Clark Terry</artist>
+			<artist>Bob Brookmeyer</artist>
+			<artist>Laurie Holloway</artist>
+			<artist>Rick Laird</artist>
+			<artist>Allan Ganley</artist>
+			<artist>Humphrey Lyttelton</artist>
+		</artists>
+		<title></title>
+		<product>DVD-27a   Clark Terry 1959 - 1987;  Art Farmer 1964 + 1983;</product>
 	</session>
 </KC_ROIO>
