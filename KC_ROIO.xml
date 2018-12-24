@@ -12078,8 +12078,8 @@
 		<length>0:54:38</length>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
-		<quality>B+</quality>
-		<lineage/>
+		<quality/>
+		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
@@ -12121,8 +12121,8 @@
 		<length>0:45:56</length>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
-		<quality>B+</quality>
-		<lineage/>
+		<quality/>
+		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band" main="true">Various Artists</artist>
@@ -12288,6 +12288,57 @@
 			<artist>Kenny Werner</artist>
 		</artists>
 		<title>Live Under The Sky 1988-1989</title>
+	</session>
+	<session id="id0xd9a760" av="V">
+		<date>1990-07-28_29</date>
+		<location>
+			<event type="festival">Live Under The Sky</event>
+			<venue>Yomiuri-Land Theatre East</venue>
+			<city>Tokyo</city>
+			<country>Japan</country>
+		</location>
+		<length>0:48:28</length>
+		<source>TV</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage><![CDATA[TV Broadcast > Sony Beta > Pioneer DVD Recorder > DVD-RW > TEMPEnc > NTSC DVD with menu]]></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Select Live Special Band</dummy>
+			<artist>Al Jarreau</artist>
+			<artist>Miki Howard</artist>
+			<artist>Joe Sample</artist>
+			<artist>Philippe Saisse</artist>
+			<artist>Steve Gadd</artist>
+			<artist>Freddy Washington</artist>
+			<artist>Buzzy Feiten</artist>
+			<artist>Lenny Castro</artist>
+			<artist type="band">Randooga</artist>
+			<artist>Masahiko Satoh</artist>
+			<artist>Alex Acuna</artist>
+			<artist>Ray Anderson</artist>
+			<artist>Takayuki Hijikata</artist>
+			<artist>Kohsuke Mine</artist>
+			<artist>Akira Okazawa</artist>
+			<artist>Midori Takada</artist>
+			<artist>Kazutoki Umezu</artist>
+			<artist>Naná Vasconcelos</artist>
+			<artist>Wayne Shorter</artist>
+			<dummy type="band">Parallel Realities Live</dummy>
+			<artist>Pat Metheny</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Dave Holland</artist>
+			<artist>Jack DeJohnette</artist>
+			<dummy type="band">David Sanborn Group</dummy>
+			<artist>David Sanborn</artist>
+			<artist>Hiram Bullock</artist>
+			<artist>Ricky Peterson</artist>
+			<artist>Tom Barney</artist>
+			<artist>Buddy Williams</artist>
+			<artist>Don Alias</artist>
+		</artists>
+		<title>Live Under The Sky '90</title>
 	</session>
 	<session id="id0xd9a760" av="V">
 		<date>1990-07-28_29</date>
