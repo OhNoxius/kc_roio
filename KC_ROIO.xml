@@ -4136,7 +4136,7 @@
 		<remarks/>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
-			<artist>Jean Luc Ponty</artist>
+			<artist>Jean-Luc Ponty</artist>
 			<artist>Tom Fowler</artist>
 			<artist>Ralph Humphrey</artist>
 			<artist>Ruth Underwood</artist>
@@ -4162,7 +4162,7 @@
 		<remarks>Digital Rebroadcast 8th January 2012</remarks>
 		<artists>
 			<artist main="true">Frank Zappa</artist>
-			<artist>Jean Luc Ponty</artist>
+			<artist>Jean-Luc Ponty</artist>
 			<artist>Tom Fowler</artist>
 			<artist>Ralph Humphrey</artist>
 			<artist>Ruth Underwood</artist>
@@ -12475,6 +12475,72 @@
 			<artist>Robertinho Silva</artist>
 		</artists>
 		<product label="BWF?">Jazz: Live Under The Skies (BWF)</product>
+	</session>
+	<session av="V">
+		<date>1991-07-27_28</date>
+		<location>
+			<event type="festival">Live Under The Sky</event>
+			<venue>Yomiuri-Land Theatre East</venue>
+			<city>Tokyo</city>
+			<country>Japan</country>
+		</location>
+		<length>1:42:23</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>B+</quality>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<dummy type="band">Herbie Hancock/Wayne Shorter/Stanley Clarke/Omar Hakim</dummy>
+			<artist>Herbie Hancock</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Omar Hakim</artist>
+			<dummy type="band">Milton Nascimento band</dummy>
+			<artist>Milton Nascimento</artist>
+			<artist>Robertinho Silva</artist>
+			<artist>Tulio Mourao Pontes</artist>
+			<artist>Vanderlei Silva</artist>
+			<artist>Joao Baptista Carvahiho</artist>
+			<artist>Ronald Silva</artist>
+			<dummy type="band">Marcus Miller Project</dummy>
+			<artist>Marcus Miller</artist>
+			<artist>Philippe Saisse</artist>
+			<artist>Dean Brown</artist>
+			<artist>Everette Harp</artist>
+			<artist>Michael Stewart (aka Pathes)</artist>
+			<artist>Poogie Bell</artist>
+			<artist>Steve Thornton</artist>
+			<artist>Stacy Campbell</artist>
+			<artist>Jeffrey Ramsey</artist>
+			<artist>Sharone Young</artist>
+			<artist>Joe Sample</artist>
+			<artist>Lalah Hathaway</artist>
+			<dummy type="band">Select Live Special Session</dummy>
+			<artist>Milton Nascimento</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Stanley Clarke</artist>
+			<artist>Robertinho Silva</artist>
+			<artist type="band">Orchestre National De Jazz</artist>
+			<artist>Claude Barthelemy</artist>
+			<artist>Gerald Pansane</artist>
+			<artist>Serge Lazarevitch</artist>
+			<artist>Patrick Febert</artist>
+			<artist>Jean-Louis Matinier</artist>
+			<artist>Mico Niss</artist>
+			<artist>Bobby Rabgell</artist>
+			<artist>Michael Riessler</artist>
+			<artist>Jean-Francois Canape</artist>
+			<artist>Yves Favre</artist>
+			<artist>Luca Bonvini</artist>
+			<artist>Michel Godaro</artist>
+			<artist>Jean-Luc Ponthieux</artist>
+			<artist>Renaud Garcia-Fons</artist>
+			<artist>Manuel Denizet</artist>
+			<artist>Christian Leite</artist>
+		</artists>
 	</session>
 	<session id="d1e18604" av="V">
 		<date>1992-07-25_26</date>

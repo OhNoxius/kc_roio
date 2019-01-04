@@ -126,6 +126,11 @@
 
 	<xsl:template priority="2" match="artists/*[@type = 'band']">
 		<em><xsl:value-of select="."/>: </em>
+		<xsl:text>&#xA;</xsl:text>
+	</xsl:template>
+	
+	<xsl:template priority="2" match="artists/*[@main = 'true']">
+		<strong><xsl:value-of select="."/>: </strong>
 	</xsl:template>
 	
 	<!--<xsl:template match="@official">
