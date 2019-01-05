@@ -3102,6 +3102,22 @@
 		</artists>
 		<product label="Mid Valley Records">Carnegie Hall 1973 (MID VALLEY RECORDS/MVR-DH-002)</product>
 	</session>
+	<session id="d0e4825" av="V">
+		<date>1971-12-07</date>
+		<location>
+			<event type="tvshow">The Flip Wilson Show</event>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:03:40</length>
+		<source></source>
+		<format resolution="CIF">MPEG1</format>
+		<quality/>
+		<lineage/>
+		<remarks/>
+		<artists>
+			<artist main="true">Donny Hathaway</artist>
+		</artists>
+	</session>
 	<session id="id0x284a760" av="V">
 		<date>1973-01-10</date>
 		<location>
