@@ -7978,6 +7978,30 @@
 		</artists>
 		<title>Electric Factory (Godnoes Productions Volume 6)</title>
 	</session>
+	<session av="A">
+		<date>1971-10-21</date>
+		<location>
+			<venue>Conservatorio Giuseppi Verdi</venue>
+			<city>Milan</city>
+			<country>Italy</country>
+		</location>
+		<length>0:47:13</length>
+		<source>SBD</source>
+		<format>flac</format>
+		<quality/>
+		<lineage><![CDATA[Jarrett Chancler's Attack, Seymour Records SR-016, released 2006 > eac > wav > flac]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Gary Bartz</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Leon Ndugu Chancler</artist>
+			<artist>Don Alias</artist>
+			<artist>James Mtume Forman</artist>
+		</artists>
+		<product year="2006" label="Seymour Records">Jarrett Chancler's Attack (SR-016)</product>
+	</session>
 	<session id="d1e11729" av="A" official="true">
 		<date>1971-10-22</date>
 		<location>
@@ -8000,7 +8024,7 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
-		<product>Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</product>
+		<product label="Columbia Legacy">Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4 (Columbia Legacy 88875 08195)</product>
 	</session>
 	<session id="id0x569e900" av="V">
 		<date>1971-10-23</date>
@@ -8014,9 +8038,9 @@
 		<length>0:29:54</length>
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
-		<quality>B-</quality>
-		<lineage/>
-		<remarks>AUDIO DUB</remarks>
+		<quality>C+</quality>
+		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
+		<remarks>Video: Danish(?) TV broadcast. Audio: Aud or FM broadcast?</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -8026,6 +8050,8 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
+		<title>Jazz Session</title>
+		<product label="dime">Miles Davis - France &amp; Denmark 1971 DVD</product>
 	</session>
 	<session id="id0x569eef0" av="V">
 		<date>1971-10-23</date>
@@ -8036,7 +8062,7 @@
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>0:30:14</length>
+		<length>0:30:37</length>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C+</quality>
@@ -8051,6 +8077,33 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
+		<title>Jazz Session</title>
+	</session>
+	<session av="V">
+		<date>1971-10-23</date>
+		<location>
+			<event type="tvshow">Jazz Session</event>
+			<event type="festival">Newport à Paris</event>
+			<venue>Théâtre Nationale Populaire</venue>
+			<city>Paris</city>
+			<country>France</country>
+		</location>
+		<length>0:30:14</length>
+		<source>TV</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>C</quality>
+		<lineage/>
+		<remarks>Authored DVD with chapters</remarks>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Gary Bartz</artist>
+			<artist>Keith Jarrett</artist>
+			<artist>Michael Henderson</artist>
+			<artist>Leon Ndugu Chancler</artist>
+			<artist>Don Alias</artist>
+			<artist>James Mtume Forman</artist>
+		</artists>
+		<title>Jazz Session</title>
 	</session>
 	<session id="id0x569f490" av="V">
 		<date>1971-10-23</date>
@@ -8185,7 +8238,7 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
-		<lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVD</lineage>
+		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>AUDIO DUB</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -8196,6 +8249,7 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
+		<product label="dime">Miles Davis - France &amp; Denmark 1971 DVD</product>
 	</session>
 	<session id="id0x56ce950" av="V">
 		<date>1971-11-08</date>
@@ -8205,10 +8259,10 @@
 			<country>Denmark</country>
 		</location>
 		<length>0:20:21</length>
-		<source>TV</source>
+		<source station="DR1">TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
-		<lineage>Tv &gt; Med Gen VHS &gt; SA &gt; TMPGEnc &gt; DVD</lineage>
+		<lineage><![CDATA[Tv > Med Gen VHS > SA > TMPGEnc > DVD]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -20808,12 +20862,12 @@
 			<city>Paris</city>
 			<country>France</country>
 		</location>
-		<length>113min</length>
-		<source>AUD</source>
-		<format/>
-		<quality/>
-		<lineage/>
-		<remarks/>
+		<length>1:53:47</length>
+		<source>FM</source>
+		<format>flac</format>
+		<quality>B</quality>
+		<lineage><![CDATA[audience recording>?>reel to cdr>eac secure>Cubase SX2 (minor editing, indexing, no sound processing applied)>flac 1.1.2 [-8, -V, sector alignement]]]></lineage>
+		<remarks>info that came with source noted: "Not sure about whether this was really broadcasted by the ORTF (as indicated by P.Losin) but this is probably one of the finest audience recordings of the European Tour 71."</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
