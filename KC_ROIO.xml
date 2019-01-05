@@ -6496,8 +6496,8 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
-		<lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVDAUDIO DUB!!!</lineage>
-		<remarks/>
+		<lineage trader="Azrael">VHS video tape > PC canopus advc> NLE > AVI > TMPG> DVD</lineage>
+		<remarks>FM audio dub</remarks>
 		<artists>
 			<artist main="true">Keith Jarrett</artist>
 			<artist>Jan Garbarek</artist>
@@ -7708,7 +7708,7 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>A-</quality>
-		<lineage>VHS video tapes &gt; PC canopus advc &gt; NLE &gt; AVI &gt; TMPG&gt; DVD</lineage>
+		<lineage trader="Azrael">VHS video tapes > PC canopus advc > NLE > AVI > TMPG> DVD</lineage>
 		<remarks>AUDIO DUB</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -7937,13 +7937,14 @@
 	<session id="id0x569b900" av="V" official="true">
 		<date>1970-08-29</date>
 		<location>
-			<city>Isle of Wight</city>
+			<event type="festival">Isle of Wight Festival</event>
+			<city>Newport, Isle of Wight</city>
 			<country>U.K.</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
-		<quality/>
+		<length>0:35:19</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -7955,19 +7956,21 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>A Different Kind of Blue</title>
+		<product label="Eagle Vision">Miles Electric: A Different Kind of Blue</product>
 	</session>
 	<session id="id0x569bdb0" av="V">
 		<date>1970-11-17</date>
 		<location>
+			<venue>Electric Factory</venue>
 			<city>Philadelphia PA</city>
+			<country>U.S.A.</country>
 		</location>
 		<length>1:07:48</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
-		<lineage>VHS tape &gt; PC AVI (canopus advc) &gt; NLE &gt; MPG-2 &gt;DVD author</lineage>
-		<remarks>AUDIO DUB</remarks>
+		<lineage trader="Azrael"><![CDATA[VHS tape > PC AVI (canopus advc) > NLE > MPG-2 >DVD author]]></lineage>
+		<remarks>Soundboard audio dub. Picture quality is better than Godnoes Productions release...</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
@@ -7980,13 +7983,15 @@
 	<session id="id0x569c350" av="V">
 		<date>1970-11-17</date>
 		<location>
+			<venue>Electric Factory</venue>
 			<city>Philadelphia PA</city>
+			<country>U.S.A.</country>
 		</location>
 		<length>1:26:29</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
-		<quality>C</quality>
-		<lineage>Unknown Video Footage &gt; Unknown VHS Generation &gt; Godnoes Productions Volume 6 (DVD-R) NTSC &gt; DVD Decrypter &gt; TLH</lineage>
+		<quality>C-</quality>
+		<lineage><![CDATA[Unknown Video Footage > Unknown VHS Generation > Godnoes Productions Volume 6 (DVD-R) NTSC > DVD Decrypter > TLH]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -7996,7 +8001,7 @@
 			<artist>Jack DeJohnette</artist>
 			<artist>Airto Moreira</artist>
 		</artists>
-		<title>Electric Factory (Godnoes Productions Volume 6)</title>
+		<product label="Godnoes Productions">Electric Factory (Godnoes Productions Volume 6)</product>
 	</session>
 	<session av="A">
 		<date>1971-10-21</date>
@@ -8059,7 +8064,7 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>C+</quality>
-		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
+		<lineage trader="Azrael"><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>Video: Danish(?) TV broadcast. Audio: Aud or FM broadcast?</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -8258,7 +8263,7 @@
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
 		<quality>B+</quality>
-		<lineage><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
+		<lineage trader="Azrael"><![CDATA[VHS video tape > PC  canopus advc> NLE > AVI > TMPG> DVD]]></lineage>
 		<remarks>AUDIO DUB</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
@@ -10574,7 +10579,7 @@
 			<country>Switzerland</country>
 		</location>
 		<length>0:38:37</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage/>
@@ -10597,10 +10602,10 @@
 			<country>Switzerland</country>
 		</location>
 		<length>38min</length>
-		<source>TV</source>
+		<source></source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B-</quality>
-		<lineage>VHS &gt; PC (Canopus ADVC)&gt; avi &gt; mpg2 &gt; DVD Author</lineage>
+		<lineage trader="Azrael"><![CDATA[VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">Lifetime</artist>
@@ -10611,6 +10616,7 @@
 			<artist>Warren Smith</artist>
 			<artist>Juini Booth</artist>
 		</artists>
+		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="id0x68a17b0" av="V">
 		<date>1971-08-07</date>
@@ -10705,7 +10711,7 @@
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage>VHS &gt; PC (Canopus ADVC)&gt; avi &gt; mpg2 &gt; DVD Author</lineage>
+		<lineage trader="Azrael">VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
@@ -10714,6 +10720,7 @@
 			<artist>Mulgrew Miller</artist>
 			<artist>Bill Pierce</artist>
 		</artists>
+		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="id0x6d46120" av="V">
 		<date>1992-02-17</date>
@@ -10727,7 +10734,7 @@
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage>VHS &gt; PC (Canopus ADVC)&gt; avi &gt; mpg2 &gt; DVD Author</lineage>
+		<lineage trader="Azrael">VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
@@ -10736,6 +10743,7 @@
 			<artist>Mulgrew Miller</artist>
 			<artist>Bill Pierce</artist>
 		</artists>
+		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="d1e15847" av="V">
 		<date>1992-09-xx</date>
@@ -10748,7 +10756,7 @@
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage>VHS &gt; PC (Canopus ADVC)&gt; avi &gt; mpg2 &gt; DVD Author</lineage>
+		<lineage trader="Azrael">VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
@@ -10756,6 +10764,7 @@
 			<artist>Tracey Wormworth</artist>
 			<artist>Jason Rebello</artist>
 		</artists>
+		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="id0x6d46620" av="V">
 		<date>1995-xx-xx</date>
@@ -10769,11 +10778,12 @@
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
-		<lineage>VHS &gt; PC (Canopus ADVC)&gt; avi &gt; mpg2 &gt; DVD Author</lineage>
+		<lineage trader="Azrael">VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author</lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Tony Williams</artist>
 		</artists>
+		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="id0x744c9f0" av="V">
 		<date>2001-08-15</date>
@@ -28196,9 +28206,8 @@
 		<source/>
 		<format resolution="PAL">DVD</format>
 		<quality/>
-		<lineage>VHS video tape &gt; PC canopus advc&gt; NLE &gt; AVI &gt; TMPG&gt; DVD</lineage>
-		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear ! Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place then looks at his watch and pulls a face as if to say it's to late for that so they must have been on
-			very late so it was probably July 21st when they were playing onstage</remarks>
+		<lineage trader="Azrael">VHS video tape > PC canopus advc> NLE > AVI > TMPG> DVD</lineage>
+		<remarks>Wayne Shorter Group at Montreux Jazz Festival, Switzerland 1990-07-20 from VHS tape synced to the great FM radio broadcast, Larry Coryell was in the band for about 6 weeks and features solos on a couple of the songs, this band plays some of the funkiest jazz you will ever hear ! Claude Nobs does the intro and outro of the band at the end he mentions a jam session at some place then looks at his watch and pulls a face as if to say it's to late for that so they must have been on very late so it was probably July 21st when they were playing onstage</remarks>
 		<artists>
 			<artist main="true">Wayne Shorter</artist>
 			<artist>Larry Coryell</artist>
