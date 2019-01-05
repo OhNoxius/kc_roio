@@ -4857,13 +4857,14 @@
 		<format>avi</format>
 		<quality>A-</quality>
 		<lineage/>
-		<remarks>Birdland S01E01</remarks>
+		<remarks></remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist>Tony Williams</artist>
 			<artist>Ira Coleman</artist>
 			<artist>Wayne Shorter</artist>
 		</artists>
+		<title>Birdland S01E01</title>
 	</session>
 	<session id="id0x4f513a0" av="V">
 		<date>1997-11-08</date>
@@ -10764,6 +10765,7 @@
 			<artist>Tracey Wormworth</artist>
 			<artist>Jason Rebello</artist>
 		</artists>
+		<title>Birdland</title>
 		<product label="dime"><![CDATA[Tony Williams - Montreux 1971-Japan 1991&1992-London 1992-USA 1996 (Compilation)]]></product>
 	</session>
 	<session id="id0x6d46620" av="V">
@@ -10775,7 +10777,7 @@
 			<country>U.S.A.</country>
 		</location>
 		<length>15min</length>
-		<source>TV</source>
+		<source station="BET">TV</source>
 		<format resolution="NTSC">DVD</format>
 		<quality>B</quality>
 		<lineage trader="Azrael">VHS > PC (Canopus ADVC)> avi > mpg2 > DVD Author</lineage>
