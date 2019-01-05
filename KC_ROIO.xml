@@ -7602,9 +7602,9 @@
 		<length>0:33:20</length>
 		<source>TV</source>
 		<format resolution="NTSC">DVD</format>
-		<quality>A</quality>
-		<lineage>TV &gt;VHS &gt;Sampo standalone DVD recorder in HQ mode (max. one hour) &gt;DVD Decrypter &gt;TMPGEnc DVD Author &gt;DVD &gt;DVD Decrypter</lineage>
-		<remarks/>
+		<quality>B+</quality>
+		<lineage><![CDATA[TV >VHS >Sampo standalone DVD recorder in HQ mode (max. one hour) >DVD Decrypter >TMPGEnc DVD Author >DVD >DVD Decrypter]]></lineage>
+		<remarks>complete introduction by George Wein</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Wayne Shorter</artist>
@@ -7620,10 +7620,10 @@
 			<city>Stockholm</city>
 			<country>Sweden</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
-		<quality/>
+		<length>33min</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -7633,7 +7633,7 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<product>The Bootleg Series, Vol. 1</product>
+		<product label="Columbia">The Bootleg Series, Vol. 1</product>
 	</session>
 	<session id="id0x54f4b80" av="V" official="true">
 		<date>1967-11-07</date>
@@ -7641,10 +7641,10 @@
 			<city>Karlsruhe</city>
 			<country>Germany</country>
 		</location>
-		<length/>
-		<source/>
-		<format/>
-		<quality/>
+		<length>0:40:36</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A+</quality>
 		<lineage/>
 		<remarks/>
 		<artists>
@@ -7654,7 +7654,27 @@
 			<artist>Ron Carter</artist>
 			<artist>Tony Williams</artist>
 		</artists>
-		<product>The Bootleg Series, Vol. 1</product>
+		<product label="Columbia">The Bootleg Series, Vol. 1</product>
+	</session>
+	<session av="V">
+		<date>1967-11-07</date>
+		<location>
+			<city>Karlsruhe</city>
+			<country>Germany</country>
+		</location>
+		<length>0:42:35</length>
+		<source station="BW">TV</source>
+		<format resolution="PAL">DVD</format>
+		<quality>A-</quality>
+		<lineage/>
+		<remarks>complete introduction by Joachim Ernst-Berendt</remarks>
+		<artists>
+			<artist main="true">Miles Davis</artist>
+			<artist>Wayne Shorter</artist>
+			<artist>Herbie Hancock</artist>
+			<artist>Ron Carter</artist>
+			<artist>Tony Williams</artist>
+		</artists>
 	</session>
 	<session id="id0x54f4fe0" av="V">
 		<date>1969-07-25</date>
@@ -8273,6 +8293,7 @@
 			<artist>Don Alias</artist>
 			<artist>James Mtume Forman</artist>
 		</artists>
+		<product label="tradersden">Miles Davis 1971-11-06 [Part 3 - Fall 1971]</product>
 	</session>
 	<session id="id0x56ceef0" av="V">
 		<date>1971-11-09</date>
