@@ -22349,17 +22349,17 @@
 	</session>
 	<session id="id0x577f860" av="A">
 		<date>1971-06-13</date>
-		<location>
-			<venue>Casino Montreux</venue>
+		<location>		
 			<event type="festival">Montreux Jazz Festival</event>
+			<venue>Casino</venue>
 			<city>Montreux</city>
 			<country>Switzerland</country>
 		</location>
-		<length/>
+		<length>1:09:36</length>
 		<source>FM</source>
 		<format/>
 		<quality/>
-		<lineage/>
+		<lineage><![CDATA[FM Broadcast (Cassette)>trade>wav>Flac]]></lineage>
 		<remarks/>
 		<artists>
 			<artist type="band">Lifetime</artist>
