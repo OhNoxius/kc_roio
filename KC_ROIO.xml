@@ -8093,7 +8093,7 @@
 		<format resolution="NTSC">DVD</format>
 		<quality>C</quality>
 		<lineage/>
-		<remarks>Authored DVD with chapters</remarks>
+		<remarks>Authored DVD with menu and chapters</remarks>
 		<artists>
 			<artist main="true">Miles Davis</artist>
 			<artist>Gary Bartz</artist>
