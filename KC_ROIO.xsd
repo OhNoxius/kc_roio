@@ -116,6 +116,7 @@
   </xs:element>
   <xs:element name="product">
     <xs:complexType mixed="true">
+    	<xs:attribute name="year" type="xs:integer"/>
       <xs:attribute name="label"/>
     </xs:complexType>
   </xs:element>

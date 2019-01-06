@@ -70,7 +70,8 @@
 				<xsl:apply-templates select="product"/>
 			</td>
 
-			<td style="white-space:indent;"><xsl:apply-templates select="artists/*"/>
+			<td style="white-space:indent;">
+				<xsl:apply-templates select="artists/*"/>
 			</td>
 
 			<td style="text-align:center">
@@ -154,16 +155,29 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	
-	<xsl:template priority="2" match="artists/*[@type = 'band']">
+
+	<xsl:template priority="3" match="artists/*[@type = 'band']">
 		<xsl:if test="position() > 1">
-			<xsl:text>&#xD;&#xA;</xsl:text>
+			<BR/>
 		</xsl:if>
-		<em><xsl:value-of select="."/>: </em>
+		<xsl:choose>
+			<xsl:when test="@main='true'">
+				<strong>
+					<em><xsl:value-of select="."/>: </em>
+				</strong>
+			</xsl:when>
+			<xsl:otherwise>
+				<em><xsl:value-of select="."/>: </em>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
-	
-	<xsl:template priority="2" match="artist[@main='true']"> <!--als prioriteit gelijk, neemt hij de laatste??-->
-		<strong><xsl:value-of select="."/></strong>
+
+	<xsl:template priority="2" match="artist[@main='true']">
+		<!--als prioriteit gelijk, neemt hij de laatste??-->
+		<!--<strong><xsl:value-of select="."/></strong>-->
+		<xsl:element name="strong">
+			<xsl:value-of select="."/>
+		</xsl:element>
 		<xsl:if test="not(position()=last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
