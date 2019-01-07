@@ -27507,9 +27507,9 @@
 		<length>0:42:25</length>
 		<source>TV</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist type="band">Various Artists</artist>
 			<dummy type="band">Herbie Hancock quintet</dummy>
