@@ -72,7 +72,7 @@
                 border-bottom: 1px solid transparent;
                 color:#ffffff;
                 font-size:14px;
-                background:#f69c55;
+                background:#91bbff;
                 padding:4px 8px 4px 8px;
                 text-decoration:none;
                 display: inline;
@@ -312,9 +312,7 @@
 				req.send();
 			}
 			
-			function requestSortYears(loadedData, elementToAddResult) {
-				document.getElementById('loading').innerHTML = 'loading';
-				document.getElementById('loading').style.display = 'inline';
+			function requestSortYears(loadedData, elementToAddResult) {				
 				//LEGE JAARTABEL MAKEN VOOR ELK JAAR
 				var allYears = '';
 				for (i = 1929; i < 2019; i++) {
@@ -487,14 +485,17 @@
 					console.log('XML IS LOADED!');
 					alert('XML IS LOADED!');
 				});
-				
-				//initialize search button
-				document.getElementById('search').addEventListener('click', function () {
+			
+				// initialize search button + bij search de 'search results' tab actief maken
+				$('#search').click(function () {
 					requestSearch(xsl_search, loadedData, elementToAddResult);
 					document.getElementById('loading').innerHTML = 'loading';
 					document.getElementById('loading').style.display = 'inline';
-				},
-				false);
+					
+					$('#searchResults').addClass('active');
+					$('#searchResults').siblings().removeClass('active');
+				});
+				
 				
 				//initialize search on the fly
 				document.getElementById('filters').addEventListener('change', function () {
@@ -506,24 +507,18 @@
 				document.getElementById('artistsAZ').addEventListener('click', function () {
 					//requestArtists(xsl_artists, loadedData, elementToAddResult);
 					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "artist");
-					document.getElementById('loading').innerHTML = 'loading';
-					document.getElementById('loading').style.display = 'inline';
 				},
 				false);
 				
 				//more general sortAZ function call: countries
 				document.getElementById('countriesAZ').addEventListener('click', function () {
 					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "country");
-					document.getElementById('loading').innerHTML = 'loading';
-					document.getElementById('loading').style.display = 'inline';
 				},
 				false);
 				
 				//more general sortAZ function call: events
 				document.getElementById('eventsAZ').addEventListener('click', function () {
 					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "event");
-					document.getElementById('loading').innerHTML = 'loading';
-					document.getElementById('loading').style.display = 'inline';
 				},
 				false);
 				
@@ -538,10 +533,19 @@
 				requestFilters(xsl_filters, loadedData);
 				
 				//actieve tabs!
-				$('.tab').click(function() {
-    				$(this).toggleClass('active');
-    				$(this).siblings().removeClass('active');
+				$('.tab').click(function () {
+					$(this).addClass('active');
+					$(this).siblings().removeClass('active');
+					document.getElementById('loading').innerHTML = 'loading';
+					document.getElementById('loading').style.display = 'inline';
+				});				
+			
+				$('#searchResults').click(function () {
+					requestSearch(xsl_search, loadedData, elementToAddResult);
 				});
+				
+				//set search results tab initially on active
+				$("#searchResults").addClass('active');
 				
 				//alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
 			}//]]>
@@ -582,7 +586,7 @@
 							<br />
 							<input type="checkbox" name="a/v" value="V" id="video" checked="checked" /><label for="video">video</label>
 						</td>
-						<td colspan="5" style="border-bottom:none;">
+						<td>
 							<a href="#" id="search" class="btn">search</a>
 						</td>
 					</tr>
@@ -599,7 +603,7 @@
 			</table>
 		</form>
 		<div id="result">
-			<h4 id="loading" class="loading" style="display:inline;font-size:100%;">start typing above to begin search</h4>
+			<h4 id="loading" class="loading" style="display:inline;font-size:100%;">type above to begin search</h4>
 			<div id="results"></div>
 		</div>
 	</body>
