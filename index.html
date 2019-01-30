@@ -65,7 +65,7 @@
                 FONT-FAMILY:verdana, helvetica, arial, sans-serif;
             }
             
-            .btn{
+            .tab{
                 -webkit-border-radius:5;
                 -moz-border-radius:5;
                 border-radius:8px 8px 0 0;
@@ -78,15 +78,33 @@
                 display: inline;
             }
             
-            .btn:hover{
+ 			.btn{
+ 				-webkit-border-radius:5;
+                -moz-border-radius:5;
+                border-bottom: 1px solid transparent;
+                color:#ffffff;
+                font-size:14px;
+                background:#f69c55;
+                text-decoration:none;
+                display: inline;
+ 				border-radius:8px 8px 8px 8px;
+ 				padding:1px 8px 1px 8px;
+ 			}
+            
+            .tab:hover, .btn:hover{
                 background:#3cb0fd;
                 text-decoration:none;
             }
             
-            .btn:active{
+            .tab:active,.btn:active{
             	border: 1px solid #000000;
             	background-color: #ace5cd;
             }
+            
+            .tab.active {
+   	 			background: #0093f4;
+    			text-decoration: none;
+			}
             
             a{
                 TEXT-DECORATION:none;
@@ -519,6 +537,12 @@
 				//populate datalist for search filters
 				requestFilters(xsl_filters, loadedData);
 				
+				//actieve tabs!
+				$('.tab').click(function() {
+    				$(this).toggleClass('active');
+    				$(this).siblings().removeClass('active');
+				});
+				
 				//alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
 			}//]]>
          </script>
@@ -559,45 +583,20 @@
 							<input type="checkbox" name="a/v" value="V" id="video" checked="checked" /><label for="video">video</label>
 						</td>
 						<td colspan="5" style="border-bottom:none;">
-							<!-- <input id="search" type="button" class="btn" value="search" />
-                            <input id="complete" type="button" class="btn" value="show complete list" />-->
-							<a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>
+							<a href="#" id="search" class="btn">search</a>
 						</td>
 					</tr>
 					<tr>
 						<td colspan="5" style="border-bottom:none;">
-							<!-- <input id="search" type="button" class="btn" value="search" />
-                            <input id="complete" type="button" class="btn" value="show complete list" />-->
-							<!--<a href="#" id="search" class="btn" style="border-radius:8px 8px 8px 8px; padding:1px 8px 1px 8px;">search</a>-->
-							<a href="#" id="artistsAZ" class="btn" style="background:#8bb3f4;">artists A/Z</a>
-							<a href="#" id="countriesAZ" class="btn" style="background:#7da0db;">countries A/Z</a>
-							<a href="#" id="eventsAZ" class="btn" style="background:#8bb3f4;">festivals/shows A/Z</a>
-							<a href="#" id="chrono" class="btn" style="background:#7da0db;">chronologically</a>
+							<a href="#" id="searchResults" class="tab">search results</a>
+							<a href="#" id="artistsAZ" class="tab">artists A/Z</a>
+							<a href="#" id="countriesAZ" class="tab">countries A/Z</a>
+							<a href="#" id="eventsAZ" class="tab">festivals/shows A/Z</a>
+							<a href="#" id="chrono" class="tab">chronologically</a>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<!--<fieldset>
-                <legend>Filters</legend>
-                <label for="artistSelector">artist:</label>
-                <input id="artistSelector" list="artistBox" name="artist" />
-                <datalist id="artistBox"> </datalist>
-                <label for="countrySelector">country:</label>
-                <input id="countrySelector" list="countryBox" name="country" />
-                <datalist id="countryBox"> </datalist>
-                <label for="yearSelector">year:</label>
-                <input id="yearSelector" list="yearBox" name="year" />
-                <datalist id="yearBox"> </datalist>
-                <label for="festivalSelector">festival:</label>
-                <input id="festivalSelector" list="festivalBox" name="festival" />
-                <datalist id="festivalBox"> </datalist>
-            </fieldset>
-            <fieldset>
-                <input id="search" type="button" value="search"
-                    style="border:1;background:none;width:50px;" />
-                <input id="complete" type="button" value="show complete list"
-                    style="border:1;background:none;width:100px;" />
-            </fieldset>-->
 		</form>
 		<div id="result">
 			<h4 id="loading" class="loading" style="display:inline;font-size:100%;">start typing above to begin search</h4>
