@@ -312,7 +312,7 @@
 				req.send();
 			}
 			
-			function requestSortYears(loadedData, elementToAddResult) {				
+			function requestSortYears(loadedData, elementToAddResult) {
 				//LEGE JAARTABEL MAKEN VOOR ELK JAAR
 				var allYears = '';
 				for (i = 1929; i < 2019; i++) {
@@ -485,7 +485,7 @@
 					console.log('XML IS LOADED!');
 					alert('XML IS LOADED!');
 				});
-			
+				
 				// initialize search button + bij search de 'search results' tab actief maken
 				$('#search').click(function () {
 					requestSearch(xsl_search, loadedData, elementToAddResult);
@@ -538,8 +538,8 @@
 					$(this).siblings().removeClass('active');
 					document.getElementById('loading').innerHTML = 'loading';
 					document.getElementById('loading').style.display = 'inline';
-				});				
-			
+				});
+				
 				$('#searchResults').click(function () {
 					requestSearch(xsl_search, loadedData, elementToAddResult);
 				});
