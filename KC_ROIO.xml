@@ -35,7 +35,7 @@
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
-		<artists>
+		<artists>c
 			<artist type="band" main="true">Aka Moon</artist>
 			<artist>Fabrizio Cassol</artist>
 			<artist>Michel Hatzigeorgiou</artist>
@@ -30620,6 +30620,7 @@ Ramsey Lewis - 1990-08-19]]></remarks>
 		<date>1960-02-xx</date>
 		<location>
 			<event type="tvshow">Jazz pour tous</event>
+			<venue>Palais Egmont?</venue>
 			<country>Belgium</country>
 		</location>
 		<length/>
