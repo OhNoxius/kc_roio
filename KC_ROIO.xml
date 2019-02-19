@@ -35,7 +35,7 @@
 		<quality/>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
-		<artists>c
+		<artists>
 			<artist type="band" main="true">Aka Moon</artist>
 			<artist>Fabrizio Cassol</artist>
 			<artist>Michel Hatzigeorgiou</artist>
@@ -9385,7 +9385,7 @@
 		<remarks/>
 		<artists>
 			<artist main="true">Robert Glasper</artist>
-			<artist>Robert Glasper</artist>
+			<artist>Chris Dave</artist>
 			<artist>Derrick Hodge</artist>
 			<artist>MC Raydar Ellis</artist>
 		</artists>
