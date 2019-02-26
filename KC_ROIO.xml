@@ -33805,4 +33805,71 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title/>
 		<product>DVD-27a Clark Terry 1959 - 1987; Art Farmer 1964 + 1983;</product>
 	</session>
+	<session av="V">
+		<date>1999-xx-xx</date>
+		<location>
+		</location>
+		<length>87min</length>
+		<source/>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true">Ella Fitgerald</artist>
+		</artists>
+		<title year="1999">Ella Fitzgerald: Something to live for (PBS American Masters)</title>
+		<product>American Masters Ella Fitzgerald &amp; Duke Ellington</product>
+	</session>
+	<session av="V">
+		<date>1967-01-23</date>
+		<location>
+			<venue>TV-Byen Studio</venue>
+			<city>Copenhagen</city>
+			<country>Denmark</country>
+		</location>
+		<length></length>
+		<source/>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true">Duke Ellington</artist>
+			<artist>Rufus Jones</artist>
+			<artist>John Lamb</artist>
+			<dummy type="band">Duke Ellington Octet</dummy>
+			<artist>Duke Ellington</artist>
+			<artist>Rufus Jones</artist>
+			<artist>John Lamb</artist>
+			<artist>Johnny Hodges</artist>
+			<artist>Paul Gonsalves</artist>
+			<artist>Cat Anderson</artist>
+			<artist>Lawrence Brown</artist>
+			<artist>Harry Carney</artist>
+		</artists>
+		<title>The Intimate?</title>
+		<product>American Masters Ella Fitzgerald &amp; Duke Ellington</product>
+	</session>
+	<session av="V">
+		<date>1966-07-26+29</date>
+		<location>
+			<event type="festival">Jazz à Juan: Juan-les-Pins Jazz Festival</event>
+			<city>Juan-les-Pins, Antibes</city>
+			<country>France</country>
+		</location>
+		<length>65min</length>
+		<source/>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true">Duke Ellington</artist>
+			<artist>Ella Fitzgerald</artist>
+			<artist>Joan Miró</artist>
+		</artists>
+		<title>Duke Ellington At The Côte Azur</title>
+		<product>American Masters Ella Fitzgerald &amp; Duke Ellington</product>
+	</session>
 </KC_ROIO>
