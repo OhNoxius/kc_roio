@@ -33872,4 +33872,90 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title>Duke Ellington At The Côte Azur</title>
 		<product>American Masters Ella Fitzgerald &amp; Duke Ellington</product>
 	</session>
+	<session av="V">
+		<date>2014-xx-xx</date>
+		<location>
+		</location>
+		<length>0:58:27</length>
+		<source station="npo">web</source>
+		<format resolution="640x360">AVC</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true">Misha Mengelberg</artist>
+		</artists>
+		<title year="2014" director="Cherry Duyns">Misha enzovoort</title>
+		<product></product>
+	</session>
+	<session av="V">
+		<date>1995-08-xx</date>
+		<location>
+			<event type="festival">Mt. Fuji Jazz Festival</event>
+			<city>Yamanashi</city>
+			<country>Japan</country>
+		</location>
+		<length>0:51:00</length>
+		<source></source>
+		<format resolution="320x240">DivX 5</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true" type="band">Various Artists</artist>
+			<dummy main="true" type="band">Herbie Hancock trio</dummy>
+			<artist>Herbie Hancock</artist>
+			<artist>Dave Holland</artist>
+			<dummy type="band">Cantaloupe Island Super Jam</dummy>
+			<artist>Herbie Hancock</artist>
+			<artist>Terumasa Hino</artist>
+			<artist>Us3</artist>
+			<artist>Tukka Yoot</artist>
+			<artist>K.C.B.</artist>
+			<dummy type="band">Sadao Watanabe band</dummy>
+			<artist>Sadao Watanabe</artist>
+			<dummy type="band">Jimmy Smith Quartet</dummy>
+			<artist>Jimmy Smith</artist>
+			<artist>Kenny Burrell</artist>
+			<artist>Herman Riley</artist>
+			<artist>Jimmy Jackson</artist>			
+			<dummy type="band">Mt. Fuji Super Band Ron-Gonzalo-Hino</dummy>
+			<artist>Gonzalo Rubalcaba</artist>
+			<artist>Ron Carter</artist>
+			<artist>Javon Jackson</artist>
+			<artist>Terumasa Hino</artist>
+			<dummy type="band">David Sanborn band</dummy>
+			<artist>David Sanborn</artist>
+			<dummy type="band">Jacky Terrasson trio</dummy>
+			<artist>Jacky Terrasson</artist>
+			<artist type="band">Us3</artist>
+			<artist>Tukka Yoot</artist>
+			<artist>K.C.B.</artist>
+			<artist>Junko Onishi</artist>
+		</artists>
+		<title year="1995">Mt. Juji 10th Anniversary Special</title>
+		<product></product>
+	</session>
+	<session av="V">
+		<date>1976-07-27</date>
+		<location>
+			<event type="festival">Umbria Jazz Festival</event>
+			<country>Italy</country>
+		</location>
+		<length>0:50:44</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality/>
+		<lineage />
+		<remarks/>
+		<artists>
+			<artist main="true">Horace Silver</artist>
+			<artist>Tom Harrell</artist>
+			<artist>Bob Berg</artist>
+			<artist>Steve Beskrone</artist>
+			<artist>Eddie Gladden</artist>
+		</artists>
+		<title director="Gianni Paggi">Umbria Jazz '76: Horace Silver Quintet (Polivideo)</title>
+		<product></product>
+	</session>
 </KC_ROIO>
