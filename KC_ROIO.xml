@@ -33958,4 +33958,98 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<title director="Gianni Paggi">Umbria Jazz '76: Horace Silver Quintet (Polivideo)</title>
 		<product></product>
 	</session>
+	<session av="V">
+		<date>1982-xx-xx</date>
+		<location>
+			<venue>Smithsonian</venue>
+			<city>Washington, D.C</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:58:10</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="subband">The Jazz Messengers</artist>
+			<artist>Wynton Marsalis</artist>
+			<artist>Branford Marsalis</artist>
+			<artist>Bill Pierce</artist>
+			<artist>Donald Brown</artist>
+			<artist>Charles Fambrough</artist>
+		</artists>
+		<title year="1982">Jazz at the Smithsonian</title>
+		<product label="Immortal"><![CDATA[Art Blakey a the Jazz Messengers: Live at the Smithsonian (IMM 940033)]]></product>
+	</session>
+	<session av="V">
+		<date>1982-xx-xx</date>
+		<location>
+			<venue>Seventh Avenue South</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:23:00</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Art Blakey</artist>
+			<artist type="subband">The Jazz Messengers</artist>
+			<artist>Wynton Marsalis</artist>
+			<artist>Branford Marsalis</artist>
+			<artist>Bill Pierce</artist>
+			<artist>Donald Brown</artist>
+			<artist>Charles Fambrough</artist>
+		</artists>
+		<title year="1982">The Jazz Life 7(b5)</title>
+		<product label="idem"><![CDATA[Art Blakey Jazz Messengers/Richie Cole Quintet: Modern Jazz at the Village Vanguard (IDVD 1138)]]></product>
+	</session>
+	<session av="V">
+		<date>1982-xx-xx</date>
+		<location>
+			<venue>The Village Vanguard</venue>
+			<city>N.Y.C.</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>0:30:00</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Richie Cole</artist>	
+			<artist>Bobby Enriquez</artist>
+			<artist>Bruce Forman</artist>
+			<artist>Marshall Hawkins</artist>
+			<artist>Scott Moris</artist>
+		</artists>
+		<title year="1982">The Jazz Life 7(b5)</title>
+		<product label="idem"><![CDATA[Art Blakey Jazz Messengers/Richie Cole Quintet: Modern Jazz at the Village Vanguard (IDVD 1138)]]></product>
+	</session>
+	<session av="V">
+		<date>1993-06-11</date>
+		<location>
+			<event type="festival">Jazzbaltica</event>
+			<city>Salzau</city>
+			<country>Germany</country>
+		</location>
+		<length>1:09:51</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Peter Erskine</artist>	
+			<artist>John Taylor</artist>
+			<artist>Palle Danielsson</artist>
+		</artists>
+		<title></title>
+		<product label="Hudson Music" year="2004"><![CDATA[The Peter Erskine Trio ‎– Live At Jazz Baltica (HD-DVD-ET21)]]></product>
+	</session>
 </KC_ROIO>
