@@ -2846,8 +2846,8 @@
 		</location>
 		<length>0:58:54</length>
 		<source>DVD</source>
-		<format resolution="PAL">DVD</format>
-		<quality>A+</quality>
+		<format resolution="NTSC">DVD</format>
+		<quality>A</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
 		<artists>
@@ -2857,7 +2857,29 @@
 			<artist>Robin Eubanks</artist>
 			<artist>Marvin Smith (aka Smitty)</artist>
 		</artists>
-		<product label="ArtHaus">Dave Holland Quintet (ArtHaus)</product>
+		<product label="Arthaus Musik">Dave Holland Quintet (107 049)</product>
+	</session>
+	<session av="V" official="true">
+		<date>1986-05-31</date>
+		<location>
+			<event type="festival">Zelt-Musik-Festival</event>
+			<city>Freiburg</city>
+			<country>Germany</country>
+		</location>
+		<length>0:58:54</length>
+		<source>DVD</source>
+		<format resolution="NTSC">DVD</format>
+		<quality>A</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Dave Holland</artist>
+			<artist>Kenny Wheeler</artist>
+			<artist>Steve Coleman</artist>
+			<artist>Robin Eubanks</artist>
+			<artist>Marvin Smith (aka Smitty)</artist>
+		</artists>
+		<product label="This Is Dvd Jazz (TDK)">Dave Holland Quintet live 1986</product>
 	</session>
 	<session id="id0x16206c0" av="V">
 		<date>2007-07-20</date>
@@ -34051,5 +34073,44 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title></title>
 		<product label="Hudson Music" year="2004"><![CDATA[The Peter Erskine Trio ‎– Live At Jazz Baltica (HD-DVD-ET21)]]></product>
+	</session>
+	<session av="V">
+		<date>1991-10-27</date>
+		<location>
+			<event type="festival">Jazz Jamboree</event>
+			<venue>Operetta House</venue>
+			<city>Warsaw</city>
+			<country>Poland</country>
+		</location>
+		<length>1:05:19</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">McCoy Tyner</artist>	
+		</artists>
+		<title></title>
+		<product label="EuroArts" year="2005"><![CDATA[McCoy Tyner ‎– Live At Warsaw Jazz Jamboree 1991]]></product>
+	</session>
+	<session av="V">
+		<date>1976-10-10</date>
+		<location>
+			<venue>Jaap Eden hal</venue>
+			<city>Amsterdam</city>
+			<country>The Netherlands</country>
+		</location>
+		<length>0:51:52</length>
+		<source>DVD</source>
+		<format resolution="PAL">DVD</format>
+		<quality></quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks></remarks>
+		<artists>
+			<artist main="true">Marvin Gaye</artist>	
+		</artists>
+		<title></title>
+		<product label="El País En Directo" year="2006"><![CDATA[Marvin Gaye ‎– Greatest Hits Live in '76]]></product>
 	</session>
 </KC_ROIO>
