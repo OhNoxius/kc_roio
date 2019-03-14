@@ -33829,13 +33829,12 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	</session>
 	<session av="V">
 		<date>1999-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>87min</length>
 		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Ella Fitgerald</artist>
@@ -33850,11 +33849,11 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<city>Copenhagen</city>
 			<country>Denmark</country>
 		</location>
-		<length></length>
+		<length/>
 		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Duke Ellington</artist>
@@ -33884,7 +33883,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<source/>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Duke Ellington</artist>
@@ -33896,19 +33895,18 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 	</session>
 	<session av="V">
 		<date>2014-xx-xx</date>
-		<location>
-		</location>
+		<location> </location>
 		<length>0:58:27</length>
 		<source station="npo">web</source>
 		<format resolution="640x360">AVC</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Misha Mengelberg</artist>
 		</artists>
 		<title year="2014" director="Cherry Duyns">Misha enzovoort</title>
-		<product></product>
+		<product/>
 	</session>
 	<session av="V">
 		<date>1995-08-xx</date>
@@ -33918,10 +33916,10 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<country>Japan</country>
 		</location>
 		<length>0:51:00</length>
-		<source></source>
+		<source/>
 		<format resolution="320x240">DivX 5</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true" type="band">Various Artists</artist>
@@ -33940,7 +33938,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Jimmy Smith</artist>
 			<artist>Kenny Burrell</artist>
 			<artist>Herman Riley</artist>
-			<artist>Jimmy Jackson</artist>			
+			<artist>Jimmy Jackson</artist>
 			<dummy type="band">Mt. Fuji Super Band Ron-Gonzalo-Hino</dummy>
 			<artist>Gonzalo Rubalcaba</artist>
 			<artist>Ron Carter</artist>
@@ -33956,7 +33954,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Junko Onishi</artist>
 		</artists>
 		<title year="1995">Mt. Juji 10th Anniversary Special</title>
-		<product></product>
+		<product/>
 	</session>
 	<session av="V">
 		<date>1976-07-27</date>
@@ -33964,11 +33962,11 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<event type="festival">Umbria Jazz Festival</event>
 			<country>Italy</country>
 		</location>
-		<length>0:50:44</length>
+		<length>0:51:16</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
 		<quality/>
-		<lineage />
+		<lineage/>
 		<remarks/>
 		<artists>
 			<artist main="true">Horace Silver</artist>
@@ -33978,7 +33976,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Eddie Gladden</artist>
 		</artists>
 		<title director="Gianni Paggi">Umbria Jazz '76: Horace Silver Quintet (Polivideo)</title>
-		<product></product>
+		<product label="TDK">Horace Silver Quintet</product>
 	</session>
 	<session av="V">
 		<date>1982-xx-xx</date>
@@ -33992,7 +33990,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="NTSC">DVD</format>
 		<quality>B+</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Art Blakey</artist>
 			<artist type="subband">The Jazz Messengers</artist>
@@ -34017,7 +34015,7 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
 			<artist main="true">Art Blakey</artist>
 			<artist type="subband">The Jazz Messengers</artist>
@@ -34042,9 +34040,9 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<format resolution="NTSC">DVD</format>
 		<quality>A-</quality>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
-			<artist main="true">Richie Cole</artist>	
+			<artist main="true">Richie Cole</artist>
 			<artist>Bobby Enriquez</artist>
 			<artist>Bruce Forman</artist>
 			<artist>Marshall Hawkins</artist>
@@ -34063,15 +34061,15 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>1:09:51</length>
 		<source>DVD</source>
 		<format resolution="NTSC">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
-			<artist main="true">Peter Erskine</artist>	
+			<artist main="true">Peter Erskine</artist>
 			<artist>John Taylor</artist>
 			<artist>Palle Danielsson</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product label="Hudson Music" year="2004"><![CDATA[The Peter Erskine Trio ‎– Live At Jazz Baltica (HD-DVD-ET21)]]></product>
 	</session>
 	<session av="V">
@@ -34085,13 +34083,13 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>1:05:19</length>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
-			<artist main="true">McCoy Tyner</artist>	
+			<artist main="true">McCoy Tyner</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product label="EuroArts" year="2005"><![CDATA[McCoy Tyner ‎– Live At Warsaw Jazz Jamboree 1991]]></product>
 	</session>
 	<session av="V">
@@ -34104,13 +34102,13 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		<length>0:51:52</length>
 		<source>DVD</source>
 		<format resolution="PAL">DVD</format>
-		<quality></quality>
+		<quality/>
 		<lineage><![CDATA[]]></lineage>
-		<remarks></remarks>
+		<remarks/>
 		<artists>
-			<artist main="true">Marvin Gaye</artist>	
+			<artist main="true">Marvin Gaye</artist>
 		</artists>
-		<title></title>
+		<title/>
 		<product label="El País En Directo" year="2006"><![CDATA[Marvin Gaye ‎– Greatest Hits Live in '76]]></product>
 	</session>
 </KC_ROIO>
