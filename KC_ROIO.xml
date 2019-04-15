@@ -3380,6 +3380,7 @@
 	<session id="id0x3c3ec20" av="V">
 		<date>1978-xx-xx</date>
 		<location>
+			<venue>Teatro Villaret</venue>
 			<city>Lisboa</city>
 			<country>Portugal</country>
 		</location>
@@ -3387,7 +3388,7 @@
 		<source/>
 		<format/>
 		<quality/>
-		<lineage><![CDATA[]]></lineage>
+		<lineage><![CDATA[VHS(x) > standalone > DVDR ]]></lineage>
 		<remarks/>
 		<artists>
 			<artist main="true">Elis Regina</artist>
