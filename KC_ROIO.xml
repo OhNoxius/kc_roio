@@ -3362,8 +3362,10 @@
 		<title>MPB Especial do Programa Ensaio</title>
 	</session>
 	<session id="id0x3c3e9a0" av="V">
-		<date>1974-xx-xx</date>
+		<date>1974-12-08</date>
 		<location>
+			<event>Inauguraçao do Teatro Bandeirantes</event>
+			<venue>Teatro Bandeirantes</venue>
 			<city>São Paulo</city>
 			<country>Brazil</country>
 		</location>
@@ -34111,5 +34113,27 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 		</artists>
 		<title/>
 		<product label="El País En Directo" year="2006"><![CDATA[Marvin Gaye ‎– Greatest Hits Live in '76]]></product>
+	</session>
+	<session av="V">
+		<date>1974-12-08</date>
+		<location>
+			<event>Inauguraçao do Teatro Bandeirantes</event>
+			<venue>Teatro Bandeirantes</venue>
+			<city>São Paulo</city>
+			<country>Brazil</country>
+		</location>
+		<length/>
+		<source/>
+		<format/>
+		<quality/>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist type="band" main="true">Various Artists</artist>
+			<artist>Rita Lee</artist>
+			<artist>Tim Maia</artist>
+			<artist>Elis Regina</artist>
+			<artist>Chico Buarque</artist>
+		</artists>
 	</session>
 </KC_ROIO>
