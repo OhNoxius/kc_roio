@@ -15329,31 +15329,6 @@
 			<artist>Scorch</artist>
 		</artists>
 	</session>
-	<session id="id0x59bc760" av="A">
-		<date>1973-03-21</date>
-		<location>
-			<venue>Paul's Mall</venue>
-			<city>Boston MA</city>
-			<country>U.S.A.</country>
-		</location>
-		<length>1:05:28</length>
-		<source channel="WBCN-FM">FM</source>
-		<format/>
-		<quality>B</quality>
-		<lineage>trade CD-R ripped with EAC converted to FLAC with TLH</lineage>
-		<remarks>This is the complete 64 min. broadcast, including all dead air segments plus the 1:00 Genesis radio spot (to cover for the lost signal/technical difficulties) announcing their upcoming concert at Cohen Auditorium, Tufts University, Medford, Boston, MA on November 17, 1973.</remarks>
-		<artists>
-			<artist type="band">Mwandishi</artist>
-			<artist main="true">Herbie Hancock</artist>
-			<artist>Eddie Henderson</artist>
-			<artist>Julian Priester</artist>
-			<artist>Bennie Maupin</artist>
-			<artist>Buster Williams</artist>
-			<artist>Billy Hart</artist>
-			<artist>Dr. Pat Gleason</artist>
-			<artist>Scorch</artist>
-		</artists>
-	</session>
 	<session id="id0x59c2e00" av="A">
 		<date>1973-10-01</date>
 		<location>
@@ -15390,6 +15365,27 @@
 		<quality>B+</quality>
 		<lineage>FM &gt; Analog &gt; SoundForge &gt; CD &gt; MKWact &gt; shn &gt; WAV (dBPoweramp) &gt; retracking &amp;amp; renaming files (Adobe Audition) &gt; FLAC (LVL8 with sector alignment)</lineage>
 		<remarks/>
+		<artists>
+			<artist main="true">Herbie Hancock</artist>
+			<artist type="band">Headhunters</artist>
+			<artist>Bennie Maupin</artist>
+			<artist>Paul Jackson</artist>
+			<artist>Mike Clark</artist>
+		</artists>
+	</session>
+	<session av="A">
+		<date>1973-11-13</date>
+		<location>
+			<venue>Paul's Mall</venue>
+			<city>Boston MA</city>
+			<country>U.S.A.</country>
+		</location>
+		<length>1:05:28</length>
+		<source channel="WBCN-FM">FM</source>
+		<format/>
+		<quality>B</quality>
+		<lineage>trade CD-R ripped with EAC converted to FLAC with TLH</lineage>
+		<remarks>This is the complete 64 min. broadcast, including all dead air segments plus the 1:00 Genesis radio spot (to cover for the lost signal/technical difficulties) announcing their upcoming concert at Cohen Auditorium, Tufts University, Medford, Boston, MA on November 17, 1973.</remarks>
 		<artists>
 			<artist main="true">Herbie Hancock</artist>
 			<artist type="band">Headhunters</artist>
