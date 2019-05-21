@@ -16971,10 +16971,29 @@
 			<city>Bilzen</city>
 			<country>Belgium</country>
 		</location>
-		<length/>
+		<length>0:22:41</length>
 		<source>FM</source>
 		<format/>
-		<quality/>
+		<quality>B-</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Keith Jarrett</artist>
+			<artist>August Nemeth (aka Gus)</artist>
+			<artist>Bob Ventrello</artist>
+		</artists>
+	</session>
+	<session av="A">
+		<date>1969-08-24</date>
+		<location>
+			<event type="festival">Jazz Bilzen</event>
+			<city>Bilzen</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:42:28</length>
+		<source>web</source>
+		<format bitrate="128">aac</format>
+		<quality>B+</quality>
 		<lineage><![CDATA[]]></lineage>
 		<remarks/>
 		<artists>
