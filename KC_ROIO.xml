@@ -10446,6 +10446,24 @@
 			<artist main="true">Stevie Wonder</artist>
 		</artists>
 	</session>
+	<session av="V">
+		<date>1974-01-20</date>
+		<location>
+			<event type="festival">Gala Du Midem</event>
+			<venue>Palais des Festivals</venue>
+			<city>Cannes</city>
+			<country>France</country>
+		</location>
+		<length>0:25:51</length>
+		<source></source>
+		<format resolution="PAL">DVD</format>
+		<quality>B+</quality>
+		<lineage><![CDATA[]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Stevie Wonder</artist>
+		</artists>
+	</session>
 	<session id="id0x5e8b490" av="V">
 		<date>2009-07-07</date>
 		<location>
