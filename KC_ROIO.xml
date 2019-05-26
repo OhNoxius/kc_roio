@@ -25113,11 +25113,33 @@
 			<artist>Hugh Hopper</artist>
 		</artists>
 	</session>
+	<session av="V">
+		<date>1971-01-15</date>
+		<location>
+			<event type="tvshow">Pop Shop</event>
+			<venue>Théâtre 140</venue>
+			<city>Brussel</city>
+			<country>Belgium</country>
+		</location>
+		<length>1:03:32</length>
+		<source channel="RTB"/>
+		<format resolution="PAL">DVD</format>
+		<quality>A</quality>
+		<lineage trader="guitar101"><![CDATA[PAL mpeg-2 > Womble MVW > DVDLab Pro 2.5 > DVD]]></lineage>
+		<remarks>2 episodes: part one broadcast on 1971-06-19, part two on 1971-07-31</remarks>
+		<artists>
+			<artist main="true" type="band">Soft Machine</artist>
+			<artist>Robert Wyatt</artist>
+			<artist>Mike Ratledge</artist>
+			<artist>Hugh Hopper</artist>
+			<artist>Elton Dean</artist>
+		</artists>
+	</session>
 	<session id="d1e36716" av="V">
 		<date>1971-01-15</date>
 		<location>
-			<event type="tvshow">Stop Pop</event>
-			<venue>Theatre 140</venue>
+			<event type="tvshow">Pop Shop</event>
+			<venue>Théâtre 140</venue>
 			<city>Brussel</city>
 			<country>Belgium</country>
 		</location>
