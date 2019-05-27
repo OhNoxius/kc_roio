@@ -34191,4 +34191,25 @@ DVD authoring: ProjectX (demultiplex) > Cuttermaran 1.70 (edits and chapters) > 
 			<artist>Chico Buarque</artist>
 		</artists>
 	</session>
+	<session av="A">
+		<date>1977-06-23</date>
+		<location>
+			<venue>Torengebouw</venue>
+			<city>Heist-op-den-Berg</city>
+			<country>Belgium</country>
+		</location>
+		<length>0:53:46</length>
+		<source station="TROS" show="Sesjun">FM</source>
+		<format>flac</format>
+		<quality>A-</quality>
+		<lineage><![CDATA[FM > tape > recording, tracking and editing wav file in Audacity > CD-R > Wav > TLH (Flac 8, align on sector boundaries) ]]></lineage>
+		<remarks/>
+		<artists>
+			<artist main="true">Horace Silver</artist>
+			<artist>Tom Harrell</artist>
+			<artist>Larry Schneider</artist>
+			<artist>Chip Jackson</artist>
+			<artist>Eddie Gladden</artist>
+		</artists>
+	</session>
 </KC_ROIO>
