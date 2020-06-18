@@ -44,7 +44,8 @@ function makeDataTable(tableid) {
         let tabledom = "ftir";
 
         if (isDatabase) {
-            scrollY = scrollY - 50 + 21; // - 2nd header + no search filter
+            
+            scrollY = scrollY - 50 + 20 - ((linkedSheetType.length-2)*19); // - 2nd header + no search filter
             tabledom = "tirf";
             document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
             if ($('table.mainsheet th.linkedinfo').index() > 0) orderColumns[0][0] += 1;

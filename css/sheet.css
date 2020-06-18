@@ -119,11 +119,18 @@ table.dataTable thead th {
 }
 
 table.dataTable thead tr:nth-child(2) th {
-    padding: 2px 5px;
+    padding: 0px 5px;
+    text-align: left;
 }
 
 table.dataTable tbody td.linkedsheet {
     padding: 2px;
+}
+
+table.dataTable tbody td.linkedsheet div{
+    /* display: inline-block; */
+    vertical-align: top;
+    white-space: normal;
 }
 
 td.detailsHeader {

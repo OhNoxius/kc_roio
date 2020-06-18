@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:ext="http://exslt.org/common" exclude-result-prefixes="ext msxsl">
-	<xsl:output method="html" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" encoding="UTF-8"/>
+	<xsl:output method="html" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" encoding="UTF-8" />
 
-	<xsl:strip-space elements="*"/>
+	<xsl:strip-space elements="*" />
 
 	<!-- PARAMETERS -->
-	<xsl:param name="input"/>
-	<xsl:param name="id"/>
-	<xsl:param name="types"/>
-	<xsl:param name="typesDOM"/>
+	<xsl:param name="input" />
+	<xsl:param name="id" />
+	<xsl:param name="types" />
+	<xsl:param name="typesDOM" />
 	<!--<xsl:param name="delimiter"/>-->
 	<xsl:variable name="delimiter">
 		<xsl:text>,</xsl:text>
 	</xsl:variable>
 
 	<!-- VARIABLES -->
-	<xsl:variable name="root" select="/"/>
-	<xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzéèëêàçö'"/>
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZEEEEACO'"/>
-	<xsl:variable name="mainsheet" select="name(/*[1]/*[1])"/>
-	<xsl:variable name="linkedsheetNode" select="/*[1]/*[starts-with(name(.), '_')]"/>
+	<xsl:variable name="root" select="/" />
+	<xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzéèëêàçö'" />
+	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZEEEEACO'" />
+	<xsl:variable name="mainsheet" select="name(/*[1]/*[1])" />
+	<xsl:variable name="linkedsheetNode" select="/*[1]/*[starts-with(name(.), '_')]" />
 
 	<xsl:variable name="typeElements">
 		<xsl:call-template name="split">
-			<xsl:with-param name="pText" select="$types"/>
+			<xsl:with-param name="pText" select="$types" />
 		</xsl:call-template>
 	</xsl:variable>
 
 
 	<!-- KEYS -->
-	<xsl:key name="linkedsheet-ids" match="/*[1]/*[starts-with(name(.), '_')]/*" use="attribute::*[local-name(.) = name(/*[1]/*[1])]"/>
-	<xsl:key name="linkedsheet-ids_Type" match="/*[1]/*[starts-with(name(.), '_')]/*" use="concat(string(@type), '|', string(attribute::*[local-name(.) = name(/*[1]/*[1])]))"/>
-	<xsl:key name="linkedsheet-types" match="/*[1]/*[starts-with(name(.), '_')]/*" use="string(@type)"/>
+	<xsl:key name="linkedsheet-ids" match="/*[1]/*[starts-with(name(.), '_')]/*" use="attribute::*[local-name(.) = name(/*[1]/*[1])]" />
+	<xsl:key name="linkedsheet-ids_Type" match="/*[1]/*[starts-with(name(.), '_')]/*" use="concat(string(@type), '|', string(attribute::*[local-name(.) = name(/*[1]/*[1])]))" />
+	<xsl:key name="linkedsheet-types" match="/*[1]/*[starts-with(name(.), '_')]/*" use="string(@type)" />
 
 	<!-- ############# -->
 	<!-- ### START ### -->
 	<!-- ############# -->
 
 	<xsl:template match="/">
-		<xsl:apply-templates select="*[1]" mode="heading"/>
+		<xsl:apply-templates select="*[1]" mode="heading" />
 	</xsl:template>
 
 	<!--HEADING-->
@@ -46,10 +46,10 @@
 		<!-- CHOOSE MODE: main sheet OR find childnodes in linkedsheet -->
 		<xsl:choose>
 			<xsl:when test="$id">
-				<xsl:apply-templates select="*[starts-with(name(.), '_')]" mode="linkedsheet"/>
+				<xsl:apply-templates select="*[starts-with(name(.), '_')]" mode="linkedsheet" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="*[1]" mode="mainsheet"/>
+				<xsl:apply-templates select="*[1]" mode="mainsheet" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -58,10 +58,10 @@
 	<xsl:template match="*" mode="linkedsheet">
 		<table class="linkedsheet row-border">
 			<thead>
-				<xsl:apply-templates select="*[1]" mode="autoheader"/>
+				<xsl:apply-templates select="*[1]" mode="autoheader" />
 			</thead>
 			<tbody>
-				<xsl:apply-templates select="child::*[attribute::*[local-name() = $mainsheet] = $id]" mode="autovalues"/>
+				<xsl:apply-templates select="child::*[attribute::*[local-name() = $mainsheet] = $id]" mode="autovalues" />
 			</tbody>
 		</table>
 	</xsl:template>
@@ -70,17 +70,17 @@
 	<xsl:template match="*[1]" mode="mainsheet">
 		<table class="mainsheet row-border hover" id="{local-name(.)}">
 			<thead>
-				<xsl:apply-templates select="*[1]" mode="autoheader"/>
-				<xsl:apply-templates select="*[1]" mode="autoheader"/>
+				<xsl:apply-templates select="*[1]" mode="autoheader" />
+				<xsl:apply-templates select="*[1]" mode="autoheader" />
 			</thead>
 			<tbody>
 				<xsl:choose>
 					<xsl:when test="$input = ''">
-						<xsl:apply-templates select="child::*" mode="autovalues"/>
+						<xsl:apply-templates select="child::*" mode="autovalues" />
 					</xsl:when>
 					<xsl:otherwise>
 						<!-- PERFORM SEARCH -->
-						<xsl:apply-templates select="child::*[@*[contains(translate(., $smallcase, $uppercase), translate($input, $smallcase, $uppercase))] or *[contains(translate(., $smallcase, $uppercase), translate($input, $smallcase, $uppercase))]]" mode="autovalues"/>
+						<xsl:apply-templates select="child::*[@*[contains(translate(., $smallcase, $uppercase), translate($input, $smallcase, $uppercase))] or *[contains(translate(., $smallcase, $uppercase), translate($input, $smallcase, $uppercase))]]" mode="autovalues" />
 					</xsl:otherwise>
 				</xsl:choose>
 			</tbody>
@@ -90,17 +90,17 @@
 	<!-- RUN THROUGHT ATTRIBUTES: make header -->
 	<xsl:template match="*" mode="autoheader">
 		<tr>
-			<xsl:apply-templates select="child::*[1]" mode="details-control-header"/>
+			<xsl:apply-templates select="child::*[1]" mode="details-control-header" />
 			<!-- COUNT column -->
 			<th class="linkedinfo">
-				<xsl:value-of select="substring(local-name($linkedsheetNode), 2)"/>
+				<xsl:value-of select="substring(local-name($linkedsheetNode), 2)" />
 			</th>
 
 			<xsl:apply-templates select="attribute::*[local-name() != $mainsheet]" mode="attributes-header">
-				<xsl:sort select="position()" order="ascending" data-type="number"/>
+				<xsl:sort select="position()" order="ascending" data-type="number" />
 			</xsl:apply-templates>
 
-			<xsl:apply-templates select="child::*" mode="children-header"/>
+			<xsl:apply-templates select="child::*" mode="children-header" />
 		</tr>
 	</xsl:template>
 
@@ -111,16 +111,16 @@
 				<xsl:if test="position() = 1">
 					<xsl:attribute name="class">titlecolumn</xsl:attribute>
 				</xsl:if>
-				<xsl:value-of select="name(.)"/>
+				<xsl:value-of select="translate(name(.),'_', ' ')" />
 			</th>
 		</xsl:if>
 	</xsl:template>
 
 	<!-- RUN THROUGHT ATTRIBUTES: fill in values -->
 	<xsl:template match="child::*" mode="autovalues">
-		<xsl:variable name="currentID" select="string(@id)"/>
+		<xsl:variable name="currentID" select="string(@id)" />
 		<tr id="{@id}">
-			<xsl:apply-templates select="child::*[1]" mode="details-control-values"/>
+			<xsl:apply-templates select="child::*[1]" mode="details-control-values" />
 			<!-- COUNT linked items -->
 			<td class="linkedsheet">
 				<!--<xsl:apply-templates select="$linkedsheetNode/*/@type[generate-id(.) = generate-id(key('linkedsheet-types', string(.))[1])]" mode="types" />-->
@@ -146,27 +146,30 @@
 					</xsl:with-param>
 				</xsl:apply-templates>-->
 				<!-- MET FOR EACH -->
-				<xsl:for-each select="ext:node-set($typeElements)/*">
-					<xsl:variable name="type" select="string(.)"/>
-					<xsl:for-each select="$root">
-						<xsl:if test="key('linkedsheet-ids_Type', concat(string($type), '|', $currentID))">
-							<div class="typeicon {string($type)}" title="type: {string($type)}">
-								<xsl:value-of select="string($type)"/>
-								<xsl:text>:</xsl:text>
-								<span class="cssnumbers">
-									<xsl:value-of select="count(key('linkedsheet-ids_Type', concat(string($type), '|', $currentID)))"/>
-								</span>
-							</div>
-						</xsl:if>
+				<div class="wrapper">
+					<xsl:for-each select="ext:node-set($typeElements)/*">
+						<xsl:variable name="type" select="string(.)" />
+
+						<xsl:for-each select="$root">
+							<xsl:if test="key('linkedsheet-ids_Type', concat(string($type), '|', $currentID))">
+								<div class="typeicon {string($type)}" title="type: {string($type)}">
+									<xsl:value-of select="string($type)" />
+									<xsl:text>:</xsl:text>
+									<span class="cssnumbers">
+										<xsl:value-of select="count(key('linkedsheet-ids_Type', concat(string($type), '|', $currentID)))" />
+									</span>
+								</div>
+							</xsl:if>
+						</xsl:for-each>
 					</xsl:for-each>
-				</xsl:for-each>
+				</div>
 			</td>
 
 			<xsl:apply-templates select="attribute::*[local-name() != $mainsheet]" mode="attributes-values">
-				<xsl:sort select="position()" order="ascending" data-type="number"/>
+				<xsl:sort select="position()" order="ascending" data-type="number" />
 			</xsl:apply-templates>
 
-			<xsl:apply-templates select="child::*" mode="children-values"/>
+			<xsl:apply-templates select="child::*" mode="children-values" />
 		</tr>
 	</xsl:template>
 	<!--<xsl:template match="*" mode="typeNode">
@@ -179,31 +182,31 @@
 			</xsl:for-each>
 		</div>
 	</xsl:template>-->
-	
+
 	<xsl:template match="attribute::*" mode="attributes-values" priority="0">
 		<xsl:if test="not(starts-with(substring(name(.), 2), '-'))">
 			<td>
 				<!-- CREATE @title for hover tooltip (SLOW) -->
 				<xsl:if test="string(.) != ''">
 					<xsl:attribute name="title">
-						<xsl:apply-templates select="/*[1]/*[local-name(.) = local-name(current())]/*[attribute::*[1] = current()]/attribute::*" mode="hover"/>
+						<xsl:apply-templates select="/*[1]/*[local-name(.) = local-name(current())]/*[attribute::*[1] = current()]/attribute::*" mode="hover" />
 					</xsl:attribute>
 				</xsl:if>
 				<!-- END hover tooltip -->
-				<xsl:value-of select="."/>
+				<xsl:value-of select="." />
 				<!-- COLUMN FORMAT FEATURES (could also be done in DataTables -->
-				<xsl:variable name="nextpos" select="position()+1"/>
+				<xsl:variable name="nextpos" select="position()+1" />
 				<xsl:if test="string-length(./parent::*/@*[position()=$nextpos])">
 					<xsl:if test="starts-with(substring(name(./parent::*/@*[position()=$nextpos]), 2), '(')">
 						<span class="inline">
 							<xsl:text>(</xsl:text>
-							<xsl:value-of select="./parent::*/@*[position()=$nextpos]"/>
+							<xsl:value-of select="./parent::*/@*[position()=$nextpos]" />
 							<xsl:text>)</xsl:text>
 						</span>
 					</xsl:if>
 					<xsl:if test="starts-with(substring(name(./parent::*/@*[position()=$nextpos]), 2), '-')">
 						<p class="details">
-							<xsl:value-of select="./parent::*/@*[position()=$nextpos]"/>
+							<xsl:value-of select="./parent::*/@*[position()=$nextpos]" />
 						</p>
 					</xsl:if>
 				</xsl:if>
@@ -213,12 +216,12 @@
 
 	<xsl:template match="child::*" mode="children-header" priority="0">
 		<th class="noVis">
-			<xsl:value-of select="name(.)"/>
+			<xsl:value-of select="name(.)" />
 		</th>
 	</xsl:template>
 	<xsl:template match="child::*" mode="children-values" priority="0">
 		<td>
-			<xsl:value-of select="."/>
+			<xsl:value-of select="." />
 		</td>
 	</xsl:template>
 
@@ -232,9 +235,9 @@
 	<!-- FORMAT hover tooltip -->
 	<xsl:template match="attribute::*" mode="hover">
 		<xsl:if test="string(.) != ''">
-			<xsl:value-of select="local-name(.)"/>
+			<xsl:value-of select="local-name(.)" />
 			<xsl:text>: </xsl:text>
-			<xsl:value-of select="."/>
+			<xsl:value-of select="." />
 			<xsl:text>&#10;</xsl:text>
 		</xsl:if>
 	</xsl:template>
@@ -294,23 +297,23 @@
 	</xsl:template>-->
 
 	<xsl:template name="split">
-		<xsl:param name="pText"/>
+		<xsl:param name="pText" />
 
 		<xsl:variable name="separator">,</xsl:variable>
 
 		<xsl:choose>
-			<xsl:when test="string-length($pText) = 0"/>
+			<xsl:when test="string-length($pText) = 0" />
 			<xsl:when test="contains($pText, $separator)">
 				<type>
-					<xsl:value-of select="substring-before($pText, $separator)"/>
+					<xsl:value-of select="substring-before($pText, $separator)" />
 				</type>
 				<xsl:call-template name="split">
-					<xsl:with-param name="pText" select="substring-after($pText, $separator)"/>
+					<xsl:with-param name="pText" select="substring-after($pText, $separator)" />
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
 				<type>
-					<xsl:value-of select="$pText"/>
+					<xsl:value-of select="$pText" />
 				</type>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -327,7 +330,7 @@
 	</xsl:template>
 	<xsl:template match="@DATUM | @Datum | @datum | @date | @rec_date" mode="attributes-header">
 		<th class="date">
-			<xsl:value-of select="name(.)"/>
+			<xsl:value-of select="name(.)" />
 		</th>
 	</xsl:template>
 
