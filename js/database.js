@@ -1,15 +1,18 @@
 var targetElement;// = document.querySelector("section div#results");
 var xml, xslHeader, xslTable;
 var isEdge = (window.navigator.userAgent.indexOf("Edge") > -1);
+let spinner;
 
 function detectEdge() {
     return (window.navigator.userAgent.indexOf("Edge") > -1)
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    spinner = document.createElement('div');
+    spinner.classList.add("spinner");    
+    console.log("Edge? ", isEdge);
 
     targetElement = document.querySelector("section div#results");
-    console.log("Edge? ", isEdge);
 
     //LOAD XML, this is the first action where every other action should wait for
     loadDoc(datafile, xml).then(function (xmlDoc) {
@@ -20,21 +23,19 @@ document.addEventListener('DOMContentLoaded', function () {
             xslHeader = xsl;
             if (typeof editLink == 'undefined') editLink = "";
             if (typeof headerTitle == 'undefined') headerTitle = "";
-            transformRE(xml, xslHeader, { title: headerTitle, edit: editLink }, document.querySelector("header div#heading"));
+            transform(xml, xslHeader, { title: headerTitle, edit: editLink }, document.querySelector("header div#heading"));
             lastUpdated(datafile, "activity");
-            let spinner = document.createElement('div');
-            spinner.classList.add("spinner");
             targetElement.appendChild(spinner);
         }, function (error) {
             console.error('xsl/sheet-header.xsl', error);
         })
 
-        //XSL TABLE
+        //XSL DATABASE
         loadDoc('xsl/database.xsl', false).then(function (xsl) {
             xslTable = xsl;
 
             //EXTRA for database version:
-            transformRE(xml, xslTable, { edge: isEdge, types: linkedSheetType.join() }, targetElement).then(function () {
+            transform(xml, xslTable, { edge: isEdge, types: linkedSheetType.join() }, targetElement).then(function () {
                 any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"));
             })
         })

@@ -5,6 +5,7 @@ function makeDataTable(tableid) {
 
         //Format all the hyperlinks in <td> elements FIRST!so that column width is accordingly
         let cellval, secondslash, thirdslash, shortURL;
+        // OPTION 1
         // $('table#' + tableid + ' td:contains("http"), table#' + tableid + ' td:contains("www")').html(function () {
         //     cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
         //     secondslash = cellval.indexOf('/', cellval.indexOf('/') + 1);
@@ -14,7 +15,7 @@ function makeDataTable(tableid) {
         //     return "<a title='" + cellval + "' class='tableLink' href='" + $(this).text() + "' target='_blank'>" + shortURL + "</a>"
         // });
 
-        //SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis
+        // OPTION2: SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis
         $('table#' + tableid + ' td:contains("http"), table#' + tableid + ' td:contains("www")').html(function () {
             let content = $(this).text();
             let exp_match = /(\b(https?|):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig; //find https?
@@ -25,11 +26,11 @@ function makeDataTable(tableid) {
         });
 
         //search QUESTION MARKS       
-        $('table#' + tableid + ' td').filter(function () {
+        $('table#' + tableid + ' tbody tr td').filter(function () {
             return this.textContent.startsWith('?')
         }).html(function () {
             cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
-            return "<span class='uncertain'>" + cellval.slice(1, cellval.length) + "</span>"
+            return "<span class='doubt' title='?'>" + cellval.slice(1, cellval.length) + "</span>"
         });
 
         let noVis = [];
@@ -58,7 +59,7 @@ function makeDataTable(tableid) {
             "processing": true,
             "orderCellsTop": true,
             "autoWidth": true,
-            "scrollY": scrollY,//"calc(100vh - 50px - 2*36px - 16px)", //100% viewheight - heading - (tableheader+searchbar) - tablefooter
+            "scrollY": scrollY,
             "scrollCollapse": true,
             "paging": false,
             "ordering": true,
@@ -165,87 +166,82 @@ function makeDataTable(tableid) {
                 }
             },
             "initComplete": function () {
-                //$('table#' + tableid + ' thead tr').clone(true).appendTo('#' + tableid + ' thead' );
-                this.api().columns().every(function () {
-                    let column = this;
-                    let th = column.header();
-                    let headerText = th.innerText;
-                    //if (sheetNames.includes(column.header().innerText)) {
-                    //var select = $('<select><option value=""></option></select>')
-                    if (th.classList.contains("details-control")) {
-                        $("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
-                    }
-                    else if (th.classList.contains("linkedinfo")) {
-                        $("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
-                        linkedSheetType.forEach(function (value, index, array) {
-                            $('<div class="nowrap"><input type="checkbox" id="' + th.innerText + value + '" name="' + th.innerText + '" value="' + value + '" class="headercheckbox" />' +
-                                '<label for="' + th.innerText + value + '">' + value + '</label></div>')
-                                .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()));
-                        });
-                        $('input:checkbox').on('change', function (e) {
-                            //build a regex filter string with an or(|) condition
-                            let checkboxes = $('input:checkbox:checked').map(function () {
-                                return this.value;
-                            }).get().join('|');
-                            //filter in column 1, with an regex, no smart filtering, not case sensitive
-                            column.search(checkboxes, true, false, false).draw(false);
-                        });
-                        //$(document).on('keypress',function(e) {
-                        //         //     if(e.which == 13) {
-                        //         //         alert('You pressed enter!');
-                        //         //     }
-                        //         // });
-                    }
-                    else if (th.classList.contains("date")) {
-                        $('<input type="search" id="' + th.innerText + '" name="' + th.innerText + '" class="headersearch" />')
-                            .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
-                            .on('change', function () {
-                                if (column.search() !== this.value) {
-                                    column
-                                        .search(this.value)
-                                        .draw();
-                                }
+                if (isDatabase) {
+                    //$('table#' + tableid + ' thead tr').clone(true).appendTo('#' + tableid + ' thead' );
+                    this.api().columns().every(function () {
+                        let column = this;
+                        let th = column.header();
+                        //let headerText = th.innerText;
+                        //if (sheetNames.includes(column.header().innerText)) {
+                        if (th.classList.contains("details-control")) {
+                            $("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
+                        }
+                        else if (th.classList.contains("linkedinfo")) {
+                            $("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
+                            linkedSheetType.forEach(function (value, index, array) {
+                                $('<div class="nowrap"><input type="checkbox" id="' + th.innerText + value + '" name="' + th.innerText + '" value="' + value + '" class="headercheckbox" />' +
+                                    '<label for="' + th.innerText + value + '">' + value + '</label></div>')
+                                    .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()));
                             });
-                    }
-                    else {
-                        let input = $('<input type="search" list="' + th.innerText + '-list" id="' + th.innerText + '-input" name="' + th.innerText + '" class="headersearch" />'
-                        )//+ '<datalist id="' + th.innerText + '-list"></datalist>')
-                            //.appendTo($(column.footer()).empty())
-                            .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
-                            .on('change select', function () {
-                                if (column.search() !== this.value) {
-                                    column
-                                        .search(this.value)
-                                        .draw('page');
-                                }
+                            $('input:checkbox').on('change', function (e) {
+                                //build a regex filter string with an or(|) condition
+                                let checkboxes = $('input:checkbox:checked').map(function () {
+                                    return this.value;
+                                }).get().join('|');
+                                //filter in column 1, with an regex, no smart filtering, not case sensitive
+                                column.search(checkboxes, true, false, false).draw(false);
                             });
-
-                        //let datalist = $('<datalist id="' + headerText + '-list"></datalist>').appendTo("table.mainsheet thead tr:eq(1) th").eq(column.index());
-
-                        let ARR = column.data().unique().toArray();
-                        let SET = new Set(ARR.join('$').split('$'));
-                        //ARR = [...SET].sort();
-                        //column.data().unique().sort().each(function (d, j) {
-                        // ARR.forEach(function (val) {
-                        //     datalist.append('<option value="' + val + '" />')
-                        // });
-                       
-                        $(function () {
-                            var ARR = [...SET].sort();
-                            $(input).autocomplete({
-                                source: ARR,
-                                select: function(event, ui){
-                                    if (column.search() !== ui.item.value) {
+                        }
+                        else if (th.classList.contains("date")) {
+                            $('<input type="search" id="' + th.innerText + '" name="' + th.innerText + '" class="headersearch" />')
+                                .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
+                                .on('change', function () {
+                                    if (column.search() !== this.value) {
                                         column
-                                            .search(ui.item.value)
+                                            .search(this.value)
+                                            .draw();
+                                    }
+                                });
+                        }
+                        else {
+                            let input = $('<input type="search" list="' + th.innerText + '-list" id="' + th.innerText + '-input" name="' + th.innerText + '" class="headersearch" />'
+                            )//+ '<datalist id="' + th.innerText + '-list"></datalist>')
+                                //.appendTo($(column.footer()).empty())
+                                .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
+                                .on('change select', function () {
+                                    if (column.search() !== this.value) {
+                                        column
+                                            .search(this.value)
                                             .draw('page');
                                     }
-                                }
+                                });
+
+                            //let datalist = $('<datalist id="' + headerText + '-list"></datalist>').appendTo("table.mainsheet thead tr:eq(1) th").eq(column.index());
+
+                            let ARR = column.data().unique().toArray();
+                            let SET = new Set(ARR.join(delimiter).split(delimiter));
+                            //ARR = [...SET].sort();
+                            //column.data().unique().sort().each(function (d, j) {
+                            // ARR.forEach(function (val) {
+                            //     datalist.append('<option value="' + val + '" />')
+                            // });
+                            $(function () {
+                                var ARR = [...SET].sort();
+                                $(input).autocomplete({
+                                    source: ARR,
+                                    select: function (event, ui) {
+                                        if (column.search() !== ui.item.value) {
+                                            column
+                                                .search(ui.item.value)
+                                                .draw('page');
+                                        }
+                                    }
+                                });
                             });
-                        });
-                    }
-                    //}
-                });
+                        }
+                        //}
+                    });
+                }
             }
         });
 
@@ -297,9 +293,10 @@ function makeDataTable(tableid) {
                 title = row.column(idx + i).header();
                 if (cells.data()[i]) details = details + format($(title).html(), cells.data()[i]);
             }
-            detailsTable = '<table class="detailInfo">' + details + '</table>';
+            if (detailsTable != "") detailsTable = '<table class="detailsTable">' + details + '</table>';
 
-            let childData = document.createElement('div');
+            let childDiv = document.createElement('div');
+            childDiv.classList.add("childdiv");
             let childFragment = new DocumentFragment;
 
             let domParser = new DOMParser();
@@ -318,20 +315,19 @@ function makeDataTable(tableid) {
                 tr.addClass('shown');
                 if (!tr.hasClass('loaded')) {
                     if (isDatabase) {
-                        transformRE(xml, xslTable, { id: tr.attr("id") }).then(function (linkedsheet) {
-                            //sessions = document.querySelector("div#dummy").innerHTML;
+                        transform(xml, xslTable, { id: tr.attr("id") }).then(function (linkedsheet) {
                             tr.addClass('loaded');
 
                             childFragment.appendChild(detailsDOM.querySelector("table.detailInfo"));
                             childFragment.appendChild(linkedsheet);
-                            childData.appendChild(childFragment);
+                            childDiv.appendChild(childFragment);
 
                             //linkedsheet.appendChild(detailsDOM.querySelector("table.detailInfo"));
-                            row.child(childData, 'child').show();
+                            row.child(childDiv, 'child').show();
 
                             makeDataTable(tr.next('tr').find('table.linkedsheet').attr("id"));
                         }, function (error) {
-                            console.error("transformRE (xslTable) transform error!", error);
+                            console.error("transform(xslTable) transform error!", error);
                         })
                     }
                     else {
