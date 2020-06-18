@@ -141,8 +141,6 @@ td.urlCol {
     white-space: nowrap;
 }
 
-
-
 td.details-control {
     background: url('details_open.png') no-repeat center center;
     cursor: pointer;
