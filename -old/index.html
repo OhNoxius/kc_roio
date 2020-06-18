@@ -1,0 +1,612 @@
+<!--<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>KC ROIO Archive</title>
+		<meta name="kc_roio_archive" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8" />
+		<link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+
+		<style type="text/css">
+            table.dataTable thead .sorting,
+            table.dataTable thead .sorting_asc,
+            table.dataTable thead .sorting_desc {
+              cursor: pointer;
+              *cursor: hand;
+            }
+            table.dataTable thead .sorting,
+            table.dataTable thead .sorting_asc,
+            table.dataTable thead .sorting_desc,
+            table.dataTable thead .sorting_asc_disabled,
+            table.dataTable thead .sorting_desc_disabled {
+              background-repeat: no-repeat;
+              background-position: center right;
+            }
+            table.dataTable thead .sorting {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_both.png");
+            }
+            table.dataTable thead .sorting_asc {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_asc.png");
+            }
+            table.dataTable thead .sorting_desc {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_desc.png");
+            }
+            table.dataTable thead .sorting_asc_disabled {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_asc_disabled.png");
+            }
+            table.dataTable thead .sorting_desc_disabled {
+              background-image: url("https://cdn.datatables.net/1.10.10/images/sort_desc_disabled.png");
+            }
+            .loading{
+                font-size:20px;
+            }
+            
+            .loading:after{
+                overflow:hidden;
+                display:inline-block;
+                vertical-align:bottom;
+                -webkit-animation:ellipsis steps(4, end) 600ms infinite;
+                animation:ellipsis steps(4, end) 600ms infinite;
+                content:"\2026"; /* ascii code for the ellipsis character */
+                width:0px;
+            }
+            
+            @keyframes ellipsis {
+                to {
+                  width: 1.25em;    
+                }
+              }
+            
+            @-webkit-keyframes ellipsis {
+                 to {
+                   width: 1.25em;    
+                 }
+               }
+            *{
+                FONT-FAMILY:verdana, helvetica, arial, sans-serif;
+            }
+            
+            .tab{
+                -webkit-border-radius:5;
+                -moz-border-radius:5;
+                border-radius:8px 8px 0 0;
+                border-bottom: 1px solid transparent;
+                color:#ffffff;
+                font-size:14px;
+                background:#91bbff;
+                padding:4px 8px 4px 8px;
+                text-decoration:none;
+                display: inline;
+            }
+            
+ 			.btn{
+ 				-webkit-border-radius:5;
+                -moz-border-radius:5;
+                border-bottom: 1px solid transparent;
+                color:#ffffff;
+                font-size:14px;
+                background:#f69c55;
+                text-decoration:none;
+                display: inline;
+ 				border-radius:8px 8px 8px 8px;
+ 				padding:1px 8px 1px 8px;
+ 			}
+            
+            .tab:hover, .btn:hover{
+                background:#3cb0fd;
+                text-decoration:none;
+            }
+            
+            .tab:active,.btn:active{
+            	border: 1px solid #000000;
+            	background-color: #ace5cd;
+            }
+            
+            .tab.active {
+   	 			background: #0093f4;
+    			text-decoration: none;
+			}
+            
+            a{
+                TEXT-DECORATION:none;
+            }
+            
+            form{
+                moz-border-radius:10px;
+                webkit-border-radius:10px;
+                border-radius:10px;
+                background-color:#B5C2C7;
+                padding:10px 10px 2px 10px;
+                width:1000px;
+                border-color:#F1F4FE;
+                border-color:rgba(255, 255, 255, .8);
+                margin-top: 4px;
+                margin-left: 2px;
+                margin-bottom:10px;
+            }
+            th{
+                FONT-SIZE:78%;
+                MARGIN:0px;
+                COLOR:#000000;
+            }
+            td{
+                FONT-SIZE:75%;
+                MARGIN:0px;
+                COLOR:#000000;
+                border-bottom:0px solid #EEEEEE;
+            }
+            tr{
+                border-bottom:0px solid #EEEEEE;
+            }
+            
+            .sessionTable tr td{
+            	border-bottom:3px solid #EEEEEE;
+            }
+        </style>
+
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>-->
+		<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>-->
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<!--<script type="text/javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>-->
+		<!--1.10.10-->
+		<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/datatables.min.js"></script>
+		<!--<script type="text/javascript" src="dataTables.min.js"></script>-->
+
+		<script type="text/javascript">
+            //<![CDATA[
+			function xslTransform(xmlInput, xsltSheet, elementToAddResult, chooseParameter) {
+				
+				if (typeof XSLTProcessor !== 'undefined') {
+					var proc = new XSLTProcessor();
+					proc.importStylesheet(xsltSheet);
+					
+					// pass through filter parameter to XSLT
+					if (chooseParameter !== undefined) {
+						//alert('geef deze parameter door:' + chooseParameter);
+						proc.setParameter(null, "chooseParameter", chooseParameter);
+						chooseParameter = undefined;
+					} else alert("chooseParameter == undefined");
+					
+					var fragment = proc.transformToFragment(xmlInput, document);
+					
+					//DIT IS GEWOON ELEMENT TOEVOEGEN (ORIGINAL)
+					//elementToAddResult.appendChild(fragment);
+					
+					//DIT IS KIJKEN OF ER AL EEN ELEMENT IS, EN HET DAN VERVANGEN (uit xslSearch)
+					//if (elementToAddResult.firstChild) {
+					if (elementToAddResult.hasChildNodes()) {
+						//IN DE TOEKOMST VERVANGEN DOOR CSS, en dan enkel de elementToAddResult als string doorgeven
+						//$('.result).css('display'​​​​​​​​​​​​​​​​​​​​​​​​​​​,'none');​​​​​​
+						elementToAddResult.children[0].style.display = 'none';
+						//elementToAddResult.firstChild.style.display = 'none';
+						//elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]);
+						elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+					} else {
+						elementToAddResult.appendChild(fragment);
+					}
+				} else if (typeof xmlInput.transformNode !== 'undefined') {
+					//in case the transformatie niet geslaagd is: gewoon de ongewijzigde xmldata appenden?
+					elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
+				} else alert("XSLTProcessor == 'undefined'");
+			}
+			
+			//zelfde als xslTransform, maar specifiek voor 'search' transform?
+			//Hij doet precies hetzelfde, maar isiets veiliger in het kiezen vd node waar hij moet appenden
+			// PLUS hij geeft de searchfilters door (dit is wss niet nodig bij het transformen van andere xslt's?
+			function xslSearch(xmlInput, xsltSheet, elementToAddResult) {
+				
+				if (typeof XSLTProcessor !== 'undefined') {
+					var proc = new XSLTProcessor();
+					proc.importStylesheet(xsltSheet);
+					
+					//dit moet niet altijd doorgegeven worden? alleen maar als het over een "search" transformatie gaat.
+					//optie: parameter(bool) toevoegen om aan te geven of dit moet of niet)
+					proc.setParameter(null, "chooseArtist", document.getElementById('artistSelector').value.toUpperCase());
+					proc.setParameter(null, "chooseCountry", document.getElementById('countrySelector').value.toUpperCase());
+					proc.setParameter(null, "chooseYear", document.getElementById('yearSelector').value);
+					proc.setParameter(null, "chooseEvent", document.getElementById('eventSelector').value.toUpperCase());
+					av = "";
+					if (document.getElementById('audio').checked) {
+						av = av.concat("A");
+					}
+					if (document.getElementById('video').checked) {
+						av = av.concat("V");
+					}
+					//alert(av);
+					proc.setParameter(null, "chooseAV", av);
+					//EINDE parameters doorgeven
+					
+					var fragment = proc.transformToFragment(xmlInput, document);
+					if (elementToAddResult.firstChild) {
+						elementToAddResult.children[0].style.display = 'none';
+						//elementToAddResult.replaceChild(fragment, elementToAddResult.children[0]); //child0 is de 'loading...' tekst
+						elementToAddResult.replaceChild(fragment, elementToAddResult.children[1]);
+						//child1 is de resultsTable
+					} else {
+						elementToAddResult.appendChild(fragment);
+					}
+				} else if (typeof xmlInput.transformNode !== 'undefined') {
+					elementToAddResult.innerHTML = xmlInput.transformNode(xsltSheet);
+				}
+				
+				var table = $('#searchTable').DataTable({
+					
+					"paging": false,
+					"info": false,
+					"language": {
+						"search": "Filter results:"
+					},
+					"order":[[1, 'asc']]
+				});
+				// Add event listener for opening and closing details
+				$('#searchTable tbody').on('click', '.xtrClass', function () {
+					
+					var tr = $(this).closest('tr');
+					//zoek de rij waarin de "extra" knop staat
+					var row = table.row(tr);
+					var cell = table.cell($(this).closest('td').next());
+					//zoek de cel rechts van de knop: onzichtbare cel met lineage en remarks info
+					//dit is misschien niet de beste oplossing...
+					//mss beter om een nieuwe transformatie te doen hier??? ik heb er al een stylesheet voor...
+					//*voordeel van huidige methode is dat het heel makkelijk is om die lineage en remarks bij de 1e transformatie op te slaan
+					//alternatief: onzichtbare rij maken ipv onzichtbare cel????
+					
+					if (row.child.isShown()) {
+						// This row is already open - close it
+						row.child.hide();
+						tr.removeClass('shown');
+					} else {
+						// Open this row
+						row.child(format(cell.data())).show();
+						tr.addClass('shown');
+					}
+				});
+			}
+			
+			function format (d) {
+				// `d` is the original data object for the row
+				return '<table cellpadding="2" cellspacing="0" border="0" style="width:100%;padding-left:0px;">' +
+				'<tr>' +
+				'<td colspan="8" bgcolor="#EEEEEE"><strong>Lineage: </strong>' + d + '</td>' +
+				'</tr>' +
+				
+				'</table>';
+			}
+			
+			function requestSortAZ(url, loadedData, elementToAddResult, sortBy) {
+				var req = new XMLHttpRequest();
+				req.open('GET', url);
+				// to allow us doing XSLT in IE
+				try {
+					req.responseType = "msxml-document"
+				}
+				catch (ex) {
+				}
+				req.onload = function () {
+					loadedData[ 'xslSortAZ'] = req.responseXML;
+					if (checkSortAZLoaded(loadedData)) {
+						xslTransform(loadedData.xmlInput, loadedData.xslSortAZ, elementToAddResult, sortBy);
+						//alert("xlsTransform ipv xslSearch");
+						
+						//NEW FUNCTION? check if artistXSL already happened
+						//action performed when clicking on artist:
+						$('.sortRow').click(function () {
+							var thisId = this.parentNode.parentNode.id;
+							document.getElementById('lnk_' + thisId).value = document.getElementById('lnk_' + thisId).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
+							document.getElementById('tab_' + thisId).style.display = document.getElementById('tab_' + thisId).style.display == "table-cell" ? "none": "table-cell";
+							
+							if (! $("#tab_" + thisId).data('calc')) {
+								$("#tab_" + thisId).data('calc', true);
+								
+								//nieuwe XSLT uitvoeren hier: bij klikken op artistname wordt er elke keer een xslt uitgevoerd die de juiste sessies uitfiltert
+								xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
+								elementToAddResult = document.getElementById('tab_' + thisId);
+								
+								loadedData[ 'xslSessions'] = null;
+								requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
+								//zoekt op:
+								//alert(this.parentNode.parentNode.summary);
+							}
+						});
+					};
+				};
+				req.send();
+			}
+			
+			function requestSortYears(loadedData, elementToAddResult) {
+				//LEGE JAARTABEL MAKEN VOOR ELK JAAR
+				var allYears = '';
+				for (i = 1929; i < 2019; i++) {
+					//alert(i);
+					var yearsTable = '<table summary=' + i + ' style="width:100% " border=" 0 " align="length" cellpadding="3" cellspacing="0">';
+					yearsTable += '<tr><td colspan="3" style="background-color:#727272;height:3px;"/></tr>';
+					//title row
+					yearsTable += '<tr style="background-color:#EEEEEE;height:10px;" class="sortRow"><td><strong>' + i + '</strong></td><td/><td bgcolor="#EEEEEE" align="right"><input id=lnk_' + i + ' type="button" value="[+] Expand" style="border:none;background:none;width:85px;" /></td></tr>';
+					//session table header (new table generated by xslt in javascript function 'requestSortAZ')
+					yearsTable += '<tr><td colspan="3" id=tab_' + i + ' data-calc="false" style="display:none;FONT-SIZE:100%;"></td></tr>';
+					//light grey bottom line-->
+					yearsTable += '<tr><td colspan="3"/></tr>';
+					yearsTable += '</table>';
+					
+					allYears += yearsTable;
+				}
+				allYears += "";
+				
+				//APPENDEN AAN id=result
+				if (elementToAddResult.firstChild) {
+					elementToAddResult.children[0].style.display = 'none';
+					//elementToAddResult.replaceChild(allYears, elementToAddResult.children[0]);
+					elementToAddResult.children[1].innerHTML = allYears;
+				} else {
+					//elementToAddResult.appendChild(allYears);
+				}
+				
+				$('.sortRow').click(function () {
+					var thisYear = this.parentNode.parentNode.summary;
+					document.getElementById('lnk_' + thisYear).value = document.getElementById('lnk_' + thisYear).value == "[-] Collapse" ? "[+] Expand": "[-] Collapse";
+					document.getElementById('tab_' + thisYear).style.display = document.getElementById('tab_' + thisYear).style.display == "table-cell" ? "none": "table-cell";
+					
+					if (! $("#tab_" + thisYear).data('calc')) {
+						$("#tab_" + thisYear).data('calc', true);
+						
+						//nieuwe XSLT uitvoeren hier: bij klikken op artistname wordt er elke keer een xslt uitgevoerd die de juiste sessies uitfiltert
+						xsl_sessions = 'KC_ROIO_sessions.xsl'; //KC_ROIO_sessions.xsl
+						elementToAddResult = document.getElementById('tab_' + thisYear);
+						
+						loadedData[ 'xslSessions'] = null;
+						//alert(this.parentNode.parentNode.summary);
+						requestSessions(xsl_sessions, loadedData, elementToAddResult, this.parentNode.parentNode.summary);
+						//zoekt op:
+						//alert(this.parentNode.parentNode.summary);
+					}
+				});
+			}
+			
+			function requestSessions(url, loadedData, elementToAddResult, chooseSortBy) {
+				var req = new XMLHttpRequest();
+				req.open('GET', url);
+				// to allow us doing XSLT in IE
+				try {
+					req.responseType = "msxml-document"
+				}
+				catch (ex) {
+				}
+				req.onload = function () {
+					loadedData[ 'xslSessions'] = req.responseXML;
+					if (checkResultsLoaded(loadedData)) {
+						xslTransform(loadedData.xmlInput, loadedData.xslSessions, elementToAddResult, chooseSortBy);
+						
+						//make extra button work
+						$('.xtrClass').click(function () {
+							xtrId = $(this).parent().parent().next().attr('id');
+							
+							$("#" + xtrId).attr("style", function (i, origValue) {
+								return origValue == "display:table-row" ? "display:none": "display:table-row";
+							});
+						});
+					};
+				};
+				req.send();
+			}
+			
+			function requestSearch(url, loadedData, elementToAddResult) {
+				var req = new XMLHttpRequest();
+				req.open('GET', url);
+				// to allow us doing XSLT in IE
+				try {
+					req.responseType = "msxml-document"
+				}
+				catch (ex) {
+				}
+				req.onload = function () {
+					loadedData[ 'xslSessions'] = req.responseXML;
+					if (checkResultsLoaded(loadedData)) {
+						//hier meegeven dat hij de parameters in KC_ROIO_search moet toewijzen (ipv van in xslSearch zelf)?
+						xslSearch(loadedData.xmlInput, loadedData.xslSessions, elementToAddResult);
+						
+						//make extra button work
+						//alternatively: datatables add child row!
+						$('.xtrClass').click(function () {
+							xtrId = $(this).parent().parent().next().attr('id');
+							
+							$("#" + xtrId).attr("style", function (i, origValue) {
+								return origValue == "display:table-row" ? "display:none": "display:table-row";
+							});
+						});
+					};
+				};
+				req.send();
+			}
+			
+			function requestFilters(url, loadedData) {
+				var req = new XMLHttpRequest();
+				req.open('GET', url);
+				// to allow us doing XSLT in IE
+				try {
+					req.responseType = "msxml-document"
+				}
+				catch (ex) {
+				}
+				req.onload = function () {
+					loadedData[ 'xslFilters'] = req.responseXML;
+					if (checkFiltersLoaded(loadedData)) {
+						xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('eventBox'), "event");
+						xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('artistBox'), "artist");
+						xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('countryBox'), "country");
+						//xslTransform(loadedData.xmlInput, loadedData.xslFilters, document.getElementById('yearBox'), "date");
+					} else {
+						//alert('KC_ROIO_filters nog niet geladen');
+					}
+				};
+				req.send();
+			}
+			
+			function requestXML(url, loadedData, _callback) {
+				var req = new XMLHttpRequest();
+				req.open('GET', url, false);
+				//,false => SYNCHRONOUS REQUEST!! browser wacht op antwoord...wordt afgeraden, hier alternatief (timeout enzo) https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests
+				// to allow us doing XSLT in IE
+				try {
+					req.responseType = "msxml-document"
+				}
+				catch (ex) {
+				}
+				req.onload = function () {
+					loadedData[ 'xmlInput'] = req.responseXML;
+				};
+				req.send();
+			}
+			
+			function checkSortAZLoaded(loadedData) {
+				return loadedData.xmlInput != null && loadedData.xslSortAZ != null;
+			}
+			
+			function checkFiltersLoaded(loadedData) {
+				return loadedData.xmlInput != null && loadedData.xslFilters != null;
+			}
+			
+			function checkResultsLoaded(loadedData) {
+				return loadedData.xmlInput != null && loadedData.xslSessions != null;
+			}
+			
+			function init() {
+				xml = 'KC_ROIO.xml';
+				xsl_sortAZ = 'KC_ROIO_sortAZ.xsl';
+				xsl_filters = 'KC_ROIO_filters.xsl';
+				xsl_search = 'KC_ROIO_search.xsl';
+				
+				var loadedData = {
+					xmlInput: null, xslFilters: null, xslSessions: null, xslSortAZ: null
+				};
+				
+				//AHA elementToAddResult global value!
+				elementToAddResult = document.getElementById('result');
+				//load xml
+				requestXML(xml, loadedData, function () {
+					console.log('XML IS LOADED!');
+					alert('XML IS LOADED!');
+				});
+				
+				// initialize search button + bij search de 'search results' tab actief maken
+				$('#search').click(function () {
+					requestSearch(xsl_search, loadedData, elementToAddResult);
+					document.getElementById('loading').innerHTML = 'loading';
+					document.getElementById('loading').style.display = 'inline';
+					
+					$('#searchResults').addClass('active');
+					$('#searchResults').siblings().removeClass('active');
+				});
+				
+				
+				//initialize search on the fly
+				document.getElementById('filters').addEventListener('change', function () {
+					requestSearch(xsl_search, loadedData, elementToAddResult);
+				},
+				false);
+				
+				//initialize ArtistsAZ list button
+				document.getElementById('artistsAZ').addEventListener('click', function () {
+					//requestArtists(xsl_artists, loadedData, elementToAddResult);
+					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "artist");
+				},
+				false);
+				
+				//more general sortAZ function call: countries
+				document.getElementById('countriesAZ').addEventListener('click', function () {
+					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "country");
+				},
+				false);
+				
+				//more general sortAZ function call: events
+				document.getElementById('eventsAZ').addEventListener('click', function () {
+					requestSortAZ(xsl_sortAZ, loadedData, elementToAddResult, "event");
+				},
+				false);
+				
+				//sortYears
+				document.getElementById('chrono').addEventListener('click', function () {
+					requestSortYears(loadedData, elementToAddResult);
+					//"loading" zichtbaarheidcode verplaats naar in de functie, omdat het anders te traag aanpast
+				},
+				false);
+				
+				//populate datalist for search filters
+				requestFilters(xsl_filters, loadedData);
+				
+				//actieve tabs!
+				$('.tab').click(function () {
+					$(this).addClass('active');
+					$(this).siblings().removeClass('active');
+					document.getElementById('loading').innerHTML = 'loading';
+					document.getElementById('loading').style.display = 'inline';
+				});
+				
+				$('#searchResults').click(function () {
+					requestSearch(xsl_search, loadedData, elementToAddResult);
+				});
+				
+				//set search results tab initially on active
+				$("#searchResults").addClass('active');
+				
+				//alert('dit wordt al uitgevoerd voor de xslt is uitgevoerd. hij roept de request functies op, maar daarna loopt dit script gewoon verder');
+			}//]]>
+         </script>
+	</head>
+
+	<body onload="init()" style="margin: 2px;">
+		<form id="filters">
+			<table>
+				<tbody>
+					<tr style="border-bottom:none;">
+						<th style="font-size:24px;">KC ROIO Archive</th>
+					</tr>
+					<tr>
+						<td style="border-bottom:none;">
+							<label for="artistSelector">artist:</label>
+							<input id="artistSelector" list="artistBox" name="artist" autocomplete="off" />
+							<!--//WAAROM HEB IK AL DIE DATALISTS EEN SPATIE ALS BASISWAARDE GEGEVEN?????-->
+							<datalist id="artistBox"></datalist>
+						</td>
+						<td style="border-bottom:none;">
+							<label for="countrySelector">country:</label>
+							<input id="countrySelector" list="countryBox" name="country" autocomplete="off" style="width:150px;" />
+							<datalist id="countryBox"></datalist>
+						</td>
+						<td style="border-bottom:none;">
+							<label for="yearSelector">year:</label>
+							<input id="yearSelector" list="yearBox" name="year" autocomplete="off" style="width:50px;" />
+							<datalist id="yearBox"></datalist>
+						</td>
+						<td style="border-bottom:none;">
+							<label for="eventSelector">festival/show:</label>
+							<input id="eventSelector" list="eventBox" name="event" autocomplete="off" />
+							<datalist id="eventBox"></datalist>
+						</td>
+						<td style="border-bottom:none;">
+							<input type="checkbox" name="a/v" value="A" id="audio" checked="checked" /><label for="audio">audio</label>
+							<br />
+							<input type="checkbox" name="a/v" value="V" id="video" checked="checked" /><label for="video">video</label>
+						</td>
+						<td>
+							<a href="#" id="search" class="btn">search</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5" style="border-bottom:none;">
+							<a href="#" id="searchResults" class="tab">search results</a>
+							<a href="#" id="artistsAZ" class="tab">artists A/Z</a>
+							<a href="#" id="countriesAZ" class="tab">countries A/Z</a>
+							<a href="#" id="eventsAZ" class="tab">festivals/shows A/Z</a>
+							<a href="#" id="chrono" class="tab">chronologically</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		<div id="result">
+			<h4 id="loading" class="loading" style="display:inline;font-size:100%;">type above to begin search</h4>
+			<div id="results"></div>
+		</div>
+	</body>
+
+</html>
