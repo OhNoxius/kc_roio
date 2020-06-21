@@ -55,6 +55,7 @@ function makeDataTable(tableid) {
         //---------------------
         dTable = $('table#' + tableid).DataTable({
             // responsive: true,
+            "autoWidth": false,
             "dom": tabledom,
             "orderClasses": false,
             "processing": true,
@@ -196,7 +197,7 @@ function makeDataTable(tableid) {
                         else if (th.classList.contains("date")) {
                             $('<input type="search" id="' + th.innerText + '" name="' + th.innerText + '" class="headersearch" />')
                                 .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
-                                .on('change', function () {
+                                .on('input', function () {
                                     if (column.search() !== this.value) {
                                         column
                                             .search(this.value)
@@ -209,7 +210,7 @@ function makeDataTable(tableid) {
                             )//+ '<datalist id="' + th.innerText + '-list"></datalist>')
                                 //.appendTo($(column.footer()).empty())
                                 .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
-                                .on('change select', function () {
+                                .on('change search', function () {
                                     if (column.search() !== this.value) {
                                         column
                                             .search(this.value)
@@ -220,14 +221,17 @@ function makeDataTable(tableid) {
                             //let datalist = $('<datalist id="' + headerText + '-list"></datalist>').appendTo("table.mainsheet thead tr:eq(1) th").eq(column.index());
 
                             let ARR = column.data().unique().toArray();
-                            let SET = new Set(ARR.join(delimiter).split(delimiter));
-                            //ARR = [...SET].sort();
+                            ARR = ARR.join(delimiter).split(delimiter);
+                            ARR.forEach((o, i, a) => a[i] = a[i].trim());
+                            let SET = new Set(ARR);
+                            ARR = [...SET].sort();
+                            console.log(ARR);
                             //column.data().unique().sort().each(function (d, j) {
                             // ARR.forEach(function (val) {
                             //     datalist.append('<option value="' + val + '" />')
                             // });
                             $(function () {
-                                var ARR = [...SET].sort();
+                                //var ARR = [...SET].sort();
                                 $(input).autocomplete({
                                     source: ARR,
                                     select: function (event, ui) {
