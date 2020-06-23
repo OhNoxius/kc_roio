@@ -1,7 +1,7 @@
 var targetElement;
 var sheet;
 var tables, navs;
-var xml, xslHeader, xslMenu, xslTable;
+var xml, xslHeader, xslMenu, xslTable, xslTooltip;
 var isEdge = (window.navigator.userAgent.indexOf("Edge") > -1);
 let searchbar, searchbutton, spinner;
 

@@ -1,5 +1,6 @@
 var targetElement;// = document.querySelector("section div#results");
-var xml, xslHeader, xslTable;
+var xml, xslHeader, xslTable, xslTooltip;
+let promiseXslHeader, promiseXslTooltip;
 var isEdge = (window.navigator.userAgent.indexOf("Edge") > -1);
 let spinner;
 
@@ -16,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //LOAD XML, this is the first action where every other action should wait for
     loadDoc(datafile, xml).then(function (xmlDoc) {
-        xml = xmlDoc;        
+        xml = xmlDoc;
         targetElement.appendChild(spinner);
-        
+
         //XSL 
         promiseXslHeader = loadDoc('xsl/sheet-header.xsl');
         function reflect(promiseXslHeader) {
@@ -41,6 +42,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 //EXTRA for database version:
                 transform(xml, xslTable, { edge: isEdge, types: linkedSheetType.join() }, targetElement).then(function () {
                     any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"));
+                    loadDoc('xsl/sheet-tooltip.xsl').then(function (xsl) {
+                        xslTooltip = xsl;
+                    })
                 })
             })
         }, function (error) {

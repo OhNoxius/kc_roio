@@ -187,12 +187,20 @@
 		<xsl:if test="not(starts-with(substring(name(.), 2), '-'))">
 			<td>
 				<!-- CREATE @title for hover tooltip (SLOW) -->
-				<xsl:if test="string(.) != ''">
+				<!--<xsl:if test="string(.) != ''">
 					<xsl:attribute name="title">
 						<xsl:apply-templates select="/*[1]/*[local-name(.) = local-name(current())]/*[attribute::*[1] = current()]/attribute::*" mode="hover" />
 					</xsl:attribute>
-				</xsl:if>
+				</xsl:if>-->
 				<!-- END hover tooltip -->
+				<xsl:if test="/*[1]/*[local-name(.) = local-name(current())]/*[attribute::*[1] = current()]">
+					<xsl:attribute name="class">
+						<xsl:text>tooltip </xsl:text>
+					</xsl:attribute>
+				</xsl:if>
+				<xsl:attribute name="sheet">
+					<xsl:value-of select="local-name(.)" />
+				</xsl:attribute>
 				<xsl:value-of select="." />
 				<!-- COLUMN FORMAT FEATURES (could also be done in DataTables -->
 				<xsl:variable name="nextpos" select="position()+1" />

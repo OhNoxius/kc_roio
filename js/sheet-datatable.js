@@ -33,6 +33,65 @@ function makeDataTable(tableid) {
             return "<span class='doubt' title='?'>" + cellval.slice(1, cellval.length) + "</span>"
         });
 
+        var getTooltip = function (sheetArg, idArg) {
+            return new Promise(function (resolve) {
+                transform(xml, xslTooltip, { sheet: sheetArg, id: idArg }).then(function (response) {
+                    resolve(response);
+                })
+            }, function (error) {
+                reject(Error(error));
+            });
+        }
+
+        $(function () {
+            $(document).tooltip({
+                items: ".tooltip",
+                // content: async function () {
+                //     var result = await getTooltip($(this).attr('sheet'), $(this).attr('title'));
+                //     return result;
+                // }
+                content: function () {
+                    if (this.textContent) {
+                        let sheet = this.getAttribute("sheet").replace(/[^a-z_]/gi, "_");
+                        let value = this.textContent.replace(/[^a-z_]/gi, "_");
+                        let query = xml.querySelector(sheet + " " + value);
+                        if (query) {
+                            let result = Array.from(query.attributes, function({ name, value }) { 
+                                if (value && name != 'id') return ("<li style='list-style-type:none;'>"+ [name] + ":<span class='inline description'>" + value + "</span></li>")
+                            });
+                            return result;
+                        }
+                    }
+                }
+                // content: transform(xml, xslTooltip, { sheet: $(this).attr('sheet'), id: $(this).attr('title') }).then(function(result) {
+                //     return result;
+                // })
+            });
+        });
+
+        // $(function () {
+        //     $(document).tooltip({
+        //         items: "[title]",
+        //         content: function () {
+        //             let element = $(this);
+        //             let attr = $(this).attr('title');
+        //             if (element.is("[data-geo]")) {
+        //                 let text = element.text();
+        //                 return "<img class='map' alt='" + text +
+        //                     "' src='http://maps.google.com/maps/api/staticmap?" +
+        //                     "zoom=11&size=350x350&maptype=terrain&sensor=false&center=" +
+        //                     text + "'>";
+        //             }
+        //             if (typeof attr === typeof undefined || attr === false) {                        
+        //                 return "AWESOME";
+        //             }
+        //             else { 
+        //                 return element.attr("title");
+        //             }
+        //         }
+        //     });
+        // });
+
         let noVis = [];
         $('table#' + tableid + ' th.noVis').each(function () { noVis.push($(this).index()); });
         let orderColumns;
@@ -44,8 +103,8 @@ function makeDataTable(tableid) {
         let tabledom = "ftir";
 
         if (isDatabase) {
-            
-            scrollY = scrollY - 50 + 20 - ((linkedSheetType.length-2)*19); // - 2nd header + no search filter
+
+            scrollY = scrollY - 50 + 20 - ((linkedSheetType.length - 2) * 19); // - 2nd header + no search filter
             tabledom = "tirf";
             document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
             if ($('table.mainsheet th.linkedinfo').index() > 0) orderColumns[0][0] += 1;
@@ -225,7 +284,6 @@ function makeDataTable(tableid) {
                             ARR.forEach((o, i, a) => a[i] = a[i].trim());
                             let SET = new Set(ARR);
                             ARR = [...SET].sort();
-                            console.log(ARR);
                             //column.data().unique().sort().each(function (d, j) {
                             // ARR.forEach(function (val) {
                             //     datalist.append('<option value="' + val + '" />')
@@ -337,8 +395,8 @@ function makeDataTable(tableid) {
                     }
                     else {
                         childFragment.appendChild(detailsDOM.querySelector("table.detailInfo"));
-                        childData.appendChild(childFragment);
-                        row.child(childData, 'child').show();
+                        childDiv.appendChild(childFragment);
+                        row.child(childDiv, 'child').show();
                     }
                 }
                 else {
