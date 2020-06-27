@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var promiseTable = loadDoc('xsl/sheet-table.xsl');
         //var promiseHeader = loadDoc('xsl/sheet-header.xsl');
-        var promiseMenu = loadDoc('xsl/sheet-menu.xsl');
+        var promiseMenu = loadDoc('xsl/sheet-menu.xsl', false);
 
         Promise.all([promiseMenu, promiseTable]).then(function (xslDocs) {
 
@@ -78,8 +78,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     navs[i].addEventListener('click', function () {
                         targetElement.textContent = '';
                         targetElement.appendChild(spinner.cloneNode(true));
-                        sheet = this.id;
-                        transformTable(this.id, '');
+                        sheet = this.id.substring(3);
+                        console.log(sheet);
+                        transformTable(sheet, '');
                     }, false);
                 }
                 //alternatieve (betere?) methode
@@ -110,9 +111,9 @@ document.addEventListener('DOMContentLoaded', function () {
             var url = window.location.href;
             if (url.indexOf("#") != -1) {
                 targetElement.appendChild(spinner);
-                sheet = this.id;
-                transformTable(this.id, '');
-                sheet = url.substring(url.indexOf("#~") + 2);
+                // sheet = this.id;
+                // transformTable(this.id, '');
+                sheet = url.substring(url.indexOf("#") + 1);
                 transformTable(sheet, '');
             }
         })

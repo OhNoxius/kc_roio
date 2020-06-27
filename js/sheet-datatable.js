@@ -1,7 +1,9 @@
-function makeDataTable(tableid) {
+function makeDataTable(tableid, database = false) {
+    //if (dropdown) isDatabase = false;
+    let table = document.getElementById(tableid);//document.querySelector("table#"+tableid);
     let dTable;
-    if (typeof isDatabase == 'undefined') isDatabase = false;
-    if (!$.fn.dataTable.isDataTable('table#' + tableid)) {
+    //if (typeof isDatabase == 'undefined') isDatabase = false;
+    if (!$.fn.dataTable.isDataTable(table)) {
 
         //Format all the hyperlinks in <td> elements FIRST!so that column width is accordingly
         let cellval, secondslash, thirdslash, shortURL;
@@ -16,7 +18,7 @@ function makeDataTable(tableid) {
         // });
 
         // OPTION2: SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis
-        $('table#' + tableid + ' td:contains("http"), table#' + tableid + ' td:contains("www")').html(function () {
+        $(table).find('td:contains("http"), td:contains("www")').html(function () {
             let content = $(this).text();
             let exp_match = /(\b(https?|):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig; //find https?
             let element_content = content.replace(exp_match, "<a class='url' target='_blank' title='$1' href='$1'>$1</a>");
@@ -26,13 +28,14 @@ function makeDataTable(tableid) {
         });
 
         //search QUESTION MARKS       
-        $('table#' + tableid + ' tbody tr td').filter(function () {
+        $(table).find('tbody tr td').filter(function () {
             return this.textContent.startsWith('?')
         }).html(function () {
             cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
             return "<span class='doubt' title='?'>" + cellval.slice(1, cellval.length) + "</span>"
         });
 
+        //TOOLTIPS
         var getTooltip = function (sheetArg, idArg) {
             return new Promise(function (resolve) {
                 transform(xml, xslTooltip, { sheet: sheetArg, id: idArg }).then(function (response) {
@@ -43,30 +46,59 @@ function makeDataTable(tableid) {
             });
         }
 
-        $(function () {
-            $(document).tooltip({
-                items: ".tooltip",
-                // content: async function () {
-                //     var result = await getTooltip($(this).attr('sheet'), $(this).attr('title'));
-                //     return result;
-                // }
-                content: function () {
-                    if (this.textContent) {
-                        let sheet = this.getAttribute("sheet").replace(/[^a-z_]/gi, "_");
-                        let value = this.textContent.replace(/[^a-z_]/gi, "_");
+        // $(function () {
+        //     $(document).tooltip({
+        //         items: ".tooltip",
+        //         content: function () {
+        //             if (this.textContent) {
+        //                 let sheet = this.getAttribute("sheet").replace(/[^a-z_]/gi, "_");
+        //                 let value = this.textContent.replace(/[^a-z_]/gi, "_");
+        //                 let query = xml.querySelector(sheet + " " + value);
+        //                 if (query) {
+        //                     let result = Array.from(query.attributes, function ({ name, value }) {
+        //                         if (value && name != 'id') return ("<li style='list-style-type:none;'>" + [name] + ":<span class='inline description'>" + value + "</span></li>")
+        //                     });
+        //                     return result;
+        //                 }
+        //             }
+        //         }
+        //     })
+        // });
+
+        let xmltag = /[^A-Za-z0-9-]/gi; //BADBADBADBADABDABDADB
+
+        $(table).find('.tooltip').tooltipster({
+            content: '',//'Loading...',
+            // 'instance' is basically the tooltip. More details in the "Object-oriented Tooltipster" section.
+            functionBefore: function (instance, helper) {
+                let el = helper.origin;
+                var $origin = $(helper.origin);
+
+                // we set a variable so the data is only loaded once via Ajax, not every time the tooltip opens
+                if ($origin.data('loaded') !== true) {
+                    if (el.textContent) {
+                        let sheet = el.getAttribute("sheet").replace(xmltag, "_");
+                        let value = el.textContent.replace(xmltag, "_");
                         let query = xml.querySelector(sheet + " " + value);
                         if (query) {
-                            let result = Array.from(query.attributes, function({ name, value }) { 
-                                if (value && name != 'id') return ("<li style='list-style-type:none;'>"+ [name] + ":<span class='inline description'>" + value + "</span></li>")
+                            let result = Array.from(query.attributes, function ({ name, value }) {
+                                if (value && name != 'id') {
+                                    if (value.includes('www') || value.includes('http')) {
+                                        let exp_match = /(\b(https?|):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig; //find https?
+                                        let newvalue = value.replace(exp_match, "<a class='url' target='_blank' title='$1' href='$1'>$1</a>");
+                                        let new_exp_match = /(^|[^\/])(www\.[\S]+(\b|$))/gim; //find www?
+                                        value = newvalue.replace(new_exp_match, '$1<a class="url" title="http://$2" target="_blank" href="http://$2">$2</a>');
+                                    }
+                                    return ("<li style='list-style-type:none;'><span class='inline description'>" + name + ": </span>" + value + "</li>")
+                                }
                             });
-                            return result;
+                            instance.content(result);
+                            $origin.data('loaded', true);
                         }
                     }
                 }
-                // content: transform(xml, xslTooltip, { sheet: $(this).attr('sheet'), id: $(this).attr('title') }).then(function(result) {
-                //     return result;
-                // })
-            });
+            },
+            interactive: true
         });
 
         // $(function () {
@@ -93,26 +125,33 @@ function makeDataTable(tableid) {
         // });
 
         let noVis = [];
-        $('table#' + tableid + ' th.noVis').each(function () { noVis.push($(this).index()); });
+        $(table).children('thead').children('tr:first-child').children('th.noVis').each(function () { noVis.push($(this).index()); });
         let orderColumns;
-        if (noVis.length) orderColumns = [[1, 'asc']];
+        if (noVis.length) {
+            orderColumns = [[1, 'asc']];
+            //noVis.forEach((o, i, a) => a[i] = a[i]-1);
+        }
         else orderColumns = [[0, 'asc']];
 
         const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
         let scrollY = vh - 50 - 36 - 21 - 16; //100% viewheight - heading - tableheader - searchbar  - footer
         let tabledom = "ftir";
 
-        if (isDatabase) {
-
+        if (database) {
             scrollY = scrollY - 50 + 20 - ((linkedSheetType.length - 2) * 19); // - 2nd header + no search filter
             tabledom = "tirf";
             document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
-            if ($('table.mainsheet th.linkedinfo').index() > 0) orderColumns[0][0] += 1;
+            if ($('table.mainsheet th.linkedinfo').index() > 0) {
+                orderColumns[0][0] += 1;                
+                //noVis.forEach((o, i, a) => a[i] = a[i]-1);
+                //noVis.push($('table.mainsheet th.linkedinfo').index());
+            }
         }
+
 
         //INITIALIZE DATATABLE:
         //---------------------
-        dTable = $('table#' + tableid).DataTable({
+        dTable = $(table).DataTable({
             // responsive: true,
             "autoWidth": false,
             "dom": tabledom,
@@ -129,25 +168,28 @@ function makeDataTable(tableid) {
             // "fixedColumns": true,
             /* "dom": '<"top"i>ft', */
             "createdRow": function (row, data, dataIndex) {
-                if (!isDatabase) {
-                    let hasDetails = false;
-                    for (let i = 0; i < noVis.length; i++) {
-                        if (data[noVis[i]]) {
-                            //$(row).addClass('important');
-                            //console.log(row.querySelector("td.details"));
-                            //console.log(data[noVis1]);
-                            hasDetails = true;
-                            break;
-                        }
+                //if (!database) {
+                let hasDetails = false;
+                //let dataNoVis = data.slice(noVis[0]).reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
+                for (let i = 0; i < noVis.length; i++) {
+                    if (data[noVis[i]]) {
+                        hasDetails = true;
+                        break;
                     }
-                    if (hasDetails) $(row).find("td.details").addClass('details-control');
                 }
+
+                if (hasDetails) $(row).children("td.details").addClass('details-control');
+                //}
             },
             "columnDefs": [{
                 "targets": 'details',
                 "orderable": false,
                 "data": null,
                 "defaultContent": '',
+            },
+            {
+                "targets": '_all',
+                "type": 'html'
             },
             {
                 "targets": 'details-control',
@@ -174,13 +216,13 @@ function makeDataTable(tableid) {
             {
                 "targets": 'date',
                 "className": 'date',
-                "width": "calc(20px + 10ex)",
+                "width": 'calc(20px + 10ex)',
                 //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
             },
-            {
-                "targets": 'collection',
-                "data": 'collection'
-            },
+            // {
+            //     "targets": 'collection',
+            //     "data": 'collection'
+            // },
             {
                 "targets": 'urlCol',
                 "className": 'urlCol',
@@ -212,8 +254,7 @@ function makeDataTable(tableid) {
                 "lengthMenu": "Show _MENU_ entries",
                 "loadingRecords": "Initializing...",
                 "processing": '<div class="spinner"></div>',
-                "search": tableid + ":",
-                /* "search": "Filter " + tableid + ":", */
+                "search": 'filter "' + tableid + '":',
                 "zeroRecords": "Nothing found...",
                 "paginate": {
                     "first": "First",
@@ -227,7 +268,7 @@ function makeDataTable(tableid) {
                 }
             },
             "initComplete": function () {
-                if (isDatabase) {
+                if (database) {
                     //$('table#' + tableid + ' thead tr').clone(true).appendTo('#' + tableid + ' thead' );
                     this.api().columns().every(function () {
                         let column = this;
@@ -279,7 +320,11 @@ function makeDataTable(tableid) {
 
                             //let datalist = $('<datalist id="' + headerText + '-list"></datalist>').appendTo("table.mainsheet thead tr:eq(1) th").eq(column.index());
 
-                            let ARR = column.data().unique().toArray();
+                            let ARR = column.data().map(function (value, index) {
+                                return value.replace(/<\/?[^>]+(>|$)/g, "");
+                            }).unique().toArray();
+                            //let ARR = column.nodes().toJQuery().map(function (val, i) { return $(val).text() });
+                            //console.log(ARR);
                             ARR = ARR.join(delimiter).split(delimiter);
                             ARR.forEach((o, i, a) => a[i] = a[i].trim());
                             let SET = new Set(ARR);
@@ -325,24 +370,24 @@ function makeDataTable(tableid) {
         //     }
         // });
 
-        $(document).on("processing.dt", function (e, settings, processing) {
-            if (processing) {
-                console.log("event trigger: processing true");
-                // dTable.processing(true);
-                // setTimeout(function () {
-                //     dTable.processing(false);
-                // }, 2000);
-            }
-            else {
-                console.log("event trigger: processing false");
-                //dTable.processing(false);
-            }
-        });
+        // $(document).on("processing.dt", function (e, settings, processing) {
+        //     if (processing) {
+        //         console.log("event trigger: processing true");
+        //         // dTable.processing(true);
+        //         // setTimeout(function () {
+        //         //     dTable.processing(false);
+        //         // }, 2000);
+        //     }
+        //     else {
+        //         console.log("event trigger: processing false");
+        //         //dTable.processing(false);
+        //     }
+        // });
 
         /////NEW: link +sheet as a dropdown////////////
 
         //Add event listener for opening and closing details
-        $('table#' + tableid + ' tbody').on('click', 'td.details-control', function () {
+        $(table).find('tbody').on('click', 'td.details-control', function () {
             let tr = $(this).closest('tr');
             let row = dTable.row(tr);
 
@@ -377,7 +422,7 @@ function makeDataTable(tableid) {
                 // Open this row
                 tr.addClass('shown');
                 if (!tr.hasClass('loaded')) {
-                    if (isDatabase) {
+                    if (database) {
                         transform(xml, xslTable, { id: tr.attr("id") }).then(function (linkedsheet) {
                             tr.addClass('loaded');
 

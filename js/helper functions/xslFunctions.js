@@ -19,7 +19,7 @@ function loadDoc(url, caching = true) {
     });
 }
 
-function transform(xmlDoc, xslDoc, xsltParams, targetElement, overwrite = true, caching = true) {
+function transform(xmlDoc, xslDoc, xsltParams, targetElement, overwrite = true) {
     return new Promise(function (resolve) {
 
         if (typeof XSLTProcessor !== 'undefined') {

@@ -7,7 +7,7 @@
 
 	<xsl:template match="/">
 		<div class="searchnav">
-			<input type="search" id="xslsearch" name="xslsearch" placeholder="zoek..." />
+			<input type="search" id="xslsearch" name="xslsearch" placeholder="search..." />
 			<input type="submit" id="search" value="→" />
 		</div>
 		<xsl:apply-templates select="child::*[1]/child::*" />
@@ -15,7 +15,7 @@
 
 	<!-- AUTO: generate menu buttons in the sidebar -->
 	<xsl:template match="child::*[1]/child::*">
-		<a class="btn nav target" href="#~{name(.)}" id="{name(.)}">
+		<a class="btn nav target" href="#{name(.)}" id="btn{name(.)}">
 			<h2>
 				<xsl:value-of select="translate(name(.),'_', ' ')" />
 			</h2>

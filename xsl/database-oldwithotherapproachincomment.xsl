@@ -121,23 +121,46 @@
 			<!-- COUNT linked items -->
 			<xsl:if test="not($id)">
 				<td class="linkedsheet">
+					<!--<xsl:apply-templates select="$linkedsheetNode/*/@type[generate-id(.) = generate-id(key('linkedsheet-types', string(.))[1])]" mode="types" />-->
+
+					<!--<xsl:for-each select="/*[1]/*[starts-with(name(.), '_')]/*[generate-id() = generate-id(key('linkedsheet-types', string(@type))[1])]"/>-->
+					<!--<xsl:for-each select="key('linkedsheet-types', $type)[generate-id(.) = generate-id(key('linkedsheet-ids_Type',concat($type, string(current()/@id))))]">-->
+
+					<!-- SPLIT TEMPLATE VOOR ELKE LIJN -->
+
+					<!--</xsl:for-each>-->
+					<!--<xsl:if test="$types">
+					<xsl:call-template name="processingTemplate">
+						<xsl:with-param name="typelist" select="$types"/>
+						<xsl:with-param name="currentID" select="string(current()/@id)"/>
+					</xsl:call-template>
+				</xsl:if>-->
+
+					<!-- SPLIT TEMPLATE slecht 1x: node-set() doen op het resultaat ervan -->
+					<!-- MET TEMPLATE -->
+					<!--<xsl:apply-templates select="ext:node-set($typeElements)/*" mode="typeNode">
+					<xsl:with-param name="currentID">
+						<xsl:value-of select="$currentID"/>
+					</xsl:with-param>
+				</xsl:apply-templates>-->
 					<!-- MET FOR EACH -->
+					<div class="wrapper">
+						<xsl:for-each select="ext:node-set($typeElements)/*">
+							<xsl:variable name="type" select="string(.)" />
 
-					<xsl:for-each select="ext:node-set($typeElements)/*">
-						<xsl:variable name="type" select="string(.)" />
-						<xsl:for-each select="$root">
-							<xsl:if test="key('linkedsheet-ids_Type', concat(string($type), '|', $currentID))">
-								<div class="typeicon {string($type)}" title="type: {string($type)}">
-									<xsl:value-of select="string($type)" />
-									<xsl:text>:</xsl:text>
-									<span class="cssnumbers">
-										<xsl:value-of select="count(key('linkedsheet-ids_Type', concat(string($type), '|', $currentID)))" />
-									</span>
-								</div>
-							</xsl:if>
+							<xsl:for-each select="$root">
+								<xsl:if test="key('linkedsheet-ids_Type', concat(string($type), '|', $currentID))">
+									<div class="typeicon {string($type)}" title="type: {string($type)}">
+										<xsl:value-of select="string($type)" />
+										<xsl:text>:</xsl:text>
+										<span class="cssnumbers">
+											<xsl:value-of select="count(key('linkedsheet-ids_Type', concat(string($type), '|', $currentID)))" />
+										</span>
+									</div>
+								</xsl:if>
+							</xsl:for-each>
 						</xsl:for-each>
-					</xsl:for-each>
-
+					</div>
 				</td>
 			</xsl:if>
 
@@ -148,7 +171,16 @@
 			<xsl:apply-templates select="child::*" mode="children-values" />
 		</tr>
 	</xsl:template>
-
+	<!--<xsl:template match="*" mode="typeNode">
+		<xsl:param name="currentID"/>
+		<div class="typeicon {string(.)}">
+			<xsl:value-of select="string(.)"/>
+			<xsl:text>: </xsl:text>
+			<xsl:for-each select="$root">
+				<xsl:value-of select="count(key('linkedsheet-ids_Type', string($currentID)))"/>
+			</xsl:for-each>
+		</div>
+	</xsl:template>-->
 
 	<xsl:template match="attribute::*" mode="attributes-values" priority="0">
 		<xsl:if test="not(starts-with(substring(name(.), 2), '-'))">
@@ -177,7 +209,7 @@
 				<xsl:variable name="nextpos" select="position()+1" />
 				<xsl:if test="string-length(./parent::*/@*[position()=$nextpos])">
 					<xsl:if test="starts-with(substring(name(./parent::*/@*[position()=$nextpos]), 2), '(')">
-						<span class="padleft description">
+						<span class="inline">
 							<xsl:text>(</xsl:text>
 							<xsl:value-of select="./parent::*/@*[position()=$nextpos]" />
 							<xsl:text>)</xsl:text>
@@ -221,9 +253,63 @@
 		</xsl:if>
 	</xsl:template>
 
+	<!--<xsl:template name="processingTemplate">
+		<xsl:param name="typelist"/>
+		<xsl:param name="currentID"/>
+
+		<xsl:choose>
+			<xsl:when test="contains($typelist,$delimiter)">
+				<!-\-<xsl:element name="processedItem">
+					<xsl:value-of select="substring-before($datalist,$delimiter) * 10"/>
+				</xsl:element>-\->
+				<xsl:call-template name="typeMatch">
+					<xsl:with-param name="match" select="concat(substring-before($typelist,$delimiter),'|', string($currentID))"/>
+				</xsl:call-template>
+				<!-\-<xsl:apply-templates select="concat(substring-before($typelist,$delimiter),string($currentID))" mode="typeMatch"/>-\->
+				<xsl:call-template name="processingTemplate">
+					<xsl:with-param name="typelist" select="substring-after($typelist,$delimiter)"/>
+					<xsl:with-param name="currentID" select="$currentID"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:when test="string-length($typelist)=1">
+				<xsl:element name="processedItem">
+
+					<xsl:call-template name="typeMatch">
+						<xsl:with-param name="match" select="concat(string($typelist),'|', string($currentID))"/>
+					</xsl:call-template>
+					<!-\-<xsl:if test="key('linkedsheet-ids_Type', concat(string($typelist),string($currentID)))">
+						<div>
+							<xsl:value-of select="string($typelist)"/>
+							<xsl:text>*</xsl:text>
+							<xsl:value-of select="count(key('linkedsheet-ids_Type', concat(string($typelist),string($currentID))))"/>
+						</div>
+					</xsl:if>-\->
+				</xsl:element>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:element name="processedItem">
+					<xsl:call-template name="typeMatch">
+						<xsl:with-param name="match" select="concat(string($typelist),'|', string($currentID))"/>
+					</xsl:call-template>
+				</xsl:element>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>-->
+
+	<!--<xsl:template name="typeMatch">
+		<xsl:param name="match"/>
+		<xsl:if test="key('linkedsheet-ids_Type', $match)">
+			<div>
+				<xsl:value-of select="substring-before($match, '|')"/>
+				<xsl:text>: </xsl:text>
+				<xsl:value-of select="count(key('linkedsheet-ids_Type', $match))"/>
+			</div>
+		</xsl:if>
+	</xsl:template>-->
+
 	<xsl:template name="split">
 		<xsl:param name="pText" />
-		<!-- types are seperated by a comma -->
+
 		<xsl:variable name="separator">,</xsl:variable>
 
 		<xsl:choose>

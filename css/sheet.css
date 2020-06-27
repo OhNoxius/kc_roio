@@ -35,10 +35,10 @@ h5 {
     color: black;
 }
 .padright {
-    margin-right: 1em;
+    margin-right: 2em;
 }
 .padleft {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 .details {
     font-size: 0.8em;
@@ -47,17 +47,16 @@ h5 {
     margin-top: 1lh;
     margin-bottom: 0;
 }
-.inline {
-    padding-left: 5px;
+
+.description {
     font-weight: normal;
-}
-.description {    
     font-style: italic;
     color: grey;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 .tooltip {
     text-decoration: underline solid blue;
+    cursor: pointer;
 }
 .nowrap {
     white-space: nowrap;
@@ -115,6 +114,9 @@ table.linkedsheet tbody tr {
 table tr td {
     white-space: break-spaces;
     word-wrap: break-word;
+}
+table tr td.linkedsheet {
+    white-space: normal;
 }
 th { /* table.mainsheet ??? */
     /* text-align: left; */

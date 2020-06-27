@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 //EXTRA for database version:
                 transform(xml, xslTable, { edge: isEdge, types: linkedSheetType.join() }, targetElement).then(function () {
-                    any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"));
+                    any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"), true);
                     loadDoc('xsl/sheet-tooltip.xsl').then(function (xsl) {
                         xslTooltip = xsl;
                     })
