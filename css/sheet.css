@@ -44,7 +44,7 @@ h5 {
     font-size: 0.8em;
     font-style: italic;
     color: grey;
-    margin-top: 1lh;
+    margin-top: 0.6em;
     margin-bottom: 0;
 }
 
@@ -112,7 +112,7 @@ table.linkedsheet tbody tr {
 }
 
 table tr td {
-    white-space: break-spaces;
+    /*white-space: break-spaces;*/
     word-wrap: break-word;
 }
 table tr td.linkedsheet {
