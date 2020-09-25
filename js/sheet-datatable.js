@@ -142,7 +142,7 @@ function makeDataTable(tableid, database = false) {
             tabledom = "tirf";
             document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
             if ($('table.mainsheet th.linkedinfo').index() > 0) {
-                orderColumns[0][0] += 1;                
+                orderColumns[0][0] += 1;
                 //noVis.forEach((o, i, a) => a[i] = a[i]-1);
                 //noVis.push($('table.mainsheet th.linkedinfo').index());
             }
@@ -155,16 +155,16 @@ function makeDataTable(tableid, database = false) {
             // responsive: true,
             "autoWidth": false,
             "dom": tabledom,
+            "ordering": true,
+            "order": orderColumns, //[[0, 'asc'], [1, 'asc']],
+            "order-column": true,            
             "orderClasses": false,
-            "processing": true,
             "orderCellsTop": true,
-            "autoWidth": true,
+            "paging": false,
+            "processing": true,            
             "scrollY": scrollY,
             "scrollCollapse": true,
-            "paging": false,
-            "ordering": true,
-            "order-column": true,
-            "order": orderColumns, //[[0, 'asc'], [1, 'asc']],
+            
             // "fixedColumns": true,
             /* "dom": '<"top"i>ft', */
             "createdRow": function (row, data, dataIndex) {
@@ -181,63 +181,65 @@ function makeDataTable(tableid, database = false) {
                 if (hasDetails) $(row).children("td.details").addClass('details-control');
                 //}
             },
-            "columnDefs": [{
-                "targets": 'details',
-                "orderable": false,
-                "data": null,
-                "defaultContent": '',
-            },
-            {
-                "targets": '_all',
-                "type": 'html'
-            },
-            {
-                "targets": 'details-control',
-                // "createdCell": function (td, cellData, rowData, rowIndex, colIndex) {
-                //     if (true) {
-                //         //console.log(rowData);
-                //         //$(td).addClass('details-control');
-                //     }
+            "columnDefs": [
+                {
+                    "targets": '_all',
+                    "type": 'html',
+                    // "width": '40%'
+                },
+                {
+                    "targets": 'details',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '',
+                },
+                {
+                    "targets": 'details-control',
+                    // "createdCell": function (td, cellData, rowData, rowIndex, colIndex) {
+                    //     if (true) {
+                    //         //console.log(rowData);
+                    //         //$(td).addClass('details-control');
+                    //     }
+                    // },
+                    "className": 'details-control',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '',
+                    //"width": '1px' //padding + icon width... doet niks?
+                },
+                {
+                    "targets": 'titlecolumn',
+                    "className": 'titlecolumn'
+                },
+                {
+                    "targets": 'noVis',
+                    "visible": false
+                },
+                {
+                    "targets": 'date',
+                    "className": 'date',
+                    "width": 'calc(20px + 10ex)',
+                    //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
+                },
+                // {
+                //     "targets": 'collection',
+                //     "data": 'collection'
                 // },
-                "className": 'details-control',
-                "orderable": false,
-                "data": null,
-                "defaultContent": '',
-                //"width": '1px' //padding + icon width... doet niks?
-            },
-            {
-                "targets": 'titlecolumn',
-                "className": 'titlecolumn'
-            },
-            {
-                "targets": 'noVis',
-                "visible": false
-            },
-            {
-                "targets": 'date',
-                "className": 'date',
-                "width": 'calc(20px + 10ex)',
-                //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
-            },
-            // {
-            //     "targets": 'collection',
-            //     "data": 'collection'
-            // },
-            {
-                "targets": 'urlCol',
-                "className": 'urlCol',
-                // "type": 'html',
-                // "width": "20",
-                // "render": function ( data, type, row ) {
-                //     return ;
-                // }
-                // "render": function (data, type, row, meta) {
-                //     let celltext = $(data).text();
-                //     //return '<a href="'+data+'">' + table.column(meta.col).header() + '</a>'; //werkt niet? zou column header moeten weergeven
-                //     return (data ? '<a class="tableLink" title="' + celltext + '" href="' + celltext + '">' + celltext.substr(0, 20) + 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>' : '<a href="' + data + '">search</a>');
-                // },
-                //"visible": false
-            }],
+                {
+                    "targets": 'urlCol',
+                    "className": 'urlCol',
+                    // "type": 'html',
+                    // "width": "20",
+                    // "render": function ( data, type, row ) {
+                    //     return ;
+                    // }
+                    // "render": function (data, type, row, meta) {
+                    //     let celltext = $(data).text();
+                    //     //return '<a href="'+data+'">' + table.column(meta.col).header() + '</a>'; //werkt niet? zou column header moeten weergeven
+                    //     return (data ? '<a class="tableLink" title="' + celltext + '" href="' + celltext + '">' + celltext.substr(0, 20) + 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>' : '<a href="' + data + '">search</a>');
+                    // },
+                    //"visible": false
+                }],
             // "columns": [{
             //     "render": function ( data, type, row, meta ) {
             //         return '<a href="'+data+'">Download</a>';

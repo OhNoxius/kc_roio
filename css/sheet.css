@@ -1,5 +1,5 @@
 html{
-    font-family: "Calibri", "Roboto", "Arial";
+    font-family: "Helvetica Neue",Helvetica,"Nimbus Sans",Arial,sans-serif;
     font-size: 10pt;
     color: black;
     height: 100%;   
@@ -88,6 +88,7 @@ a.url {
 
 /* TABLE */
 table {
+    /* table-layout: fixed; */
     border-collapse: collapse;
 }
 table.sheet {
