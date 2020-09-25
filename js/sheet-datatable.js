@@ -157,14 +157,14 @@ function makeDataTable(tableid, database = false) {
             "dom": tabledom,
             "ordering": true,
             "order": orderColumns, //[[0, 'asc'], [1, 'asc']],
-            "order-column": true,            
+            "order-column": true,
             "orderClasses": false,
             "orderCellsTop": true,
             "paging": false,
-            "processing": true,            
+            "processing": true,
             "scrollY": scrollY,
             "scrollCollapse": true,
-            
+
             // "fixedColumns": true,
             /* "dom": '<"top"i>ft', */
             "createdRow": function (row, data, dataIndex) {
