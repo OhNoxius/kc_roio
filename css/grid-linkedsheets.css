@@ -21,4 +21,5 @@ section div#results {
 input.headersearch {
     display:table-cell;
     width:100%;
+    font-size: 0.9rem;
 }

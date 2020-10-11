@@ -19,9 +19,12 @@ h1{
     display: block;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* font-weight: normal; */
+    font-weight: normal;
     line-height: 20px;
     color: black;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em
 }
 h2{
     display: inline-block;
@@ -35,10 +38,10 @@ h5 {
     color: black;
 }
 .padright {
-    margin-right: 2em;
+    margin-right: 0.4em;
 }
 .padleft {
-    margin-left: 2em;
+    margin-left: 0.4em;
 }
 .details {
     font-size: 0.8em;
@@ -54,7 +57,7 @@ h5 {
     color: grey;
     /* padding-left: 5px; */
 }
-.tooltip {
+.idtip {
     text-decoration: underline solid blue;
     cursor: pointer;
 }
@@ -88,7 +91,6 @@ a.url {
 
 /* TABLE */
 table {
-    /* table-layout: fixed; */
     border-collapse: collapse;
 }
 table.sheet {
@@ -113,7 +115,7 @@ table.linkedsheet tbody tr {
 }
 
 table tr td {
-    /*white-space: break-spaces;*/
+    white-space: pre-line;
     word-wrap: break-word;
 }
 table tr td.linkedsheet {
@@ -121,32 +123,47 @@ table tr td.linkedsheet {
 }
 th { /* table.mainsheet ??? */
     /* text-align: left; */
-    background-color:lightblue;
+    /* background-color:lightblue; */
     font-style: italic;
-    color: white;
+    color: midnightblue;
+    font-family: "Raleway", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+td {
+    font-size: 0.9rem;
 }
 
-.dataTables_wrapper .dataTables_scroll {
+/* .dataTables_wrapper .dataTables_scroll {
     background-color: lightblue;
-}
+} */
 
 table.dataTable thead th {
     padding: 8px 5px;
 }
-
 table.dataTable thead tr:nth-child(2) th {
     padding: 0px 5px;
     text-align: left;
 }
-
-table.dataTable tbody td.linkedsheet {
-    padding: 2px;
+table.dataTable tbody td {
+    padding: 8px 4px;
 }
-
+table.dataTable tbody td:first-child {
+    padding: 8px 10px;
+}
+table.dataTable tbody td.linkedsheet {
+    padding: 2px 5px;
+}
 table.dataTable tbody td.linkedsheet div{
     /* display: inline-block; */
     vertical-align: top;
     white-space: normal;
+}
+table.dataTable thead tr:first-child {
+    -webkit-box-shadow:0px 0px 100vh grey;
+    -moz-box-shadow: 0px 0px 100vh grey;
+    box-shadow: 0px 0px 100vh grey;
+}
+table.dataTable thead tr:last-child th {
+    border-bottom-style: dotted;
 }
 
 td.detailsHeader {
@@ -159,6 +176,7 @@ th.urlCol {
     /* word-wrap: break-all;
     white-space: nowrap; */
 }
+
 
 td.urlCol {
     max-width: 4vw;
@@ -196,31 +214,48 @@ table.linkedsheet > tbody td {
 }
 
 tr.detailsRow td {
-    background-color: #dae3e8;
+    background-color: #ededed; /* same as .child */
 }
 
 td.titlecolumn {
     font-weight: bold 
 }
 
-.dataTables_filter {
-    float: left !important;
-}
-
+/*normal datatable*/
 div.dataTables_wrapper div.dataTables_filter {
     float: left;
     text-align: left;
 }
 div.dataTables_wrapper div.dataTables_filter label {
+    font-family: "Raleway", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
     font-weight: bold;
     margin: 0.3em;
-    font-size: 1.2em;
+    font-size: 1.1rem;
+}
+div.childdiv div.dataTables_wrapper div.dataTables_filter label {
+    font-size: 1rem;
 }
 div.dataTables_wrapper div.dataTables_info {
     float: right;
     text-align: left;
     padding: 0;
 }
+.dataTables_wrapper .dataTables_filter input {
+    margin-top: 0.2em;
+}
+/* datatable inside childrow */
+div.childdiv div.dataTables_wrapper {
+    background-color: #e6d7ad;
+}
+div.childdiv div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: normal;
+}
+div.childdiv div.dataTables_wrapper div.dataTables_filter {
+    float: right;
+    /* text-align: left; */
+}
+
+
 p#details {
     margin: 0px 2px;
 }

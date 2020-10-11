@@ -11,7 +11,7 @@
 	<!-- choose mode: auto/manual -->
 	<xsl:template match="/">
 		<!--<h2 class="table-heading"><xsl:value-of select="$sheet" /></h2>-->
-		<table class="sheet row-border hover">
+		<table id="{$sheet}-table" class="sheet row-border hover">
 			<xsl:attribute name="id">
 				<!--<xsl:text>table-</xsl:text>-->
 				<xsl:value-of select="$sheet"/>

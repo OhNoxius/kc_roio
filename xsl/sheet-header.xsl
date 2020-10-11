@@ -19,7 +19,7 @@
 						<xsl:value-of select="$title" />
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:value-of select="name(.)" />
+						<xsl:value-of select="translate(string(name(.)), '_', ' ')" />
 					</xsl:otherwise>
 				</xsl:choose>
 			</a>

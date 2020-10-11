@@ -24,10 +24,10 @@ function transformTable(sheet, inputField, overwrite = true) { //Deze functie is
 
 function transformSearch(inputfield) {
     targetElement.textContent = '';
-    targetElement.appendChild(spinner.cloneNode(true));
+    //targetElement.appendChild(spinner.cloneNode(true));
     for (var i = 0; i < navs.length; i++) {
         //transform(xml, xslTable, { sheet: navs[i].id, input: inputField }, targetElement).then(function (response) { OPPASSEN, zou nice zijn om direct te gebruiken, maar de for loop loopt door terwijl de promise bezig is
-        transformTable(navs[i].id, inputfield, false).then(function (response) {
+        transformTable(navs[i].id.substring(3), inputfield, false).then(function (response) {
             //console.log(response);
             if (!response[0]) document.querySelector("div#" + response[1] + "_wrapper").style.display = "none";
             else document.querySelector("div#" + response[1] + "_wrapper").style.display = "block";
@@ -76,11 +76,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 navs = document.getElementsByClassName("nav");
                 for (var i = 0; i < navs.length; i++) {
                     navs[i].addEventListener('click', function () {
-                        targetElement.textContent = '';
                         targetElement.appendChild(spinner.cloneNode(true));
                         sheet = this.id.substring(3);
-                        console.log(sheet);
-                        transformTable(sheet, '');
+                        transformTable(sheet, '', true);
                     }, false);
                 }
                 //alternatieve (betere?) methode
