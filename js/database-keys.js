@@ -26,10 +26,13 @@ function databaseKeys(datafile) {
         }
 
         //LINKEDSHEET type
+        let getType;
         for (let i = sheetNames.length - 1; i >= 0; i--) {
             if (sheetNames[i].charAt(0) == '_') {
                 for (let t = sheets[i].childElementCount - 1; t >= 0; t--) {
-                    linkedSheetType.push(sheets[i].children[t].getAttribute("type"));
+                    getType = sheets[i].children[t].getAttribute("type");
+                    if (getType.startsWith("?")) getType = getType.substr(1);
+                    linkedSheetType.push(getType);
                 }
                 break;
             }

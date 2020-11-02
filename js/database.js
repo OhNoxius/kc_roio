@@ -1,7 +1,7 @@
 var targetElement;// = document.querySelector("section div#results");
 var xml, xslHeader, xslTable, xslTooltip;
 let promiseXslHeader, promiseXslTooltip;
-var isEdge = (window.navigator.userAgent.indexOf("Edge") > -1);
+const isEdge = (window.navigator.userAgent.indexOf("Edge") > -1);
 let spinner;
 
 function detectEdge() {
@@ -9,6 +9,7 @@ function detectEdge() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    if (typeof caching === 'undefined') caching = "true";
     spinner = document.createElement('div');
     spinner.classList.add("spinner");
     console.log("Edge? ", isEdge);
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     targetElement = document.querySelector("section div#results");
 
     //LOAD XML, this is the first action where every other action should wait for
-    loadDoc(datafile, xml).then(function (xmlDoc) {
+    loadDoc(datafile, caching).then(function (xmlDoc) {
         xml = xmlDoc;
         targetElement.appendChild(spinner);
 
@@ -36,15 +37,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
         //XSL DATABASE
         reflect(promiseXslHeader).then(function (v) {
-            loadDoc('xsl/database.xsl', false).then(function (xsl) {
+            loadDoc('xsl/database.xsl').then(function (xsl) {
                 xslTable = xsl;
 
                 //EXTRA for database version:
                 transform(xml, xslTable, { edge: isEdge, types: linkedSheetType.join() }, targetElement).then(function () {
-                    any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"), true);
-                    loadDoc('xsl/sheet-tooltip.xsl').then(function (xsl) {
-                        xslTooltip = xsl;
-                    })
+                    any = makeDataTable(document.querySelector("table.mainsheet").getAttribute("id"), 'database');
+                    // loadDoc('xsl/sheet-tooltip.xsl', caching).then(function (xsl) {
+                    //     xslTooltip = xsl;
+                    // })
                 })
             })
         }, function (error) {
