@@ -164,7 +164,7 @@
 				<span>
 					<xsl:if test="key('allElements', current())">
 						<xsl:attribute name="class">
-							<xsl:text>tooltip</xsl:text>
+							<xsl:text>idtip</xsl:text>
 						</xsl:attribute>
 					</xsl:if>
 
