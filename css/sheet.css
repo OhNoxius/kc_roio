@@ -13,6 +13,14 @@ header div {
     display:inline-block;
 }
 
+.fixed {
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-item {
+    flex-grow: 1;
+}
+
 /* FONT STYLES */
 h1{
     font-family: "Raleway", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
@@ -217,8 +225,9 @@ tr.detailsRow td {
     background-color: #ededed; /* same as .child */
 }
 
-td.titlecolumn {
-    font-weight: bold 
+td.title {
+    font-weight: bold;
+    font-style: italic;
 }
 
 /*normal datatable*/
@@ -328,3 +337,19 @@ div.childdiv {
     border-top-color: #333;
     animation: spinner .6s linear infinite;
   }
+
+#status {
+    /* content: ''; */
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* width: 200px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333; */
+    /* animation: spinner .6s linear infinite; */
+}

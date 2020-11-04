@@ -3,12 +3,9 @@ function makeDataTable(tableid, mode = 'sheet') {
     let dTable;
     let dropdowns = new Map();
     const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    let scrollY, tabledom, filterlabel, scrollCollapse;
+    let scrollY, dtdom, filterlabel, scrollCollapse;
     let celval;
-
-    //console.log(table);
-
-    //if (typeof isDatabase == 'undefined') isDatabase = false;
+    let hiddenDropdowns = [];
 
     if (!$.fn.dataTable.isDataTable(table)) {
 
@@ -16,13 +13,23 @@ function makeDataTable(tableid, mode = 'sheet') {
             return createHyperlinks($(this).text());
         });
 
-
         //search QUESTION MARKS       
         $(table).find('tbody tr td').filter(function () {
             return this.textContent.startsWith('?')
         }).html(function () {
             cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
             return "<span class='doubt' title='?'>" + cellval.slice(1, cellval.length) + "</span>"
+        });
+
+        //LINKEDINFO: look up number of ids for each type (CAN LOOK FOR @omvang, @size, ... to be more accurate?)
+        table.querySelectorAll('td.linkedinfo').forEach(function (node) {
+            if (linkMap.has(node.getAttribute("linkid"))) {
+                linkMap.get(node.getAttribute("linkid")).forEach(function (value, key, map) {
+                    node.innerHTML += '<div class="typeicon ' + key + '" title="type: ' + key + '">' +
+                        key + ':' + '<span class="cssnumbers">' + value + '</span>' +
+                        '</div>';
+                });
+            }
         });
 
         //TOOLTIPS
@@ -55,7 +62,12 @@ function makeDataTable(tableid, mode = 'sheet') {
         // });
 
         let noVis = [];
-        $(table).children('thead').children('tr:first-child').children('th.noVis').each(function () { noVis.push($(this).index()); });
+        let noVisMap = [];
+
+        $(table).children('thead').children('tr:first-child').children('th.noVis').each(function () { 
+            noVis.push($(this).index());
+            noVisMap[$(this).index()] = 1;
+        });
         let orderColumns;
         if (noVis.length) {
             orderColumns = [[1, 'asc']];
@@ -65,13 +77,13 @@ function makeDataTable(tableid, mode = 'sheet') {
 
         if (mode == 'sheet') {
             scrollY = vh - 50 - 36 - 21 - 16; //100% viewheight - heading - tableheader - searchbar  - footer
-            tabledom = "ftir";
+            dtdom = "ftir";
             filterlabel = "Filter '" + tableid + "':";
             scrollCollapse = true;
         }
         else if (mode == 'database') {
-            scrollY = vh - 50 - 36 - 16 - 50 - ((linkedSheetType.length - 2) * 18);
-            tabledom = "tirf";
+            scrollY = vh - 50 - 36 - 16 - 50 - ((linkedsheetTypes.size - 2) * 18);
+            dtdom = "tirf";
             //document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
             if ($('table.mainsheet th.linkedinfo').index() > 0) {
                 orderColumns[0][0] += 1;
@@ -79,22 +91,24 @@ function makeDataTable(tableid, mode = 'sheet') {
                 //noVis.push($('table.mainsheet th.linkedinfo').index());
             }
             filterlabel = "Filter '" + tableid + "':";
-            scrollCollapse = true;
+            scrollCollapse = false;
         }
         else if (mode == "child") {
             scrollY = '';
-            tabledom = "ftr";
+            dtdom = "ftr";
             filterlabel = "Filter:";
             scrollCollapse = true;
         }
 
+        //console.log(noVis);
+        let noVisLength = noVis.length;
 
         //INITIALIZE DATATABLE:
         //---------------------
         dTable = $(table).DataTable({
-            // responsive: true,
-            "autoWidth": false,
-            "dom": tabledom,
+            //responsive: true,
+            "autoWidth": false, //overwrites width options below
+            "dom": dtdom,
             "ordering": true,
             "order": orderColumns, //[[0, 'asc'], [1, 'asc']],
             "order-column": true,
@@ -105,78 +119,97 @@ function makeDataTable(tableid, mode = 'sheet') {
             "scrollY": scrollY,
             "scrollCollapse": scrollCollapse,
             // "fixedColumns": true,
-            /* "dom": '<"top"i>ft', */
             "createdRow": function (row, data, dataIndex) {
                 //if (!isDatabase) {
-                let hasDetails = false;
+                //let hasDetails = false;
                 //let dataNoVis = data.slice(noVis[0]).reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
-                for (let i = 0; i < noVis.length; i++) {
-                    if (data[noVis[i]]) {
-                        hasDetails = true;
-                        break;
-                    }
-                }
-
-                if (hasDetails) $(row).children("td.details").addClass('details-control');
+                let dataNoVis = data.map((x, i) => x.substring(0, x.length*noVisMap[i])).reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
+                // for (let i = 0; i < noVisLength; i++) {
+                //     if (data[noVis[i]]) {
+                //         hasDetails = true;
+                //         break;
+                //     }
+                // }
+                if (dataNoVis) $(row).children("td.details").addClass('details-control');
+                //if (hasDetails) $(row).children("td.details").addClass('details-control');
                 //}
             },
-            "columnDefs": [{
-                "targets": 'details',
-                "orderable": false,
-                "data": null,
-                "defaultContent": '',
-            },
-            {
-                "targets": '_all',
-                "type": 'html'
-            },
-            {
-                "targets": 'details-control',
-                // "createdCell": function (td, cellData, rowData, rowIndex, colIndex) {
-                //     if (true) {
-                //         //console.log(rowData);
-                //         //$(td).addClass('details-control');
-                //     }
+            "columnDefs": [
+                //{
+                //     "targets": 'details',
+                //     "orderable": false,
+                //     "data": null,
+                //     "defaultContent": '',
                 // },
-                "className": 'details-control',
-                "orderable": false,
-                "data": null,
-                "defaultContent": '',
-                //"width": '1px' //padding + icon width... doet niks?
-            },
-            {
-                "targets": 'titlecolumn',
-                "className": 'titlecolumn'
-            },
-            {
-                "targets": 'noVis',
-                "visible": false
-            },
-            {
-                "targets": 'date',
-                "className": 'date',
-                "width": 'calc(10ex + 10px)', // ex = hoogte van "x", genoeg voor 10 karakters yyyy-mm-dd
-                //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
-            },
-            // {
-            //     "targets": 'collection',
-            //     "data": 'collection'
-            // },
-            {
-                "targets": 'urlCol',
-                "className": 'urlCol',
-                // "type": 'html',
-                // "width": "20",
-                // "render": function ( data, type, row ) {
-                //     return ;
-                // }
-                // "render": function (data, type, row, meta) {
-                //     let celltext = $(data).text();
-                //     //return '<a href="'+data+'">' + table.column(meta.col).header() + '</a>'; //werkt niet? zou column header moeten weergeven
-                //     return (data ? '<a class="tableLink" title="' + celltext + '" href="' + celltext + '">' + celltext.substr(0, 20) + 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>' : '<a href="' + data + '">search</a>');
+                // {
+                //     "targets": '_all',
+                //     "type": 'html'
                 // },
-                //"visible": false
-            }],
+                // {
+                //     "targets": 'linkedinfo',
+                //     "createdCell": function (td, cellData, rowData, rowIndex, colIndex) {
+                //         //td.innerText = td.getAttribute("linkid");
+                //         //let typediv = document.createElement('div');
+                //         td.innerHTML = "";
+                //         if (linkMap.has(td.getAttribute("linkid"))) {
+                //             linkMap.get(td.getAttribute("linkid")).forEach(function (value, key, map) {            //                 
+                //                 td.innerHTML += '<div class="typeicon ' + key + '" title="type: ' + key + '">' +
+                //                     key + ':' + '<span class="cssnumbers">' + value + '</span>' +
+                //                     '</div>';
+                //                     cellData += key+ " , ";
+                //                 td.innerHTML = cellData;
+                //             });
+                //         }
+                //     },
+                // },
+                {
+                    "targets": 'details-control', //DO THIS SO DATATABLES KNOWS IT HAS TO PRESERVE SPACE FOR THIS COLUMN! otherwise scrollbar?
+                    //"className": 'details-control',
+                    "orderable": false,
+                    //"data": null, //=> gives error above with data.map()??
+                    "defaultContent": '',
+                    "width": '21px' //padding + icon width... doet niks?
+                    // "createdCell": function (td, cellData, rowData, rowIndex, colIndex) {
+                    //     if (true) {
+                    //         //console.log(rowData);
+                    //         //$(td).addClass('details-control');
+                    //     }
+                    // },
+                },
+                {
+                    "targets": 'title',
+                    "className": 'title'
+                },
+                {
+                    "targets": 'noVis',
+                    "visible": false
+                },
+                {
+                    "targets": 'date',
+                    "className": 'date',
+                    "width": 'calc(10ex + 10px)', // ex = hoogte van "x", genoeg voor 10 karakters yyyy-mm-dd
+                    //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
+                },
+                // {
+                //     "targets": 'collection',
+                //     "data": 'collection'
+                // },
+                // {
+                //     "targets": 'urlCol',
+                //     "className": 'urlCol',
+                //     // "type": 'html',
+                //     // "width": "20",
+                //     // "render": function ( data, type, row ) {
+                //     //     return ;
+                //     // }
+                //     // "render": function (data, type, row, meta) {
+                //     //     let celltext = $(data).text();
+                //     //     //return '<a href="'+data+'">' + table.column(meta.col).header() + '</a>'; //werkt niet? zou column header moeten weergeven
+                //     //     return (data ? '<a class="tableLink" title="' + celltext + '" href="' + celltext + '">' + celltext.substr(0, 20) + 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</a>' : '<a href="' + data + '">search</a>');
+                //     // },
+                //     //"visible": false
+                //}
+            ],
             // "columns": [{
             //     "render": function ( data, type, row, meta ) {
             //         return '<a href="'+data+'">Download</a>';
@@ -207,7 +240,10 @@ function makeDataTable(tableid, mode = 'sheet') {
                 }
             },
             "initComplete": function () {
+                //create tooltips
                 createTooltips(table);
+
+                //create table search headers with dropdowns
                 if (mode == 'database') {
                     //$('table#' + tableid + ' thead tr').clone(true).appendTo('#' + tableid + ' thead' );
                     this.api().columns().every(function () {
@@ -220,11 +256,12 @@ function makeDataTable(tableid, mode = 'sheet') {
                         }
                         else if (th.classList.contains("linkedinfo")) {
                             $("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
-                            linkedSheetType.forEach(function (value, index, array) {
+                            linkedsheetTypes.forEach(function (value, index, array) {
                                 $('<div class="nowrap"><input type="checkbox" id="' + th.innerText + value + '" name="' + th.innerText + '" value="' + value + '" class="headercheckbox" />' +
                                     '<label for="' + th.innerText + value + '">' + value + '</label></div>')
                                     .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()));
                             });
+                            //$("table.mainsheet thead tr:eq(1) th").attr("colspan", "2");
                             $('input:checkbox').on('change', function (e) {
                                 //build a regex filter string with an or(|) condition
                                 let checkboxes = $('input:checkbox:checked').map(function () {
@@ -233,7 +270,7 @@ function makeDataTable(tableid, mode = 'sheet') {
                                 //filter in column 1, with an regex, no smart filtering, not case sensitive
                                 column.search(checkboxes, true, false, false).draw(false);
                             });
-                            dropdowns.set(column.index(), linkedSheetType);
+                            dropdowns.set(column.index(), linkedsheetTypes);
                         }
                         else if (th.classList.contains("date")) {
                             $('<input type="search" id="' + th.innerText + '" name="' + th.innerText + '" class="headersearch" />')
@@ -247,7 +284,7 @@ function makeDataTable(tableid, mode = 'sheet') {
                                 });
                         }
                         else {
-                            let input = $('<input type="search" size="10" list="' + th.innerText + '-list" id="' + th.innerText + '-input" name="' + th.innerText + '" class="headersearch" />'
+                            let input = $('<input type="search" size="10" autocomplete="off" list="' + th.innerText + '-list" id="' + th.innerText + '-input" name="' + th.innerText + '" class="headersearch" />'
                             )//+ '<datalist id="' + th.innerText + '-list"></datalist>')
                                 //.appendTo($(column.footer()).empty())
                                 .appendTo($("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty())
@@ -260,44 +297,65 @@ function makeDataTable(tableid, mode = 'sheet') {
                                 });
 
                             let ARR = column.data().map(function (value, index) {
-                                return value.replace(/<\/?[^>]+(>|$)/g, "");
+                                return value.replace(/<\/?[^>]+(>|$)/g, '\n');
                             }).unique().toArray();
                             //let ARR = column.nodes().toJQuery().map(function (val, i) { return $(val).text() });
                             //console.log(ARR);
-                            const delims = /([:\r\n]+)/g
+                            const delims = /([:+\r\n]+)/g // "+", ":" , newlines
                             ARR = ARR.join(delimiter).replace(delims, ";").split(delimiter);
                             ARR.forEach((o, i, a) => a[i] = a[i].trim());
                             let SET = new Set(ARR);
                             ARR = [...SET].sort();
 
-                            dropdowns.set(column.index(), ARR);
-
-                            //OPTION 1: HTML5 datalists
-                            // ////column.data().unique().sort().each(function (d, j) {
-                            // let datalist = $('<datalist id="' + th.innerText + '-list"></datalist>').insertAfter($(input));
-                            // ARR.forEach(function (val) {
-                            //     datalist.append('<option value="' + val + '" />')
-                            // });
-                            //OPTION 2: jQuery UI autocomplete
-                            //$(function () {
-                            $(input).on("click change", function () {
-                                $(input).autocomplete({
-                                    minLength: 0, //in combination with on("focus") makes that all the options are shown when click on input
-                                    autoFocus: true,
-                                    source: ARR,
-                                    select: function (event, ui) {
-                                        if (column.search() !== ui.item.value) {
-                                            column
-                                                .search(ui.item.value)
-                                                .draw('page');
+                            if (noVis.indexOf(column.index()) > -1) {
+                                hiddenDropdowns = hiddenDropdowns.concat(ARR);
+                            }
+                            else {
+                                //OPTION 1: HTML5 datalists
+                                ////column.data().unique().sort().each(function (d, j) {
+                                // let datalist = $('<datalist id="' + th.innerText + '-list"></datalist>').insertAfter($(input));
+                                // ARR.forEach(function (val) {
+                                //     datalist.append('<option value="' + val + '" />')
+                                // });
+                                //OPTION 2: jQuery UI autocomplete
+                                //$(function () {
+                                $(input).on("click change", function () {
+                                    $(input).autocomplete({
+                                        minLength: 0, //in combination with on("focus") makes that all the options are shown when click on input
+                                        autoFocus: true,
+                                        source: ARR,
+                                        select: function (event, ui) {
+                                            if (column.search() !== ui.item.value) {
+                                                column
+                                                    .search(ui.item.value)
+                                                    .draw('page');
+                                            }
                                         }
-                                    }
+                                    });
                                 });
-                            });
+                            }
                         }
                         //}
                     });
-                    console.log(dropdowns);
+                    // console.log(dropdowns);
+                    // console.log(hiddenDropdowns);
+
+                    //create dropdown options for native DataTables filter (at bottom)
+                    let filterel = document.getElementById(tableid + "_filter");
+                    let filterinput = filterel.querySelector("input");
+                    $(filterinput).autocomplete({
+                        minLength: 0, //in combination with on("focus") makes that all the options are shown when click on input
+                        autoFocus: true,
+                        position: { my: "left bottom", at: "left top", collision: "flip" },
+                        source: hiddenDropdowns,
+                        select: function (event, ui) {
+                            if (column.search() !== ui.item.value) {
+                                column
+                                    .search(ui.item.value)
+                                    .draw('page');
+                            }
+                        }
+                    });
                 }
             }
         });
@@ -436,23 +494,26 @@ function format(h, d) {
 // });
 
 function createTooltips(table) {
-    const xmltag = /[^A-Za-z0-9-]/gi;
+
     table.getAttribute("id");
-    console.log("TOOLTIPSTER: " + table.getAttribute("id"));
+    //console.log("TOOLTIPSTER: " + table.getAttribute("id"));
     $(table).find('.idtip:not(.tooltipstered)').tooltipster({
         content: 'Loading...',//'Loading...',
         // 'instance' is basically the tooltip. More details in the "Object-oriented Tooltipster" section.
         functionBefore: function (instance, helper) {
             let el = helper.origin;
             var $origin = $(helper.origin);
-            let sheet, value, query;
+            let query, sheet;
             // we set a variable so the data is only loaded once via Ajax, not every time the tooltip opens
             if ($origin.data('loaded') !== true) {
                 if (el.textContent) {
                     sheet = el.getAttribute("sheet").replace(xmltag, "_");
-                    value = el.textContent.replace(xmltag, "_");
+
+                    //value = el.textContent.replace(xmltag, "_");
                     //query = xml.querySelector(sheet + " " + value);
-                    query = xml.getElementsByTagName(value)[0];
+                    //query = xml.getElementsByTagName(value)[0];
+                    //query = allElements.get(el.textContent);
+                    query = allSheets.get(sheet).get(el.textContent);
                     //console.log(value);
                     if (query) {
                         let result = Array.from(query.attributes, function ({ name, value }) {

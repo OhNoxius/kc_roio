@@ -1,4 +1,4 @@
-function loadDoc(url, caching = true) {
+function loadDoc(url, caching = true, progressBar) {
     return new Promise(function (resolve) {
         var req = new XMLHttpRequest();
         if (caching) req.open("GET", url);
@@ -11,6 +11,18 @@ function loadDoc(url, caching = true) {
                 req.responseType = 'msxml-document';
             }
             catch (e) { }
+        }
+        if (progressBar != null) {
+            req.onprogress = function (pe) {
+                if (pe.lengthComputable) {
+                    progressBar.max = pe.total
+                    progressBar.value = pe.loaded
+                }
+            }
+            req.onloadend = function (pe) {
+                progressBar.value = pe.loaded;
+                progressBar.style = "display:none";
+            }
         }
         req.onload = function () {
             resolve(this.responseXML)
@@ -30,7 +42,7 @@ function transform(xmlDoc, xslDoc, xsltParams, targetElement, overwrite = true) 
                 proc.setParameter(null, prop, xsltParams[prop]);
             }
 
-            let resultFrag;            
+            let resultFrag;
 
             if (targetElement) {
                 resultFrag = proc.transformToFragment(xmlDoc, targetElement.ownerDocument);
@@ -60,6 +72,39 @@ function transform(xmlDoc, xslDoc, xsltParams, targetElement, overwrite = true) 
 
             targetElement.innerHTML = resultHTML;
             resolve(resultHTML);
+        }
+    }, function (error) {
+        reject(Error("XSLT gefaald, omdat de xml en xslt bestanden niet opgehaald kunnen worden"));
+    });
+}
+
+function transformToXml(xmlDoc, xslDoc, xsltParams) {
+    return new Promise(function (resolve) {
+
+        if (typeof XSLTProcessor !== 'undefined') {
+            var proc = new XSLTProcessor();
+            proc.importStylesheet(xslDoc);
+
+            for (var prop in xsltParams) {
+                proc.setParameter(null, prop, xsltParams[prop]);
+            }
+
+            let result = proc.transformToDocument(xmlDoc);
+            resolve(result); //Waarom geeft dit niet het getransformeerde element terug?
+        }
+        else {
+            var template = new ActiveXObject('Msxml2.XslTemplate.6.0');
+            template.stylesheet = xslDoc;
+            var proc = template.createProcessor();
+
+            for (var prop in xsltParams) {
+                proc.addParameter(prop, xsltParams[prop]);
+            }
+
+            proc.input = xmlDoc;
+
+            let result = proc.transformNodeToObject(xslDoc, template);
+            resolve(result);
         }
     }, function (error) {
         reject(Error("XSLT gefaald, omdat de xml en xslt bestanden niet opgehaald kunnen worden"));
