@@ -197,11 +197,11 @@ td.urlCol {
 }
 
 td.details-control {
-    background: url('details_open.png') no-repeat center center;
+    background: url('icons/details_open.png') no-repeat center center;
     cursor: pointer;
 }
 tr.shown td.details-control {
-    background: url('details_close.png') no-repeat center center;
+    background: url('icons/details_close.png') no-repeat center center;
 }
 
 /* CHILD ROWS */
@@ -248,6 +248,7 @@ div.dataTables_wrapper div.dataTables_info {
     float: right;
     text-align: left;
     padding: 0;
+    font-size: 0.9rem;
 }
 .dataTables_wrapper .dataTables_filter input {
     margin-top: 0.2em;

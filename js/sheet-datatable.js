@@ -2,18 +2,19 @@ function makeDataTable(tableid, mode = 'sheet') {
     let table = document.getElementById(tableid);//document.querySelector("table#"+tableid);
     let dTable;
     let dropdowns = new Map();
-    const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-    let scrollY, dtdom, filterlabel, scrollCollapse;
-    let celval;
+    
+    let dtdom, filterlabel, fixedheader;
+    //const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    //let scrollY, scrollCollapse;
     let hiddenDropdowns = [];
 
     if (!$.fn.dataTable.isDataTable(table)) {
 
         $(table).find('td:contains("http"), td:contains("www")').html(function () {
-            return createHyperlinks($(this).text());
+            return createShortHyperlinks($(this).text());
         });
 
-        //search QUESTION MARKS       
+        //search QUESTION MARKS
         $(table).find('tbody tr td').filter(function () {
             return this.textContent.startsWith('?')
         }).html(function () {
@@ -61,10 +62,13 @@ function makeDataTable(tableid, mode = 'sheet') {
         //     })
         // });
 
+        //prepare datatables layout
         let noVis = [];
         let noVisMap = [];
+        filterlabel = "Filter '" + tableid + "':";
+        fixedheader = true;
 
-        $(table).children('thead').children('tr:first-child').children('th.noVis').each(function () { 
+        $(table).children('thead').children('tr:first-child').children('th.noVis').each(function () {
             noVis.push($(this).index());
             noVisMap[$(this).index()] = 1;
         });
@@ -73,40 +77,55 @@ function makeDataTable(tableid, mode = 'sheet') {
             orderColumns = [[1, 'asc']];
             //noVis.forEach((o, i, a) => a[i] = a[i]-1);
         }
-        else orderColumns = [[0, 'asc']];
-
-        if (mode == 'sheet') {
-            scrollY = vh - 50 - 36 - 21 - 16; //100% viewheight - heading - tableheader - searchbar  - footer
-            dtdom = "ftir";
-            filterlabel = "Filter '" + tableid + "':";
-            scrollCollapse = true;
-        }
+        else orderColumns = [[0, 'asc']];        
+        
+        if (mode == 'sheet') dtdom = "ftir";
         else if (mode == 'database') {
-            scrollY = vh - 50 - 36 - 16 - 50 - ((linkedsheetTypes.size - 2) * 18);
             dtdom = "tirf";
-            //document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
             if ($('table.mainsheet th.linkedinfo').index() > 0) {
                 orderColumns[0][0] += 1;
-                //noVis.forEach((o, i, a) => a[i] = a[i]-1);
-                //noVis.push($('table.mainsheet th.linkedinfo').index());
+                noVis.push($('table.mainsheet th.linkedinfo').index());
+                noVisMap[$('table.mainsheet th.linkedinfo').index()] = 1;
             }
-            filterlabel = "Filter '" + tableid + "':";
-            scrollCollapse = false;
         }
         else if (mode == "child") {
-            scrollY = '';
             dtdom = "ftr";
             filterlabel = "Filter:";
-            scrollCollapse = true;
+            fixedheader = false;
         }
 
-        //console.log(noVis);
-        let noVisLength = noVis.length;
+        // if (mode == 'sheet') {
+        //     scrollY = vh - 50 - 36 - 24 - 16; //100% viewheight - heading - tableheader - searchbar  - footer
+        //     dtdom = "ftir";
+        //     filterlabel = "Filter '" + tableid + "':";
+        //     scrollCollapse = true;
+        // }
+        // else if (mode == 'database') {
+        //     scrollY = vh - 50 - 36 - 16 - 50 - ((linkedsheetTypes.size - 2) * 18);
+        //     dtdom = "tirf";
+        //     //document.querySelector("header").style.background = "linear-gradient(0deg, lightblue, transparent)";
+        //     if ($('table.mainsheet th.linkedinfo').index() > 0) {
+        //         orderColumns[0][0] += 1;
+        //         //noVis.forEach((o, i, a) => a[i] = a[i]-1);
+        //         //noVis.push($('table.mainsheet th.linkedinfo').index());
+        //     }
+        //     filterlabel = "Filter '" + tableid + "':";
+        //     scrollCollapse = false;
+        // }
+        // else if (mode == "child") {
+        //     scrollY = '';
+        //     dtdom = "ftr";
+        //     filterlabel = "Filter:";
+        //     scrollCollapse = true;
+        // }
 
         //INITIALIZE DATATABLE:
         //---------------------
         dTable = $(table).DataTable({
+            //<EXTENSIONS>
+            "fixedHeader": fixedheader,
             //responsive: true,
+            //</EXTENSION>
             "autoWidth": false, //overwrites width options below
             "dom": dtdom,
             "ordering": true,
@@ -115,32 +134,22 @@ function makeDataTable(tableid, mode = 'sheet') {
             "orderClasses": false,
             "orderCellsTop": true,
             "paging": false,
-            //"processing": true,
-            "scrollY": scrollY,
-            "scrollCollapse": scrollCollapse,
-            // "fixedColumns": true,
+            //"scrollY": scrollY,
+            //"scrollCollapse": scrollCollapse,
             "createdRow": function (row, data, dataIndex) {
-                //if (!isDatabase) {
-                //let hasDetails = false;
-                //let dataNoVis = data.slice(noVis[0]).reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
                 let dataNoVis = data.map((x, i) => x.substring(0, x.length*noVisMap[i])).reduce( (accumulator, currentValue, currentIndex, array) => accumulator + currentValue );
                 // for (let i = 0; i < noVisLength; i++) {
                 //     if (data[noVis[i]]) {
                 //         hasDetails = true;
                 //         break;
                 //     }
-                // }
-                if (dataNoVis) $(row).children("td.details").addClass('details-control');
-                //if (hasDetails) $(row).children("td.details").addClass('details-control');
+                // }                
+                if (dataNoVis) {
+                    $(row).children("td.details").addClass('details-control');
+                }
                 //}
             },
             "columnDefs": [
-                //{
-                //     "targets": 'details',
-                //     "orderable": false,
-                //     "data": null,
-                //     "defaultContent": '',
-                // },
                 // {
                 //     "targets": '_all',
                 //     "type": 'html'
@@ -152,7 +161,7 @@ function makeDataTable(tableid, mode = 'sheet') {
                 //         //let typediv = document.createElement('div');
                 //         td.innerHTML = "";
                 //         if (linkMap.has(td.getAttribute("linkid"))) {
-                //             linkMap.get(td.getAttribute("linkid")).forEach(function (value, key, map) {            //                 
+                //             linkMap.get(td.getAttribute("linkid")).forEach(function (value, key, map) {            //
                 //                 td.innerHTML += '<div class="typeicon ' + key + '" title="type: ' + key + '">' +
                 //                     key + ':' + '<span class="cssnumbers">' + value + '</span>' +
                 //                     '</div>';
@@ -190,10 +199,6 @@ function makeDataTable(tableid, mode = 'sheet') {
                     "width": 'calc(10ex + 10px)', // ex = hoogte van "x", genoeg voor 10 karakters yyyy-mm-dd
                     //"type": "date" //dit zorgt ervoor dat onvolledige data (-00-00) niet juist gesorteerd worden??
                 },
-                // {
-                //     "targets": 'collection',
-                //     "data": 'collection'
-                // },
                 // {
                 //     "targets": 'urlCol',
                 //     "className": 'urlCol',
@@ -300,9 +305,11 @@ function makeDataTable(tableid, mode = 'sheet') {
                                 return value.replace(/<\/?[^>]+(>|$)/g, '\n');
                             }).unique().toArray();
                             //let ARR = column.nodes().toJQuery().map(function (val, i) { return $(val).text() });
-                            //console.log(ARR);
-                            const delims = /([:+\r\n]+)/g // "+", ":" , newlines
-                            ARR = ARR.join(delimiter).replace(delims, ";").split(delimiter);
+                            //const delims = /([:+\r\n]+)/g // "+", ":" , newlines
+                            //const regexBrackets = /(?<!\s)\(/g;
+                            const delims = /([:+\r\n]+)|((?<!\s)\()/g
+                            let temp = ARR.join(delimiter).replace(delims, ";");
+                            ARR = temp.split(delimiter);
                             ARR.forEach((o, i, a) => a[i] = a[i].trim());
                             let SET = new Set(ARR);
                             ARR = [...SET].sort();
@@ -448,14 +455,15 @@ function makeDataTable(tableid, mode = 'sheet') {
                 tr.addClass('shown');
                 if (!tr.hasClass('loaded')) {
                     if (mode == 'database') {
+                        console.log("transform child...?");
                         transform(xml, xslTable, { id: tr.attr("id") }).then(function (linkedsheet) {
                             tr.addClass('loaded');
+                            console.log(linkedsheet);
 
                             childFragment.appendChild(detailsDOM.querySelector("table.detailInfo"));
                             childFragment.appendChild(linkedsheet);
                             childDiv.appendChild(childFragment);
 
-                            //linkedsheet.appendChild(detailsDOM.querySelector("table.detailInfo"));
                             row.child(childDiv, 'child').show();
 
                             makeDataTable(tr.next('tr').find('table.linkedsheet').attr("id"), "child");
@@ -494,7 +502,6 @@ function format(h, d) {
 // });
 
 function createTooltips(table) {
-
     table.getAttribute("id");
     //console.log("TOOLTIPSTER: " + table.getAttribute("id"));
     $(table).find('.idtip:not(.tooltipstered)').tooltipster({
@@ -508,13 +515,11 @@ function createTooltips(table) {
             if ($origin.data('loaded') !== true) {
                 if (el.textContent) {
                     sheet = el.getAttribute("sheet").replace(xmltag, "_");
-
                     //value = el.textContent.replace(xmltag, "_");
                     //query = xml.querySelector(sheet + " " + value);
                     //query = xml.getElementsByTagName(value)[0];
                     //query = allElements.get(el.textContent);
                     query = allSheets.get(sheet).get(el.textContent);
-                    //console.log(value);
                     if (query) {
                         let result = Array.from(query.attributes, function ({ name, value }) {
                             if (value && name != 'id') {
@@ -536,24 +541,22 @@ function formatTooltip(name, value) {
 }
 
 function createHyperlinks(content) {
-    //Format all the hyperlinks in <td> elements FIRST!so that column width is accordingly
-
-    // OPTION 1
-    // let secondslash, thirdslash, shortURL;
-    // 
-    //cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
-    //secondslash = cellval.indexOf('/', cellval.indexOf('/') + 1);
-    //thirdslash = cellval.indexOf('/', secondslash + 1);
-    //if (cellval.slice(secondslash + 1, secondslash + 4) == 'www') shortURL = cellval.slice(secondslash + 5, thirdslash);
-    //else shortURL = cellval.slice(secondslash + 1, thirdslash);
-    //return "<a title='" + cellval + "' class='tableLink' href='" + $(this).text() + "' target='_blank'>" + shortURL + "</a>"
-    //
-
     // OPTION2: SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis
     let exp_match = /(\b(https?|):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig; //find https?
     let element_content = content.replace(exp_match, "<a class='url' target='_blank' title='$1' href='$1'>$1</a>");
     let new_exp_match = /(^|[^\/])(www\.[\S]+(\b|$))/gim; //find www?
     let new_content = element_content.replace(new_exp_match, '$1<a class="url" title="http://$2" target="_blank" href="http://$2">$2</a>');
     return new_content;
+}
 
+function createShortHyperlinks(content) {
+    // OPTION 1
+    let secondslash, thirdslash, shortURL;
+    //cellval = $(this).text(); //MOET ENKEL TEKST TOT EINDE LIJN ZIJN
+    cellval = content;
+    secondslash = cellval.indexOf('/', cellval.indexOf('/') + 1);
+    thirdslash = cellval.indexOf('/', secondslash + 1);
+    if (cellval.slice(secondslash + 1, secondslash + 4) == 'www') shortURL = cellval.slice(secondslash + 5, thirdslash);
+    else shortURL = cellval.slice(secondslash + 1, thirdslash);
+    return "<a title='" + cellval + "' class='tableLink' href='" + cellval + "' target='_blank'>" + shortURL + "</a>"
 }

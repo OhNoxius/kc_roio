@@ -94,7 +94,4 @@ function databaseKeys(database) {
     // 	type.textContent = e;
     // 	typesDOM.appendChild(type);
     // })
-
-
-
 }
