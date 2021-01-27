@@ -28,45 +28,60 @@ function databaseKeys(database) {
         //output += attrs[i].name + "->" + attrs[i].value;
     }
 
+    //1. create linkMap with all mainsheet nodes
+    mainsheetNode = database.getElementsByTagName(mainsheetName)[0];
+    mainsheetNode.childNodes.forEach(function (node) {
+        let linkItem = new Map();
+        //linkItem.set(node.getAttribute("type"), 1);
+        linkMap.set(node.getAttribute("id"), linkItem);
+    })
+
+    //2. link linkedsheet nodes to mainsheet nodes in linkMap
     linkedsheetNode = database.getElementsByTagName(linkedsheetName)[0];
     //console.log(linkedsheetNode);
     //let linkids = new Set();
     //let linkMap = new Map();
     //let linkedsheetTypes = new Set();
     //linkedsheetNode.querySelectorAll(':not([' + mainsheetName + '=""])').forEach(function (node) {
+    let linkidCell;
     linkedsheetNode.querySelectorAll('[' + mainsheetName + ']').forEach(function (node) {
         // Do whatever you want with the node object.
         //if (node.attributes[0]) allElements.set(node.attributes[0].value, node);
         //console.log(node);
-        let linkidCell = node.getAttribute(mainsheetName);
+        linkidCell = node.getAttribute(mainsheetName);
         // if (linkidCell.indexOf("\n") != -1) {
         //     console.log(linkidCell);
         // }
-        linkidCell.split("\n").forEach(function(linkid){
-            if (linkMap.has(linkid)) {
-                let linkItem = linkMap.get(linkid);
-                if (linkItem.has(node.getAttribute("type"))) {
-                    let linkItemThisType = linkItem.get(node.getAttribute("type"));
-                    linkItem.set(node.getAttribute("type"), linkItemThisType + 1);
-                    linkMap.set(linkid, linkItem);
-                    //linkItemTypeMap.set(node.getAttribute("type"), linkItemTypeMap.get(node.getAttribute("type")) + 1);
+        if (linkidCell != "") {
+            linkidCell.split("\n").forEach(function (linkid) {
+                linkid = linkid.trim(); //POEH! Google Sheet can have hidden &#xD;
+                //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
+                if (linkMap.has(linkid)) {
+                    let linkItem = linkMap.get(linkid);
+                    if (linkItem.has(node.getAttribute("type"))) {
+                        let linkItemThisType = linkItem.get(node.getAttribute("type"));
+                        linkItem.set(node.getAttribute("type"), linkItemThisType + 1);
+                        linkMap.set(linkid, linkItem);
+                        //linkItemTypeMap.set(node.getAttribute("type"), linkItemTypeMap.get(node.getAttribute("type")) + 1);
+                    }
+                    else {
+                        linkItem.set(node.getAttribute("type"), 1);
+                        linkMap.set(linkid, linkItem);
+                    }
                 }
                 else {
-                    linkItem.set(node.getAttribute("type"), 1);
-                    linkMap.set(linkid, linkItem);
+                    // let linkItem = new Map();
+                    // linkItem.set(node.getAttribute("type"), 1);
+                    // linkMap.set(linkid, linkItem);
+                    console.log("unknown id " + linkid);
                 }
-            }
-            else {         
-                let linkItem = new Map();   
-                linkItem.set(node.getAttribute("type"), 1);
-                linkMap.set(linkid, linkItem);
-            }
-        });
+            });
+        }
         // let linkidTypes = new Map();
         // linkidTypes.set(node.getAttribute("type"),)
         // linkids.add(node.getAttribute(mainsheetName));
         // linkMap.set(node.getAttribute(mainsheetName), linkidTypes);
-        if (node.getAttribute("type")) linkedsheetTypes.add(node.getAttribute("type").replace("?",""));
+        if (node.getAttribute("type")) linkedsheetTypes.add(node.getAttribute("type").replace("?", ""));
     });
     //console.log(linkedsheetNode.querySelectorAll('[' + mainsheetName + ']')[100].);
     //console.log(linkids);
