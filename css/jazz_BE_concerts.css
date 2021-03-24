@@ -13,23 +13,25 @@
     float: left; /* otherwise the text (label + catno) is displayed on a new "line" */
 }
 
-[class*='V'].typeicon {
+[class*='video'].typeicon {
     background-image: url(video-icon.png);
 }
-
-[class*='A'].typeicon {
+[class*='audio'].typeicon {
     background-image: url(audio-icon.png);
+}
+[class*='image'].typeicon {
+    background-image: url(image-icon.png);
 }
 
 .cssnumbers {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     background-color:lightseagreen;
-    width: 0.9rem;
-    line-height: 0.95rem;
+    width: 1rem;
+    /* line-height: 0.95rem; */
     text-align: center;
     color:#fff;
-    z-index: 2;
+    /* z-index: 2; */
     border-radius: 5px;
     position: absolute;
-    left: 29px;
+    /* left: 29px; */
 }
