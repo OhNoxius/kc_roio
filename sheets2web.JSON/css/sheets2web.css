@@ -29,6 +29,24 @@ section#database {
 }
 
 /*TEXT*/
+h1{
+    font-family: "Raleway", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    line-height: 20px;
+    color: black;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em
+}
+a.heading {
+    text-decoration: none;
+}
+a.heading, a.heading:visited, a.heading:hover, a.heading:active {
+    color: inherit;
+}
 .subdetails {
     font-size: 0.85em;
     font-style: italic;
@@ -73,16 +91,14 @@ th, td {
     white-space: pre-wrap;
 }
 table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
-    text-align: center;
-    padding: 0;
+    text-align: right;
+    padding: 2px;
     font-size: 0.9em;
     color: forestgreen;
+    white-space: normal;
 }
 /*CHILD TABLE */
 table.dataTable tbody tr.child > td.child {
-    /* border-left: 1px solid lightgrey; */
-    /* padding: 0px 2px 4px 20px; */
-    /*background-color:#ece8dc; #e4eaed;  #ededed; */
     padding: 0;
     white-space: normal;
 }
@@ -103,8 +119,9 @@ tr.child > td.child table.linktable tr td {
 }
 table.dataTable tr.columnfilters > th {
     font-weight: normal;
-    /* padding: 0px 5px; */
+    padding: 2px 5px;
     text-align: left;
+    font-size:0.9em;
 }
 table.dataTable tbody tr.child > td.child div.dataTables_wrapper {
     background-color:#ece8dc;
@@ -132,7 +149,6 @@ tr.shown td.details-control {
 }
 
 /* DataTables OVERRIDE */
-
 div.dataTables_wrapper div.dataTables_processing {
     top: 0;
 }

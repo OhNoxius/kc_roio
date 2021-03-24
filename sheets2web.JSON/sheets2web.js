@@ -187,6 +187,39 @@ function makeDataTable(table, jsondata, sheet) {
     //FORMAT JSON DATA for use in DataTables
     let startIndex = 0, visIndex = 0;;
 
+    //1stcolumn: (+)(-) buttons
+    if (maintable != LINKSHEET) {
+        const DTcolumn = {
+            "className": 'IDcolumn',
+            "orderable": false,
+            "defaultContent": '',
+            "data": maintableKeys[0],
+            "render": function (data, type, rowData, meta) {
+                return null
+            },
+            "createdCell": function (cell, cellData, rowData, rowIndex, colIndex) {
+                cell.setAttribute("title", cellData);
+                //$(cell).tooltipster();
+                if (rowData["LINKIDXS"]) cell.classList.add('details-control');
+                else {
+                    let i = 0;
+                    const len = childrowsHeaders.length;
+                    while (i < len) {
+                        if (rowData[childrowsHeaders[i]]) {
+                            cell.classList.add('details-control');
+                            break;
+                        }
+                        i++;
+                    }
+                }
+            },
+            "cellIndex": startIndex
+        }
+        header_row.prepend(document.createElement("th"));
+        columns.push(DTcolumn)
+        visIndex += 1;
+        startIndex += 1;
+    }
     //EXTRA: linkcolumn
     if (linktable) {
         let DTcolumn = {
@@ -197,7 +230,8 @@ function makeDataTable(table, jsondata, sheet) {
             "data": "LINKIDXS",
             "render": function (data, type, rowData, meta) {
                 return data?.length
-            }
+            },
+            "cellIndex": startIndex
         };
         if (linktable_types.size > 0) {
             DTcolumn.render = function (data, type, rowData, meta) {
@@ -206,7 +240,7 @@ function makeDataTable(table, jsondata, sheet) {
                     const props = Object.getOwnPropertyNames(data);
                     const propslength = props.length;
                     for (let i = 0; i < propslength; i++) {
-                        innerhtml += '<div class="nowrap typeicon ' + props[i] + '">' + props[i] + ':<span class="cssnumbers">' + data[props[i]].length + '</span></div>';
+                        innerhtml += '<div class="nowrap typeicon ' + props[i] + '" title="' + props[i] + '"> ' + props[i] + ': <span class="cssnumbers">' + data[props[i]].length + '</span></div > ';
                     }
                 }
                 return innerhtml
@@ -217,13 +251,19 @@ function makeDataTable(table, jsondata, sheet) {
         startIndex += 1;
         visIndex += 1;
     }
-    maintableKeys.forEach(function (key, keyIdx, arr) {
+
+    //LOOP THROUGH KEYS
+    let keyIdx;
+    if (maintable == LINKSHEET) keyIdx = 0;
+    else keyIdx = 1;
+    //maintableKeys.forEach(function (key, keyIdx, arr) {
+    while (keyIdx < maintableKeys.length) {
         //1. datatables column element
-        let keyname = key.replace(/\./g, '\\\\.');
+        const key = maintableKeys[keyIdx].replace(/\./g, '\\\\.');
         //BASIC TEMPLATE
         DTcolumn = {
             //"title": el,
-            "data": keyname,
+            "data": key,
             "defaultContent": ''
         };
         //create <span> only in columns which have separte sheet
@@ -276,42 +316,11 @@ function makeDataTable(table, jsondata, sheet) {
                 }
             }
         }
-        //1st element
-        //CREATE EXTRA ID COLUMN WHEN maintable == LINKSHEET !!!!!!!!!!!!!!!!!!			
-        if (Object.is(0, keyIdx)) { //remove linkcolumn
-            // if (maintable == LINKSHEET) {
-            //     columns[columns.length - 1].title = "";
-            //     columns[columns.length - 1].className = "IDcolumn";
-            //     columns[columns.length - 1].data = null;
-            //     columns[columns.length - 1].orderable = false;
-            // }
-            //else { //separate ID column
-            DTcolumn.title = "";
-            DTcolumn.className = "IDcolumn";
-            DTcolumn.defaultContent = '';
-            DTcolumn.orderable = false;
-            DTcolumn.render = function (data, type, rowData, meta) {
-                return null
-            };
-            DTcolumn.createdCell = function (cell, cellData, rowData, rowIndex, colIndex) {
-                cell.setAttribute("title", cellData);
-                //$(cell).tooltipster();
-                if (rowData["LINKIDXS"]) cell.classList.add('details-control');
-                else {
-                    let i = 0;
-                    const len = childrowsHeaders.length;
-                    while (i < len) {
-                        if (rowData[childrowsHeaders[i]]) {
-                            cell.classList.add('details-control');
-                            break;
-                        }
-                        i++;
-                    }
-                }
-            };
-            DTcolumn.cellIndex = startIndex + keyIdx;
-            visIndex += 1;
-            //}
+        //type column
+        if (key == typeheader) {
+            DTcolumn.render = function (data, type, row, meta) {
+                return '<div class="typeicon ' + data + '" title="' + data + '">' + data + '</div>'
+            }
         }
         //merger columns
         else if (key.startsWith(".") || key.startsWith("-")) {
@@ -322,7 +331,7 @@ function makeDataTable(table, jsondata, sheet) {
             mergecolumns.push(merger);
         }
         //namespace column
-        else if (arr.includes(key.substr(0, key.indexOf(":")))) {
+        else if (maintableKeys.includes(key.substr(0, key.indexOf(":")))) {
             const maincolumn = columns.find(x => x.data == key.substr(0, key.indexOf(":")));
             DTcolumn.className = "namespace";
             DTcolumn.visible = false;
@@ -345,7 +354,9 @@ function makeDataTable(table, jsondata, sheet) {
         const th = document.createElement("th");
         th.append(document.createTextNode(key));
         header_row.append(th);
-    });
+
+        keyIdx++;
+    }
 
     let fixedHeader, dom, order;
     if (maintable == LINKSHEET) order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];

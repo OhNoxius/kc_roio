@@ -4,7 +4,6 @@
     background-size: 24px;
     position: relative; /* makes cssnumber move to right corner */
     padding: 1px;
-    color: transparent;
 }
 
 .format.mediumicon {
@@ -15,21 +14,26 @@
 
 [class*='V'].typeicon {
     background-image: url(video_icon.png);
+    color: transparent;
+    font-size: 0;
 }
 
 [class*='A'].typeicon {
     background-image: url(audio_icon.png);
+    color: transparent;
+    font-size: 0;
 }
 
 .cssnumbers {
-    /* font-size: 0.75rem; */
-    background-color:lightseagreen;
-    width: 0.9rem;
+    font-size: 0.8rem;
+    background-color: lightseagreen;
+    width: fit-content;
     /* line-height: 0.95rem; */
-    text-align: center;
-    color:#fff;
-    /* z-index: 2; */
+    /* text-align: center; */
+    color: #fff;
     border-radius: 15px;
-    position: absolute;
-    /* left: 29px */
+    position: relative;
+    left: -0.5ex;
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.7ex;
 }
