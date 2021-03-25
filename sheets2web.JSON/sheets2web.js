@@ -54,52 +54,14 @@ document.addEventListener('DOMContentLoaded', function () {
             if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
         })
-    // $.ajax({
-    //     dataType: "json",
-    //     url: "/json/data",
-    //     success: function (data) {
-    //         console.log("asynchronous HTTP (mockjax) request DONE");
-    //         jason = data;
-
-    //         //PROCESS JSON
-    //         //1. identify important nodes
-    //         SHEETS = Object.keys(jason);
-    //         MAINSHEET = SHEETS[0];
-    //         LINKSHEET = SHEETS.find(e => e.startsWith("+"));
-    //         MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
-    //         LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
-
-    //         //3. main webpage layout
-    //         //HEADING
-    //         const heading = document.createElement("h1");
-    //         const heading_a = document.createElement("a");
-    //         if (headertitle) heading_a.innerText = headertitle;
-    //         else heading_a.innerText = datafile;
-    //         heading_a.setAttribute("href", "");
-    //         heading_a.setAttribute("class", "heading");
-    //         heading.append(heading_a);
-    //         document.getElementById("heading").append(heading);
-    //         //NAV
-    //         navfooter = createNavFooter(SHEETS);
-    //         //Table Footer
-    //         fixedfooter_row = document.createElement("tr");
-    //         fixedfooter_row.setAttribute('id', "fixedfooterrow");
-    //         const th = document.createElement("th");
-    //         th.setAttribute('id', "LOOKAHERE");
-    //         th.append(navfooter);
-    //         fixedfooter_row.append(th);
-    //         document.getElementById("fixedtfooter").append(fixedfooter_row);
-
-    //         const url = window.location.href.substr(window.location.href.indexOf("#") + 1);
-    //         if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
-    //         else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
-    //     }
-    // });
 });
 
-function makeDataTable(table, jsondata, sheet) {
+function makeDataTable(table, jsondata, sheet) {   
 
     const maintableKeys = Object.keys(jsondata[0]);
+    //OPTIONAL: remove rows with empty 1st column
+    jsondata = jsondata.filter(x => x[maintableKeys[0]] != null);
+
     const maintable = sheet;
     let linktable;
 
