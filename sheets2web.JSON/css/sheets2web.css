@@ -14,6 +14,12 @@ body {
 .nowrap {
     white-space: nowrap;
 }
+header div {
+    display:inline-block;
+}
+header div#activity {
+    float: right;
+}
 
 /*GRID*/
 header {
@@ -152,3 +158,23 @@ tr.shown td.details-control {
 div.dataTables_wrapper div.dataTables_processing {
     top: 0;
 }
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+   
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spinner .6s linear infinite;
+  }

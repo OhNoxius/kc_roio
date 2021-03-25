@@ -21,7 +21,7 @@ function lastUpdated(datafile, id) {
     fetchHeader(datafile, 'Last-Modified').then(function (response) {
         var date = new Date(response);
         var node = document.createElement("p");
-        node.setAttribute("class", "details");
+        node.setAttribute("class", "subdetails");
         node.setAttribute("id", "updated");
         var textnode = document.createTextNode(datafile +" last updated on " + date.toLocaleDateString("nl-BE"));
         node.appendChild(textnode);
