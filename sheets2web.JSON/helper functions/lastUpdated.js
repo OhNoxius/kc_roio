@@ -31,8 +31,8 @@ function lastUpdated(datafile, id) {
     })
 }
 
-function getFilename() {    
+function getFilename(extension) {    
 		let page = window.location.pathname.split("/").pop();
 		let pageclean = page.slice(0, page.indexOf("."));
-        return page.slice(0, page.indexOf(".")).concat(".xml");
+        return page.slice(0, page.indexOf(".")).concat("." + extension);
 }
