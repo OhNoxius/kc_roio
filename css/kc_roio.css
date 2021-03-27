@@ -6,19 +6,13 @@
     padding: 1px;
 }
 
-.format.mediumicon {
-    background-size: 24px;
-    padding: 12px;
-    float: left; /* otherwise the text (label + catno) is displayed on a new "line" */
-}
-
-[class*='V'].typeicon {
+.typeicon.video {
     background-image: url(video_icon.png);
     color: transparent;
     font-size: 0;
 }
 
-[class*='A'].typeicon {
+.typeicon.audio {
     background-image: url(audio_icon.png);
     color: transparent;
     font-size: 0;
