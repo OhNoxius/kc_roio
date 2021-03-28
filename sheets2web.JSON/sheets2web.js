@@ -79,11 +79,11 @@ function makeDataTable(table, jsondata, sheet) {
     jason[linktable].forEach(x => linktable_types.add(x[typeheader]));
     linktable_types.delete(null);
     linktable_types.delete(undefined);
+    linktable_types.delete("");
     //if (linktable_types.size == 0) linktable_types.add(linktable);
 
     //LOG    
     console.log("create new DataTable from table#id = '" + table.getAttribute("id") + "'");
-    //console.log(linktable_types);
 
     //2. create Map() of mainsheet<->linksheet
     const linkKeyIdx = maintableKeys.indexOf("LINKIDXS");
@@ -455,11 +455,10 @@ function makeDataTable(table, jsondata, sheet) {
                         //$("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
                     }
                     else if (jqth.classList.contains("linkcolumn")) {
-                        if (linktable_types.size == 0) linktable_types.add("");
-                        //console.log(linktable_types);
+                        //if (linktable_types.size == 0) linktable_types.add(""); //=> do it another way...breaks code further on
                         linktable_types.forEach(function (value, index, array) {
-                            $('<div class="nowrap"><input type="checkbox" id="' + jqth.innerText + value + '" name="' + jqth.innerText + '" value="' + value + '" class="headercheckbox" />' +
-                                '<label for="' + jqth.innerText + value + '">' + value + '</label></div>')
+                            $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
+                                '<label for="' + value + '">' + value + '</label></div>')
                                 .appendTo(jqthisfilter);
                         });
                         jqthisfilter.find('input:checkbox').on('change', function (e) {
