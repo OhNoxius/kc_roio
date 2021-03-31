@@ -13,7 +13,10 @@ const delims = /([:\r\n]+)|((?<!\s)\()/g///([:+\r\n]+)|((?<!\s)\()/g
 document.addEventListener('DOMContentLoaded', function () {
     lastUpdated(datafile, "activity");
     //mockjax(datafile);
-    fixedtable = document.getElementById("fixedtable");
+    fixedtable = document.getElementById("fixedtable");    
+    const fixedthead = fixedtable.appendChild(document.createElement("thead"));
+    const fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
+    const fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
     jqfixedtable = $(fixedtable);
     fetch(datafile)
         .then(res => res.json())
@@ -48,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             th.setAttribute('id', "LOOKAHERE");
             th.append(navfooter);
             fixedfooter_row.append(th);
-            document.getElementById("fixedtfooter").append(fixedfooter_row);
+            fixedtfoot.append(fixedfooter_row);
 
             const url = window.location.href.substr(window.location.href.indexOf("#") + 1);
             if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
@@ -635,9 +638,9 @@ function createNavFooter(sheets) {
                     dfixedtable.destroy();
                 }
 
-                document.getElementById("fixedtheader").innerHTML = "";
-                document.getElementById("fixedtbody").innerHTML = "";
-                document.getElementById("fixedtfooter").querySelectorAll("tr:not(#fixedfooterrow)").forEach(tr => tr.remove());
+                fixedthead.innerHTML = "";
+                fixedtbody.innerHTML = "";
+                fixedtfoot.querySelectorAll("tr:not(#fixedfooterrow)").forEach(tr => tr.remove());
 
                 dfixedtable = makeDataTable(fixedtable, jason[sheet], sheet);
             }, false);
