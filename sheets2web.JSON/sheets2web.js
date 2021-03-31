@@ -1,6 +1,7 @@
 //DON'T TOUCH
 let linkMap = new Map();
 let fixedtable, dfixedtable, jqfixedtable;
+let fixedthead, fixedtbody, fixedtfoot;
 let fixedfooter_row;
 
 let jason;
@@ -14,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
     lastUpdated(datafile, "activity");
     //mockjax(datafile);
     fixedtable = document.getElementById("fixedtable");    
-    const fixedthead = fixedtable.appendChild(document.createElement("thead"));
-    const fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
-    const fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
+    fixedthead = fixedtable.appendChild(document.createElement("thead"));
+    fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
+    fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
     jqfixedtable = $(fixedtable);
     fetch(datafile)
         .then(res => res.json())
