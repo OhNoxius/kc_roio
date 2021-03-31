@@ -12,18 +12,29 @@ let LINKSHEET_types = new Set();
 const delims = /([:\r\n]+)|((?<!\s)\()/g///([:+\r\n]+)|((?<!\s)\()/g
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    //HEADING
+    const heading = document.createElement("h1");
+    const heading_a = document.createElement("a");
+    try { heading_a.innerText = headertitle; }
+    catch(e) { heading_a.innerText = datafile; }
+    heading_a.setAttribute("href", "");
+    heading_a.setAttribute("class", "heading");
+    heading.append(heading_a);
+    document.getElementById("heading").append(heading);
+    //FILE UPDATED
     lastUpdated(datafile, "activity");
-    //mockjax(datafile);
-    fixedtable = document.getElementById("fixedtable");    
+
+    fixedtable = document.getElementById("fixedtable");
+    jqfixedtable = $(fixedtable);
     fixedthead = fixedtable.appendChild(document.createElement("thead"));
     fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
-    jqfixedtable = $(fixedtable);
+
     fetch(datafile)
         .then(res => res.json())
         .then(json => {
             jason = json;
-            //console.log(jason);
 
             //PROCESS JSON
             //1. identify important nodes
@@ -33,19 +44,8 @@ document.addEventListener('DOMContentLoaded', function () {
             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
             LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
 
-            //3. main webpage layout
-            //HEADING
-            const heading = document.createElement("h1");
-            const heading_a = document.createElement("a");
-            if ("headertitle" in window) heading_a.innerText = headertitle;
-            else heading_a.innerText = datafile;
-            heading_a.setAttribute("href", "");
-            heading_a.setAttribute("class", "heading");
-            heading.append(heading_a);
-            document.getElementById("heading").append(heading);
-            //NAV
+            //CREATE NAVIGATION FOOTER
             navfooter = createNavFooter(SHEETS);
-            //Table Footer
             fixedfooter_row = document.createElement("tr");
             fixedfooter_row.setAttribute('id', "fixedfooterrow");
             const th = document.createElement("th");
@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fixedfooter_row.append(th);
             fixedtfoot.append(fixedfooter_row);
 
+            //detect '#...' in url to choose initial sheet
             const url = window.location.href.substr(window.location.href.indexOf("#") + 1);
             if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
