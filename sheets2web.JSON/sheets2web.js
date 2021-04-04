@@ -9,7 +9,10 @@ let SHEETS, MAINSHEET, LINKSHEET;
 let MAINSHEET_keys = [], LINKSHEET_keys = []
 let LINKSHEET_types = new Set();
 
-const delims = /([:\r\n]+)|((?<!\s)\()/g///([:+\r\n]+)|((?<!\s)\()/g
+//const delims = /([:\r\n]+)|((?<!\s)\()/g ///([:+\r\n]+)|((?<!\s)\()/g //BREAKS SAFARI!!!!!!!!
+const delims = /([:\r\n]+)/g
+const nospacebrack = /((?<=[^\s\\])\()/g
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -17,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const heading = document.createElement("h1");
     const heading_a = document.createElement("a");
     try { heading_a.innerText = headertitle; }
-    catch(e) { heading_a.innerText = datafile; }
+    catch (e) { heading_a.innerText = datafile; }
     heading_a.setAttribute("href", "");
     heading_a.setAttribute("class", "heading");
     heading.append(heading_a);
@@ -146,37 +149,46 @@ function makeDataTable(table, jsondata, sheet) {
             //then loop through linkedsheet ONCE, and add info into above Map
             jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
                 if (linkEl[maintable]) {
-                    linkEl[maintable].split("\n").forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
-                        const linkid_trim = linkid.trim(); //POEH! Google Sheet can have hidden &#xD;
-                        //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
-                        if (linktableMap.has(linkid_trim)) {
-                            const mainIdx = linktableMap.get(linkid_trim);
-                            if (linktable_types.size > 0) {
-                                let linkType = linkEl[typeheader];
-                                if (linkType == null || linkType == '') linkType = linktable;
-                                if (jsondata[mainIdx]["LINKIDXS"]) {
-                                    if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+                    let linkElArr;
+                    if (Array.isArray(linkEl[maintable])) {
+                        if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
+                    }
+                    else linkEl[maintable].split("\n");
+                    
+                    if (linkElArr) {
+                        //console.log(linkElArr);
+                        linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
+                            const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
+                            //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
+                            if (linktableMap.has(linkid_trim)) {
+                                const mainIdx = linktableMap.get(linkid_trim);
+                                if (linktable_types.size > 0) {
+                                    let linkType = linkEl[typeheader];
+                                    if (linkType == null || linkType == '') linkType = linktable;
+                                    if (jsondata[mainIdx]["LINKIDXS"]) {
+                                        if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+                                        else {
+                                            const obj = jsondata[mainIdx]["LINKIDXS"];
+                                            obj[linkType] = [linkIdx];
+                                            jsondata[mainIdx]["LINKIDXS"] = obj;
+                                        }
+                                    }
                                     else {
-                                        const obj = jsondata[mainIdx]["LINKIDXS"];
+                                        const obj = {};
                                         obj[linkType] = [linkIdx];
-                                        jsondata[mainIdx]["LINKIDXS"] = obj;
+                                        jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
                                     }
                                 }
                                 else {
-                                    const obj = {};
-                                    obj[linkType] = [linkIdx];
-                                    jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
+                                    if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
+                                    else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
                                 }
                             }
                             else {
-                                if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
-                                else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
+                                console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
                             }
-                        }
-                        else {
-                            console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
-                        }
-                    });
+                        });
+                    }
                 }
             });
         }
@@ -493,9 +505,15 @@ function makeDataTable(table, jsondata, sheet) {
                         else ARR = DTcolumnArray.sort();
 
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
-                        ARR = ARR.join(delimiter).replace(delims, delimiter).split(delimiter);
+                        let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
+                        ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "(");
+                        ARR = ARRstring1delim.split(delimiter);
                         let SET = new Set();
-                        ARR.forEach((o, i, a) => SET.add(a[i].trim()));
+                        ARR.forEach((o, i, a) => {
+                            const trima = a[i].trim();
+                            SET.add(trima);
+                            //if (trima[trima.length-1] != ")") ;
+                        });
                         ARR = [...SET].sort();
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
 
