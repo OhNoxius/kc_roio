@@ -92,6 +92,7 @@ function makeDataTable(table, jsondata, sheet) {
 
     //LOG    
     console.log("create new DataTable from table#id = '" + table.getAttribute("id") + "'");
+    console.log(linktable_types);
 
     //2. create Map() of mainsheet<->linksheet
     const linkKeyIdx = maintableKeys.indexOf("LINKIDXS");
@@ -153,10 +154,8 @@ function makeDataTable(table, jsondata, sheet) {
                     if (Array.isArray(linkEl[maintable])) {
                         if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
                     }
-                    else linkEl[maintable].split("\n");
-                    
-                    if (linkElArr) {
-                        //console.log(linkElArr);
+                    else linkElArr = linkEl[maintable].split("\n");
+                    if (linkElArr) {                        
                         linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
                             const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
                             //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
