@@ -1,5 +1,8 @@
 body {
-    font: 80%/1.2em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, -apple-system, Sans-Serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 95%; /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     color: #333;
@@ -122,6 +125,7 @@ tr.child > td.child table.linktable tr th {
 }
 tr.child > td.child table.linktable tr td {
     background-color: #faf7ed;
+    /*text-align: center;*/
 }
 table.dataTable tr.columnfilters > th {
     font-weight: normal;

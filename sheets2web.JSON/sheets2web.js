@@ -92,12 +92,14 @@ function makeDataTable(table, jsondata, sheet) {
 
     //LOG    
     console.log("create new DataTable from table#id = '" + table.getAttribute("id") + "'");
-    console.log(linktable_types);
+    //console.log(linktable_types);
+    //console.log(table.getAttribute("id").substr(0, table.getAttribute("id").indexOf(":")));
+    const parenttable = table.getAttribute("id").substr(0, table.getAttribute("id").indexOf(":"));
 
     //2. create Map() of mainsheet<->linksheet
     const linkKeyIdx = maintableKeys.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) maintableKeys.splice(linkKeyIdx, 1);
-    else {
+    else if (parenttable != linktable) {
         if (maintable == LINKSHEET) {
             const linktableMap = new Map();
             jason[MAINSHEET].forEach(function (MAINel, idx, arr) {
@@ -155,7 +157,7 @@ function makeDataTable(table, jsondata, sheet) {
                         if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
                     }
                     else linkElArr = linkEl[maintable].split("\n");
-                    if (linkElArr) {                        
+                    if (linkElArr) {
                         linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
                             const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
                             //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
@@ -529,12 +531,12 @@ function makeDataTable(table, jsondata, sheet) {
 
 
 
-    $(table).children('tbody').on('click', 'td.details-control', function () {
+    $(table).children('tbody').on('click', '> tr > td.details-control', function () {
 
         const jqtr = $(this).closest('tr');
         const rowid = jqtr.attr("id");
         const dRow = dTable.row(jqtr);
-        console.log(" (+) --> CLICK DROPDOWN maintable: '" + maintable + "' / linktable: '" + linktable + "' / id: '" + jqtr.attr("id") + "'");
+        console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + jqtr.attr("id") + "'");
 
         if (dRow.child.isShown()) {
             // This row is already open - close it
@@ -570,12 +572,12 @@ function makeDataTable(table, jsondata, sheet) {
                 }
                 else linkedItems.push(...linkcellData.map((item) => jason[linktable][item]));
 
-                linkTableDOM = document.createElement('div');
-                linkTableDOM.innerHTML = '<table id="' + rowid + "." + linktable + '" class="linktable cell-border">' +
-                    '<thead></thead>' +
+                linkTableDOM = document.createElement('table');
+                linkTableDOM.setAttribute("id", rowid + "." + linktable);
+                linkTableDOM.setAttribute("class", "linktable cell-border"); //compact
+                linkTableDOM.innerHTML = '<thead></thead>' +
                     '<tbody></tbody>' +
-                    '<tfoot></tfoot>' +
-                    '</table>';
+                    '<tfoot></tfoot>';
                 childrowsDOM.push(linkTableDOM);
             }
             dRow.child(childrowsDOM, "child").show();
