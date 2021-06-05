@@ -1,7 +1,9 @@
 .typeicon {
-    background: no-repeat center bottom;
-    height: 28px;
+    background-repeat: no-repeat;
     background-size: 24px;
+    background-position: calc(100% - 20px) bottom;
+    background-origin: content-box;
+    height: 28px;    
     position: relative; /* makes cssnumber move to right corner */
     padding: 1px;
 }
