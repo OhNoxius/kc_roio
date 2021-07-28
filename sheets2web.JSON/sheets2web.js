@@ -203,9 +203,10 @@ function makeDataTable(table, jsondata, sheet) {
     const footer_row = document.createElement("tr");
     table.getElementsByTagName("tfoot")[0].prepend(footer_row);
     if (maintable != LINKSHEET) table.classList.add('rowheaders');
+    else table.classList.remove('rowheaders');
 
     //FORMAT JSON DATA for use in DataTables
-    let startIndex = 0, visIndex = 0;;
+    let startIndex = 0, visIndex = 0;
 
     //1stcolumn: (+)(-) buttons
     const DTcolumn = {
@@ -403,7 +404,7 @@ function makeDataTable(table, jsondata, sheet) {
 
     let fixedHeader, dom, order;
     if (maintable == LINKSHEET) order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
-    else order = [[startIndex + 1, 'asc']];
+    else order = [[0, 'asc']];//[[startIndex + 1, 'asc']];
 
     //set some DT options
     if (table.getAttribute("id") == "fixedtable") {
@@ -412,10 +413,10 @@ function makeDataTable(table, jsondata, sheet) {
             footer: true
         };
         dom = "lfrti";
-        const headerfilters_row = header_row.cloneNode(true);
-        headerfilters_row.setAttribute("class", "columnfilters");
-        table.getElementsByTagName("thead")[0].append(headerfilters_row);
-        document.getElementById("LOOKAHERE").setAttribute("colspan", columns.length);
+        // const headerfilters_row = header_row.cloneNode(true);
+        // headerfilters_row.setAttribute("class", "columnfilters");
+        // table.getElementsByTagName("thead")[0].append(headerfilters_row);
+        // document.getElementById("LOOKAHERE").setAttribute("colspan", columns.length);
     }
     else {
         fixedHeader = false;
@@ -482,11 +483,17 @@ function makeDataTable(table, jsondata, sheet) {
             $(table).show(); //do here, otherwise dropdown <input> aren't generated...
             $('div#dt_loader').hide();
 
+            
+
             //FIXED TOOLTIPS on ID column
             //create tooltips
             //createTooltips(table);
 
             if (table.getAttribute("id") == "fixedtable") {
+                const headerfilters_row = header_row.cloneNode(true);
+                headerfilters_row.setAttribute("class", "columnfilters");
+                table.getElementsByTagName("thead")[0].append(headerfilters_row);
+                document.getElementById("LOOKAHERE").setAttribute("colspan", columns.length);
                 //COLUMN FILTERS
                 this.api().columns(':visible').every(function () {
                     const column = this;
