@@ -60,8 +60,9 @@ a.heading, a.heading:visited, a.heading:hover, a.heading:active {
     font-size: 0.85em;
     font-style: italic;
     color: grey;
-    margin-top: 0.6em;
-    margin-bottom: 0;
+    /* margin-top: 0.6em;
+    margin-bottom: 0; */
+    margin: 0;
 }
 .inlinedetails {
     font-weight: normal;
@@ -99,9 +100,12 @@ a.tab{
 th, td {
     white-space: pre-wrap;
 }
+th {
+    background-color: lightgoldenrodyellow
+}
 table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
     text-align: right;
-    padding: 2px;
+    /* padding: 2px; */
     font-size: 0.9em;
     color: forestgreen;
     white-space: normal;
@@ -151,11 +155,13 @@ input.headersearch {
 }
 
 td.details-control {
-    background: url('../css/details_open.png') no-repeat center center;
-    cursor: pointer;
+    background: url('../css/details_open.png') no-repeat center;
+    background-position-y: calc(50% + 8px);
+    cursor: pointer;    
 }
 tr.shown td.details-control {
-    background: url('../css/details_close.png') no-repeat center center;
+    background: url('../css/details_close.png') no-repeat center;
+    background-position-y: calc(50% + 8px);
 }
 
 /* DataTables OVERRIDE */
@@ -165,9 +171,9 @@ div.dataTables_wrapper div.dataTables_processing {
 
 @keyframes spinner {
     to {transform: rotate(360deg);}
-  }
-   
-  .spinner:before {
+}   
+
+.spinner:before {
     content: '';
     box-sizing: border-box;
     position: absolute;
@@ -181,4 +187,40 @@ div.dataTables_wrapper div.dataTables_processing {
     border: 2px solid #ccc;
     border-top-color: #333;
     animation: spinner .6s linear infinite;
-  }
+}
+
+/*static ID tooltip*/
+/* td.IDcolumn {
+    position: relative !important;
+} */
+table.rowheaders tbody td {
+    padding-top: 24px;
+    padding-bottom: 8x;
+}
+.tipdiv {
+    /*position: absolute !important;*/
+    /* top: 28px; */
+    /* left: 2px; */
+    --balloon-color: rgba(197, 197, 197, 0.5);
+    --balloon-font-size: 1.0em;
+    --balloon-text-color: black;
+    /* width: 0; */
+}
+
+    
+    [aria-label][data-balloon-pos]:after {
+        font-weight: bold !important;
+        font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;    
+        padding: 0px 0px 0px 0.5em !important;
+        letter-spacing: 0.05rem;
+        z-index: 0 !important;
+        margin: -18px 0px !important;
+        width: calc(100vw - 20px - 0.5em);
+        /* width: -moz-available;
+        width: -webkit-fill-available;
+        width: fill-available; */
+    }
+    [aria-label][data-balloon-pos]:before {
+        display:none;
+    }
+
