@@ -1,3 +1,7 @@
+:root {
+    --rowheader-width: 20px;
+  }
+
 body {
     font-family: Roboto, Helvetica, -apple-system, Sans-Serif;
     -webkit-font-smoothing: antialiased;
@@ -76,8 +80,6 @@ a.heading, a.heading:visited, a.heading:hover, a.heading:active {
     margin-left: 0.4em;
 }
 
-
-
 ul.tabs{
     margin: 0;
     padding: 0;
@@ -96,12 +98,12 @@ a.tab{
 	border: solid 1px #bbb;
 }
 
-/*FIXEDTABLE*/
+/*TABLES general*/
 th, td {
     white-space: pre-wrap;
 }
-th {
-    background-color: lightgoldenrodyellow
+td.IDcolumn, th.IDcolumn {
+    width: 20px;
 }
 table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
     text-align: right;
@@ -110,6 +112,17 @@ table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
     color: forestgreen;
     white-space: normal;
 }
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 12px 8px;
+}
+
+/*FIXED TABLE*/
+tr.columnfilters th {
+    background-color: rgb(226, 231, 235);
+    box-shadow: 0 0 3em 0.1em rgb(226, 231, 235);
+    position: relative;
+}
+
 /*CHILD TABLE */
 table.dataTable tbody tr.child > td.child {
     padding: 0;
@@ -155,12 +168,14 @@ input.headersearch {
 }
 
 td.details-control {
-    background: url('../css/details_open.png') no-repeat center;
-    background-position-y: calc(50% + 8px);
+    background: url('../css/details_open.png') no-repeat center center;
     cursor: pointer;    
 }
 tr.shown td.details-control {
-    background: url('../css/details_close.png') no-repeat center;
+    background: url('../css/details_close.png') no-repeat center center;
+    
+}
+table.rowheaders tbody tr td.details-control {
     background-position-y: calc(50% + 8px);
 }
 
@@ -194,19 +209,16 @@ div.dataTables_wrapper div.dataTables_processing {
     position: relative !important;
 } */
 
-td.IDcolumn, th.IDcolumn {
-    width: 20px;
-}
+
 
 table.rowheaders tbody td {
-    padding-top: 24px;
-    padding-bottom: 8x;
+    padding-top: 28px;
 }
 .tipdiv {
     /*position: absolute !important;*/
     /* top: 28px; */
     /* left: 2px; */
-    --balloon-color: rgba(197, 197, 197, 0.5);
+    --balloon-color: rgba(197, 197, 197, 0.3);
     --balloon-font-size: 1.0em;
     --balloon-text-color: black;
     /* width: 0; */
@@ -217,7 +229,7 @@ table.rowheaders tbody td {
         font-weight: bold !important;
         font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;    
         padding: 0px 0px 0px 0.5em !important;
-        letter-spacing: 0.05rem;
+        letter-spacing: 0.03rem;
         z-index: 0 !important;
         margin: -18px 0px !important;
         width: calc(100vw - 20px - 0.5em);

@@ -260,9 +260,9 @@ function makeDataTable(table, jsondata, sheet) {
     //EXTRA: linkcolumn
     if (linktable) {
         let DTcolumn = {
-            "title": linktable,
+            "title": "#"+linktable,
             "className": 'linkcolumn',
-            "orderable": false,
+            // "orderable": false,
             "defaultContent": '',
             "data": "LINKIDXS",
             "render": function (data, type, rowData, meta) {
@@ -401,6 +401,13 @@ function makeDataTable(table, jsondata, sheet) {
 
         keyIdx++;
     }
+
+    // if (maintable == LINKSHEET) {
+    //     let element = columns[startIndex-1];
+    //     console.log(element);
+    //     columns.splice(startIndex-1, 1);
+    //     columns.splice(startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 0, element);
+    // }
 
     let fixedHeader, dom, order;
     if (maintable == LINKSHEET) order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
