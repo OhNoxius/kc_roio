@@ -5,7 +5,7 @@
 body {
     font-family: Roboto, Helvetica, -apple-system, Sans-Serif;
     -webkit-font-smoothing: antialiased;
-    font-size: 95%; /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
+    font-size: 90%; /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
     line-height: 1.5;
     margin: 0;
     padding: 0;
