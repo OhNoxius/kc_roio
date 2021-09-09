@@ -106,7 +106,7 @@ td.IDcolumn, th.IDcolumn {
     width: 20px;
 }
 table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
-    text-align: right;
+    text-align: left;
     /* padding: 2px; */
     font-size: 0.9em;
     color: forestgreen;
