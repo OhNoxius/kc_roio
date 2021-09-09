@@ -113,7 +113,7 @@ table.dataTable tbody td.linkcolumn, table.dataTable thead th.linkcolumn {
     white-space: normal;
 }
 table.dataTable tbody th, table.dataTable tbody td {
-    padding: 12px 8px;
+    padding: 20px 8px;
 }
 
 /*FIXED TABLE*/
@@ -211,15 +211,15 @@ div.dataTables_wrapper div.dataTables_processing {
 
 
 
-table.rowheaders tbody td {
-    padding-top: 28px;
+table.rowheaders > tbody > tr > td {
+    padding-top: 40px;
 }
 .tipdiv {
     /*position: absolute !important;*/
     /* top: 28px; */
     /* left: 2px; */
     --balloon-color: rgba(197, 197, 197, 0.3);
-    --balloon-font-size: 1.0em;
+    --balloon-font-size: 1.0rem;
     --balloon-text-color: black;
     /* width: 0; */
 }
@@ -228,10 +228,10 @@ table.rowheaders tbody td {
     [aria-label][data-balloon-pos]:after {
         font-weight: bold !important;
         font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;    
-        padding: 0px 0px 0px 0.5em !important;
+        padding: 0.1em 0px 0.1em 0.5em !important;
         letter-spacing: 0.03rem;
         z-index: 0 !important;
-        margin: -18px 0px !important;
+        margin: -22px 0px !important;
         width: calc(100vw - 20px - 0.5em);
         /* width: -moz-available;
         width: -webkit-fill-available;
