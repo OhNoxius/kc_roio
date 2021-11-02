@@ -8,18 +8,6 @@
     padding: 1px;
 }
 
-.typeicon.video {
-    background-image: url(video_icon.png);
-    color: transparent;
-    font-size: 0;
-}
-
-.typeicon.audio {
-    background-image: url(audio_icon.png);
-    color: transparent;
-    font-size: 0;
-}
-
 .cssnumbers {
     font-size: 0.8rem;
     background-color: lightseagreen;
@@ -32,4 +20,16 @@
     left: 24px;/*-0.5ex;*/
     padding: 0.1rem 0.3rem;
     /* margin-left: 0.7ex; */
+}
+
+.typeicon.video {
+    background-image: url(video_icon.png);
+    color: transparent;
+    font-size: 0;
+}
+
+.typeicon.audio {
+    background-image: url(audio_icon.png);
+    color: transparent;
+    font-size: 0;
 }
