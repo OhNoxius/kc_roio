@@ -218,7 +218,7 @@ table.rowheaders > tbody > tr > td {
     /*position: absolute !important;*/
     /* top: 28px; */
     /* left: 2px; */
-    --balloon-color: rgba(197, 197, 197, 0.3);
+    --balloon-color: rgba(197, 197, 197, 0);
     --balloon-font-size: 1.0rem;
     --balloon-text-color: black;
     /* width: 0; */
