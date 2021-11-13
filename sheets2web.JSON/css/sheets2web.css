@@ -56,6 +56,8 @@ h1{
 }
 a.heading {
     text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 a.heading, a.heading:visited, a.heading:hover, a.heading:active {
     color: inherit;
