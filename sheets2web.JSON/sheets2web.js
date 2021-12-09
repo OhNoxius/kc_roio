@@ -3,6 +3,7 @@ let linkMap = new Map();
 let fixedtable, dfixedtable, jqfixedtable;
 let fixedthead, fixedtbody, fixedtfoot;
 let fixedfooter_row;
+let linktype;
 
 let jason;
 let SHEETS, MAINSHEET, LINKSHEET;
@@ -21,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const heading_a = document.createElement("a");
     try { heading_a.innerText = headertitle; }
     catch (e) { heading_a.innerText = datafile; }
+    try { linktype = typeheader; }
+    catch (e) { linktype = ""; }
     heading_a.setAttribute("href", "");
     heading_a.setAttribute("class", "heading");
     heading.append(heading_a);
@@ -45,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
             MAINSHEET = SHEETS[0];
             LINKSHEET = SHEETS.find(e => e.startsWith("+"));
             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
-            LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+            if (LINKSHEET) LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+            else LINKSHEET_keys = [];
 
             //CREATE NAVIGATION FOOTER
             navfooter = createNavFooter(SHEETS);
@@ -84,7 +88,9 @@ function makeDataTable(table, jsondata, sheet) {
     else if (LINKSHEET_keys.includes(sheet)) linktable = LINKSHEET;
 
     let linktable_types = new Set();
-    jason[linktable].forEach(x => linktable_types.add(x[typeheader]));
+    // try { jason[linktable].forEach(x => linktable_types.add(x[typeheader])); }
+    // catch (e) { console.log("no typeheader"); }
+    if (linktype) jason[linktable].forEach(x => linktable_types.add(x[linktype]));
     linktable_types.delete(null);
     linktable_types.delete(undefined);
     linktable_types.delete("");
@@ -114,7 +120,7 @@ function makeDataTable(table, jsondata, sheet) {
                         if (linktableMap.has(MAINid_trim)) {
                             const MAINidx = linktableMap.get(MAINid_trim);
                             if (linktable_types.size > 0) {
-                                let MAINType = jason[MAINSHEET][MAINidx][typeheader];//mainEl[typeheader];
+                                let MAINType = jason[MAINSHEET][MAINidx][linktype];//mainEl[typeheader];
                                 if (MAINType == null || MAINType == '') MAINType = linktable;
                                 if (LINKarr[LINKidx]["LINKIDXS"]) {
                                     if (LINKarr[LINKidx]["LINKIDXS"][MAINType]) LINKarr[LINKidx]["LINKIDXS"][MAINType].push(MAINidx);
@@ -150,48 +156,50 @@ function makeDataTable(table, jsondata, sheet) {
                 linktableMap.set(mainEl[maintableKeys[0]], idx);
             });
             //then loop through linkedsheet ONCE, and add info into above Map
-            jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
-                if (linkEl[maintable]) {
-                    let linkElArr;
-                    if (Array.isArray(linkEl[maintable])) {
-                        if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
-                    }
-                    else linkElArr = linkEl[maintable].split("\n");
-                    if (linkElArr) {
-                        linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
-                            const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
-                            //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
-                            if (linktableMap.has(linkid_trim)) {
-                                const mainIdx = linktableMap.get(linkid_trim);
-                                if (linktable_types.size > 0) {
-                                    let linkType = linkEl[typeheader];
-                                    if (linkType == null || linkType == '') linkType = linktable;
-                                    if (jsondata[mainIdx]["LINKIDXS"]) {
-                                        if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+            if (LINKSHEET) {
+                jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
+                    if (linkEl[maintable]) {
+                        let linkElArr;
+                        if (Array.isArray(linkEl[maintable])) {
+                            if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
+                        }
+                        else linkElArr = linkEl[maintable].split("\n");
+                        if (linkElArr) {
+                            linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
+                                const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
+                                //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
+                                if (linktableMap.has(linkid_trim)) {
+                                    const mainIdx = linktableMap.get(linkid_trim);
+                                    if (linktable_types.size > 0) {
+                                        let linkType = linkEl[linktype];
+                                        if (linkType == null || linkType == '') linkType = linktable;
+                                        if (jsondata[mainIdx]["LINKIDXS"]) {
+                                            if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+                                            else {
+                                                const obj = jsondata[mainIdx]["LINKIDXS"];
+                                                obj[linkType] = [linkIdx];
+                                                jsondata[mainIdx]["LINKIDXS"] = obj;
+                                            }
+                                        }
                                         else {
-                                            const obj = jsondata[mainIdx]["LINKIDXS"];
+                                            const obj = {};
                                             obj[linkType] = [linkIdx];
-                                            jsondata[mainIdx]["LINKIDXS"] = obj;
+                                            jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
                                         }
                                     }
                                     else {
-                                        const obj = {};
-                                        obj[linkType] = [linkIdx];
-                                        jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
+                                        if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
+                                        else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
                                     }
                                 }
                                 else {
-                                    if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
-                                    else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
+                                    console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
                                 }
-                            }
-                            else {
-                                console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
-                            }
-                        });
+                            });
+                        }
                     }
-                }
-            });
+                });
+            }
         }
     }
     //console.log(linktableMap);
@@ -260,7 +268,7 @@ function makeDataTable(table, jsondata, sheet) {
     //EXTRA: linkcolumn
     if (linktable) {
         let DTcolumn = {
-            "title": "#"+linktable,
+            "title": "#" + linktable,
             "className": 'linkcolumn',
             // "orderable": false,
             "defaultContent": '',
@@ -361,7 +369,7 @@ function makeDataTable(table, jsondata, sheet) {
             }
         }
         //type column
-        if (key == typeheader) {
+        if (key == linktype) {
             DTcolumn.render = function (data, type, row, meta) {
                 if (data) return '<div class="typeicon ' + data + '" title="' + data + '">' + data + '</div>'
             }
@@ -490,7 +498,7 @@ function makeDataTable(table, jsondata, sheet) {
             $(table).show(); //do here, otherwise dropdown <input> aren't generated...
             $('div#dt_loader').hide();
 
-            
+
 
             //FIXED TOOLTIPS on ID column
             //create tooltips
@@ -728,7 +736,7 @@ function formatTooltip(object) {
 
 // const exp_match = /(\b(https?|):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig; //find https?
 // function createHyperlinks(content) {
-//     // OPTION2: SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis    
+//     // OPTION2: SLIM ALTERNATIEF, mr voorlopig nog volledig url weergave, en $ teken loopt mis
 //     let element_content = content.replace(exp_match, "<a class='url' target='_blank' title='$1' href='$1'>$1</a>");
 //     let new_exp_match = /(^|[^\/])(www\.[\S]+(\b|$))/gim; //find www?
 //     let new_content = element_content.replace(new_exp_match, '$1<a class="url" title="http://$2" target="_blank" href="http://$2">$2</a>');
