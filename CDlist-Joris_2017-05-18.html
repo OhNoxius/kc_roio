@@ -1,0 +1,67 @@
+<!--<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>KC ROIO</title>
+	<meta name="KC ROIO" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="sheets2web.JSON/css/favicon.ico" type="image/x-icon" />
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-- DATATABLES (fixedHeader) -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.datatables.net/v/dt/dt-1.11.2/fh-3.1.9/datatables.min.css" />
+	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.2/fh-3.1.9/datatables.min.js"></script>
+	<!-- TOOLTIPSTER -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css"
+		integrity="sha512-RwhQzi0EhwZ9hHs18SqM7ICqW/MH/B17PouhdCuzaUQYEdx2S4WPgkhLeZPvGr2Kb1FIm4gaIbMJGwZtxDCLQA=="
+		crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js"
+		integrity="sha512-ZKNW/Nk1v5trnyKMNuZ6kjL5aCM0kUATbpnWJLPSHFk/5FxnvF9XmpmjGbag6BEgmXiz7rL6o6uJF6InthyTSg=="
+		crossorigin="anonymous"></script>
+	<!-- ANCHORME -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/anchorme/2.1.2/anchorme.min.js"
+		integrity="sha512-pzjbnnM49wKywLKQ3LKF5i6gvkl5Ye53LR76MfhBNdF+GvRFeYksfnSPaIunkTpf3HpIhUh54PRxT7McroTIBw=="
+		crossorigin="anonymous"></script>
+	<!-- Balloon.css -->
+	<link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+
+	<!-- sheets2web.JSON HELPER FUNCTIONS -->
+	<script src="sheets2web.JSON/helper functions/lastUpdated.js"></script>
+	<!-- sheets2web.JSON -->
+	<link rel="stylesheet" href="sheets2web.JSON/css/sheets2web.css" />
+	<script src="sheets2web.JSON/sheets2web.js"></script>
+
+	<!-- CUSTOM -->
+	<link rel="stylesheet" href="css/kc_roio.css" />
+
+	<script>
+		//set source .xml filename
+		const datafile = "CDlist-Joris-18 05 2017.json";
+		//set header title to display above table
+		const headertitle = "CDlist-Joris-18 05 2017";
+		//set drive link to display next to header title
+		//let editlink = "https://docs.google.com/spreadsheets/d/1gTCRmbPqV-EL3g4KG7JdGnbVH5xIQvu0xcCTb7-JzKE/edit?usp=sharing";
+		//choose character that will be used to separate content inside cells
+		const delimiter = "-";
+		//const typeheader = "type";
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="heading"></div>
+		<div id="status"></div>
+		<div id="activity"></div>
+	</header>
+	<section id="database">
+		<table id="fixedtable" class="hover row-border" width="100%" style="display:none"></table>
+		<div id="dt_loader" class="spinner"></div>
+	</section>
+</body>
+
+</html>
