@@ -480,7 +480,7 @@ function makeDataTable(table, jsondata, sheet) {
                         mergeDOM = document.createElement("p");
                         mergeDOM.classList.add("subdetails");
                         if (mergecolumn.type === ":") mergeDOM.innerHTML = "<span class='inlinedetails'>" + mergecolumn.cat.substring(mergecolumn.cat.indexOf(":") + 1) + ": " + "</span>";
-                    }                    
+                    }
                     if (typeof (catdata) === "string") {
                         mergeDOM.innerHTML += anchorme({
                             input: catdata,
@@ -561,8 +561,8 @@ function makeDataTable(table, jsondata, sheet) {
                         const DTcolumnArray = column.data().unique().toArray();
                         //console.log(DTcolumnArray);
                         let ARR;
-                        if (Array.isArray(DTcolumnArray[0])) ARR = DTcolumnArray.flat().sort();
-                        else ARR = DTcolumnArray.sort();
+                        if (Array.isArray(DTcolumnArray[0])) ARR = DTcolumnArray.flat();//.sort();
+                        else ARR = DTcolumnArray;//.sort();
 
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
                         let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
