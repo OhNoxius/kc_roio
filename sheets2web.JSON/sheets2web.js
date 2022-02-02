@@ -567,7 +567,7 @@ function makeDataTable(table, jsondata, sheet) {
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
                         let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
                         //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "("); //uses lookbehind
-                        ARRstring1delim = ARRstring1delim.replace(nospacebrack, "$&" + delimiter); //no lookbehind, just include matched character again                     
+                        ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "$&"); //no lookbehind, just include matched character again                     
                         ARR = ARRstring1delim.split(delimiter);
                         let SET = new Set();
                         const ARRlen = ARR.length;
