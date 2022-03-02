@@ -735,7 +735,7 @@ function formatTooltip(object) {
     const linkKeyIdx = props.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) props.splice(linkKeyIdx, 1);
     for (let i = 1; i < props.length; i++) {
-        if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme(object[props[i]].toString()) + "</li>"));
+        if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>"));
     }
     return result;
 }
