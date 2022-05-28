@@ -521,13 +521,17 @@ function makeDataTable(table, jsondata, sheet) {
                 headerfilters_row.setAttribute("class", "columnfilters");
                 table.getElementsByTagName("thead")[0].append(headerfilters_row);
                 document.getElementById("LOOKAHERE").setAttribute("colspan", columns.length);
+                
                 //COLUMN FILTERS
                 this.api().columns(':visible').every(function () {
                     const column = this;
                     const jqth = column.header();
                     const jqthisfilter = $(table).find('thead > tr.columnfilters > th').eq(column.index('visible'));
 
-                    jqthisfilter.empty();
+                    jqthisfilter.empty(); //empty cell
+                    while (jqthisfilter.get(0).attributes.length > 0) //remove attributes
+                        jqthisfilter.get(0).removeAttribute(jqthisfilter.get(0).attributes[0].name);
+                        
                     if (jqth.classList.contains("IDcolumn")) {
                         //$("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
                     }
