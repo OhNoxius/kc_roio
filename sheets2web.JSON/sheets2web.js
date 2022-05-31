@@ -269,7 +269,7 @@ function makeDataTable(table, jsondata, sheet) {
     //EXTRA: linkcolumn
     if (linktable) {
         let DTcolumn = {
-            "title": "#" + linktable,
+            "title": linktable,
             "className": 'linkcolumn',
             // "orderable": false,
             "defaultContent": '',
