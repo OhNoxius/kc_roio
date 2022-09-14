@@ -1,0 +1,11 @@
+table.dataTable tbody td.linkcolumn,
+table.dataTable thead th.linkcolumn {
+    text-align: right;
+    width: 0%;
+
+/*CHILD TABLE */
+table.dataTable tbody tr.child>td.child {
+    font-size: 90%;
+
+
+Linkcolumn text: SMALLER 80% ofzo
