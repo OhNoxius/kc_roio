@@ -5,7 +5,8 @@
 body {
     font-family: Roboto, Helvetica, -apple-system, Sans-Serif;
     -webkit-font-smoothing: antialiased;
-    font-size: 90%;
+    font-size: 80%;
+    /* hyphens: none; */
     /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
     line-height: 1.5;
     margin: 0;
@@ -17,8 +18,15 @@ body {
 }
 
 #navfooter {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
+    height: 100%;
+    float: right;
+}
+#navfooter>ul {
+    height: 100%;
+    margin: 0;
+    vertical-align: bottom
 }
 
 .nowrap {
@@ -45,6 +53,14 @@ header {
 /*} */
 section#database {
     grid-row-start: 2;
+}
+
+html>body>div.dtfh-floatingparentfoot {
+    height: 1.5rem !important;
+}
+
+html>body>div.dtfh-floatingparentfoot>table {
+    height: 100%;
 }
 
 /*TEXT*/
@@ -107,14 +123,24 @@ li.tab {
     list-style: none;
     float: left;
     padding: 0;
+    display: inline-flex;
+    vertical-align: bottom;
 }
 
 a.tab {
-    padding: 4px 5px;
+    padding: 5px 10px;
     text-decoration: none;
-    color: #222;
-    background-color: #ddd;
-    border: solid 1px #bbb;
+    margin-left: 2px;
+    color: white;
+    background-color: #f69c55;
+    /* border: solid 0px white; */
+    border-radius: 0.8em 0.8em 0 0;
+}
+
+th#LOOKAHERE {
+    padding: 0;
+    margin: 0;
+    background: rgb(226, 231, 235);
 }
 
 /*TABLES general*/
@@ -123,19 +149,42 @@ td {
     white-space: pre-wrap;
 }
 
-table.dataTable tbody td.linkcolumn,
-table.dataTable thead th.linkcolumn {
-    text-align: right;
-    width: 0%;
-    /* padding: 2px; */
+table.dataTable tbody td.LINKcol,
+table.dataTable thead th.LINKcol {
+    text-align: left;
+    padding-left: 0px !important;
     font-size: 0.9em;
     color: forestgreen;
     white-space: normal;
+    vertical-align: middle;
+    border-right: 1px lightgray dotted;
+}
+
+table.dataTable tbody td.IDcol,
+table.dataTable thead th.IDcol {
+    width: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* !important; really removes the column! */
 }
 
 table.dataTable tbody th,
 table.dataTable tbody td {
-    padding: 20px 8px;
+    padding: 30px 8px;
+    vertical-align: text-top;
+}
+table.rowheaders>tbody>tr>td {
+    padding-top: 50px;
+}
+td.soften{
+    font-size: 85%;
+    font-style: italic;
+    white-space: normal;
+}
+table.dataTable tbody td.middle{
+    vertical-align: middle;
+    white-space: pre-line;
+    /* border-right: 1px lightgray dotted; */
 }
 
 /*FIXED TABLE*/
@@ -143,11 +192,11 @@ tr.columnfilters th {
     background-color: rgb(226, 231, 235);
     box-shadow: 0 0 3em 0.1em rgb(226, 231, 235);
     position: relative;
+    z-index: 1;
 }
 
 /*CHILD TABLE */
 table.dataTable tbody tr.child>td.child {
-    font-size: 90%;
     padding: 0;
     white-space: normal;
 }
@@ -197,17 +246,22 @@ input.headersearch {
     font-size: 0.9rem;
 }
 
-td.details-control {
-    background: url('../css/details_open.png') no-repeat center center;
+table.dataTable tbody td.plus-ctrl{
     cursor: pointer;
+    background: url('../css/details_open.png') no-repeat center center content-box;
+}
+table.dataTable tbody tr.shown td.plus-ctrl{
+    background: url('../css/details_close.png') no-repeat center center content-box;
 }
 
-tr.shown td.details-control {
-    background: url('../css/details_close.png') no-repeat center center;
+table.dataTable tbody td.arrow-ctrl {
+    cursor: pointer;
+    /* width: 0px; */
+    padding: 0px;
+    background: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg') no-repeat top center;
 }
-
-table.rowheaders tbody tr td.details-control {
-    background-position-y: calc(50% + 8px);
+table.dataTable tbody tr.shown td-arrow-ctrl {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg') no-repeat bottom center;
 }
 
 /* DataTables OVERRIDE */
@@ -242,29 +296,25 @@ div.dataTables_wrapper div.dataTables_processing {
     position: relative !important;
 } */
 
-table.rowheaders>tbody>tr>td {
-    padding-top: 40px;
-}
-
 .tipdiv {
-    /*position: absolute !important;*/
-    /* top: 28px; */
-    /* left: 2px; */
-    --balloon-color: rgba(197, 197, 197, 0);
-    --balloon-font-size: 1.0rem;
-    --balloon-text-color: black;
-    /* width: 0; */
+    --balloon-color:rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
+    --balloon-font-size: 0.95rem;
+    --balloon-text-color: #020c24; /*black;*/
 }
 
 
 [aria-label][data-balloon-pos]:after {
     font-weight: bold !important;
     font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;
-    padding: 0.1em 0px 0.1em 0.5em !important;
-    letter-spacing: 0.03rem;
+    font-style: italic;
+    line-height: 0.6lh;
+    text-indent: 0.1em;
+    /* padding: 1em 0px 0.2em 0em !important; */
+    /* padding: .5em 20px; */
+    letter-spacing: 0.02rem;
     z-index: 0 !important;
     margin: -22px 0px !important;
-    width: calc(100vw - 20px - 0.5em);
+    /* width: calc(100vw - 20px - 0.5em); */
     /* width: -moz-available;
         width: -webkit-fill-available;
         width: fill-available; */
