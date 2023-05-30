@@ -1,0 +1,55 @@
+header {
+    /* background-image: url("https://ds.static.rtbf.be/article/image/1920xAuto/b/3/5/92a08bf918f44ccd961477be30023da1-1662795021.jpg"); */
+    /* background-position-y: 36%; */
+    /* background-size: cover; */
+
+    background: url("http://www.maisondujazz.be/images/interface_04-03.png"), rgb(10,20,30,40%);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+    
+header div h1 {
+    color: yellow;
+}
+body {
+    grid-template-rows: 100px auto;
+}
+
+.typeicon {
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: right 15px bottom 0px;
+    /*background-position: left bottom; /*calc(100% - 20px) bottom;*/
+    background-origin: content-box;
+    height: 28px;
+    position: relative;
+    /* makes cssnumber move to right corner */
+    padding: 1px;
+}
+
+.cssnumbers {
+    font-size: 0.8rem;
+    background-color: lightseagreen;
+    width: fit-content;
+    /* line-height: 0.95rem; */
+    /* text-align: center; */
+    color: #fff;
+    border-radius: 15px;
+    /* position: relative; */
+    left: 24px;
+    /*-0.5ex;*/
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.7ex;
+}
+
+.typeicon.video {
+    background-image: url(video_icon.png);
+    color: transparent;
+    font-size: 0;
+}
+
+.typeicon.audio {
+    background-image: url(audio_icon.png);
+    color: transparent;
+    font-size: 0;
+}
