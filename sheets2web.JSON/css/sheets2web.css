@@ -151,7 +151,8 @@ td {
 
 table.dataTable tbody td.LINKcol,
 table.dataTable thead th.LINKcol {
-    text-align: left;
+    text-align: right;
+    width: 0%;
     padding-left: 0px !important;
     font-size: 0.9em;
     color: forestgreen;
@@ -197,6 +198,7 @@ tr.columnfilters th {
 
 /*CHILD TABLE */
 table.dataTable tbody tr.child>td.child {
+    font-size: 90%;
     padding: 0;
     white-space: normal;
 }

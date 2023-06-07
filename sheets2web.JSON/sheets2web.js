@@ -238,7 +238,7 @@ function makeDataTable(table, jsondata, sheet) {
                 cell.setAttribute('data-balloon-pos', 'up-left');
 
                 if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
-            }            
+            }
         },
         "cellIndex": startIndex
     }
@@ -251,7 +251,7 @@ function makeDataTable(table, jsondata, sheet) {
     if (maintableKeys.indexOf(linktable) == -1) {
         if (linktable) {
             let DTcolumn = {
-                "width":'0px', //makes width fit content!
+                "width": '0px', //makes width fit content!
                 "title": linktable,
                 "className": 'LINKcol',
                 // "orderable": false,
@@ -259,7 +259,7 @@ function makeDataTable(table, jsondata, sheet) {
                 "data": "LINKIDXS",
                 "render": function (data, type, rowData, meta) {
                     return data?.length
-                },                
+                },
                 "cellIndex": startIndex
             };
             if (linktable_types.size > 0) {
@@ -292,7 +292,8 @@ function makeDataTable(table, jsondata, sheet) {
         keyIdx = 1;
         columns[0].data = maintableKeys[0];
     }
-    startIndex = startIndex - keyIdx;
+    startIndex = startIndex - keyIdx; //DO I STILL NEED THIS?
+
     while (keyIdx < maintableKeys.length) {
         //1. datatables column element
         const key = maintableKeys[keyIdx].replace(/\./g, '\\\\.');
