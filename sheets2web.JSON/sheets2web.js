@@ -10,11 +10,14 @@ let SHEETS, MAINSHEET, LINKSHEET;
 let MAINSHEET_keys = [], LINKSHEET_keys = []
 let LINKSHEET_types = new Set();
 
-//const delims = /([:\r\n]+)|((?<!\s)\()/g ///([:+\r\n]+)|((?<!\s)\()/g //BREAKS SAFARI!!!!!!!!
-const delims = /([:\r\n]+)/g
+const delims = /([;:\r\n]+)/g
+const trimdelim = /((?<!\s)\()|$/ //not global => to trim
+const delimsNC = /(?:[;:?\r\n]+)|(?:(?<!\s)\()/g //includes "?" as delimiter (non capturing)
 const nospacebrack = /((?<=[^\s\\])\()/g
 const charBeforeBrack = /[^\s\\](?=\()/g
-
+//const delims = /([:\r\n]+)|((?<=[^\s\\])\()/g
+//const delims = /([:\r\n]+)|((?<!\s)\()/g ///([:+\r\n]+)|((?<!\s)\()/g //BROKE SAFARI!!!!!!!!
+//old school
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -307,6 +310,7 @@ function makeDataTable(table, jsondata, sheet) {
         if (SHEETS.includes(key)) {
             //createdCell
             DTcolumn.createdCell = function (td, cellData, rowData, rowIndex, colIndex) {
+                //OR USE BALLOON.CSS instead of Tooltipster?? for performance
                 $(td).find('span.linktip').tooltipster({
                     functionBefore: function (instance, helper) {
                         const textContent = helper.origin.textContent;
@@ -320,14 +324,14 @@ function makeDataTable(table, jsondata, sheet) {
             //render
             if (Array.isArray(jsondata[0][key])) {
                 DTcolumn.render = function (data, type, row, meta) {
-                    let result = "";
-                    let i = 0, len = data.length;
-                    //SPLIT UP MORE? ":" and "\n" and brackets without space...
-                    while (i < len) {
-                        result += '<span class="linktip">' + data[i] + '</span>' + "; ";
-                        i++;
+                    //FOR NOW, until all the data is already split in json/xml, I join the Array to a string again, and split it up with the extra delimiters
+                    data = data.join(";").split(delims);
+                    let i = 0, len = data.length, result = "";
+                    while (i < len-2) {
+                        result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' + data[i + 1] + '</span>'; //trimdelim for cutting of instrument brackets
+                        i += 2;
                     }
-                    return result.substring(0, result.length - 2)
+                    return result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' //last one without delimiter span
                 }
             }
             else DTcolumn.render = function (data, type, row, meta) {
@@ -580,10 +584,13 @@ function makeDataTable(table, jsondata, sheet) {
                         else ARR = DTcolumnArray;//.sort();
 
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
-                        let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
+                        //let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
+                        //ARR = ARRstring1delim.split(delimiter);
+                        //old school
                         //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "("); //uses lookbehind
-                        ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "$&"); //no lookbehind, just include matched character again                     
-                        ARR = ARRstring1delim.split(delimiter);
+                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "$&"); //no lookbehind, just include matched character again 
+                        
+                        ARR = ARR.join(";").split(delimsNC);
                         let SET = new Set();
                         const ARRlen = ARR.length;
                         //console.log(jqth.innerText + ": " + ARRlen); //up to 40.000 musicians!
