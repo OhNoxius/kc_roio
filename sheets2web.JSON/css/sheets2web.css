@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Roboto, Helvetica, -apple-system, Sans-Serif;
+    font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif;
     -webkit-font-smoothing: antialiased;
     font-size: 80%;
     /* hyphens: none; */
@@ -299,9 +299,9 @@ div.dataTables_wrapper div.dataTables_processing {
 } */
 
 .tipdiv {
-    --balloon-color:rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
+    --balloon-color:lightgrey;/*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
     --balloon-font-size: 0.95rem;
-    --balloon-text-color: #020c24; /*black;*/
+    --balloon-text-color: white;/*#020c24; /*black;*/
 }
 
 
@@ -310,10 +310,10 @@ div.dataTables_wrapper div.dataTables_processing {
     font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;
     font-style: italic;
     line-height: 0.6lh;
-    text-indent: 0.1em;
+    text-indent: 30px;/*0.1em;*/
     /* padding: 1em 0px 0.2em 0em !important; */
     /* padding: .5em 20px; */
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.01rem;
     z-index: 0 !important;
     margin: -22px 0px !important;
     /* width: calc(100vw - 20px - 0.5em); */
