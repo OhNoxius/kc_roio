@@ -18,6 +18,9 @@ const charBeforeBrack = /[^\s\\](?=\()/g
 //const delims = /([:\r\n]+)|((?<=[^\s\\])\()/g
 //const delims = /([:\r\n]+)|((?<!\s)\()/g ///([:+\r\n]+)|((?<!\s)\()/g //BROKE SAFARI!!!!!!!!
 //old school
+let jidx = 0, lidx = 0;
+let keyIdx = new Map();
+let keyPrev = new Map();
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -50,9 +53,83 @@ document.addEventListener('DOMContentLoaded', function () {
             //1. identify important nodes
             SHEETS = Object.keys(jason);
             MAINSHEET = SHEETS[0];
-            LINKSHEET = SHEETS.find(e => e.startsWith("+"));
+            LINKSHEET = SHEETS.find(e => e.startsWith("+"));        
             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
-            if (LINKSHEET) LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+            /////////////// ORRRRRRRRRRRRRRRRRRRRRRRRRR NOT
+            //let jlen = Object.keys(jason[MAINSHEET]).length, j = 0, imax = -Infinity;
+            // while (j < jlen) {
+            //     let jkeys = Object.keys(jason[MAINSHEET][j]);
+            //     let jkeyslen = jkeys.length;
+
+            //     //k = 0 first key
+            //     if (!keyIdx.get(jkeys[0]) > 0) {
+            //         keyIdx.set(jkeys[0], 0);
+            //         //keyPrev.set(jkeys[1], jkeys[0]);
+            //     }
+            //     let k = 1;
+            //     //k > 0 other keys
+            //     while (k < jkeyslen) {
+            //         //keyIdx
+            //         if (keyIdx.has(jkeys[k])) {
+            //             if (k > keyIdx.get(jkeys[k])) {
+            //                 keyIdx.set(jkeys[k], k);
+            //             }
+            //         }
+            //         else {
+            //             keyIdx.set(jkeys[k], k);
+            //         }
+            //         //keyPrev
+            //         if (keyPrev.has(jkeys[k])) {
+            //             if (keyIdx.get(jkeys[k - 1]) > keyIdx.get(keyPrev.get(jkeys[k]))) {
+            //                 keyPrev.set(jkeys[k], jkeys[k - 1]);
+            //             }
+            //         }
+            //         else {
+            //             keyPrev.set(jkeys[k], jkeys[k - 1]);
+            //         }
+            //         k++;
+            //     }
+            //     // k last key
+            //     // if (keyIdx.has(jkeys[k])) {
+            //     //     if (jkeyslen > keyIdx.get(jkeys[jkeyslen])) keyIdx.set(jkeys[jkeyslen], jkeyslen);
+            //     // }
+            //     // else keyIdx.set(jkeys[jkeyslen], jkeyslen);
+            //     //if (!MAINSHEET_keys.slice(j).includes(jkeys[j])) MAINSHEET_keys.splice(j + 1, 0, jkeys[j])
+            //     j++
+            // }
+
+            // MAINSHEET_keys = []; //new Array(keyIdx.size);
+            // for (const [key, value] of keyIdx) {
+            //     if (typeof MAINSHEET_keys[value] === "undefined") {
+            //         MAINSHEET_keys.splice(value, 0, key);
+            //         keyPrev.delete(key);
+            //     }
+            // }
+            // console.log(MAINSHEET_keys);
+            // let keyPrevSorted = new Array(keyIdx.size);
+            // for (const [key, value] of keyPrev) {
+            //     keyPrevSorted[keyIdx.get(key)] = key;
+            // }
+            // console.log(keyPrevSorted);
+            // for (const key of keyPrevSorted) {
+            //     if (!(typeof key === "undefined")) MAINSHEET_keys.splice(MAINSHEET_keys.indexOf(keyPrev.get(key)) + 1, 0, key);
+            // }
+            // console.log(MAINSHEET_keys);
+
+            if (LINKSHEET) {
+                LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+                //find longest Object and create keys
+                // jlen = Object.keys(jason[LINKSHEET]).length, i = 0, imax = -Infinity;
+                // while (i < jlen) {
+                //     let ilen = Object.keys(jason[LINKSHEET][i]).length;
+                //     if (ilen > imax) {
+                //         imax = ilen;
+                //         lidx = i;
+                //     }
+                //     i++;
+                // }
+                // LINKSHEET_keys = Object.keys(jason[LINKSHEET][lidx]);
+            }
             else LINKSHEET_keys = [];
 
             //CREATE NAVIGATION FOOTER
@@ -74,9 +151,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function makeDataTable(table, jsondata, sheet) {
 
-    const maintableKeys = Object.keys(jsondata[0]);
+    const maintableKeys = Object.keys(jsondata[jidx]);
     //OPTIONAL: remove rows with empty 1st column
-    jsondata = jsondata.filter(x => x[maintableKeys[0]] != null && x[maintableKeys[0]] != ""); //logical AND?? but this work, OR doesn't
+    jsondata = jsondata.filter(x => x[maintableKeys[0]] != null || x[maintableKeys[0]] != "");
 
     const maintable = sheet;
     let linktable;
@@ -322,16 +399,18 @@ function makeDataTable(table, jsondata, sheet) {
                 });
             };
             //render
-            if (Array.isArray(jsondata[0][key])) {
+            if (Array.isArray(jsondata[jidx][key])) {
                 DTcolumn.render = function (data, type, row, meta) {
                     //FOR NOW, until all the data is already split in json/xml, I join the Array to a string again, and split it up with the extra delimiters
-                    data = data.join(";").split(delims);
-                    let i = 0, len = data.length, result = "";
-                    while (i < len-2) {
-                        result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' + data[i + 1] + '</span>'; //trimdelim for cutting of instrument brackets
-                        i += 2;
+                    if (data) {
+                        data = data.join(";").split(delims);
+                        let i = 0, len = data.length, result = "";
+                        while (i < len - 2) {
+                            result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' + data[i + 1] + '</span>'; //trimdelim for cutting of instrument brackets
+                            i += 2;
+                        }
+                        return result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' //last one without delimiter span
                     }
-                    return result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' //last one without delimiter span
                 }
             }
             else DTcolumn.render = function (data, type, row, meta) {
@@ -589,7 +668,7 @@ function makeDataTable(table, jsondata, sheet) {
                         //old school
                         //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "("); //uses lookbehind
                         //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "$&"); //no lookbehind, just include matched character again 
-                        
+
                         ARR = ARR.join(";").split(delimsNC);
                         let SET = new Set();
                         const ARRlen = ARR.length;
