@@ -76,7 +76,7 @@ function makeDataTable(table, jsondata, sheet) {
 
     const maintableKeys = Object.keys(jsondata[0]);
     //OPTIONAL: remove rows with empty 1st column
-    jsondata = jsondata.filter(x => x[maintableKeys[0]] != null || x[maintableKeys[0]] != "");
+    jsondata = jsondata.filter(x => x[maintableKeys[0]] != null && x[maintableKeys[0]] != ""); //logical AND?? but this work, OR doesn't
 
     const maintable = sheet;
     let linktable;
