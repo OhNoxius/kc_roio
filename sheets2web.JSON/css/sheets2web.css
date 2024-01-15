@@ -1,9 +1,18 @@
 :root {
     --rowheader-width: 20px;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
 }
 
 body {
-    font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif;
+    /* font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif; */
     -webkit-font-smoothing: antialiased;
     font-size: 80%;
     /* hyphens: none; */
@@ -23,6 +32,7 @@ body {
     height: 100%;
     float: right;
 }
+
 #navfooter>ul {
     height: 100%;
     margin: 0;
@@ -174,15 +184,18 @@ table.dataTable tbody td {
     padding: 30px 8px;
     vertical-align: text-top;
 }
+
 table.rowheaders>tbody>tr>td {
     padding-top: 50px;
 }
-td.soften{
+
+td.soften {
     font-size: 85%;
     font-style: italic;
     white-space: normal;
 }
-table.dataTable tbody td.middle{
+
+table.dataTable tbody td.middle {
     vertical-align: middle;
     white-space: pre-line;
     /* border-right: 1px lightgray dotted; */
@@ -248,11 +261,12 @@ input.headersearch {
     font-size: 0.9rem;
 }
 
-table.dataTable tbody td.plus-ctrl{
+table.dataTable tbody td.plus-ctrl {
     cursor: pointer;
     background: url('../css/details_open.png') no-repeat center center content-box;
 }
-table.dataTable tbody tr.shown td.plus-ctrl{
+
+table.dataTable tbody tr.shown td.plus-ctrl {
     background: url('../css/details_close.png') no-repeat center center content-box;
 }
 
@@ -262,6 +276,7 @@ table.dataTable tbody td.arrow-ctrl {
     padding: 0px;
     background: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg') no-repeat top center;
 }
+
 table.dataTable tbody tr.shown td-arrow-ctrl {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg') no-repeat bottom center;
 }
@@ -299,18 +314,21 @@ div.dataTables_wrapper div.dataTables_processing {
 } */
 
 .tipdiv {
-    --balloon-color:lightgrey;/*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
+    --balloon-color: lightgrey;
+    /*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
     --balloon-font-size: 0.95rem;
-    --balloon-text-color: white;/*#020c24; /*black;*/
+    --balloon-text-color: white;
+    /*#020c24; /*black;*/
 }
 
 
 [aria-label][data-balloon-pos]:after {
     font-weight: bold !important;
-    font-family: Roboto, Helvetica, -apple-system, Sans-Serif !important;
+    font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif;
     font-style: italic;
     line-height: 0.6lh;
-    text-indent: 30px;/*0.1em;*/
+    text-indent: 30px;
+    /*0.1em;*/
     /* padding: 1em 0px 0.2em 0em !important; */
     /* padding: .5em 20px; */
     letter-spacing: 0.01rem;

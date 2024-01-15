@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             //1. identify important nodes
             SHEETS = Object.keys(jason);
             MAINSHEET = SHEETS[0];
-            LINKSHEET = SHEETS.find(e => e.startsWith("+"));
+            LINKSHEET = SHEETS.find(e => e.startsWith("+"));        
             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
             /////////////// ORRRRRRRRRRRRRRRRRRRRRRRRRR NOT
             //let jlen = Object.keys(jason[MAINSHEET]).length, j = 0, imax = -Infinity;
