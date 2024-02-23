@@ -181,7 +181,7 @@ table.dataTable thead th.IDcol {
 
 table.dataTable tbody th,
 table.dataTable tbody td {
-    padding: 30px 8px 25px 8px;
+    padding: 28px 8px 22px 8px;
     /* vertical-align: text-top; */
 }
 
@@ -314,8 +314,7 @@ div.dataTables_wrapper div.dataTables_processing {
 } */
 
 .tipdiv {
-    --balloon-color: rgba(209, 209, 209, 0.508);
-    lightgrey;
+    --balloon-color: linear-gradient(0deg, transparent 0%, rgba(209, 209, 209, 0.508));
     /*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
     --balloon-font-size: 0.90rem;
     --balloon-text-color: darkgoldenrod;
