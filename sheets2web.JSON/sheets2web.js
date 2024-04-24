@@ -1,6 +1,6 @@
 //DON'T TOUCH
 let linkMap = new Map();
-let fixedtable, dfixedtable, jqfixedtable;
+let fixedtable, dfixedtable;
 let fixedthead, fixedtbody, fixedtfoot;
 let fixedfooter_row;
 let linktype;
@@ -27,24 +27,23 @@ document.addEventListener('DOMContentLoaded', function () {
     //HEADING
     const heading = document.createElement("h1");
     const heading_a = document.createElement("a");
-    try { heading_a.innerText = headertitle; }
-    catch (e) { heading_a.innerText = datafile; }
-    try { linktype = typeheader; }
+    try { heading_a.innerText = s2w_heading; }
+    catch (e) { heading_a.innerText = s2w_datafile; }
+    try { linktype = s2w_typeheader; }
     catch (e) { linktype = ""; }
     heading_a.setAttribute("href", "");
     heading_a.setAttribute("class", "heading");
     heading.append(heading_a);
     document.getElementById("heading").append(heading);
     //FILE UPDATED
-    lastUpdated(datafile, "activity");
+    lastUpdated(s2w_datafile, "activity");
 
     fixedtable = document.getElementById("fixedtable");
-    jqfixedtable = $(fixedtable);
     fixedthead = fixedtable.appendChild(document.createElement("thead"));
     fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
 
-    fetch(datafile)
+    fetch(s2w_datafile)
         .then(res => res.json())
         .then(json => {
             jason = json;
@@ -53,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             //1. identify important nodes
             SHEETS = Object.keys(jason);
             MAINSHEET = SHEETS[0];
-            LINKSHEET = SHEETS.find(e => e.startsWith("+"));        
+            LINKSHEET = SHEETS.find(e => e.startsWith("+"));
             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
             /////////////// ORRRRRRRRRRRRRRRRRRRRRRRRRR NOT
             //let jlen = Object.keys(jason[MAINSHEET]).length, j = 0, imax = -Infinity;
@@ -142,8 +141,9 @@ document.addEventListener('DOMContentLoaded', function () {
             fixedfooter_row.append(th);
             fixedtfoot.append(fixedfooter_row);
 
+            //FINAL CALL:
             //detect '#...' in url to choose initial sheet
-            const url = window.location.href.substr(window.location.href.indexOf("#") + 1);
+            const url = window.location.href.substring(window.location.href.indexOf("#") + 1);
             if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
         })
@@ -169,8 +169,8 @@ function makeDataTable(table, jsondata, sheet) {
     else if (LINKSHEET_keys.includes(sheet)) linktable = LINKSHEET;
 
     let linktable_types = new Set();
-    // try { jason[linktable].forEach(x => linktable_types.add(x[typeheader])); }
-    // catch (e) { console.log("no typeheader"); }
+    // try { jason[linktable].forEach(x => linktable_types.add(x[s2w_typeheader])); }
+    // catch (e) { console.log("no s2w_typeheader"); }
     if (linktype) jason[linktable].forEach(x => (x[linktype] instanceof Array) ? linktable_types.add(x[linktype][0]) : linktable_types.add(x[linktype]));
     [null, undefined, ""].forEach(Set.prototype.delete, linktable_types);
     // linktable_types.delete(null);
@@ -178,42 +178,43 @@ function makeDataTable(table, jsondata, sheet) {
     // linktable_types.delete("");
 
     //LOG    
-    console.log("create new DataTable from table#id = '" + table.getAttribute("id") + "'");
+    console.log("create new DataTable from table#id = '" + table.id + "'");
     //console.log(linktable_types);
     //console.log(table.getAttribute("id").substr(0, table.getAttribute("id").indexOf(":")));
-    const parenttable = table.getAttribute("id").substr(0, table.getAttribute("id").indexOf(":"));
+    const parenttable = table.id.substr(0, table.getAttribute("id").indexOf(":"));
 
     //2. create Map() of mainsheet<->linksheet
     const linkKeyIdx = maintableKeys.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) maintableKeys.splice(linkKeyIdx, 1);
     else if (parenttable != linktable) {
         const linktableMap = new Map();
-        //OPTION 1
+        //OPTION 1: what usecase is this?
         if (maintable == LINKSHEET) {
             jason[MAINSHEET].forEach(function (MAINel, idx, arr) {
-                linktableMap.set(MAINel[MAINSHEET_keys[0]], idx);
+                linktableMap.set(MAINel[MAINSHEET_keys[0]].toLowerCase(), idx);
             });
             //console.log(linktableMap);
+            let MAINid_trim, MAINidx, obj;
             jsondata.forEach(function (LINKel, LINKidx, LINKarr) {
                 if (LINKel[MAINSHEET]) {
                     LINKel[MAINSHEET].split("\n").forEach(function (MAINid) {
-                        const MAINid_trim = MAINid.trim(); //POEH! Google Sheet can have hidden &#xD;
+                        MAINid_trim = MAINid.trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
                         //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
                         if (linktableMap.has(MAINid_trim)) {
-                            const MAINidx = linktableMap.get(MAINid_trim);
+                            MAINidx = linktableMap.get(MAINid_trim);
                             if (linktable_types.size > 0) {
-                                let MAINType = jason[MAINSHEET][MAINidx][linktype];//MAINel[typeheader];
+                                let MAINType = jason[MAINSHEET][MAINidx][linktype];//MAINel[s2w_typeheader];
                                 if (MAINType == null || MAINType == '') MAINType = linktable;
                                 if (LINKarr[LINKidx]["LINKIDXS"]) {
                                     if (LINKarr[LINKidx]["LINKIDXS"][MAINType]) LINKarr[LINKidx]["LINKIDXS"][MAINType].push(MAINidx);
                                     else {
-                                        const obj = LINKarr[LINKidx]["LINKIDXS"];
+                                        obj = LINKarr[LINKidx]["LINKIDXS"];
                                         obj[MAINType] = [MAINidx];
                                         LINKarr[LINKidx]["LINKIDXS"] = obj;
                                     }
                                 }
                                 else {
-                                    const obj = {};
+                                    obj = {};
                                     obj[MAINType] = [MAINidx];
                                     LINKarr[LINKidx]["LINKIDXS"] = obj; //{[MAINType] : [MAINidx]}
                                 }
@@ -235,36 +236,37 @@ function makeDataTable(table, jsondata, sheet) {
         else {
             //first create index from mainsheet
             jsondata.forEach(function (MAINel, idx, arr) {
-                linktableMap.set(MAINel[maintableKeys[0]], idx);
+                linktableMap.set(MAINel[maintableKeys[0]].toString().toLowerCase(), idx);
             });
             //then loop through linkedsheet ONCE, and add info into above Map
             if (LINKSHEET) {
+                let linkElArr;
                 jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
                     if (linkEl[maintable]) {
-                        let linkElArr;
                         if (Array.isArray(linkEl[maintable])) {
                             if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
                         }
                         else linkElArr = linkEl[maintable].split("\n");
                         if (linkElArr) {
+                            let linkid_trim, mainIdx, obj;
                             linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
-                                const linkid_trim = linkid.toString().trim(); //POEH! Google Sheet can have hidden &#xD;
+                                linkid_trim = linkid.toString().trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
                                 //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
                                 if (linktableMap.has(linkid_trim)) {
-                                    const mainIdx = linktableMap.get(linkid_trim);
+                                    mainIdx = linktableMap.get(linkid_trim);
                                     if (linktable_types.size > 0) {
                                         let linkType = linkEl[linktype];
                                         if (linkType == null || linkType == '') linkType = linktable;
                                         if (jsondata[mainIdx]["LINKIDXS"]) {
                                             if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
                                             else {
-                                                const obj = jsondata[mainIdx]["LINKIDXS"];
+                                                obj = jsondata[mainIdx]["LINKIDXS"];
                                                 obj[linkType] = [linkIdx];
                                                 jsondata[mainIdx]["LINKIDXS"] = obj;
                                             }
                                         }
                                         else {
-                                            const obj = {};
+                                            obj = {};
                                             obj[linkType] = [linkIdx];
                                             jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
                                         }
@@ -283,8 +285,9 @@ function makeDataTable(table, jsondata, sheet) {
                 });
             }
         }
+        //console.log(linktableMap);
     }
-    //console.log(linktableMap);
+
     //console.log(jsondata);
 
     //prepare HTML
@@ -317,7 +320,11 @@ function makeDataTable(table, jsondata, sheet) {
                 cell.setAttribute('aria-label', cellData);
                 cell.setAttribute('data-balloon-pos', 'up-left');
 
-                if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
+                //dropdown +/- 'button'
+                //if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
+
+                //copy ID <btn>
+                cell.innerHTML = `<button class="btn" data-clipboard-text="` + cellData + `"></button>`;
             }
         },
         "cellIndex": startIndex
@@ -340,7 +347,15 @@ function makeDataTable(table, jsondata, sheet) {
                 "render": function (data, type, rowData, meta) {
                     return data?.length
                 },
-                "cellIndex": startIndex
+                "cellIndex": startIndex,
+                "createdCell": function (cell, cellData, rowData, rowIndex, colIndex) {
+                    //balloon.css
+                    if (maintable != LINKSHEET) {
+
+                        //dropdown +/- 'button'
+                        if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
+                    }
+                }
             };
             if (linktable_types.size > 0) {
                 DTcolumn.render = function (data, type, rowData, meta) {
@@ -349,7 +364,7 @@ function makeDataTable(table, jsondata, sheet) {
                         const props = Object.getOwnPropertyNames(data);
                         const propslength = props.length;
                         for (let i = 0; i < propslength; i++) {
-                            innerhtml += '<div class="nowrap typeicon ' + props[i] + '" title="' + props[i] + '"> ' + props[i] + ':<span class="cssnumbers">' + data[props[i]].length + '</span></div > ';
+                            innerhtml += '<div class="nowrap typeicon ' + props[i] + '" title="' + props[i] + '"> ' + props[i] + ':<span class="typenum">' + data[props[i]].length + '</span></div > ';
                         }
                     }
                     return innerhtml
@@ -438,7 +453,7 @@ function makeDataTable(table, jsondata, sheet) {
         }
         //type column
         if (key == MAINSHEET) {
-            DTcolumn.className = "soften middle";
+            DTcolumn.className = "recognize";
         }
         else if (key == linktype) {
             // DTcolumn.className = "middle";
@@ -506,25 +521,31 @@ function makeDataTable(table, jsondata, sheet) {
     visIndex += 1;
     startIndex += 1;
 
-    let fixedHeader, dom, order;
-    if (maintable == LINKSHEET) order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
+    let dt_fixedHeader, dt_layout, dt_order;
+    if (maintable == LINKSHEET) dt_order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
     else order = [[0, 'asc']];//[[startIndex + 1, 'asc']];
 
     //set some DT options
     if (table.getAttribute("id") == "fixedtable") {
-        fixedHeader = {
+        dt_fixedHeader = {
             header: true,
             footer: true
         };
-        dom = "lfrti";
-        // const headerfilters_row = header_row.cloneNode(true);
-        // headerfilters_row.setAttribute("class", "columnfilters");
-        // table.getElementsByTagName("thead")[0].append(headerfilters_row);
-        // document.getElementById("LOOKAHERE").setAttribute("colspan", columns.length);
+        // dom = "lfrti";
+        dt_layout = {
+            // bottomStart: createNavFooter(SHEETS), //THIS IS NOT THE TABLE FOOTER!!! so doesn't stick
+            //bottomEnd: 'info'
+        };
     }
     else {
-        fixedHeader = false;
-        dom = "lfti";
+        dt_fixedHeader = false;
+        // dom = "lfti";
+        dt_layout = {
+            topStart: null,
+            topEnd: null,
+            bottomStart: null,
+            bottomEnd: 'info'
+        };
     }
 
     //if (visIndex > 8) fixedtable.classList.add("compact");
@@ -532,13 +553,13 @@ function makeDataTable(table, jsondata, sheet) {
     //DATATABLE    
     const dTable = $(table).DataTable({
         "data": jsondata,
+        "layout": dt_layout,
         "processing": true, //only works with Ajax?
-        "fixedHeader": fixedHeader,
+        "fixedHeader": dt_fixedHeader,
         "deferRender": true,
-        "dom": dom,
         "paging": false,
         "autoWidth": false,
-        "order": order,
+        "order": dt_order,
         "orderCellsTop": true,
         "columns": columns,
         "createdRow": function (row, data, dataIndex, cells) {
@@ -554,8 +575,9 @@ function makeDataTable(table, jsondata, sheet) {
             //OR ... do earlier in column.render (rowData is available there)
 
             //OR ... make formatting function based on 1st row, see how many mergers there are, where they should go and do for each row
+            let catdata;
             mergecolumns.forEach(function (mergecolumn, i) {
-                const catdata = data[mergecolumn.cat];
+                catdata = data[mergecolumn.cat];
                 if (catdata) {
                     let mergeDOM;
                     if (mergecolumn.type === "-") {
@@ -596,12 +618,15 @@ function makeDataTable(table, jsondata, sheet) {
         },
         //TAKES ALMOST 10 seconds!! ===>
         "initComplete": function () {
+            console.log("table#" + table.id + " DataTable: initComplete");
             $(table).show(); //do here, otherwise dropdown <input> aren't generated...
             $('div#dt_loader').hide();
 
             //FIXED TOOLTIPS on ID column
             //create tooltips
             //createTooltips(table);
+
+            new ClipboardJS('.btn');
 
             if (table.getAttribute("id") == "fixedtable") {
                 const headerfilters_row = header_row.cloneNode(true);
@@ -663,30 +688,39 @@ function makeDataTable(table, jsondata, sheet) {
                         else ARR = DTcolumnArray;//.sort();
 
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
-                        //let ARRstring1delim = ARR.join(delimiter).replace(delims, delimiter);
-                        //ARR = ARRstring1delim.split(delimiter);
+                        //let ARRstring1delim = ARR.join(s2w_delimiter).replace(delims, s2w_delimiter);
+                        //ARR = ARRstring1delim.split(s2w_delimiter);
                         //old school
-                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "("); //uses lookbehind
-                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, delimiter + "$&"); //no lookbehind, just include matched character again 
+                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, s2w_delimiter + "("); //uses lookbehind
+                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, s2w_delimiter + "$&"); //no lookbehind, just include matched character again 
 
                         ARR = ARR.join(";").split(delimsNC);
-                        let SET = new Set();
-                        const ARRlen = ARR.length;
+
+                        const MAP = new Map(ARR.map(s => [s.trim().toLowerCase(), s.trim()]));
+                        ARR = [...MAP.values()].sort();
+
+                        //let SET = new Set();
+                        //const ARRlen = ARR.length;
                         //console.log(jqth.innerText + ": " + ARRlen); //up to 40.000 musicians!
-                        for (let i = 0; i < ARRlen; i++) {
-                            SET.add(ARR[i].trim()); //exclude items that start with "(" ??
-                        }
+                        // for (let i = 0; i < ARRlen; i++) {
+                        //     SET.add(ARR[i].trim()); //exclude items that start with "(" ??
+                        // }
                         // ARR.forEach((o, i, a) => {
                         //     SET.add(a[i].trim()); //exclude items that start with "(" ??
                         //     //if (trima[trima.length-1] != ")") ;
                         // });
-                        ARR = [...SET].sort(); //or use map, which is automatically sorted?
+                        //ARR = [...SET].sort(); //or use map, which is automatically sorted?
+
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
 
                         //OPTION 1: HTML5 datalists
-                        let datalist = $('<datalist id="' + jqth.innerText + '-list"></datalist>').insertAfter($(input));
-                        ARR.forEach(function (val) {
-                            datalist.append('<option value="' + val + '" />')
+                        let jqdatalist = $('<datalist id="' + jqth.innerText + '-list"></datalist>').insertAfter($(input));
+                        let datalist = jqdatalist[0];
+                        let o;
+                        ARR.forEach(function (value) {
+                            o = document.createElement("option");
+                            o.setAttribute("value", value);
+                            datalist.appendChild(o);
                         });
                     }
                 });
@@ -696,14 +730,14 @@ function makeDataTable(table, jsondata, sheet) {
 
     //CHILDROW: details
     $(table).children('tbody').on('click', '> tr > td.LASTcol', function () {
-        const jqtr = $(this).closest('tr');
-        //const rowid = jqtr.attr("id");
+        //const tr = this.parentElement;
+        const jqtr = $(this.parentElement);
         const dRow = dTable.row(jqtr);
 
         if (dRow.child.isShown()) {
             // This row is already open - close it
             dRow.child.hide();
-            jqtr.removeClass('shown');
+            jqtr.removeClass('LASTshown');
         }
         else {
             // Open this row
@@ -714,7 +748,7 @@ function makeDataTable(table, jsondata, sheet) {
                 if (childcells.data()[i]) detailsTable += formatChildRows(childrowsHeaders[i], childcells.data()[i]);
             }
             if (detailsTable != "") {
-                detailsTable = '<table class="detailstable cell-border">' + detailsTable + '</table>';
+                detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
                 // detailsTableDOM = document.createElement('div');
                 // detailsTableDOM.innerHTML = detailsTable;
             }
@@ -724,21 +758,21 @@ function makeDataTable(table, jsondata, sheet) {
             //     childtr[0].prepend(document.createElement("td"));
             // });
 
-            jqtr.addClass('shown');
+            jqtr.addClass('LASTshown');
         }
     });
 
     //CHILDROW: linked elements
-    $(table).children('tbody').on('click', ' > tr > td.IDcol', function () {
-        const jqtr = $(this).closest('tr');
-        const rowid = jqtr.attr("id");
+    $(table).children('tbody').on('click', ' > tr > td.LINKcol', function () {
+        const tr = this.parentElement;
+        const jqtr = $(this.parentElement);
         const dRow = dTable.row(jqtr);
-        console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + jqtr.attr("id") + "'");
+        console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + tr.id + "'");
 
         if (dRow.child.isShown()) {
             // This row is already open - close it
             dRow.child.hide();
-            jqtr.removeClass('shown');
+            jqtr.removeClass('LINKshown');
         }
         else {
             // Open this row
@@ -755,16 +789,16 @@ function makeDataTable(table, jsondata, sheet) {
                 else linkedItems.push(...linkcellData.map((item) => jason[linktable][item]));
 
                 linkTableDOM = document.createElement('table');
-                linkTableDOM.setAttribute("id", rowid + "." + linktable);
-                linkTableDOM.setAttribute("class", "linktable cell-border"); //compact
+                linkTableDOM.setAttribute("id", tr.id + "." + linktable);
+                linkTableDOM.setAttribute("class", "linktable row-border"); //compact
                 linkTableDOM.innerHTML = '<thead></thead>' +
                     '<tbody></tbody>' +
                     '<tfoot></tfoot>';
             }
             dRow.child(linkTableDOM, "child").show();
-            if (linkcellData) makeDataTable(document.getElementById(rowid + "." + linktable), linkedItems, linktable);
+            if (linkcellData) makeDataTable(document.getElementById(tr.id + "." + linktable), linkedItems, linktable);
             //this.scrollIntoView(); //used to fix clicked line getting out of view, but now is not necessary anymore?
-            jqtr.addClass('shown');
+            jqtr.addClass('LINKshown');
         }
     });
 
@@ -807,12 +841,13 @@ function createNavFooter(sheets) {
     const navfooter = document.createElement("div");
     navfooter.setAttribute("id", "navfooter");
     const tabs_ul = document.createElement("ul");
+    let tab_li, tab_a;
     sheets.forEach(function (sheet) {
         if (sheet == LINKSHEET || MAINSHEET_keys.includes(sheet) || LINKSHEET_keys.includes(sheet)) {
-            const tab_li = document.createElement("li");
+            tab_li = document.createElement("li");
             tab_li.setAttribute("class", "menu tab");
             tabs_ul.append(tab_li);
-            const tab_a = document.createElement("a");
+            tab_a = document.createElement("a");
             tab_a.setAttribute("id", "btn-" + sheet);
             tab_a.setAttribute("class", "menu tab");
             tab_a.setAttribute("href", "#" + sheet);

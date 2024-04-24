@@ -14,7 +14,7 @@
 body {
     /* font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif; */
     -webkit-font-smoothing: antialiased;
-    font-size: 80%;
+    font-size: 72%;
     /* hyphens: none; */
     /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
     line-height: 1.5;
@@ -30,7 +30,7 @@ body {
     /* position: absolute;
     bottom: 0; */
     height: 100%;
-    float: right;
+    float: inline-end;
 }
 
 #navfooter>ul {
@@ -63,14 +63,6 @@ header {
 /*} */
 section#database {
     grid-row-start: 2;
-}
-
-html>body>div.dtfh-floatingparentfoot {
-    height: 1.5rem !important;
-}
-
-html>body>div.dtfh-floatingparentfoot>table {
-    height: 100%;
 }
 
 /*TEXT*/
@@ -147,12 +139,6 @@ a.tab {
     border-radius: 0.8em 0.8em 0 0;
 }
 
-th#LOOKAHERE {
-    padding: 0;
-    margin: 0;
-    background: rgb(226, 231, 235);
-}
-
 /*TABLES general*/
 th,
 td {
@@ -173,79 +159,86 @@ table.dataTable thead th.LINKcol {
 
 table.dataTable tbody td.IDcol,
 table.dataTable thead th.IDcol {
-    width: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    width: 0 !important;
+    padding: 0 !important;
+    /* padding-right: 0px;
+    padding-left: 4ex;
     /* !important; really removes the column! */
 }
 
-table.dataTable tbody th,
-table.dataTable tbody td {
+table.dataTable>tbody>tr>th,
+table.dataTable>tbody>tr>td {
     padding: 28px 8px 22px 8px;
-    /* vertical-align: text-top; */
+    vertical-align: text-top;
+    /* keeps copy button stuck on top! */
 }
 
-/* table.rowheaders>tbody>tr>td {
-    padding-top: 50px;
-} */
-
-td.soften {
+td.recognize {
     font-size: 85%;
     font-style: italic;
     white-space: normal;
-}
-
-table.dataTable tbody td.middle {
     vertical-align: middle;
     white-space: pre-line;
     /* border-right: 1px lightgray dotted; */
 }
 
 /*FIXED TABLE*/
-tr.columnfilters th {
+table.dataTable tr.columnfilters th {
     background-color: rgb(226, 231, 235);
     box-shadow: 0 0 3em 0.1em rgb(226, 231, 235);
     position: relative;
     z-index: 1;
-}
-
-/*CHILD TABLE */
-table.dataTable tbody tr.child>td.child {
-    font-size: 90%;
-    padding: 0;
-    white-space: normal;
-}
-
-tr.child>td.child table {
-    border-collapse: separate;
-    width: 100%;
-    margin: 0;
-}
-
-tr.child>td.child table.detailstable tr td {
-    padding: 6px 8px;
-    background-color: #ece8dc;
-}
-
-tr.child>td.child table.linktable tr th {
-    background-color: #ece8dc;
-}
-
-tr.child>td.child table.linktable tr td {
-    background-color: #faf7ed;
-    /*text-align: center;*/
-}
-
-table.dataTable tr.columnfilters>th {
     font-weight: normal;
     padding: 2px 5px;
     text-align: left;
     font-size: 0.9em;
 }
 
-table.dataTable tbody tr.child>td.child div.dataTables_wrapper {
+/*CHILD TABLE */
+tr.child>td.child {
+    font-size: 90%;
+    padding: 0 !important;
+    /* overrides padding of 'table.linktable tr td' padding */
+    white-space: normal;
+
+}
+
+tr.child>td.child table {
+    border-collapse: separate;
+    width: 100%;
+    margin: 0;
+    border-spacing: 2px;
+}
+
+tr.child>td.child table.detailstable>tbody>tr>td {
+    padding: 6px 8px;
     background-color: #ece8dc;
-    margin: 2px;
+    border: 0;
+    vertical-align: top;
+}
+
+tr.child>td.child table.detailstable>tbody>tr>td.detailsHeader {
+    text-align: right;
+}
+
+tr.child>td.child table.linktable tr th {
+    background-color: #ece8dc;
+    border: 0;
+}
+
+tr.child>td.child table.linktable tr td {
+    background-color: #faf7ed;
+    text-align: left;
+    border: 0;
+    padding: 12px 5px;
+}
+
+table.dataTable tbody tr.child>td.child div.dt-container {
+    background-color: #ece8dc;
+    /* margin-top: 5px; */
+    -webkit-box-shadow: inset 0px 20px 18px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 20px 18px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 7px 9px -7px rgba(0, 0, 0, 0.10);
 }
 
 td.detailsHeader {
@@ -261,27 +254,49 @@ input.headersearch {
     font-size: 0.9rem;
 }
 
-table.dataTable tbody td.plus-ctrl {
+td.plus-ctrl {
     cursor: pointer;
-    background: url('../css/details_open.png') no-repeat center center content-box;
+    /* background: url('../css/details_open.png') no-repeat center center content-box; */
+    background-image: url(../css/details_open.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: content-box;
 }
 
-table.dataTable tbody tr.shown td.plus-ctrl {
-    background: url('../css/details_close.png') no-repeat center center content-box;
+tr.LINKshown td.plus-ctrl {
+    /* background: url('../css/details_close.png') no-repeat center center content-box; makes background color fill padding?? */
+    background-image: url(../css/details_close.png);
 }
 
-table.dataTable tbody td.arrow-ctrl {
+td.arrow-ctrl {
     cursor: pointer;
     /* width: 0px; */
     padding: 0px;
     background: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg') no-repeat top center;
 }
 
-table.dataTable tbody tr.shown td-arrow-ctrl {
+tr.LASTshown td-arrow-ctrl {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg') no-repeat bottom center;
 }
 
 /* DataTables OVERRIDE */
+th#LOOKAHERE {
+    padding: 0;
+    margin: 0;
+    background: rgb(226, 231, 235);
+}
+
+/* div.dt-container div.dt-layout-row { CHANGES ALL CELL BACKGROUNDS????
+    background: rgb(226, 231, 235);
+} */
+div.dt-container div.dt-layout-cell.dt-start {
+    padding-top: 0;
+}
+
+div.dt-container div.dt-layout-cell.dt-end {
+    padding: 0;
+}
+
 div.dataTables_wrapper div.dataTables_processing {
     top: 0;
 }
@@ -308,40 +323,66 @@ div.dataTables_wrapper div.dataTables_processing {
     animation: spinner .6s linear infinite;
 }
 
-/*static ID tooltip*/
-/* td.IDcolumn {
-    position: relative !important;
-} */
+div.typeicon {
+    padding-left: 20px;
+}
+
+button {
+    transform: translateY(-24px);
+    display: inline-block;
+    height: 1lh;
+    border: 0;
+    background-color: rgb(0, 0, 0, 0);
+    background-image: url(content-copy.svg);
+    background-position:center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* margin: -5rem 0px !important; */
+    /* position:    absolute; */
+    cursor: copy;
+}
+button:active {
+    background-color: rgba(182, 182, 182, 0.2);
+    background-size: 90%;
+    box-shadow: 1px 1px lightgray;
+    transform: translateY(-23px);
+  }
+
+/* BALLOON.CSS */
 
 .tipdiv {
     --balloon-color: linear-gradient(0deg, transparent 0%, rgba(209, 209, 209, 0.508));
     /*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
     --balloon-font-size: 0.90rem;
     --balloon-text-color: darkgoldenrod;
-    /* white; */
     --balloon-border-radius: 2px;
     /*#020c24; /*black;*/
 }
 
-
 [aria-label][data-balloon-pos]:after {
-    font-weight: bold !important;
-    font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif;
+    font-family: Inter, "Gill Sans", Helvetica, -apple-system, Sans-Serif;
+    font-weight: 400 !important;
     /* font-style: italic; */
-    line-height: 0.6lh;
+    font-size: 0.78rem;
+    line-height: 0.45lh;
     text-indent: 0.5em;
-    /*0.1em;*/
     /* padding: 1em 0px 0.2em 0em !important; */
     /* padding: .5em 20px; */
-    letter-spacing: 0.03rem;
+    /* letter-spacing: 0.02rem; */
     z-index: 0 !important;
-    margin: -22px 0px !important;
-    /* width: calc(100vw - 20px - 0.5em); */
-    /* width: -moz-available;
-        width: -webkit-fill-available;
-        width: fill-available; */
+    margin: -1rem 0px !important;
+    /* width: 100vw;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available; */
+
 }
 
 [aria-label][data-balloon-pos]:before {
     display: none;
+}
+
+[aria-label][data-balloon-pos] {
+    cursor: initial;
 }
