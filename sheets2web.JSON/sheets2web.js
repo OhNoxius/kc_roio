@@ -522,7 +522,7 @@ function makeDataTable(table, jsondata, sheet) {
     startIndex += 1;
 
     let dt_fixedHeader, dt_layout, dt_order;
-    if (maintable == LINKSHEET) dt_order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
+    if (maintable == LINKSHEET) dt_order = [[LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
     else order = [[0, 'asc']];//[[startIndex + 1, 'asc']];
 
     //set some DT options

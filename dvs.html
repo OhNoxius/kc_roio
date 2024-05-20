@@ -15,9 +15,8 @@
 	<!-- JQUERY -->
 	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 	<!-- DataTables (fixedHeader) -->
-	<link href="https://cdn.datatables.net/v/dt/dt-2.0.4/fh-4.0.1/datatables.min.css" rel="stylesheet">
-	<script src="https://cdn.datatables.net/v/dt/dt-2.0.4/fh-4.0.1/datatables.min.js"></script>
-
+	<link href="https://cdn.datatables.net/v/dt/dt-2.0.5/fh-4.0.1/datatables.min.css" rel="stylesheet">
+	<script src="https://cdn.datatables.net/v/dt/dt-2.0.5/fh-4.0.1/datatables.min.js"></script>
 
 	<!-- TOOLTIPSTER -->
 	<link rel="stylesheet"
@@ -33,6 +32,8 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<!-- Balloon.css -->
 	<link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+	<!-- ClipboardJS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 
 	<!-- sheets2web.JSON HELPER FUNCTIONS -->
 	<script src="sheets2web.JSON/helper functions/lastUpdated.js"></script>
@@ -45,14 +46,16 @@
 
 	<script>
 		//set source .xml filename
-		const datafile = getFilename("json");
+		const s2w_datafile = getFilename("json");
+
+		//OPTIONAL
 		//set header title to display above table
-		const headertitle = "Vladimir Sofronickij : Discographie";
+		const s2w_heading = "Vladimir Sofronickij : Discographie";
 		//set drive link to display next to header title
-		let editlink = "https://docs.google.com/spreadsheets/d/1BXq-SCXPci13aMTyKtpz2K7Qoq42sGE8wSCQzlGZbCM/edit?usp=sharing";
+		const s2w_editlink = "https://docs.google.com/spreadsheets/d/1BXq-SCXPci13aMTyKtpz2K7Qoq42sGE8wSCQzlGZbCM/edit?usp=sharing";
 		//choose character that will be used to separate content inside cells
-		const delimiter = ";";
-		const typeheader = "format";
+		const s2w_delimiter = ";";
+		const s2w_typeheader = "format";
 	</script>
 </head>
 
