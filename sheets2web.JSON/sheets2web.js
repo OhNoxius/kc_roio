@@ -173,9 +173,13 @@ function makeDataTable(table, jsondata, sheet) {
     // catch (e) { console.log("no s2w_typeheader"); }
     if (linktype) jason[linktable].forEach(x => (x[linktype] instanceof Array) ? linktable_types.add(x[linktype][0]) : linktable_types.add(x[linktype]));
     [null, undefined, ""].forEach(Set.prototype.delete, linktable_types);
-    // linktable_types.delete(null);
-    // linktable_types.delete(undefined);
-    // linktable_types.delete("");
+    for (const type of linktable_types) {
+        if (type.startsWith("?")) {
+            linktable_types.delete(type);
+            linktable_types.add(type.substring(1));
+        }
+    }
+    linktable_types.delete("");
 
     //LOG    
     console.log("create new DataTable from table#id = '" + table.id + "'");
@@ -188,18 +192,18 @@ function makeDataTable(table, jsondata, sheet) {
     if (linkKeyIdx > -1) maintableKeys.splice(linkKeyIdx, 1);
     else if (parenttable != linktable) {
         const linktableMap = new Map();
+        let linktableErrors = [];
         //OPTION 1: what usecase is this?
         if (maintable == LINKSHEET) {
             jason[MAINSHEET].forEach(function (MAINel, idx, arr) {
-                linktableMap.set(MAINel[MAINSHEET_keys[0]].toLowerCase(), idx);
+                linktableMap.set(MAINel[MAINSHEET_keys[0]].toString().toLowerCase(), idx);
             });
             //console.log(linktableMap);
             let MAINid_trim, MAINidx, obj;
             jsondata.forEach(function (LINKel, LINKidx, LINKarr) {
                 if (LINKel[MAINSHEET]) {
-                    LINKel[MAINSHEET].split("\n").forEach(function (MAINid) {
+                    LINKel[MAINSHEET].toString().split("\n").forEach(function (MAINid) {
                         MAINid_trim = MAINid.trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
-                        //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
                         if (linktableMap.has(MAINid_trim)) {
                             MAINidx = linktableMap.get(MAINid_trim);
                             if (linktable_types.size > 0) {
@@ -225,12 +229,17 @@ function makeDataTable(table, jsondata, sheet) {
                             }
                         }
                         else {
-                            console.log("unknown " + MAINSHEET + " id " + MAINid_trim);
+                            //console.log("unknown " + MAINSHEET + " id " + MAINid_trim);
+                            linktableErrors.push(MAINid_trim);
                         }
                     });
                 }
             });
             //console.log(jsondata);
+            if (linktableErrors.size > 0) {
+                console.log("unknown " + MAINSHEET + " id's:");
+                console.log(linktableErrors);
+            }
         }
         //OPTION 2
         else {
@@ -251,7 +260,6 @@ function makeDataTable(table, jsondata, sheet) {
                             let linkid_trim, mainIdx, obj;
                             linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
                                 linkid_trim = linkid.toString().trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
-                                //!!! MAYBE ALSO MAKE UPPERCASE? f.e. Return to Forever vs. Return To Forever ...
                                 if (linktableMap.has(linkid_trim)) {
                                     mainIdx = linktableMap.get(linkid_trim);
                                     if (linktable_types.size > 0) {
@@ -277,12 +285,17 @@ function makeDataTable(table, jsondata, sheet) {
                                     }
                                 }
                                 else {
-                                    console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
+                                    //console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
+                                    linktableErrors.push(linkid_trim);
                                 }
                             });
                         }
                     }
                 });
+            }
+            if (linktableErrors.size > 0) {
+                console.log("unknown " + maintable + " id's in " + linktable + ":");
+                console.log(linktableErrors);
             }
         }
         //console.log(linktableMap);
@@ -351,7 +364,6 @@ function makeDataTable(table, jsondata, sheet) {
                 "createdCell": function (cell, cellData, rowData, rowIndex, colIndex) {
                     //balloon.css
                     if (maintable != LINKSHEET) {
-
                         //dropdown +/- 'button'
                         if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
                     }
@@ -362,9 +374,13 @@ function makeDataTable(table, jsondata, sheet) {
                     let innerhtml = "";
                     if (data) {
                         const props = Object.getOwnPropertyNames(data);
-                        const propslength = props.length;
-                        for (let i = 0; i < propslength; i++) {
-                            innerhtml += '<div class="nowrap typeicon ' + props[i] + '" title="' + props[i] + '"> ' + props[i] + ':<span class="typenum">' + data[props[i]].length + '</span></div > ';
+                        let propstrim;
+                        for (var i = 0; i < props.length; i++) {
+                            // IN ROW SHOW THE "?" before the media item?
+                            // if (props[i].startsWith("?")) propstrim = props[i].substring(1);
+                            // else propstrim = props[i];
+                            propstrim = props[i];
+                            innerhtml += '<div class="nowrap typeicon ' + props[i] + '" title="' + props[i] + '"> ' + propstrim + ':<span class="typenum">' + data[props[i]].length + '</span></div > ';
                         }
                     }
                     return innerhtml
@@ -521,11 +537,12 @@ function makeDataTable(table, jsondata, sheet) {
     visIndex += 1;
     startIndex += 1;
 
-    let dt_fixedHeader, dt_layout, dt_order;
-    if (maintable == LINKSHEET) dt_order = [[LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
-    else order = [[0, 'asc']];//[[startIndex + 1, 'asc']];
-
     //set some DT options
+    let dt_fixedHeader, dt_layout, dt_order;
+    // if (maintable == LINKSHEET) dt_order = [[startIndex + LINKSHEET_keys.indexOf(MAINSHEET), 'asc']];
+    // else dt_order = [[0, 'asc']];//[[startIndex + 1, 'asc']];
+    dt_order = [[0, 'asc']];
+
     if (table.getAttribute("id") == "fixedtable") {
         dt_fixedHeader = {
             header: true,
@@ -534,7 +551,8 @@ function makeDataTable(table, jsondata, sheet) {
         // dom = "lfrti";
         dt_layout = {
             // bottomStart: createNavFooter(SHEETS), //THIS IS NOT THE TABLE FOOTER!!! so doesn't stick
-            //bottomEnd: 'info'
+            bottomStart: 'paging',
+            bottomEnd: 'info'
         };
     }
     else {
@@ -548,6 +566,9 @@ function makeDataTable(table, jsondata, sheet) {
         };
     }
 
+    if (jsondata.length < 250) dt_pageLength = -1
+    else dt_pageLength = 100
+
     //if (visIndex > 8) fixedtable.classList.add("compact");
 
     //DATATABLE    
@@ -557,7 +578,8 @@ function makeDataTable(table, jsondata, sheet) {
         "processing": true, //only works with Ajax?
         "fixedHeader": dt_fixedHeader,
         "deferRender": true,
-        "paging": false,
+        "pageLength": dt_pageLength,
+        "lengthMenu": [25, 50, 75, 100, { label: 'All', value: -1 }],
         "autoWidth": false,
         "order": dt_order,
         "orderCellsTop": true,
@@ -744,7 +766,7 @@ function makeDataTable(table, jsondata, sheet) {
             //detailsTableDOM = "";
             let detailsTable = "";
             const childcells = dTable.cells(dRow, ".childrow");//, idx);
-            for (let i = 0; i < childcells.data().length; i++) {
+            for (var i = 0; i < childcells.data().length; i++) {
                 if (childcells.data()[i]) detailsTable += formatChildRows(childrowsHeaders[i], childcells.data()[i]);
             }
             if (detailsTable != "") {
@@ -883,7 +905,7 @@ function formatTooltip(object) {
     const props = Object.getOwnPropertyNames(object);
     const linkKeyIdx = props.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) props.splice(linkKeyIdx, 1);
-    for (let i = 1; i < props.length; i++) {
+    for (var i = 1; i < props.length; i++) {
         if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>"));
     }
     return result;

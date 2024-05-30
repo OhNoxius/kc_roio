@@ -1,13 +1,14 @@
 :root {
     --rowheader-width: 20px;
-    font-family: Inter, sans-serif;
+    /* font-family: Inter, sans-serif; */
+    font-family: Inter, Helvetica, Arial, Tahoma, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
     /* fix for Chrome */
 }
 
 @supports (font-variation-settings: normal) {
     :root {
-        font-family: InterVariable, sans-serif;
+        font-family: InterVariable, Helvetica, Arial, Tahoma, sans-serif;
     }
 }
 
@@ -327,14 +328,14 @@ div.typeicon {
     padding-left: 20px;
 }
 
-button {
+td.tipdiv button {
     transform: translateY(-24px);
     display: inline-block;
     height: 1lh;
     border: 0;
     background-color: rgb(0, 0, 0, 0);
     background-image: url(content-copy.svg);
-    background-position:center top;
+    background-position: center top;
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -342,12 +343,13 @@ button {
     /* position:    absolute; */
     cursor: copy;
 }
-button:active {
+
+td.tipdiv button:active {
     background-color: rgba(182, 182, 182, 0.2);
     background-size: 90%;
     box-shadow: 1px 1px lightgray;
     transform: translateY(-23px);
-  }
+}
 
 /* BALLOON.CSS */
 
@@ -361,15 +363,15 @@ button:active {
 }
 
 [aria-label][data-balloon-pos]:after {
-    font-family: Inter, "Gill Sans", Helvetica, -apple-system, Sans-Serif;
+    /* font-family: Inter, "Gill Sans", Helvetica, -apple-system, Sans-Serif; */
     font-weight: 400 !important;
     /* font-style: italic; */
-    font-size: 0.78rem;
-    line-height: 0.45lh;
+    font-size: 0.82rem;
+    line-height: 0.44lh;
     text-indent: 0.5em;
     /* padding: 1em 0px 0.2em 0em !important; */
     /* padding: .5em 20px; */
-    /* letter-spacing: 0.02rem; */
+    letter-spacing: 0.5x;
     z-index: 0 !important;
     margin: -1rem 0px !important;
     /* width: 100vw;
