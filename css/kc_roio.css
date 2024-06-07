@@ -40,3 +40,15 @@
     color: transparent;
     font-size: 0;
 }
+
+.typeicon.\?video {
+    background-image: url(video°_icon.png);
+    color: transparent;
+    font-size: 0;
+}
+
+.typeicon.\?audio {
+    background-image: url(audio°_icon.png);
+    color: transparent;
+    font-size: 0;
+}
