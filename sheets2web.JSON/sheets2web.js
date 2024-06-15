@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     lastUpdated(s2w_datafile, "activity");
 
     fixedtable = document.getElementById("fixedtable");
-    fixedthead = fixedtable.appendChild(document.createElement("thead"));
-    fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
+    // fixedthead = fixedtable.appendChild(document.createElement("thead"));
+    // fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
 
     fetch(s2w_datafile)
@@ -143,13 +143,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //FINAL CALL:
             //detect '#...' in url to choose initial sheet
-            const url = window.location.href.substring(window.location.href.indexOf("#") + 1);
-            if (window.location.href.indexOf("#") > 0) dfixedtable = makeDataTable(fixedtable, jason[url], url);
+            let urlHash = "";
+            if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
+            if (urlHash) dfixedtable = makeDataTable(fixedtable, jason[urlHash], urlHash);
             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
         })
 });
 
 function makeDataTable(table, jsondata, sheet) {
+    if (table.getAttribute("id") == "fixedtable") {
+        fixedthead = fixedtable.appendChild(document.createElement("thead"));
+        fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
+    }
 
     const maintableKeys = Object.keys(jsondata[jidx]);
     //OPTIONAL: remove rows with empty 1st column
@@ -756,6 +761,8 @@ function makeDataTable(table, jsondata, sheet) {
         const jqtr = $(this.parentElement);
         const dRow = dTable.row(jqtr);
 
+        console.log(dRow);
+
         if (dRow.child.isShown()) {
             // This row is already open - close it
             dRow.child.hide();
@@ -874,21 +881,24 @@ function createNavFooter(sheets) {
             tab_a.setAttribute("class", "menu tab");
             tab_a.setAttribute("href", "#" + sheet);
             tab_a.setAttribute("sheet", sheet);
-            tab_a.addEventListener('click', function () {
+            tab_li.addEventListener('click', function () {
                 $(this).addClass('active');
                 $(this).siblings().removeClass('active');
 
-                if ($.fn.dataTable.isDataTable(fixedtable)) {
-                    dfixedtable.clear();
-                    dfixedtable.destroy();
+                if (DataTable.isDataTable(fixedtable)) {
+                    dfixedtable.clear().destroy();
                 }
 
+                //ISSUE: you have to completely destroy the <thead> en <tbody> elements of the table before you can create a new DataTable on it (for the child rows to work at least...)
                 fixedthead.innerHTML = "";
                 fixedtbody.innerHTML = "";
+                fixedtable.removeChild(fixedthead);
+                fixedtable.removeChild(fixedtbody);
                 fixedtfoot.querySelectorAll("tr:not(#fixedfooterrow)").forEach(tr => tr.remove());
 
                 dfixedtable = makeDataTable(fixedtable, jason[sheet], sheet);
             }, false);
+            if (sheet == MAINSHEET) $(tab_li).addClass('active');
             if (sheet == MAINSHEET || sheet == LINKSHEET) tab_a.innerText = sheet;
             else if (MAINSHEET_keys.includes(sheet)) tab_a.innerText = MAINSHEET + ":" + sheet;
             else if (LINKSHEET_keys.includes(sheet)) tab_a.innerText = LINKSHEET + ":" + sheet;

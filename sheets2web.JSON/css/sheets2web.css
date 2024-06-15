@@ -140,6 +140,10 @@ a.tab {
     border-radius: 0.8em 0.8em 0 0;
 }
 
+li.tab.active a.tab {
+    background-color: #ff7000;
+}
+
 /*TABLES general*/
 th,
 td {
@@ -276,7 +280,7 @@ td.arrow-ctrl {
     background: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg') no-repeat top center;
 }
 
-tr.LASTshown td-arrow-ctrl {
+tr.LASTshown td.arrow-ctrl {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg') no-repeat bottom center;
 }
 
