@@ -150,20 +150,20 @@ td {
     white-space: pre-wrap;
 }
 
-table.dataTable tbody td.LINKcol,
-table.dataTable thead th.LINKcol {
+td.LINKcol,
+th.LINKcol {
     text-align: right;
     width: 0%;
     padding-left: 0px !important;
     font-size: 0.9em;
     color: forestgreen;
     white-space: normal;
-    vertical-align: middle;
+    vertical-align: middle !important;
     border-right: 1px lightgray dotted;
 }
 
-table.dataTable tbody td.IDcol,
-table.dataTable thead th.IDcol {
+td.IDcol,
+th.IDcol {
     width: 0 !important;
     padding: 0 !important;
     /* padding-right: 0px;
@@ -235,7 +235,7 @@ tr.child>td.child table.linktable tr td {
     background-color: #faf7ed;
     text-align: left;
     border: 0;
-    padding: 12px 5px;
+    padding: 20px 5px;
 }
 
 table.dataTable tbody tr.child>td.child div.dt-container {

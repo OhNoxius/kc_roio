@@ -28,27 +28,19 @@
     /* makes cssnumber move to right corner */
     padding: 1px;
     /*below was in each type separately*/
-    color: transparent;
+    
     /* font-size: 0; */
 }
 
-.typeicon.video {
-    background-image: url(video_icon.png); 
-    color: transparent;   
-}
-.typeicon.audio {
-    background-image: url(audio_icon.png);
+.typeicon.LP {
+    background-image: url(vinyl.png);
     color: transparent;
 }
-.typeicon.\?video {
-    background-image: url(video°_icon.png);
+.typeicon.CD {
+    background-image: url(CD.png);
     color: transparent;
 }
-.typeicon.\?audio {
-    background-image: url(audio°_icon.png);
-    color: transparent;
-}
-.typeicon.image {
-    background-image: url(image_icon.png);
+.typeicon.\78t {
+    background-image: url(78t.png);
     color: transparent;
 }
