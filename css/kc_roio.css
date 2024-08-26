@@ -8,6 +8,7 @@ a.heading {
     border: none;
     text-transform: uppercase;
     -webkit-text-stroke: 0.8px grey;
+    font-style:italic;
 }
 
 .typenum {
