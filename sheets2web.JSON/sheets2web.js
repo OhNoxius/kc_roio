@@ -498,7 +498,7 @@ function makeDataTable(table, jsondata, sheet) {
         }
         //type column
         if (key == MAINSHEET) {
-            DTcolumn.className = "recognize";
+            DTcolumn.className = "match";
         }
         else if (key == linktype) {
             // DTcolumn.className = "middle";

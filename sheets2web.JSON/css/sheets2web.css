@@ -176,11 +176,11 @@ a.tab {
 }
 
 a.tab.MAINclr {
-    background-color: #f69c55;
+    background-color: #6894db;
 }
 
 a.tab.LINKclr {
-    background-color: #6894db;
+    background-color: #f69c55;
 }
 
 a.tab.MAINLINK {
@@ -231,10 +231,10 @@ table.dataTable>tbody>tr>td {
     /* keeps copy button stuck on top! */
 }
 
-td.recognize {
+td.match {
     color: rgba(59, 129, 229, 0.7);
     font-size: 0.85em;
-    text-decoration:underline;
+    text-decoration: underline;
     /* font-style: italic; */
     /* white-space: normal; */
     vertical-align: middle;
@@ -242,8 +242,9 @@ td.recognize {
     /* border-right: 1px lightgray dotted; */
     line-height: 1.5em;
 }
-td.recognize span:hover {
-    background-color:lightgrey;
+
+td.match span:hover {
+    background-color: lightgrey;
 }
 
 /*FIXED TABLE*/
@@ -272,14 +273,17 @@ th.LINKcol {
     vertical-align: middle !important;
     border-right: 1px lightgray dotted;
 }
+
 td.LINKcol div {
     padding-left: 25px;
     text-align: right;
 }
+
 th.LINKcol div {
     padding-left: 25px;
     font-style: normal;
 }
+
 div.typeicon {
     text-align: center;
 }
@@ -419,7 +423,8 @@ div.dataTables_wrapper div.dataTables_processing {
 
 td.tipdiv button {
     position: absolute;
-    top: 2px; /* MAKE EQUAL TO aria-label :after { padding-top: 5px } */
+    top: 2px;
+    /* MAKE EQUAL TO aria-label :after { padding-top: 5px } */
     /* transform: translateY(-24px); */
     /* display: inline-block; */
     height: 1em;
@@ -456,11 +461,12 @@ td.tipdiv button:active {
 [aria-label][data-balloon-pos]:after {
     position: absolute;
     top: 0px;
-    padding-top: 2px; /* MAKE EQUAL TO tipdiv { top: 5px } */
+    padding-top: 2px;
+    /* MAKE EQUAL TO tipdiv { top: 5px } */
     font-weight: 400 !important;
     /* font-style: italic; */
     line-height: 1.1em;
-    text-indent: 0.5em;    
+    text-indent: 0.5em;
     letter-spacing: 0.6px;
     z-index: 0 !important;
     /* width: 100vw;
