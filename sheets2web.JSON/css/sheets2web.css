@@ -233,14 +233,17 @@ table.dataTable>tbody>tr>td {
 
 td.recognize {
     color: rgba(59, 129, 229, 0.7);
-    font-size: 0.9em;
+    font-size: 0.85em;
     text-decoration:underline;
     /* font-style: italic; */
-    white-space: normal;
+    /* white-space: normal; */
     vertical-align: middle;
     white-space: pre-line;
     /* border-right: 1px lightgray dotted; */
     line-height: 1.5em;
+}
+td.recognize span:hover {
+    background-color:lightgrey;
 }
 
 /*FIXED TABLE*/
@@ -443,7 +446,7 @@ td.tipdiv button:active {
 .tipdiv {
     --balloon-color: linear-gradient(0deg, transparent 0%, rgba(209, 209, 209, 0.508));
     /*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
-    --balloon-font-size: 1em;
+    --balloon-font-size: 1.05em;
     --balloon-text-color: darkgoldenrod;
     --balloon-border-radius: 2px;
     --balloon-move: 0px;

@@ -273,10 +273,17 @@ function makeDataTable(table, jsondata, sheet) {
                 let linkElArr;
                 jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
                     if (linkEl[maintable]) {
+                        //column exported as JSON array => CONCERTS ARE PROBABLY NOT IN SEPARATE CELLS, split again for every \n
                         if (Array.isArray(linkEl[maintable])) {
-                            if (linkEl[maintable].length > 0) linkElArr = linkEl[maintable];
+                            linkElArr = [];
+                            for (var i = 0; i < linkEl[maintable].length; i++) {
+                                linkElArr = linkElArr.concat(linkEl[maintable][i].split("\n"));
+                            }
+                            // linkElArr = linkEl[maintable];
                         }
+                        //column exported as normal string
                         else linkElArr = linkEl[maintable].split("\n");
+
                         if (linkElArr) {
                             let linkid_trim, mainIdx, obj;
                             linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
@@ -671,7 +678,7 @@ function makeDataTable(table, jsondata, sheet) {
             //createTooltips(table);
 
             //new ClipboardJS('.btn');
-            $(".btn").each(function () {
+            $(table).find(".btn").each(function () {
                 this.addEventListener("click", () => writeClipboardText(this.parentElement.getAttribute("aria-label")));
             });
 
