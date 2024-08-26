@@ -1,10 +1,22 @@
+header div h1 {
+    color:#32a1ce;
+}
+
+a.heading {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    border: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.8px grey;
+}
+
 .typenum {
     position: relative;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 0.7rem;
     /* background-color:  lightseagreen; */
-    background-color:rgb(32,178,170,0.8);
+    background-color: rgb(32, 178, 170, 0.8);
     /* width: fit-content; */
     /* line-height: 0.95rem; */
     /* text-align: center; */
@@ -14,6 +26,7 @@
     top: -5px;
     /*-0.5ex;*/
     padding: 0.1rem 0.33rem;
+    font-style: normal;
 }
 
 .typeicon {
@@ -33,21 +46,25 @@
 }
 
 .typeicon.video {
-    background-image: url(video_icon.png); 
-    color: transparent;   
+    background-image: url(video_icon.png);
+    color: transparent;
 }
+
 .typeicon.audio {
     background-image: url(audio_icon.png);
     color: transparent;
 }
+
 .typeicon.\?video {
     background-image: url(video°_icon.png);
     color: transparent;
 }
+
 .typeicon.\?audio {
     background-image: url(audio°_icon.png);
     color: transparent;
 }
+
 .typeicon.image {
     background-image: url(image_icon.png);
     color: transparent;

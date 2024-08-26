@@ -1,28 +1,47 @@
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+body {
+    font-size: 0.72rem;
+}
+
 header {
-    background: url("http://www.maisondujazz.be/images/interface_04-03.png"), rgb(10,20,30,40%);
+    background: url("http://www.maisondujazz.be/images/interface_04-03.png"), linear-gradient(rgb(10, 20, 30, 45%), rgb(10, 20, 30, 0%));
     background-repeat: no-repeat;
     background-position: right;
 }
-    
+
 header div h1 {
     color: rgb(255, 204, 65);
-    /* color:#FABB13; */
 }
+
 a.heading {
-    border:none;
-    -webkit-text-stroke: 0.2px #FABB13;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 2.5rem;
+    border: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.8px grey;
 }
+
 body {
     grid-template-rows: 100px auto;
 }
 
+
 .typenum {
-    position:absolute;
-    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 0.7rem;
     /* background-color:  lightseagreen; */
-    background-color:rgb(32,178,170,0.8);
+    background-color: rgb(32, 178, 170, 0.8);
     width: fit-content;
     /* line-height: 0.95rem; */
     /* text-align: center; */

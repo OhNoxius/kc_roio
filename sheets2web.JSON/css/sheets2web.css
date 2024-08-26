@@ -1,31 +1,72 @@
 :root {
-    --rowheader-width: 20px;
+    /* --rowheader-width: 20px; */
     /* font-family: Inter, sans-serif; */
-    font-family: Inter, Helvetica, Arial, Tahoma, sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
+    font-family: "Helvetica Neue", Helvetica, "Nimbus Sans", Arial, sans-serif;
+    /* font-feature-settings: 'liga' 1, 'calt' 1; */
     /* fix for Chrome */
 }
 
-@supports (font-variation-settings: normal) {
+/* @supports (font-variation-settings: normal) {
     :root {
         font-family: InterVariable, Helvetica, Arial, Tahoma, sans-serif;
     }
-}
+} */
 
 body {
     /* font-family: "Gill Sans", Roboto, Helvetica, -apple-system, Sans-Serif; */
     -webkit-font-smoothing: antialiased;
-    font-size: 72%;
+    /* font-size: 75%; */
     /* hyphens: none; */
     /* 70%/1.2em; "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif; */
-    line-height: 1.5;
+    /* line-height: 1.5; */
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #fff;
+    font-size: 0.75rem;
     display: grid;
-    grid-template-rows: 50px auto;
+    grid-template-areas: "header" "table" "footer";
+    /* grid-template-rows: 10vh 1fr auto; */
+    /* grid-template-rows: 50px auto 100px; */
+
+    /* margin-bottom:50px; */
+    /* height: 100vh; */
 }
+
+/*GRID*/
+header {
+    grid-area: header;
+    /* grid-row-start: 1; */
+}
+
+/* #maintfooter {
+    grid-row-start: 3;
+    padding: 0;
+    margin: 0;
+/*} */
+section#database {
+    grid-area: table;
+    /* grid-row-start: 2; */
+}
+
+footer {
+    grid-area: footer;
+    /* min-height: 1vh; */
+    /* position: fixed; */
+    /* height: 50px; */
+    padding: 0;
+    margin: 0;
+    background: rgb(226, 231, 235, 0%);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* th#LOOKAHERE {
+    padding: 0;
+    margin: 0;
+    background: rgb(226, 231, 235);
+} */
 
 #navfooter {
     /* position: absolute;
@@ -52,19 +93,7 @@ header div#activity {
     float: right;
 }
 
-/*GRID*/
-header {
-    grid-row-start: 1;
-}
 
-/* #maintfooter {
-    grid-row-start: 3;
-    padding: 0;
-    margin: 0;
-/*} */
-section#database {
-    grid-row-start: 2;
-}
 
 /*TEXT*/
 h1 {
@@ -116,6 +145,8 @@ a.heading:active {
     margin-left: 0.4em;
 }
 
+/* NAVIGATION */
+
 ul.tabs {
     margin: 0;
     padding: 0;
@@ -124,42 +155,64 @@ ul.tabs {
 li.tab {
     position: relative;
     list-style: none;
-    float: left;
+    /* float: left; makes tabs stick to top of footer element??*/
     padding: 0;
     display: inline-flex;
     vertical-align: bottom;
 }
 
 a.tab {
-    padding: 5px 10px;
+    padding: 5px 16px;
     text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
     margin-left: 2px;
     color: white;
-    background-color: #f69c55;
+
     /* border: solid 0px white; */
     border-radius: 0.8em 0.8em 0 0;
+    box-shadow: 1px -1px 5px grey;
+    outline: solid 0.5px grey;
+}
+
+a.tab.MAINclr {
+    background-color: #f69c55;
+}
+
+a.tab.LINKclr {
+    background-color: #6894db;
+}
+
+a.tab.MAINLINK {
+    filter: saturate(2.2);
+    font-size: 1.3em;
+    font-style: normal;
+}
+
+
+li.tab:hover {
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+    -o-filter: brightness(70%);
+    -ms-filter: brightness(70%);
+    filter: brightness(70%);
+    text-decoration: none;
 }
 
 li.tab.active a.tab {
-    background-color: #ff7000;
+    outline-width: 2px;
+
+    filter: brightness(105%);
 }
+
+/* li.tab.active a.tab {
+    background-color: #ff7000;
+} */
 
 /*TABLES general*/
 th,
 td {
     white-space: pre-wrap;
-}
-
-td.LINKcol,
-th.LINKcol {
-    text-align: right;
-    width: 0%;
-    padding-left: 0px !important;
-    font-size: 0.9em;
-    color: forestgreen;
-    white-space: normal;
-    vertical-align: middle !important;
-    border-right: 1px lightgray dotted;
 }
 
 td.IDcol,
@@ -179,12 +232,15 @@ table.dataTable>tbody>tr>td {
 }
 
 td.recognize {
-    font-size: 85%;
-    font-style: italic;
+    color: rgba(59, 129, 229, 0.7);
+    font-size: 0.9em;
+    text-decoration:underline;
+    /* font-style: italic; */
     white-space: normal;
     vertical-align: middle;
     white-space: pre-line;
     /* border-right: 1px lightgray dotted; */
+    line-height: 1.5em;
 }
 
 /*FIXED TABLE*/
@@ -199,9 +255,35 @@ table.dataTable tr.columnfilters th {
     font-size: 0.9em;
 }
 
+td.LINKcol,
+th.LINKcol {
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    text-align: right;
+    /* width: 0%; */
+    /* padding-left: 0px !important; */
+    /* font-size: 0.95em; */
+    font-style: italic;
+    /* font-weight: bold; */
+    color: forestgreen;
+    white-space: normal;
+    vertical-align: middle !important;
+    border-right: 1px lightgray dotted;
+}
+td.LINKcol div {
+    padding-left: 25px;
+    text-align: right;
+}
+th.LINKcol div {
+    padding-left: 25px;
+    font-style: normal;
+}
+div.typeicon {
+    text-align: center;
+}
+
 /*CHILD TABLE */
 tr.child>td.child {
-    font-size: 90%;
+    font-size: 96%;
     padding: 0 !important;
     /* overrides padding of 'table.linktable tr td' padding */
     white-space: normal;
@@ -246,6 +328,10 @@ table.dataTable tbody tr.child>td.child div.dt-container {
     box-shadow: inset 0px 7px 9px -7px rgba(0, 0, 0, 0.10);
 }
 
+table.dataTable tbody tr.child>td.child div.dt-container div.dt-layout-row {
+    margin: 0;
+}
+
 td.detailsHeader {
     font-style: italic;
     text-align: right;
@@ -285,11 +371,7 @@ tr.LASTshown td.arrow-ctrl {
 }
 
 /* DataTables OVERRIDE */
-th#LOOKAHERE {
-    padding: 0;
-    margin: 0;
-    background: rgb(226, 231, 235);
-}
+
 
 /* div.dt-container div.dt-layout-row { CHANGES ALL CELL BACKGROUNDS????
     background: rgb(226, 231, 235);
@@ -312,6 +394,8 @@ div.dataTables_wrapper div.dataTables_processing {
     }
 }
 
+/* LOADING SPINNER */
+
 .spinner:before {
     content: '';
     box-sizing: border-box;
@@ -328,23 +412,23 @@ div.dataTables_wrapper div.dataTables_processing {
     animation: spinner .6s linear infinite;
 }
 
-div.typeicon {
-    padding-left: 20px;
-}
+
 
 td.tipdiv button {
-    transform: translateY(-24px);
-    display: inline-block;
-    height: 1lh;
+    position: absolute;
+    top: 2px; /* MAKE EQUAL TO aria-label :after { padding-top: 5px } */
+    /* transform: translateY(-24px); */
+    /* display: inline-block; */
+    height: 1em;
     border: 0;
     background-color: rgb(0, 0, 0, 0);
     background-image: url(content-copy.svg);
     background-position: center top;
-    background-size: 100%;
+    background-size: 0.9em;
     background-repeat: no-repeat;
     /* background-position: center; */
     /* margin: -5rem 0px !important; */
-    /* position:    absolute; */
+
     cursor: copy;
 }
 
@@ -352,7 +436,6 @@ td.tipdiv button:active {
     background-color: rgba(182, 182, 182, 0.2);
     background-size: 90%;
     box-shadow: 1px 1px lightgray;
-    transform: translateY(-23px);
 }
 
 /* BALLOON.CSS */
@@ -360,24 +443,23 @@ td.tipdiv button:active {
 .tipdiv {
     --balloon-color: linear-gradient(0deg, transparent 0%, rgba(209, 209, 209, 0.508));
     /*rgb(230, 230, 230);/*lightblue;/*rgba(197, 197, 197, 0);*/
-    --balloon-font-size: 0.90rem;
+    --balloon-font-size: 1em;
     --balloon-text-color: darkgoldenrod;
     --balloon-border-radius: 2px;
+    --balloon-move: 0px;
     /*#020c24; /*black;*/
 }
 
 [aria-label][data-balloon-pos]:after {
-    /* font-family: Inter, "Gill Sans", Helvetica, -apple-system, Sans-Serif; */
+    position: absolute;
+    top: 0px;
+    padding-top: 2px; /* MAKE EQUAL TO tipdiv { top: 5px } */
     font-weight: 400 !important;
     /* font-style: italic; */
-    font-size: 0.82rem;
-    line-height: 0.44lh;
-    text-indent: 0.5em;
-    /* padding: 1em 0px 0.2em 0em !important; */
-    /* padding: .5em 20px; */
-    letter-spacing: 0.5x;
+    line-height: 1.1em;
+    text-indent: 0.5em;    
+    letter-spacing: 0.6px;
     z-index: 0 !important;
-    margin: -1rem 0px !important;
     /* width: 100vw;
     width: -moz-available;
     width: -webkit-fill-available;

@@ -1,27 +1,46 @@
-a.heading {
-  font-family: "Ysabeau SC", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size:larger;
-  border: none;
+/* :root {
+    font-family: 'Inter', sans-serif;
 }
 
-th {
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+} 
+
+body {
+    font-size: 0.72rem;
+}*/
+
+a.heading {
+    font-family: "Ysabeau SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    border: thick double #32a1ce;
+    ;
+}
+
+/* th {
     font-family: "Ysabeau", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: italic;
-  font-size:120%;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 120%;
+} */
+
+td {
+    vertical-align: middle !important;
 }
 
 .typenum {
     position: relative;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 0.7rem;
     /* background-color:  lightseagreen; */
-    background-color:rgb(32,178,170,0.8);
+    background-color: rgb(32, 178, 170, 0.8);
     /* width: fit-content; */
     /* line-height: 0.95rem; */
     /* text-align: center; */
@@ -31,6 +50,7 @@ th {
     top: -5px;
     /*-0.5ex;*/
     padding: 0.1rem 0.33rem;
+    font-style: normal;
 }
 
 .typeicon {
@@ -45,7 +65,7 @@ th {
     /* makes cssnumber move to right corner */
     padding: 1px;
     /*below was in each type separately*/
-    
+
     /* font-size: 0; */
 }
 
@@ -53,10 +73,12 @@ th {
     background-image: url(vinyl.png);
     color: transparent;
 }
+
 .typeicon.CD {
     background-image: url(CD.png);
     color: transparent;
 }
+
 .typeicon.\78t {
     background-image: url(78t.png);
     color: transparent;
