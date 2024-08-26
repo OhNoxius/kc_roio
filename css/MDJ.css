@@ -13,13 +13,16 @@ body {
 }
 
 header {
-    background: url("http://www.maisondujazz.be/images/interface_04-03.png"), linear-gradient(rgb(10, 20, 30, 45%), rgb(10, 20, 30, 0%));
+    /* background: url("http://www.maisondujazz.be/images/interface_04-03.png"), linear-gradient(rgb(10, 20, 30, 45%), rgb(10, 20, 30, 0%)); */
+    background: url("https://www.europejazz.net/sites/default/files/styles/ejn_contain_cover/public/la%20maison.PNG?itok=xWTo026e"), rgba(247, 185, 22, 100);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    background-size: contain;
 }
 
 header div h1 {
-    color: rgb(255, 204, 65);
+    /* color: rgb(255, 204, 65); */
+    color:white;
 }
 
 a.heading {
@@ -27,13 +30,19 @@ a.heading {
     font-size: 2.5rem;
     border: none;
     text-transform: uppercase;
-    -webkit-text-stroke: 0.8px grey;
+    /* -webkit-text-stroke: 0.8px grey; */
+    
+}
+
+div#fixedtable_wrapper > div:first-child {
+    margin-top:0;
+    padding-top:50px;
+    background: linear-gradient(rgba(247, 185, 22, 100),rgba(247, 185, 22, 0));
 }
 
 body {
     grid-template-rows: 100px auto;
 }
-
 
 .typenum {
     position: absolute;
