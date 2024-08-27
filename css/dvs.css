@@ -18,8 +18,12 @@ a.heading {
     font-weight: 400;
     font-style: normal;
     font-size: larger;
+    border:0;
+}
+
+h1 {
     border: thick double #32a1ce;
-    ;
+    line-height:2.5rem;
 }
 
 /* th {
