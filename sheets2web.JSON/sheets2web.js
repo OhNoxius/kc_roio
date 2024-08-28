@@ -679,7 +679,12 @@ function makeDataTable(table, jsondata, sheet) {
 
             //new ClipboardJS('.btn');
             $(table).find(".btn").each(function () {
-                this.addEventListener("click", () => writeClipboardText(this.parentElement.getAttribute("aria-label")));
+                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.getAttribute("aria-label")).then(() => {
+                    console.log("copy to clipboard: '" + this.parentElement.getAttribute("aria-label") + "'");
+                })
+                    .catch(() => {
+                        alert("copy to clipboard failed");
+                    }));
             });
 
             if (table.getAttribute("id") == "fixedtable") {
@@ -950,12 +955,4 @@ function formatTooltip(object) {
         if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>"));
     }
     return result;
-}
-
-async function writeClipboardText(text) {
-    try {
-        await navigator.clipboard.writeText(text);
-    } catch (error) {
-        console.error(error.message);
-    }
 }
