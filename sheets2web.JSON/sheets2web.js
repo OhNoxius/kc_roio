@@ -443,7 +443,7 @@ function makeDataTable(table, jsondata, sheet) {
             "data": key,
             "defaultContent": '',
         };
-        //create <span> only in columns which have separte sheet
+        //create <span> only in columns which have separate sheet
         if (SHEETS.includes(key)) {
             //createdCell
             DTcolumn.createdCell = function (td, cellData, rowData, rowIndex, colIndex) {
