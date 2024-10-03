@@ -17,6 +17,7 @@ let fixedtable, dfixedtable;
 let fixedthead, fixedtbody, fixedtfoot;
 let fixedfooter_row;
 let linktype;
+let sheetLinkedMap = new Map();
 
 // DON'T TOUCH
 
@@ -212,118 +213,127 @@ function makeDataTable(table, jsondata, sheet) {
     const linkKeyIdx = maintableKeys.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) maintableKeys.splice(linkKeyIdx, 1);
     else if (parenttable != linktable) {
-        const linktableMap = new Map();
-        let linktableErrors = [];
-        //OPTION 1: what usecase is this?
-        if (maintable == LINKSHEET) {
-            jason[MAINSHEET].forEach(function (MAINel, idx, arr) {
-                linktableMap.set(MAINel[MAINSHEET_keys[0]].toString().toLowerCase(), idx);
-            });
-            //console.log(linktableMap);
-            let MAINid_trim, MAINidx, obj;
-            jsondata.forEach(function (LINKel, LINKidx, LINKarr) {
-                if (LINKel[MAINSHEET]) {
-                    LINKel[MAINSHEET].toString().split("\n").forEach(function (MAINid) {
-                        MAINid_trim = MAINid.trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
-                        if (linktableMap.has(MAINid_trim)) {
-                            MAINidx = linktableMap.get(MAINid_trim);
-                            if (linktable_types.size > 0) {
-                                let MAINType = jason[MAINSHEET][MAINidx][linktype];//MAINel[s2w_typeheader];
-                                if (MAINType == null || MAINType == '') MAINType = linktable;
-                                if (LINKarr[LINKidx]["LINKIDXS"]) {
-                                    if (LINKarr[LINKidx]["LINKIDXS"][MAINType]) LINKarr[LINKidx]["LINKIDXS"][MAINType].push(MAINidx);
+        if (sheetLinkedMap.has(maintable)) {
+            console.log("maintable:" + maintable + " already linked");
+        }
+        else {
+            const linktableMap = new Map();
+            let linktableErrors = [];
+            //OPTION 1: what usecase is this?
+            if (maintable == LINKSHEET) {
+                jason[MAINSHEET].forEach(function (MAINel, idx, arr) {
+                    linktableMap.set(MAINel[MAINSHEET_keys[0]].toString().toLowerCase(), idx);
+                });
+                //console.log(linktableMap);
+                let MAINid_trim, MAINidx, obj;
+                jsondata.forEach(function (LINKel, LINKidx, LINKarr) {
+                    if (LINKel[MAINSHEET]) {
+                        LINKel[MAINSHEET].toString().split("\n").forEach(function (MAINid) {
+                            MAINid_trim = MAINid.trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
+                            if (linktableMap.has(MAINid_trim)) {
+                                MAINidx = linktableMap.get(MAINid_trim);
+                                if (linktable_types.size > 0) {
+                                    let MAINType = jason[MAINSHEET][MAINidx][linktype];//MAINel[s2w_typeheader];
+                                    if (MAINType == null || MAINType == '') MAINType = linktable;
+                                    if (LINKarr[LINKidx]["LINKIDXS"]) {
+                                        if (LINKarr[LINKidx]["LINKIDXS"][MAINType]) LINKarr[LINKidx]["LINKIDXS"][MAINType].push(MAINidx);
+                                        else {
+                                            obj = LINKarr[LINKidx]["LINKIDXS"];
+                                            obj[MAINType] = [MAINidx];
+                                            LINKarr[LINKidx]["LINKIDXS"] = obj;
+                                        }
+                                    }
                                     else {
-                                        obj = LINKarr[LINKidx]["LINKIDXS"];
+                                        obj = {};
                                         obj[MAINType] = [MAINidx];
-                                        LINKarr[LINKidx]["LINKIDXS"] = obj;
+                                        LINKarr[LINKidx]["LINKIDXS"] = obj; //{[MAINType] : [MAINidx]}
                                     }
                                 }
                                 else {
-                                    obj = {};
-                                    obj[MAINType] = [MAINidx];
-                                    LINKarr[LINKidx]["LINKIDXS"] = obj; //{[MAINType] : [MAINidx]}
+                                    if (LINKel["LINKIDXS"]) LINKarr[LINKidx]["LINKIDXS"].push(MAINidx);
+                                    else LINKarr[LINKidx]["LINKIDXS"] = [MAINidx];
                                 }
                             }
                             else {
-                                if (LINKel["LINKIDXS"]) LINKarr[LINKidx]["LINKIDXS"].push(MAINidx);
-                                else LINKarr[LINKidx]["LINKIDXS"] = [MAINidx];
+                                //console.log("unknown " + MAINSHEET + " id " + MAINid_trim);
+                                linktableErrors.push(MAINid_trim);
                             }
-                        }
-                        else {
-                            //console.log("unknown " + MAINSHEET + " id " + MAINid_trim);
-                            linktableErrors.push(MAINid_trim);
-                        }
-                    });
+                        });
+                    }
+                });
+                console.log("linktableMap created between maintable:" + maintable + " and linktable:" + linktable);
+                sheetLinkedMap.set(maintable, 1);
+                if (linktableErrors.size > 0) {
+                    console.log("unknown " + MAINSHEET + " id's:");
+                    console.log(linktableErrors);
                 }
-            });
-            //console.log(jsondata);
-            if (linktableErrors.size > 0) {
-                console.log("unknown " + MAINSHEET + " id's:");
-                console.log(linktableErrors);
             }
-        }
-        //OPTION 2
-        else {
-            //first create index from mainsheet
-            jsondata.forEach(function (MAINel, idx, arr) {
-                linktableMap.set(MAINel[maintableKeys[0]].toString().toLowerCase(), idx);
-            });
-            //then loop through linkedsheet ONCE, and add info into above Map
-            if (LINKSHEET) {
-                let linkElArr;
-                jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
-                    if (linkEl[maintable]) {
-                        //column exported as JSON array => CONCERTS ARE PROBABLY NOT IN SEPARATE CELLS, split again for every \n
-                        if (Array.isArray(linkEl[maintable])) {
-                            linkElArr = [];
-                            for (var i = 0; i < linkEl[maintable].length; i++) {
-                                linkElArr = linkElArr.concat(linkEl[maintable][i].split("\n"));
+            //OPTION 2
+            else {
+                console.log(jsondata);
+                //first create index from mainsheet
+                jsondata.forEach(function (MAINel, idx, arr) {
+                    linktableMap.set(MAINel[maintableKeys[0]].toString().toLowerCase(), idx);
+                });
+                //then loop through linkedsheet ONCE, and add info into above Map
+                if (LINKSHEET) {
+                    let linkElArr;
+                    jason[linktable].forEach(function (linkEl, linkIdx, linkArr) {
+                        if (linkEl[maintable]) {
+                            //column exported as JSON array => CONCERTS ARE PROBABLY NOT IN SEPARATE CELLS, split again for every \n
+                            if (Array.isArray(linkEl[maintable])) {
+                                linkElArr = [];
+                                for (var i = 0; i < linkEl[maintable].length; i++) {
+                                    linkElArr = linkElArr.concat(linkEl[maintable][i].split("\n"));
+                                }
+                                // linkElArr = linkEl[maintable];
                             }
-                            // linkElArr = linkEl[maintable];
-                        }
-                        //column exported as normal string
-                        else linkElArr = linkEl[maintable].split("\n");
+                            //column exported as normal string
+                            else linkElArr = linkEl[maintable].split("\n");
 
-                        if (linkElArr) {
-                            let linkid_trim, mainIdx, obj;
-                            linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
-                                linkid_trim = linkid.toString().trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
-                                if (linktableMap.has(linkid_trim)) {
-                                    mainIdx = linktableMap.get(linkid_trim);
-                                    if (linktable_types.size > 0) {
-                                        let linkType = linkEl[linktype];
-                                        if (linkType == null || linkType == '') linkType = linktable;
-                                        if (jsondata[mainIdx]["LINKIDXS"]) {
-                                            if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+                            if (linkElArr) {
+                                let linkid_trim, mainIdx, obj;
+                                linkElArr.forEach(function (linkid) { //ERRORS when id column contains delimiter (; for example) => exports as Array instead of string
+                                    linkid_trim = linkid.toString().trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
+                                    if (linktableMap.has(linkid_trim)) {
+                                        mainIdx = linktableMap.get(linkid_trim);
+                                        if (linktable_types.size > 0) {
+                                            let linkType = linkEl[linktype];
+                                            if (linkType == null || linkType == '') linkType = linktable;
+                                            if (jsondata[mainIdx]["LINKIDXS"]) {
+                                                if (jsondata[mainIdx]["LINKIDXS"][linkType]) jsondata[mainIdx]["LINKIDXS"][linkType].push(linkIdx);
+                                                else {
+                                                    obj = jsondata[mainIdx]["LINKIDXS"];
+                                                    obj[linkType] = [linkIdx];
+                                                    jsondata[mainIdx]["LINKIDXS"] = obj;
+                                                }
+                                            }
                                             else {
-                                                obj = jsondata[mainIdx]["LINKIDXS"];
+                                                obj = {};
                                                 obj[linkType] = [linkIdx];
-                                                jsondata[mainIdx]["LINKIDXS"] = obj;
+                                                jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
                                             }
                                         }
                                         else {
-                                            obj = {};
-                                            obj[linkType] = [linkIdx];
-                                            jsondata[mainIdx]["LINKIDXS"] = obj; //{[linkType] : [linkIdx]}
+                                            if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
+                                            else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
                                         }
                                     }
                                     else {
-                                        if (jsondata[mainIdx]["LINKIDXS"]) jsondata[mainIdx]["LINKIDXS"].push(linkIdx);
-                                        else jsondata[mainIdx]["LINKIDXS"] = [linkIdx];
+                                        //console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
+                                        linktableErrors.push(linkid_trim);
                                     }
-                                }
-                                else {
-                                    //console.log("unknown " + maintable + " id in " + linktable + ": " + linkid_trim);
-                                    linktableErrors.push(linkid_trim);
-                                }
-                            });
+                                });
+                            }
                         }
-                    }
-                });
-            }
-            if (linktableErrors.size > 0) {
-                console.log("unknown " + maintable + " id's in " + linktable + ":");
-                console.log(linktableErrors);
+                    });
+                }
+                console.log("linktableMap created between maintable:" + maintable + " and linktable:" + linktable);
+                sheetLinkedMap.set(maintable, 1);
+                if (linktableErrors.size > 0) {
+                    console.log("unknown " + maintable + " id's in " + linktable + ":");
+                    console.log(linktableErrors);
+                }
             }
         }
         //console.log(linktableMap);
@@ -443,7 +453,7 @@ function makeDataTable(table, jsondata, sheet) {
             "data": key,
             "defaultContent": '',
         };
-        //create <span> only in columns which have separate sheet
+        //create <span> only in columns which have separte sheet
         if (SHEETS.includes(key)) {
             //createdCell
             DTcolumn.createdCell = function (td, cellData, rowData, rowIndex, colIndex) {
