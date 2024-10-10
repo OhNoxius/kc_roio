@@ -270,7 +270,7 @@ function makeDataTable(table, jsondata, sheet) {
             }
             //OPTION 2
             else {
-                console.log(jsondata);
+                //console.log(jsondata);
                 //first create index from mainsheet
                 jsondata.forEach(function (MAINel, idx, arr) {
                     linktableMap.set(MAINel[maintableKeys[0]].toString().toLowerCase(), idx);
@@ -462,7 +462,7 @@ function makeDataTable(table, jsondata, sheet) {
                     functionBefore: function (instance, helper) {
                         const textContent = helper.origin.textContent;
                         const firstkey = Object.keys(jason[key][0])[0];
-                        const query = jason[key].filter(x => x[firstkey] == textContent);
+                        const query = jason[key].filter(x => x[firstkey].toLowerCase() == textContent.toLowerCase()); // CASE INSENSITIVE
                         if (query.length > 0) instance.content(formatTooltip(query[0]));
                     },
                     interactive: true

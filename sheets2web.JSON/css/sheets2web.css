@@ -209,7 +209,9 @@ li.tab.active a.tab {
     background-color: #ff7000;
 } */
 
+
 /*TABLES general*/
+
 th,
 td {
     white-space: pre-wrap;
@@ -226,7 +228,8 @@ th.IDcol {
 
 table.dataTable>tbody>tr>th,
 table.dataTable>tbody>tr>td {
-    padding: 28px 8px 22px 8px;
+    padding: 40px 8px 35px 8px;
+    /*28px 8px 22px 8px;*/
     vertical-align: text-top;
     /* keeps copy button stuck on top! */
 }
@@ -419,11 +422,9 @@ div.dataTables_wrapper div.dataTables_processing {
     animation: spinner .6s linear infinite;
 }
 
-
-
 td.tipdiv button {
     position: absolute;
-    top: 2px;
+    top: 0.2em;
     /* MAKE EQUAL TO aria-label :after { padding-top: 5px } */
     /* transform: translateY(-24px); */
     /* display: inline-block; */
@@ -436,8 +437,12 @@ td.tipdiv button {
     background-repeat: no-repeat;
     /* background-position: center; */
     /* margin: -5rem 0px !important; */
-
     cursor: copy;
+    display: none;
+}
+
+tr:hover td.tipdiv button {
+    display: inline;
 }
 
 td.tipdiv button:active {
@@ -458,22 +463,26 @@ td.tipdiv button:active {
     /*#020c24; /*black;*/
 }
 
+/* TOOLTIPSTER */
+
 [aria-label][data-balloon-pos]:after {
     position: absolute;
     top: 0px;
-    padding-top: 2px;
+    padding-top: 0px;
+    /* 2px */
     /* MAKE EQUAL TO tipdiv { top: 5px } */
-    font-weight: 400 !important;
+    font-weight: 500 !important;
+    font-size: 0.9rem;
     /* font-style: italic; */
-    line-height: 1.1em;
-    text-indent: 0.5em;
-    letter-spacing: 0.6px;
+    line-height: 1.5em;
+    text-indent: 0.0em;
+    letter-spacing: 0.1px;
     z-index: 0 !important;
     /* width: 100vw;
     width: -moz-available;
     width: -webkit-fill-available;
     width: fill-available; */
-
+    padding-left: 0.8em
 }
 
 [aria-label][data-balloon-pos]:before {
