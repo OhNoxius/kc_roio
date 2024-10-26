@@ -42,7 +42,6 @@ a.heading {
     /* makes cssnumber move to right corner */
     padding: 1px;
     /*below was in each type separately*/
-    color: transparent;
     /* font-size: 0; */
 }
 
