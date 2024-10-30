@@ -474,12 +474,14 @@ function makeDataTable(table, jsondata, sheet) {
                     //FOR NOW, until all the data is already split in json/xml, I join the Array to a string again, and split it up with the extra delimiters
                     if (data) {
                         data = data.join(";").split(delims);
-                        let i = 0, len = data.length, result = "";
+                        let i = 0, len = data.length, result = "", span="";
                         while (i < len - 2) {
-                            result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' + data[i + 1] + '</span>'; //trimdelim for cutting of instrument brackets
+                            if (data[i+1].indexOf("\n")==-1) span= '<span class="padright">' + data[i + 1] + '</span>'
+                            else span = '<br class="padbottom">'
+                            result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + span; //trimdelim for cutting of instrument brackets
                             i += 2;
                         }
-                        return result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + '<span class="padright">' //last one without delimiter span
+                        return result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&");// + '<span class="padright">' //last one without delimiter span
                     }
                 }
             }

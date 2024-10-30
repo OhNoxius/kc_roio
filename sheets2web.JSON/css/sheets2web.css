@@ -144,6 +144,11 @@ a.heading:active {
 .padleft {
     margin-left: 0.4em;
 }
+.padbottom {
+    margin-bottom: 0.6em;
+    content: " ";
+    display: block;
+}
 
 /* NAVIGATION */
 
@@ -236,14 +241,15 @@ table.dataTable>tbody>tr>td {
 
 td.match {
     color: rgba(59, 129, 229, 0.7);
-    font-size: 0.85em;
+    font-size: 0.87em;
     text-decoration: underline;
     /* font-style: italic; */
     /* white-space: normal; */
     vertical-align: middle;
     white-space: pre-line;
     /* border-right: 1px lightgray dotted; */
-    line-height: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: 0.1px;
 }
 
 td.match span:hover {
