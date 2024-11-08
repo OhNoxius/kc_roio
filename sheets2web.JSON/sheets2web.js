@@ -474,9 +474,9 @@ function makeDataTable(table, jsondata, sheet) {
                     //FOR NOW, until all the data is already split in json/xml, I join the Array to a string again, and split it up with the extra delimiters
                     if (data) {
                         data = data.join(";").split(delims);
-                        let i = 0, len = data.length, result = "", span="";
+                        let i = 0, len = data.length, result = "", span = "";
                         while (i < len - 2) {
-                            if (data[i+1].indexOf("\n")==-1) span= '<span class="padright">' + data[i + 1] + '</span>'
+                            if (data[i + 1].indexOf("\n") == -1) span = '<span class="padright">' + data[i + 1] + '</span>'
                             else span = '<br class="padbottom">'
                             result += '<span class="linktip">' + data[i].trim().replace(trimdelim, "</span>$&") + span; //trimdelim for cutting of instrument brackets
                             i += 2;
@@ -768,7 +768,7 @@ function makeDataTable(table, jsondata, sheet) {
                         ARR = ARR.join(";").split(delimsNC);
 
                         const MAP = new Map(ARR.map(s => [s.trim().toLowerCase(), s.trim()]));
-                        ARR = [...MAP.values()].sort();
+                        ARR = [...MAP.values()].sort((a, b) => a.localeCompare(b, undefined, {'sensitivity': 'base'})); //CASE INSENSITIVE and can handle accents!!
 
                         //let SET = new Set();
                         //const ARRlen = ARR.length;

@@ -469,8 +469,6 @@ td.tipdiv button:active {
     /*#020c24; /*black;*/
 }
 
-/* TOOLTIPSTER */
-
 [aria-label][data-balloon-pos]:after {
     position: absolute;
     top: 0px;
@@ -497,4 +495,10 @@ td.tipdiv button:active {
 
 [aria-label][data-balloon-pos] {
     cursor: initial;
+}
+
+/* TOOLTIPSTER */
+
+div.tooltipster-content li {
+    white-space: pre-wrap;
 }

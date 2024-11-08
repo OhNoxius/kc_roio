@@ -10,7 +10,7 @@ header {
     background-size: contain;
 }
 
-header div {
+header div#heading {
     padding-left: 200px;
 }
 
