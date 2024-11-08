@@ -4,7 +4,7 @@ body {
 
 header {
     /* background: url("http://www.maisondujazz.be/images/interface_04-03.png"), linear-gradient(rgb(10, 20, 30, 45%), rgb(10, 20, 30, 0%)); */
-    background: url("https://www.europejazz.net/sites/default/files/styles/ejn_contain_cover/public/la%20maison.PNG?itok=xWTo026e"), rgba(247, 185, 22, 100);
+    background: url("MDJ.jpg"), rgba(251, 178, 21, 100);
     background-repeat: no-repeat;
     background-position: 10px;
     background-size: contain;
@@ -37,7 +37,7 @@ a.heading {
 div#fixedtable_wrapper > div:first-child {
     margin-top:0;
     padding-top:50px;
-    background: linear-gradient(rgba(247, 185, 22, 100),rgba(247, 185, 22, 0));
+    background: linear-gradient(rgba(251, 178, 21, 100),rgba(251, 178, 21, 0));
 }
 
 body {
