@@ -388,7 +388,9 @@ tr.LASTshown td.arrow-ctrl {
 
 /* DataTables OVERRIDE */
 
-
+div.dt-container .dt-search input {
+    width: 40vw;
+  }
 /* div.dt-container div.dt-layout-row { CHANGES ALL CELL BACKGROUNDS????
     background: rgb(226, 231, 235);
 } */

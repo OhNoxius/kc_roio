@@ -396,9 +396,6 @@ function makeDataTable(table, jsondata, sheet) {
                 // "orderable": false,
                 "defaultContent": '',
                 "data": "LINKIDXS",
-                "render": function (data, type, rowData, meta) {
-                    return data?.length
-                },
                 "cellIndex": startIndex,
                 "createdCell": function (cell, cellData, rowData, rowIndex, colIndex) {
                     //balloon.css
@@ -424,6 +421,11 @@ function makeDataTable(table, jsondata, sheet) {
                     }
                     return innerhtml
                 };
+            }
+            else {
+                DTcolumn.render = function (data, type, rowData, meta) {
+                    return data?.length
+                }
             }
             header_row.prepend(document.createElement("th"));
             columns.push(DTcolumn);//columns.unshift(DTcolumn);
@@ -591,6 +593,14 @@ function makeDataTable(table, jsondata, sheet) {
         };
         // dom = "lfrti";
         dt_layout = {
+            top: {
+                search: {
+                    text: '',
+                    placeholder: "Type to start search in '" + sheet + "' tab..."
+                }
+            },
+            topStart: null,
+            topEnd: 'pageLength',
             // bottomStart: createNavFooter(SHEETS), //THIS IS NOT THE TABLE FOOTER!!! so doesn't stick
             bottomStart: 'paging',
             bottomEnd: 'info'
@@ -614,6 +624,9 @@ function makeDataTable(table, jsondata, sheet) {
 
     //DATATABLE    
     const dTable = $(table).DataTable({
+        columnDefs: [
+            { type: 'natural-ci', target: 0 }
+        ],
         "data": jsondata,
         "layout": dt_layout,
         "processing": true, //only works with Ajax?
@@ -768,7 +781,7 @@ function makeDataTable(table, jsondata, sheet) {
                         ARR = ARR.join(";").split(delimsNC);
 
                         const MAP = new Map(ARR.map(s => [s.trim().toLowerCase(), s.trim()]));
-                        ARR = [...MAP.values()].sort((a, b) => a.localeCompare(b, undefined, {'sensitivity': 'base'})); //CASE INSENSITIVE and can handle accents!!
+                        ARR = [...MAP.values()].sort((a, b) => a.localeCompare(b, undefined, { 'sensitivity': 'base' })); //CASE INSENSITIVE and can handle accents!!
 
                         //let SET = new Set();
                         //const ARRlen = ARR.length;
