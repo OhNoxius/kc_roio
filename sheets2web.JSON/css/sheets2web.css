@@ -190,7 +190,7 @@ a.tab.LINKclr {
 
 a.tab.MAINLINK {
     filter: saturate(2.3);
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
     /* margin-left: 5px;
     margin-right: 5px; */
     font-style: normal;
@@ -214,8 +214,8 @@ li.tab.active a.tab {
     -ms-filter: brightness(110%);
     filter: brightness(110%);
     filter: saturate(3);
-    /* text-decoration:underline; */
-    font-size: 1.2rem;
+    text-decoration:underline;
+    font-size: 1.1rem;
 }
 
 /* li.tab.active a.tab {
@@ -230,21 +230,23 @@ td {
     white-space: pre-wrap;
 }
 
-td.IDcol,
-th.IDcol {
-    width: 0 !important;
+table.dataTable>tbody>tr>td {    
+    /*28px 8px 22px 8px;*/
+    vertical-align: text-top;
+    /* keeps copy button stuck on top! */
+}
+
+table.dataTable>tbody>tr.IDheader>td {
+    padding: 40px 8px 25px 8px !important;
+}
+
+table.dataTable>tbody>tr>td.IDcol,
+table.dataTable>thead>tr>th.IDcol {
+    /* width: 0 !important; */
     padding: 0 !important;
     /* padding-right: 0px;
     padding-left: 4ex;
     /* !important; really removes the column! */
-}
-
-table.dataTable>tbody>tr>th,
-table.dataTable>tbody>tr>td {
-    padding: 35px 8px 30px 8px;
-    /*28px 8px 22px 8px;*/
-    vertical-align: text-top;
-    /* keeps copy button stuck on top! */
 }
 
 td.match {
@@ -279,8 +281,11 @@ table.dataTable>thead>tr>th.LINKcol {
     white-space: normal;
     vertical-align: middle !important;
     border-right: 1px lightgray dotted;
-    padding-top: 25px;
-    padding-bottom: 5px;
+}
+
+table.dataTable>tbody>tr>td.LINKcol {
+    padding-top: 25px !important;
+    padding-bottom: 5px !important;
 }
 
 table.dataTable>thead>tr.columnfilters>th {
@@ -289,7 +294,7 @@ table.dataTable>thead>tr.columnfilters>th {
     position: relative;
     z-index: 1;
     font-weight: normal;
-    padding: 2px 5px;
+    padding: 2px 5px !important;
     text-align: left;
     font-size: 0.9em;
 }
@@ -344,7 +349,7 @@ tr.child>td.child table.linktable tr td {
     background-color: #faf7ed;
     text-align: left;
     border: 0;
-    padding: 20px 5px;
+    /* padding: 20px 5px; */
 }
 
 table.dataTable tbody tr.child>td.child div.dt-container {

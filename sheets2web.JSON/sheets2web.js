@@ -639,6 +639,7 @@ function makeDataTable(table, jsondata, sheet) {
         "orderCellsTop": true,
         "columns": columns,
         "createdRow": function (row, data, dataIndex, cells) {
+            if (maintable != LINKSHEET) row.classList.add('IDheader');
             //balloon.css MESSES UP TABLE LAYOUT!!!??
             // if (maintable != LINKSHEET) {
             //     row.classList.add('tipdiv');

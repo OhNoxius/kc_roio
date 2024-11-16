@@ -22,9 +22,10 @@ a.heading {
 }
 
 h1 {
-    border: thick double #32a1ce;
+    /* border: thick double #32a1ce; */
     line-height:2.5rem;
     margin: 0.2em;
+    color: #32a1ce;
 }
 
 /* th {
