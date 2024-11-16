@@ -17,6 +17,7 @@ header div#heading {
 header div h1 {
     /* color: rgb(255, 204, 65); */
     color:white;
+    margin: 0.2em;
 }
 
 a.heading {

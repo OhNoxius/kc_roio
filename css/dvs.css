@@ -24,6 +24,7 @@ a.heading {
 h1 {
     border: thick double #32a1ce;
     line-height:2.5rem;
+    margin: 0.2em;
 }
 
 /* th {
@@ -87,3 +88,8 @@ td {
     background-image: url(78t.png);
     color: transparent;
 }
+
+/* table.dataTable>tbody>tr>th,
+table.dataTable>tbody>tr>td {
+    padding: 25px 8px 15px 8px;
+}*/
