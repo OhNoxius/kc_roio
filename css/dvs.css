@@ -1,7 +1,9 @@
-/* :root {
-    font-family: 'Inter', sans-serif;
+:root {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-size:17px;
 }
-
+/* 
 @supports (font-variation-settings: normal) {
     :root {
         font-family: 'Inter var', sans-serif;

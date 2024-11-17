@@ -4,7 +4,7 @@
     font-family: "Helvetica Neue", Helvetica, "Nimbus Sans", Arial, sans-serif;
     /* font-feature-settings: 'liga' 1, 'calt' 1; */
     /* fix for Chrome */
-}
+}  
 
 /* @supports (font-variation-settings: normal) {
     :root {
