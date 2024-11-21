@@ -705,7 +705,7 @@ function makeDataTable(table, jsondata, sheet) {
 
             //new ClipboardJS('.btn');
             $(table).find(".btn").each(function () {
-                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.getAttribute("aria-label")).then(() => {
+                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.getAttribute("aria-label").toString()).then(() => {
                     console.log("copy to clipboard: '" + this.parentElement.getAttribute("aria-label") + "'");
                 })
                     .catch(() => {
