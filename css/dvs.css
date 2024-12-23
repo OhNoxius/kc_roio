@@ -86,11 +86,15 @@ td {
     background-image: url(CD.png);
     color: transparent;
 }
-
-.typeicon.\78t {
+[class*='78rpm'].typeicon{
     background-image: url(78t.png);
     color: transparent;
 }
+
+/* .typeicon.\307 8rpm {
+    background-image: url(78t.png);
+    color: transparent;
+} */
 
 /* table.dataTable>tbody>tr>th,
 table.dataTable>tbody>tr>td {
