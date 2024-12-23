@@ -54,11 +54,12 @@ td {
     /* text-align: center; */
     color: #fff;
     border-radius: 15px;
-    /* left: 45px; */
+    left: -5px;
     top: -5px;
     /*-0.5ex;*/
     padding: 0.1rem 0.33rem;
     font-style: normal;
+    border: 1px solid green;
 }
 
 .typeicon {
@@ -90,11 +91,6 @@ td {
     background-image: url(78t.png);
     color: transparent;
 }
-
-/* .typeicon.\307 8rpm {
-    background-image: url(78t.png);
-    color: transparent;
-} */
 
 /* table.dataTable>tbody>tr>th,
 table.dataTable>tbody>tr>td {
