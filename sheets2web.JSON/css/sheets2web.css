@@ -4,7 +4,7 @@
     font-family: "Helvetica Neue", Helvetica, "Nimbus Sans", Arial, sans-serif;
     /* font-feature-settings: 'liga' 1, 'calt' 1; */
     /* fix for Chrome */
-}  
+}
 
 /* @supports (font-variation-settings: normal) {
     :root {
@@ -89,7 +89,7 @@ header div {
     display: inline-block;
 }
 
-header div#activity {
+header div#s2w_activity {
     float: right;
 }
 
@@ -241,12 +241,20 @@ table.dataTable>tbody>tr.IDheader>td {
 }
 
 table.dataTable>tbody>tr>td.IDcol,
-table.dataTable>thead>tr>th.IDcol {
+table.dataTable>thead>tr>th.IDcol{
     /* width: 0 !important; */
-    padding: 0 !important;
+    padding: 0.3em 0 0 0 !important;
+    /* padding-left: 20px; */
+    /* content: none; */
     /* padding-right: 0px;
     padding-left: 4ex;
     /* !important; really removes the column! */
+    vertical-align: top !important;
+    text-align: left;
+}
+table.dataTable>tbody>tr>td.IDcol {
+    /* padding-right: 20px !important; */
+    width: 20px !important;
 }
 
 td.match {
@@ -273,28 +281,34 @@ table.dataTable>thead>tr>th.LINKcol {
     /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     text-align: right;
     /* width: 0%; */
-    /* padding-left: 0px !important; */
+    padding-left: 0px !important;
     /* font-size: 0.95em; */
     font-style: italic;
-    /* font-weight: bold; */
+    font-weight: bold;
     color: forestgreen;
     white-space: normal;
     vertical-align: middle !important;
-    border-right: 1px lightgray dotted;
+    /* box-sizing: border-box; */
+    border-right: 1px rgb(211, 211, 211,50%) dashed;
+}
+
+table.dataTable>thead>tr>th.LINKcol {
+    border-right: 1px lightgray solid;
 }
 
 table.dataTable>tbody>tr>td.LINKcol {
     padding-top: 25px !important;
     padding-bottom: 5px !important;
+    /* padding-left: 0px !important; */
 }
 
-table.dataTable>thead>tr.columnfilters>th {
+table.dataTable>thead tr.columnfilters th {
     background-color: rgb(226, 231, 235);
     box-shadow: 0 0 3em 0.1em rgb(226, 231, 235);
     position: relative;
     z-index: 1;
     font-weight: normal;
-    padding: 2px 5px !important;
+    padding: 2px 5px; /*!important;*/
     text-align: left;
     font-size: 0.9em;
 }
@@ -312,10 +326,14 @@ th.LINKcol div {
 div.typeicon {
     text-align: center;
 }
+div.typeicon span.typenum {
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*CHILD TABLE */
 tr.child>td.child {
-    font-size: 96%;
+    font-size: 98%;
     padding: 0 !important;
     /* overrides padding of 'table.linktable tr td' padding */
     white-space: normal;
@@ -395,11 +413,19 @@ td.arrow-ctrl {
     cursor: pointer;
     /* width: 0px; */
     padding: 0px;
-    background: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg') no-repeat top center;
+    /* background-image: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg'); */
+    background-image: url('../css/sort-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 tr.LASTshown td.arrow-ctrl {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg') no-repeat bottom center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg');
+    background-image:url('../css/sort-arrow-up.svg');
+    /* background-color:  rgba(211, 211, 211, 0.5) ; */
+    background-repeat: space repeat-y;
+    /* background-position-y: bottom; */
 }
 
 /* DataTables OVERRIDE */
@@ -456,8 +482,8 @@ div.dataTables_wrapper div.dataTables_processing {
 }
 
 td.tipdiv button {
-    position: absolute;
-    top: 0.2em;
+    /* position: absolute; */
+    /* top: 0.2em; */
     /* MAKE EQUAL TO aria-label :after { padding-top: 5px } */
     /* transform: translateY(-24px); */
     /* display: inline-block; */
@@ -465,7 +491,7 @@ td.tipdiv button {
     border: 0;
     background-color: rgb(0, 0, 0, 0);
     background-image: url(content-copy.svg);
-    background-position: center top;
+    /* background-position: center top; */
     background-size: 0.9em;
     background-repeat: no-repeat;
     /* background-position: center; */

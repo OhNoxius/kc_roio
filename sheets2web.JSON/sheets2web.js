@@ -3,9 +3,9 @@ document.body = document.createElement("body");
 const HEADER = document.body.appendChild(document.createElement("header"));
 const SECTION = document.body.appendChild(document.createElement("section"));
 const FOOTER = document.body.appendChild(document.createElement("footer"));
-HEADER.appendChild(document.createElement("div")).id = "heading";
-HEADER.appendChild(document.createElement("div")).id = "status";
-HEADER.appendChild(document.createElement("div")).id = "activity";
+HEADER.appendChild(document.createElement("div")).id = "s2w_heading";
+HEADER.appendChild(document.createElement("div")).id = "s2w_status";
+HEADER.appendChild(document.createElement("div")).id = "s2w_activity";
 SECTION.innerHTML = '<table id="fixedtable" class="hover row-border" width="100%" style="display:none"></table><div id="dt_loader" class="spinner"></div>';
 FOOTER.id = "navigation";
 
@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
     heading_a.setAttribute("href", "");
     heading_a.setAttribute("class", "heading");
     heading.append(heading_a);
-    document.getElementById("heading").append(heading);
+    document.getElementById("s2w_heading").append(heading);
     //FILE UPDATED
-    lastUpdated(s2w_datafile, "activity");
+    lastUpdated(s2w_datafile, "s2w_activity");
 
     fixedtable = document.getElementById("fixedtable");
     // fixedthead = fixedtable.appendChild(document.createElement("thead"));
@@ -475,6 +475,7 @@ function makeDataTable(table, jsondata, sheet) {
                 DTcolumn.render = function (data, type, row, meta) {
                     //FOR NOW, until all the data is already split in json/xml, I join the Array to a string again, and split it up with the extra delimiters
                     if (data) {
+                        // console.log(data);
                         data = data.join(";").split(delims);
                         let i = 0, len = data.length, result = "", span = "";
                         while (i < len - 2) {
@@ -705,7 +706,7 @@ function makeDataTable(table, jsondata, sheet) {
 
             //new ClipboardJS('.btn');
             $(table).find(".btn").each(function () {
-                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.getAttribute("aria-label").toString()).then(() => {
+                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.getAttribute("aria-label")).then(() => {
                     console.log("copy to clipboard: '" + this.parentElement.getAttribute("aria-label") + "'");
                 })
                     .catch(() => {
@@ -741,14 +742,21 @@ function makeDataTable(table, jsondata, sheet) {
                     else if (jqth.classList.contains("LINKcol")) {
                         jqthisfilter.get(0).setAttribute("class", "LINKcol")
                         //if (linktable_types.size == 0) linktable_types.add(""); //=> do it another way...breaks code further on
-                        linktable_types.forEach(function (value, index, array) {
-                            $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
-                                '<label for="' + value + '">' + value + '</label></div>')
+                        if (linktable_types.size == 0) {
+                            $('<div class="nowrap"><input type="checkbox" id="" name="linkcheckbox" value=".+" class="headercheckbox" />' +
+                                '<label for=""></label></div>')
                                 .appendTo(jqthisfilter);
-                        });
+                        }
+                        else {
+                            linktable_types.forEach(function (value, index, array) {
+                                $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
+                                    '<label for="' + value + '">' + value + '</label></div>')
+                                    .appendTo(jqthisfilter);
+                            });
+                        }
                         jqthisfilter.find('input:checkbox').on('change', function (e) {
                             //build a regex filter string with an or(|) condition
-                            let checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
+                            const checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
                                 return this.value;
                             }).get().join('|');
                             //filter in column 1, with an regex, no smart filtering, not case sensitive
