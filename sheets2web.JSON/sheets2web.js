@@ -228,7 +228,7 @@ function makeDataTable(table, jsondata, sheet) {
                 let MAINid_trim, MAINidx, obj;
                 jsondata.forEach(function (LINKel, LINKidx, LINKarr) {
                     if (LINKel[MAINSHEET]) {
-                        LINKel[MAINSHEET].toString().split("\n").forEach(function (MAINid) {
+                        LINKel[MAINSHEET].toString().split(delimsNC).forEach(function (MAINid) {
                             MAINid_trim = MAINid.trim().toLowerCase(); //POEH! Google Sheet can have hidden &#xD;
                             if (linktableMap.has(MAINid_trim)) {
                                 MAINidx = linktableMap.get(MAINid_trim);
@@ -284,12 +284,12 @@ function makeDataTable(table, jsondata, sheet) {
                             if (Array.isArray(linkEl[maintable])) {
                                 linkElArr = [];
                                 for (var i = 0; i < linkEl[maintable].length; i++) {
-                                    linkElArr = linkElArr.concat(linkEl[maintable][i].split("\n"));
+                                    linkElArr = linkElArr.concat(linkEl[maintable][i].split(delimsNC));
                                 }
                                 // linkElArr = linkEl[maintable];
                             }
                             //column exported as normal string
-                            else linkElArr = linkEl[maintable].split("\n");
+                            else linkElArr = linkEl[maintable].split(delimsNC);
 
                             if (linkElArr) {
                                 let linkid_trim, mainIdx, obj;
