@@ -1,15 +1,15 @@
-header div h1 {
+/* header div h1 {
     color:#32a1ce;
-}
+} */
 
-a.heading {
+/* a.heading {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5rem;
     border: none;
     text-transform: uppercase;
     -webkit-text-stroke: 0.8px grey;
     font-style:italic;
-}
+} */
 
 .typenum {
     position: relative;
