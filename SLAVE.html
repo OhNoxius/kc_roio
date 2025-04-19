@@ -50,10 +50,17 @@
 		//OPTIONAL
 		//set header title to display above table
 		const s2w_heading = "YOU THINK YOU WANT TO HAS JAZZ";
+		
 		//set drive link to display next to header title
 		//let s2w_editlink = "https://docs.google.com/spreadsheets/d/1gTCRmbPqV-EL3g4KG7JdGnbVH5xIQvu0xcCTb7-JzKE/edit?usp=sharing";
-		//choose character that will be used to separate content inside cells
-		const s2w_delimiter = ";";
+		
+		//s2w_delimiter: choose regex that will be used to separate content inside cells		
+		// with NEGATIVE lookbehind =>
+		// const s2w_delimiter = /[;\r\n]+|(?<!\s)\(|\?(?=\S)|(?<!\s)\:/g
+		// with POSITIVE lookbehind!! =>
+		const s2w_delimiter = /[;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:/g
+		// explanation: newline and ";" sign | "(" that is not followed by whitespace / "?" that is not followed by whitespace | ": " sign that is not preceded by whitespace
+		
 		const s2w_typeheader = "type";
 	</script>
 </head>
