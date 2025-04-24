@@ -44,11 +44,15 @@
 		const s2w_datafile = getFilename("json");
 
 		//set header title to display above table
-		const s2w_heading = "TEMP ID";
+		// const s2w_title = "TEMP ID";
+		
 		//set drive link to display next to header title
 		// const s2w_editlink = "https://docs.google.com/spreadsheets/d/1TLNDF4_9SpZl59QHuh3puNMykgMMA9UX1FKeLASOJEA/edit?usp=sharing";
+		
 		//choose character that will be used to separate content inside cells
-		const s2w_delimiter = ";";
+		const s2w_delimiter = /[;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:/g
+		// explanation: newline and ";" sign | "(" that is not followed by whitespace / "?" that is not followed by whitespace | ": " sign that is not preceded by whitespace
+
 		const s2w_typeheader = "type";
 	</script>
 </head>
