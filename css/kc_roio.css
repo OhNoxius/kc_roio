@@ -11,6 +11,12 @@
     font-style:italic;
 } */
 
+body {
+    font-family: Helvetica, -apple-system, Sans-Serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.3;
+}
+
 .typenum {
     position: relative;
     font-family: 'Courier New', Courier, monospace;

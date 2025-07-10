@@ -104,23 +104,29 @@ document.addEventListener('DOMContentLoaded', function () {
     // fixedthead = fixedtable.appendChild(document.createElement("thead"));
     // fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     // fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
+    const ext = s2w_datafile.substring(s2w_datafile.indexOf(".") + 1);
+
+    ///// CHECK THIS TO DYNAMICALLY LOAD excel library https://stackoverflow.com/questions/14521108/dynamically-load-js-inside-js#answer-14521217
 
     fetch(s2w_datafile)
-        .then(res => res.json())
+        .then(function (res) {
+            switch (ext) {
+                case "json": return res.json()
+                case "xlsx": return res.arrayBuffer()
+                default: console.log("s2w_datafile has unknown extension. Only json and xlsx supported");
+            }
+        })
         .then(data => {
-            // .then((res) => res.arrayBuffer())
-            // .then((data) => {
-            //     // IF XLSX !!
-            //     // const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
-            //     const workbook = XLSX.read(data, { type: "array" });
-            //     //console.log("html ", wb);
+            if (ext === "json") jason = data;
+            else if (ext === "xlsx") {
+                // const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
+                const workbook = XLSX.read(data, { type: "array" });
+                //console.log("html ", wb);
 
-            //     workbook.SheetNames.forEach(function (name) {
-            //         jason[name] = XLSX.utils.sheet_to_json(workbook.Sheets[name]);
-            //     });
-
-            // IF JSON
-            jason = data;
+                workbook.SheetNames.forEach(function (name) {
+                    jason[name] = XLSX.utils.sheet_to_json(workbook.Sheets[name]);
+                });
+            }
 
             let urlHash = "";
             if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
@@ -335,7 +341,7 @@ function makeDataTable(table, jsondata, sheet) {
                             });
                         }
                     });
-                    console.log("linktableMap created between maintable:" + maintable + " and linktable:" + linktable);
+                    console.log("linktableMap created between maintable:'" + maintable + "' and linktable:'" + linktable + "'");
                     sheetLinkedMap.set(maintable, 1);
                     if (linktableErrors.size > 0) {
                         console.log("unknown " + MAINSHEET + " id's:");
@@ -402,7 +408,7 @@ function makeDataTable(table, jsondata, sheet) {
                             }
                         });
                     }
-                    console.log("linktableMap created between maintable:" + maintable + " and linktable:" + linktable);
+                    console.log("linktableMap created between maintable:'" + maintable + "' and linktable:'" + linktable + "'");
                     sheetLinkedMap.set(maintable, 1);
                     if (linktableErrors.size > 0) {
                         console.log("unknown " + maintable + " id's in " + linktable + ":");
@@ -463,7 +469,7 @@ function makeDataTable(table, jsondata, sheet) {
     //EXTRA: LINKcol
     let className = "LINKcol";
     if (linktable_types.size > 0) className += " types";
-    console.log(className);
+    // console.log(className);
 
     if (maintableKeys.indexOf(linktable) == -1) {
         if (linktable) {
@@ -575,7 +581,8 @@ function makeDataTable(table, jsondata, sheet) {
                         const textContent = helper.origin.textContent;
                         const doubt = helper.origin.classList.contains("?<span");
                         const firstkey = Object.keys(jason[key][0])[0];
-                        const query = jason[key].filter(x => x[firstkey].toString().toLowerCase() === textContent.toLowerCase()); // CASE INSENSITIVE
+                        // console.log({textContent, doubt, firstkey, key});
+                        const query = jason[key].filter(x => { if (x[firstkey]) return x[firstkey].toString().toLowerCase() === textContent.toLowerCase() }); //use if in case x["id"] DOESN't EXIST!
                         if (query.length > 0) instance.content((doubt ? ["<p>?</p>"] : []).concat(formatTooltip(query[0])));
                     },
                     interactive: true
@@ -848,14 +855,6 @@ function makeDataTable(table, jsondata, sheet) {
             //create tooltips
             //createTooltips(table);
 
-            $(table).find(".btn").each(function () {
-                this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.parentElement.getAttribute("aria-label")).then(() => {
-                    console.log("copy to clipboard: '" + this.parentElement.parentElement.getAttribute("aria-label") + "'");
-                })
-                    .catch(() => {
-                        alert("copy to clipboard failed");
-                    }));
-            });
 
             if (table.getAttribute("id") == "fixedtable") {
                 headerfilters_row = header_row.cloneNode(true);
@@ -921,7 +920,7 @@ function makeDataTable(table, jsondata, sheet) {
                         let SET = new Set(DTcolumnArray.flat());
                         SET.delete(null);
                         SET.delete("");
-                        
+
                         //above condition doesn't always work! First item can be different (array or non-array) than other items
 
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
@@ -1012,123 +1011,135 @@ function makeDataTable(table, jsondata, sheet) {
                         }
                     }
                 });
+
+                $(table).find(".btn").each(function () {
+                    this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.parentElement.getAttribute("aria-label")).then(() => {
+                        console.log("copy to clipboard: '" + this.parentElement.parentElement.getAttribute("aria-label") + "'");
+                    })
+                        .catch(() => {
+                            alert("copy to clipboard failed");
+                        }));
+                });
+
             }
+
+            //CHILDROW: details
+            $(table).children('tbody').on('click', '> tr > td.LASTcol', function () {
+                const tr = this.parentElement;
+                // const jqtr = $(this.parentElement);
+                const dRow = dTable.row($(tr));
+
+                // console.log(dRow);
+                if (typeof SIDEPANEL === "undefined") {
+
+                    if (dRow.child.isShown()) {
+                        // This row is already open - close it
+                        dRow.child.hide();
+                        $(tr).removeClass('LASTshown');
+                    }
+                    else {
+                        // Open this row
+                        //detailsTableDOM = "";
+                        let detailsTable = "";
+                        const childcells = dTable.cells(dRow, ".childrow");//, idx);
+                        for (var i = 0; i < childcells.data().length; i++) {
+                            if (childcells.data()[i]) detailsTable += formatChildRows(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
+                        }
+                        if (detailsTable != "") {
+                            detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
+                            // detailsTableDOM = document.createElement('div');
+                            // detailsTableDOM.innerHTML = detailsTable;
+                        }
+                        dRow.child(detailsTable, "child").show();
+                        // [$(tr).next('tr.child'), $(tr).next('tr.child').next('tr.child')].forEach(childtr => {
+                        //     childtr.children('td').attr("colspan", (i, val) => val--);
+                        //     childtr[0].prepend(document.createElement("td"));
+                        // });
+
+                        $(tr).addClass('LASTshown');
+                    }
+                }
+                else {
+                    let detailsTable = "";
+
+                    // ALL AT ONCE
+                    // for (var i = 0; i < maintableKeys.length; i++) {
+                    //     detailsTable += formatSidePanel(maintableKeys[i], dRow.data()[maintableKeys[i]]);
+                    // }
+
+                    //or First visible cells
+                    const viscells = dTable.cells(dRow, ':visible');
+                    const viscellsIdx = viscells.indexes().pluck('column')
+                    for (var i = 0; i < viscells.data().length; i++) {
+                        detailsTable += formatSidePanel(maintableKeys[viscellsIdx[i]], viscells.data()[i]);
+                    }
+                    //then unvisible Childcells (with different layout)
+                    const childcells = dTable.cells(dRow, ".childrow");//, idx);
+                    for (var i = 0; i < childcells.data().length; i++) {
+                        if (childcells.data()[i]) detailsTable += formatSidePanel(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
+                    }
+                    //then HTML tag headers
+                    const htmlcells = dTable.cells(dRow, ".htmltag");//, idx);
+                    for (var i = 0; i < htmlcells.data().length; i++) {
+                        if (htmlcells.data()[i]) detailsTable += formatHtmlTag(htmlTagHeaders[i], htmlcells.data()[i]);
+                    }
+
+
+                    if (detailsTable != "") {
+                        detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
+                        // detailsTableDOM = document.createElement('div');
+                        // detailsTableDOM.innerHTML = detailsTable;
+                    }
+                    INFOPANEL.innerHTML = detailsTable;
+                }
+            });
+
+            //CHILDROW: linked elements
+            $(table).children('tbody').on('click', ' > tr > td.plus-ctrl', function () {
+                const tr = this.parentElement;
+                // const jqtr = $(this.parentElement);
+                const dRow = dTable.row($(tr));
+                console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + tr.id + "'");
+
+                if (dRow.child.isShown()) {
+                    // This row is already open - close it
+                    dRow.child.hide();
+                    $(tr).removeClass('LINKshown');
+                }
+                else {
+                    // Open this row
+                    let linkTableDOM = "";
+                    const linkcellData = dTable.cells(dRow, ".LINKcol").data()[0];
+                    let linkedItems = [];
+                    if (linkcellData) {
+                        //filter linked elements                            
+                        if (linktable_types.size > 0) {
+                            for (const [type, typeIdxArr] of Object.entries(linkcellData)) { // for ... of ... is slow? short loop, but occurs many times
+                                linkedItems.push(...typeIdxArr.map((item) => jason[linktable][item]));
+                            }
+                        }
+                        else linkedItems.push(...linkcellData.map((item) => jason[linktable][item]));
+
+                        linkTableDOM = document.createElement('table');
+                        linkTableDOM.setAttribute("id", tr.id + "." + linktable);
+                        linkTableDOM.setAttribute("class", "linktable row-border"); //compact
+                        linkTableDOM.innerHTML = '<thead></thead>' +
+                            '<tbody></tbody>' +
+                            '<tfoot></tfoot>';
+                    }
+                    dRow.child(linkTableDOM, "child").show();
+                    if (linkcellData) makeDataTable(document.getElementById(tr.id + "." + linktable), linkedItems, linktable);
+                    //this.scrollIntoView(); //used to fix clicked line getting out of view, but now is not necessary anymore?
+                    $(tr).addClass('LINKshown');
+                }
+            });
         }
     });
     //.columns.adjust().draw() MAKES NAVIGATION FOOTER DISAPPEAR??????????????
     // this.api().columns.adjust().draw();
     // dTable.columns.adjust().draw();
 
-    //CHILDROW: details
-    $(table).children('tbody').on('click', '> tr > td.LASTcol', function () {
-        //const tr = this.parentElement;
-        const jqtr = $(this.parentElement);
-        const dRow = dTable.row(jqtr);
 
-        // console.log(dRow);
-        if (typeof SIDEPANEL === "undefined") {
-
-            if (dRow.child.isShown()) {
-                // This row is already open - close it
-                dRow.child.hide();
-                jqtr.removeClass('LASTshown');
-            }
-            else {
-                // Open this row
-                //detailsTableDOM = "";
-                let detailsTable = "";
-                const childcells = dTable.cells(dRow, ".childrow");//, idx);
-                for (var i = 0; i < childcells.data().length; i++) {
-                    if (childcells.data()[i]) detailsTable += formatChildRows(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
-                }
-                if (detailsTable != "") {
-                    detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
-                    // detailsTableDOM = document.createElement('div');
-                    // detailsTableDOM.innerHTML = detailsTable;
-                }
-                dRow.child(detailsTable, "child").show();
-                // [jqtr.next('tr.child'), jqtr.next('tr.child').next('tr.child')].forEach(childtr => {
-                //     childtr.children('td').attr("colspan", (i, val) => val--);
-                //     childtr[0].prepend(document.createElement("td"));
-                // });
-
-                jqtr.addClass('LASTshown');
-            }
-        }
-        else {
-            let detailsTable = "";
-
-            // ALL AT ONCE
-            // for (var i = 0; i < maintableKeys.length; i++) {
-            //     detailsTable += formatSidePanel(maintableKeys[i], dRow.data()[maintableKeys[i]]);
-            // }
-
-            //or First visible cells
-            const viscells = dTable.cells(dRow, ':visible');
-            const viscellsIdx = viscells.indexes().pluck('column')
-            for (var i = 0; i < viscells.data().length; i++) {
-                detailsTable += formatSidePanel(maintableKeys[viscellsIdx[i]], viscells.data()[i]);
-            }
-            //then unvisible Childcells (with different layout)
-            const childcells = dTable.cells(dRow, ".childrow");//, idx);
-            for (var i = 0; i < childcells.data().length; i++) {
-                if (childcells.data()[i]) detailsTable += formatSidePanel(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
-            }
-            //then HTML tag headers
-            const htmlcells = dTable.cells(dRow, ".htmltag");//, idx);
-            for (var i = 0; i < htmlcells.data().length; i++) {
-                if (htmlcells.data()[i]) detailsTable += formatHtmlTag(htmlTagHeaders[i], htmlcells.data()[i]);
-            }
-
-
-            if (detailsTable != "") {
-                detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
-                // detailsTableDOM = document.createElement('div');
-                // detailsTableDOM.innerHTML = detailsTable;
-            }
-            INFOPANEL.innerHTML = detailsTable;
-        }
-    });
-
-    //CHILDROW: linked elements
-    $(table).children('tbody').on('click', ' > tr > td.plus-ctrl', function () {
-        const tr = this.parentElement;
-        const jqtr = $(this.parentElement);
-        const dRow = dTable.row(jqtr);
-        console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + tr.id + "'");
-
-        if (dRow.child.isShown()) {
-            // This row is already open - close it
-            dRow.child.hide();
-            jqtr.removeClass('LINKshown');
-        }
-        else {
-            // Open this row
-            let linkTableDOM = "";
-            const linkcellData = dTable.cells(dRow, ".LINKcol").data()[0];
-            let linkedItems = [];
-            if (linkcellData) {
-                //filter linked elements                            
-                if (linktable_types.size > 0) {
-                    for (const [type, typeIdxArr] of Object.entries(linkcellData)) { // for ... of ... is slow? short loop, but occurs many times
-                        linkedItems.push(...typeIdxArr.map((item) => jason[linktable][item]));
-                    }
-                }
-                else linkedItems.push(...linkcellData.map((item) => jason[linktable][item]));
-
-                linkTableDOM = document.createElement('table');
-                linkTableDOM.setAttribute("id", tr.id + "." + linktable);
-                linkTableDOM.setAttribute("class", "linktable row-border"); //compact
-                linkTableDOM.innerHTML = '<thead></thead>' +
-                    '<tbody></tbody>' +
-                    '<tfoot></tfoot>';
-            }
-            dRow.child(linkTableDOM, "child").show();
-            if (linkcellData) makeDataTable(document.getElementById(tr.id + "." + linktable), linkedItems, linktable);
-            //this.scrollIntoView(); //used to fix clicked line getting out of view, but now is not necessary anymore?
-            jqtr.addClass('LINKshown');
-        }
-    });
 
 
     dTable.on('draw', function () {
