@@ -33,10 +33,10 @@ body {
     /* line-height: 1.5; */
     margin: 0;
     padding: 0;
-    /* background-color: var(--bg-color); */
+    background-color: var(--bg-color);
     color: var(--text-color);
     /* color: #333; */
-    background-color: #fff;
+    /* background-color: #fff; */
     font-size: 0.75rem;
     display: grid;
     grid-template-areas:
