@@ -375,7 +375,7 @@ td.match {
     letter-spacing: 0.1px;
 }
 
-td.match span:hover {
+td span.match:hover {
     background-color: lightgrey;
 }
 

@@ -1,26 +1,30 @@
-// DON'T TOUCH
-let HEADER, SECTION, FOOTER, SIDEPANEL, INFOPANEL;
-let linkMap = new Map();
-let fixedtable, dfixedtable;
-let fixedthead, fixedtbody, fixedtfoot;
-let fixedfooter_row;
-let linktype;
-let sheetLinkedMap = new Map();
-let CE;
-const tableheight = '50%';
-
-//set some DT options
-let dt_fixedHeader, dt_layout, dt_order, dt_scrolly;
-
-// DON'T TOUCH
-
+// GENERAL VARIABLES
 let jason = {};
-let SHEETS, MAINSHEET, LINKSHEET;
+let SHEETS = [];
+let MAINSHEET, LINKSHEET;
+let sheetHeaders = null;
 let MAINSHEET_keys = [], LINKSHEET_keys = []
 let LINKSHEET_types = new Set();
 
+let linkMap = new Map();
+let sheetLinkedMap = new Map();
+
+// HTML elements
+let HEADER, SECTION, FOOTER, SIDEPANEL, INFOPANEL;
+let fixedtable, dfixedtable;
+let fixedthead, fixedtbody, fixedtfoot;
+let fixedfooter_row;
+
+//OPTIONAL s2w variables in html file
+let linktype;
+let CE;
 let delims, delimsNC, trimdelim;
 const delimsDefault = new RegExp(/([;\r\n]+)/, "g");
+
+//specific DT variables
+let dt_fixedHeader, dt_layout, dt_order, dt_scrolly;
+
+const tableheight = '50%';
 
 //old school
 let jidx = 0, lidx = 0;
@@ -28,10 +32,8 @@ let keyIdx = new Map();
 let keyPrev = new Map();
 
 document.addEventListener('DOMContentLoaded', function () {
-
     //json doesn't have node vs attribute distinction, so instead of XML Child Elements there is a prefix for items that should be shown as a (childrow) dropdown
-    if (typeof s2w_CE === "undefined") CE = "CE_";
-    else CE = s2w_CE;
+    CE = (typeof s2w_CE === "undefined") ? "CE_" : s2w_CE;
 
     //HTML
     if (document.body.contains(document.getElementById("s2w_HEADER"))) HEADER = document.getElementById("s2w_HEADER");
@@ -59,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     HEADER.appendChild(document.createElement("div")).id = "s2w_heading";
     HEADER.appendChild(document.createElement("div")).id = "s2w_status";
     HEADER.appendChild(document.createElement("div")).id = "s2w_activity";
+    HEADER.appendChild(document.createElement("progress")).id = "download-progress";
     SECTION.innerHTML = '<table id="fixedtable" class="hover row-border" width="100%" width="100%" style=""></table>';
     SECTION.innerHTML += '<div id="dt_loader" class="spinner"></div>';
     //I had style="display:none" in <table>, why??
@@ -71,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function () {
     else {
         try {
             delims = new RegExp(s2w_delimiter, "g");
-
         } catch (e) {
             console.log("s2w_delimiter='" + s2w_delimiter + "' is an INVALID REGEX");
             delims = delimsDefault;
@@ -79,12 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     console.log("delimiter regex used: " + delims);
     delimsNC = new RegExp("(?:" + delims.source + ")", "g");
-    // trimdelim = /((?<!\s)\()|$/ //not global => to trim
-    // delimsNCold = /(?:[;:?\r\n]+)|(?:(?<!\s)\()/g //includes "?" as delimiter (non capturing)
-    // const nospacebrack = /((?<=[^\s\\])\()/g
-    // const charBeforeBrack = /[^\s\\](?=\()/g
-    //const delims = /([:\r\n]+)|((?<=[^\s\\])\()/g
-    //const delims = /([:\r\n]+)|((?<!\s)\()/g ///([:+\r\n]+)|((?<!\s)\()/g //BROKE SAFARI!!!!!!!!
 
     //HEADING
     const heading = document.createElement("h1");
@@ -97,165 +93,238 @@ document.addEventListener('DOMContentLoaded', function () {
     heading_a.setAttribute("class", "heading");
     heading.append(heading_a);
     document.getElementById("s2w_heading").append(heading);
+
     //FILE UPDATED
     lastUpdated(s2w_datafile, "s2w_activity");
 
     fixedtable = document.getElementById("fixedtable");
-    // fixedthead = fixedtable.appendChild(document.createElement("thead"));
-    // fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
-    // fixedtfoot = fixedtable.appendChild(document.createElement("tfoot"));
     const ext = s2w_datafile.substring(s2w_datafile.indexOf(".") + 1);
 
-    ///// CHECK THIS TO DYNAMICALLY LOAD excel library https://stackoverflow.com/questions/14521108/dynamically-load-js-inside-js#answer-14521217
+    // PROGRESSBAR???? 1. use await fetch instead of fetch.then 2. https://stackoverflow.com/questions/47285198/fetch-api-download-progress-indicator
+    // or https://stackoverflow.com/questions/35711724/upload-progress-indicators-for-fetch
 
-    fetch(s2w_datafile)
-        .then(function (res) {
-            switch (ext) {
-                case "json": return res.json()
-                case "xlsx": return res.arrayBuffer()
-                default: console.log("s2w_datafile has unknown extension. Only json and xlsx supported");
-            }
-        })
-        .then(data => {
-            if (ext === "json") jason = data;
-            else if (ext === "xlsx") {
-                // const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
-                const workbook = XLSX.read(data, { type: "array" });
-                //console.log("html ", wb);
+    async function main() {
+        const response = await fetch(s2w_datafile);
+        if (!response.ok) {
+            throw new Error(`Response status: ${response.status}`);
+        }
+        //  //PROGRESSBAR!!
+        // const resbody = response.body;
+        // const reader = response.body.getReader();
+        // const downloadProgress = document.getElementById("download-progress");
+        // let success = true;
+        // const totalDownloadBytes = response.headers.get("content-length");
+        // let bytesDownloaded = 0;
+        // while (true) {
+        //     try {
+        //         const { value, done } = await reader.read();
+        //         if (done) {
+        //             break;
+        //         }
+        //         bytesDownloaded += value.length;
+        //         if (totalDownloadBytes != undefined) {
+        //             console.log("download progress:", bytesDownloaded / totalDownloadBytes);
+        //             downloadProgress.value = bytesDownloaded / totalDownloadBytes;
+        //         } else {
+        //             console.log("download progress:", bytesDownloaded, ", unknown total");
+        //         }
+        //     } catch (error) {
+        //         console.error("error:", error);
+        //         success = false;
+        //         break;
+        //     }
+        // }
+        // console.log("success:", success);
 
-                workbook.SheetNames.forEach(function (name) {
-                    jason[name] = XLSX.utils.sheet_to_json(workbook.Sheets[name]);
-                });
-            }
-
-            let urlHash = "";
-            if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
-
-            //PROCESS JSON
-            //1. identify important nodes
+        let data;
+        let dataLoaded;
+        if (ext === "json") {
+            jason = await response.json();
+            // data = await toJSON(reader);
+            // jason = data;
             if (Array.isArray(jason)) {
-                SHEETS = [];
+                // SHEETS = [];
                 dfixedtable = makeDataTable(fixedtable, jason, MAINSHEET);
             }
             else {
                 SHEETS = Object.keys(jason);
-
                 MAINSHEET = SHEETS[0];
                 LINKSHEET = SHEETS.find(e => e.startsWith("+"));
+
                 MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
+                if (LINKSHEET) LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+                else LINKSHEET_keys = [];
+            }
+            // console.log(jason);
+            dataLoaded = Promise.resolve(jason);
+            // return jason
+        }
+        else if (ext === "xlsx") {
+            data = await response.arrayBuffer();
+            dataLoaded = import("https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.mini.min.js").then(function () {
+                const workbook = XLSX.read(data, { type: "array" });
+                const workbookHeaders = XLSX.read(data, { type: "array", sheetRows: 1 });
 
-                /////////////// ORRRRRRRRRRRRRRRRRRRRRRRRRR NOT
-                //let jlen = Object.keys(jason[MAINSHEET]).length, j = 0, imax = -Infinity;
-                // while (j < jlen) {
-                //     let jkeys = Object.keys(jason[MAINSHEET][j]);
-                //     let jkeyslen = jkeys.length;
+                SHEETS = workbook.SheetNames;
+                MAINSHEET = SHEETS[0];
+                LINKSHEET = SHEETS.find(e => e.startsWith("+"));
 
-                //     //k = 0 first key
-                //     if (!keyIdx.get(jkeys[0]) > 0) {
-                //         keyIdx.set(jkeys[0], 0);
-                //         //keyPrev.set(jkeys[1], jkeys[0]);
-                //     }
-                //     let k = 1;
-                //     //k > 0 other keys
-                //     while (k < jkeyslen) {
-                //         //keyIdx
-                //         if (keyIdx.has(jkeys[k])) {
-                //             if (k > keyIdx.get(jkeys[k])) {
-                //                 keyIdx.set(jkeys[k], k);
-                //             }
-                //         }
-                //         else {
-                //             keyIdx.set(jkeys[k], k);
-                //         }
-                //         //keyPrev
-                //         if (keyPrev.has(jkeys[k])) {
-                //             if (keyIdx.get(jkeys[k - 1]) > keyIdx.get(keyPrev.get(jkeys[k]))) {
-                //                 keyPrev.set(jkeys[k], jkeys[k - 1]);
-                //             }
-                //         }
-                //         else {
-                //             keyPrev.set(jkeys[k], jkeys[k - 1]);
-                //         }
-                //         k++;
-                //     }
-                //     // k last key
-                //     // if (keyIdx.has(jkeys[k])) {
-                //     //     if (jkeyslen > keyIdx.get(jkeys[jkeyslen])) keyIdx.set(jkeys[jkeyslen], jkeyslen);
-                //     // }
-                //     // else keyIdx.set(jkeys[jkeyslen], jkeyslen);
-                //     //if (!MAINSHEET_keys.slice(j).includes(jkeys[j])) MAINSHEET_keys.splice(j + 1, 0, jkeys[j])
-                //     j++
-                // }
+                sheetHeaders = new Map();
 
-                // MAINSHEET_keys = []; //new Array(keyIdx.size);
-                // for (const [key, value] of keyIdx) {
-                //     if (typeof MAINSHEET_keys[value] === "undefined") {
-                //         MAINSHEET_keys.splice(value, 0, key);
-                //         keyPrev.delete(key);
-                //     }
-                // }
-                // console.log(MAINSHEET_keys);
-                // let keyPrevSorted = new Array(keyIdx.size);
-                // for (const [key, value] of keyPrev) {
-                //     keyPrevSorted[keyIdx.get(key)] = key;
-                // }
-                // console.log(keyPrevSorted);
-                // for (const key of keyPrevSorted) {
-                //     if (!(typeof key === "undefined")) MAINSHEET_keys.splice(MAINSHEET_keys.indexOf(keyPrev.get(key)) + 1, 0, key);
-                // }
-                // console.log(MAINSHEET_keys);
+                SHEETS.forEach(function (sheet) {
+                    jason[sheet] = XLSX.utils.sheet_to_json(workbook.Sheets[sheet]);
+                    //1. GET EXCEL HEADER FIRST (to fix bug where empty headers are being shown with defval:"")
+                    const xslxHeader = XLSX.utils.sheet_to_json(workbookHeaders.Sheets[sheet], { header: 1, defval: "" })[0];
+                    // sheetHeaders.push(xslxHeader);
+                    // console.log(xslxHeader);
+                    sheetHeaders.set(sheet, xslxHeader);
 
-                if (LINKSHEET) {
-                    LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
-                    //find longest Object and create keys
-                    // jlen = Object.keys(jason[LINKSHEET]).length, i = 0, imax = -Infinity;
-                    // while (i < jlen) {
-                    //     let ilen = Object.keys(jason[LINKSHEET][i]).length;
-                    //     if (ilen > imax) {
-                    //         imax = ilen;
-                    //         lidx = i;
-                    //     }
-                    //     i++;
-                    // }
-                    // LINKSHEET_keys = Object.keys(jason[LINKSHEET][lidx]);
-                }
+                    if (!workbook.Sheets[sheet]["!cols"]) workbook.Sheets[sheet]["!cols"] = [];
+                    for (var h = 0; h < xslxHeader.length; h++) {
+                        if (xslxHeader[h] === "") {
+                            /* create column metadata object if it does not exist */
+                            if (!workbook.Sheets[sheet]["!cols"][h]) workbook.Sheets[sheet]["!cols"][h] = { hidden: true };
+                        }
+                    }
+                    // console.log(XLSX.utils.encode_col(xslxHeader[0].length));
+                    // //2. get the rest of the sheet
+                    // jason[sheet] = XLSX.utils.sheet_to_json(workbook.Sheets[sheet], { range: "A:" + XLSX.utils.encode_col(xslxHeader[0].length), skipHidden: true, defval: "" });
+                });
+
+                // console.log(sheetHeaders);
+
+                MAINSHEET_keys = XLSX.utils.sheet_to_json(workbookHeaders.Sheets[MAINSHEET], { header: 1, defval: "" })[0];
+                if (LINKSHEET) LINKSHEET_keys = XLSX.utils.sheet_to_json(workbookHeaders.Sheets[LINKSHEET], { header: 1, defval: "" })[0];
                 else LINKSHEET_keys = [];
 
-                //CREATE NAVIGATION FOOTER
+                // console.log({ MAINSHEET_keys, LINKSHEET_keys });
+                return jason
+            });
 
-                // fixedfooter_row = document.createElement("tr");
-                // fixedfooter_row.setAttribute('id', "fixedfooterrow");
-                // const th = document.createElement("th");
-                // th.setAttribute('id', "LOOKAHERE");
-                // th.append(navfooter);
-                // fixedfooter_row.append(th);
-                // fixedtfoot.append(fixedfooter_row);
+            // await workbook.xlsx.load(data);
+            // import("https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js").then(function () {
+            //     const workbook = new Excel.Workbook();
+            //     await workbook.xlsx.load(jason);
+            //     console.log(workbook.stringify);
+            // });
 
+        }
 
+        dataLoaded.then((jason) => {
+            // console.log(jason);
+            //PROCESS JSON
+            //1. identify important nodes
 
-                //FINAL CALL:
-                //detect '#...' in url to choose initial sheet
+            //FINAL CALL:
+            //detect '#...' in url to choose initial sheet
+            let urlHash = "";
+            if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
 
-                if (urlHash) dfixedtable = makeDataTable(fixedtable, jason[urlHash], urlHash);
-                else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
+            if (urlHash) dfixedtable = makeDataTable(fixedtable, jason[urlHash], urlHash);
+            else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
 
-                const navfooter = createNavFooter(SHEETS);
-                document.getElementById("s2w_FOOTER").append(navfooter);
-            }
-        })
+            //CREATE NAVIGATION FOOTER
+            const navfooter = createNavFooter(SHEETS);
+            document.getElementById("s2w_FOOTER").append(navfooter);
+
+        });
+    }
+    main().catch(console.error);
+
+    // //USING .THen ....
+    // fetch(s2w_datafile)
+    //     .then(function (res) {
+    //         switch (ext) {
+    //             case "json": return res.json()
+    //             case "xlsx": return res.arrayBuffer()
+    //             default: console.log("s2w_datafile has unknown extension. Only .json and .xlsx supported");
+    //         }
+    //     })
+    //     .then(data => {
+    //         if (ext === "json") jason = data;
+    //         else if (ext === "xlsx") {
+    //             ///// CHECK THIS TO DYNAMICALLY LOAD excel library https://stackoverflow.com/questions/14521108/dynamically-load-js-inside-js#answer-14521217
+    //             var script = document.createElement('script');
+    //             script.src = "https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.mini.min.js";
+    //             script.onload = function () {
+    //                 // const workbook = XLSX.read(new Uint8Array(data), { type: 'array' });
+    //                 const workbook = XLSX.read(data, { type: "array" });
+    //                 //console.log("html ", wb);
+
+    //                 workbook.SheetNames.forEach(function (name) {
+    //                     jason[name] = XLSX.utils.sheet_to_json(workbook.Sheets[name]);
+    //                 });
+    //             };
+
+    //             document.head.appendChild(script); //or something of the likes
+    //             // $.getScript("https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.mini.min.js", function () {
+    //             //     alert("Script loaded but not necessarily executed.");
+    //             // });
+    //         }
+
+    //         let urlHash = "";
+    //         if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
+
+    //         //PROCESS JSON
+    //         //1. identify important nodes
+    //         if (Array.isArray(jason)) {
+    //             SHEETS = [];
+    //             dfixedtable = makeDataTable(fixedtable, jason, MAINSHEET);
+    //         }
+    //         else {
+    //             SHEETS = Object.keys(jason);
+
+    //             MAINSHEET = SHEETS[0];
+    //             LINKSHEET = SHEETS.find(e => e.startsWith("+"));
+    //             MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
+    //             if (LINKSHEET) {
+    //                 LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+    //                 //find longest Object and create keys
+    //                 // jlen = Object.keys(jason[LINKSHEET]).length, i = 0, imax = -Infinity;
+    //                 // while (i < jlen) {
+    //                 //     let ilen = Object.keys(jason[LINKSHEET][i]).length;
+    //                 //     if (ilen > imax) {
+    //                 //         imax = ilen;
+    //                 //         lidx = i;
+    //                 //     }
+    //                 //     i++;
+    //                 // }
+    //                 // LINKSHEET_keys = Object.keys(jason[LINKSHEET][lidx]);
+    //             }
+    //             else LINKSHEET_keys = [];
+
+    //             //CREATE NAVIGATION FOOTER
+    //             // fixedfooter_row = document.createElement("tr");
+    //             // fixedfooter_row.setAttribute('id', "fixedfooterrow");
+    //             // const th = document.createElement("th");
+    //             // th.setAttribute('id', "LOOKAHERE");
+    //             // th.append(navfooter);
+    //             // fixedfooter_row.append(th);
+    //             // fixedtfoot.append(fixedfooter_row);
+
+    //             //FINAL CALL:
+    //             //detect '#...' in url to choose initial sheet
+
+    //             if (urlHash) dfixedtable = makeDataTable(fixedtable, jason[urlHash], urlHash);
+    //             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
+
+    //             const navfooter = createNavFooter(SHEETS);
+    //             document.getElementById("s2w_FOOTER").append(navfooter);
+    //         }
+    //     })
 });
 
-function makeDataTable(table, jsondata, sheet) {
+function makeDataTable(table, jsondata, sheetName) {
     if (table.getAttribute("id") == "fixedtable") {
         fixedthead = fixedtable.appendChild(document.createElement("thead"));
         fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     }
 
-    const maintableKeys = Object.keys(jsondata[jidx]);
+    const maintableKeys = sheetHeaders ? sheetHeaders.get(sheetName) : Object.keys(jsondata[jidx]);
     //OPTIONAL: remove rows with empty 1st column
     jsondata = jsondata.filter(x => x[maintableKeys[0]] != null && x[maintableKeys[0]] != ""); //logical AND?? but this work, OR doesn't
 
-    const maintable = sheet;
+    const maintable = sheetName;
     let linktable;
 
     let columns = [], mergecolumns = [];
@@ -264,10 +333,10 @@ function makeDataTable(table, jsondata, sheet) {
     const htmlTagHeaders = maintableKeys.filter(x => x.startsWith("<"));
 
     //detect mode
-    if (sheet == LINKSHEET) linktable = MAINSHEET;
-    else if (sheet == MAINSHEET) linktable = LINKSHEET;
-    else if (MAINSHEET_keys.includes(sheet)) linktable = MAINSHEET;
-    else if (LINKSHEET_keys.includes(sheet)) linktable = LINKSHEET;
+    if (sheetName == LINKSHEET) linktable = MAINSHEET;
+    else if (sheetName == MAINSHEET) linktable = LINKSHEET;
+    else if (MAINSHEET_keys.includes(sheetName)) linktable = MAINSHEET;
+    else if (LINKSHEET_keys.includes(sheetName)) linktable = LINKSHEET;
 
     let linktable_types = new Set();
     // try { jason[linktable].forEach(x => linktable_types.add(x[s2w_typeheader])); }
@@ -623,6 +692,7 @@ function makeDataTable(table, jsondata, sheet) {
         }
 
         //type column
+        const namespace = key.substring(0, key.indexOf(":"));
         if (key == MAINSHEET) {
             DTcolumn.className = "match";
         }
@@ -641,11 +711,11 @@ function makeDataTable(table, jsondata, sheet) {
             mergecolumns.push(merger);
         }
         //namespace column
-        else if (maintableKeys.includes(key.substring(0, key.indexOf(":")))) {
+        else if (namespace.length && maintableKeys.includes(namespace)) {
             DTcolumn.className = "namespace";
             DTcolumn.visible = false;
             //const maincolumn = columns.find(x => x.data == key.substring(0, key.indexOf(":")));
-            const merger = { "cellIndex": columns.findIndex(x => x.data == key.substring(0, key.indexOf(":"))), "cat": key, "type": ':' }; //"con": maincolumn.data, 
+            const merger = { "cellIndex": columns.findIndex(x => x.data == namespace), "cat": key, "type": ':' }; //"con": maincolumn.data, 
             mergecolumns.push(merger);
         }
         //child rows
@@ -716,7 +786,7 @@ function makeDataTable(table, jsondata, sheet) {
             {
                 search: {
                     text: '',
-                    placeholder: "Type to start search in '" + sheet + "' tab..."
+                    placeholder: "Type to start search in '" + sheetName + "' tab..."
 
                 }
             },
@@ -750,6 +820,7 @@ function makeDataTable(table, jsondata, sheet) {
     //if (visIndex > 8) fixedtable.classList.add("compact");
     //console.log("!(dt_scrolly === undefined) => " + dt_scrolly.length);
     console.log("dt_scrolly  => " + dt_scrolly);
+    // console.log(mergecolumns);
     //DATATABLE    
     const dTable = $(table).DataTable({
         "fixedHeader": dt_fixedHeader,
@@ -800,6 +871,7 @@ function makeDataTable(table, jsondata, sheet) {
 
             //OR ... make formatting function based on 1st row, see how many mergers there are, where they should go and do for each row
             let catdata;
+            
             mergecolumns.forEach(function (mergecolumn, i) {
                 catdata = data[mergecolumn.cat];
                 if (catdata) {
@@ -1265,4 +1337,38 @@ function formatTooltip(object) {
         if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>"));
     }
     return result;
+}
+
+async function toJSON(reader) {
+    //   const reader = body.getReader(); // `ReadableStreamDefaultReader`
+    const decoder = new TextDecoder();
+    const chunks = [];
+    //PROGRESSBAR!!
+    const downloadProgress = document.getElementById("download-progress");
+    let success = true;
+    const totalDownloadBytes = response.headers.get("content-length");
+    let bytesDownloaded = 0;
+    async function read() {
+        const { done, value } = await reader.read();
+
+
+        // all chunks have been read?
+        if (done) {
+            return JSON.parse(chunks.join(''));
+        }
+        bytesDownloaded += value.length;
+        if (totalDownloadBytes != undefined) {
+            console.log("download progress:", bytesDownloaded / totalDownloadBytes);
+            downloadProgress.value = bytesDownloaded / totalDownloadBytes;
+        } else {
+            console.log("download progress:", bytesDownloaded, ", unknown total");
+        }
+
+
+        const chunk = decoder.decode(value, { stream: true });
+        chunks.push(chunk);
+        return read(); // read the next chunk
+    }
+
+    return read();
 }

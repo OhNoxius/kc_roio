@@ -16,6 +16,8 @@
 	<script src="https://cdn.datatables.net/v/dt/dt-2.3.2/fh-4.0.3/datatables.min.js"
 		integrity="sha384-aZO5fprxcHKFlivbOXtsCcjpbYvBCnYv1LvLuLJMYFYLtjh37JONX2ngWWnqyXyD"
 		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.datatables.net/plug-ins/2.3.2/features/scrollResize/dataTables.scrollResize.min.js"></script>
 	<!-- <script src="https://cdn.datatables.net/plug-ins/2.3.0/sorting/natural.js"></script> -->
 
 	<!-- TOOLTIPSTER -->
@@ -46,12 +48,13 @@
 		//s2w_datafile: set source .xml filename
 		const s2w_datafile = "kc_roio.json";
 
+		//OPTIONAL:
 		//s2w_title: set header title to display above table
 		const s2w_title = "KC ROIO";
-
+		
 		//s2w_editlink: set drive link to display next to header title
 		//const s2w_editlink = "https://docs.google.com/spreadsheets/d/1gTCRmbPqV-EL3g4KG7JdGnbVH5xIQvu0xcCTb7-JzKE/edit?usp=sharing";
-
+		
 		//s2w_delimiter: choose regex that will be used to separate content inside cells		
 		// with NEGATIVE lookbehind =>
 		// const s2w_delimiter = /[;\r\n]+|(?<!\s)\(|\?(?=\S)|(?<!\s)\:/g
@@ -60,10 +63,14 @@
 		// explanation: newline and ";" sign | "(" that is not followed by whitespace / "?" that is not followed by whitespace | ": " sign that is not preceded by whitespace
 		const s2w_delimiter = /([;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:)\s?/g
 		// further explanation: "\s?" include OPTIONALE whitespace after delimiters above
-		
+
 		// s2w_typeheader
 		const s2w_typeheader = "type";
 	</script>
 </head>
+
+<body>
+	<section id="s2w_TABLE" class="scrolly"></section>
+</body>
 
 </html>
