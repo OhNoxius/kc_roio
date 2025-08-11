@@ -36,7 +36,3 @@ function getFilename(extension) {
 		let pageclean = page.slice(0, page.indexOf("."));
         return page.slice(0, page.indexOf(".")).concat("." + extension);
 }
-
-function escapeRegExp(string) {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-}

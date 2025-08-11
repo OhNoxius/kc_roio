@@ -1075,7 +1075,7 @@ function makeDataTable(table, jsondata, sheetName) {
                             jqthisfilter.find('input:checkbox').on('change', function (e) {
                                 //build a regex filter string with an or(|) condition
                                 const checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
-                                    return escapeRegExp(this.value);
+                                    return RegExp.escape(this.value);
                                 }).get().join('|');
                                 //filter in column 1, with an regex, no smart filtering, not case sensitive
                                 column.search(checkboxes, true, false, true).draw(false);
