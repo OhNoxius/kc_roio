@@ -871,7 +871,7 @@ function makeDataTable(table, jsondata, sheetName) {
 
             //OR ... make formatting function based on 1st row, see how many mergers there are, where they should go and do for each row
             let catdata;
-            
+
             mergecolumns.forEach(function (mergecolumn, i) {
                 catdata = data[mergecolumn.cat];
                 if (catdata) {
@@ -1075,7 +1075,7 @@ function makeDataTable(table, jsondata, sheetName) {
                             jqthisfilter.find('input:checkbox').on('change', function (e) {
                                 //build a regex filter string with an or(|) condition
                                 const checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
-                                    return this.value;
+                                    return escapeRegExp(this.value);
                                 }).get().join('|');
                                 //filter in column 1, with an regex, no smart filtering, not case sensitive
                                 column.search(checkboxes, true, false, true).draw(false);
