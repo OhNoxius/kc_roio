@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>BOBTHEJUKE</title>
+	<meta name="BOBTHEJUKE" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="sheets2web.JSON/css/favicon.ico" type="image/x-icon" />
+
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+
+	<!-- DataTables (fixedHeader) -->
+	<link href="https://cdn.datatables.net/v/dt/dt-2.3.4/fh-4.0.4/datatables.min.css" rel="stylesheet"
+		integrity="sha384-CJEN+rDiJC8tUalv/R+WWha0vuRgsH723FNIdsYohRhEq+jdkutcJAWQvoFsqa/d" crossorigin="anonymous">
+	<script src="https://cdn.datatables.net/v/dt/dt-2.3.4/fh-4.0.4/datatables.min.js"
+		integrity="sha384-wKgpzvlpD9/vXEYdcsQbUbRYO+e7LOYkTANBdqI9wSb8G2s3HtldjU/PJUL+7xDk"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.datatables.net/plug-ins/2.3.4/features/scrollResize/dataTables.scrollResize.min.js"></script>
+	<!-- <script src="https://cdn.datatables.net/plug-ins/2.3.4/sorting/natural.js"></script> -->
+
+	<!-- TOOLTIPSTER -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css"
+		integrity="sha512-RwhQzi0EhwZ9hHs18SqM7ICqW/MH/B17PouhdCuzaUQYEdx2S4WPgkhLeZPvGr2Kb1FIm4gaIbMJGwZtxDCLQA=="
+		crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js"
+		integrity="sha512-ZKNW/Nk1v5trnyKMNuZ6kjL5aCM0kUATbpnWJLPSHFk/5FxnvF9XmpmjGbag6BEgmXiz7rL6o6uJF6InthyTSg=="
+		crossorigin="anonymous"></script>
+	<!-- ANCHORME -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/anchorme/3.0.8/anchorme.min.js"
+		integrity="sha512-M/Hy+Uhbxt2cmpgceGpdpvhzt+yRLMFGOxTP5mtprJ7LCS3DWAJKAmTCCEEhJIOM0nYT5L5OEAxMOz+v7+Serg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- Balloon.css -->
+	<link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+
+	<!-- sheets2web.JSON HELPER FUNCTIONS -->
+	<script src="sheets2web.JSON/helper functions/lastUpdated.js"></script>
+	<!-- sheets2web.JSON -->
+	<link rel="stylesheet" href="sheets2web.JSON/css/sheets2web.css" />
+	<script src="sheets2web.JSON/sheets2web.js"></script>
+
+	<!-- CUSTOM -->
+	<link rel="stylesheet" href="css/kc_roio.css" />
+
+	<!-- use xlsx.mini.min.js from version 0.20.3 -->
+	<script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.mini.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js"
+		integrity="sha512-dlPw+ytv/6JyepmelABrgeYgHI0O+frEwgfnPdXDTOIZz+eDgfW07QXG02/O8COfivBdGNINy+Vex+lYmJ5rxw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+		//set source .xml filename
+		const s2w_datafile = getFilename("json");
+
+		//OPTIONAL
+		//set header title to display above table
+		const s2w_title = "BOB THE JUKE";
+
+		//set drive link to display next to header title
+		//let s2w_editlink = "https://docs.google.com/spreadsheets/d/1gTCRmbPqV-EL3g4KG7JdGnbVH5xIQvu0xcCTb7-JzKE/edit?usp=sharing";
+
+		//s2w_delimiter: choose regex that will be used to separate content inside cells		
+		// with NEGATIVE lookbehind =>
+		// const s2w_delimiter = /[;\r\n]+|(?<!\s)\(|\?(?=\S)|(?<!\s)\:/g
+		// with POSITIVE lookbehind!! =>
+		// const s2w_delimiter = /[;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:/g
+		// explanation: newline and ";" sign | "(" that is not followed by whitespace / "?" that is not followed by whitespace | ": " sign that is not preceded by whitespace
+		const s2w_delimiter = /([;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:)\s?/g
+		// further explanation: "\s?" include OPTIONAL whitespace after delimiters
+
+		const s2w_typeheader = "type";
+	</script>
+</head>
+
+<body>
+	<header id="s2w_HEADER"></header>
+	<section id="s2w_TABLE" class="scrolly"></section>
+	<!-- <section id="s2w_SIDEPANEL"></section> -->
+	<footer id="s2w_FOOTER"></footer>
+</body>
+
+</html>
