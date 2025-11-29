@@ -941,42 +941,42 @@ function makeDataTable(table, jsondata, sheetName) {
                 this.api().columns(':visible').every(function () {
                     const column = this;
                     const jqth = column.header();
-                    const jqthisfilter = $(headerfilters_row).find('th').eq(column.index('visible'));
+                    const jqthfilter = $(headerfilters_row).find('th').eq(column.index('visible'));
 
-                    jqthisfilter.empty(); //empty cell, not yet attributes
-                    // while (jqthisfilter.get(0).attributes.length > 0) //remove attributes WHY?????
-                    //     jqthisfilter.get(0).removeAttribute(jqthisfilter.get(0).attributes[0].name);
+                    jqthfilter.empty(); //empty cell, not yet attributes
+                    // while (jqthfilter.get(0).attributes.length > 0) //remove attributes WHY?????
+                    //     jqthfilter.get(0).removeAttribute(jqthfilter.get(0).attributes[0].name);
 
                     //setting <td> classes depending on <th> classlist 
                     if (jqth.classList.contains("IDcol")) {
-                        // jqthisfilter.get(0).setAttribute("class", jqth.className)
+                        // jqthfilter.get(0).setAttribute("class", jqth.className)
                         //$("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
                     }
                     else if (jqth.classList.contains("LASTcol")) {
-                        // jqthisfilter.get(0).setAttribute("class", jqth.className)
+                        // jqthfilter.get(0).setAttribute("class", jqth.className)
                         //$("table.mainsheet thead tr:eq(1) th").eq(column.index()).empty();
                     }
                     else if (jqth.classList.contains("htmltag")) {
 
                     }
                     else if (jqth.classList.contains("LINKcol")) {
-                        // jqthisfilter.get(0).setAttribute("class", jqth.className)
+                        // jqthfilter.get(0).setAttribute("class", jqth.className)
                         //if (linktable_types.size == 0) linktable_types.add(""); //=> do it another way...breaks code further on
                         if (linktable_types.size == 0) {
                             $('<div class="nowrap"><input type="checkbox" id="" name="linkcheckbox" value=".+" class="headercheckbox" />' +
                                 '<label for=""></label></div>')
-                                .appendTo(jqthisfilter);
+                                .appendTo(jqthfilter);
                         }
                         else {
                             linktable_types.forEach(function (value, index, array) {
                                 $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
                                     '<label for="' + value + '">' + value + '</label></div>')
-                                    .appendTo(jqthisfilter);
+                                    .appendTo(jqthfilter);
                             });
                         }
-                        jqthisfilter.find('input:checkbox').on('change', function (e) {
+                        jqthfilter.find('input:checkbox').on('change', function (e) {
                             //build a regex filter string with an or(|) condition
-                            const checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
+                            const checkboxes = jqthfilter.find('input:checkbox:checked').map(function () {
                                 return this.value;
                             }).get().join('|');
                             //filter in column 1, with an regex, no smart filtering, not case sensitive
@@ -984,71 +984,58 @@ function makeDataTable(table, jsondata, sheetName) {
                         });
                     }
                     else {
-                        const DTcolumnArray = column.data().toArray(); //.unique()
-                        //console.log(DTcolumnArray);
-
-                        // if (Array.isArray(DTcolumnArray[0])) ARR = [...new Set(DTcolumnArray.flat())];//.sort();
-                        // else ARR = ARR = [...new Set(DTcolumnArray)];//.sort();
-                        let SET = new Set(DTcolumnArray.flat());
-                        SET.delete(null);
-                        SET.delete("");
-
+                        //if (Array.isArray(column.data()[0]);
+                        // if (Array.isArray(ARR[0])) ARR = [...new Set(ARR.flat())];//.sort();
+                        // else ARR = ARR = [...new Set(ARR)];//.sort();
                         //above condition doesn't always work! First item can be different (array or non-array) than other items
 
+                        // WHERE TO PERFORM UNIQUE?
+                        // 1. on ARRAY from DataTables column (otherwise every array has the lenght of the total number of rows = i.e. 150.000 in case of +MEDIA in slave)
+                        // 2. on SET with all 
+                        // 3. on MAP
+                        //if (Array.isArray(column.data()[0]);
+
                         //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
-                        //let ARRstring1delim = ARR.join(s2w_delimiter).replace(delims, s2w_delimiter);
-                        //ARR = ARRstring1delim.split(s2w_delimiter);
-                        //old school
-                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, s2w_delimiter + "("); //uses lookbehind
-                        //ARRstring1delim = ARRstring1delim.replace(nospacebrack, s2w_delimiter + "$&"); //no lookbehind, just include matched character again 
-
+                        let a, ajtrim;
                         const MAP = new Map();
-                        let a;
+                        let RES, RESlength;
 
-                        //OPTION 1 : SET native iterator
-                        let val = null;
-                        const iter = SET.values();
-                        while (!(val = iter.next()).done) {
-                            a = val.value.toString().split(delimsNC);
+                        // //SPLIT data option 1 : use DataTables
+                        // column.data().each(function (val, i) {
+                        //     if (Array.isArray(val)) {
+                        //         a = [];
+                        //         for (var i = val.length - 1; i >= 0; i--) {
+                        //             a = a.concat(val[i].toString().split(delimsNC));
+                        //         }
+                        //     }
+                        //     else a = val.toString().split(delimsNC);
+                        //     for (var j = a.length - 1; j >= 0; j--) {
+                        //         atrim = a[j].trim();
+                        //         MAP.set(atrim.toLowerCase(), atrim);
+                        //     }
+                        // }); //.unique().toArray()
+
+                        // SPLIT data option 2 : use JS
+                        const ARR = column.data().toArray().flat();//unique().filter(i => i != undefined);
+                        let i = ARR.length;
+                        while (i > 0) {
+                            a = ARR[--i].toString().split(delimsNC);
                             for (var j = a.length - 1; j >= 0; j--) {
-                                //console.log(a[j]);
-                                MAP.set(a[j].trim().toLowerCase(), a[j].trim());
+                                ajtrim = a[j].trim();
+                                MAP.set(ajtrim.toLowerCase(), ajtrim);
                             }
                         }
-                        //OPTION 2 : reduce to Array and use for-loop
-                        // let ARR = [...SET]; 
-                        // for (var i = ARR.length - 1; i >= 0; i--) {
-                        //     // console.log(ARR[i]);
-                        //     a = ARR[i].toString().split(delimsNC);
-                        //     // console.log(a);
-                        //     for (var j = a.length - 1; j >= 0; j--) {
-                        //         //console.log(a[j]);
-                        //         MAP.set(a[j].trim().toLowerCase(), a[j].trim());
-                        //     }
-                        // }
-                        // MAP.delete("");
-                        // ARR = ARR.join(";").split(delimsNC); //DANGEROUS!
-                        // const MAP = new Map(ARR.map(s => [s.trim().toLowerCase(), s.trim()]));
 
-                        // ARR = [...MAP.values()].sort((a, b) => a.localeCompare(b, undefined, { 'sensitivity': 'base' })); //CASE INSENSITIVE and can handle accents!!
-
-                        //let SET = new Set();
-                        //const ARRlen = ARR.length;
-                        //console.log(jqth.innerText + ": " + ARRlen); //up to 40.000 musicians!
-                        // for (let i = 0; i < ARRlen; i++) {
-                        //     SET.add(ARR[i].trim()); //exclude items that start with "(" ??
-                        // }
-                        // ARR.forEach((o, i, a) => {
-                        //     SET.add(a[i].trim()); //exclude items that start with "(" ??
-                        //     //if (trima[trima.length-1] != ")") ;
-                        // });
-                        //ARR = [...SET].sort(); //or use map, which is automatically sorted?
-
-                        //* ONLY WHEN DATA IS NOT FULLY SPLIT inside json *//
+                        // FINISH UP : clean up and sort
+                        [null, undefined, "", ":", "?", "(", ")"].forEach(Map.prototype.delete, MAP);
+                        // console.log(ARR);
+                        RES = [...MAP.values()].sort((a, b) => a[0].localeCompare(b[0], undefined, { 'sensitivity': 'base' })); //String(a[0]) but is already string by using toString() above?
+                        RESlength = RES.length;
+                        // console.log(RES);
 
                         //OPTION 1: HTML5 datalists
-                        if (MAP.size > 5) {
-                            let input = $('<input type="search" size="10" autocomplete="off" list="' + jqth.innerText + '-list" id="' + jqth.innerText + '-input" name="' + jqth.innerText + '" class="headersearch" />').appendTo(jqthisfilter)
+                        if (RESlength > 6) {
+                            let input = $('<input type="search" size="10" autocomplete="off" list="' + jqth.innerText + '-list" id="' + jqth.innerText + '-input" name="' + jqth.innerText + '" class="headersearch" />').appendTo(jqthfilter)
                                 .on('change search', function () {
                                     if (column.search() !== this.value) {
                                         column
@@ -1059,22 +1046,29 @@ function makeDataTable(table, jsondata, sheetName) {
                             let jqdatalist = $('<datalist id="' + jqth.innerText + '-list"></datalist>').insertAfter($(input));
                             let datalist = jqdatalist[0];
                             let o;
-                            MAP.forEach(function (value) {
+                            // RES.forEach(function (value) {
+                            for (var r = 0; r < RESlength; r++) {
                                 o = document.createElement("option");
-                                o.setAttribute("value", value);
+                                // o.setAttribute("value", value);
+                                o.setAttribute("value", RES[r]);
                                 datalist.appendChild(o);
-                            });
+                            }
+                            // });
                         }
                         else {
-                            MAP.forEach(function (value) {
+                            // RES.forEach(function (value) {
+                            let value;
+                            for (var r = 0; r < RESlength; r++) {
+                                value = RES[r];
                                 $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
                                     '<label for="' + value + '">' + value + '</label></div>')
-                                    .appendTo(jqthisfilter);
-                            });
+                                    .appendTo(jqthfilter);
+                            }
+                            // });
 
-                            jqthisfilter.find('input:checkbox').on('change', function (e) {
+                            jqthfilter.find('input:checkbox').on('change', function (e) {
                                 //build a regex filter string with an or(|) condition
-                                const checkboxes = jqthisfilter.find('input:checkbox:checked').map(function () {
+                                const checkboxes = jqthfilter.find('input:checkbox:checked').map(function () {
                                     return RegExp.escape(this.value);
                                 }).get().join('|');
                                 //filter in column 1, with an regex, no smart filtering, not case sensitive
