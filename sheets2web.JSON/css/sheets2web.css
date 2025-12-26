@@ -12,7 +12,6 @@
     --table-bg: white;
     --table-header-bg: rgb(226, 231, 235);
     /*#adadad*/
-    ;
     --tooltip-bg: #333;
     --tooltip-text: white;
     --highlight-color: #e0f7fa;
@@ -342,7 +341,8 @@ td {
     /* border: 1px red solid; */
 }
 
-table.dataTable>tbody>tr>td.htmltag {
+/* table.dataTable>tbody>tr>td.htmltag { */
+td.htmltag {
     vertical-align: middle;
     text-align: center;
     padding-top: 30px !important;
@@ -358,7 +358,7 @@ table.dataTable>tbody>tr>td {
     background-color: var(--table-bg);
 }
 
-table.dataTable>tbody>tr.IDtip>td {
+table.dataTable tr.IDtip>td {
     padding: 40px 8px 25px 8px;
 }
 

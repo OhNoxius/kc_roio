@@ -6,19 +6,17 @@ let sheetHeaders = null;
 let MAINSHEET_keys = [], LINKSHEET_keys = []
 let LINKSHEET_types = new Set();
 
-let linkMap = new Map();
 let sheetLinkedMap = new Map();
 
 // HTML elements
 let HEADER, SECTION, FOOTER, SIDEPANEL, INFOPANEL;
 let fixedtable, dfixedtable;
-let fixedthead, fixedtbody, fixedtfoot;
-let fixedfooter_row;
+let fixedthead, fixedtbody; //, fixedtfoot;
 
 //OPTIONAL s2w variables in html file
 let linktype;
 let CE;
-let delims, delimsNC, trimdelim;
+let delims, delimsNC;
 const delimsDefault = new RegExp(/([;\r\n]+)/, "g");
 
 //specific DT variables
@@ -27,9 +25,7 @@ let dt_fixedHeader, dt_layout, dt_order, dt_scrolly;
 const tableheight = '50%';
 
 //old school
-let jidx = 0, lidx = 0;
-let keyIdx = new Map();
-let keyPrev = new Map();
+let jidx = 0;//, lidx = 0;
 
 document.addEventListener('DOMContentLoaded', function () {
     //json doesn't have node vs attribute distinction, so instead of XML Child Elements there is a prefix for items that should be shown as a (childrow) dropdown
@@ -927,7 +923,6 @@ function makeDataTable(table, jsondata, sheetName) {
             //create tooltips
             //createTooltips(table);
 
-
             if (table.getAttribute("id") == "fixedtable") {
                 headerfilters_row = header_row.cloneNode(true);
                 headerfilters_row.classList.add("columnfilters");
@@ -1034,7 +1029,7 @@ function makeDataTable(table, jsondata, sheetName) {
                         // console.log(RES);
 
                         //OPTION 1: HTML5 datalists
-                        if (RESlength > 6) {
+                        if (RESlength > 5) {
                             let input = $('<input type="search" size="10" autocomplete="off" list="' + jqth.innerText + '-list" id="' + jqth.innerText + '-input" name="' + jqth.innerText + '" class="headersearch" />').appendTo(jqthfilter)
                                 .on('change search', function () {
                                     if (column.search() !== this.value) {

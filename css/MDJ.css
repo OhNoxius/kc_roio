@@ -37,7 +37,7 @@ a.heading {
 
 div#fixedtable_wrapper > div:first-child {
     margin-top:0;
-    padding-top:50px;
+    /* padding-top:50px; */
     background: linear-gradient(rgba(251, 178, 21, 100),rgba(251, 178, 21, 0));
 }
 
