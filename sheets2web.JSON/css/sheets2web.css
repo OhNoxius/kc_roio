@@ -380,9 +380,12 @@ td span.match:hover {
 }
 
 /*FIXED TABLE*/
-div.dt-container div.dt-layout-row {
-    margin: 0 !important;
+div#fixedtable_wrapper {
+    padding-bottom: 1.3lh; /* make space for footer */
 }
+/* div.dt-container div.dt-layout-row {
+    margin: 0 !important;
+} */
 
 table.dataTable>tbody>tr>td.LINKcol,
 table.dataTable>thead>tr>th.LINKcol {
