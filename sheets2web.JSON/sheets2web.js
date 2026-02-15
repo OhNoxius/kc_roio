@@ -6,12 +6,18 @@ let sheetHeaders = null;
 let MAINSHEET_keys = [], LINKSHEET_keys = []
 let LINKSHEET_types = new Set();
 
+//Temporary : these variables shouldn't be global
+let CE_Headers = [];
+let htmlTagHeaders = [];
+let namespaceHeaders = [];
+
 let sheetLinkedMap = new Map();
 
 // HTML elements
+let LAYOUTMODE;
 let HEADER, SECTION, FOOTER, SIDEPANEL, INFOPANEL;
 let fixedtable, dfixedtable;
-let fixedthead, fixedtbody; //, fixedtfoot;
+let fixedthead, fixedtbody;//, fixedtfoot;
 
 //OPTIONAL s2w variables in html file
 let linktype;
@@ -19,13 +25,22 @@ let CE;
 let delims, delimsNC;
 const delimsDefault = new RegExp(/([;\r\n]+)/, "g");
 
-//specific DT variables
-let dt_fixedHeader, dt_layout, dt_order, dt_scrolly;
-
-const tableheight = '50%';
-
+//Merger class template
+class Merger {
+    constructor(targetIndex, header, type, namespace) {
+        this.targetIndex = targetIndex; //index of the column where this column should be merged into
+        this.header = header; //header of the column to be merged
+        this.type = type; //"-", ".", ":"
+        this.namespace = namespace; // header of the column where this column should be merged into
+    }
+}
+const mergeSymbols = ["-", ".", ":"];
+const tableheight = '100%';
 //old school
 let jidx = 0;//, lidx = 0;
+
+//specific DT variables
+let dt_fixedHeader, dt_layout, dt_order, dt_scrolly;
 
 document.addEventListener('DOMContentLoaded', function () {
     //json doesn't have node vs attribute distinction, so instead of XML Child Elements there is a prefix for items that should be shown as a (childrow) dropdown
@@ -48,16 +63,22 @@ document.addEventListener('DOMContentLoaded', function () {
         FOOTER.id = "s2w_FOOTER";
     }
     if (document.body.contains(document.getElementById("s2w_SIDEPANEL"))) {
+        LAYOUTMODE = "SIDEPANEL";
         SIDEPANEL = document.getElementById("s2w_SIDEPANEL");
         INFOPANEL = document.createElement("div");
         INFOPANEL.classList.add("info-panel");
         SIDEPANEL.appendChild(INFOPANEL);
         SECTION.classList.add("scrolly");
     }
+    else LAYOUTMODE = "CHILDROWS";
+
+    //HEADER CONTENT
     HEADER.appendChild(document.createElement("div")).id = "s2w_heading";
-    HEADER.appendChild(document.createElement("div")).id = "s2w_status";
-    HEADER.appendChild(document.createElement("div")).id = "s2w_activity";
-    HEADER.appendChild(document.createElement("progress")).id = "download-progress";
+    // HEADER.appendChild(document.createElement("div")).id = "s2w_status";
+    const s2w_activity = HEADER.appendChild(document.createElement("div"))
+    s2w_activity.id = "s2w_activity";
+    s2w_activity.appendChild(document.createElement("progress")).id = "download-progress";
+
     SECTION.innerHTML = '<table id="fixedtable" class="hover row-border" width="100%" width="100%" style=""></table>';
     SECTION.innerHTML += '<div id="dt_loader" class="spinner"></div>';
     //I had style="display:none" in <table>, why??
@@ -147,8 +168,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 MAINSHEET = SHEETS[0];
                 LINKSHEET = SHEETS.find(e => e.startsWith("+"));
 
-                MAINSHEET_keys = Object.keys(jason[MAINSHEET][0]);
-                if (LINKSHEET) LINKSHEET_keys = Object.keys(jason[LINKSHEET][0]);
+                MAINSHEET_keys = typeof jason[MAINSHEET][0] === "object" ? Object.keys(jason[MAINSHEET][0]) : [];
+                if (LINKSHEET) LINKSHEET_keys = typeof jason[LINKSHEET][0] === "object" ? Object.keys(jason[LINKSHEET][0]) : [];
                 else LINKSHEET_keys = [];
             }
             // console.log(jason);
@@ -157,6 +178,28 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         else if (ext === "xlsx") {
             data = await response.arrayBuffer();
+
+            // +++ START EXCEL CONVERSION +++
+            // dataLoaded = import("https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js").then(function () {
+            //     readXlsxFile(data, {
+            //         getSheets: true
+            //     }).then(function (sheets) {
+            //         sheets.map(function (sheet) {
+            //             console.log( sheet.name);
+            //             readXlsxFile(data, { sheet: sheet.name }).then((rows) => {
+            //                 const headers = rows[0].filter(function(val) { return val !== null; }).join(", ");
+            //                 jason[sheet.name] = [];
+            //                 for (let r = 1; r < data.length; r++) {
+            //                     for (var h = 0; h < headers.length; h++) {
+            //                         jason[sheet.name].push([headers[h]] = rows[r][h]);
+            //                     }
+            //                 }
+            //                 console.log(headers);
+            //             });
+            //         });
+            //     });
+
+            //     console.log(jason);
             dataLoaded = import("https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.mini.min.js").then(function () {
                 const workbook = XLSX.read(data, { type: "array" });
                 const workbookHeaders = XLSX.read(data, { type: "array", sheetRows: 1 });
@@ -186,12 +229,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     // //2. get the rest of the sheet
                     // jason[sheet] = XLSX.utils.sheet_to_json(workbook.Sheets[sheet], { range: "A:" + XLSX.utils.encode_col(xslxHeader[0].length), skipHidden: true, defval: "" });
                 });
-
                 // console.log(sheetHeaders);
-
                 MAINSHEET_keys = XLSX.utils.sheet_to_json(workbookHeaders.Sheets[MAINSHEET], { header: 1, defval: "" })[0];
                 if (LINKSHEET) LINKSHEET_keys = XLSX.utils.sheet_to_json(workbookHeaders.Sheets[LINKSHEET], { header: 1, defval: "" })[0];
                 else LINKSHEET_keys = [];
+                // +++ END EXCEL CONVERSION +++
 
                 // console.log({ MAINSHEET_keys, LINKSHEET_keys });
                 return jason
@@ -203,7 +245,6 @@ document.addEventListener('DOMContentLoaded', function () {
             //     await workbook.xlsx.load(jason);
             //     console.log(workbook.stringify);
             // });
-
         }
 
         dataLoaded.then((jason) => {
@@ -213,8 +254,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             //FINAL CALL:
             //detect '#...' in url to choose initial sheet
-            let urlHash = "";
-            if (window.location.href.indexOf("#") > 0) urlHash = window.location.href.substring(window.location.href.indexOf("#") + 1,);
+            const urlHash = window.location.href.includes("#") ? decodeURI(window.location.href.substring(window.location.href.indexOf("#") + 1,)) : "";
 
             if (urlHash) dfixedtable = makeDataTable(fixedtable, jason[urlHash], urlHash);
             else dfixedtable = makeDataTable(fixedtable, jason[MAINSHEET], MAINSHEET);
@@ -222,7 +262,6 @@ document.addEventListener('DOMContentLoaded', function () {
             //CREATE NAVIGATION FOOTER
             const navfooter = createNavFooter(SHEETS);
             document.getElementById("s2w_FOOTER").append(navfooter);
-
         });
     }
     main().catch(console.error);
@@ -316,7 +355,7 @@ function makeDataTable(table, jsondata, sheetName) {
         fixedtbody = fixedtable.appendChild(document.createElement("tbody"));
     }
 
-    const maintableKeys = sheetHeaders ? sheetHeaders.get(sheetName) : Object.keys(jsondata[jidx]);
+    const maintableKeys = sheetHeaders ? sheetHeaders.get(sheetName) : (typeof jsondata[jidx] === "object" ? Object.keys(jsondata[jidx]) : []);
     //OPTIONAL: remove rows with empty 1st column
     jsondata = jsondata.filter(x => x[maintableKeys[0]] != null && x[maintableKeys[0]] != ""); //logical AND?? but this work, OR doesn't
 
@@ -325,8 +364,12 @@ function makeDataTable(table, jsondata, sheetName) {
 
     let columns = [], mergecolumns = [];
 
-    const childrowsHeaders = maintableKeys.filter(x => x.startsWith(CE));
-    const htmlTagHeaders = maintableKeys.filter(x => x.startsWith("<"));
+    //SPECIAL HEADERS:
+    const CE_Headers = maintableKeys.filter(x => x.startsWith(CE));
+    const nonCE_Headers = maintableKeys.filter(x => !x.startsWith(CE));
+    const mergeHeaders = nonCE_Headers.filter(x => mergeSymbols.some(symbol => x.startsWith(symbol)));
+    const namespaceHeaders = nonCE_Headers.filter(x => x.includes(":"));
+    const htmlTagHeaders = maintableKeys.filter(x => x.startsWith("<") || x.includes(":<")); //&& x.endsWith(">");
 
     //detect mode
     if (sheetName == LINKSHEET) linktable = MAINSHEET;
@@ -520,8 +563,20 @@ function makeDataTable(table, jsondata, sheetName) {
                 //     //if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
 
                 // cell.innerHTML = `<button class="btn" data-clipboard-text="` + cellData + `"></button>`;
-                cell.innerHTML = `<button class="btn"></button>`;
-                if (rowData["LINKIDXS"]) cell.classList.add('plus-ctrl');
+
+                // cell.innerHTML = `<button class="btn"></button>`;
+                const btn = document.createElement("button");
+                btn.classList.add("btn");
+                cell.appendChild(btn);
+
+                cell.addEventListener("click", () => navigator.clipboard.writeText(cellData).then(() => {
+                    console.log("copy to clipboard: '" + cellData + "'");
+                })
+                    .catch(() => {
+                        alert("copy to clipboard failed");
+                    }));
+
+                if (rowData["LINKIDXS"]) cell.innerHTML += `<button class="plus-ctrl"></button>`;//cell.classList.add('plus-ctrl');
             }
         },
         "cellIndex": startIndex
@@ -539,7 +594,7 @@ function makeDataTable(table, jsondata, sheetName) {
     if (maintableKeys.indexOf(linktable) == -1) {
         if (linktable) {
             let DTcolumn = {
-                "width": '0px', //makes width fit content!
+                // "width": '0px', //makes width fit content!
                 "title": linktable,
                 "className": className,
                 // "orderable": false,
@@ -600,6 +655,7 @@ function makeDataTable(table, jsondata, sheetName) {
     while (keyIdx < maintableKeys.length) {
         //1. datatables column element
         const key = maintableKeys[keyIdx].replace(/\./g, '\\\\.');
+        // console.log("process column '" + key + "'");
         //BASIC TEMPLATE
         let DTcolumn = {
             //"title": el,
@@ -643,12 +699,12 @@ function makeDataTable(table, jsondata, sheetName) {
                 //OR USE BALLOON.CSS instead of Tooltipster?? for performance
                 $(td).find('span.match').tooltipster({
                     functionBefore: function (instance, helper) {
-                        const textContent = helper.origin.textContent;
-                        const doubt = helper.origin.classList.contains("?<span");
+                        // const textContent = helper.origin.textContent;
+                        // const doubt = helper.origin.classList.contains("?<span");
                         const firstkey = Object.keys(jason[key][0])[0];
-                        // console.log({textContent, doubt, firstkey, key});
-                        const query = jason[key].filter(x => { if (x[firstkey]) return x[firstkey].toString().toLowerCase() === textContent.toLowerCase() }); //use if in case x["id"] DOESN't EXIST!
-                        if (query.length > 0) instance.content((doubt ? ["<p>?</p>"] : []).concat(formatTooltip(query[0])));
+                        const query = jason[key].filter(x => { if (x[firstkey]) return x[firstkey].toString().toLowerCase() === helper.origin.textContent.toLowerCase() }); //use if in case x["id"] DOESN't EXIST!
+                        //ORDER SHOULD BE CHANGED BASED on mergecolumns??
+                        if (query.length > 0) instance.content((helper.origin.classList.contains("?<span") ? ["<p>?</p>"] : []).concat(formatTooltip(query[0])));
                     },
                     interactive: true
                 });
@@ -657,12 +713,7 @@ function makeDataTable(table, jsondata, sheetName) {
         else if (key.startsWith("<")) {
             DTcolumn.render = function (data, type, row, meta) {
                 if (type === 'display') {
-                    if (key == "<img>") {
-                        return '<img class="inline" src="' + data + '"></img>'
-                    }
-                    else {
-                        return key + data + key.slice(0, 1) + "/" + key.slice(1)
-                    }
+                    return formatHtmlTag(key, data, "inline")
                 }
                 else return data;
             }
@@ -688,7 +739,6 @@ function makeDataTable(table, jsondata, sheetName) {
         }
 
         //type column
-        const namespace = key.substring(0, key.indexOf(":"));
         if (key == MAINSHEET) {
             DTcolumn.className = "match";
         }
@@ -698,27 +748,31 @@ function makeDataTable(table, jsondata, sheetName) {
                 if (data) return '<div class="typeicon ' + data + '" title="' + data + '">' + data + '</div>'
             }
         }
-        //merger columns
-        else if (key.startsWith(".") || key.startsWith("-")) {
-            DTcolumn.className = "merger";
-            DTcolumn.visible = false;
-            //const maincolumn = columns[columns.length - 1];
-            const merger = { "cellIndex": columns.length - 1, "cat": key, "type": key[0] }; //"con": maincolumn.data, 
-            mergecolumns.push(merger);
-        }
-        //namespace column
-        else if (namespace.length && maintableKeys.includes(namespace)) {
-            DTcolumn.className = "namespace";
-            DTcolumn.visible = false;
-            //const maincolumn = columns.find(x => x.data == key.substring(0, key.indexOf(":")));
-            const merger = { "cellIndex": columns.findIndex(x => x.data == namespace), "cat": key, "type": ':' }; //"con": maincolumn.data, 
-            mergecolumns.push(merger);
-        }
         //child rows
         else if (key.startsWith(CE)) {
             DTcolumn.className = "childrow";
             DTcolumn.visible = false;
         }
+        //merger columns
+        else if (mergeHeaders.includes(key)) {
+            DTcolumn.className = "merger";
+            DTcolumn.visible = false;
+            //const maincolumn = columns[columns.length - 1];
+            // const merger = { "cellIndex": columns.length - 1, "cat": key, "type": key[0] }; //"con": maincolumn.data, 
+            mergecolumns.push(new Merger(columns.length - 1, key, key[0]));
+        }
+        //namespace column
+        else if (namespaceHeaders.includes(key)) {
+            const namespace = key.substring(0, key.indexOf(":"));
+            if (columns.findIndex(x => x.data == namespace) > -1) {
+                DTcolumn.className = "namespace";
+                DTcolumn.visible = false;
+                //const maincolumn = columns.find(x => x.data == key.substring(0, key.indexOf(":")));
+                // const merger = { "cellIndex": columns.findIndex(x => x.data == namespace), "cat": key, "type": ':', "namespace": namespace }; //"con": maincolumn.data, 
+                mergecolumns.push(new Merger(columns.findIndex(x => x.data == namespace), key, ':', namespace));
+            }
+        }
+
         else if (key.startsWith("<")) {
             DTcolumn.className = "htmltag";
             // DTcolumn.visible = false;
@@ -740,22 +794,34 @@ function makeDataTable(table, jsondata, sheetName) {
 
     //FINAL column: (v)(^)
     const LASTcol = {
-        "width": '0px',
+        // "width": '0px',
         "className": 'LASTcol',
         "orderable": false,
         "defaultContent": '',
         "createdCell": function (cell, cellData, rowData, rowIndex, colIndex) {
+            cell.classList.add(LAYOUTMODE);
+            const button = document.createElement("button");
+            button.classList.add('arrow-ctrl');
+            cell.appendChild(button);
+        },
+        "cellIndex": startIndex
+    }
+    if (LAYOUTMODE == "CHILDROWS") {
+        LASTcol.createdCell = function (cell, cellData, rowData, rowIndex, colIndex) {
+            cell.classList.add(LAYOUTMODE);
             let i = 0;
-            const len = childrowsHeaders.length;
+            const len = CE_Headers.length;
+            //check if there is childrow data in this row and break directly if found
             while (i < len) {
-                if (rowData[childrowsHeaders[i]]) {
-                    cell.classList.add('arrow-ctrl');
+                if (rowData[CE_Headers[i]]) {
+                    const button = document.createElement("button");
+                    button.classList.add('arrow-ctrl');
+                    cell.appendChild(button);
                     break;
                 }
                 i++;
             }
-        },
-        "cellIndex": startIndex
+        }
     }
     header_row.append(document.createElement("th"));
     columns.push(LASTcol)
@@ -810,6 +876,7 @@ function makeDataTable(table, jsondata, sheetName) {
         };
     }
 
+    //PAGING
     if (jsondata.length < 250) dt_pageLength = -1
     else dt_pageLength = 100
 
@@ -866,23 +933,44 @@ function makeDataTable(table, jsondata, sheetName) {
             //OR ... do earlier in column.render (rowData is available there)
 
             //OR ... make formatting function based on 1st row, see how many mergers there are, where they should go and do for each row
-            let catdata;
+            let catdata, catheader;
 
-            mergecolumns.forEach(function (mergecolumn, i) {
-                catdata = data[mergecolumn.cat];
+            mergecolumns.forEach(function (merger, i) {
+                const header = merger.header;
+                const type = merger.type;
+                const namespace = merger.namespace;
+                const targetindex = merger.targetIndex;
+                catdata = data[header];
                 if (catdata) {
                     let mergeDOM;
-                    if (mergecolumn.type === "-") {
+                    if (type === "-") {
                         mergeDOM = document.createElement("span");
                         mergeDOM.classList.add("inlinedetails");
                         mergeDOM.innerText = "-";
                     }
-                    else {
-                        mergeDOM = document.createElement("p");
-                        mergeDOM.classList.add("subdetails");
-                        if (mergecolumn.type === ":") mergeDOM.innerHTML = "<span class='inlinedetails'>" + mergecolumn.cat.substring(mergecolumn.cat.indexOf(":") + 1) + ": " + "</span>";
+                    //namespace
+                    else if (type === ":") {
+                        catheader = header.substring(header.indexOf(":") + 1);
+                        mergeDOM = document.createElement("span");
+                        //namespace:<htmltag>
+                        if (htmlTagHeaders.includes(header)) {
+                            if (!maintableKeys.includes(merger.namespace)) mergeDOM.innerHTML = "<span class='inlinedetails'>" + catheader + ": " + "</span>";
+                        }
+                        //namespace regular
+                        else {
+                            mergeDOM = document.createElement("p");
+                            mergeDOM.classList.add("subdetails");
+                            mergeDOM.innerHTML = "<span class='inlinedetails'>" + catheader + ": " + "</span>";
+                            // if (type === ":") {
+                            //     if (!maintableKeys.includes(merger.namespace)) mergeDOM.innerHTML = "<span class='inlinedetails'>" + catheader + ": " + "</span>";
+                            // }
+                        }
                     }
-                    if (typeof (catdata) === "string") {
+                    //CATDATA FORMATTING
+                    if (catheader?.startsWith("<")) {
+                        mergeDOM.innerHTML += formatHtmlTag(catheader, catdata, "inline");
+                    }
+                    else if (typeof (catdata) === "string") {
                         mergeDOM.innerHTML += anchorme({
                             input: catdata,
                             options: {
@@ -896,7 +984,7 @@ function makeDataTable(table, jsondata, sheetName) {
                     }
                     else mergeDOM.innerHTML += catdata;
 
-                    cells[mergecolumn.cellIndex].append(mergeDOM);
+                    cells[merger.targetIndex].append(mergeDOM);
                 }
             });
 
@@ -905,7 +993,6 @@ function makeDataTable(table, jsondata, sheetName) {
             //const rowid = maintable?.replace(/\s+/g, '') + ":" + dataIndex;
             const rowid = maintable + ":" + dataIndex;
             row.setAttribute("id", rowid);
-
         },
         //TAKES ALMOST 10 seconds!! ===>
         // "drawCallback": function (settings) {
@@ -958,13 +1045,13 @@ function makeDataTable(table, jsondata, sheetName) {
                         // jqthfilter.get(0).setAttribute("class", jqth.className)
                         //if (linktable_types.size == 0) linktable_types.add(""); //=> do it another way...breaks code further on
                         if (linktable_types.size == 0) {
-                            $('<div class="nowrap"><input type="checkbox" id="" name="linkcheckbox" value=".+" class="headercheckbox" />' +
+                            $('<div class="nowrap header"><input type="checkbox" id="" name="linkcheckbox" value=".+" class="headercheckbox" />' +
                                 '<label for=""></label></div>')
                                 .appendTo(jqthfilter);
                         }
                         else {
                             linktable_types.forEach(function (value, index, array) {
-                                $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
+                                $('<div class="nowrap header"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
                                     '<label for="' + value + '">' + value + '</label></div>')
                                     .appendTo(jqthfilter);
                             });
@@ -1055,7 +1142,7 @@ function makeDataTable(table, jsondata, sheetName) {
                             let value;
                             for (var r = 0; r < RESlength; r++) {
                                 value = RES[r];
-                                $('<div class="nowrap"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
+                                $('<div class="nowrap header"><input type="checkbox" id="' + value + '" name="linkcheckbox" value="' + value + '" class="headercheckbox" />' +
                                     '<label for="' + value + '">' + value + '</label></div>')
                                     .appendTo(jqthfilter);
                             }
@@ -1073,16 +1160,19 @@ function makeDataTable(table, jsondata, sheetName) {
                     }
                 });
 
-                $(table).find(".btn").each(function () {
-                    this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.parentElement.getAttribute("aria-label")).then(() => {
-                        console.log("copy to clipboard: '" + this.parentElement.parentElement.getAttribute("aria-label") + "'");
-                    })
-                        .catch(() => {
-                            alert("copy to clipboard failed");
-                        }));
-                });
-
+                // NOT HERE !! do not create eventlistener for idcol copy to clipboard button
+                // when paging is enabled THE TABLE CELLS ACTUALLY DON't YET EXIST!!
             }
+            // ALSO NOT HERE
+            // $(table).find(".btn").each(function () {
+            //     this.addEventListener("click", () => navigator.clipboard.writeText(this.parentElement.parentElement.getAttribute("aria-label")).then(() => {
+            //         console.log("copy to clipboard: '" + this.parentElement.parentElement.getAttribute("aria-label") + "'");
+            //     })
+            //         .catch(() => {
+            //             alert("copy to clipboard failed");
+            //         }));
+            //     console.log("add click eventlistener to copy to clipboard button in table#" + table.id);
+            // });
 
             //CHILDROW: details
             $(table).children('tbody').on('click', '> tr > td.LASTcol', function () {
@@ -1091,12 +1181,14 @@ function makeDataTable(table, jsondata, sheetName) {
                 const dRow = dTable.row($(tr));
 
                 // console.log(dRow);
+
+                //CHILDROW DETAILS PANEL or SIDE PANEL: CHILDROW
                 if (typeof SIDEPANEL === "undefined") {
 
                     if (dRow.child.isShown()) {
                         // This row is already open - close it
                         dRow.child.hide();
-                        $(tr).removeClass('LASTshown');
+                        tr.classList.toggle('LASTshown');
                     }
                     else {
                         // Open this row
@@ -1104,7 +1196,7 @@ function makeDataTable(table, jsondata, sheetName) {
                         let detailsTable = "";
                         const childcells = dTable.cells(dRow, ".childrow");//, idx);
                         for (var i = 0; i < childcells.data().length; i++) {
-                            if (childcells.data()[i]) detailsTable += formatChildRows(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
+                            if (childcells.data()[i]) detailsTable += formatAsTableRow(CE_Headers[i].substring(CE.length), childcells.data()[i]);
                         }
                         if (detailsTable != "") {
                             detailsTable = '<table class="detailstable row-border">' + detailsTable + '</table>';
@@ -1116,34 +1208,47 @@ function makeDataTable(table, jsondata, sheetName) {
                         //     childtr.children('td').attr("colspan", (i, val) => val--);
                         //     childtr[0].prepend(document.createElement("td"));
                         // });
-
-                        $(tr).addClass('LASTshown');
+                        tr.classList.toggle('LASTshown');
                     }
                 }
+                //CHILDROW DETAILS PANEL or SIDE PANEL: SIDEPANEL
                 else {
+                    $(tr).siblings().removeClass('LASTshown');
+                    tr.classList.add('LASTshown');
                     let detailsTable = "";
+                    //decide order of columns/rows in side panel:
+                    let orderedKeys = maintableKeys;
+                    mergecolumns.forEach(function (merger) {
+                        if (merger.type === ":") { // if namespace exists
+                            //insert AFTER namespace column
+                            orderedKeys.splice(maintableKeys.indexOf(merger.header), 1);
+                            orderedKeys.splice(maintableKeys.indexOf(merger.namespace) + 1, 0, merger.header);
 
-                    // ALL AT ONCE
-                    // for (var i = 0; i < maintableKeys.length; i++) {
-                    //     detailsTable += formatSidePanel(maintableKeys[i], dRow.data()[maintableKeys[i]]);
-                    // }
+                        }
+                    });
+                    // console.log(orderedKeys);                    
+
+                    // ALL AT ONCE*
+                    for (var i = 0; i < orderedKeys.length; i++) {
+                        detailsTable += formatSidePanelRow(orderedKeys[i], dRow.data()[orderedKeys[i]], i, mergeHeaders, namespaceHeaders, CE_Headers, htmlTagHeaders);
+                    }
 
                     //or First visible cells
-                    const viscells = dTable.cells(dRow, ':visible');
-                    const viscellsIdx = viscells.indexes().pluck('column')
-                    for (var i = 0; i < viscells.data().length; i++) {
-                        detailsTable += formatSidePanel(maintableKeys[viscellsIdx[i]], viscells.data()[i]);
-                    }
-                    //then unvisible Childcells (with different layout)
-                    const childcells = dTable.cells(dRow, ".childrow");//, idx);
-                    for (var i = 0; i < childcells.data().length; i++) {
-                        if (childcells.data()[i]) detailsTable += formatSidePanel(childrowsHeaders[i].substring(CE.length), childcells.data()[i]);
-                    }
-                    //then HTML tag headers
-                    const htmlcells = dTable.cells(dRow, ".htmltag");//, idx);
-                    for (var i = 0; i < htmlcells.data().length; i++) {
-                        if (htmlcells.data()[i]) detailsTable += formatHtmlTag(htmlTagHeaders[i], htmlcells.data()[i]);
-                    }
+                    // const viscells = dTable.cells(dRow, ':visible');
+                    // const viscellsIdx = viscells.indexes().pluck('column')
+                    // for (var i = 0; i < viscells.data().length; i++) {
+                    //     detailsTable += formatSidePanelRow(maintableKeys[viscellsIdx[i]], viscells.data()[i]);
+                    // }
+                    // //then unvisible Childcells (with different layout)
+                    // const childcells = dTable.cells(dRow, ".childrow");//, idx);
+                    // for (var i = 0; i < childcells.data().length; i++) {
+                    //     if (childcells.data()[i]) detailsTable += formatSidePanelRow(CE_Headers[i].substring(CE.length), childcells.data()[i]);
+                    // }
+                    // //then HTML tag headers
+                    // const htmlcells = dTable.cells(dRow, ".htmltag");//, idx);
+                    // for (var i = 0; i < htmlcells.data().length; i++) {
+                    //     if (htmlcells.data()[i]) detailsTable += formatHtmlTag(htmlTagHeaders[i], htmlcells.data()[i]);
+                    // }
 
 
                     if (detailsTable != "") {
@@ -1156,8 +1261,9 @@ function makeDataTable(table, jsondata, sheetName) {
             });
 
             //CHILDROW: linked elements
-            $(table).children('tbody').on('click', ' > tr > td.plus-ctrl', function () {
-                const tr = this.parentElement;
+            $(table).children('tbody').on('click', ' > tr > td > button.plus-ctrl', function () {
+                const td = this.parentElement;
+                const tr = td.parentElement;
                 // const jqtr = $(this.parentElement);
                 const dRow = dTable.row($(tr));
                 console.log(" (+)-->CLICK : '" + maintable + "' / linktable: '" + linktable + "' / id: '" + tr.id + "'");
@@ -1196,12 +1302,9 @@ function makeDataTable(table, jsondata, sheetName) {
             });
         }
     });
-    //.columns.adjust().draw() MAKES NAVIGATION FOOTER DISAPPEAR??????????????
-    // this.api().columns.adjust().draw();
+    //.columns.adjust().draw() //MAKES NAVIGATION FOOTER DISAPPEAR??????????????
+    // this.api().columns.adjust().draw(); //MAKES NAVIGATION FOOTER DISAPPEAR??????????????
     // dTable.columns.adjust().draw();
-
-
-
 
     dTable.on('draw', function () {
         console.log('redraw occurred at: ' + new Date().getTime());
@@ -1216,7 +1319,7 @@ function makeDataTable(table, jsondata, sheetName) {
     return dTable;
 }
 
-function formatChildRows(h, d) {
+function formatAsTableRow(h, d, classname = "detailsHeader") {
     if (d) {
         const formated = anchorme({
             input: d.toString(),
@@ -1228,28 +1331,100 @@ function formatChildRows(h, d) {
                 }
             }
         });
-        return '<tr class="detailsRow">' +
-            '<td class="detailsHeader">' + h + ':</td>' +
+        return '<tr>' +
+            '<td class="' + classname + '">' + h + ':</td>' +
             '<td>' + formated + '</td>' +
             '</tr>'
     }
     else return ''
 }
-function formatHtmlTag(h, d) {
-    if (h == "<img>") {
-        return '<tr class="detailsRow">' +
-            '<td class="detailsHeader"><img class="sidepanel" src="' + d + '"></img></td>' +
-            '</tr>'
+function formatHtmlTag(h, d, classname = "") {
+    if (h == "<img>") return '<img class="' + classname + '" src="' + d + '"></img>'
+    else h + d + h.slice(0, 1) + "/" + h.slice(1)
+}
+// function formatSidePanel_HtmlTag(h, d) {
+//     if (h == "<img>") {
+//         return '<tr class="detailsRow">' +
+//             '<td class="detailsHeader"><img src="' + d + '"></img></td>' +
+//             '</tr>'
+//     }
+//     else {
+//         return '<tr class="detailsRow">' +
+//             '<td class="detailsHeader">' + h + d + h.slice(0, 1) + "/" + h.slice(1) + '</td>' +
+//             '</tr>'
+//     }
+// }
+function formatSidePanelID(h, d) {
+    return '<tr class="sidepanelRow">' +
+        '<td class="sidepanelID"><h1>' + d + '</h1></td>' +
+        '</tr>'
+}
+function formatSidePanelRow(h, d, idx, mergeHeaders = [], namespaceHeaders = [], CE_Headers = [], htmlTagHeaders = []) {
+    const returnHTML = document.createElement("table");
+    const tr = document.createElement("tr");
+    tr.classList.add("sidepanelRow");
+    returnHTML.appendChild(tr);
+    // console.log({ h, d, idx });
+    let h_formated = h, d_formated;
+    // if (d) {
+    const td_header = document.createElement("td");
+    const td_h2 = document.createElement("h2");
+    td_header.classList.add("colheader");
+    td_header.appendChild(td_h2);
+    td_h2.classList.add("sidepanelHeader");
+    const td_data = document.createElement("td");
+
+    tr.appendChild(td_header);
+
+    //1st ORGANIZE ACCORDING TO TYPES OF HEADERS
+    // IDcol
+    if (idx == 0) {
+        td_header.innerHTML = '<h2>' + d + '</h2>';
+        td_header.setAttribute("colspan", "2");
+        td_header.classList.add("sidepanelID");
+        return returnHTML.innerHTML
+    }
+    // CE_ columns
+    else if (CE_Headers.includes(h)) {
+        td_header.setAttribute("colspan", "2");
+        td_header.classList.add("padtop");
+        td_data.setAttribute("colspan", "2");
+        h_formated = h.substring(CE.length);
+        if (d) {
+            const tr_CE = document.createElement("tr");
+            tr_CE.classList.add("sidepanelRow_CE");
+            tr_CE.append(td_data);
+            returnHTML.append(tr_CE);
+        }
+    }
+    // NAMESPACE columns
+    else if (namespaceHeaders.includes(h)) {
+        // const span = document.createElement("span");
+        td_h2.classList.add("inlinedetails");
+        td_data.classList.add("inlinedetails");
+        h_formated = h.substring(h.indexOf(":") + 1);
+        tr.appendChild(td_data);
+    }
+    // MERGER columns
+    else if (mergeHeaders.includes(h)) {
+        td_h2.classList.add("inlinedetails");
+        td_data.classList.add("inlinedetails");
+        tr.appendChild(td_data);
     }
     else {
-        return '<tr class="detailsRow">' +
-            '<td class="detailsHeader">' + h + d + h.slice(0, 1) + "/" + h.slice(1) + '</td>' +
-            '</tr>'
+        td_header.classList.add("padtop");
+        td_data.classList.add("padtop");
+        tr.appendChild(td_data);
     }
-}
-function formatSidePanel(h, d) {
-    if (d) {
-        const formated = anchorme({
+
+    //2nd FORMAT DATA
+    if (htmlTagHeaders.includes(h)) {
+        td_h2.innerHTML = formatHtmlTag(h_formated, d, "sidepanelImage");
+        td_header.setAttribute("colspan", "2");
+        return returnHTML.innerHTML
+    }
+    else {
+        d_formated = anchorme({
             input: d.toString(),
             options: {
                 truncate: 50,
@@ -1259,15 +1434,16 @@ function formatSidePanel(h, d) {
                 }
             }
         });
-        return '<tr class="sidepanelRow">' +
-            '<td class="sidepanelHeader">' + h + ':</td>' +
-            '</tr>' + '<tr>' +
-            '<td>' + formated + '</td>' +
-            '</tr>'
+
     }
-    else return ''
+    td_h2.innerText = h_formated + ':';
+    td_data.innerHTML = d_formated;
+    return returnHTML.innerHTML
+    // }
+    // else return ''
 }
 
+// NAVIGATION FOOTER
 function createNavFooter(sheets) {
     //NAV
     const navfooter = document.createElement("div");
@@ -1275,55 +1451,71 @@ function createNavFooter(sheets) {
     const tabs_ul = document.createElement("ul");
     let tab_li, tab_a;
     sheets.forEach(function (sheet) {
-        if (sheet == LINKSHEET || MAINSHEET_keys.includes(sheet) || LINKSHEET_keys.includes(sheet)) {
-            tab_li = document.createElement("li");
-            tab_li.setAttribute("class", "menu tab");
-            tabs_ul.append(tab_li);
-            tab_a = document.createElement("a");
-            tab_a.setAttribute("id", "btn-" + sheet);
-            tab_a.setAttribute("class", "menu tab");
-            tab_a.setAttribute("href", "#" + sheet);
-            tab_a.setAttribute("sheet", sheet);
-            tab_li.addEventListener('click', function () {
-                $(this).addClass('active');
-                $(this).siblings().removeClass('active');
+        // if (sheet == LINKSHEET || MAINSHEET_keys.includes(sheet) || LINKSHEET_keys.includes(sheet)) { //ONLY USE WHEN 'mode' is with linktable?
+        tab_li = document.createElement("li");
+        tab_li.setAttribute("class", "menu tab");
+        tabs_ul.append(tab_li);
+        tab_a = document.createElement("a");
+        tab_a.setAttribute("id", "btn-" + sheet);
+        tab_a.setAttribute("class", "menu tab");
+        tab_a.setAttribute("href", "#" + sheet);
+        tab_a.setAttribute("sheet", sheet);
+        tab_li.addEventListener('click', function () {
+            $(this).addClass('active');
+            $(this).siblings().removeClass('active');
 
-                if (DataTable.isDataTable(fixedtable)) {
-                    dfixedtable.clear().destroy();
-                }
+            if (DataTable.isDataTable(fixedtable)) {
+                dfixedtable.clear().destroy();
+            }
 
-                //ISSUE: you have to completely destroy the <thead> en <tbody> elements of the table before you can create a new DataTable on it (for the child rows to work at least...)
-                fixedthead.innerHTML = "";
-                fixedtbody.innerHTML = "";
-                fixedtable.removeChild(fixedthead);
-                fixedtable.removeChild(fixedtbody);
-                // fixedtfoot.querySelectorAll("tr:not(#fixedfooterrow)").forEach(tr => tr.remove());
+            //ISSUE: you have to completely destroy the <thead> en <tbody> elements of the table before you can create a new DataTable on it (for the child rows to work at least...)
+            fixedthead.innerHTML = "";
+            fixedtbody.innerHTML = "";
+            fixedtable.removeChild(fixedthead);
+            fixedtable.removeChild(fixedtbody);
+            // fixedtfoot.querySelectorAll("tr:not(#fixedfooterrow)").forEach(tr => tr.remove());
 
-                dfixedtable = makeDataTable(fixedtable, jason[sheet], sheet);
-            }, false);
-            // if (sheet == MAINSHEET) $(tab_li).addClass('active');
-            //set names
-            tab_a.innerText = sheet;
-            //set colors
-            if (sheet == MAINSHEET || MAINSHEET_keys.includes(sheet)) $(tab_a).addClass("MAINclr");
-            else $(tab_a).addClass("LINKclr");
-            //set outline
-            if (sheet == MAINSHEET || sheet == LINKSHEET) $(tab_a).addClass("MAINLINK");
+            dfixedtable = makeDataTable(fixedtable, jason[sheet], sheet);
+        }, false);
+        // if (sheet == MAINSHEET) $(tab_li).addClass('active');
+        //set names
+        tab_a.innerText = sheet;
+        //set colors
+        if (sheet == MAINSHEET || MAINSHEET_keys.includes(sheet)) $(tab_a).addClass("MAINclr");
+        else $(tab_a).addClass("LINKclr");
+        //set outline
+        if (sheet == MAINSHEET || sheet == LINKSHEET) $(tab_a).addClass("MAINLINK");
 
-            tab_li.append(tab_a);
-        }
+        tab_li.append(tab_a);
+        // }
     });
+    tabs_ul.firstChild.classList.add('active');
     navfooter.append(tabs_ul);
     return navfooter;
 }
 
+// TOOLTIP FORMATTER: create array of <li> elements
 function formatTooltip(object) {
-    let result = [];
+    let result = [], bullet;
     const props = Object.getOwnPropertyNames(object);
     const linkKeyIdx = props.indexOf("LINKIDXS");
     if (linkKeyIdx > -1) props.splice(linkKeyIdx, 1);
     for (var i = 1; i < props.length; i++) {
-        if (object[props[i]]) result.push($("<li style='list-style-type:none;'><span class='inlinedetails'>" + props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>"));
+        if (object[props[i]]) {
+            bullet = "<li style='list-style-type:none;'><span class='inlinedetails'>";
+            if (htmlTagHeaders.includes(props[i])) {
+                const tag = props[i].substring(props[i].indexOf('<'));
+                bullet += formatHtmlTag(tag, object[props[i]], "tooltip") + "</span></li>";
+                // console.log({header: props[i], value: object[props[i]]});
+            }
+            else if (CE_Headers.includes(props[i])) {
+                bullet += props[i].substring(CE.length) + ": </span><p class='tooltip'>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</p></li>";
+            }
+            else {
+                bullet += props[i] + ": </span>" + anchorme({ input: object[props[i]].toString(), options: { attributes: { target: "_blank" } } }) + "</li>";
+            }
+            result.push($(bullet));
+        }
     }
     return result;
 }

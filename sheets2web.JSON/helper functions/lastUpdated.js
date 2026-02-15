@@ -24,8 +24,8 @@ function lastUpdated(datafile, id) {
         node.setAttribute("class", "subdetails");
         node.setAttribute("id", "updated");
         var textnode = document.createTextNode(datafile +" last updated on " + date.toLocaleDateString("nl-BE"));
-        node.appendChild(textnode);
-        document.getElementById(id).appendChild(node);
+        node.prepend(textnode);//node.appendChild(textnode);
+        document.getElementById(id).prepend(node);
     }, function (error) {
         console.error("fetchHeader GET failed!", error);
     })

@@ -12,6 +12,7 @@
     --table-bg: white;
     --table-header-bg: rgb(226, 231, 235);
     /*#adadad*/
+    ;
     --tooltip-bg: #333;
     --tooltip-text: white;
     --highlight-color: #e0f7fa;
@@ -80,9 +81,21 @@ section#s2w_SIDEPANEL {
     --sidepanel-width: 30vw;
 }
 
-td.sidepanelHeader {
+/* tr.sidepanelRow td {
     padding-top: 0.4em;
-    font-weight: bold;
+}*/
+/* tr.sidepanelRow_CE td {
+    padding-bottom: 1.2em;
+} */
+
+tr.sidepanelRow td {
+    vertical-align: top
+}
+
+td.colheader {
+    max-width: max-content;
+    /*doesnt do anything*/
+    /* vertical-align: top; */
 }
 
 div.info-panel {
@@ -102,14 +115,14 @@ footer#s2w_FOOTER {
     /* grid-area: c; */
     /* position: fixed; */
     /* height: auto; */
-    
+
     /* min-height: 1vh; */
     /* height: 50px; */
     padding: 0;
     margin: 0;
     /*BREAKS navigation footer transparency*/
     background: var(--bg-color);
-    
+
     bottom: 0px;
     width: 100%;
     z-index: 2;
@@ -152,12 +165,13 @@ header div {
 }
 
 header div#s2w_activity {
-    float: right;
-    position: fixed;
-    align-items: center;
+    /* float: right; */
+    position: absolute;
+    /* align-items: center; */
     vertical-align: top;
     top: 0;
     right: 0;
+    text-align: right;
 }
 
 
@@ -178,6 +192,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+}
+
 a.heading {
     text-decoration: none;
     /* border: 2px solid black;
@@ -189,6 +209,11 @@ a.heading:visited,
 a.heading:hover,
 a.heading:active {
     color: inherit;
+}
+
+p.tooltip {
+    padding: 0;
+    margin: 0;
 }
 
 .subdetails {
@@ -204,6 +229,7 @@ a.heading:active {
     font-weight: normal;
     font-style: italic;
     color: grey;
+    font-size: 95%;
 }
 
 .padright {
@@ -212,6 +238,10 @@ a.heading:active {
 
 .padleft {
     margin-left: 0.4em;
+}
+
+.padtop {
+    padding-top: 0.6em;
 }
 
 .padbottom {
@@ -310,22 +340,33 @@ li.tab.active a.tab {
 /* li.tab.active a.tab {
     background-color: #ff7000;
 } */
-
-img.sidepanel {
+img.sidepanelImage {
     width: 100%;
 }
+
+img.tooltip {
+    height: 20vw;
+}
+
 img.inline {
     /* height: 40px; */
-    max-width: 100%;
+    max-width: 5vw;
     height: auto;
     max-height: 10vh;
-    display: block;
+    /* display: block; */
     margin: 0;
     position: relative;
+    vertical-align: middle;
 }
 
 
 /*TABLES general*/
+/* div#DataTables_wrapper {
+    width: 100% !important;
+}
+colgroup {
+    width: 100% !important
+} */
 
 th {
     white-space: pre-wrap;
@@ -341,16 +382,16 @@ td {
     /* border: 1px red solid; */
 }
 
-/* table.dataTable>tbody>tr>td.htmltag { */
 td.htmltag {
-    vertical-align: middle !important;
+    vertical-align: middle;
     text-align: center;
     padding-top: 30px !important;
     padding-bottom: 15px !important;
-    
+
     align-items: center;
-  justify-content: center;
+    justify-content: center;
 }
+
 table.dataTable>tbody>tr>td {
     /*28px 8px 22px 8px;*/
     vertical-align: text-top;
@@ -358,7 +399,7 @@ table.dataTable>tbody>tr>td {
     background-color: var(--table-bg);
 }
 
-table.dataTable tr.IDtip>td {
+table.dataTable>tbody>tr.IDtip>td {
     padding: 40px 8px 25px 8px;
 }
 
@@ -381,14 +422,16 @@ td span.match:hover {
 
 /*FIXED TABLE*/
 div#fixedtable_wrapper {
-    padding-bottom: 1.3lh; /* make space for footer */
+    padding-bottom: 1.3lh;
+    /* make space for footer */
 }
+
 div.dt-container div.dt-layout-row {
     margin: 0 !important;
 }
 
-table.dataTable>tbody>tr>td.LINKcol,
-table.dataTable>thead>tr>th.LINKcol {
+td.LINKcol,
+th.LINKcol {
     text-align: center !important;
     font-style: italic;
     font-weight: bold;
@@ -401,16 +444,16 @@ table.dataTable>thead>tr>th.LINKcol {
     padding-left: 0px !important;
 }
 
-table.dataTable>tbody>tr>td.LINKcol.types,
-table.dataTable>thead>tr>th.LINKcol.types {
+td.LINKcol.types,
+th.LINKcol.types {
     text-align: left !important;
 }
 
-table.dataTable>thead>tr>th.LINKcol {
+th.LINKcol {
     border-right: 1px lightgray solid;
 }
 
-table.dataTable>tbody>tr>td.LINKcol {
+td.LINKcol {
     padding-top: 25px !important;
     padding-bottom: 5px !important;
     /* padding-left: 0px !important; */
@@ -463,6 +506,10 @@ tr.child>td.child table {
     border-spacing: 2px;
 }
 
+table.detailstable {
+    width: 100%;
+}
+
 tr.child>td.child table.detailstable>tbody>tr>td {
     padding: 6px 8px;
     background-color: #ece8dc;
@@ -511,38 +558,117 @@ input.headersearch {
     font-size: 0.9rem;
 }
 
-td.plus-ctrl {
-    cursor: pointer;
-    /* background: url('../css/details_open.png') no-repeat center center content-box; */
-    background-image: url(../css/details_open.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-origin: content-box;
+input.headercheckbox {
+    /* display: inline-block;
+    width: auto;
+    margin-left: 5px; */
+    vertical-align: middle;
+    margin: 0;
 }
 
-tr.LINKshown td.plus-ctrl {
+div.header {
+    margin: 3px;
+}
+
+div.header label {
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+td button.plus-ctrl {
+    cursor: pointer;
+    /* background: url('../css/details_open.png') no-repeat center center content-box; */
+}
+
+tr.LINKshown td button.plus-ctrl {
     /* background: url('../css/details_close.png') no-repeat center center content-box; makes background color fill padding?? */
     background-image: url(../css/details_close.png);
 }
 
-td.arrow-ctrl {
-    cursor: pointer;
-    /* width: 0px; */
-    /* padding: 0px; */
-    /* background-image: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg'); */
-    background-image: url('../css/sort-arrow-down.svg');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: top;
+td.LASTcol {
+    padding: 0 !important;
+    vertical-align: top !important;
+    text-align: center !important;
 }
 
-tr.LASTshown td.arrow-ctrl {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg');
-    background-image: url('../css/sort-arrow-up.svg');
+td.SIDEPANEL {
+    vertical-align: middle !important;
+}
+
+button.plus-ctrl {
+    border: 0;
+    background-image: url(../css/details_open.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: content-box;
+    background-color: rgb(0, 0, 0, 0);
+    height: 20px;
+    width: 20px;
+}
+
+button.arrow-ctrl {
+    position: relative;
+    top: 0.3em; /* 0.3em same as copy button*/
+    width: 1.3em;
+    height: 1.3em;
+    /* padding: 0px; */
+    /* background-image: linear-gradient(to bottom, rgba(211, 211, 211, 0.5), rgba(255, 255, 255, 0.5)), url('../css/sort-arrow-down.svg'); */
+    background-image: url('../css/ARROW.svg');
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    border: 0;
+    background-color: rgb(0, 0, 0, 0);
+    /* margin: -5rem 0px !important; */
+}
+
+table.linktable td.LASTcol button.arrow-ctrl {
+    background-image: url('../css/sort-arrow-down.svg');
+}
+
+
+/* WHEN row is clicked: show border */
+tr.LASTshown>td {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5));
+    /* background-color: rgba(211, 211, 211, 0.5); */
+    border-top: 1px solid darkgoldenrod !important;
+    /* border-bottom: 1px solid darkgoldenrod !important; */
+}
+tr.LASTshown>td.LASTcol.CHILDROWS {
+    border-right: 1px solid darkgoldenrod !important;
+}
+tr.LASTshown>td.LINKcol.SIDEPANEL{
+    border-bottom: 1px solid darkgoldenrod !important;
+}
+tr.LASTshown>td.IDcol {
+    border-left: 1px solid darkgoldenrod !important;
+}
+/* next row remove top border */
+tr.LASTshown + tr>td {
+    border: 0 !important;
+}
+tr.LASTshown>td.LASTcol.CHILDROWS button {
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(211, 211, 211, 0.5)), url('../css/sort-arrow-up.svg'); */
+    /* background-image: url('../css/sort-arrow-up.svg'); */
     /* background-color:  rgba(211, 211, 211, 0.5) ; */
     background-repeat: space repeat-y;
     /* background-position-y: bottom; */
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
+
+td.LASTcol.SIDEPANEL::before {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+
+
+
 
 /* DataTables OVERRIDE */
 
@@ -603,7 +729,11 @@ div.dataTables_wrapper div.dataTables_processing {
     animation: spinner .6s linear infinite;
 }
 
-td.IDcol button {
+td.IDcol {
+    vertical-align: middle !important;
+}
+
+td.IDcol button.btn {
     position: absolute;
     top: 0.3em;
     left: 0.1em;
@@ -623,14 +753,26 @@ td.IDcol button {
     display: none;
 }
 
-tr:hover td.IDcol button {
+tr:hover td.IDcol button.btn {
     display: inline;
 }
 
-td.IDcol button:active {
-    background-color: rgba(182, 182, 182, 0.2);
-    background-size: 90%;
-    box-shadow: 1px 1px lightgray;
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+td.sidepanelID {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid darkgoldenrod;
+    margin-bottom: 0.6em;
+    /* background: linear-gradient(35deg, transparent 0%, rgba(209, 209, 209, 0.508)); */
+    /* color: darkgoldenrod */
 }
 
 /* BALLOON.CSS */
