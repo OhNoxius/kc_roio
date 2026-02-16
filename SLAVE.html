@@ -68,7 +68,7 @@
 		// with POSITIVE lookbehind!! =>
 		// const s2w_delimiter = /[;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:/g
 		// explanation: newline and ";" sign | "(" that is not followed by whitespace / "?" that is not followed by whitespace | ": " sign that is not preceded by whitespace
-		const s2w_delimiter = /([;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:)\s?/g
+		const s2w_delimiter = /([;\r\n]+|(?<=[^\s\\])\(|\?(?=\S)|(?<!\s)\:)\s?/g //breaks on Tempo | Sound??
 		// further explanation: "\s?" include OPTIONAL whitespace after delimiters
 
 		const s2w_typeheader = "type";
